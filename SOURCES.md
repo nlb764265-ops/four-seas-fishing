@@ -28,8 +28,6 @@
 
 水草未鑑定到物種，僅為遊戲雜物，不加入魚類圖鑑。可回收 1 元為遊戲補給設定，不代表真實水草有收購市場。兩種魚餌均可能釣到水草。
 
-## 地圖
-
 ## 0.3 新增海邊釣點
 
 基隆沿岸採區域水域標記（25.157° N、121.770° E），不是指定岸邊設施或垂釣許可位置。解鎖價 240 元、魚種權重、尺寸與售價為遊戲設定。只收錄有基隆地區紀錄且適合沿岸環境的三種魚，與淡水水域分開魚池。
@@ -40,6 +38,8 @@
 - [花身鯻資料](https://fishdb.sinica.edu.tw/chi/import_already_pic.php?id=222)：列明基隆為臺灣常見地區之一，並有岸邊手釣及食用利用紀錄。文字依資料重寫，未使用照片。
 
 圖鑑與漁獲箱的介面參考《風留的小屋》1.2.3v3 的條目選擇、分類與詳情框。此版只調整本遊戲，未修改參考遊戲的來源。
+
+## 地圖
 
 Natural Earth [1:50m Land](https://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-land/)。資料來源檔案：[ne_50m_land.geojson](https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_50m_land.geojson)。海岸座標四捨五入到三位小數，以 Canvas 低解析度放大成雙色像素地圖；不是手繪假造大陸輪廓。資料為[公共領域](https://www.naturalearthdata.com/about/terms-of-use/)。本版不載入 OpenStreetMap 圖磚，也不需 Leaflet 或網路地圖服務。
 

@@ -5,6 +5,24 @@ class PixelWorld{
  setZoom(z){this.zoom=Math.max(1,Math.min(80,z));this.draw()}
  world(){this.lon=0;this.lat=5;this.zoom=1;this.draw()}
  focus(id){const r=FishingData.regions.find(r=>r.id===id);this.selected=id;this.lon=r.lon;this.lat=r.lat;this.zoom=45;this.draw()}
- draw(){const c=this.canvas,x=this.ctx;const w=Math.max(1,Math.round(c.clientWidth/3)),h=Math.max(1,Math.round(c.clientHeight/3));if(!w||!h)return;c.width=w;c.height=h;x.fillStyle='#f6f4eb';x.fillRect(0,0,w,h);const scale=Math.min(w/360,h/180)*this.zoom;x.save();x.translate(w/2-this.lon*scale,h/2+this.lat*scale);x.scale(scale,scale);x.fillStyle='#315b4c';x.fill(this.path);x.restore();const pixels=x.getImageData(0,0,w,h);for(let i=0;i<pixels.data.length;i+=4){const color=pixels.data[i]<145?[49,91,76]:[246,244,235];pixels.data[i]=color[0];pixels.data[i+1]=color[1];pixels.data[i+2]=color[2];pixels.data[i+3]=255}x.putImageData(pixels,0,0);for(const r of FishingData.regions){const px=Math.round(w/2+(r.lon-this.lon)*scale),py=Math.round(h/2+(this.lat-r.lat)*scale);if(px<0||px>w||py<0||py>h)continue;x.fillStyle='#f6f4eb';x.fillRect(px-3,py-3,7,7);x.fillStyle='#315b4c';x.fillRect(px-2,py-2,5,5);if(r.id===this.selected){x.fillStyle='#f6f4eb';x.fillRect(px,py,1,1)}if(this.zoom>=15&&c.clientWidth>500){x.font='4px monospace';const tw=x.measureText(r.name).width;x.fillStyle='#f6f4eb';x.fillRect(px+5,py-4,tw+3,7);x.fillStyle='#315b4c';x.fillText(r.name,px+6,py+1)}}document.getElementById('mapScale').textContent=`×${this.zoom.toFixed(this.zoom<10?1:0)}`}
 }
+// Land remains pixelated; location pins use screen-sized labels at every zoom.
+PixelWorld.prototype.draw=function(){
+ const c=this.canvas,x=this.ctx;if(c.clientWidth<1||c.clientHeight<1)return;
+ const w=Math.max(1,Math.round(c.clientWidth/3)),h=Math.max(1,Math.round(c.clientHeight/3));c.width=w;c.height=h;x.fillStyle='#f6f4eb';x.fillRect(0,0,w,h);
+ const scale=Math.min(w/360,h/180)*this.zoom;x.save();x.translate(w/2-this.lon*scale,h/2+this.lat*scale);x.scale(scale,scale);x.fillStyle='#315b4c';x.fill(this.path);x.restore();
+ const pixels=x.getImageData(0,0,w,h);for(let i=0;i<pixels.data.length;i+=4){const a=pixels.data[i]<145?[49,91,76]:[246,244,235];pixels.data[i]=a[0];pixels.data[i+1]=a[1];pixels.data[i+2]=a[2];pixels.data[i+3]=255}x.putImageData(pixels,0,0);
+ if(!this.markerLayer){this.markerLayer=document.createElement('span');this.markerLayer.className='map-markers';c.parentElement.append(this.markerLayer)}this.markerLayer.replaceChildren();
+ const width=c.clientWidth,height=c.clientHeight,screenScale=Math.min(width/360,height/180)*this.zoom,mini=c.id==='miniMap';
+ const pos=r=>({x:width/2+(r.lon-this.lon)*screenScale,y:height/2+(this.lat-r.lat)*screenScale});const current=FishingData.regions.find(r=>r.id===(this.current||'sunmoon')),here=pos(current);
+ if(!mini)for(const r of FishingData.regions.filter(r=>r.id!==current.id)){
+  const p=pos(r);if(p.x<12||p.x>width-12||p.y<12||p.y>height-12||Math.hypot(p.x-here.x,p.y-here.y)<35)continue;
+  const b=document.createElement('button');b.className='map-other-marker'+(r.id===this.selected?' selected':'');b.style.left=p.x+'px';b.style.top=p.y+'px';b.setAttribute('aria-label','查看釣點：'+r.name);b.innerHTML='<span></span><small>'+r.name+'</small>';b.onclick=()=>this.onSelect(r.id);this.markerLayer.append(b);
+ }
+ if(here.x>=0&&here.x<=width&&here.y>=0&&here.y<=height){
+  const pin=document.createElement(mini?'span':'button');pin.className='map-current-pin'+(mini?' mini-pin':'')+(here.x<110?' near-left':here.x>width-110?' near-right':'');pin.style.left=here.x+'px';pin.style.top=here.y+'px';pin.setAttribute('aria-label','目前位置：'+current.name);
+  pin.innerHTML='<span class="map-pin-label">目前位置 · '+current.name+'</span><svg viewBox="0 0 28 36" aria-hidden="true"><path d="M14 34C11 29 2 20 2 14a12 12 0 1 1 24 0c0 6-9 15-12 20Z"/><circle cx="14" cy="14" r="4"/></svg>';if(!mini)pin.onclick=()=>this.onSelect(current.id);this.markerLayer.append(pin);
+ }
+ if(!mini)document.getElementById('mapScale').textContent='×'+this.zoom.toFixed(this.zoom<10?1:0);
+};
 
