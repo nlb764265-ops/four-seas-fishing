@@ -1,4 +1,4 @@
-# 四海釣遊記 0.6：資料來源
+# 四海釣遊記 0.7：資料來源
 
 查閱日期：2026-10-21。魚類文字為依資料重寫的簡介，沒有使用來源照片或大段原文。魚類資料不等於遊戲機率、價格與現實賞金政策。
 
@@ -80,3 +80,59 @@ Natural Earth [1:50m Land](https://www.naturalearthdata.com/downloads/50m-physic
 - 關渡（淡水河口）：依[關渡自然公園・關渡的魚類](https://gd-park.org.tw/sites/gd-park.org.tw/files/att/關渡的魚類_1.pdf)（2017 年版，共 55 種）。新增大眼海鰱、大海鰱、日本鰻鱺、尼羅口孵非鯽、銀紋笛鯛、金錢魚、銀鱗鯧、臺灣棘鯛、彈塗魚、前鱗龜鮻、蟾鬍鯰、黃鱔、七星鱧與高身鯽，並沿用名錄中已收錄的魚種。蟾鬍鯰（泰國土虱）依名錄列為外來入侵種並設為賞金魚。名錄中觀賞小魚與鰕虎等未全部收錄。銀紋笛鯛、前鱗龜鮻與彈塗魚的形態與棲所依海大魚類數典重寫。
 - 龍洞岩岸（東北角）：依國立臺灣海洋大學[海大魚類數典・台灣東北角常見魚類](https://digifish.biodiv.tw/northeast.php)。新增藍點石斑魚、玳瑁石斑、黑帶棘鰭魚、異黑鯛、雙帶烏尾冬、白頸赤尾冬、印度海緋鯉、藍豬齒魚、背帶鷹斑鯛與雲斑海豬魚。名錄中的六角石斑主要產於臺灣南部海域，本版未放入龍洞。蝴蝶魚、雀鯛等以觀賞為主的小型礁魚未收錄。
 - 地圖標記為水域概略位置：關渡 25.118° N、121.462° E；龍洞 25.115° N、121.918° E，不代表實地垂釣許可位置。
+
+## 0.7 時段、天氣與釣魚紀錄
+
+查閱日期：2026-10-21。時段長度、天氣機率、出現倍率與紀錄中的心境描寫都是遊戲設定；以下來源只支持各魚種的晝夜或季節行為，以及紀錄中的當地小知識。
+
+**魚種出沒條件**
+
+- 日本鰻鱺（夜晚限定）：[Movement Patterns and Diel Activity of Anguilla japonica（Animals, 2020）](https://pmc.ncbi.nlm.nih.gov/articles/PMC7766186)，河川遙測確認以夜間活動為主。
+- 鯰魚（夜晚限定）：[U.S. Fish & Wildlife Service・Amur Catfish 生態風險篩檢摘要](https://fws.gov/sites/default/files/documents/Ecological-Risk-Screening-Summary-Amur-Catfish.pdf)，白天藏身，夜間覓食。
+- 黑帶棘鰭魚（夜晚限定）：[臺灣魚類資料庫・黑帶棘鰭魚](https://catalog.digitalarchives.tw/item/00/42/67/b8.html)，白天躲在礁洞，晚上出洞覓食；[海大魚類數典](https://digifish.biodiv.tw/northeast_detail.php?id=42)亦載白天藏於岩洞與裂縫。
+- 黃鱔（夜晚較常見）：[IUCN 全球入侵種資料庫・Monopterus albus](https://www.iucngisd.org/gisd/species.php?sc=446)，夜行性掠食者。
+- 黑星笛鯛（夜晚較常見）：[海大魚類數典](https://digifish.biodiv.tw/northeast_detail.php?id=106)，夜間覓食。
+- 蟾鬍鯰（雨天較常見）：[USGS 外來水生物種資料・Clarias batrachus](https://nas.er.usgs.gov/queries/FactSheet.aspx?speciesID=486)，多在雨夜越過陸地遷移。
+- 藍豬齒魚（夜晚不出現）：[海大魚類數典](https://digifish.biodiv.tw/northeast_detail.php?id=56)，白天覓食，夜晚藏身岩穴。
+- 雙帶烏尾冬（夜晚不出現）：[海大魚類數典](https://digifish.biodiv.tw/northeast_detail.php?id=74)，日行性，夜間在礁體間休息。
+- 烏魚（11～1 月較常見）：[農業部《農政與農情》・臺灣烏金（2014）](https://www.moa.gov.tw/ws.php?id=2502215)，野生烏魚 11 月至翌年 1 月下旬南下洄游，冬至前後為旺季。
+- 審閱稿原列的石狗公、雲斑海豬魚、白頸赤尾冬、總統魚與魚虎的晨昏活動、奇力魚、彈塗魚、泥鰍等條件，查無可靠來源，本版未採用。
+
+**天氣機率**
+
+- 基隆冬季雨天比例較高：[Newtalk・基隆氣象站百年雨日統計（2026-04-16）](https://newtalk.tw/news/view/2026-04-16/1030152)，基隆每年仍有近 200 個雨日、年雨量氣候平均 3,698 毫米；[Newtalk・中央氣象署預報（2025-12-12）](https://newtalk.tw/news/view/2025-12-12/1009280)，東北季風影響時迎風面水氣增多。
+
+**紀錄小知識**
+
+- 日月潭：[Wikipedia・Lalu Island](https://en.wikipedia.org/wiki/Lalu_Island)（邵族祖靈地、歷代名稱、不開放登島）；[公視・外來種侵襲日月潭原生魚](https://news.pts.org.tw/article/483343)（外來魚吃原生魚卵與幼魚、漁會與清大箱網復育奇力魚）；[Taipei Times（2026-08-23）](https://www.taipeitimes.com/News/taiwan/archives/2026/08/23/2003862985)（縣府持續移除魚虎）。
+- 曾文水庫：[水利署南區水資源分署・曾文水庫介紹](https://www.wra.gov.tw/wrasb/cp.aspx?n=31397)（民國 56 年動工、62 年完工、灌溉與發電供水防洪）；[中央社（2023-10-31）](https://www.cna.com.tw/news/ahel/202310310283.aspx)（全臺蓄水量最大）；[中央社（2018-09-05）](https://www.cna.com.tw/news/aloc/201809050247.aspx)（滿水位由 227 公尺調升至 230 公尺）。
+- 關渡：[公視・關渡紅樹林疏伐（2024-09-05）](https://news.pts.org.tw/article/712633)，引用臺北市水利處報告：1964 年前後炸開關渡隘口、灘地鹽化、保留區紅樹林由 3.5 公頃增至 41.8 公頃、水筆仔平均樹高 5～6 公尺及疏伐規劃。
+- 基隆：同上氣象來源；黑鯛為市魚見 0.3 所列[基隆市政府・基隆簡介](https://www.klcg.gov.tw/tw/klcg1/3174.html)；烏魚洄游見上方農業部資料。
+- 龍洞：[國立自然科學博物館・東北角海岸地質](https://libknowledge.nmns.edu.tw/nmns/lib/PDF/101/299/7.pdf)（東北角出露約三千多萬年前的沉積岩；澳底、龍洞、鼻頭角等海灣受地形掩蔽，較不受東北季風吹襲）；黑帶棘鰭魚與雙帶烏尾冬的習性見上方魚種來源。
+- 紀錄中的景色描寫（關渡大橋、觀音山、鼻頭角、遊湖船、攀岩者等）為一般地景敘述；心境描寫為遊戲創作。
+
+## 0.7 新增釣點：七股潟湖、澎湖內海
+
+查閱日期：2026-10-21。魚池權重、重量、價格與解鎖條件為遊戲設定；分布紀錄不代表現行數量或釣獲率。地圖標記為水域概略位置（七股潟湖 23.12° N、120.08° E；澎湖內海 23.56° N、119.58° E），不代表實地垂釣許可位置。
+
+**七股潟湖**
+
+- [台江國家公園・鯨豚及魚類](https://www.tjnp.gov.tw/ch/sglarticle/cetaceans-and-fish)（113 年 8 月）：七股潟湖與周邊的優勢種包含鯔（烏魚）、大鱗鮻、綠背鮻、日本海鰶、四帶牙鯻、褐臭肚魚；園區共記錄 798 種魚，鯔科最普遍，台江擬鰕虎為 102 年發表的新種。
+- [GBIF 出現紀錄](https://www.gbif.org/occurrence/search)（以七股潟湖周邊範圍查詢）：上述六種各有 14～273 筆紀錄。
+- [台灣英文新聞引述台江國家公園](https://www.taiwannews.com.tw/zh/news/4640930)：七股潟湖為臺灣最大潟湖、沙洲阻隔外部海浪、潮口仍受潮汐影響、養蚵與定置網景觀。
+- [中央社（2025-02-05）](https://www.cna.com.tw/news/ahel/202502050240.aspx)：黑面琵鷺在臺南度冬。
+- 大鱗鮻：[臺灣數位典藏・大鱗鮻](https://catalog.digitalarchives.tw/item/00/03/4c/31.html)（形態、河口棲所、食性、分布、俗名）。
+- 綠背鮻：[教育雲轉載臺灣魚類資料庫・綠背龜鮻](https://market.cloud.edu.tw/resources/web/1757200)（形態、棲所、食性、分布；舊稱粗鱗鮻為同種異名）。遊戲名稱依台江國家公園用字「綠背鮻」。
+- 日本海鰶：[臺灣魚類資料庫](https://fishdb.sinica.edu.tw/eng/species.php?id=380960)（分布、棲地、俗名、食用與有毒註記，經搜尋摘要取得）；[FishBase](https://www.fishbase.se/summary/1615)（體較纖細、腹部稜鱗、下頜外展）；[FAO 鯡科檢索](https://www.fao.org/docrep/pdf/009/ac482e/ac482e32.pdf)（海鰶屬背鰭絲狀延長）；[臺大碩士論文](https://tdr.lib.ntu.edu.tw/handle/123456789/29429)（大肚溪口優勢種、產卵期 2～4 月）。食性待查。
+
+**澎湖內海**
+
+- [澎湖海洋生物研究中心・澎湖海草床魚類群聚組成及季節性變化](https://kmweb.moa.gov.tw/subject/subject.php?id=61718)：大倉灣海草床 2011–2012 年調查 33 科 74 種，褐臭肚魚 36.4%、青嘴龍占 12.1% 為優勢種。
+- [GBIF 出現紀錄](https://www.gbif.org/occurrence/search)（以澎湖內海範圍查詢）：黑鯛 1 筆（白沙鳥嶼潮間帶，iNaturalist 2026）、嘉鱲 2 筆（iNaturalist 2024）、黃錫鯛 4 筆（含 1946–1993 年澎湖標本）、點帶石斑 5 筆（含 2006 年標本）、青嘴龍占 23 筆、褐臭肚魚 10 筆。
+- 原計劃的黃鰭鯛與銀紋笛鯛在內海範圍查無紀錄，本版未收入澎湖，改以大倉灣調查的優勢種褐臭肚魚與青嘴龍占替代。
+- 嘉鱲：[TaiBIF・Pagrus major](https://knowledge.taibif.tw/node/844)（中文名、俗名）；[Wikipedia・Red seabream](https://en.wikipedia.org/wiki/Pagrus_major)（形態、體色、分布、食性）；[本田釣魚圖鑑・マダイ](https://www.honda.co.jp/fishing/picture-book/madai/index.html)（成魚水深 30～200 公尺、幼魚在淺水藻場與岩礁、食性）；[臺北市海洋教育資料](https://tpomec.tp.edu.tw/archive/file/MDPoh7rngaPljYHlpKflkI3prZoo576F5Lul6Z2WKQ==5zl7cbtok.pdf)（「五鮸六嘉鱲」俗諺）。
+- 黃錫鯛：[臺灣魚類資料庫](https://fishdb.sinica.edu.tw/eng/species.php?id=382643)（俗名含澎湖「邦頭」、棲地、臺灣含澎湖分布，經搜尋摘要取得）；[FishBase](https://www.fishbase.se/summary/Rhabdosargus-sarba.html)（體色銀黑、無金色縱線）；[納塔爾河口食性研究](https://www.nisc.co.za/products/abstracts/24175/the-diet-food-selectivity-and-niche-of-rhabdosargus-sarba-teleostei-sparidae-in-natal-estuaries)；[工商時報（2025-01-02）](https://www.ctee.com.tw/news/20250102701715-431401)（澎湖放流、191 尾樣本最高約三成來自放流）。
+- 點帶石斑：[農業部知識庫・點帶石斑](https://kmweb.moa.gov.tw/subject/subject.php?id=21773)（形態、棲所、食性、性轉變、分布、養殖）。
+- 青嘴龍占：[教育雲轉載臺灣魚類資料庫・青嘴龍占魚](https://market.cloud.edu.tw/resources/web/1757108)（形態、棲所、食性、臺灣與澎湖分布、澎湖俗名）。
+- 小知識：[工商時報（2025-11-12）](https://www.ctee.com.tw/news/20251112701415-431401)（澎湖東北季風強風）；[澎湖縣國土計畫](https://www.nlma.gov.tw/uploads/files/738531f642774aa314a1bc3d9564badd.pdf)（吉貝石滬群、七美雙心石滬為文化景觀）；大倉灣調查與放流資料見上。
+

@@ -145,3 +145,8 @@ footer{font-size:12px}
 .slot-row strong{display:block;font-size:16px}.slot-row small{display:block;font-size:14px;color:var(--muted);line-height:1.6}
 .slot-row button{flex-shrink:0;min-width:72px}
 @media(max-width:650px){#saveSlots{padding:16px}.slot-row{padding:10px 12px}}
+
+/* 0.7 weather and day-night */
+.env-now{margin:2px 0 0;font-size:14px;color:var(--muted)}.env-chip b{margin-right:6px}.log.env{color:var(--muted);font-style:italic}.log.env:first-child{color:var(--muted);font-weight:400}
+/* 0.7 atlas chips stack name above waters so narrow columns never squeeze the name to one character per line */
+.atlas-chip{flex-direction:column;align-items:flex-start;justify-content:center;gap:2px}.atlas-chip>span{overflow-wrap:normal;word-break:keep-all}.atlas-chip>small{white-space:normal;line-height:1.5}
