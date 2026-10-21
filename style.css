@@ -106,3 +106,42 @@ header{flex-wrap:wrap;gap:12px 20px;margin-bottom:24px;padding-bottom:18px;borde
 @keyframes water{to{background-position:28px 0}}
 @media(prefers-reduced-motion:reduce){.track:before{animation:none}}
 .clue-hint{font-family:Georgia,"PMingLiU",serif;font-size:15px;color:var(--green);background:var(--soft);padding:12px 14px;border-radius:8px}
+/* 0.6 readability: raise all small body text; page titles and headings keep their sizes. */
+body{font-size:16px}
+.tag{font-size:13px;letter-spacing:.5px}
+.muted,.meter-note,.goal p,.section-title span,.aside-bottom,.aside-bottom .text-btn,.source-link{font-size:14px}
+.meta{font-size:14px}
+h2 small,.detail-head h2 small,.entry h3 small,.row h3 small{font-size:14px}
+.log{font-size:15px}.log time{font-size:13px}
+.chip{font-size:14px}.chip b{font-size:13px}
+.stat-tiles span{font-size:13px}
+.wallet span{font-size:13px}.wallet p{font-size:15px}.wallet small{font-size:13px}
+nav button{font-size:15px}nav button i{font-size:12px}nav small{font-size:13px}
+.mini-map-title{font-size:13px}.mini-map-title strong{font-size:14px}.mini-map-title>span{font-size:12px}
+.card p,.row p,.location p,.intro,.detail-description,.fish-description dd,.entry p{font-size:15px}
+.mini-dl dt,.detail-stats span,.fish-description dt,.entry dt,.collection-summary span{font-size:13px}
+.mini-dl dd,.detail-stats strong{font-size:15px}
+.collection-summary strong{font-size:20px}
+.item-chip{font-size:15px}.item-chip small{font-size:12px}.item-chip b{font-size:14px}
+.picker-group{font-size:14px}.picker-group small{font-size:13px}
+.collection-tabs button,.region-list button{font-size:14px}.region-list small{font-size:13px}
+.bait-line{font-size:15px}
+button,.goal button,.detail-actions button,.collection-bulk button,.location-action button,.current-water>button{font-size:15px}
+.goal-head span{font-size:15px}
+.help-copy p{font-size:16px}
+.note{font-size:15px}
+#toast{font-size:15px}
+.bobber small{font-size:13px}
+.map-other-marker small,.map-pin-label{font-size:13px}
+.map-caption{font-size:12px}
+footer{font-size:12px}
+@media(max-width:650px){.tag{font-size:12px}.chip{font-size:13px}.stat-tiles span{font-size:12px}.item-chip{font-size:14px}.item-chip small{font-size:11px}.log{font-size:14px}.collection-summary strong{font-size:17px}}
+/* 0.6 save slots */
+.save-panel{margin-bottom:18px;max-width:780px}.save-panel h2{font-size:22px;margin:0}.save-panel .actions{margin-top:4px}
+.help-title{margin-top:34px}
+#saveSlots{width:min(680px,calc(100vw - 24px));max-height:90dvh;padding:22px;border:1px solid var(--line);border-radius:12px;background:var(--paper);color:var(--ink);overflow:auto}#saveSlots::backdrop{background:#1b302b80}
+.slot-list{display:grid;gap:8px;margin-top:12px}
+.slot-row{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+.slot-row strong{display:block;font-size:16px}.slot-row small{display:block;font-size:14px;color:var(--muted);line-height:1.6}
+.slot-row button{flex-shrink:0;min-width:72px}
+@media(max-width:650px){#saveSlots{padding:16px}.slot-row{padding:10px 12px}}
