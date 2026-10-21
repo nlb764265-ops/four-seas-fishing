@@ -1,0 +1,55 @@
+{
+  "version": 2,
+  "money": 1234,
+  "rod": 2,
+  "box": 1,
+  "items": [
+    {
+      "type": "fish",
+      "fish": "snakehead",
+      "kg": 1,
+      "value": 17,
+      "region": "zengwen"
+    }
+  ],
+  "book": {
+    "snakehead": {
+      "count": 2,
+      "best": 1
+    }
+  },
+  "total": 2,
+  "casts": 0,
+  "weeds": 0,
+  "bountyTotal": 0,
+  "bountyCount": 0,
+  "bait": {
+    "dough": 19,
+    "meat": 0
+  },
+  "selectedBait": "dough",
+  "region": "zengwen",
+  "unlocked": [
+    "sunmoon",
+    "zengwen"
+  ],
+  "active": true,
+  "castAt": 0,
+  "castMs": 6200,
+  "castRod": 2,
+  "castBait": "dough",
+  "castEffect": null,
+  "buff": null,
+  "logs": [
+    {
+      "text": "開始釣魚：曾文水庫，使用綜合餌。清晨・陰・冬季。沒有太陽，倒是坐得比較舒服。",
+      "at": 0
+    },
+    {
+      "at": 0,
+      "text": "開始遊戲。獲得 80 元旅費與 20 份綜合餌。"
+    }
+  ],
+  "savedAt": 0,
+  "seed": 66039519
+}
