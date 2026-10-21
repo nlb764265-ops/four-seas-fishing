@@ -1,4 +1,4 @@
-# 四海釣遊記 0.3：資料來源
+# 四海釣遊記 0.4：資料來源
 
 查閱日期：2026-10-21。魚類文字為依資料重寫的簡介，沒有使用來源照片或大段原文。魚類資料不等於遊戲機率、價格與現實賞金政策。
 
@@ -43,3 +43,22 @@
 
 Natural Earth [1:50m Land](https://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-land/)。資料來源檔案：[ne_50m_land.geojson](https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_50m_land.geojson)。海岸座標四捨五入到三位小數，以 Canvas 低解析度放大成雙色像素地圖；不是手繪假造大陸輪廓。資料為[公共領域](https://www.naturalearthdata.com/about/terms-of-use/)。本版不載入 OpenStreetMap 圖磚，也不需 Leaflet 或網路地圖服務。
 
+
+## 0.4 擴充紀錄
+
+本版收錄日月潭 11 種、曾文水庫 13 種、基隆沿岸 6 種，跨水域重複合併為 21 種。不是完整名錄，權重不是實際豐度。不同年代的調查紀錄僅用於確認水域曾有分布。
+
+日月潭新增大頭鰱、青魚與鯁魚，依管理處自然生態調查。曾文水庫新增大頭鰱、青魚、鯁魚、筍殼魚、武昌魚、泰國鱧、紅鰭鮊，並補入既有圖鑑中在當地有紀錄的魚種，依下列資料交叉確認：
+
+- [水利署・曾文水庫水域生態](https://web.wra.gov.tw/swreeis/cp.aspx?n=8143)：24 種魚類調查，以及泰國鱧、紅鰭鮊等紀錄。
+- [水利署電子報](https://www.wra.gov.tw/epaper/Article_Detail.aspx?n=30173&s=8940)：大頭鰱、筍殼魚、武昌魚等紀錄。
+- [觀光署・曾文水庫相關計畫](https://admin.taiwan.net.tw/fapi/AttFile?id=12698&type=AttFile)：青魚、鯁魚等魚種調查。
+
+基隆新增瓜子鱲、褐臭肚魚與烏魚，依基隆採集或觀察紀錄及沿岸棲地資料：
+
+- [瓜子鱲・基隆標本](https://fishdb.sinica.edu.tw/muse/digi_object/8f0662a6f36dc063b547b539da59438b)。
+- [臺灣生物多樣性網絡・褐臭肚魚觀察紀錄](https://www.tbn.org.tw/data/query?ft=taxonbioidplus%3A1442932%2Bdatatype%3Aoccurrence&page=0&row=0&rowsperpage=15&view=list)：含 2007 年基隆中正區紀錄。
+- [中研院・褐臭肚魚](https://lsl.sinica.edu.tw/Blog/2024/07/17-3/)：棲地、食性與具毒的硬棘。
+- [臺大研究典藏・烏魚研究](https://tdr.lib.ntu.edu.tw/handle/123456789/29136?mode=full)：含基隆樣本；[東北角魚類資料・烏魚](https://digifish.biodiv.tw/northeast_detail.php?id=93)。
+
+新增魚類的圖鑑簡介與利用資訊另依各條目的來源連結，均未使用來源照片。引入魚種不自動列為本遊戲的賞金對象。
