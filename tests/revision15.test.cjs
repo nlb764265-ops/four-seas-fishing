@@ -7,18 +7,18 @@ test('all 56 meals have concrete preparation descriptions, independent of effect
  assert.equal(E.dish('dine-greifswald-bismarck').method,'pickle');assert.equal(E.recipe('westlake').method,'steam');assert.equal(E.recipe('westlake').effect,'size');assert.equal(E.recipe('taimeshi').preparation,'先烤魚再與米同炊');
 });
 test('combined progress includes each discovered fish and plant once, even after sale',()=>{
- const s=E.initial(0);assert.deepEqual(E.collectionProgress(s),{caught:0,total:174,fish:{caught:0,total:144},plants:{caught:0,total:30}});
+ const s=E.initial(0);assert.deepEqual(E.collectionProgress(s),{caught:0,total:177,fish:{caught:0,total:147},plants:{caught:0,total:30}});
  s.book.carp={count:12,best:1};s.plants.hyacinth=8;assert.equal(E.collectionProgress(s).caught,2);assert.equal(s.items.length,0);
  s.book.unknown={count:1};s.plants.unknown=1;assert.equal(E.collectionProgress(s).caught,2);
- for(const f of D.fish)s.book[f.id]={count:1,best:f.min};for(const p of D.plants)s.plants[p.id]=1;assert.equal(E.collectionProgress(s).caught,174);
+ for(const f of D.fish)s.book[f.id]={count:1,best:f.min};for(const p of D.plants)s.plants[p.id]=1;assert.equal(E.collectionProgress(s).caught,177);
 });
 test('0.14 saves retain plant collection and active meal when loaded in 0.15',()=>{
  const s=E.initial(1000);s.book.carp={count:1,best:1};s.total=1;s.plants.hyacinth=2;s.weeds=2;s.buff={id:'dine-kenting-sashimi',left:20,since:1000};const t=E.migrate(JSON.parse(JSON.stringify(s)),1000);assert(t);assert.equal(E.collectionProgress(t).caught,2);assert.deepEqual(t.buff,s.buff);assert.equal(t.money,s.money);
 });
-test('seventeen pixel sheets have 248 unique slots and never draw an undiscovered species',()=>{
+test('eighteen pixel sheets have 251 unique slots and never draw an undiscovered species',()=>{
  const source=fs.readFileSync(path.join(__dirname,'../collections.js'),'utf8');
  const scope={document:{addEventListener(){}},E,state:E.initial(0)};vm.createContext(scope);vm.runInContext(source,scope);
- const slots=vm.runInContext('pixelSlots',scope);assert.equal(Object.values(slots).flatMap(Object.values).length,248);assert.equal(new Set(Object.values(slots).flatMap(Object.values)).size,248);
+ const slots=vm.runInContext('pixelSlots',scope);assert.equal(Object.values(slots).flatMap(Object.values).length,251);assert.equal(new Set(Object.values(slots).flatMap(Object.values)).size,251);
  for(const f of D.fish)assert.notEqual(slots.fish[f.id],undefined,f.id);
  for(const p of D.plants)assert.notEqual(slots.plant[p.id],undefined,p.id);
  for(const d of [...D.recipes,...D.dishes])assert.notEqual(slots.meal[d.id],undefined,d.id);
@@ -27,7 +27,7 @@ test('seventeen pixel sheets have 248 unique slots and never draw an undiscovere
  assert(vm.runInContext("pixelArt('fish','jaguar',true)",scope).includes('--art-position:'));
  for(const [kind,entries]of Object.entries(slots))for(const id of Object.keys(entries)){assert.equal(vm.runInContext(`pixelArt('${kind}','${id}',false)`,scope),'');assert.match(vm.runInContext(`pixelArt('${kind}','${id}',true)`,scope),/pixel-art/)}
  assert.equal(vm.runInContext("pixelArt('fish','unknown-id',true)",scope),'');
- for(let i=1;i<=17;i++){const png=fs.readFileSync(path.join(__dirname,'../assets/pixel-atlas-'+String(i).padStart(2,'0')+'-clear.png'));assert.equal(png.subarray(1,4).toString(),'PNG');assert.equal(png.readUInt32BE(16),png.readUInt32BE(20));assert.equal(png[25],6,'RGBA required')}
+ for(let i=1;i<=18;i++){const png=fs.readFileSync(path.join(__dirname,'../assets/pixel-atlas-'+String(i).padStart(2,'0')+'-clear.png'));assert.equal(png.subarray(1,4).toString(),'PNG');assert.equal(png.readUInt32BE(16),png.readUInt32BE(20));assert.equal(png[25],6,'RGBA required')}
  for(const [kind,entries]of Object.entries(slots))for(const [id,slot]of Object.entries(entries))assert(vm.runInContext(`pixelArt('${kind}','${id}',true)`,scope).includes('pixel-sheet-'+(Math.floor(slot/16)+1)));
 });
 

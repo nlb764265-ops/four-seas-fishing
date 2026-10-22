@@ -265,6 +265,75 @@ const additionsC={keelung:{neglectascorpion:4,blackeyewrasse:3,yellowfinsurgeon:
 for(const r of regions){const extra=additionsC[r.id];if(!extra)continue;const budget=100-Object.values(extra).reduce((a,b)=>a+b,0),entries=Object.entries(r.pool),total=entries.reduce((a,[,w])=>a+w,0),scaled=entries.map(([id,w],index)=>({id,index,exact:w/total*budget,value:Math.floor(w/total*budget)}));let remainder=budget-scaled.reduce((a,x)=>a+x.value,0);for(const x of [...scaled].sort((a,b)=>(b.exact-b.value)-(a.exact-a.value)||a.index-b.index)){if(remainder--<=0)break;x.value++}r.pool=Object.fromEntries(scaled.map(x=>[x.id,x.value]));Object.assign(r.pool,extra)}
 addDistribution(['flagtail'],'東北角沿岸有紀錄。');
 
+// 0.18: Japanese lake additions. Sources and game values: SOURCES.md, 日本湖泊補魚實裝記錄.md.
+fish.push(...[
+  {
+    "id": "hasu",
+    "name": "真馬口鱲",
+    "other": "",
+    "latin": "Opsariichthys uncirostris",
+    "min": 0.08,
+    "max": 0.65,
+    "price": 17,
+    "bounty": 0,
+    "kind": "日本湖泊魚種",
+    "water": "fresh",
+    "edible": true,
+    "form": "身體細長、銀白，背部灰綠；口大，口裂從側面看有明顯的彎折，像倒寫的「へ」字。",
+    "habitat": "生活在湖泊與相連的河川，會追逐水中成群的小魚。",
+    "diet": "肉食性，以小魚為主。琵琶湖中的小香魚是牠的獵物之一。",
+    "distribution": "日本琵琶湖、淀川水系與福井縣三方湖原有分布；也隨魚苗放流移入其他水域，霞浦湖已有紀錄。",
+    "food": "日本有鹽烤及加工食用的紀錄。",
+    "hint": "嘴角有明顯彎折，會追逐小魚的銀色湖魚。",
+    "source": "https://www.knsk-osaka.jp/zukan/zukan_database/tansui/6550b2c290c751e/3350b5a40d3ba16.html"
+  },
+  {
+    "id": "isaza",
+    "name": "疣舌裸身鰕虎",
+    "other": "疣舌裸頭鰕虎魚",
+    "latin": "Gymnogobius isaza",
+    "min": 0.003,
+    "max": 0.012,
+    "price": 16,
+    "bounty": 0,
+    "kind": "琵琶湖特有種",
+    "water": "fresh",
+    "edible": true,
+    "form": "小型鰕虎，頭與眼睛較大，體色淡褐，尾柄細長；背上有兩枚分開的背鰭。",
+    "habitat": "平時生活在琵琶湖北湖沖合，春天到岸邊的石礫區產卵，雄魚會守護石下的卵。",
+    "diet": "以動物性浮游生物與小型水生動物為食。",
+    "distribution": "琵琶湖的特有鰕虎。國立環境研究所收錄多份琵琶湖標本，族群資源需要持續關注。",
+    "food": "當地稱「イサザ」，可與大豆同煮，也用於佃煮或鍋物。",
+    "hint": "尾柄細長的小鰕虎，春天會到北湖石岸產卵。",
+    "source": "https://www.nies.go.jp/biwako_specimens/contents/species.php?spid=8"
+  },
+  {
+    "id": "gigi",
+    "name": "叉尾瘋鱨",
+    "other": "",
+    "latin": "Tachysurus nudiceps",
+    "min": 0.04,
+    "max": 0.35,
+    "price": 15,
+    "bounty": 0,
+    "kind": "日本湖泊魚種",
+    "water": "fresh",
+    "edible": true,
+    "form": "身體無鱗，呈灰褐色，口邊有四對鬚；背鰭後方有脂鰭，尾鰭深叉，與一般鯰魚不同。",
+    "habitat": "棲息在湖泊與河川的砂礫底、石縫及岸邊植物根部，夜間較活躍。",
+    "diet": "捕食小魚、甲殼類等水生動物。",
+    "distribution": "日本本州、四國與九州部分水系的淡水魚；琵琶湖北湖及周邊水域有標本紀錄。部分地區族群減少。",
+    "food": "有食用紀錄；背鰭與胸鰭有尖棘，處理時須留意。",
+    "hint": "長著四對鬚，背上有脂鰭、尾巴深叉的灰褐色底棲魚。",
+    "source": "https://jmapps.ne.jp/ikimono/det.html?data_id=7963"
+  }
+]);
+const additions18={"biwa":{"hasu":8,"isaza":6,"gigi":4,"topmouth":7,"loach":5,"amurcatfish":3,"eel":3,"bluegill":4},"kasumigaura":{"hasu":8,"topmouth":8,"whitecrucian":7,"loach":6,"eel":3,"amurcatfish":3,"rosybitterling":4,"swampeel":3}};
+for(const [rid,extra] of Object.entries(additions18)){const r=regions.find(r=>r.id===rid),budget=100-Object.values(extra).reduce((a,b)=>a+b,0),entries=Object.entries(r.pool),total=entries.reduce((n,[,w])=>n+w,0),scaled=entries.map(([id,w],i)=>({id,i,exact:w/total*budget,w:Math.floor(w/total*budget)}));let left=budget-scaled.reduce((n,x)=>n+x.w,0);for(const x of [...scaled].sort((a,b)=>(b.exact-b.w)-(a.exact-a.w)||a.i-b.i)){if(left--<=0)break;x.w++}r.pool={...Object.fromEntries(scaled.map(x=>[x.id,x.w])),...extra}}
+addDistribution(['topmouth','loach','amurcatfish','eel','bluegill'],'琵琶湖亦有紀錄。');
+addDistribution(['topmouth','whitecrucian','loach','eel','amurcatfish','rosybitterling','swampeel'],'霞浦湖亦有紀錄。');
+Object.assign(conditions,{gigi:{phase:{night:2},note:'夜晚較常見'}});
+
 // 0.13 local names, shown only in the atlas: Taiwanese and Hakka (Sixian) from the MOE dictionaries for fish of Taiwan waters,
 // Cantonese for Hong Kong waters, German for the German waters. Only exact dictionary or source matches; see SOURCES.md.
 const localNames={
@@ -300,6 +369,8 @@ garfish:[['德語','Hornhecht']]
 // 0.16 local names: Japanese for the Japanese waters, German for the new German-water fish.
 Object.assign(localNames,{ayu:[['日語','アユ、コアユ']],honmoroko:[['日語','ホンモロコ']],nigorobuna:[['日語','ニゴロブナ']],biwamasu:[['日語','ビワマス、アメノウオ']],wakasagi:[['日語','ワカサギ']],icefish:[['日語','シラウオ']],channelcat:[['日語','チャネルキャットフィッシュ、アメリカナマズ']],bluegill:[['日語','ブルーギル']],whitecrucian:[['日語','ゲンゴロウブナ']],silver:[...(localNames.silver||[]),['日語','ハクレン']],carp:[...(localNames.carp||[]),['日語','コイ']],alpinechar:[['德語','Seesaibling']],roach:[['德語','Rotauge、Plötze']],tench:[['德語','Schleie']],burbot:[['德語','Trüsche、Quappe']]});
 localNames.browntrout=(localNames.browntrout||[]).map(([l,n])=>l==='德語'&&!n.includes('Meerforelle')?[l,n+'、Meerforelle（海鱒）']:[l,n]);
+Object.assign(localNames,{hasu:[['日語','ハス']],isaza:[['日語','イサザ']],gigi:[['日語','ギギ']]});
+for(const [id,name] of Object.entries({topmouth:'モツゴ、クチボソ',loach:'ドジョウ',amurcatfish:'ナマズ、マナマズ',eel:'ニホンウナギ、ウナギ',rosybitterling:'タイリクバラタナゴ',swampeel:'タウナギ'}))localNames[id]=[...(localNames[id]||[]),['日語',name]];
 fish.forEach(f=>f.localNames=localNames[f.id]||[]);
 // 0.14 water plants. Each water has its own weed pool; distribution notes and sources are in SOURCES.md「0.14 水草圖鑑」.
 const oca=n=>'https://www.oca.gov.tw/ch/home.jsp?id=535&parentpath=0,298&mcustomize=ocamaritime_view.jsp&dataserno='+n;

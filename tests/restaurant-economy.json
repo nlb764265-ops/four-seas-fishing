@@ -638,8 +638,8 @@
    "amount": 0.1,
    "casts": 60,
    "price": 135,
-   "gain": 250.9,
-   "net": 115.9,
+   "gain": 248.4,
+   "net": 113.4,
    "incomePct": 11.4
   },
   {
@@ -651,8 +651,8 @@
    "amount": 0.1,
    "casts": 60,
    "price": 135,
-   "gain": 553.1,
-   "net": 418.1,
+   "gain": 541.7,
+   "net": 406.7,
    "incomePct": 10.6
   },
   {
@@ -664,8 +664,8 @@
    "amount": 0.09,
    "casts": 60,
    "price": 135,
-   "gain": 197.9,
-   "net": 62.9,
+   "gain": 195.7,
+   "net": 60.7,
    "incomePct": 9.9
   },
   {
@@ -677,8 +677,8 @@
    "amount": 0.09,
    "casts": 60,
    "price": 135,
-   "gain": 469.9,
-   "net": 334.9,
+   "gain": 459.7,
+   "net": 324.7,
    "incomePct": 9.9
   },
   {
@@ -690,8 +690,8 @@
    "amount": 0.05,
    "casts": 40,
    "price": 45,
-   "gain": 83.6,
-   "net": 38.6,
+   "gain": 82.8,
+   "net": 37.8,
    "incomePct": 5.7
   },
   {
@@ -703,8 +703,8 @@
    "amount": 0.05,
    "casts": 40,
    "price": 45,
-   "gain": 184.4,
-   "net": 139.4,
+   "gain": 180.6,
+   "net": 135.6,
    "incomePct": 5.3
   },
   {
@@ -716,8 +716,8 @@
    "amount": 0.1,
    "casts": 60,
    "price": 135,
-   "gain": 243.5,
-   "net": 108.5,
+   "gain": 239.7,
+   "net": 104.7,
    "incomePct": 11.5
   },
   {
@@ -729,8 +729,8 @@
    "amount": 0.1,
    "casts": 60,
    "price": 135,
-   "gain": 537.8,
-   "net": 402.8,
+   "gain": 522.2,
+   "net": 387.2,
    "incomePct": 10.6
   },
   {
@@ -742,8 +742,8 @@
    "amount": 0.09,
    "casts": 60,
    "price": 135,
-   "gain": 191.3,
-   "net": 56.3,
+   "gain": 187.9,
+   "net": 52.9,
    "incomePct": 9.9
   },
   {
@@ -755,8 +755,8 @@
    "amount": 0.09,
    "casts": 60,
    "price": 135,
-   "gain": 456.1,
-   "net": 321.1,
+   "gain": 442.2,
+   "net": 307.2,
    "incomePct": 9.9
   },
   {
@@ -768,8 +768,8 @@
    "amount": 0.05,
    "casts": 40,
    "price": 45,
-   "gain": 81.2,
-   "net": 36.2,
+   "gain": 79.9,
+   "net": 34.9,
    "incomePct": 5.7
   },
   {
@@ -781,8 +781,8 @@
    "amount": 0.05,
    "casts": 40,
    "price": 45,
-   "gain": 179.3,
-   "net": 134.3,
+   "gain": 174.1,
+   "net": 129.1,
    "incomePct": 5.3
   }
  ]

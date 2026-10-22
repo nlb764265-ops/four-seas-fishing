@@ -1133,9 +1133,9 @@
    "amount": 0.15,
    "casts": 80,
    "minutes": 33.3,
-   "gain": 501.7,
+   "gain": 496.8,
    "cost": 218.7,
-   "net": 283,
+   "net": 278.1,
    "incomePct": 17.1
   },
   {
@@ -1147,9 +1147,9 @@
    "amount": 0.15,
    "casts": 80,
    "minutes": 26.7,
-   "gain": 1106.2,
+   "gain": 1083.4,
    "cost": 284.9,
-   "net": 821.3,
+   "net": 798.5,
    "incomePct": 15.9
   },
   {
@@ -1161,9 +1161,9 @@
    "amount": 0.1,
    "casts": 60,
    "minutes": 25,
-   "gain": 250.9,
+   "gain": 248.4,
    "cost": 188.6,
-   "net": 62.3,
+   "net": 59.8,
    "incomePct": 11.4
   },
   {
@@ -1175,9 +1175,9 @@
    "amount": 0.1,
    "casts": 60,
    "minutes": 20,
-   "gain": 553.1,
+   "gain": 541.7,
    "cost": 277.3,
-   "net": 275.8,
+   "net": 264.4,
    "incomePct": 10.6
   },
   {
@@ -1189,9 +1189,9 @@
    "amount": 0.09,
    "casts": 60,
    "minutes": 22.8,
-   "gain": 197.9,
+   "gain": 195.7,
    "cost": 101.9,
-   "net": 96,
+   "net": 93.8,
    "incomePct": 9.9
   },
   {
@@ -1203,9 +1203,9 @@
    "amount": 0.09,
    "casts": 60,
    "minutes": 18.2,
-   "gain": 469.9,
+   "gain": 459.7,
    "cost": 149,
-   "net": 320.9,
+   "net": 310.7,
    "incomePct": 9.9
   },
   {
@@ -1217,9 +1217,9 @@
    "amount": 0.1,
    "casts": 60,
    "minutes": 25,
-   "gain": 250.9,
+   "gain": 248.4,
    "cost": 119.1,
-   "net": 131.7,
+   "net": 129.3,
    "incomePct": 11.4
   },
   {
@@ -1231,9 +1231,9 @@
    "amount": 0.1,
    "casts": 60,
    "minutes": 20,
-   "gain": 553.1,
+   "gain": 541.7,
    "cost": 174.6,
-   "net": 378.5,
+   "net": 367.1,
    "incomePct": 10.6
   },
   {
@@ -1245,9 +1245,9 @@
    "amount": 0.1,
    "casts": 60,
    "minutes": 25,
-   "gain": 243.5,
+   "gain": 239.7,
    "cost": 110.7,
-   "net": 132.9,
+   "net": 129,
    "incomePct": 11.5
   },
   {
@@ -1259,9 +1259,9 @@
    "amount": 0.1,
    "casts": 60,
    "minutes": 20,
-   "gain": 537.8,
+   "gain": 522.2,
    "cost": 162.1,
-   "net": 375.6,
+   "net": 360.1,
    "incomePct": 10.6
   },
   {
@@ -1273,9 +1273,9 @@
    "amount": 0.09,
    "casts": 60,
    "minutes": 22.8,
-   "gain": 191.3,
+   "gain": 187.9,
    "cost": 115.7,
-   "net": 75.7,
+   "net": 72.2,
    "incomePct": 9.9
   },
   {
@@ -1287,9 +1287,9 @@
    "amount": 0.09,
    "casts": 60,
    "minutes": 18.2,
-   "gain": 456.1,
+   "gain": 442.2,
    "cost": 167.1,
-   "net": 289,
+   "net": 275,
    "incomePct": 9.9
   },
   {
@@ -1301,9 +1301,9 @@
    "amount": 0.09,
    "casts": 60,
    "minutes": 22.8,
-   "gain": 191.3,
+   "gain": 187.9,
    "cost": 120.1,
-   "net": 71.3,
+   "net": 67.8,
    "incomePct": 9.9
   },
   {
@@ -1315,9 +1315,9 @@
    "amount": 0.09,
    "casts": 60,
    "minutes": 18.2,
-   "gain": 456.1,
+   "gain": 442.2,
    "cost": 176.9,
-   "net": 279.3,
+   "net": 265.3,
    "incomePct": 9.9
   },
   {

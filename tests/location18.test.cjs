@@ -1,0 +1,18 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),E=require('../engine.js');
+const src=fs.readFileSync(require('node:path').join(__dirname,'../app.js'),'utf8');
+const els={regionList:{},location:{},travel:{},mapDialog:{close(){}}};
+const scope={E,D:E.D,state:E.initial(0),preview:'keelung',Date,yuan:n=>n.toLocaleString('zh-TW'),document:{querySelectorAll(){return []}},$:id=>els[id],showRegion(){},act(){}};
+vm.createContext(scope);vm.runInContext(src.slice(src.indexOf('function meter('),src.indexOf('function pips(')),scope);vm.runInContext(src.slice(src.indexOf('function renderLocation()'),src.indexOf('function renderStatus()')),scope);
+scope.renderLocation();
+assert.equal((els.regionList.innerHTML.match(/data-preview=/g)||[]).length,13);
+assert(!/目前位置|需許可證|單程|<small>/.test(els.regionList.innerHTML));
+assert.match(els.regionList.innerHTML,/data-preview="sunmoon"[^>]*is-current[^>]*aria-pressed="false"[^>]*aria-current="location"/);
+assert.match(els.regionList.innerHTML,/data-preview="keelung"[^>]*chosen[^>]*aria-pressed="true"/);
+assert(els.location.innerHTML.includes('2級水域'));assert(els.location.innerHTML.includes('取得許可證並前往'));assert.equal((els.location.innerHTML.match(/許可證/g)||[]).length,1);assert(!els.location.innerHTML.includes('許可證永久有效'));assert(!els.location.innerHTML.includes('單程旅費'));
+assert(els.location.innerHTML.includes(E.tripCost(scope.state,'keelung').toLocaleString('zh-TW')+' 元'));assert(!els.location.innerHTML.includes('800 元'));
+assert(!/第 \$\{[^}]+\} 層|許可證分四層/.test(src));
+scope.preview='sunmoon';scope.renderLocation();assert(!els.location.innerHTML.includes('需要釣魚許可證'));
+scope.state.region='biwa';scope.preview='kasumigaura';scope.renderLocation();assert.match(els.regionList.innerHTML,/data-preview="biwa"[^>]*is-current/);assert.match(els.regionList.innerHTML,/data-preview="kasumigaura"[^>]*chosen/);
+scope.state=E.initial(0);scope.preview='tolo';scope.state.money=10000;for(const f of E.D.fish.slice(0,56))scope.state.book[f.id]={count:1,best:f.min};scope.renderLocation();assert.equal((els.location.innerHTML.match(/許可證/g)||[]).length,1);assert(!els.location.innerHTML.includes('3,000'));assert(!els.location.innerHTML.includes('旅費足夠'));assert(els.location.innerHTML.includes('取得許可證並前往'));assert(!/id="travel" disabled/.test(els.location.innerHTML));
+scope.state.money=1000;scope.renderLocation();assert.equal((els.location.innerHTML.match(/還差/g)||[]).length,1);assert(els.location.innerHTML.includes('id="travel" disabled'));
+console.log('PASS compact destination names, independent current and preview states, licence details and grade wording');

@@ -489,3 +489,21 @@ FishBase、臺灣魚類資料庫（人機驗證）與 TBN（403）本次無法�
 | 沖繩鹽煮魚 | 褐臭肚魚、青嘴龍占 | [ANA《エーグアーのマース煮》](https://www.ana.co.jp/travelandlife/article/000876/)；[ぐるなび・ちゅらさん亭菜單](https://r.gnavi.co.jp/f097700/menu1/)（タマン的マース煮）。エーグアー涵蓋的臭肚魚種類待以沖繩縣水產資料確認 |
 | 宿霧乾臭肚魚 | 褐臭肚魚 | [WTO 菲律賓 SPS 通報附件](https://members.wto.org/crnattachments/2017/SPS/PHL/17_4781_01_e.pdf)（danggit 為 Siganus fuscescens 等）；[Philstar 2017](https://www.philstar.com/the-freeman/cebu-lifestyle/2017/07/20/1720073/quick-meal/amp/) |
 | 磨坊主婦式梭鱸排 | 梭鱸 | [speisekarte.de：朗根阿根 Hotel-Restaurant Schwedi](https://www.speisekarte.de/langenargen/restaurant/schwedi/speisekarte)；[wandernundmehr.at](https://www.wandernundmehr.at/faq/welchen-fisch-isst-man-am-bodensee) |
+# 0.18 日本湖泊補魚（查閱：2026-10-22）
+
+本批從 0.17 的 144 種魚接編三種，完整遊戲數值、魚池配置與來源限制見《日本湖泊補魚實裝記錄.md》。權重、重量、價格與夜晚倍率為遊戲設定。各來源的現實保育或商業漁業資訊，不當作本作釣獲率或現行遊釣規則。
+
+| 識別／學名 | 中文名與日語名 | 來源及支持範圍 |
+| --- | --- | --- |
+| hasu / Opsariichthys uncirostris | 真馬口鱲；ハス | [國立海生館典藏 P006226](https://helloocean.nmmba.gov.tw/nmmba_front/SpecimenDetail.aspx?id=10730)支持中文名與學名；[滋賀縣琵琶湖漁業](https://www.pref.shiga.lg.jp/gf00/7249.html)與[琵琶湖農業遺產](https://www.pref.shiga.lg.jp/biwako-system/18893.html)支持琵琶湖、魚食性、小香魚獵物及食用；[大阪環農水研的ハス頁](https://www.knsk-osaka.jp/zukan/zukan_database/tansui/6550b2c290c751e/3350b5a40d3ba16.html)搜尋摘要支持原生分布與放流擴散（頁面正文擷取未含主要條目，並以滋賀縣、茨城縣資料交叉確認）；[霞浦湖魚類教材](https://www.pref.ibaraki.jp/soshiki/seikatsukankyo/kasumigauraesc/05_gakushu/supporterdata/documents/supporter_10_02.pdf)第4、10頁支持湖中紀錄、口形及日本外地移入身分。 |
+| isaza / Gymnogobius isaza | 疣舌裸身鰕虎；疣舌裸頭鰕虎魚；イサザ | [中研院拉漢魚典](https://fishdb.sinica.edu.tw/chi/chinesequer2.php?D1=&R1=&T1=&cn=&dere=asc&fm=&gc=&me=&orderby=science&page=272&pz=50&vn=)支持主中文名；[FishBase 中文名表](https://fishbase.se/ComNames/CommonNamesList.php?GenusName=Gymnogobius&ID=15869&SpeciesName=isaza&StockCode=14909)支持別名；[國立環境研究所琵琶湖標本](https://www.nies.go.jp/biwako_specimens/contents/species.php?spid=8)支持學名、日語名、固有分布及2020年名錄；[滋賀縣湖魚料理](https://www.pref.shiga.lg.jp/gf00/7255.html)支持沖合生活、春季石岸產卵、雄魚護卵及食用；[滋賀縣立大學環境科學年報](https://www.ses.usp.ac.jp/nenpou/np8/np8ban.html)支持動物浮游生物食性。 |
+| gigi / Tachysurus nudiceps | 叉尾瘋鱨；ギギ | [中研院拉漢魚典](https://fishdb.sinica.edu.tw/chi/chinesequer2.php?D1=&R1=&T1=&cn=&dere=asc&fm=&gc=&me=&orderby=science&page=3222&pz=10&vn=)支持中文名；[琵琶湖博物館生物圖鑑](https://jmapps.ne.jp/ikimono/det.html?data_id=7963)支持湖中標本、脂鰭、叉尾、棘與族群衰退；原頁屬名拼為 Tachysrus，依[福岡縣生物多樣性資料](https://biodiversity.pref.fukuoka.lg.jp/invasives/detail/8b4f7164-ff18-4f6b-af9b-974f688a1d72)及[鹿兒島大學2025年報告](https://www.museum.kagoshima-u.ac.jp/ichthy/INHFJ_2025_055_006.pdf)採 Tachysurus，福岡資料亦支持夜行與食性；[大阪自然史博物館](https://www2.omnh.jp/CGI/Guide/Guide.exe?A_G91=%2A&Q=N%3A561)支持四對鬚及叉尾；[日淡會採集及食用紀錄](https://tansuigyo.net/a/link34-10.html)記錄滋賀縣採集個體的時雨煮，以及其他地區佃煮、味噌湯，僅支持食用，不把ギバチ的唐揚げ誤寫成ギギ料理。 |
+
+## 既有魚接入與日語
+
+琵琶湖：羅漢魚 Pseudorasbora parva＝モツゴ、クチボソ；泥鰍 Misgurnus anguillicaudatus＝ドジョウ；鯰魚 Silurus asotus＝ナマズ、マナマズ；日本鰻鱺 Anguilla japonica＝ニホンウナギ、ウナギ；藍鰓太陽魚 Lepomis macrochirus＝ブルーギル。依[滋賀縣立大學湖區魚類教材](https://www.usp.ac.jp/gakubu/kankyo/gakubu/fisheries/japaneseFW3.html)、[國立環境研究所琵琶湖標本名單](https://www.nies.go.jp/biwako_specimens/contents/search.php)核對。モツゴ是既有羅漢魚，不是另一種魚。
+
+霞浦湖：沿用同一羅漢魚、泥鰍、鯰魚與日本鰻鱺；另接高身鯽 Carassius cuvieri＝ゲンゴロウブナ、高體鰟鮍 Rhodeus ocellatus＝タイリクバラタナゴ、黃鱔 Monopterus albus＝タウナギ。依上述茨城縣《霞浦湖魚類教材》第2、4～6、8、10頁逐種核對，並以[環境科學中心2020年觀察紀錄](https://www.pref.ibaraki.jp/soshiki/seikatsukankyo/kasumigauraesc/05_gakushu/shizen/2020_shizen01.htm)的搜尋摘要交叉確認羅漢魚、泥鰍及黃鱔；該HTML原頁於查閱時轉向縣政府系統故障臨時頁，因此以仍可讀取的官方PDF作主要證據。鯰魚及鰻魚在遊戲仍為夜晚限定；文獻把鯰魚標為少見，遊戲補入權重較低。既有魚原中文名、學名及台客語不重寫。
+
+本批暫不收ニゴイ：日本資料分 Hemibarbus barbus 與 H. labeo，中研院／臺灣名錄有同物異名處理，待分類與中文名一致後再收。霞浦湖的ギバチ並非ギギ，不共用 gigi ID。
+
