@@ -1,0 +1,20 @@
+{
+  "version": "0.12",
+  "url": "https://nlb764265-ops.github.io/four-seas-fishing/",
+  "commit": "a06e2f0e1a8720881a76c173df9bd89dec954875",
+  "checked_at": "2026-10-22",
+  "browser": "Claude desktop built-in browser, 1024 wide desktop and 375x812 mobile emulation",
+  "storage": "Existing public save was a fresh new game created on load; backed up before testing and restored through useState afterwards.",
+  "checks": [
+    {"check": "edition, catalogue and save format", "result": "DEMO 0.12, 95 fish, new game format 5"},
+    {"check": "map travel to Lake Constance", "result": "button 前往 · 單程 500 元 with 旅費足夠 and no meter; paid 500 once, log 支付單程旅費 500 元，前往博登湖。"},
+    {"check": "live fishing timer", "result": "start kept dough at 20; after about 18 s two casts, two fish, dough 18, autosave casts 2"},
+    {"check": "stop fishing", "result": "log 已收竿。 and bait unchanged at 17"},
+    {"check": "water progress link", "result": "本水域圖鑑 3／6 種 opened the atlas with 博登湖 searched, note 博登湖：已捕獲 3／6 種, uncaught fish shown as 未捕獲 ###"},
+    {"check": "area search and name protection", "result": "德国 listed 10 fish across both German waters; uncaught 梭鱸 returned 0"},
+    {"check": "atlas folding", "result": "海水魚 collapsed (grid hidden, aria-expanded false) and expanded again"},
+    {"check": "sale", "result": "three fish sold once for 50 元, box emptied"},
+    {"check": "0.11 format 4 import through the file input", "result": "running cast with dough 18 became format 5 with one bait refunded; offline settlement then caught 15 fish and 4 weeds until the 20-slot box was full, leaving dough 4 (18+1-15)"},
+    {"check": "mobile 375 wide", "result": "no horizontal scroll; progress line 本水域圖鑑 8／16 種 visible"}
+  ]
+}
