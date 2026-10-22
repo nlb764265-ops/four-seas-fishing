@@ -1,0 +1,24 @@
+{
+  "worstRatio": 1.3723,
+  "worstAt": "2月 釣竿Lv.1 售價0 meat 無料理",
+  "march": {
+    "sunmoon": 32.1,
+    "zengwen": 36.76,
+    "qigu": 34.24,
+    "guandu": 36.42,
+    "keelung": 42.29,
+    "penghu": 41.17,
+    "longdong": 42.59,
+    "kenting": 40.88,
+    "tolo": 40.48,
+    "bodensee": 41.91,
+    "greifswald": 33.2,
+    "biwa": 36.65,
+    "kasumigaura": 35.43
+  },
+  "fares": {
+    "sunmoon_biwa": 120,
+    "sunmoon_kasumigaura": 140,
+    "biwa_kasumigaura": 40
+  }
+}

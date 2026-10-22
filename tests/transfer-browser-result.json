@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-10-22T07:54:46.606Z",
+  "errors": [],
+  "ui": [
+    "no overflow 1280",
+    "no overflow 390",
+    "no overflow 320",
+    "offline failure keeps progress",
+    "standalone file entry downloads and applies through real service"
+  ],
+  "live": "passed: anonymous encrypted upload/download between two isolated Chrome contexts; preview, apply, reload and backup recovery"
+}

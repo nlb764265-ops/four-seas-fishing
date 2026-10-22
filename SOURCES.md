@@ -1,4 +1,4 @@
-# 四海釣遊記 0.14：資料來源
+# 四海釣遊記 0.15：資料來源
 
 查閱日期：2026-10-21。魚類文字為依資料重寫的簡介，沒有使用來源照片或大段原文。魚類資料不等於遊戲機率、價格與現實賞金政策。
 
@@ -310,3 +310,182 @@ Natural Earth [1:50m Land](https://www.naturalearthdata.com/downloads/50m-physic
 | 格賴夫斯瓦爾德潟湖・港邊魚館 | 酸辣雜燴湯（Soljanka） | [tageskarte：烏塞多姆島魚肉 Soljanka](https://www.tageskarte.io/war-noch-was/detail/groesste-fischsoljanka-der-welt-auf-usedom.html)（德國東部普及） |
 
 價格依審閱稿：小吃 15 元、家常 45 元、名菜 90 元。效果沿用料理等級，小吃一律售價 +5%。各道菜依所在水域在初期與後期裝備的收益見 tests/restaurant-economy.json。
+
+
+## 0.15 料理做法查核（2026-10-22）
+
+逐道以原有菜式介紹核對做法顯示；原有來源支持的菜式、食材與現實描述不變。這次補上獨立的 preparation 欄位，將效果大類與具體手法區分。以下對容易誤分的項目補上核對依據：
+
+- 丁香魚刺身：[日本農林水產省「きびなごの刺身」](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kibinagonosashimi_kagoshima.html)明列手開去骨、清洗瀝乾、刺身擺盤與醋味噌，分類為生食。
+- 後壁湖生魚片：沿用 0.14 後壁湖生魚片來源與既有生切介紹，做法為生切裝盤，分類為生食。
+- 西湖醋魚：[台北亞都麗緻天香樓菜單](https://taipei.landishotelsresorts.com/chinese-trad/manage/upload/restaurant/1775663607_92186.pdf)直接說明草魚入水煮熟，佐醬油、鎮江醋與糖的醬汁；採汆煮淋汁，歸入清蒸汆煮類。
+- 鯛魚飯：[日本海上自衛隊鯛めし食譜](https://www.mod.go.jp/msdf/kanmeshi/menu/jp/027/index.html)先炙魚皮，再放入米與高湯同炊，做法顯示「先烤魚再與米同炊」，以炊飯獨立分類。
+- 火雞肉飯、起司麵疙瘩、俾斯麥鯡魚堡：沿用上節對應來源及既有介紹，分別為熟火雞肉撕絲鋪飯淋汁、麵疙瘩拌起司鋪炸洋蔥、醋醃魚片夾麵包，避免顯示成煎炸烤燻或清蒸水煮。
+
+具體做法全表見料理做法查核.md。畫風化點陣圖為 AI 生成遊戲插畫，不作為現實物種鑑定依據。
+
+## 0.15 料理魚材取捨（2026-10-22）
+
+本節查閱日期為 2026-10-22。食用紀錄與遊戲是否採作料理材料分開處理；以下來源作為取捨參考，不把觀賞利用、低漁獲價值或資料不足等同於毒性。完整 9 種調整表見《料理魚材調整.md》。
+
+- 琵琶鼠：[臺灣魚類資料庫](https://fishdb.sinica.edu.tw/chi/species.php?id=395254)列為觀賞魚，未列為食用魚；[臺北市生物多樣性資料庫](https://biodiv.gov.taipei/page/about/index.aspx?kind=47&lang=US)說明因水族飼養引入。本作排除魚材。
+- 銀鱗鯧：[臺灣魚類資料庫](https://fishdb.sinica.edu.tw/taxon/382162-fishdb)的利用說明以觀賞為主、食用價值低。本作排除魚材。
+- 明潭吻鰕虎：[臺灣魚類資料庫](https://fishdb.sinica.edu.tw/mobi/species.php?id=381836)記錄小型魚、無漁業利用價值。本作排除魚材。
+- 極樂吻鰕虎：[農業知識入口網](https://kmweb.moa.gov.tw/subject/subject.php?id=35585)記錄本土觀賞鰕虎的繁養殖用途。本作保留觀察與收集用途，不採作魚材，不另宣稱有毒。
+- 羅漢魚（Pseudorasbora parva）：[中研院數位典藏](https://digiarch.sinica.edu.tw/content/repository/resource_content.jsp?oid=14402)記錄小型魚，可油炸、亦可觀賞。本作依作者希望縮減通用魚材而不採用，保留食用分類。
+- 條紋豆娘魚：[臺灣魚類資料庫](https://fishdb.sinica.edu.tw/taxon/382312-fishdb)記錄可食用，一般不是漁獲對象，也有觀賞利用。本作不採作魚材；此為遊戲選擇，不否認地方食用習慣。
+- 柴魚：[下田海中水族館的未利用／低利用魚介紹](https://shimoda-aquarium.com/unutilized-and-underutilized-fish/)列有 Microcanthus strigatus。本作排除魚材，原本的觀賞介紹保留。
+- 大海鰱：[臺灣魚類資料庫](https://fishdb.sinica.edu.tw/mobi/species.php?id=381038)記錄肉多刺、常加工為鹹魚。本作不採作煎魚材料。
+- 彈塗魚：[農業知識入口網](https://kmweb.moa.gov.tw/subject/subject.php?id=35584&print=Y)記錄泥灘生態與活動；本作選擇保留觀察與收集用途而排除魚材，來源不作為不可食用或有毒的證據。
+
+小型魚並非一律排除：[臺灣魚類名錄](https://fishdb.sinica.edu.tw/taxalist/taiwan?f%5B0%5D=rank_s%3A%22Species%22&f%5B1%5D=attrs_taxon_type%3A%22%E8%A7%80%E8%B3%9E%E9%AD%9A%E9%A1%9E%22&f%5B2%5D=taxon_habitat_ss%3A%22%E6%B7%A1%E6%B0%B4%22&order=solr_document_2&sort=asc)同時列臺灣鬚鱲為食用與觀賞魚，保留既有魚材設定；其他有食用紀錄的小魚也依原設定保留。
+
+
+## 0.16 日本第 3 批與既有釣點補魚 A、B 批（查閱日期 2026-10-22）
+
+以下來源支持水域配置、圖鑑介紹、料理與名稱；魚池權重、重量、價格、天氣比例、條件倍數與場景文字為遊戲設定。調查與漁獲紀錄不代表現今族群數量、竿釣機率或現行法規。詳案與核定紀錄見根目錄《釣點魚種第3批審閱稿.md》《既有釣點補魚A批審閱稿.md》《既有釣點補魚B批審閱稿.md》。地圖採水域概略中心：琵琶湖 35.25° N、136.08° E，霞浦湖 36.05° N、140.38° E。
+
+### 琵琶湖、霞浦湖
+
+- 琵琶湖八珍與特有種：[滋賀縣 琵琶湖八珍](https://www.pref.shiga.lg.jp/ippan/shigotosangyou/suisan/319620.html)、[2016 年縣府發表](https://kyodonewsprwire.jp/release/201601187109)（八種、「ビワ・コ・ハ・ホン・ニ・ス・ゴ・イ」、五種特有種）。
+- 琵琶鱒 Oncorhynchus biwaensis 2025 年命名：[攝南大學新聞稿](https://digitalpr.jp/r/112858)、[PDF](https://www.setsunan.ac.jp/upload/news/content/no2512.pdf)。
+- 暗色頜鬚鮈（ホンモロコ）中文名：[FAO AGROVOC c_40345](https://agrovoc.fao.org/browse/agrovoc/en/page/c_40345)。煮頃鮒學名：[京都府紅皮書](https://www.pref.kyoto.jp/kankyo/rdb/bio/db/fis0034.html)；查無通行中文名，作者核定採日文漢字「煮頃鮒」，俗名「似五郎鮒」。日本銀魚為作者核定的暫定名，以避開中文「白魚」指翹嘴鮊的用法。
+- 霞浦湖外來魚：[茨城縣內水面支場](https://www.pref.ibaraki.jp/nourinsuisan/naisuishi/gyogancho/documents/089_column_1.pdf)（斑點叉尾鮰、大口黑鱸、藍鰓太陽魚、白鰱等）；[環境省 Moni1000 淡水魚 2020](https://www.biodic.go.jp/moni1000/findings/newsflash/pdf/freshwaterfishes_2020.pdf)（斑點叉尾鮰濕重占比 31.1%→61.0%）；白鰱在櫻川產卵見[茨城縣 2023](https://www.pref.ibaraki.jp/nourinsuisan/naisuishi/documents/230721_silvercarp_hakuren.pdf)。
+- 西太公魚、日本銀魚的漁期與資源：[茨城縣 西太公魚資源診斷 2024](https://www.pref.ibaraki.jp/nourinsuisan/suishi/shigen/documents/2024-r6_wakasagi-kasumi.pdf)、[日本銀魚 2023](https://www.pref.ibaraki.jp/nourinsuisan/suishi/shigen/documents/2023-r5_shirauo-kasumi.pdf)；鯉魚養殖 749 噸、日本第一：[茨城縣](https://www.pref.ibaraki.jp/nourinsuisan/naisuishi/kahoku/science07.html)。
+- 百年食物：[文化廳 茨城](https://www.bunka.go.jp/seisaku/shokubunka/foodculture/hyakunenfood/jirei/list_ibaraki.html)（霞ヶ浦北浦の魚介類食文化～佃煮・煮干し・釜揚げ～，令和 6 年度；佃煮用西太公魚、日本銀魚等）。
+- 南湖水草刈取 4,581 噸：[滋賀縣議會 2025-06 資料](https://www.shigaken-gikai.jp/voices/GikaiDoc/attach/Nittei/Nt20937_0626kankyo_5.pdf)；鮒壽司 1998 年無形民俗文化財：[滋賀縣水產課](https://www.pref.shiga.lg.jp/ippan/shigotosangyou/suisan/18690.html)。
+
+### 料理與餐廳
+
+自製料理六道、餐廳菜六道均依農林水產省「うちの郷土料理」各菜頁，菜頁明寫所用魚種與地區：
+
+| 菜名 | 魚材或內容 | 來源 |
+| --- | --- | --- |
+| 鮒壽司 | 煮頃鮒 | [ふなずし](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/funa_zushi_shiga.html) |
+| 琵琶鱒炊飯 | 琵琶鱒 | [あめのいおご飯](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/amenoio_gohan_shiga.html) |
+| 山椒煮小香魚 | 香魚（小香魚） | [小あゆの山椒煮](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/koayuno_sanshou_ni_shiga.html) |
+| 烤本諸子佐味噌醋 | 暗色頜鬚鮈 | [焼きもろこのどろ酢](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/yaki_morokono_dorozu_shiga.html) |
+| 西太公魚蓮藕醋漬 | 西太公魚 | [わかさぎとれんこんの酢漬け](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/wakasagitorenkonnosuzuke_ibaraki.html) |
+| 霞浦佃煮 | 西太公魚、日本銀魚 | 文化廳百年食物（同上），兩種魚均列為佃煮材料 |
+| 琵琶鱒刺身 | 餐廳 | [ビワマス刺身](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/biwamasu_sasimi_shiga.html) |
+| 瀨田蜆味噌湯 | 餐廳 | [しじみ汁](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shijimi_jiru_shiga.html) |
+| 丁稚羊羹 | 餐廳 | [丁稚羊羹](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/decchi_youkan_shiga.html) |
+| 唐揚鯉魚 | 餐廳 | [鯉の唐揚げ](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/koinokaraage_ibaraki.html) |
+| 帆引煮鰻 | 餐廳 | [うなぎの帆引き煮](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/unaginohobikini_ibaraki.html) |
+| 金平蓮藕 | 餐廳 | [れんこんのきんぴら](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/renkonnokinpira_ibaraki.html) |
+
+鮒壽司實際要發酵半年以上，遊戲中依作者核定即時完成。
+
+### 水草
+
+| 水域 | 水草 | 來源 |
+| --- | --- | --- |
+| 琵琶湖 | 黑藻 Hydrilla verticillata、微齒眼子菜 Potamogeton maackianus、伊樂藻（沿用） | [滋賀縣資料](https://www.pref.shiga.lg.jp/file/attachment/5526768.pdf)：南湖近年以クロモ、センニンモ等原生種為優勢，コカナダモ曾大量繁生 |
+| 霞浦湖 | 莕菜 Nymphoides peltata、蘆葦 Phragmites australis | [國土交通省 湖岸植生帶](https://www.ktr.mlit.go.jp/ktr_content/content/000049857.pdf)（アサザ復育）；[茨城縣內水面支場](https://www.pref.ibaraki.jp/nourinsuisan/naisuishi/kahoku/science14.html)（抽水植物帶約剩 1972 年的一半） |
+
+中文名依 Flora of China 慣用名。
+
+### 補魚 A 批：墾丁、吐露港、博登湖、格賴夫斯瓦爾德潟湖
+
+- 墾丁：[106 年度墾丁海域垂釣魚類資源量監測調查](https://mpa.oca.gov.tw/Files/Knowledge/cdc47203a5ab401184a7764e06266d15.pdf) 表七、表八：五帶錦魚 471、鯔形湯鯉 267、褐臭肚魚 200、翼䱵 153（表八另計 126）、銀鱗鯧 120、多帶海緋鯉 103 尾。
+- 吐露港：Nip 與 Wong（2010），[Zoological Studies 49(6)](https://zoolstud.sinica.edu.tw/Journals/49.6/760.pdf) 表三吐露港兩站：Konosirus punctatus（排名 3）、Liza affinis（4）、Gerres oyena（5）、Gerres filamentosus（9）、Takifugu niphobles（18）、Liza macrolepis（23），皆為幼魚紀錄。
+- 博登湖：GBIF 範圍 47.45～47.85° N、8.9～9.8° E（含周邊河川）：Rutilus rutilus 242、Tinca tinca 308、Lota lota 162、Sander lucioperca 93、Salvelinus umbla 23 筆；紅點鮭 2008 年職業漁獲約 13 噸，依 [schule-bw ab23](https://www.schule-bw.de/faecher-und-schularten/gesellschaftswissenschaftliche-und-philosophische-faecher/landeskunde-landesgeschichte/module/epochen/umweltgeschichte/bodensee/ab23.pdf) 所轉載的 IBKF 統計。
+- 格賴夫斯瓦爾德潟湖：GBIF 範圍 54.08～54.32° N、13.3～13.85° E：Rutilus rutilus 18、Abramis brama 10、Salmo trutta 4 筆；大西洋鱈 0 筆，不收。
+- 俗名：[中文維基百科](https://zh.wikipedia.org/) 各條目所列俗名——五帶錦魚（四齒、青花龍、貓仔魚）、鯔形湯鯉（銀湯鯉、花尾、烏尾冬仔）、翼䱵（短嘴格、低眶鷹斑鯛；短嘴格為臺灣物種名錄用名）、多帶副緋鯉（秋姑、老爺、鬚哥）、斑鰶（扁屏仔、油魚、海鯽仔）、長棘銀鱸（曳絲鑽嘴魚、碗米仔）。
+- 德語名：Seesaibling、Rotauge、Plötze、Schleie、Trüsche、Quappe、Meerforelle，依[德文維基百科](https://de.wikipedia.org/)「Seesaibling」「Rotauge」「Schleie」「Quappe」（博登湖稱 Trüsche）、「Meerforelle」各條目。
+- 讀音：䱵 ㄨㄥ／wēng（[hanzifinder U+4C75](https://hanzifinder.com/en/char/%E4%B1%B5)）；鮒、鮈、鮰、鱥、鱈、鰟、鮍、鯝、鱊依一般字典讀音。
+
+### 補魚 B 批：日月潭、關渡、七股潟湖
+
+- 日月潭：《日月潭自然資源生態監測(十)》（[觀光署附件 id=10571](https://admin.taiwan.net.tw/fapi/AttFile?id=10571&type=AttFile)）第 37 頁潭區 33 種名單與本期 2016/07～2018/03 漁獲：外來種 92.45%，九間始麗魚 1,385 尾（50.29%），厚唇雙冠麗魚 800 尾（29.05%）；奇力魚受暹羅副雙邊魚入侵影響而減少。第 48 頁總表的俗名：九間波羅、紅魔鬼、火鶴魚、紅寶石、苦花、鯝魚、玻璃魚、鱸鰻、花鰻、土龍、革條田中鰟鮍、牛屎鯽仔、紅目鯽仔、點鱊、西德藍寶石。總表混列日月潭與溪流，不作分布依據。九間始麗魚現行學名 Amatitlania nigrofasciata，報告用 Archocentrus nigrofasciatus。
+- 關渡：[關渡自然公園・關渡的魚類](https://gd-park.org.tw/sites/gd-park.org.tw/files/att/關渡的魚類_1.pdf)（2017-02-26 版）：褐塘鱧、點帶叉舌鰕虎、花錐棘塘鱧、革條田中鰟鮍（臺灣石鮒，特有種）、高體鰟鮍、巴西珠母麗魚（外來入侵種）。
+- 七股潟湖：[台江國家公園・鯨豚及魚類](https://www.tjnp.gov.tw/ch/sglarticle/cetaceans-and-fish)：潟湖優勢種含環球海鰶、項斑項鰏、花錐脊塘鱧、叉舌鰕虎、深鰕虎、鰻蝦虎；虱目魚在園區相當常見。GBIF 七股範圍：Nematalosa come 167、Butis koilomatodon 62、Chanos chanos 86、Taenioides cirratus 18 筆。
+- 俗名：中文維基百科——褐塘鱧（棕塘鱧）、點帶叉舌鰕虎魚（斑紋舌鰕虎魚）、頸帶鰏（頸斑鰏、金錢仔）、叉舌鰕虎魚（舌鰕虎魚、沙條）、虱目魚（海草魚、國姓魚、麻虱目）；GBIF 所轉 Catalogue of Life 中文名——環球海鰶（土黃魚）、Bathygobius fuscus（褐深鰕虎）、Taenioides cirratus（鬚鰻鰕虎）。
+
+### 日語名
+
+日語名依兩縣與國家機關資料使用的魚名：アユ、コアユ、ホンモロコ、ニゴロブナ、ビワマス、アメノウオ（滋賀縣與農林水產省各頁）；ワカサギ、シラウオ、チャネルキャットフィッシュ、アメリカナマズ、ブルーギル、ハクレン、コイ（茨城縣與環境省資料）；ゲンゴロウブナ（國立科學博物館日本特有種名錄）。
+
+### 新魚學名對照
+
+| 編號 | 中文名 | 學名 | ID |
+| --- | --- | --- | --- |
+| 096 | 香魚 | Plecoglossus altivelis | `ayu` |
+| 097 | 暗色頜鬚鮈 | Gnathopogon caerulescens | `honmoroko` |
+| 098 | 煮頃鮒 | Carassius buergeri grandoculis | `nigorobuna` |
+| 099 | 琵琶鱒 | Oncorhynchus biwaensis | `biwamasu` |
+| 100 | 西太公魚 | Hypomesus nipponensis | `wakasagi` |
+| 101 | 日本銀魚 | Salangichthys microdon | `icefish` |
+| 102 | 斑點叉尾鮰 | Ictalurus punctatus | `channelcat` |
+| 103 | 藍鰓太陽魚 | Lepomis macrochirus | `bluegill` |
+| 104 | 五帶錦魚 | Thalassoma quinquevittatum | `fivestripewrasse` |
+| 105 | 鯔形湯鯉 | Kuhlia mugil | `flagtail` |
+| 106 | 翼䱵 | Cirrhitus pinnulatus | `hawkfish` |
+| 107 | 多帶海緋鯉 | Parupeneus multifasciatus | `manybargoatfish` |
+| 108 | 斑鰶 | Konosirus punctatus | `dottedshad` |
+| 109 | 長棘銀鱸 | Gerres filamentosus | `whipfinmojarra` |
+| 110 | 阿爾卑斯紅點鮭 | Salvelinus umbla | `alpinechar` |
+| 111 | 擬鯉 | Rutilus rutilus | `roach` |
+| 112 | 丁鱥 | Tinca tinca | `tench` |
+| 113 | 江鱈 | Lota lota | `burbot` |
+| 114 | 褐塘鱧 | Eleotris fusca | `duskysleeper` |
+| 115 | 點帶叉舌鰕虎 | Glossogobius olivaceus | `olivegoby` |
+| 116 | 花錐脊塘鱧 | Butis koilomatodon | `duckbillsleeper` |
+| 117 | 臺灣石鮒 | Tanakia himantegus | `tanakia` |
+| 118 | 高體鰟鮍 | Rhodeus ocellatus | `rosybitterling` |
+| 119 | 巴西珠母麗魚 | Geophagus brasiliensis | `pearleartheeater` |
+| 120 | 環球海鰶 | Nematalosa come | `comeshad` |
+| 121 | 項斑項鰏 | Nuchequula nuchalis | `nuchalponyfish` |
+| 122 | 叉舌鰕虎 | Glossogobius giuris | `tankgoby` |
+| 123 | 深鰕虎 | Bathygobius fuscus | `frillfingoby` |
+| 124 | 鰻鰕虎 | Taenioides cirratus | `eelgoby` |
+| 125 | 虱目魚 | Chanos chanos | `milkfish` |
+| 126 | 九間始麗魚 | Amatitlania nigrofasciata | `convict` |
+| 127 | 厚唇雙冠麗魚 | Amphilophus labiatus | `redevil` |
+| 128 | 雙斑伴麗魚 | Hemichromis bimaculatus | `jewelcichlid` |
+| 129 | 臺灣白甲魚 | Onychostoma barbatulum | `kuhua` |
+| 130 | 暹羅副雙邊魚 | Parambassis siamensis | `siamglassfish` |
+| 131 | 花鰻鱺 | Anguilla marmorata | `marbledeel` |
+
+### 待補證
+
+FishBase、臺灣魚類資料庫（人機驗證）與 TBN（403）本次無法讀取；新魚的辨識特徵與體型依一般圖鑑描述撰寫，日後能讀取時逐項核對。博登湖、格賴夫斯瓦爾德潟湖的 GBIF 筆數範圍含周邊水域，原始漁獲統計（IBKF 年報、LALLF、Thünen 1999）待讀原表。
+
+## 0.16 補魚 C 批：基隆沿岸、龍洞岩岸、澎湖內海（查閱日期 2026-10-22）
+
+依根目錄《既有釣點補魚C批審閱稿.md》（作者已核定）。基隆、龍洞依海大魚類數典[台灣東北角常見魚類](https://digifish.biodiv.tw/northeast.php)各魚詳細頁：斑鰭石狗公 Scorpaenopsis neglecta（id=23）、月斑蝴蝶魚 Chaetodon lunula（id=5）、黑腕海豬魚 Halichoeres melanochir（id=29）、黃鰭刺尾鯛 Acanthurus xanthopterus（id=51）、銀湯鯉（鯔形湯鯉，id=152）、南方擬金眼鯛 Pempheris schwenkii（id=7）、揚旛蝴蝶魚 Chaetodon auriga（id=3）、綠鰭海豬魚 Halichoeres marginatus（id=25）、橫紋九刺鮨 Cephalopholis boenak（id=54）、莎姆新東洋金鱗魚 Neoniphon sammara（id=151）；分布、棲所與俗名依各頁改寫。
+
+澎湖內海依 GBIF 鱸形目（taxonKey 587）於 23.50～23.64° N、119.50～119.68° E 的物種統計：Cephalopholis boenak 21、Lutjanus lutjanus 19、Selaroides leptolepis 18、Calotomus spinidens 16、Scolopsis monogramma 14 筆；範圍含部分外海岸段，介紹只寫「澎湖內海一帶有紀錄」。大倉灣海草床調查完整名單仍未取得。
+
+澎湖四種的俗名：審閱稿標「待核」者刪除，改用[中文維基百科](https://zh.wikipedia.org/)條目——正笛鯛（線紋笛鯛、黃笛鯛、赤筆仔）、金帶細鰺（木葉鰺、目孔）、單帶眶棘鱸（黑帶赤尾冬、紅尾冬仔）；凹尾鸚鯉依 GBIF 所轉 Catalogue of Life 中文名（凹尾絢鸚嘴魚、臺灣鸚鯉、鸚哥）。讀音：鮨 ㄧˋ／yì。
+
+兩種蝴蝶魚依作者核定收錄並標「不作料理」；南方擬金眼鯛、莎姆新東洋金鱗魚夜晚 ×2；澎湖點帶石斑照縮放結果權重 1。
+
+| 編號 | 中文名 | 學名 | ID |
+| --- | --- | --- | --- |
+| 132 | 斑鰭石狗公 | Scorpaenopsis neglecta | `neglectascorpion` |
+| 133 | 月斑蝴蝶魚 | Chaetodon lunula | `raccoonbutterfly` |
+| 134 | 黑腕海豬魚 | Halichoeres melanochir | `blackeyewrasse` |
+| 135 | 黃鰭刺尾鯛 | Acanthurus xanthopterus | `yellowfinsurgeon` |
+| 136 | 南方擬金眼鯛 | Pempheris schwenkii | `slenderpinjalo` |
+| 137 | 揚旛蝴蝶魚 | Chaetodon auriga | `threadfinbutterfly` |
+| 138 | 綠鰭海豬魚 | Halichoeres marginatus | `greenfinwrasse` |
+| 139 | 橫紋九刺鮨 | Cephalopholis boenak | `chocolatehind` |
+| 140 | 莎姆新東洋金鱗魚 | Neoniphon sammara | `sammara` |
+| 141 | 正笛鯛 | Lutjanus lutjanus | `bigeyesnapper` |
+| 142 | 金帶細鰺 | Selaroides leptolepis | `yellowstripescad` |
+| 143 | 單帶眶棘鱸 | Scolopsis monogramma | `monogrammonocle` |
+| 144 | 凹尾鸚鯉 | Calotomus spinidens | `seagrassparrot` |
+
+## 0.16 料理第 1 批（查閱日期 2026-10-22）
+
+依根目錄《料理第1批審閱稿.md》（作者已核定）。
+
+| 菜名 | 魚材 | 來源 |
+| --- | --- | --- |
+| 酒煎烏魚子 | 烏魚 | [TVBS 健康 2024](https://health.tvbs.com.tw/nutrition/344394)，引漁業署：小寒前後為西南沿海烏魚汛期、「信魚」；烏魚子可用酒煎。漁業署烏金饗宴食譜原文待讀 |
+| 清蒸黃腳鱲 | 黃鰭鯛 | [國泰航空《香港本地海鮮滋味》](https://www.cathaypacific.com/cx/zh_HK/inspiration/dining/lost-treasure-hong-kong-local-seafood.html)：家常原條蒸魚多用黃腳鱲或紅衫魚 |
+| 清蒸青斑 | 點帶石斑 | [農業部知識庫 點帶石斑](https://kmweb.moa.gov.tw/subject/subject.php?id=21774)（俗名青斑）；[香港 01《清蒸石斑》](https://www.hk01.com/教煮/857551/) |
+| 沖繩鹽煮魚 | 褐臭肚魚、青嘴龍占 | [ANA《エーグアーのマース煮》](https://www.ana.co.jp/travelandlife/article/000876/)；[ぐるなび・ちゅらさん亭菜單](https://r.gnavi.co.jp/f097700/menu1/)（タマン的マース煮）。エーグアー涵蓋的臭肚魚種類待以沖繩縣水產資料確認 |
+| 宿霧乾臭肚魚 | 褐臭肚魚 | [WTO 菲律賓 SPS 通報附件](https://members.wto.org/crnattachments/2017/SPS/PHL/17_4781_01_e.pdf)（danggit 為 Siganus fuscescens 等）；[Philstar 2017](https://www.philstar.com/the-freeman/cebu-lifestyle/2017/07/20/1720073/quick-meal/amp/) |
+| 磨坊主婦式梭鱸排 | 梭鱸 | [speisekarte.de：朗根阿根 Hotel-Restaurant Schwedi](https://www.speisekarte.de/langenargen/restaurant/schwedi/speisekarte)；[wandernundmehr.at](https://www.wandernundmehr.at/faq/welchen-fisch-isst-man-am-bodensee) |

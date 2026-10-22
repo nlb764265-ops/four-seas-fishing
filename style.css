@@ -199,3 +199,55 @@ footer{font-size:12px}
 .local-names{display:grid;grid-template-columns:auto 1fr;gap:2px 12px;margin:4px 0 8px;font-size:14px;color:var(--muted)}
 .local-names dt{color:var(--gold);white-space:nowrap}
 .local-names dd{margin:0;overflow-wrap:anywhere}
+
+/* 0.15 first pixel illustration batch: 4 by 4 sprite atlas, local/offline. */
+.pixel-art{display:block;flex:0 0 48px;width:48px;height:48px;background-image:url('assets/pixel-atlas-01-clear.png');background-size:400% 400%;background-repeat:no-repeat;image-rendering:pixelated;border-radius:4px}
+.item-chip:has(.pixel-art){display:grid;grid-template-columns:48px minmax(0,1fr);column-gap:10px;align-items:center}
+.item-chip:has(.pixel-art)>.pixel-art{grid-column:1;grid-row:1/3}
+.item-chip:has(.pixel-art)>span:not(.pixel-art),.item-chip:has(.pixel-art)>small{grid-column:2;min-width:0}
+.kitchen-chip:has(.pixel-art){grid-template-columns:40px minmax(0,1fr);row-gap:4px}
+.kitchen-chip:has(.pixel-art)>.pixel-art{width:40px;height:40px;grid-row:1}
+.kitchen-chip:has(.pixel-art)>span:not(.pixel-art){grid-row:1}
+.kitchen-chip:has(.pixel-art)>b{grid-column:1/-1;grid-row:2;justify-self:end}
+.pixel-large{width:160px;height:160px;margin:10px auto 16px;border:1px solid var(--line)}
+#atlasBreakdown{display:block;color:var(--muted);font-size:12px;line-height:1.7;margin-top:4px}
+@media(max-width:650px){.pixel-large{width:128px;height:128px}.atlas-summary strong{font-size:17px}}
+
+/* 0.15 batch 2: transparent art, header right, no frames. */
+.pixel-art{border:0;border-radius:0;filter:saturate(.55)}
+.pixel-sheet-2{background-image:url('assets/pixel-atlas-02-clear.png');filter:saturate(.55)}
+.pixel-sheet-3{background-image:url('assets/pixel-atlas-03-clear.png');filter:saturate(.3)}
+.pixel-meal-fishhead{background-image:url('assets/meal-fishhead-pot.png');background-size:contain;background-position:center!important}
+.item-picker-grid:has(.kitchen-chip .pixel-art){grid-template-columns:repeat(2,minmax(0,1fr))}
+.detail-head:has(.pixel-large){display:grid;grid-template-columns:minmax(0,1fr) 150px;gap:12px;align-items:start;position:relative}
+.detail-head:has(.pixel-large)>div{min-width:0}
+.detail-head>.pixel-large{grid-column:2;grid-row:1;width:150px;height:150px;margin:0;border:0;background-color:transparent;justify-self:end}
+@media(max-width:650px){.detail-head:has(.pixel-large){grid-template-columns:minmax(0,1fr) 108px;gap:8px;padding-right:14px}.detail-head>.pixel-large{width:108px;height:108px}.detail-head:has(.pixel-large) .detail-close{position:absolute;right:-8px;top:-12px}}
+
+/* 0.15 batch 3: muted transparent fish, plants and meals. */
+.pixel-sheet-4{background-image:url('assets/pixel-atlas-04-clear.png')}
+.pixel-sheet-5{background-image:url('assets/pixel-atlas-05-clear.png')}
+.pixel-sheet-6{background-image:url('assets/pixel-atlas-06-clear.png')}
+.pixel-sheet-7{background-image:url('assets/pixel-atlas-07-clear.png')}
+.pixel-kind-meal:is(.pixel-sheet-5,.pixel-sheet-6,.pixel-sheet-7){filter:saturate(.3)}
+
+/* Isolate each sprite by its own bounds; adjacent sprites may cross the nominal grid. */
+.pixel-art{position:relative;background-size:0 0!important}
+.pixel-art::before{content:'';position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:var(--art-width,100%);height:var(--art-height,100%);background-image:inherit;background-repeat:no-repeat;background-size:var(--art-size,100% 100%);background-position:var(--art-position,center);image-rendering:pixelated}
+
+/* 0.15 batch 4: all remaining fish, retaining individual sprite bounds. */
+.pixel-sheet-8{background-image:url('assets/pixel-atlas-08-clear.png?v=spots1')}
+.pixel-sheet-9{background-image:url('assets/pixel-atlas-09-clear.png')}
+.pixel-sheet-10{background-image:url('assets/pixel-atlas-10-clear.png')}
+.pixel-sheet-11{background-image:url('assets/pixel-atlas-11-clear.png')}
+.pixel-sheet-12{background-image:url('assets/pixel-atlas-12-clear.png')}
+
+.pixel-sheet-13{background-image:url('assets/pixel-atlas-13-clear.png')}
+
+.pixel-sheet-14{background-image:url('assets/pixel-atlas-14-clear.png')}
+
+.pixel-sheet-15{background-image:url('assets/pixel-atlas-15-clear.png')}
+
+.pixel-sheet-16{background-image:url('assets/pixel-atlas-16-clear.png')}
+
+.pixel-sheet-17{background-image:url('assets/pixel-atlas-17-clear.png')}

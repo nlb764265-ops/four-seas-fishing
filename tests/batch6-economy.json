@@ -1,6 +1,6 @@
 {
   "rule": "bait charged per fish caught; fares uncapped",
-  "worstRatio": 1.3193,
+  "worstRatio": 1.3723,
   "worstAt": "2月 釣竿Lv.1 售價0 meat 無料理",
   "fares": {
     "sunmoon_bodensee": 500,
@@ -12,68 +12,76 @@
       "month": 3,
       "bait": "dough",
       "perCast": {
-        "sunmoon": 12.16,
-        "zengwen": 13.67,
-        "qigu": 12.98,
-        "guandu": 13.05,
-        "keelung": 14.95,
-        "penghu": 14.41,
-        "longdong": 15.29,
-        "kenting": 14.23,
-        "tolo": 15.48,
-        "bodensee": 14.22,
-        "greifswald": 12.38
+        "sunmoon": 32.1,
+        "zengwen": 36.76,
+        "qigu": 34.24,
+        "guandu": 36.42,
+        "keelung": 42.29,
+        "penghu": 41.17,
+        "longdong": 42.59,
+        "kenting": 40.88,
+        "tolo": 40.48,
+        "bodensee": 41.91,
+        "greifswald": 33.2,
+        "biwa": 36.65,
+        "kasumigaura": 35.43
       }
     },
     {
       "month": 3,
       "bait": "meat",
       "perCast": {
-        "sunmoon": 11.45,
-        "zengwen": 13.13,
-        "qigu": 10.76,
-        "guandu": 10.83,
-        "keelung": 12.83,
-        "penghu": 12.26,
-        "longdong": 13.18,
-        "kenting": 12.08,
-        "tolo": 13.37,
-        "bodensee": 12.06,
-        "greifswald": 10.14
+        "sunmoon": 27.55,
+        "zengwen": 33.69,
+        "qigu": 27.47,
+        "guandu": 29.75,
+        "keelung": 35.89,
+        "penghu": 34.71,
+        "longdong": 36.2,
+        "kenting": 34.41,
+        "tolo": 34,
+        "bodensee": 35.49,
+        "greifswald": 26.38,
+        "biwa": 29.99,
+        "kasumigaura": 28.72
       }
     },
     {
       "month": 10,
       "bait": "dough",
       "perCast": {
-        "sunmoon": 12.16,
-        "zengwen": 13.67,
-        "qigu": 12.98,
-        "guandu": 13.05,
-        "keelung": 14.95,
-        "penghu": 14.41,
-        "longdong": 15.29,
-        "kenting": 14.23,
-        "tolo": 15.48,
-        "bodensee": 14.22,
-        "greifswald": 13.15
+        "sunmoon": 32.1,
+        "zengwen": 36.76,
+        "qigu": 34.24,
+        "guandu": 36.42,
+        "keelung": 42.29,
+        "penghu": 41.17,
+        "longdong": 42.59,
+        "kenting": 40.88,
+        "tolo": 40.48,
+        "bodensee": 41.91,
+        "greifswald": 34.7,
+        "biwa": 36.65,
+        "kasumigaura": 35.43
       }
     },
     {
       "month": 10,
       "bait": "meat",
       "perCast": {
-        "sunmoon": 11.45,
-        "zengwen": 13.13,
-        "qigu": 10.76,
-        "guandu": 10.83,
-        "keelung": 12.83,
-        "penghu": 12.26,
-        "longdong": 13.18,
-        "kenting": 12.08,
-        "tolo": 13.37,
-        "bodensee": 12.06,
-        "greifswald": 10.94
+        "sunmoon": 27.55,
+        "zengwen": 33.69,
+        "qigu": 27.47,
+        "guandu": 29.75,
+        "keelung": 35.89,
+        "penghu": 34.71,
+        "longdong": 36.2,
+        "kenting": 34.41,
+        "tolo": 34,
+        "bodensee": 35.49,
+        "greifswald": 27.95,
+        "biwa": 29.99,
+        "kasumigaura": 28.72
       }
     }
   ]
