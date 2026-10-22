@@ -153,3 +153,5 @@ footer{font-size:12px}
 
 /* 0.8 route cost is part of the existing location card. */
 .travel-route{font-weight:600;color:var(--ink);overflow-wrap:anywhere}
+
+.heading-row{display:flex;align-items:center;gap:20px}.language-switch{display:flex;align-items:center;gap:2px;white-space:nowrap}.language-switch button{border:0;background:none;box-shadow:none;border-radius:0;padding:10px 8px;min-height:44px;min-width:36px;color:inherit;font-size:16px}.language-switch button[aria-pressed=true]{font-weight:800;text-decoration:underline;text-underline-offset:5px}.language-switch button:focus-visible{outline:2px solid #648b72;outline-offset:1px}.fish-reading{font-size:15px;line-height:1.9;color:var(--muted,#65746b);margin:4px 0 16px}.fish-reading span{display:inline-block;margin-right:14px}@media(max-width:650px){.heading-row{justify-content:space-between;width:100%}}

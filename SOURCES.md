@@ -1,4 +1,4 @@
-# 四海釣遊記 0.8：資料來源
+# 四海釣遊記 0.9：資料來源
 
 查閱日期：2026-10-21。魚類文字為依資料重寫的簡介，沒有使用來源照片或大段原文。魚類資料不等於遊戲機率、價格與現實賞金政策。
 
@@ -141,3 +141,30 @@ Natural Earth [1:50m Land](https://www.naturalearthdata.com/downloads/50m-physic
 ## 0.8 經濟設定（2026-10-22）
 
 本版未新增魚種或變更現實分布資料。旅費依既有座標作球面距離估算，以 20＋ceil(公里／100)×5 元計，單程最高 150 元，原地為 0；不是實際交通價格。各魚基礎價依 round(16×(0.7 基礎價／15)^0.25) 收斂，賞金魚基礎賞金為新基礎價的 1.5 倍四捨五入；同種魚跨點同價，魚池權重與出沒條件保留。漁獲售價及新漁獲賞金共用 100%～200% 永久倍率，料理售價倍率另乘。以上均屬遊戲設定。
+
+
+## 0.9 補魚、名稱與讀音查核（2026-10-22）
+
+本輪新增十四種，並將六筆既有魚種分布配置補至既有釣點，合計二十一筆水域魚種配置（霓虹雀鯛使用同一個魚種 ID 分布於兩點）。權重、重量範圍、價格及出沒條件是遊戲設定；調查中的稚魚、拖網尾數或觀察紀錄不代表現行釣獲率或垂釣許可。各池沿用核定新增權重，舊權重等比例縮至剩餘總額，再以最大餘數法補足整數，總計 100。
+
+### 分布依據及原稿缺口處理
+
+日月潭紅魔麗體魚依[臺灣魚類資料庫出現紀錄](https://fishdb.sinica.edu.tw/taxon/395487-fishdb/occurrence)：NTHU-2023-IAAR-SR00008953，2023-08-15 魚池鄉水社村日月潭，目視 278 尾；另見[中研院典藏](https://catalog.digitalarchives.tw/item/00/5f/ca/c9.html)。本作採 Amphilophus citrinellus，不把所有俗稱紅魔鬼的雜交魚視為同種。
+
+曾文泰國雙角魚、三星鬥魚依[水利署魚類表](https://web.wra.gov.tw/swreeis/cp.aspx?n=8143)。三星鬥魚採 Trichopodus trichopterus，原調查的 Trichogaster 為舊屬名，形態、迷器呼吸、食性參見[物種頁](https://fishdb.sinica.edu.tw/taxon/382223-fishdb)。泰國雙角魚的黑身、紅尾、紅背鰭、浮游動植物食性及原產地食用紀錄依[FWS 摘要第 2～3 頁](https://www.fws.gov/sites/default/files/documents/Ecological-Risk-Screening-Summary-Epalzeorhynchos-munense-fish.pdf)，沒有沿用其他觀賞紅尾魚的介紹。
+
+關渡奇力魚、羅漢魚、半紋小䰾及大棘雙邊魚依[2017 關渡魚類名錄](https://gd-park.org.tw/sites/gd-park.org.tw/files/att/關渡的魚類_1.pdf)。該名錄「臺灣鬚鱲」中文名搭配 Candidia pingtungensis，兩者並非同種；本作沿用既有 C. barbata，採[2017 原始研究中的淡水河標本 FKUN 34180](https://pmc.ncbi.nlm.nih.gov/articles/PMC5740415/)支持流域配置，並不宣稱該標本採於公園內。半紋小䰾採 Barbodes semifasciolatus；[CAS 名錄](https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?genus=Barbodes&species=semifasciolatus&tbl=species)、[TBN 名稱與異名](https://www.tbn.org.tw/taxa/d11b18eb-ae8f-460b-985b-ac9042602183)及[魚類資料庫舊屬物種頁](https://fishdb.sinica.edu.tw/chi/species.php?science=Puntius+semifasciolatus)互核。大棘雙邊魚生態依[中研院資料之教育大市集原作者條目](https://market.cloud.edu.tw/search/kwmap108_result.jsp?btype=&kwcode=4&p=836&sortfield=)。
+
+基隆印度海緋鯉與玳瑁石斑分別依[東北角圖鑑 6](https://digifish.biodiv.tw/northeast_detail.php?id=6)、[東北角圖鑑 10](https://digifish.biodiv.tw/northeast_detail.php?id=10)。霓虹雀鯛的基隆嶼紀錄為[何林泰實地魚類介紹](https://e-info.org.tw/node/56574)；龍洞有[陳靜怡 2009-06-18 拍攝並鑑定的影片](https://fishdb.sinica.edu.tw/mobi/showvideo.php?filename=fv0627&science=Pomacentrus+coelestis)，也有[2020 龍洞影像](https://fishdb.sinica.edu.tw/muse/digi_object/1a84d93d77305541694c79ec57127cb5)。形態及食性依[原魚類資料庫數位典藏](https://catalog.digitalarchives.tw/item/00/00/3d/45.html)。龍洞褐臭肚魚依[ASIZP0080474](https://fishdb.sinica.edu.tw/muse/digi_object/3b1f2aa59e59271e3c4e280558594031)：2000-09-28 新北市龍洞，2016-04-25 林沛立鑑定，成魚十尾。
+
+七股兩種新增魚依[台江國家公園優勢魚名錄](https://www.tjnp.gov.tw/ch/sglarticle/cetaceans-and-fish)，範圍為潟湖及周邊水域。[黑邊布氏鰏物種頁](https://fishdb.sinica.edu.tw/chi/species.php?id=382059)支持黑背鰭緣、砂泥底及小型食用魚資訊；黃小沙丁魚的金色側帶與食用利用見[水試所臺灣東部海洋魚類第 121 頁](https://www.tfrin.gov.tw/redirect_files.php?file_name=mBrFh1SnRYhjNDT4rR5WGSlashOl0BKViOUyXpXCf2UlCjHmpWGSlashZm3pGFN4WGSlashHQbCQqfNfjT&id=53)，食性見[中研院原作者條目](https://market.cloud.edu.tw/search/kwmap108_result.jsp?bmtype=&kwcode=4&p=757&sortfield=updated_at)。
+
+澎湖六種新增魚全部列於[2011～2012 大倉灣海草床調查摘要](https://kmweb.moa.gov.tw/redirect_files.php?id=313574)。其中 Spratelloides gracilis 原摘要的「灰海荷鰛」字形有誤，現採[農業部食農平台的「日本銀帶鯡」](https://fae.moa.gov.tw/map/food_item.php?id=382&type=AS01)作主名，別名丁香魚；不把所有丁香魚或魩仔魚混為同種。六斑刺魨另名六斑二齒魨，依[魚類資料庫](https://fishdb.sinica.edu.tw/chi/species.php?gen=Diodon&spe=holocanthus)與[食藥署圖鑑第 22 頁](https://www.fda.gov.tw/tc/includes/GetFile.ashx?id=f638403903383354823&type=4)保留棘刺與毒性未明資訊，本輪無料理。黃帶擬鬚鯛依[中研院典藏](https://digiarch.sinica.edu.tw/content/repository/resource_content.jsp?oid=4353128)，黃尾金梭魚依[中研院原作者條目](https://market.cloud.edu.tw/resources/web/1756388)，奧奈鑽嘴魚依[農業知識入口網](https://kmweb.moa.gov.tw/theme_data.php?id=492&theme=fisheasy)，中國單棘魨依[魚類資料庫中華單棘魨條目](https://fishdb.sinica.edu.tw/mobi/species.php?id=382992)。後者可食用，沒有把河魨毒性套用至單棘魨。
+
+### 讀音及文字轉換
+
+繁體用注音、簡體用帶聲調漢語拼音。同一詞條按畫面實際出現的生難字去重，僅在已捕獲的圖鑑詳情呈現。未捕獲者沒有讀音及名稱搜尋結果。字音依教育部標準，兩種字體維持同一採音，沒有自行將全部罕見魚字按部件猜音；「鮘」為地方俗稱，不編造國語讀音。
+
+重點採音：[鮊 ㄅㄛˊ](https://dict.variants.moe.edu.tw/dictView.jsp?ID=111744)、[鱲 ㄌㄚˋ](https://dict.variants.moe.edu.tw/dictView.jsp?ID=112193)、[鰏 ㄅㄧˋ](https://dict.variants.moe.edu.tw/dictView.jsp?ID=111956)、[䰾 ㄅㄚ（鯉科魚義）](https://dict.variants.moe.edu.tw/dictView.jsp?ID=111676)、[鱎 ㄐㄧㄠˇ](https://dict.variants.moe.edu.tw/dictView.jsp?ID=112129)、[䱗 ㄘㄢ](https://pedia.cloud.edu.tw/Entry/Detail?title=𩽐)、[櫛 ㄐㄧㄝˊ](https://dict.revised.moe.edu.tw/dictView.jsp?ID=5593)、[鰡 ㄌㄧㄡˊ](https://pedia.cloud.edu.tw/Entry/Detail/?search=鰡&title=鰡)。鱲的 liè 異讀留在原審閱稿查核表，介面採教育部 là。其餘優先字來源沿用根目錄審閱稿的教育部、中央研究院字形條目。
+
+繁簡字典取自 [OpenCC ver.1.1.9](https://github.com/BYVoid/OpenCC/tree/ver.1.1.9/data/dictionary) 的 TSCharacters 與 TSPhrases，遵循 Apache-2.0，授權原文隨附 `OPENCC-LICENSE.txt`。採最長詞組匹配後字元匹配；魚名、俗名、敘述與介面使用同一離線轉換，學名與 stable ID 不變。語言偏好使用獨立儲存鍵，不寫入遊戲進度。
