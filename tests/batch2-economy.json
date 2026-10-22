@@ -1,0 +1,148 @@
+{
+  "maxRatio": 1.2850939952653566,
+  "october": [
+    {
+      "bait": "dough",
+      "values": [
+        {
+          "id": "sunmoon",
+          "net": 11.915023174603077
+        },
+        {
+          "id": "zengwen",
+          "net": 13.429568451361282
+        },
+        {
+          "id": "qigu",
+          "net": 12.737817777777732
+        },
+        {
+          "id": "guandu",
+          "net": 12.807327100089765
+        },
+        {
+          "id": "keelung",
+          "net": 14.71363725869086
+        },
+        {
+          "id": "penghu",
+          "net": 14.167038158730207
+        },
+        {
+          "id": "longdong",
+          "net": 15.052971050838025
+        },
+        {
+          "id": "kenting",
+          "net": 13.993933367839947
+        },
+        {
+          "id": "tolo",
+          "net": 15.236148717948758
+        }
+      ]
+    },
+    {
+      "bait": "meat",
+      "values": [
+        {
+          "id": "sunmoon",
+          "net": 11.049899755799736
+        },
+        {
+          "id": "zengwen",
+          "net": 12.727909975456335
+        },
+        {
+          "id": "qigu",
+          "net": 10.362264040403995
+        },
+        {
+          "id": "guandu",
+          "net": 10.434932877366574
+        },
+        {
+          "id": "keelung",
+          "net": 12.427893497722259
+        },
+        {
+          "id": "penghu",
+          "net": 11.85644898412703
+        },
+        {
+          "id": "longdong",
+          "net": 12.782651553148842
+        },
+        {
+          "id": "kenting",
+          "net": 11.675475793650854
+        },
+        {
+          "id": "tolo",
+          "net": 12.974155477855518
+        }
+      ]
+    }
+  ],
+  "newFish": [
+    {
+      "id": "bigeyetrevally",
+      "price": 20,
+      "min": 0.3,
+      "max": 3
+    },
+    {
+      "id": "silversillago",
+      "price": 17,
+      "min": 0.04,
+      "max": 0.25
+    }
+  ],
+  "fares": [
+    {
+      "from": "sunmoon",
+      "kenting": 35,
+      "tolo": 60
+    },
+    {
+      "from": "zengwen",
+      "kenting": 30,
+      "tolo": 55
+    },
+    {
+      "from": "qigu",
+      "kenting": 30,
+      "tolo": 55
+    },
+    {
+      "from": "guandu",
+      "kenting": 40,
+      "tolo": 60
+    },
+    {
+      "from": "keelung",
+      "kenting": 40,
+      "tolo": 65
+    },
+    {
+      "from": "penghu",
+      "kenting": 35,
+      "tolo": 50
+    },
+    {
+      "from": "longdong",
+      "kenting": 40,
+      "tolo": 65
+    },
+    {
+      "from": "kenting",
+      "kenting": 0,
+      "tolo": 55
+    },
+    {
+      "from": "tolo",
+      "kenting": 55,
+      "tolo": 0
+    }
+  ]
+}

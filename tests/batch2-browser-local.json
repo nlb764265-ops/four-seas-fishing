@@ -1,0 +1,13 @@
+{
+  "url": "http://127.0.0.1:8138/",
+  "checkedAt": "2026-10-22T08:07:48.487Z",
+  "errors": [],
+  "checks": [
+    "0.10 fixture import, manual slot and 0.11 JSON export",
+    "both new waters selected on map, paid travel and fishing",
+    "new names hidden before capture; Traditional and Simplified search and readings",
+    "1280/390/320 responsive map, list and atlas",
+    "reload persists new progress; original manual save reloads"
+  ],
+  "status": "passed"
+}

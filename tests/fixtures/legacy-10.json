@@ -1,0 +1,48 @@
+{
+  "version": 4,
+  "money": 146,
+  "rod": 0,
+  "box": 0,
+  "sales": 1,
+  "items": [
+    {
+      "type": "fish",
+      "fish": "qili",
+      "kg": 0.08,
+      "baseValue": 11,
+      "baseBounty": 0,
+      "region": "sunmoon"
+    }
+  ],
+  "book": {
+    "qili": {
+      "count": 1,
+      "best": 0.08
+    }
+  },
+  "total": 1,
+  "casts": 1,
+  "weeds": 0,
+  "bountyTotal": 0,
+  "bountyCount": 0,
+  "bait": {
+    "dough": 18,
+    "meat": 0
+  },
+  "selectedBait": "dough",
+  "region": "sunmoon",
+  "unlocked": [
+    "sunmoon"
+  ],
+  "active": true,
+  "castAt": 1000,
+  "castMs": 8000,
+  "castRod": 0,
+  "castSales": 1,
+  "castBait": "dough",
+  "castEffect": null,
+  "buff": null,
+  "logs": [],
+  "savedAt": 1000,
+  "seed": 12345
+}

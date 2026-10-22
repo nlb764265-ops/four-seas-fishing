@@ -1,0 +1,338 @@
+[
+  {
+    "id": "qili",
+    "latin": "Hemiculter leucisculus"
+  },
+  {
+    "id": "crucian",
+    "latin": "Carassius auratus"
+  },
+  {
+    "id": "carp",
+    "latin": "Cyprinus carpio"
+  },
+  {
+    "id": "grass",
+    "latin": "Ctenopharyngodon idella"
+  },
+  {
+    "id": "silver",
+    "latin": "Hypophthalmichthys molitrix"
+  },
+  {
+    "id": "culter",
+    "latin": "Culter alburnus"
+  },
+  {
+    "id": "snakehead",
+    "latin": "Channa micropeltes"
+  },
+  {
+    "id": "jaguar",
+    "latin": "Parachromis managuensis"
+  },
+  {
+    "id": "blackporgy",
+    "latin": "Acanthopagrus schlegelii"
+  },
+  {
+    "id": "yellowfin",
+    "latin": "Acanthopagrus latus"
+  },
+  {
+    "id": "terapon",
+    "latin": "Terapon jarbua"
+  },
+  {
+    "id": "bighead",
+    "latin": "Hypophthalmichthys nobilis"
+  },
+  {
+    "id": "blackcarp",
+    "latin": "Mylopharyngodon piceus"
+  },
+  {
+    "id": "mudcarp",
+    "latin": "Cirrhinus molitorella"
+  },
+  {
+    "id": "marbledgoby",
+    "latin": "Oxyeleotris marmorata"
+  },
+  {
+    "id": "bream",
+    "latin": "Megalobrama amblycephala"
+  },
+  {
+    "id": "stripedsnakehead",
+    "latin": "Channa striata"
+  },
+  {
+    "id": "redfinculter",
+    "latin": "Chanodichthys erythropterus"
+  },
+  {
+    "id": "girella",
+    "latin": "Girella punctata"
+  },
+  {
+    "id": "rabbitfish",
+    "latin": "Siganus fuscescens"
+  },
+  {
+    "id": "mullet",
+    "latin": "Mugil cephalus"
+  },
+  {
+    "id": "pachyhead",
+    "latin": "Opsariichthys pachycephalus"
+  },
+  {
+    "id": "candidia",
+    "latin": "Candidia barbata"
+  },
+  {
+    "id": "topmouth",
+    "latin": "Pseudorasbora parva"
+  },
+  {
+    "id": "mingtangoby",
+    "latin": "Rhinogobius candidianus"
+  },
+  {
+    "id": "tilapia",
+    "latin": "Coptodon zillii"
+  },
+  {
+    "id": "hypsibarbus",
+    "latin": "Hypsibarbus pierrei"
+  },
+  {
+    "id": "spottedsnakehead",
+    "latin": "Channa maculata"
+  },
+  {
+    "id": "pleco",
+    "latin": "Pterygoplichthys pardalis"
+  },
+  {
+    "id": "loach",
+    "latin": "Misgurnus anguillicaudatus"
+  },
+  {
+    "id": "amurcatfish",
+    "latin": "Silurus asotus"
+  },
+  {
+    "id": "giurinus",
+    "latin": "Rhinogobius giurinus"
+  },
+  {
+    "id": "scorpionfish",
+    "latin": "Sebastiscus marmoratus"
+  },
+  {
+    "id": "mezina",
+    "latin": "Girella mezina"
+  },
+  {
+    "id": "sergeant",
+    "latin": "Abudefduf vaigiensis"
+  },
+  {
+    "id": "russellsnapper",
+    "latin": "Lutjanus russellii"
+  },
+  {
+    "id": "fourline",
+    "latin": "Pelates quadrilineatus"
+  },
+  {
+    "id": "puffer",
+    "latin": "Takifugu niphobles"
+  },
+  {
+    "id": "stripey",
+    "latin": "Microcanthus strigatus"
+  },
+  {
+    "id": "ladyfish",
+    "latin": "Elops machnata"
+  },
+  {
+    "id": "tarpon",
+    "latin": "Megalops cyprinoides"
+  },
+  {
+    "id": "eel",
+    "latin": "Anguilla japonica"
+  },
+  {
+    "id": "niletilapia",
+    "latin": "Oreochromis niloticus"
+  },
+  {
+    "id": "mangrovejack",
+    "latin": "Lutjanus argentimaculatus"
+  },
+  {
+    "id": "scat",
+    "latin": "Scatophagus argus"
+  },
+  {
+    "id": "mono",
+    "latin": "Monodactylus argenteus"
+  },
+  {
+    "id": "twseabream",
+    "latin": "Acanthopagrus taiwanensis"
+  },
+  {
+    "id": "mudskipper",
+    "latin": "Periophthalmus modestus"
+  },
+  {
+    "id": "chelon",
+    "latin": "Chelon affinis"
+  },
+  {
+    "id": "walkingcatfish",
+    "latin": "Clarias batrachus"
+  },
+  {
+    "id": "swampeel",
+    "latin": "Monopterus albus"
+  },
+  {
+    "id": "dwarfsnakehead",
+    "latin": "Channa asiatica"
+  },
+  {
+    "id": "whitecrucian",
+    "latin": "Carassius cuvieri"
+  },
+  {
+    "id": "bluespotgrouper",
+    "latin": "Epinephelus coeruleopunctatus"
+  },
+  {
+    "id": "longfingrouper",
+    "latin": "Epinephelus quoyanus"
+  },
+  {
+    "id": "squirrelfish",
+    "latin": "Sargocentron rubrum"
+  },
+  {
+    "id": "bigeyebream",
+    "latin": "Monotaxis grandoculis"
+  },
+  {
+    "id": "fusilier",
+    "latin": "Pterocaesio digramma"
+  },
+  {
+    "id": "monocle",
+    "latin": "Scolopsis vosmeri"
+  },
+  {
+    "id": "goatfish",
+    "latin": "Parupeneus indicus"
+  },
+  {
+    "id": "tuskfish",
+    "latin": "Choerodon azurio"
+  },
+  {
+    "id": "morwong",
+    "latin": "Cheilodactylus quadricornis"
+  },
+  {
+    "id": "wrasse",
+    "latin": "Halichoeres hortulanus"
+  },
+  {
+    "id": "largescalemullet",
+    "latin": "Planiliza macrolepis"
+  },
+  {
+    "id": "greenbackmullet",
+    "latin": "Planiliza subviridis"
+  },
+  {
+    "id": "gizzardshad",
+    "latin": "Nematalosa japonica"
+  },
+  {
+    "id": "redseabream",
+    "latin": "Pagrus major"
+  },
+  {
+    "id": "sarba",
+    "latin": "Rhabdosargus sarba"
+  },
+  {
+    "id": "coioides",
+    "latin": "Epinephelus coioides"
+  },
+  {
+    "id": "emperor",
+    "latin": "Lethrinus nebulosus"
+  },
+  {
+    "id": "midas",
+    "latin": "Amphilophus citrinellus"
+  },
+  {
+    "id": "munense",
+    "latin": "Epalzeorhynchos munense"
+  },
+  {
+    "id": "gourami",
+    "latin": "Trichopodus trichopterus"
+  },
+  {
+    "id": "semifasciolatus",
+    "latin": "Barbodes semifasciolatus"
+  },
+  {
+    "id": "glassfish",
+    "latin": "Ambassis macracanthus"
+  },
+  {
+    "id": "neondamsel",
+    "latin": "Pomacentrus coelestis"
+  },
+  {
+    "id": "lemuru",
+    "latin": "Sardinella lemuru"
+  },
+  {
+    "id": "splendens",
+    "latin": "Eubleekeria splendens"
+  },
+  {
+    "id": "porcupine",
+    "latin": "Diodon holocanthus"
+  },
+  {
+    "id": "yellowgoat",
+    "latin": "Mulloidichthys flavolineatus"
+  },
+  {
+    "id": "yellowbarracuda",
+    "latin": "Sphyraena flavicauda"
+  },
+  {
+    "id": "oyena",
+    "latin": "Gerres oyena"
+  },
+  {
+    "id": "chinesefilefish",
+    "latin": "Monacanthus chinensis"
+  },
+  {
+    "id": "silversprat",
+    "latin": "Spratelloides gracilis"
+  }
+]

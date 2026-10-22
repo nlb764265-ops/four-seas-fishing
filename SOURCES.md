@@ -1,4 +1,4 @@
-# 四海釣遊記 0.9：資料來源
+# 四海釣遊記 0.11：資料來源
 
 查閱日期：2026-10-21。魚類文字為依資料重寫的簡介，沒有使用來源照片或大段原文。魚類資料不等於遊戲機率、價格與現實賞金政策。
 
@@ -168,3 +168,22 @@ Natural Earth [1:50m Land](https://www.naturalearthdata.com/downloads/50m-physic
 重點採音：[鮊 ㄅㄛˊ](https://dict.variants.moe.edu.tw/dictView.jsp?ID=111744)、[鱲 ㄌㄚˋ](https://dict.variants.moe.edu.tw/dictView.jsp?ID=112193)、[鰏 ㄅㄧˋ](https://dict.variants.moe.edu.tw/dictView.jsp?ID=111956)、[䰾 ㄅㄚ（鯉科魚義）](https://dict.variants.moe.edu.tw/dictView.jsp?ID=111676)、[鱎 ㄐㄧㄠˇ](https://dict.variants.moe.edu.tw/dictView.jsp?ID=112129)、[䱗 ㄘㄢ](https://pedia.cloud.edu.tw/Entry/Detail?title=𩽐)、[櫛 ㄐㄧㄝˊ](https://dict.revised.moe.edu.tw/dictView.jsp?ID=5593)、[鰡 ㄌㄧㄡˊ](https://pedia.cloud.edu.tw/Entry/Detail/?search=鰡&title=鰡)。鱲的 liè 異讀留在原審閱稿查核表，介面採教育部 là。其餘優先字來源沿用根目錄審閱稿的教育部、中央研究院字形條目。
 
 繁簡字典取自 [OpenCC ver.1.1.9](https://github.com/BYVoid/OpenCC/tree/ver.1.1.9/data/dictionary) 的 TSCharacters 與 TSPhrases，遵循 Apache-2.0，授權原文隨附 `OPENCC-LICENSE.txt`。採最長詞組匹配後字元匹配；魚名、俗名、敘述與介面使用同一離線轉換，學名與 stable ID 不變。語言偏好使用獨立儲存鍵，不寫入遊戲進度。
+
+
+## 0.11 東亞第 2 批：墾丁沿岸、吐露港
+
+查閱日期：2026-10-22。以下野外紀錄支持遊戲水域配置；體重、權重、價格、天氣比例與文字場景另為遊戲設定，調查年代及採樣方法不等於現今族群數量或竿釣機率。地圖採水域概略標記，墾丁沿岸為恆春半島南部水域（21.945° N、120.770° E），吐露港為內灣概略中心（22.445° N、114.235° E）；不定位到調查測站或保護區垂釣入口。
+
+墾丁採原計劃六種，五種共用既有 ID，新建六帶鰺：
+
+- 墾丁國家公園管理處委託[106 年度墾丁海域垂釣魚類資源量監測調查](https://mpa.oca.gov.tw/Files/Knowledge/cdc47203a5ab401184a7764e06266d15.pdf)：表八（報告頁 24～27，PDF 頁 47～50）及各測站表列條紋豆娘魚 Abudefduf vaigiensis、雲斑海豬魚 Halichoeres hortulanus、玳瑁石斑魚 Epinephelus quoyanus、黑帶棘鰭魚 Sargocentron rubrum、雙帶鱗鰭烏尾鮗 Pterocaesio digramma。後者與既有「雙帶烏尾冬」為同種，沿用 fusilier。表五亦列六帶鰺為墾丁船釣魚種。
+- 管理處委託[99 年後壁湖海洋資源保護示範區生態資源調查（第 2 年）](https://mpa.oca.gov.tw/Files/Knowledge/63850de378554ca7a934c777c041e5bf.pdf)：表 3-1 有 Caranx sexfasciatus 的定點潛水紀錄，補六帶鰺野外分布；本遊戲釣點不設在保護示範區測站。
+- 中研院[六帶鰺 Caranx sexfasciatus](https://fishdb.sinica.edu.tw/taxon/381530-fishdb)：名稱、幼魚橫帶隨成長變淡、稜鱗、沿岸礁區及河口棲地、魚與甲殼類食性及食用利用。遊戲選取 0.30～3.00 公斤作釣獲區間，不採現實極大體重。
+
+吐露港以同地野外採樣成立六種魚池，五種共用既有 ID，新建多鱗沙鮻：
+
+- Nip 與 Wong（2010），[Juvenile Fish Assemblages in Mangrove and Non-Mangrove Soft-Shore Habitats in Eastern Hong Kong](https://zoolstud.sinica.edu.tw/Journals/49.6/760.pdf)，Zoological Studies 49(6):760–778。研究方法及圖一將 Kei Ling Hai Lo Wai（KL）與 Starfish Bay（SB）歸入吐露港，Port Shelter 另分三站。表三頁 765～766 的吐露港兩欄列 Sillago sihama、Acanthopagrus schlegeli、A. latus、Rhabdosargus sarba、Mugil cephalus、Terapon jarbua。A. schlegeli 對接既有 A. schlegelii；幼魚紀錄用來支持水域出現，遊戲重量不照搬幼魚採樣值。
+- 同表 Lutjanus argentimaculatus、Scatophagus argus 的吐露港欄位空白，資料列在後面的 Port Shelter 欄位；不以整張表有學名推定吐露港有捕獲。本輪將原候選銀紋笛鯛、金錢魚改為烏魚、花身雞魚。這不表示兩種魚在吐露港絕對不存在；其他研究及養殖名單未作本輪配置依據。
+- 中研院[多鱗沙鮻 Sillago sihama](https://fishdb.sinica.edu.tw/taxon/382631-fishdb)：現行中文名、沙腸仔／多鱗鱚別名、細長尖吻、砂泥底與河口棲地、底棲無脊椎動物食性、埋沙行為及油炸利用。遊戲新 ID silversillago，重量 0.04～0.25 公斤。
+
+讀音：[漢典「鲹」](https://zdic.net/hans/%E9%B2%B9)的魚科義標為 shēn／ㄕㄣ；本版為六帶鰺增補此義讀音，鮻沿用原有 suō／ㄙㄨㄛ。繁簡轉換沿用內附 OpenCC 字典。
