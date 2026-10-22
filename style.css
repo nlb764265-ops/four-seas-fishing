@@ -39,7 +39,7 @@ header{flex-wrap:wrap;gap:12px 20px;margin-bottom:24px;padding-bottom:18px;borde
 .box-chip i{position:absolute;left:0;bottom:0;height:3px;width:var(--fill);background:var(--green)}
 .box-chip.full{border-color:#e2b39d;color:var(--warn)}.box-chip.full i{background:var(--warn)}
 .card,.fishing-panel{background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);padding:20px 22px}
-.fishing-grid{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:22px;align-items:start}
+.fishing-grid{display:grid;grid-template-columns:minmax(0,700px) minmax(320px,460px);gap:22px;align-items:start}
 .fishing-main{display:grid;gap:22px;min-width:0}
 .current-water{padding:0 0 18px;margin-bottom:18px;border-bottom:1px solid var(--line)}
 .primary{border-radius:8px;box-shadow:0 2px 0 #18322a}

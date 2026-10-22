@@ -1,4 +1,4 @@
-# 四海釣遊記 0.13：資料來源
+# 四海釣遊記 0.14：資料來源
 
 查閱日期：2026-10-21。魚類文字為依資料重寫的簡介，沒有使用來源照片或大段原文。魚類資料不等於遊戲機率、價格與現實賞金政策。
 
@@ -261,3 +261,52 @@ Natural Earth [1:50m Land](https://www.naturalearthdata.com/downloads/50m-physic
 粵語：[維基百科「黃鰭棘鯛」](https://zh.wikipedia.org/wiki/黄鳍棘鲷)寫明香港及華南稱黃腳鱲。黑鯛、黃錫鯛、烏魚、花身雞魚、多鱗沙鮻的香港俗名未找到標明地區的可靠來源，待查。
 
 德語：[德文維基百科](https://de.wikipedia.org/)各物種條目——「Karpfen」、「Flussbarsch」（博登湖稱 Kretzer，瑞士稱 Egli）、「Hecht」、「Bodenseefelchen」（又稱 Blaufelchen）、「Forelle」（湖泊型 Seeforelle、溪流型 Bachforelle）、「Brasse (Fisch)」（又稱 Brachse、Blei）、「Atlantischer Hering」、「Zander」、「Flunder」、「Hornhechte」（格賴夫斯瓦爾德潟湖為其產卵地）。
+
+## 0.14 水草圖鑑（查閱日期 2026-10-22）
+
+每處水域的水草依兩類資料決定：一是 [GBIF](https://www.gbif.org/) 物種出現紀錄，以水域周邊的經緯度範圍查詢（範圍包含湖岸、水庫周邊與鄰近溼地，紀錄數不代表數量或現況）；二是官方圖鑑或調查對該地區的分布描述。海藻與海草的形態及分布主要依海洋保育署《[臺灣百種海洋生物－大型海藻與海草](https://www.oca.gov.tw/ch/home.jsp?id=535&parentpath=0,298)》改寫；淡水與德國水草的物種資料依 GBIF 物種頁。遊戲中每處水域的水草比例為遊戲設定，水草仍為每團回收 1 元，不影響收益。
+
+| 水域 | 水草（學名） | 分布依據 |
+| --- | --- | --- |
+| 日月潭 | 布袋蓮（Pontederia crassipes）、印度莕菜（Nymphoides indica）、黃花狸藻（Utricularia aurea） | GBIF 範圍紀錄各 [2](https://www.gbif.org/occurrence/search?taxon_key=2765942&decimal_latitude=23.83,23.89&decimal_longitude=120.88,120.95)、[3](https://www.gbif.org/occurrence/search?taxon_key=5341503&decimal_latitude=23.83,23.89&decimal_longitude=120.88,120.95)、[2](https://www.gbif.org/occurrence/search?taxon_key=8001590&decimal_latitude=23.83,23.89&decimal_longitude=120.88,120.95) 筆 |
+| 曾文水庫 | 大萍（Pistia stratiotes）、香蒲（Typha orientalis）、水丁香（Ludwigia octovalvis） | GBIF 範圍紀錄各 [1](https://www.gbif.org/occurrence/search?taxon_key=2870583&decimal_latitude=23.17,23.3&decimal_longitude=120.48,120.64)、[2](https://www.gbif.org/occurrence/search?taxon_key=5289521&decimal_latitude=23.17,23.3&decimal_longitude=120.48,120.64)、[10](https://www.gbif.org/occurrence/search?taxon_key=5420987&decimal_latitude=23.17,23.3&decimal_longitude=120.48,120.64) 筆。查無曾文水庫的水生植物專門調查，紀錄偏向庫區周邊，資料較薄 |
+| 七股潟湖 | 卵葉鹽草（Halophila ovalis）、川蔓藻（Ruppia maritima）、滸苔（Ulva prolifera） | 卵葉鹽草：海保署「可見於西南沿海的潟湖、鹽田及海水魚塭溝渠」，GBIF [22 筆](https://www.gbif.org/occurrence/search?taxon_key=5329622&decimal_latitude=23.05,23.18&decimal_longitude=120.03,120.14)；川蔓藻：GBIF [8 筆](https://www.gbif.org/occurrence/search?taxon_key=2864004&decimal_latitude=23.05,23.18&decimal_longitude=120.03,120.14)；滸苔：海保署「營養鹽較豐富的潟湖及養殖池也容易出現」（地區性描述，非七股點位紀錄） |
+| 關渡 | 茳茳鹹草（Cyperus malaccensis）、布袋蓮、細葉滿江紅（Azolla filiculoides） | 茳茳鹹草：[臺大關渡溼地植群變遷研究](https://scholars.lib.ntu.edu.tw/handle/123456789/86761)（1978 年與蘆葦同為優勢種），GBIF [8 筆](https://www.gbif.org/occurrence/search?taxon_key=2715148&decimal_latitude=25.1,25.13&decimal_longitude=121.45,121.48)；布袋蓮 GBIF [4 筆](https://www.gbif.org/occurrence/search?taxon_key=2765942&decimal_latitude=25.1,25.13&decimal_longitude=121.45,121.48)；細葉滿江紅 GBIF [6 筆](https://www.gbif.org/occurrence/search?taxon_key=2650107&decimal_latitude=25.1,25.13&decimal_longitude=121.45,121.48) |
+| 基隆沿岸 | 石蓴（Ulva lactuca）、石花菜（Gelidium elegans）、冬青葉馬尾藻（Sargassum ilicifolium） | 和平島居民採石花菜與石蓴：[食尚玩家和平島報導](https://supertaste.tvbs.com.tw/travel/317723)；石花菜 GBIF [4 筆](https://www.gbif.org/occurrence/search?taxon_key=2662699&decimal_latitude=25.12,25.17&decimal_longitude=121.7,121.8)；冬青葉馬尾藻：海保署「北部及東北角海岸最優勢的馬尾藻」，GBIF [1 筆](https://www.gbif.org/occurrence/search?taxon_key=3197248&decimal_latitude=25.12,25.17&decimal_longitude=121.7,121.8) |
+| 龍洞岩岸 | 石蓴、滸苔、羊栖菜（Sargassum fusiforme） | 石蓴、滸苔：[臺大澳底與龍洞潮間帶大型海藻研究](https://tdr.lib.ntu.edu.tw/jspui/handle/123456789/57057)列為主要藻種；羊栖菜：海保署「本島僅有北部及東北角海岸有其生長棲地」（地區性描述） |
+| 澎湖內海 | 卵葉鹽草、單脈二藥草（Halodule uninervis）、青海菜（Monostroma nitidum） | 卵葉鹽草 GBIF [15 筆](https://www.gbif.org/occurrence/search?taxon_key=5329622&decimal_latitude=23.53,23.68&decimal_longitude=119.5,119.65)；單脈二藥草：海保署（恆春、澎湖）與農業部澎湖海草調查（大倉北測站記錄單脈二藥藻、卵葉鹽藻）；青海菜：海保署（澎湖青海菜產業） |
+| 墾丁沿岸 | 泰來草（Thalassia hemprichii）、單脈二藥草、食用松藻（Codium edule） | 泰來草：海保署「產於恆春半島西側」，GBIF [13 筆](https://www.gbif.org/occurrence/search?taxon_key=5329593&decimal_latitude=21.89,21.98&decimal_longitude=120.7,120.86)；單脈二藥草：海保署「恆春半島南灣有單一族群」，GBIF [11 筆](https://www.gbif.org/occurrence/search?taxon_key=2864102&decimal_latitude=21.89,21.98&decimal_longitude=120.7,120.86)；食用松藻：海保署「南灣海域可見到大量繁生」 |
+| 吐露港 | 卵葉鹽草、石蓴 | 卵葉鹽草：[漁農自然護理署](https://www.afcd.gov.hk/english/conservation/con_wet/con_wet_sea/con_wet_sea_dis/con_wet_sea_dis.html)稱其為香港分布最廣的海草，GBIF [2 筆](https://www.gbif.org/occurrence/search?taxon_key=5329622&decimal_latitude=22.4,22.5&decimal_longitude=114.17,114.3)；石蓴 GBIF [1 筆](https://www.gbif.org/occurrence/search?taxon_key=5273309&decimal_latitude=22.4,22.5&decimal_longitude=114.17,114.3)。漁護署未列出吐露港內的海草點位，第三種待查 |
+| 博登湖 | 球狀輪藻（Chara globularis）、穿葉眼子菜（Potamogeton perfoliatus）、穗花狐尾藻（Myriophyllum spicatum）、伊樂藻（Elodea nuttallii） | GBIF 範圍紀錄各 [355](https://www.gbif.org/occurrence/search?taxon_key=5270780&decimal_latitude=47.48,47.82&decimal_longitude=9,9.8)、[258](https://www.gbif.org/occurrence/search?taxon_key=5301200&decimal_latitude=47.48,47.82&decimal_longitude=9,9.8)、[227](https://www.gbif.org/occurrence/search?taxon_key=5361760&decimal_latitude=47.48,47.82&decimal_longitude=9,9.8)、[124](https://www.gbif.org/occurrence/search?taxon_key=5329212&decimal_latitude=47.48,47.82&decimal_longitude=9,9.8) 筆；穿葉眼子菜 1967／1978 年調查見 [IGKB Blauer Bericht 26](https://www.igkb.org/fileadmin/user_upload/Downloads/Publikationen/Blaue_Berichte/blauer_bericht_26.pdf)；輪藻為水鳥冬季食物見[康士坦茲大學研究](https://kops.uni-konstanz.de/server/api/core/bitstreams/07e970a8-dbe4-4bd1-9542-2ef4722046e8/content) |
+| 格賴夫斯瓦爾德潟湖 | 大葉藻（Zostera marina）、篦齒眼子菜（Stuckenia pectinata）、螺旋川蔓藻（Ruppia cirrhosa） | GBIF 範圍紀錄各 [140](https://www.gbif.org/occurrence/search?taxon_key=2863967&decimal_latitude=54.1,54.35&decimal_longitude=13.3,13.8)、[347](https://www.gbif.org/occurrence/search?taxon_key=7871428&decimal_latitude=54.1,54.35&decimal_longitude=13.3,13.8)、[159](https://www.gbif.org/occurrence/search?taxon_key=2863987&decimal_latitude=54.1,54.35&decimal_longitude=13.3,13.8) 筆；大葉藻受透光度限制、密度偏低見 [GEOMAR 研究](https://oceanrep.geomar.de/id/eprint/3802) |
+
+中文名依海保署圖鑑；該圖鑑 2022 年版將部分海草改稱「草」（單脈二藥草、卵葉鹽草、泰來草），舊稱列為別名。德國水草的中文名採中國大陸植物志常用名（篦齒眼子菜、穗花狐尾藻、伊樂藻），臺灣無通行名稱。
+
+## 0.14 當地餐廳料理（查閱日期 2026-10-22）
+
+依《當地餐廳功能審閱稿》逐道查核：菜式確實存在，且該地或該地區有供應。審閱稿 29 道中，查無可靠依據的 5 道已刪除，不以其他菜補位：酥炸溪蝦（日月潭，只找到文章標籤「香酥潭蝦」）、鹽水蝦（查無七股或南部海產店的依據）、海鱺生魚片（只查到澎湖箱網養殖海鱺與分切禮盒，未查到生魚片供應）、金瓜炒米粉（只找到臺中的澎湖風味店）、海膽炒飯（貢寮有現剖海膽，未查到炒飯）。龍洞的「清蒸九孔」查無清蒸做法，改收澳底老店實際供應的「蠔油炒九孔」，屬審閱稿以外的修改。多數來源為媒體與美食網站，店家供應可能變動；遊戲中的餐廳名稱為泛稱，不指涉真實店家。
+
+| 水域・餐廳 | 菜名 | 來源與支持內容 |
+| --- | --- | --- |
+| 日月潭・湖畔餐館 | 香菇茶葉蛋 | [食尚玩家：金盆阿嬤香菇茶葉蛋](https://supertaste.tvbs.com.tw/review/322860)、[玩全台灣旅遊網](https://gofunit.com/%E6%97%A5%E6%9C%88%E6%BD%AD%E9%98%BF%E5%A9%86%E8%8C%B6%E8%91%89%E8%9B%8B-%E9%87%91%E7%9B%86%E9%98%BF%E5%AC%A4%E9%A6%99%E8%8F%87%E8%8C%B6%E8%91%89%E8%9B%8B/)：玄光寺碼頭邊、遊湖船下船即可購買。審閱稿的「紅茶葉滷製」未查到，已從介紹刪除 |
+| 曾文水庫・水庫邊小館 | 鱸魚湯 | [漁業署鱸魚資料](https://fae.moa.gov.tw/redirect_files.php?id=119975)與[TVBS 健康 2.0](https://health.tvbs.com.tw/nutrition/342764)：嘉義縣為鱸魚最大養殖產地，約占全臺 58%；鱸魚湯為常見補身湯品 |
+| 曾文水庫・水庫邊小館 | 火雞肉飯 | [食力：嘉義火雞肉飯](https://www.foodnext.net/issue/paper/6851124748)（嘉義市政府委託）：火雞肉、米飯、醬汁、油蔥與醃蘿蔔 |
+| 七股潟湖・漁港海產店 | 虱目魚肚湯 | [農業部虱目魚新聞](https://www.moa.gov.tw/ws.php?id=2501509)、[食力](https://www.foodnext.net/news/industry/paper/5616627965)：臺南養殖面積與產量居全臺之冠；市售無刺魚肚由魚販處理 |
+| 七股潟湖・漁港海產店 | 蚵仔煎 | [天下雜誌微笑台灣：七股一日遊](https://smiletaiwan.cw.com.tw/article/4035)（潟湖蚵棚、現烤鮮蚵）；蚵仔煎做法見[維基百科](https://zh.wikipedia.org/zh-tw/%E8%9A%B5%E4%BB%94%E7%85%8E) |
+| 關渡・老街小吃 | 淡水魚丸湯 | [教育部重編國語辭典「魚丸」](https://dict.concised.moe.edu.tw/dictView.jsp?ID=44279)（以淡水魚丸為北部有名小吃之例）、[鏡週刊：淡水登峰魚丸](https://www.mirrormedia.mg/story/20211125bus003)。審閱稿的「鯊魚」「包肉餡」未查到，已刪除 |
+| 關渡・老街小吃 | 阿給 | [玩全台灣旅遊網：淡水阿給](https://gofunit.com/%E6%B7%A1%E6%B0%B4%E9%98%BF%E7%B5%A6-%E4%BE%86%E6%B7%A1%E6%B0%B4%E5%BF%85%E5%90%83%E7%9A%84%E5%9C%A8%E5%9C%B0%E5%B0%8F%E5%90%83-%E7%B2%BE%E9%81%B88%E9%96%93%E6%B7%A1%E6%B0%B4%E9%98%BF%E7%B5%A6/)：1965 年創製，油豆腐、冬粉、魚漿 |
+| 基隆沿岸・廟口小吃 | 鼎邊趖、天婦羅、營養三明治 | [食尚玩家：基隆廟口](https://supertaste.tvbs.com.tw/travel/347174)（吳記鼎邊趖百年老店、王記天婦羅魚漿炸片配甜醬與醃小黃瓜）、[Bella 儂儂](https://www.bella.tw/articles/travel&foodies/38513)（天盛舖營養三明治，炸過的長橢圓形麵包） |
+| 澎湖內海・漁港海產店 | 小管麵線 | [食尚玩家：澎湖美食](https://supertaste.tvbs.com.tw/food/336564)：小管麵線列為澎湖必吃，多家店以現撈小管為招牌 |
+| 龍洞岩岸・海岸餐館 | 蠔油炒九孔 | [台灣英文新聞：澳底新港海鮮](https://www.taiwannews.com.tw/zh/news/6321438)（蠔油炒九孔，醬汁不厚重）；東北角九孔養殖與轉型見[華視新聞](https://english.ftvnews.com.tw/news/2025807W06EA) |
+| 墾丁沿岸・恆春小館 | 清蒸龍膽石斑 | [天下雜誌微笑台灣：屏東枋寮](https://smiletaiwan.cw.com.tw/article/5339)：枋寮為龍膽石斑重要養殖區，全球第一尾龍膽石斑魚苗於當地誕生。清蒸為石斑常見做法 |
+| 墾丁沿岸・恆春小館 | 後壁湖生魚片 | [兔兔：後壁湖生魚片](https://bunnyann.tw/?p=40552)：後壁湖多家平價生魚片店。審閱稿的「鮪魚、旗魚」未查到，改為「當日漁獲」 |
+| 墾丁沿岸・恆春小館 | 綠豆蒜 | [蕃薯藤旅遊：恆春老街](https://travel.yam.com/article/127960)：恆春老街綠豆饌／綠豆蒜老店，去殼綠豆、形似蒜末，冰熱皆有 |
+| 吐露港・海鮮酒家 | 椒鹽瀨尿蝦、白灼蝦 | [米芝蓮指南：西貢全記海鮮](https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/chuen-kee-seafood)、[OpenRice：南丫島天虹海鮮酒家](https://www1.openrice.com/zh/hongkong/r-%E5%A4%A9%E8%99%B9%E6%B5%B7%E9%AE%AE%E9%85%92%E5%AE%B6-%E5%8D%97%E4%B8%AB%E5%B3%B6-%E6%B8%AF%E5%BC%8F-%E6%B5%B7%E9%AE%AE-r2854/reviews)。未查到大埔店家供應，依審閱稿將店名改為泛稱「海鮮酒家」 |
+| 吐露港・海鮮酒家 | 咖喱魚蛋 | [米芝蓮指南：魚蛋佬](https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/fishball-man-to-kwa-wan)、[國泰航空香港咖喱專題](https://www.cathaypacific.com/cx/zh_HK/inspiration/dining/discover-curry-hong-kongs-culinary-scene-make-special.html)；50 年代路邊攤檔依中央廣播電臺文章（經搜尋摘要） |
+| 博登湖・湖畔餐館 | 磨坊主婦式鱒魚（Forelle Müllerin Art） | [Georg's Fischerhütte（賴歇瑙島）菜單](https://www.speisekarte.de/reichenau-baden/restaurant/georgs_fischerhuette_fischrestaurant/speisekarte)：Müllerins Forelle，杏仁與奶油。審閱稿的「養殖虹鱒」「檸檬奶油醬」未查到，已修改 |
+| 博登湖・湖畔餐館 | 方形餃湯（Maultaschen）、起司麵疙瘩（Kässpätzle） | [OpenTable：腓特烈港 s'Wirtshaus am See](https://www.opentable.co.uk/cuisine/best-swabian-german-restaurants-austria-bregenz)（供應 Käsespätzle、Maultaschen）、[博登湖觀光局：飲食影響](https://www.bodensee.de/erleben/genuss/kulinarische-einfluesse-am-bodensee) |
+| 格賴夫斯瓦爾德潟湖・港邊魚館 | 香煎鰈魚（Gebratene Scholle） | [呂根島巴貝 Hotel-Restaurant Am See 菜單](https://www.speisekarte.de/ostseebad-baabe-r%C3%BCgen/restaurant/am_see/speisekarte)（Scholle Finkenwerder Art，奶油煎、煎馬鈴薯）、[lecker.de 芬肯韋德做法](https://www.lecker.de/gebratene-scholle-finkenwerder-art-70607.html)。審閱稿稱「波羅的海沿岸的傳統」未獲支持，介紹改寫為源自漢堡、波羅的海度假區亦供應 |
+| 格賴夫斯瓦爾德潟湖・港邊魚館 | 俾斯麥鯡魚堡（Bismarck-Fischbrötchen） | [lastminute.de 格賴夫斯瓦爾德美食](https://www.lastminute.de/reisen/de_deutschland/greifswald-d18144119)（Bismarckhering）、[komoot：博物館港魚堡船](https://www.komoot.com/highlight/6786773) |
+| 格賴夫斯瓦爾德潟湖・港邊魚館 | 酸辣雜燴湯（Soljanka） | [tageskarte：烏塞多姆島魚肉 Soljanka](https://www.tageskarte.io/war-noch-was/detail/groesste-fischsoljanka-der-welt-auf-usedom.html)（德國東部普及） |
+
+價格依審閱稿：小吃 15 元、家常 45 元、名菜 90 元。效果沿用料理等級，小吃一律售價 +5%。各道菜依所在水域在初期與後期裝備的收益見 tests/restaurant-economy.json。

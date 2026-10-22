@@ -212,10 +212,85 @@ flounder:[['德語','Flunder']],
 garfish:[['德語','Hornhecht']]
 };
 fish.forEach(f=>f.localNames=localNames[f.id]||[]);
+// 0.14 water plants. Each water has its own weed pool; distribution notes and sources are in SOURCES.md「0.14 水草圖鑑」.
+const oca=n=>'https://www.oca.gov.tw/ch/home.jsp?id=535&parentpath=0,298&mcustomize=ocamaritime_view.jsp&dataserno='+n;
+const gbif=key=>'https://www.gbif.org/species/'+key;
+const plants=[
+{id:'hyacinth',name:'布袋蓮',other:'鳳眼蓮、水浮蓮',latin:'Pontederia crassipes',water:'fresh',type:'漂浮植物',form:'葉片圓而油亮，葉柄中段膨大成海綿狀的氣囊，讓整株浮在水面；夏秋開淡紫色花，上方花瓣有一塊黃斑。',habitat:'靜水或緩流的湖泊、池塘與溝渠，靠走莖快速分株，常整片覆蓋水面。',distribution:'原產南美洲亞馬遜流域，已在世界各地的溫暖水域歸化；日月潭與關渡一帶都有出現紀錄。',source:gbif(2765942)},
+{id:'floatingheart',name:'印度莕菜',other:'銀蓮花、白花莕菜',latin:'Nymphoides indica',water:'fresh',type:'浮葉植物',form:'圓心形的葉片平貼水面，像小號的睡蓮葉；白色小花的花瓣邊緣長滿細毛，看起來毛茸茸的。',habitat:'根長在水底泥中，葉柄隨水深伸長，生長於池塘、湖泊與水田等靜水。',distribution:'廣泛分布於熱帶與亞熱帶；日月潭周邊有出現紀錄。',source:gbif(5341503)},
+{id:'bladderwort',name:'黃花狸藻',other:'',latin:'Utricularia aurea',water:'fresh',type:'沉水植物',form:'沒有真正的根，細碎分裂的葉上長著許多小囊，能吸入水蚤等微小動物消化；開花時花莖伸出水面，開黃色唇形花。',habitat:'漂浮在池塘、湖泊與水田的靜水中。',distribution:'分布於亞洲熱帶至澳洲；日月潭周邊有出現紀錄。',source:gbif(8001590)},
+{id:'waterlettuce',name:'大萍',other:'水芙蓉、水白菜',latin:'Pistia stratiotes',water:'fresh',type:'漂浮植物',form:'淡綠色的葉片排成蓮座狀，表面密生短毛、有明顯縱向葉脈，形似一小棵浮在水上的白菜，鬚根垂在水中。',habitat:'池塘、溝渠與水庫的靜水面，以走莖繁殖，容易大量增生。',distribution:'泛熱帶分布；曾文水庫範圍有出現紀錄。',source:gbif(2870583)},
+{id:'cattail',name:'香蒲',other:'水燭',latin:'Typha orientalis',water:'fresh',type:'挺水植物',form:'細長的帶狀葉直立高出水面，夏季抽出圓柱形花序，雄花在上、雌花在下，雌花序成熟後像一根褐色的蠟燭。',habitat:'湖泊、水庫與溝渠的淺水岸邊，根莖橫走成片生長。',distribution:'分布於東亞至澳洲；曾文水庫範圍有出現紀錄。',source:gbif(5289521)},
+{id:'primrosewillow',name:'水丁香',other:'',latin:'Ludwigia octovalvis',water:'fresh',type:'挺水植物',form:'莖直立而略帶木質，葉披針形；開黃色四瓣花，果實細長呈棒狀，上有八條縱稜。',habitat:'水邊、溼地與水位常變動的岸邊泥地。',distribution:'泛熱帶分布；曾文水庫範圍有出現紀錄。',source:gbif(5420987)},
+{id:'paddleweed',name:'卵葉鹽草',other:'喜鹽草',latin:'Halophila ovalis',water:'sea',type:'海草',form:'橢圓形的小葉成對長在葉柄上，葉面常有不規則紅斑；白色地下莖在沙中橫走。是開花結果的海生植物，不是藻類。',habitat:'潮間帶至淺海的沙地，也能長在潟湖、鹽田與海水魚塭的溝渠。',distribution:'印度－西太平洋廣布；臺灣見於西南沿海潟湖、恆春半島與澎湖，香港是分布最廣的海草，吐露港一帶也有紀錄。',source:oca('202212190025')},
+{id:'wigeongrass',name:'川蔓藻',other:'',latin:'Ruppia maritima',water:'brackish',type:'沉水植物',form:'細絲狀的葉互生在纖細分枝的莖上，整叢在水中飄動；果實長在細長的柄上。',habitat:'鹽度變動大的潟湖、鹽田與河口淺水，能適應從近淡水到高鹽的環境。',distribution:'全球溫帶至熱帶廣布；七股潟湖範圍有出現紀錄。',source:gbif(2864004)},
+{id:'gutweed',name:'滸苔',other:'石髮、虎苔',latin:'Ulva prolifera',water:'sea',type:'綠藻',form:'鮮綠色的中空管狀藻體，主枝扁平像壓扁的吸管，分枝細而茂密。',habitat:'潮間帶礁岩、河口、紅樹林與泥岸都能附著，營養鹽豐富的潟湖及養殖池也常見，冬春最繁盛。',distribution:'臺灣及離島各類海岸都有分布；龍洞潮間帶調查列為主要藻種。',source:oca('202212150003')},
+{id:'saltsedge',name:'茳茳鹹草',other:'鹹草、茳茳',latin:'Cyperus malaccensis',water:'brackish',type:'挺水植物',form:'三稜形的稈直立叢生，葉片退化，頂端開出褐色的簇狀小穗；稈曬乾後可編草蓆。',habitat:'河口與海岸溼地的半淡鹹水草澤。',distribution:'分布於亞洲熱帶至澳洲；關渡溼地 1978 年以蘆葦和茳茳鹹草為優勢，之後逐漸被水筆仔取代。',source:'https://scholars.lib.ntu.edu.tw/handle/123456789/86761'},
+{id:'mosquitofern',name:'細葉滿江紅',other:'',latin:'Azolla filiculoides',water:'fresh',type:'漂浮蕨類',form:'一株只有指甲大小，鱗片狀的小葉交互疊生，平時綠色，天冷或日照強時轉成紅褐色，常密集鋪滿水面。',habitat:'池塘、水田與溝渠的靜水面；葉內共生藍綠菌能固定空氣中的氮。',distribution:'原產美洲，已在多地歸化；關渡一帶有出現紀錄。',source:gbif(2650107)},
+{id:'agarweed',name:'石花菜',other:'優美石花菜、牛毛菜',latin:'Gelidium elegans',water:'sea',type:'紅藻',form:'紫紅色、軟骨質的藻體直立叢生，扁平主枝兩側再分出羽狀小枝；曬乾後褪成米白色，可熬煮成石花凍。',habitat:'礁岩的低潮線至數公尺深處，春季是主要產季。',distribution:'臺灣主要產於北部與東北角；基隆和平島居民採石花菜曬乾後熬成石花凍，基隆沿岸有石花菜屬紀錄。',source:oca('202212160013')},
+{id:'sealettuce',name:'石蓴',other:'海青菜、岩頭青',latin:'Ulva lactuca',water:'sea',type:'綠藻',form:'翠綠色的薄膜葉片，邊緣常有波浪皺褶，像一叢生菜；水流強處則長成長條帶狀。',habitat:'潮間帶中下部至淺水礁石，冬末初春大量繁生，夏季退到低潮線附近。',distribution:'臺灣本島海岸最常見、分布最廣的海藻，北部與東北角尤其多；基隆和平島居民冬季採石蓴，龍洞潮間帶調查列為主要藻種，吐露港範圍也有紀錄。',source:oca('202212150004')},
+{id:'hollysargassum',name:'冬青葉馬尾藻',other:'',latin:'Sargassum ilicifolium',water:'sea',type:'褐藻',form:'黃褐色，主軸上伸出分枝，小葉倒卵形、邊緣有明顯鋸齒，枝上掛著圓形氣囊，讓藻體在水中直立。',habitat:'礁岩海岸；北部 3～7 月生長，夏季可長到約 1 公尺。',distribution:'臺灣本島及離島礁岸都有，是北部與東北角最優勢的馬尾藻；基隆沿岸有出現紀錄。',source:oca('202212190016')},
+{id:'hijiki',name:'羊栖菜',other:'鹿尾菜',latin:'Sargassum fusiforme',water:'sea',type:'褐藻',form:'黃褐色，質地有韌性，成熟後的葉與氣囊都呈細長紡錘形；日本稱為 hijiki，曬乾後是常見的食用海藻。',habitat:'低潮線附近的礁石，喜冷水，水溫超過約 25 度就停止生長。',distribution:'東北亞特有藻種；臺灣本島只在北部與東北角海岸有生長棲地，2～6 月為主要生長季。',source:oca('202212190014')},
+{id:'narrowseagrass',name:'單脈二藥草',other:'單脈二藥藻',latin:'Halodule uninervis',water:'sea',type:'海草',form:'葉片狹長，尖端分成三齒呈「山」字形，中央有一條明顯葉脈；地下莖在沙中匍匐。',habitat:'珊瑚礁與潟湖的淺水沙地，以潮間帶潮池為主，常與泰來草混生。',distribution:'印度－西太平洋廣布；恆春半島南灣有單一族群，澎湖大倉北的海草調查也有紀錄。',source:oca('202212190023')},
+{id:'greenlaver',name:'青海菜',other:'礁膜',latin:'Monostroma nitidum',water:'sea',type:'綠藻',form:'黃綠色的圓形薄膜，只有一層細胞，透光而柔軟，邊緣皺褶、容易破碎。',habitat:'風浪小的潮間帶中上部岩石，12 月至隔年 4 月生長。',distribution:'臺灣產於北部、東北部、恆春半島及澎湖；澎湖漁村春季在潮間帶撈取青海菜，是當地特色產業。',source:oca('202212150002')},
+{id:'turtlegrass',name:'泰來草',other:'海龜草、泰來藻',latin:'Thalassia hemprichii',water:'sea',type:'海草',form:'長帶狀的葉片略為彎曲、質地強韌，基部包著多層舊葉鞘；地下莖發達，冬季開花。',habitat:'珊瑚礁區的淺水沙地，形成海草床，是綠蠵龜等動物的食物。',distribution:'臺灣產於恆春半島西側、小琉球、綠島及東沙；墾丁範圍有出現紀錄。',source:oca('202212190026')},
+{id:'codium',name:'食用松藻',other:'',latin:'Codium edule',water:'sea',type:'綠藻',form:'綠色海綿質，圓柱狀分枝柔軟光滑，平臥交疊生長，直徑可達數公尺。',habitat:'潮下帶 2～15 公尺的珊瑚礁塊與碎石上，2～6 月生長。',distribution:'恆春半島南灣每年春季會大量繁生，覆蓋珊瑚並造成部分珊瑚白化死亡。',source:oca('202212150026')},
+{id:'stonewort',name:'球狀輪藻',other:'',latin:'Chara globularis',water:'fresh',type:'輪藻',form:'外形像細小的木賊，莖節上輪生一圈細枝，摸起來略帶鈣質的粗糙感；屬於綠藻中的輪藻類，不是開花植物。',habitat:'清澈的湖泊與池塘底部，常成片生長，水質變差時容易消失。',distribution:'歐洲常見；博登湖輪藻群落是水鳥冬季的重要食物，湖區有大量出現紀錄。',source:gbif(5270780)},
+{id:'claspingpondweed',name:'穿葉眼子菜',other:'',latin:'Potamogeton perfoliatus',water:'fresh',type:'沉水植物',form:'卵形葉片的基部抱住莖，看起來像莖從葉中穿過；穗狀小花伸出水面。',habitat:'湖泊與緩流河川的沉水帶，從淡水到微鹹水都能生長。',distribution:'北半球溫帶廣布；博登湖 1967 與 1978 年的水生植物調查都記錄了此種的分布。',source:'https://www.igkb.org/fileadmin/user_upload/Downloads/Publikationen/Blaue_Berichte/blauer_bericht_26.pdf'},
+{id:'milfoil',name:'穗花狐尾藻',other:'',latin:'Myriophyllum spicatum',water:'fresh',type:'沉水植物',form:'羽毛狀的細裂葉四片輪生，整條莖像一串狐狸尾巴；花穗伸出水面，開紅褐色小花。',habitat:'湖泊、池塘與河川的沉水帶，營養豐富的水域容易大片生長。',distribution:'原生於歐亞大陸與北非；博登湖範圍有大量出現紀錄。',source:gbif(5361760)},
+{id:'waterweed',name:'伊樂藻',other:'努氏伊樂藻',latin:'Elodea nuttallii',water:'fresh',type:'沉水植物',form:'細長的葉三片輪生，葉緣略向下捲；莖易斷，斷枝就能長成新株。',habitat:'湖泊、池塘與緩流河川，生長快速，能形成密集草叢。',distribution:'原產北美洲，已在歐洲多地歸化；博登湖範圍有大量出現紀錄。',source:gbif(5329212)},
+{id:'eelgrass',name:'大葉藻',other:'甘藻',latin:'Zostera marina',water:'sea',type:'海草',form:'鮮綠色的長帶狀葉片可長到一公尺左右，葉脈平行，地下莖橫走成片。',habitat:'溫帶淺海與潟湖的沙泥底；格賴夫斯瓦爾德潟湖的大葉藻受透光度限制，密度比波羅的海其他地區低。',distribution:'北半球溫帶沿海廣布；格賴夫斯瓦爾德潟湖有大量出現紀錄。',source:'https://oceanrep.geomar.de/id/eprint/3802'},
+{id:'sagopondweed',name:'篦齒眼子菜',other:'',latin:'Stuckenia pectinata',water:'brackish',type:'沉水植物',form:'絲狀細葉在分枝上排列成梳子般，整叢在水中散開；地下會長出澱粉質塊莖，是水鳥的食物。',habitat:'湖泊、河川與半淡鹹水的潟湖，耐鹽度變化。',distribution:'全球廣布；格賴夫斯瓦爾德潟湖範圍有大量出現紀錄。',source:gbif(7871428)},
+{id:'spiralwigeon',name:'螺旋川蔓藻',other:'',latin:'Ruppia cirrhosa',water:'brackish',type:'沉水植物',form:'與川蔓藻相似的絲狀細葉，開花後果柄會捲成螺旋狀，因此得名。',habitat:'鹽度較高的潟湖、海灣與鹽沼水域。',distribution:'分布於歐洲、非洲至亞洲沿海；格賴夫斯瓦爾德潟湖範圍有大量出現紀錄。',source:gbif(2863987)}
+];
+const regionWeeds={sunmoon:{hyacinth:50,floatingheart:30,bladderwort:20},zengwen:{waterlettuce:40,cattail:30,primrosewillow:30},qigu:{paddleweed:40,wigeongrass:30,gutweed:30},guandu:{saltsedge:40,hyacinth:35,mosquitofern:25},keelung:{sealettuce:40,agarweed:35,hollysargassum:25},longdong:{sealettuce:40,gutweed:35,hijiki:25},penghu:{paddleweed:35,narrowseagrass:35,greenlaver:30},kenting:{turtlegrass:40,narrowseagrass:35,codium:25},tolo:{paddleweed:60,sealettuce:40},bodensee:{stonewort:30,claspingpondweed:25,milfoil:25,waterweed:20},greifswald:{eelgrass:35,sagopondweed:35,spiralwigeon:30}};
+regions.forEach(r=>r.weeds=regionWeeds[r.id]);
 // 0.13 recipe tiers. While active: about +5% (basic), +10% (home) or +15% (classic) cast income; see tests/cooking-economy.json.
 const recipeTiers={basic:{name:'基本',value:.05,casts:40,seasoning:5},home:{name:'家常',value:.1,speed:.09,size:.3,casts:60,seasoning:1.5},classic:{name:'名菜',value:.15,speed:.13,size:.4,casts:80,seasoning:3}};
 const cookingMethods={soup:{name:'湯鍋燉煮',effect:'speed'},steam:{name:'清蒸水煮',effect:'size'},fry:{name:'煎炸烤燻',effect:'value'}};
 const cuisines=[['basic','基本'],['taiwan','臺灣'],['china','中國・港粵'],['japan','日本'],['seasia','東南亞'],['europe','歐洲']];
 for(const r of recipes){const t=recipeTiers[r.tier];r.fishes=r.fish==='*'?fish.filter(f=>f.edible).map(f=>f.id):[].concat(r.fish);r.effect=cookingMethods[r.method].effect;r.amount=t[r.effect];r.casts=t.casts;r.cost=r.tier==='basic'?t.seasoning:Math.max(10,Math.round(Math.max(...r.fishes.map(id=>fish.find(f=>f.id===id).price))*t.seasoning/5)*5);r.desc=`${{speed:'等待時間減少',value:'新漁獲售價增加',size:'新漁獲重量增加'}[r.effect]} ${Math.round(r.amount*100)}%，持續 ${r.casts} 竿。`}
-const data={fish,regions,baits,recipes,recipeTiers,cookingMethods,cuisines,upgrades,economy,world};if(typeof module!=='undefined')module.exports=data;else root.FishingData=data;
+// 0.14 local restaurants: order a dish in the current water for a cooking effect without using a catch.
+// Snacks (basic tier) always raise sale value; other tiers follow the cooking method. Sources: SOURCES.md「0.14 當地餐廳料理」.
+const restaurants={
+sunmoon:{name:'湖畔餐館',dishes:[
+{slug:'teaegg',name:'香菇茶葉蛋',method:'soup',tier:'basic',about:'日月潭玄光寺碼頭邊的老攤，茶葉蛋和香菇一起滷，遊湖船靠岸時常見遊客排隊購買。'}]},
+zengwen:{name:'水庫邊小館',dishes:[
+{slug:'seabass',name:'鱸魚湯',method:'soup',tier:'home',about:'嘉義縣是臺灣最大的鱸魚養殖產地，產量約占全臺六成。鱸魚切塊加薑絲煮成清湯，是常見的家常湯品。'},
+{slug:'turkeyrice',name:'火雞肉飯',method:'fry',tier:'basic',about:'嘉義的代表小吃，白飯鋪上火雞肉絲，淋上特調醬汁，配油蔥與醃蘿蔔。'}]},
+qigu:{name:'漁港海產店',dishes:[
+{slug:'milkfish',name:'虱目魚肚湯',method:'soup',tier:'classic',about:'臺南的虱目魚養殖面積與產量都居全臺之冠。去刺的虱目魚肚加薑絲煮成清湯，魚肚肥嫩。'},
+{slug:'oysteromelet',name:'蚵仔煎',method:'fry',tier:'home',about:'七股潟湖布滿吊掛牡蠣的蚵棚。新鮮蚵仔加地瓜粉漿與蛋煎成，淋上甜辣醬，是臺灣夜市與海產店的經典小吃。'}]},
+guandu:{name:'老街小吃',dishes:[
+{slug:'fishball',name:'淡水魚丸湯',method:'soup',tier:'home',about:'淡水魚丸是北部頗有名氣的小吃，以海魚魚漿製成，煮成清湯上桌；淡水老街一帶有多家魚丸與魚酥老店。'},
+{slug:'agei',name:'阿給',method:'steam',tier:'basic',about:'淡水名產，相傳 1965 年在淡水創製。油豆腐挖空填入冬粉，以魚漿封口後蒸熟，再淋上醬汁。'}]},
+keelung:{name:'廟口小吃',dishes:[
+{slug:'dingbiancuo',name:'鼎邊趖',method:'soup',tier:'home',about:'基隆廟口的百年老攤小吃。米漿沿著熱鍋邊緣燙成薄片，刮下後加入湯料同煮。'},
+{slug:'tempura',name:'天婦羅',method:'fry',tier:'basic',about:'基隆廟口的天婦羅是魚漿壓成片後油炸，外皮微酥、內裡Q軟，配甜醬與醃小黃瓜。'},
+{slug:'sandwich',name:'營養三明治',method:'fry',tier:'basic',about:'發跡於基隆廟口夜市。長橢圓形的麵包下鍋炸過，再夾入滷蛋、火腿、小黃瓜與美乃滋。'}]},
+penghu:{name:'漁港海產店',dishes:[
+{slug:'squidnoodle',name:'小管麵線',method:'soup',tier:'home',about:'澎湖必吃的在地小吃，現撈小管和麵線一起煮成湯，湯頭帶著海味。'}]},
+longdong:{name:'海岸餐館',dishes:[
+{slug:'abalone',name:'蠔油炒九孔',method:'fry',tier:'home',about:'東北角沿岸曾是臺灣九孔養殖的重要產地。澳底一帶的老海產店以蠔油快炒九孔，醬汁不厚重，保留貝肉的脆度。'}]},
+kenting:{name:'恆春小館',dishes:[
+{slug:'grouper',name:'清蒸龍膽石斑',method:'steam',tier:'classic',about:'屏東枋寮是龍膽石斑的重要養殖地，全世界第一尾龍膽石斑魚苗就在當地魚塭誕生。大塊魚肉清蒸，魚皮膠質豐厚。'},
+{slug:'sashimi',name:'後壁湖生魚片',method:'fry',tier:'home',about:'恆春後壁湖漁港以平價生魚片聞名，港邊多家店把當日漁獲切片上桌。'},
+{slug:'mungbean',name:'綠豆蒜',method:'soup',tier:'basic',about:'恆春老街的消暑甜湯，又寫作綠豆饌。去殼的綠豆仁煮成糖水，形似蒜瓣而得名，有冰的也有熱的。'}]},
+tolo:{name:'海鮮酒家',dishes:[
+{slug:'mantis',name:'椒鹽瀨尿蝦',method:'fry',tier:'classic',about:'香港海鮮酒家的招牌菜，瀨尿蝦（蝦蛄）炸香後以椒鹽、蒜蓉同炒。'},
+{slug:'prawn',name:'白灼蝦',method:'steam',tier:'home',about:'鮮蝦連殼在滾水中灼熟，蘸豉油吃，是最能顯出蝦鮮的粵式做法。'},
+{slug:'fishball',name:'咖喱魚蛋',method:'soup',tier:'basic',about:'香港街頭小吃，魚漿做的魚蛋在咖喱汁裡煮透，用竹籤串著吃；上世紀 50 年代已有路邊攤檔販售。'}]},
+bodensee:{name:'湖畔餐館',dishes:[
+{slug:'trout',name:'磨坊主婦式鱒魚',orig:'Forelle Müllerin Art',method:'fry',tier:'home',about:'博登湖畔魚館常見的鱒魚料理，鱒魚沾麵粉以奶油煎香，配杏仁片與奶油醬。'},
+{slug:'maultaschen',name:'方形餃湯',orig:'Maultaschen in der Brühe',method:'soup',tier:'home',about:'施瓦本地區的家常料理，麵皮包入肉餡與菠菜，在清湯裡煮熟。'},
+{slug:'spaetzle',name:'起司麵疙瘩',orig:'Kässpätzle',method:'steam',tier:'basic',about:'施瓦本與阿爾高一帶的名菜，手工麵疙瘩與融化的起司層層相疊，鋪上炸洋蔥。'}]},
+greifswald:{name:'港邊魚館',dishes:[
+{slug:'plaice',name:'香煎鰈魚',orig:'Gebratene Scholle',method:'fry',tier:'home',about:'源自漢堡芬肯韋德的做法：整尾歐洲鰈以奶油煎到金黃，配培根丁與煎馬鈴薯，呂根島等波羅的海度假區的魚館也有供應。歐洲鰈與遊戲中可釣的歐洲川鰈是不同的魚。'},
+{slug:'bismarck',name:'俾斯麥鯡魚堡',orig:'Bismarck-Fischbrötchen',method:'fry',tier:'basic',about:'北德港口最常見的小吃，醋醃鯡魚片夾進小麵包，加洋蔥與酸黃瓜；格賴夫斯瓦爾德的博物館港也有船上攤位賣魚堡。'},
+{slug:'soljanka',name:'酸辣雜燴湯',orig:'Soljanka',method:'soup',tier:'home',about:'源自俄羅斯、在德國東部普及的酸辣濃湯，波羅的海沿岸還有加魚的魚肉版本。'}]}
+};
+const dinePrices={basic:15,home:45,classic:90};
+const dishes=[];
+for(const [region,r] of Object.entries(restaurants))for(const d of r.dishes){const t=recipeTiers[d.tier];d.id=`dine-${region}-${d.slug}`;d.region=region;d.effect=d.tier==='basic'?'value':cookingMethods[d.method].effect;d.amount=t[d.effect];d.casts=t.casts;d.price=dinePrices[d.tier];d.desc=`${{speed:'等待時間減少',value:'新漁獲售價增加',size:'新漁獲重量增加'}[d.effect]} ${Math.round(d.amount*100)}%，持續 ${d.casts} 竿。`;dishes.push(d)}
+const data={fish,plants,regions,baits,recipes,restaurants,dishes,dinePrices,recipeTiers,cookingMethods,cuisines,upgrades,economy,world};if(typeof module!=='undefined')module.exports=data;else root.FishingData=data;
 })(globalThis);
