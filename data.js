@@ -80,7 +80,42 @@ const regions=[{id:'sunmoon',name:'日月潭',area:'臺灣・南投',lat:23.856,
 {id:'penghu',name:'澎湖內海',area:'臺灣・澎湖',lat:23.56,lon:119.58,water:'海水內灣',desc:'馬公、白沙與西嶼環抱的內海，淺灘、海草床與礁岩交錯，鯛類與石斑出沒。魚種依大倉灣海草床調查與澎湖海域觀察紀錄。',pool:{rabbitfish:66,emperor:10,sarba:11,blackporgy:7,redseabream:3,coioides:3},source:'https://kmweb.moa.gov.tw/subject/subject.php?id=61718'},
 {id:'longdong',name:'龍洞岩岸',area:'臺灣・新北貢寮',lat:25.115,lon:121.918,water:'海水岩礁',desc:'東北角的岩岸礁區，水較深、礁體多，石斑與礁岩魚類出沒。魚種依海大魚類數典東北角常見魚類。',pool:{bluespotgrouper:5,longfingrouper:7,squirrelfish:7,bigeyebream:5,fusilier:9,monocle:8,goatfish:7,tuskfish:4,morwong:6,wrasse:8,russellsnapper:5,scorpionfish:7,mezina:6,sergeant:6,stripey:3,blackporgy:4,puffer:3},source:'https://digifish.biodiv.tw/northeast.php'}];
 const baits=[{id:'dough',name:'綜合餌',cost:2,desc:'一般釣餌，適用目前所有魚種。水草機率 12%。',weed:.12},{id:'meat',name:'魚肉餌',cost:5,desc:'魚虎權重 ×4、珍珠石斑 ×3、總統魚 ×2。水草機率 8%。',weed:.08}];
-const recipes=[{id:'soup',name:'鯽魚湯',fish:'crucian',cost:20,effect:'speed',amount:.2,casts:25,desc:'等待時間減少 20%，持續 25 竿。'}, {id:'fried',name:'酥煎奇力魚',fish:'qili',cost:15,effect:'value',amount:.2,casts:25,desc:'新漁獲售價增加 20%，持續 25 竿。'}, {id:'steamed',name:'清蒸鯉魚',fish:'carp',cost:30,effect:'size',amount:.15,casts:25,desc:'新漁獲重量增加 15%，持續 25 竿。'}, {id:'ginger',name:'薑燒魚虎',fish:'snakehead',cost:60,effect:'speed',amount:.3,casts:30,desc:'等待時間減少 30%，持續 30 竿。'}, {id:'jaguar-steam',name:'清蒸珍珠石斑',fish:'jaguar',cost:45,effect:'value',amount:.35,casts:30,desc:'新漁獲售價增加 35%，持續 30 竿。'}];
+// 0.13 recipes: real dishes only, sources in SOURCES.md. `fish` is one ID, a list of interchangeable IDs, or '*' for any edible fish.
+// Effect follows the cooking method (see cookingMethods); tier sets amount, casts and seasoning, filled in near the end of this file.
+const recipes=[
+{id:'panfry',name:'煎魚',prefix:'煎',fish:'*',cuisine:'basic',origin:'各地家常',method:'fry',tier:'basic',about:'魚身抹鹽、拭乾，下鍋把兩面煎到金黃。任何可食用的魚都能這樣做，是最基本的魚料理。'},
+{id:'fried',name:'酥炸奇力魚',fish:'qili',cuisine:'taiwan',origin:'臺灣・日月潭',method:'fry',tier:'home',about:'奇力魚體型小，日月潭一帶常整尾裹粉油炸，炸酥後連骨一起吃。'},
+{id:'ginger',name:'三杯魚虎',fish:'snakehead',cuisine:'taiwan',origin:'臺灣・日月潭、曾文水庫',method:'fry',tier:'home',about:'日月潭與曾文水庫周邊餐館把移除的魚虎做成料理。魚虎肉質緊實、刺少，業者推薦做三杯或紅燒。'},
+{id:'jaguar-steam',name:'清蒸珍珠石斑',fish:'jaguar',cuisine:'taiwan',origin:'臺灣',method:'steam',tier:'home',about:'珍珠石斑在臺灣有食用紀錄，常整尾清蒸，鋪上蔥絲、薑絲。'},
+{id:'president-steam',name:'清蒸總統魚',fish:['culter','redfinculter'],cuisine:'taiwan',origin:'臺灣・日月潭',method:'steam',tier:'classic',about:'日月潭湖畔餐館的招牌菜，整尾清蒸，鋪蔥、薑上桌。當地「總統魚」的稱呼可指翹嘴鮊或紅鰭鮊，相傳因蔣中正在日月潭常吃這道魚而得名。'},
+{id:'fishhead-pot',name:'砂鍋魚頭',fish:'bighead',cuisine:'taiwan',origin:'臺灣・嘉義',method:'soup',tier:'classic',about:'嘉義名菜。大頭鰱魚頭先油炸，再與沙茶、白菜、豆皮等在砂鍋裡燉煮；傳統用的是曾文水庫的大頭鰱。'},
+{id:'marbled-steam',name:'清蒸筍殼魚',fish:'marbledgoby',cuisine:'taiwan',origin:'臺灣',method:'steam',tier:'home',about:'筍殼魚肉質細嫩，臺灣多整尾清蒸，鋪上蔥絲、薑絲；蒸的時間不宜太久，才保得住鮮味。'},
+{id:'eel-noodle',name:'鱔魚意麵',fish:'swampeel',cuisine:'taiwan',origin:'臺灣・臺南',method:'fry',tier:'classic',about:'臺南名吃。鱔魚片大火快炒，再和意麵一起勾芡，湯汁酸甜，鱔魚口感爽脆。'},
+{id:'soup',name:'鯽魚湯',fish:'crucian',cuisine:'china',origin:'中國各地',method:'soup',tier:'home',about:'鯽魚兩面煎香後加水大火熬煮，湯色轉為奶白，是中國各地常見的家常湯。'},
+{id:'steamed',name:'清蒸鯉魚',fish:'carp',cuisine:'china',origin:'中國各地',method:'steam',tier:'home',about:'整尾鯉魚鋪上薑絲、蔥段清蒸，起鍋後淋上熱油與醬油。'},
+{id:'sweetsour-carp',name:'糖醋鯉魚',fish:'carp',cuisine:'china',origin:'中國・山東',method:'fry',tier:'classic',about:'魯菜濟南派的代表菜。鯉魚整尾炸到外焦裡嫩，再澆上糖醋汁；以黃河鯉魚為上，正宗做法不用番茄醬。'},
+{id:'westlake',name:'西湖醋魚',fish:'grass',cuisine:'china',origin:'中國・杭州',method:'fry',tier:'classic',about:'杭幫菜名菜，以西湖孤山樓外樓的最有名。草魚先餓養去土味，煮熟後澆上糖醋汁，考驗廚師用便宜的草魚做出好味道。'},
+{id:'wuchang-steam',name:'清蒸武昌魚',fish:'bream',cuisine:'china',origin:'中國・武漢',method:'steam',tier:'classic',about:'武漢的著名地方菜，以武昌魚為主料，配黃酒、薑絲清蒸。'},
+{id:'baoyu',name:'上海爆魚',fish:'blackcarp',cuisine:'china',origin:'中國・上海',method:'fry',tier:'classic',about:'江南的年節菜。青魚切塊醃過後下油鍋炸，再浸入甜鹹滷汁；經過醃、炸、滷，放得比較久，可以冷吃。'},
+{id:'stuffed-dace',name:'煎釀鯪魚',fish:'mudcarp',cuisine:'china',origin:'中國・廣東',method:'fry',tier:'classic',about:'廣東菜。取出鯪魚肉剁成魚膠，調味後釀回完整的魚皮裡，再下鍋煎香。'},
+{id:'snakehead-soup',name:'生魚湯',fish:'spottedsnakehead',cuisine:'china',origin:'香港・廣東',method:'soup',tier:'home',about:'廣東和香港人把鱧魚叫做「生魚」。生魚用薑煎香後，與瘦肉、蔬果一起煲湯；民間常在術後喝生魚湯進補。'},
+{id:'catfish-eggplant',name:'鯰魚燉茄子',fish:'amurcatfish',cuisine:'china',origin:'中國・東北',method:'soup',tier:'home',about:'東北家常燉菜。鯰魚洗去黏液後，和茄子用大醬或豆瓣醬一起燉，民間有「鯰魚燉茄子，撐死老爺子」的說法。'},
+{id:'kabayaki',name:'蒲燒鰻',orig:'鰻の蒲焼',fish:'eel',cuisine:'japan',origin:'日本',method:'fry',tier:'classic',about:'鰻魚剖開去骨，串上竹籤，邊烤邊刷以醬油為底的甜鹹醬汁。不刷醬直接烤的叫「白燒」。'},
+{id:'yanagawa',name:'柳川鍋',orig:'柳川鍋',fish:'loach',cuisine:'japan',origin:'日本・東京',method:'soup',tier:'classic',about:'江戶時代流傳下來的泥鰍鍋。剖開的泥鰍和削成薄片的牛蒡，用醬油、味醂調成的湯汁煮過，最後淋蛋液收尾。'},
+{id:'chinu-shioyaki',name:'鹽烤黑鯛',orig:'クロダイの塩焼き',fish:'blackporgy',cuisine:'japan',origin:'日本',method:'fry',tier:'home',about:'黑鯛在日本關西稱為「チヌ」，生魚片、鹽烤、煮付都常見。鹽烤是整尾抹鹽後直接火烤。'},
+{id:'kasago-nitsuke',name:'煮付石狗公',orig:'カサゴの煮付け',fish:'scorpionfish',cuisine:'japan',origin:'日本',method:'soup',tier:'home',about:'石狗公在日本叫カサゴ，白肉緊實。煮付是用醬油、味醂、酒和糖把整尾魚煮到入味；也常煮味噌湯或炸成唐揚。'},
+{id:'gurukun-karaage',name:'唐揚烏尾冬',orig:'グルクンの唐揚げ',fish:'fusilier',cuisine:'japan',origin:'日本・沖繩',method:'fry',tier:'home',about:'雙帶烏尾冬就是沖繩縣魚「グルクン」，當地常整尾裹粉油炸，也做生魚片和鹽烤。'},
+{id:'taimeshi',name:'鯛魚飯',orig:'鯛めし',fish:'redseabream',cuisine:'japan',origin:'日本',method:'fry',tier:'classic',about:'嘉鱲（真鯛）先烤香，整尾放進米裡，用醬油、酒、昆布高湯一起炊煮，上桌後再拆肉拌飯。'},
+{id:'kibinago-sashimi',name:'丁香魚刺身',orig:'キビナゴの刺身',fish:'silversprat',cuisine:'japan',origin:'日本・鹿兒島',method:'fry',tier:'home',about:'鹿兒島的鄉土料理。新鮮的丁香魚用手剖開，排成菊花狀，沾甜味的醋味噌吃。丁香魚很快就不新鮮，多在產地現吃。'},
+{id:'pla-pao',name:'泰式鹽烤魚',orig:'ปลาเผา',fish:['stripedsnakehead','niletilapia'],cuisine:'seasia',origin:'泰國',method:'fry',tier:'home',about:'泰國常見的炭烤魚，傳統用鱧魚或吳郭魚。魚腹塞入香茅、檸檬葉，魚身抹上一層鹽殼，烤好後配海鮮沾醬和糯米飯。'},
+{id:'pla-duk-fu',name:'涼拌酥炸鯰魚',orig:'ยำปลาดุกฟู',fish:'walkingcatfish',cuisine:'seasia',origin:'泰國',method:'fry',tier:'classic',about:'泰國的下酒菜。鬍鯰烤熟後拆成細絲，下鍋炸成蓬鬆酥脆的魚鬆，配青芒果絲、紅蔥、辣椒和花生一起吃。'},
+{id:'kretzer',name:'杏仁奶油煎河鱸',orig:'Kretzerfilet',fish:'perch',cuisine:'europe',origin:'德國・博登湖',method:'fry',tier:'home',about:'博登湖畔餐館的常見菜。河鱸在當地叫 Kretzer、瑞士稱 Egli，魚排煎熟後淋上杏仁奶油，配馬鈴薯。'},
+{id:'smoked',name:'煙燻魚',prefix:'煙燻',orig:'Räucherfisch',fish:['herring','browntrout','blaufelchen'],cuisine:'europe',origin:'德國',method:'fry',tier:'classic',about:'德國傳統的魚料理，也是保存魚肉的方法。鯡魚整尾帶頭煙燻就是「Bückling」，鱒魚和博登湖白鮭也常拿來燻。煙燻時魚已經熟了，可以直接冷吃，常配麵包。'},
+{id:'forelle-blau',name:'藍煮鱒魚',orig:'Forelle blau',fish:'browntrout',cuisine:'europe',origin:'德語區',method:'steam',tier:'classic',about:'德語區的經典做法。新鮮整尾魚不刮掉表皮黏液，放進加醋的熱湯裡煮，魚皮會轉成藍色，因此得名。'},
+{id:'green-herring',name:'煎鮮鯡',orig:'Grüne Heringe gebraten',fish:'herring',cuisine:'europe',origin:'德國・波羅的海沿岸',method:'fry',tier:'home',about:'德國北部把沒有醃漬的新鮮鯡魚叫做「綠鯡魚」。依磨坊主婦式裹麵粉、用奶油煎，配煎馬鈴薯和洋蔥圈。'},
+{id:'karpfen-fraenkisch',name:'法蘭肯炸鯉魚',orig:'Karpfen fränkisch',fish:'carp',cuisine:'europe',origin:'德國・法蘭肯',method:'fry',tier:'classic',about:'德國法蘭肯地區的秋冬名菜。鯉魚連頭帶鰭縱剖成兩半，裹上麵粉下油鍋炸，炸酥的魚鰭也能吃。當地習慣在名稱帶 r 的月份（9 月到隔年 4 月）吃鯉魚，艾施谷一帶有自家魚塘的餐館秋天最當令。'},
+{id:'quenelle',name:'狗魚丸',orig:'Quenelles de brochet',fish:'pike',cuisine:'europe',origin:'法國・里昂',method:'steam',tier:'classic',about:'法國里昂與南蒂阿的名菜。白斑狗魚肉打成泥，拌入蛋與奶油塑成橢圓，下水煮熟，常配螯蝦醬汁。'}
+];
 // Upgrade price per level (index = current level). Costs grow ~3x so each tier needs a real fishing session.
 const upgrades={rod:{name:'釣竿',costs:[400,1600,5500,16000]},box:{name:'漁獲箱',costs:[300,1200,4000,12000]},sales:{name:'漁獲售價',costs:[200,400,800,1600,3200,6400,12800,25600,51200,102400]}};
 // Atlas clues shown before a fish is caught; they never contain the fish's name.
@@ -125,15 +160,15 @@ for(const id of ["blackporgy","yellowfin","sarba","mullet","terapon"])fish.find(
 // 0.12: Germany batch 6; append IDs to preserve existing encyclopedia numbers. `bream` stays 武昌魚.
 const fb='https://www.fishbase.se/summary/';
 fish.push(...[
-{id:'perch',name:'河鱸',other:'歐洲河鱸、Flussbarsch、Egli',latin:'Perca fluviatilis',min:.08,max:1.2,price:16,bounty:0,kind:'水域紀錄魚種',water:'fresh',edible:true,form:'體色黃綠，體側有五到九條深色橫帶，常呈 Y 字形；第一背鰭後端有一塊黑斑，腹鰭與臀鰭帶黃至紅色。',habitat:'從河口潟湖、各類湖泊到中型溪流都能生活。',diet:'白天覓食，以日出與日落前後最活躍；幼魚吃浮游動物，長到約 12 公分後常捕食小魚。',distribution:'原生於歐洲至西伯利亞，也被引入多地。博登湖職業漁獲中長年僅次於白鮭，格賴夫斯瓦爾德潟湖也有漁獲紀錄。',food:'歐洲重要的食用與遊釣魚。',hint:'體側有深色橫帶，背鰭後端帶一塊黑斑。',source:fb+'Perca-fluviatilis.html'},
-{id:'pike',name:'白斑狗魚',other:'狗魚、Hecht',latin:'Esox lucius',min:.8,max:5,price:18,bounty:0,kind:'水域紀錄魚種',water:'fresh',edible:true,form:'吻部長而扁平，形如鴨嘴；口大，布滿尖銳牙齒，背鰭與臀鰭都長在身體後段。',habitat:'喜歡水草茂密的清澈湖泊與河川緩流處，在波羅的海也會進入半淡鹹水。',diet:'多單獨活動並守住地盤，成魚主要捕食魚類，也吃蛙類和螯蝦。',distribution:'環北極的淡水魚，歐亞大陸與北美都有分布；博登湖與格賴夫斯瓦爾德潟湖均有漁獲紀錄。',food:'商業捕撈與遊釣魚種。',hint:'長扁的鴨嘴狀吻部，背鰭和臀鰭都靠近尾部。',source:fb+'Esox-lucius.html'},
-{id:'blaufelchen',name:'博登湖白鮭',other:'Blaufelchen',latin:'Coregonus wartmanni',min:.2,max:1,price:20,bounty:0,kind:'博登湖特有種',water:'fresh',edible:true,form:'體形細長，鱗片銀亮；與鮭鱒一樣，在背鰭後方有一枚小脂鰭。',habitat:'生活在湖中開闊水域，夏季多在水深 0～40 公尺。',diet:'以浮游動物與昆蟲為食，夏季也捕食河鱸幼魚。',distribution:'只分布在博登湖。十二月上半水溫降到 7°C 以下時，在深水區上方的水面產卵。2023 年被 IUCN 評為瀕危；漁獲大幅下滑後，2024 年起實施三年禁捕。',food:'過去占博登湖職業漁獲近八成，是當地最具代表性的食用魚。',hint:'只住在一座湖裡的銀色白鮭，成群在開闊水域覓食浮游動物。',source:fb+'Coregonus-wartmanni.html'},
-{id:'browntrout',name:'褐鱒',other:'湖鱒、Seeforelle',latin:'Salmo trutta',min:.5,max:4,price:22,bounty:0,kind:'水域紀錄魚種',water:'fresh',edible:true,form:'身體呈紡錘形，頭小而尖，口大；體色灰藍，側線上下都有許多斑點，尾柄粗圓。',habitat:'偏好低溫、溶氧高的水域。湖居族群平時在湖中開闊水域活動，產卵時溯入支流與湖泊出口，在水流湍急的礫石底產卵。',diet:'博登湖的湖鱒是體型大的掠食魚。',distribution:'原生於歐洲至西亞，也被引入世界多地。博登湖族群在 1980 年代初幾近滅絕，經保護、放流與拆除河道阻隔後回穩，產卵魚再度溯上萊茵河上游的原產卵場。',food:'商業、養殖與遊釣魚種。',hint:'灰藍的身體布滿斑點，湖中的族群會溯河產卵。',source:fb+'Salmo-trutta.html'},
-{id:'commonbream',name:'歐鯿',other:'Brachse、Blei',latin:'Abramis brama',min:.2,max:2.5,price:14,bounty:0,kind:'水域紀錄魚種',water:'fresh',edible:true,form:'體高而側扁；口部略朝下，可以伸出成管狀，從底泥中吸取食物。',habitat:'棲於湖泊與大中型河川，多在靜水或緩流處成大群活動，也會進入半淡鹹水河口。',diet:'幼魚吃浮游生物，成魚多在底層覓食。',distribution:'歐洲大部分水系至中亞鹹海流域；博登湖的漁獲統計將牠與其他鯉科小魚合併為「白魚類」。',food:'歐洲重要的商業與養殖魚種。',hint:'又高又扁的身體，嘴巴能伸成管子翻找底泥。',source:fb+'Abramis-brama.html'},
-{id:'herring',name:'大西洋鯡',other:'鯡魚、Hering',latin:'Clupea harengus',min:.05,max:.35,price:12,bounty:0,kind:'海水魚種',water:'sea',edible:true,form:'體形細長、腹部圓，背部藍至藍綠，腹側銀白，身上與鰭上沒有明顯黑斑。',habitat:'成群在沿岸產卵場、越冬區與外海覓食區之間洄游；成魚白天待在較深處，夜間上浮。',diet:'以浮游動物為主食，食物密度合適時會改用濾食。',distribution:'北大西洋兩岸至波羅的海。格賴夫斯瓦爾德潟湖是西波羅的海春季產卵鯡魚的主要產卵場，魚卵附著在淺水水草上；暖冬使產卵逐年提早。',food:'歐洲極重要的經濟魚種。',hint:'背藍腹銀、身上沒有黑斑，春季大群湧入淺灣產卵。',source:fb+'Clupea-harengus.html'},
-{id:'zander',name:'梭鱸',other:'Zander',latin:'Sander lucioperca',min:.5,max:4,price:21,bounty:0,kind:'水域紀錄魚種',water:'fresh',edible:true,form:'體形修長，上下頜前端各有一至二枚特別大的犬齒。',habitat:'棲於大型混濁河川、富營養湖泊、半淡鹹水潟湖與河口，在半淡鹹水覓食的個體會回到淡水產卵。',diet:'主要捕食成群的中上層小魚；在格賴夫斯瓦爾德潟湖的鯡魚產卵季，食物最多有七成是鯡魚。',distribution:'原生於裏海、波羅的海、黑海與鹹海流域及易北河，也被引入多地。',food:'商業、養殖與遊釣魚種。',hint:'修長的身體，嘴前長著特別大的犬齒。',source:fb+'Sander-lucioperca.html'},
-{id:'flounder',name:'歐洲川鰈',other:'Flunder',latin:'Platichthys flesus',min:.1,max:1.2,price:17,bounty:0,kind:'河口魚種',water:'brackish',edible:true,form:'比目魚，眼睛多在身體右側；皮膚粗糙，側線及背鰭、臀鰭基部尤其明顯。有眼的一側呈橄欖綠並帶不規則紅斑，無眼側為白色。',habitat:'一年大多待在河口，成魚在淺水泥沙底活動，常進入淡水；冬季退到較深、較暖的水域，春季產卵。',diet:'以底棲的小型甲殼類與多毛類等無脊椎動物為食。',distribution:'東大西洋的沿岸與半淡鹹水，自白海到地中海與黑海；格賴夫斯瓦爾德潟湖有漁獲紀錄。',food:'商業捕撈與遊釣魚種。',hint:'扁平的比目魚，有眼的一側粗糙並帶紅斑。',source:fb+'Platichthys-flesus.html'},
-{id:'garfish',name:'細頜針魚',other:'頜針魚、Hornhecht',latin:'Belone belone',min:.1,max:.8,price:15,bounty:0,kind:'海水魚種',water:'sea',edible:true,form:'身體細長，截面近圓形；上下頜延長成尖嘴，下頜略長，頜齒較大而疏。',habitat:'靠近水面活動，洄游習性與鯖魚相似。',diet:'捕食小魚，特別是鯡科魚類；上鉤後常躍出水面。',distribution:'東大西洋與地中海；格賴夫斯瓦爾德潟湖有漁獲紀錄。',food:'可鮮食或冷凍，適合煎、烤。',hint:'細長如針、嘴又尖又長，上鉤後常跳出水面。',source:fb+'Belone-belone.html'}]);
+{id:'perch',name:'河鱸',other:'歐洲河鱸',latin:'Perca fluviatilis',min:.08,max:1.2,price:16,bounty:0,kind:'水域紀錄魚種',water:'fresh',edible:true,form:'體色黃綠，體側有五到九條深色橫帶，常呈 Y 字形；第一背鰭後端有一塊黑斑，腹鰭與臀鰭帶黃至紅色。',habitat:'從河口潟湖、各類湖泊到中型溪流都能生活。',diet:'白天覓食，以日出與日落前後最活躍；幼魚吃浮游動物，長到約 12 公分後常捕食小魚。',distribution:'原生於歐洲至西伯利亞，也被引入多地。博登湖職業漁獲中長年僅次於白鮭，格賴夫斯瓦爾德潟湖也有漁獲紀錄。',food:'歐洲重要的食用與遊釣魚。',hint:'體側有深色橫帶，背鰭後端帶一塊黑斑。',source:fb+'Perca-fluviatilis.html'},
+{id:'pike',name:'白斑狗魚',other:'狗魚',latin:'Esox lucius',min:.8,max:5,price:18,bounty:0,kind:'水域紀錄魚種',water:'fresh',edible:true,form:'吻部長而扁平，形如鴨嘴；口大，布滿尖銳牙齒，背鰭與臀鰭都長在身體後段。',habitat:'喜歡水草茂密的清澈湖泊與河川緩流處，在波羅的海也會進入半淡鹹水。',diet:'多單獨活動並守住地盤，成魚主要捕食魚類，也吃蛙類和螯蝦。',distribution:'環北極的淡水魚，歐亞大陸與北美都有分布；博登湖與格賴夫斯瓦爾德潟湖均有漁獲紀錄。',food:'商業捕撈與遊釣魚種。',hint:'長扁的鴨嘴狀吻部，背鰭和臀鰭都靠近尾部。',source:fb+'Esox-lucius.html'},
+{id:'blaufelchen',name:'博登湖白鮭',other:'',latin:'Coregonus wartmanni',min:.2,max:1,price:20,bounty:0,kind:'博登湖特有種',water:'fresh',edible:true,form:'體形細長，鱗片銀亮；與鮭鱒一樣，在背鰭後方有一枚小脂鰭。',habitat:'生活在湖中開闊水域，夏季多在水深 0～40 公尺。',diet:'以浮游動物與昆蟲為食，夏季也捕食河鱸幼魚。',distribution:'只分布在博登湖。十二月上半水溫降到 7°C 以下時，在深水區上方的水面產卵。2023 年被 IUCN 評為瀕危；漁獲大幅下滑後，2024 年起實施三年禁捕。',food:'過去占博登湖職業漁獲近八成，是當地最具代表性的食用魚。',hint:'只住在一座湖裡的銀色白鮭，成群在開闊水域覓食浮游動物。',source:fb+'Coregonus-wartmanni.html'},
+{id:'browntrout',name:'褐鱒',other:'湖鱒',latin:'Salmo trutta',min:.5,max:4,price:22,bounty:0,kind:'水域紀錄魚種',water:'fresh',edible:true,form:'身體呈紡錘形，頭小而尖，口大；體色灰藍，側線上下都有許多斑點，尾柄粗圓。',habitat:'偏好低溫、溶氧高的水域。湖居族群平時在湖中開闊水域活動，產卵時溯入支流與湖泊出口，在水流湍急的礫石底產卵。',diet:'博登湖的湖鱒是體型大的掠食魚。',distribution:'原生於歐洲至西亞，也被引入世界多地。博登湖族群在 1980 年代初幾近滅絕，經保護、放流與拆除河道阻隔後回穩，產卵魚再度溯上萊茵河上游的原產卵場。',food:'商業、養殖與遊釣魚種。',hint:'灰藍的身體布滿斑點，湖中的族群會溯河產卵。',source:fb+'Salmo-trutta.html'},
+{id:'commonbream',name:'歐鯿',other:'',latin:'Abramis brama',min:.2,max:2.5,price:14,bounty:0,kind:'水域紀錄魚種',water:'fresh',edible:true,form:'體高而側扁；口部略朝下，可以伸出成管狀，從底泥中吸取食物。',habitat:'棲於湖泊與大中型河川，多在靜水或緩流處成大群活動，也會進入半淡鹹水河口。',diet:'幼魚吃浮游生物，成魚多在底層覓食。',distribution:'歐洲大部分水系至中亞鹹海流域；博登湖的漁獲統計將牠與其他鯉科小魚合併為「白魚類」。',food:'歐洲重要的商業與養殖魚種。',hint:'又高又扁的身體，嘴巴能伸成管子翻找底泥。',source:fb+'Abramis-brama.html'},
+{id:'herring',name:'大西洋鯡',other:'鯡魚',latin:'Clupea harengus',min:.05,max:.35,price:12,bounty:0,kind:'海水魚種',water:'sea',edible:true,form:'體形細長、腹部圓，背部藍至藍綠，腹側銀白，身上與鰭上沒有明顯黑斑。',habitat:'成群在沿岸產卵場、越冬區與外海覓食區之間洄游；成魚白天待在較深處，夜間上浮。',diet:'以浮游動物為主食，食物密度合適時會改用濾食。',distribution:'北大西洋兩岸至波羅的海。格賴夫斯瓦爾德潟湖是西波羅的海春季產卵鯡魚的主要產卵場，魚卵附著在淺水水草上；暖冬使產卵逐年提早。',food:'歐洲極重要的經濟魚種。',hint:'背藍腹銀、身上沒有黑斑，春季大群湧入淺灣產卵。',source:fb+'Clupea-harengus.html'},
+{id:'zander',name:'梭鱸',other:'',latin:'Sander lucioperca',min:.5,max:4,price:21,bounty:0,kind:'水域紀錄魚種',water:'fresh',edible:true,form:'體形修長，上下頜前端各有一至二枚特別大的犬齒。',habitat:'棲於大型混濁河川、富營養湖泊、半淡鹹水潟湖與河口，在半淡鹹水覓食的個體會回到淡水產卵。',diet:'主要捕食成群的中上層小魚；在格賴夫斯瓦爾德潟湖的鯡魚產卵季，食物最多有七成是鯡魚。',distribution:'原生於裏海、波羅的海、黑海與鹹海流域及易北河，也被引入多地。',food:'商業、養殖與遊釣魚種。',hint:'修長的身體，嘴前長著特別大的犬齒。',source:fb+'Sander-lucioperca.html'},
+{id:'flounder',name:'歐洲川鰈',other:'',latin:'Platichthys flesus',min:.1,max:1.2,price:17,bounty:0,kind:'河口魚種',water:'brackish',edible:true,form:'比目魚，眼睛多在身體右側；皮膚粗糙，側線及背鰭、臀鰭基部尤其明顯。有眼的一側呈橄欖綠並帶不規則紅斑，無眼側為白色。',habitat:'一年大多待在河口，成魚在淺水泥沙底活動，常進入淡水；冬季退到較深、較暖的水域，春季產卵。',diet:'以底棲的小型甲殼類與多毛類等無脊椎動物為食。',distribution:'東大西洋的沿岸與半淡鹹水，自白海到地中海與黑海；格賴夫斯瓦爾德潟湖有漁獲紀錄。',food:'商業捕撈與遊釣魚種。',hint:'扁平的比目魚，有眼的一側粗糙並帶紅斑。',source:fb+'Platichthys-flesus.html'},
+{id:'garfish',name:'細頜針魚',other:'頜針魚',latin:'Belone belone',min:.1,max:.8,price:15,bounty:0,kind:'海水魚種',water:'sea',edible:true,form:'身體細長，截面近圓形；上下頜延長成尖嘴，下頜略長，頜齒較大而疏。',habitat:'靠近水面活動，洄游習性與鯖魚相似。',diet:'捕食小魚，特別是鯡科魚類；上鉤後常躍出水面。',distribution:'東大西洋與地中海；格賴夫斯瓦爾德潟湖有漁獲紀錄。',food:'可鮮食或冷凍，適合煎、烤。',hint:'細長如針、嘴又尖又長，上鉤後常跳出水面。',source:fb+'Belone-belone.html'}]);
 regions.push(
 {id:'bodensee',name:'博登湖',area:'德國・巴登-符騰堡／巴伐利亞',lat:47.6,lon:9.4,water:'深水湖泊・淡水',desc:'阿爾卑斯山北麓的大湖，由德國、奧地利與瑞士三國環繞；湖水深而清，萊茵河從東南方流入。',pool:{perch:28,commonbream:20,carp:17,blaufelchen:15,pike:10,browntrout:10},source:'https://www.schule-bw.de/faecher-und-schularten/gesellschaftswissenschaftliche-und-philosophische-faecher/landeskunde-landesgeschichte/module/epochen/umweltgeschichte/bodensee/ab23.pdf'},
 {id:'greifswald',name:'格賴夫斯瓦爾德潟湖',area:'德國・梅克倫堡-前波莫瑞',lat:54.22,lon:13.55,water:'潟湖・半淡鹹水',desc:'波羅的海南岸、呂根島南側的淺水內灣，海水與淡水交會，鹽度比外海低；春季有大群鯡魚入灣產卵。',pool:{herring:30,flounder:18,perch:15,garfish:15,pike:12,zander:10},source:'https://www.lallf.de/fileadmin/media/PDF/fischer/5_Statistik/xFangstatistik_2001Gebiete.pdf'});
@@ -144,5 +179,43 @@ Object.assign(weatherOdds,{bodensee:[35,40,25],greifswald:[30,40,30]});
 conditions.herring={months:[2,3,4],amount:2,note:'2～4 月較常見'};
 fish.find(f=>f.id==='carp').distribution+='德國博登湖的遊釣漁獲亦有紀錄。';
 
-const data={fish,regions,baits,recipes,upgrades,economy,world};if(typeof module!=='undefined')module.exports=data;else root.FishingData=data;
+// 0.13 local names, shown only in the atlas: Taiwanese and Hakka (Sixian) from the MOE dictionaries for fish of Taiwan waters,
+// Cantonese for Hong Kong waters, German for the German waters. Only exact dictionary or source matches; see SOURCES.md.
+const localNames={
+carp:[['台語','𩸙仔 tāi-á、鯉魚 lí-hî'],['客語四縣腔','鯉魚 liˊ ngˇ'],['德語','Karpfen']],
+crucian:[['台語','鯽仔魚 tsit-á-hî'],['客語四縣腔','鯽魚仔 jidˋ ngˇ eˋ']],
+grass:[['台語','草魚 tsháu-hî'],['客語四縣腔','草魚 coˋ ngˇ']],
+silver:[['台語','鰱魚 liân-hî']],
+bighead:[['台語','鰱魚 liân-hî'],['客語四縣腔','大頭鰱 tai teuˇ lienˇ']],
+blackporgy:[['台語','烏格仔 oo-keh-á']],
+yellowfin:[['粵語','黃腳鱲']],
+terapon:[['台語','花身仔 hue-sin-á']],
+girella:[['台語','烏毛 oo-moo']],
+mullet:[['台語','烏魚 oo-hî']],
+pachyhead:[['客語四縣腔','白哥仔 pag goˊ eˋ']],
+spottedsnakehead:[['台語','鮕鮘 koo-tai']],
+dwarfsnakehead:[['台語','鮕鮘 koo-tai']],
+loach:[['台語','鰗鰡 hôo-liu'],['客語四縣腔','湖鰍仔 fuˇ qiuˊ eˋ']],
+amurcatfish:[['台語','鯰魚 liâm-hî'],['客語四縣腔','鯰仔 ngiamˇ eˋ']],
+giurinus:[['客語四縣腔','狗頷仔 gieuˋ ngamˋ eˋ']],
+swampeel:[['台語','鱔魚 siān-hî'],['客語四縣腔','黃鱔 vongˇ sanˊ']],
+fusilier:[['台語','烏尾冬 oo-bué-tang']],
+redseabream:[['台語','嘉鱲 ka-la̍h']],
+perch:[['德語','Flussbarsch（博登湖稱 Kretzer，瑞士稱 Egli）']],
+pike:[['德語','Hecht']],
+blaufelchen:[['德語','Bodenseefelchen、Blaufelchen']],
+browntrout:[['德語','Forelle（湖泊型稱 Seeforelle，溪流型稱 Bachforelle）']],
+commonbream:[['德語','Brasse、Brachse、Blei']],
+herring:[['德語','Atlantischer Hering（通稱 Hering）']],
+zander:[['德語','Zander']],
+flounder:[['德語','Flunder']],
+garfish:[['德語','Hornhecht']]
+};
+fish.forEach(f=>f.localNames=localNames[f.id]||[]);
+// 0.13 recipe tiers. While active: about +5% (basic), +10% (home) or +15% (classic) cast income; see tests/cooking-economy.json.
+const recipeTiers={basic:{name:'基本',value:.05,casts:40,seasoning:5},home:{name:'家常',value:.1,speed:.09,size:.3,casts:60,seasoning:1.5},classic:{name:'名菜',value:.15,speed:.13,size:.4,casts:80,seasoning:3}};
+const cookingMethods={soup:{name:'湯鍋燉煮',effect:'speed'},steam:{name:'清蒸水煮',effect:'size'},fry:{name:'煎炸烤燻',effect:'value'}};
+const cuisines=[['basic','基本'],['taiwan','臺灣'],['china','中國・港粵'],['japan','日本'],['seasia','東南亞'],['europe','歐洲']];
+for(const r of recipes){const t=recipeTiers[r.tier];r.fishes=r.fish==='*'?fish.filter(f=>f.edible).map(f=>f.id):[].concat(r.fish);r.effect=cookingMethods[r.method].effect;r.amount=t[r.effect];r.casts=t.casts;r.cost=r.tier==='basic'?t.seasoning:Math.max(10,Math.round(Math.max(...r.fishes.map(id=>fish.find(f=>f.id===id).price))*t.seasoning/5)*5);r.desc=`${{speed:'等待時間減少',value:'新漁獲售價增加',size:'新漁獲重量增加'}[r.effect]} ${Math.round(r.amount*100)}%，持續 ${r.casts} 竿。`}
+const data={fish,regions,baits,recipes,recipeTiers,cookingMethods,cuisines,upgrades,economy,world};if(typeof module!=='undefined')module.exports=data;else root.FishingData=data;
 })(globalThis);

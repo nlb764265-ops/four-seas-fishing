@@ -1,4 +1,4 @@
-# 四海釣遊記 0.12：資料來源
+# 四海釣遊記 0.13：資料來源
 
 查閱日期：2026-10-21。魚類文字為依資料重寫的簡介，沒有使用來源照片或大段原文。魚類資料不等於遊戲機率、價格與現實賞金政策。
 
@@ -206,3 +206,58 @@ Natural Earth [1:50m Land](https://www.naturalearthdata.com/downloads/50m-physic
 中文名：河鱸（含別名歐洲河鱸）與細頜針魚（別名頜針魚）已在 FishBase 中文俗名表核對。白斑狗魚、褐鱒、歐鯿、大西洋鯡、梭鱸、歐洲川鰈採中文常用譯名，FishBase 俗名頁本次遭防爬蟲攔截而未完成核對；博登湖白鮭為依德文 Blaufelchen 與分布取的遊戲名稱。均待後續補證。
 
 讀音：本版只為魚名與俗名中的生難字標音。新增鱸 ㄌㄨˊ／lú、鮭 ㄍㄨㄟ／guī、鱒 ㄗㄨㄣ／zūn、鯿 ㄅㄧㄢ／biān、鯡 ㄈㄟ／fēi、鰈 ㄉㄧㄝˊ／dié、頜 ㄏㄜˊ／hé，採常見標準讀音，尚未逐字連結教育部辭典條目。
+
+## 0.13 料理考據
+
+查閱日期：2026-10-22。只收錄確實存在、且確認使用遊戲內該魚種（或同一俗名所指魚種）的菜式；介紹依來源重寫。效果、竿數、調味料費與「湯鍋燉煮／清蒸水煮／煎炸烤燻」對應的效果類型是遊戲設定。沒有找到可靠菜式依據的魚種只提供通用的煎魚；不可食用魚（`edible:false`）沒有任何料理。
+
+| 料理 | 魚材 | 依據 |
+|---|---|---|
+| 煎魚 | 所有可食用魚 | 通用家常做法，不指涉特定地方菜。 |
+| 酥炸奇力魚 | 奇力魚 | 沿用原有圖鑑來源：臺灣魚類資料庫記載常以油炸料理；0.12 名稱「酥煎」依此改為「酥炸」。 |
+| 三杯魚虎 | 魚虎 | [民視英文新聞 2025](https://english.ftvnews.com.tw/news/2025213W02EA)：日月潭業者以魚虎辦外來魚種宴，稱其適合三杯或紅燒；[智富台灣](https://smiletaiwan.cw.com.tw/index.php/article/928)：曾文水庫旁餐廳的魚虎料理。0.12 的「薑燒魚虎」查無依據，ID `ginger` 保留以相容存檔。 |
+| 清蒸珍珠石斑 | 珍珠石斑 | 沿用原有圖鑑來源：[臺灣魚類資料庫](https://fishdb.sinica.edu.tw/mobi/species.php?id=395570)有食用與料理紀錄。 |
+| 清蒸總統魚 | 翹嘴鮊、紅鰭鮊 | [維基百科「翹嘴鮊」](https://zh.wikipedia.org/wiki/翘嘴鲌)與[「紅鰭鮊」](https://zh.wikipedia.org/wiki/红鳍鲌)都列「總統魚」為俗名，故兩種皆可用；日月潭清蒸做法與蔣中正傳說見[go fun it 日月潭餐廳介紹](https://gofunit.com/%E6%97%A5%E6%9C%88%E6%BD%AD%E9%A4%90%E5%BB%B3-%E6%BD%AD%E9%AE%AE%E7%BE%8E%E9%A3%9F%E6%96%99%E7%90%86/)、[uptogo](https://uptogo.com.tw/?p=1689456)。命名由來屬地方傳說，玩家文字以「相傳」表述。 |
+| 砂鍋魚頭 | 大頭鰱 | [維基百科「鱅魚」](https://zh.wikipedia.org/wiki/鳙鱼)列砂鍋魚頭；[TVBS](https://news.tvbs.com.tw/local/16434)、[鏡週刊 2026](https://www.mirrormedia.mg/story/20260108bus001)：嘉義各店用大頭鰱魚頭先炸後燉，傳統用曾文水庫的魚。 |
+| 清蒸筍殼魚 | 筍殼魚 | [元氣網](https://health.udn.com/health/story/6036/7298566)：筍殼魚適合清蒸，不宜久蒸。 |
+| 鱔魚意麵 | 黃鱔 | [維基百科「鱔魚意麵」](https://zh.wikipedia.org/wiki/鱔魚意麵)。 |
+| 鯽魚湯 | 鯽魚 | 沿用原有菜式；中國各地常見的家常湯，本次未另找單一權威來源，列待補充。 |
+| 清蒸鯉魚 | 鯉魚 | 沿用原有菜式；清蒸為常見做法，本次未另找單一權威來源，列待補充。 |
+| 糖醋鯉魚 | 鯉魚 | [維基百科「糖醋鯉魚」](https://zh.wikipedia.org/wiki/糖醋鲤鱼)：魯菜濟南派代表菜，以黃河鯉魚為佳，正宗糖醋汁不用番茄醬。 |
+| 西湖醋魚 | 草魚 | [維基百科「西湖醋魚」](https://zh.wikipedia.org/wiki/西湖醋鱼)：樓外樓以草魚餓養去腥，「使用低廉的草魚做出蟹味」。 |
+| 清蒸武昌魚 | 武昌魚 | [維基百科「清蒸武昌魚」](https://zh.wikipedia.org/wiki/清蒸武昌鱼)。 |
+| 上海爆魚 | 青魚 | [澎湃新聞](https://www.thepaper.cn/newsDetail_forward_5699427)：上海年節的爆魚以醃過的青魚塊油炸、滷燒，便於保存。原擬「熏魚」未找到明確指青魚的來源，改用爆魚。 |
+| 煎釀鯪魚 | 鯁魚（鯪） | [維基百科「鯪」](https://zh.wikipedia.org/wiki/鲮)經濟利用段列出煎釀鯪魚、豆豉鯪魚等。 |
+| 生魚湯 | 斑鱧 | [維基百科「鱧魚」](https://zh.wikipedia.org/wiki/鱧魚)：廣東、香港稱 Channa maculata 為生魚，術後常煮湯進補；[香港衞生署 Eat Smart 生魚湯食譜](https://school.eatsmart.gov.hk/files/pdf/Soup_3_Snakehead_Mullet_Soup_with_Apples_and_Water_Chestnuts_tc.pdf)：生魚以薑煎香後煲湯。「西洋菜生魚湯」未找到可靠來源，未採用。 |
+| 鯰魚燉茄子 | 鯰魚 | [澎湃新聞](https://m.thepaper.cn/newsDetail_forward_16641031)、[買購網](https://m.maigoo.com/citiao/157677.html)：東北家常燉菜，俗語「鯰魚燉茄子，撐死老爺子」。 |
+| 蒲燒鰻 | 日本鰻鱺 | [維基百科「蒲燒」](https://zh.wikipedia.org/wiki/蒲燒)。 |
+| 柳川鍋 | 泥鰍 | [日文維基百科「柳川鍋」](https://ja.wikipedia.org/wiki/柳川鍋)：剖開的泥鰍與牛蒡以割下煮過、蛋液收尾。 |
+| 鹽烤黑鯛 | 黑鯛 | [日文維基百科「クロダイ」](https://ja.wikipedia.org/wiki/クロダイ)：刺身、塩焼き、煮付け等，關西稱チヌ。 |
+| 煮付石狗公 | 石狗公 | [日文維基百科「カサゴ」](https://ja.wikipedia.org/wiki/カサゴ)：學名 Sebastiscus marmoratus，和食多做味噌汁、煮付け、塩焼き，小型者做唐揚げ。 |
+| 唐揚烏尾冬 | 雙帶烏尾冬 | [日文維基百科「タカサゴ」](https://ja.wikipedia.org/wiki/タカサゴ_(魚))：Pterocaesio digramma，沖繩稱グルクン、為沖繩縣魚，做刺身、塩焼き、唐揚げ。 |
+| 鯛魚飯 | 嘉鱲 | [日文維基百科「鯛めし」](https://ja.wikipedia.org/wiki/鯛めし)：鯛先烤過，整尾與米同炊。 |
+| 丁香魚刺身 | 日本銀帶鯡 | [日文維基百科「キビナゴ」](https://ja.wikipedia.org/wiki/キビナゴ)確認學名；[NAP CAMP](https://www.nap-camp.com/mag/487)、[近畿日本ツーリスト](https://www.nta.co.jp/media/tripa/articles/dCeUW)：鹿兒島手開刺身、菊花造り、甜醋味噌。中文俗名「丁香魚」見[維基百科「日本銀帶鯡」](https://zh.wikipedia.org/wiki/日本銀帶鯡)。 |
+| 泰式鹽烤魚 | 泰國鱧、尼羅吳郭魚 | [Eating Thai Food](https://www.eatingthaifood.com/thai-grilled-fish-recipe-pla-pao/)：pla pao 傳統用鱧魚（pla chon）或吳郭魚（pla nin），塞香茅、抹鹽殼炭烤；[英文維基百科「Channa striata」](https://en.wikipedia.org/wiki/Channa_striata)：泰國常見烤鱧魚。 |
+| 涼拌酥炸鯰魚 | 蟾鬍鯰 | [英文維基百科「Walking catfish」](https://en.wikipedia.org/wiki/Walking_catfish)：泰國稱 Clarias aff. batrachus 為 pla duk dan，是常見平價食用魚；[Food.com](https://www.food.com/amp/recipe/thai-catfish-salad-yam-pla-dook-foo-31233)、[Karma Group](https://karmacommunity.karmagroup.com/food-wine/yam-pla-duk-fu-catfish-youll-love/)：yam pla duk fu 以烤鯰魚拆絲油炸，配青芒果沙拉。 |
+| 杏仁奶油煎河鱸 | 河鱸 | [德文維基百科「Flussbarsch」](https://de.wikipedia.org/wiki/Flussbarsch)：博登湖稱 Kretzer、瑞士稱 Egli；[speisekarte.de 烏爾丁根 Seehof 菜單](https://www.speisekarte.de/uhldingen-m%C3%BChlhofen/restaurant/seehof/speisekarte)：Kretzerfilets in Mandelbutter gebraten。 |
+| 煙燻魚 | 大西洋鯡、褐鱒、博登湖白鮭 | [德文維基百科「Räucherfisch」](https://de.wikipedia.org/wiki/Räucherfisch)：熱燻的典型魚種有鱒魚等，產品包括 Bückling；[德文維基百科「Bückling」](https://de.wikipedia.org/wiki/Bückling)：帶頭煙燻的鯡魚；[德文維基百科「Bodenseefelchen」](https://de.wikipedia.org/wiki/Bodenseefelchen)：博登湖白鮭可煎、蒸或煙燻；[lecker.de](https://www.lecker.de/raeucherfisch-rezepte-mit-geraeuchertem-lachs-co-51678.html)：煙燻時魚已熟，可冷吃；[speisekarte.de 不來梅 Zur Ochtumbrücke 菜單](https://www.speisekarte.de/bremen/restaurant/gaststaette_zur_ochtumbruecke/speisekarte)：整尾燻鱒魚配鮮奶油辣根與吐司。德國的煙燻鰻（Räucheraal，見 [ADAC 梅克倫堡-前波莫瑞沿岸飲食](https://maps.adac.de/show/mecklenburgische-ostsee/regionale-kueche-an-mecklenburg-vorpommerns-ostseekueste-mehr-als-hering)）用歐洲鰻，與遊戲的日本鰻鱺不同種，未納入。0.13 開發中原為只用白鮭的「煙燻博登湖白鮭」，發布前改為此道。 |
+| 藍煮鱒魚 | 褐鱒 | [德文維基百科「Blaukochen」](https://de.wikipedia.org/wiki/Blaukochen)：整尾淡水魚保留黏液、在加醋湯中煮而轉藍，常見菜名 Forelle blau。 |
+| 煎鮮鯡 | 大西洋鯡 | [德文維基百科「Grüner Hering」](https://de.wikipedia.org/wiki/Grüner_Hering)：未醃漬的鮮鯡稱 grüne Heringe，傳統依磨坊主婦式裹粉以奶油煎，配煎馬鈴薯與洋蔥圈。 |
+| 法蘭肯炸鯉魚 | 鯉魚 | [德文維基百科「Karpfen」](https://de.wikipedia.org/wiki/Karpfen)：Karpfen fränkisch 為連頭帶鰭縱剖、裹粉油炸，魚鰭酥脆可食；鯉魚習慣在帶 r 的月份（9～4 月）食用。[德文維基百科「Fränkische Küche」](https://de.wikipedia.org/wiki/Fränkische_Küche)：艾施谷鯉魚以秋季（9～11 月）在自有魚塘的餐館最佳。季節只寫入介紹，遊戲不限制製作月份。 |
+| 狗魚丸 | 白斑狗魚 | [英文維基百科「Quenelle」](https://en.wikipedia.org/wiki/Quenelle)：里昂與南蒂阿的 quenelles de brochet，常配螯蝦醬汁。 |
+
+考慮後未採用：烏魚子（需鹽漬日曬數週，屬加工品）、清蒸黃腳鱲與清蒸青斑（未找到指明該魚種的可靠來源）、德國歐洲川鰈煙燻（未找到地方特產依據）。
+
+## 0.13 圖鑑當地語言名稱
+
+查閱日期：2026-10-22。圖鑑為非中文地區的魚種列出當地語言名稱，為臺灣水域的魚種列出台語與客語名稱，為香港水域的魚種列出粵語名稱；這些名稱只在圖鑑顯示，只有已捕獲的魚可以用它們搜尋。德語名原本混在俗名欄，本版移出。
+
+台語：依[教育部臺灣台語常用詞辭典](https://sutian.moe.edu.tw/)「用華語查全文」中「完全符合對應華語」的詞條，以遊戲魚名及其中文俗名逐一查詢，再依釋義人工確認；拼音採辭典的臺羅，有兩種讀音時只列第一種。收錄：𩸙仔 tāi-á 與鯉魚 lí-hî（鯉魚）、鯽仔魚（鯽魚）、草魚、鰱魚（釋義「白鰱、黑鰱」，白鰱與大頭鰱都列）、烏格仔（黑鯛）、花身仔（花身雞魚）、烏毛（瓜子鱲）、烏魚、鮕鮘（釋義「臺灣鱧魚、七星鱧」，斑鱧與七星鱧都列）、鰗鰡（泥鰍）、鯰魚、鱔魚（黃鱔）、烏尾冬（雙帶烏尾冬）、嘉鱲。
+
+排除：柴魚（辭典指柴魚片）、斑馬與花條馬（動物）、四破（臺灣通常指藍圓鰺）、鮢鱖（辭典釋義為鞍帶石斑，與遊戲中的石斑不同種）、花鮡（只寫「彈塗魚的一種」，無法確認是同一種）、烏毛未列給黃帶瓜子鱲（辭典釋義只寫瓜子鱲與黑毛）。
+
+客語：依[教育部臺灣客語辭典](https://hakkadict.moe.edu.tw/)「對應國語」完全符合的詞條，列四縣腔讀音（辭典另有海陸、大埔、饒平、詔安、南四縣腔）。收錄：鯉魚 liˊ ngˇ、鯽魚仔、草魚、大頭鰱、白哥仔（粗首鱲）、湖鰍仔（泥鰍）、鯰仔（鯰魚）、狗頷仔（極樂吻鰕虎）、黃鱔。排除：汨洎鳥（以「魚虎」查到的是翠鳥）、白帶魚（以「白魚」查到）、紅花（植物）、斑馬（動物）。
+
+粵語：[維基百科「黃鰭棘鯛」](https://zh.wikipedia.org/wiki/黄鳍棘鲷)寫明香港及華南稱黃腳鱲。黑鯛、黃錫鯛、烏魚、花身雞魚、多鱗沙鮻的香港俗名未找到標明地區的可靠來源，待查。
+
+德語：[德文維基百科](https://de.wikipedia.org/)各物種條目——「Karpfen」、「Flussbarsch」（博登湖稱 Kretzer，瑞士稱 Egli）、「Hecht」、「Bodenseefelchen」（又稱 Blaufelchen）、「Forelle」（湖泊型 Seeforelle、溪流型 Bachforelle）、「Brasse (Fisch)」（又稱 Brachse、Blei）、「Atlantischer Hering」、「Zander」、「Flunder」、「Hornhechte」（格賴夫斯瓦爾德潟湖為其產卵地）。

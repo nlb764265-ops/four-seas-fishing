@@ -189,3 +189,13 @@ footer{font-size:12px}
 .picker-toggle:hover{color:var(--ink)}
 .water-progress{border:0;background:none;padding:0;margin-top:2px;font-size:13px;color:var(--green);text-decoration:underline;text-underline-offset:3px;cursor:pointer}
 .atlas-water-note{margin:-4px 0 10px;font-size:13px;color:var(--green)}
+/* 0.13 kitchen */
+.kitchen-intro{margin:0 0 14px;color:var(--muted)}
+.kitchen-chip b{color:var(--muted)}
+.kitchen-chip.ready b{color:var(--green);font-weight:700}
+.kitchen-locked{margin:14px 0 0;font-size:14px;color:var(--muted)}
+.kitchen-fish{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:12px 0 0;font-size:14px;color:var(--muted)}
+.kitchen-fish select{font:inherit;color:var(--ink);padding:6px 10px;border:1px solid var(--line);border-radius:6px;background:var(--card);max-width:100%}
+.local-names{display:grid;grid-template-columns:auto 1fr;gap:2px 12px;margin:4px 0 8px;font-size:14px;color:var(--muted)}
+.local-names dt{color:var(--gold);white-space:nowrap}
+.local-names dd{margin:0;overflow-wrap:anywhere}
