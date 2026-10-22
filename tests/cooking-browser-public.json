@@ -1,0 +1,16 @@
+{
+  "version": "0.13",
+  "url": "https://nlb764265-ops.github.io/four-seas-fishing/",
+  "commit": "99fcce50181f77701e38b26f5886e9c6bf0441a1",
+  "date": "2026-10-22",
+  "checks": {
+    "edition": "DEMO 0.13, 32 recipes loaded",
+    "assets": "15 public assets byte-identical to commit (work/deployment-013.json)",
+    "fishing": "real timed casting at Sun Moon Lake: 3 catches (crucian, grass carp, topmouth gudgeon), 3 bait used",
+    "kitchen": "unlocked list = pan-fry, crucian soup, West Lake fish; 29 locked counted, not named; crucian soup via UI cost 20, consumed 1 crucian, buff 60 casts shown in status bar",
+    "atlas": "crucian tagged edible, Taiwanese tsit-á-hî and Hakka jidˋ ngˇ eˋ shown, dishes listed; topmouth gudgeon edible with no local names",
+    "mobile": "375 wide: no horizontal scroll, recipe detail opens as bottom sheet",
+    "console": "no errors",
+    "save": "original public save (new game) backed up before testing and restored afterwards"
+  }
+}
