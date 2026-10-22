@@ -1,4 +1,4 @@
-# 四海釣遊記 0.11：資料來源
+# 四海釣遊記 0.12：資料來源
 
 查閱日期：2026-10-21。魚類文字為依資料重寫的簡介，沒有使用來源照片或大段原文。魚類資料不等於遊戲機率、價格與現實賞金政策。
 
@@ -187,3 +187,22 @@ Natural Earth [1:50m Land](https://www.naturalearthdata.com/downloads/50m-physic
 - 中研院[多鱗沙鮻 Sillago sihama](https://fishdb.sinica.edu.tw/taxon/382631-fishdb)：現行中文名、沙腸仔／多鱗鱚別名、細長尖吻、砂泥底與河口棲地、底棲無脊椎動物食性、埋沙行為及油炸利用。遊戲新 ID silversillago，重量 0.04～0.25 公斤。
 
 讀音：[漢典「鲹」](https://zdic.net/hans/%E9%B2%B9)的魚科義標為 shēn／ㄕㄣ；本版為六帶鰺增補此義讀音，鮻沿用原有 suō／ㄙㄨㄛ。繁簡轉換沿用內附 OpenCC 字典。
+
+## 0.12 德國第 6 批：博登湖、格賴夫斯瓦爾德潟湖
+
+查閱日期：2026-10-22。以下來源支持水域配置與介紹；體重、權重、價格、天氣比例、鯡魚 2～4 月加權倍數與場景文字為遊戲設定。漁獲統計為商業或遊釣紀錄，不代表現今族群數量、竿釣機率或現行法規。地圖採水域概略中心：博登湖 47.60° N、9.40° E，格賴夫斯瓦爾德潟湖 54.22° N、13.55° E。
+
+水域分布：
+
+- 梅克倫堡-前波莫瑞邦農業食品安全漁業局（LALLF）[2001 年分區漁獲統計](https://www.lallf.de/fileadmin/media/PDF/fischer/5_Statistik/xFangstatistik_2001Gebiete.pdf)「Greifsw. Bodden」欄：鯡 5,413,598 公斤、川鰈 77,893、顎針魚 47,742、白斑狗魚 42,682、河鱸 27,548、梭鱸 23,037，全欄合計 5,675,486 公斤，鯡約占 95.4%。原表以 pypdf 讀出核對。
+- 博登湖：國際博登湖漁業全權代表會議（IBKF）漁獲統計，經 [schule-bw 教材 ab23](https://www.schule-bw.de/faecher-und-schularten/gesellschaftswissenschaftliche-und-philosophische-faecher/landeskunde-landesgeschichte/module/epochen/umweltgeschichte/bodensee/ab23.pdf) 轉載，列白鮭、河鱸、白斑狗魚、紅點鮭、湖鱒與白魚類；遊釣漁獲含鯉魚。白鮭漁獲 2018 年創 1910 年有書面紀錄以來新低，見 [Schwäbische Zeitung](https://www.schwaebische.de/regional/bodensee/ueberlingen/felchenfangzahl-sinkt-auf-rekordtief-253225)；2024 年起三年禁捕見 [SRF](https://www.srf.ch/news/schweiz/zur-rettung-des-fischbestands-ab-2024-gilt-dreijaehriges-felchen-fangmoratorium-am-bodensee)。尚未改以 ibkf.org 原始年報核對。
+- 湖鱒復育與溯河產卵：[奧地利聯邦農林部：博登湖湖鱒](https://www.bmluk.gv.at/themen/wasser/wasser-eu-international/europaeische-und-internationale-wasserwirtschaft/gewaesserkommissionen/Die-Bodensee-Seeforelle.html)、[格勞賓登邦 2000 年新聞](https://www.gr.ch/DE/Medien/Mitteilungen/MMStaka/2000/Seiten/DE_14284.aspx)；湖鱒為開闊水域的大型掠食魚，見[巴伐利亞邦農業研究所 Nonnenhorn 孵化場介紹](https://www.lfl.bayern.de/mam/cms07/ifi/dateien/staatliche_fischbrutanstalt_in_nonnenhorn__bodensee_.pdf)。
+- 鯡魚產卵：[Thünen 研究所 2021 新聞稿](https://www.thuenen.de/media/ti/Newsroom/Presse/Pressemitteilungen/2021/2021-01-28/2021-01-28_Hering.pdf)（「育嬰房」、近三十年監測）、[Thünen 專欄 K49](https://www.thuenen.de/media/institute/sf/Aktuelles/TI-Kolumne/K49_Ostseehering_2022_70_2025.pdf)（3.5～4°C 開始產卵、近年二月見卵）、[德國聯邦環境署指標 FI-I-2](https://www.umweltbundesamt.de/node/41398)（洄游至產卵場一般為二月至五月初）。遊戲據此設 2～4 月較常見。返鄉產卵 56～73% 取自 Thünen 2025 年 Science Advances 研究的新聞報導摘要，原論文連結待補。
+- 梭鱸在鯡魚產卵季食物最多七成為鯡魚：[聯邦漁業研究所報告](https://www.openagrar.de/servlets/MCRFileNodeServlet/timport_derivate_00016962/dk040531.pdf)，本次依搜尋摘要，原頁待核讀。
+- 木樁屋遺址：[Welterbe Deutschland](https://welterbedeutschland.de/prehistoric-pile-dwellings-around-the-alps/)，2011 年列入世界遺產，烏爾丁根重建 23 棟。
+
+物種資料以 FishBase 為準（經 fishbase.de 鏡像讀取文字）：[Perca fluviatilis](https://www.fishbase.se/summary/Perca-fluviatilis.html)、[Esox lucius](https://www.fishbase.se/summary/Esox-lucius.html)、[Coregonus wartmanni](https://www.fishbase.se/summary/Coregonus-wartmanni.html)（博登湖特有、2023-11-04 IUCN 瀕危、十二月上半 7°C 以下產卵）、[Salmo trutta](https://www.fishbase.se/summary/Salmo-trutta.html)、[Abramis brama](https://www.fishbase.se/summary/Abramis-brama.html)、[Clupea harengus](https://www.fishbase.se/summary/Clupea-harengus.html)、[Sander lucioperca](https://www.fishbase.se/summary/Sander-lucioperca.html)、[Platichthys flesus](https://www.fishbase.se/summary/Platichthys-flesus.html)、[Belone belone](https://www.fishbase.se/summary/Belone-belone.html)。歐洲川鰈食性另依 [ICES 1977 基爾灣胃含物調查](https://www.ices.dk/sites/pub/CM%20Doccuments/1977/P/1977_P8.pdf)（以小型甲殼類與多毛類為主）。
+
+中文名：河鱸（含別名歐洲河鱸）與細頜針魚（別名頜針魚）已在 FishBase 中文俗名表核對。白斑狗魚、褐鱒、歐鯿、大西洋鯡、梭鱸、歐洲川鰈採中文常用譯名，FishBase 俗名頁本次遭防爬蟲攔截而未完成核對；博登湖白鮭為依德文 Blaufelchen 與分布取的遊戲名稱。均待後續補證。
+
+讀音：本版只為魚名與俗名中的生難字標音。新增鱸 ㄌㄨˊ／lú、鮭 ㄍㄨㄟ／guī、鱒 ㄗㄨㄣ／zūn、鯿 ㄅㄧㄢ／biān、鯡 ㄈㄟ／fēi、鰈 ㄉㄧㄝˊ／dié、頜 ㄏㄜˊ／hé，採常見標準讀音，尚未逐字連結教育部辭典條目。

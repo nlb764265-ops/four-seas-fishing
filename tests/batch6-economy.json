@@ -1,0 +1,80 @@
+{
+  "rule": "bait charged per fish caught; fares uncapped",
+  "worstRatio": 1.3203,
+  "worstAt": "2月 釣竿Lv.1 售價0 dough jaguar-steam",
+  "fares": {
+    "sunmoon_bodensee": 500,
+    "sunmoon_greifswald": 470,
+    "bodensee_greifswald": 60
+  },
+  "samples": [
+    {
+      "month": 3,
+      "bait": "dough",
+      "perCast": {
+        "sunmoon": 12.16,
+        "zengwen": 13.67,
+        "qigu": 12.98,
+        "guandu": 13.05,
+        "keelung": 14.95,
+        "penghu": 14.41,
+        "longdong": 15.29,
+        "kenting": 14.23,
+        "tolo": 15.48,
+        "bodensee": 14.22,
+        "greifswald": 12.38
+      }
+    },
+    {
+      "month": 3,
+      "bait": "meat",
+      "perCast": {
+        "sunmoon": 11.45,
+        "zengwen": 13.13,
+        "qigu": 10.76,
+        "guandu": 10.83,
+        "keelung": 12.83,
+        "penghu": 12.26,
+        "longdong": 13.18,
+        "kenting": 12.08,
+        "tolo": 13.37,
+        "bodensee": 12.06,
+        "greifswald": 10.14
+      }
+    },
+    {
+      "month": 10,
+      "bait": "dough",
+      "perCast": {
+        "sunmoon": 12.16,
+        "zengwen": 13.67,
+        "qigu": 12.98,
+        "guandu": 13.05,
+        "keelung": 14.95,
+        "penghu": 14.41,
+        "longdong": 15.29,
+        "kenting": 14.23,
+        "tolo": 15.48,
+        "bodensee": 14.22,
+        "greifswald": 13.15
+      }
+    },
+    {
+      "month": 10,
+      "bait": "meat",
+      "perCast": {
+        "sunmoon": 11.45,
+        "zengwen": 13.13,
+        "qigu": 10.76,
+        "guandu": 10.83,
+        "keelung": 12.83,
+        "penghu": 12.26,
+        "longdong": 13.18,
+        "kenting": 12.08,
+        "tolo": 13.37,
+        "bodensee": 12.06,
+        "greifswald": 10.94
+      }
+    }
+  ]
+}

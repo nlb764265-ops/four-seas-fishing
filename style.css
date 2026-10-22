@@ -62,7 +62,7 @@ header{flex-wrap:wrap;gap:12px 20px;margin-bottom:24px;padding-bottom:18px;borde
 .goal-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
 .goal-head strong,.goal-head h3{margin:0}
 .goal-head span{font-size:13px;font-weight:600}
-.meter{height:6px;border-radius:999px;background:#e8e7da;overflow:hidden}
+.meter{height:3px;border-radius:999px;background:#e8e7da;overflow:hidden}
 .meter div{height:100%;background:var(--gold);border-radius:999px}
 .meter.ready div{background:var(--green)}
 .meter-note{font-size:11px;color:var(--muted)}
@@ -177,3 +177,15 @@ footer{font-size:12px}
 #cloud-transfer .row{display:flex;gap:8px;flex-wrap:wrap}
 #cloud-transfer .cloud-backup{margin-top:18px;padding-top:12px;border-top:1px solid var(--line);line-height:1.7}
 #cloud-transfer .tiny{font-size:13px;line-height:1.7}
+/* 0.12: compact next-goal cards */
+.goals{gap:8px}
+.goal{padding:9px 12px;gap:5px}
+.goal-foot{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:13px;color:var(--muted)}
+.goal .goal-link{border:0;background:none;padding:0;font-size:13px;color:var(--green);text-decoration:underline;text-underline-offset:3px}
+/* 0.12: foldable atlas groups, water progress and water search note */
+.picker-toggle{width:100%;border:0;border-bottom:1px solid var(--line);border-radius:0;background:none;padding:0 0 4px;color:var(--muted);cursor:pointer;text-align:left;align-items:baseline}
+.picker-toggle span::before{content:'▾';display:inline-block;width:1.1em;transition:transform .15s}
+.picker-toggle[aria-expanded="false"] span::before{transform:rotate(-90deg)}
+.picker-toggle:hover{color:var(--ink)}
+.water-progress{border:0;background:none;padding:0;margin-top:2px;font-size:13px;color:var(--green);text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.atlas-water-note{margin:-4px 0 10px;font-size:13px;color:var(--green)}
