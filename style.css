@@ -261,3 +261,26 @@ footer{font-size:12px}
 #mapDialog .region-list button.is-current:hover{background:var(--green)}
 @media(max-height:800px){#mapDialog .map-wrap{height:clamp(150px,30dvh,240px)}#mapDialog .location{padding-top:12px}}
 @media(max-width:650px){#mapDialog .map-wrap{height:clamp(140px,26dvh,220px)}#mapDialog .region-list button{padding:5px 8px;min-height:36px;font-size:13px}}
+
+/* 0.19: compact atlas identity block and accessible capture hints. */
+#atlasDetail .fish-heading .fish-meta{display:flex;flex-direction:column;gap:3px;line-height:1.3}
+#atlasDetail .fish-heading h2{margin:4px 0}
+#atlasDetail .fish-meta p,#atlasDetail .fish-meta em,#atlasDetail .fish-meta dl{margin:0;line-height:1.3}
+#atlasDetail .fish-meta .fish-latin{display:block;font-size:13px}
+#atlasDetail .fish-meta .fish-reading{font-size:15px;line-height:1.3}
+#atlasDetail .fish-meta .local-names{font-size:14px;gap:2px 8px}
+#atlasDetail .detail-stats{margin:8px 0}
+#atlasDetail .detail-stats>div{padding-top:8px;padding-bottom:8px}
+#atlasDetail .fish-description{display:grid;grid-template-columns:76px minmax(0,1fr);gap:8px 10px;margin:10px 0}
+#atlasDetail .fish-description dt,#atlasDetail .fish-description dd{margin:0;line-height:1.6}
+#atlasDetail .fish-description dd{font-size:15px}
+.atlas-chip{position:relative}
+.catch-tooltip{display:none;position:absolute;left:0;top:100%;z-index:2000;width:max-content;max-width:300px;padding:7px 10px;background:#263e35;color:#fff;font:normal 13px/1.5 system-ui;white-space:normal;border-radius:4px;box-shadow:0 3px 10px #0002;pointer-events:none}
+.atlas-chip:hover .catch-tooltip,.atlas-chip:focus-visible .catch-tooltip{display:block}
+#baitIssue:empty{display:none}
+@media(max-width:650px){.catch-tooltip{display:none!important}#atlasDetail .fish-description{grid-template-columns:66px minmax(0,1fr);gap:7px 8px}}
+
+/* 0.20 water names and label toggle. */
+.map-water-label{position:absolute;transform:translate(-50%,-50%);font-size:12px;letter-spacing:1px;white-space:nowrap;color:#3f6f7d;pointer-events:none;z-index:2;text-shadow:0 0 2px var(--paper),0 0 2px var(--paper),0 0 3px var(--paper)}.map-water-label.on-land{color:#eef3ee;text-shadow:0 0 2px var(--green),0 0 2px var(--green),0 0 3px var(--green)}.water-label-toggle{display:flex;align-items:center;gap:4px;font-size:12px;padding:3px 9px;border:1px solid var(--green);background:var(--paper);cursor:pointer;color:var(--ink)}.water-label-toggle input{margin:0}
+@media(max-width:650px){#mapDialog .map-tools{gap:4px}#mapDialog .map-tools button{padding:2px 7px;font-size:12px}.water-label-toggle{font-size:12px;padding:2px 6px}.map-caption{white-space:nowrap;font-size:10px;max-width:calc(100% - 24px);overflow:hidden;text-overflow:ellipsis}}
+@media(max-width:400px){#mapDialog .map-tools button{padding:2px 5px;font-size:11px}.water-label-toggle{font-size:11px;padding:2px 5px;gap:3px}}

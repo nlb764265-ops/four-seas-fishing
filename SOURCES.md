@@ -41,7 +41,13 @@
 
 ## 地圖
 
-Natural Earth [1:50m Land](https://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-land/)。資料來源檔案：[ne_50m_land.geojson](https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_50m_land.geojson)。海岸座標四捨五入到三位小數，以 Canvas 低解析度放大成雙色像素地圖；不是手繪假造大陸輪廓。資料為[公共領域](https://www.naturalearthdata.com/about/terms-of-use/)。本版不載入 OpenStreetMap 圖磚，也不需 Leaflet 或網路地圖服務。
+Natural Earth [1:50m Land](https://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-land/)。資料來源檔案：[ne_50m_land.geojson](https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_50m_land.geojson)。海岸座標四捨五入到三位小數，以 Canvas 低解析度放大成雙色像素地圖；不是手繪假造大陸輪廓。資料為[公共領域](https://www.naturalearthdata.com/about/terms-of-use/)。不載入 OpenStreetMap 圖磚，也不需 Leaflet 或網路地圖服務。
+
+0.20 加入水系與細部海岸（`water-data.js`），查閱日期 2026-10-22：
+
+- Natural Earth（公共領域）：[1:50m 河川中線](https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_50m_rivers_lake_centerlines.geojson)與[1:50m 湖泊](https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_50m_lakes.geojson)畫全球主要河湖；臺灣與澎湖、香港、德國、日本近畿、日本關東五個區框內，改用 [1:10m 陸地](https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_land.geojson)、1:10m 河川（含歐洲補充）與 1:10m 湖泊（含歐洲補充）。
+- © OpenStreetMap 貢獻者，[ODbL 1.0](https://www.openstreetmap.org/copyright)：13 處釣點所屬及鄰近的已命名河川、湖泊、水庫、海灣與潟湖，經 Nominatim 依名稱取得，例如淡水河 relation/4549011、日月潭 relation/3858334、曾文水庫 relation/14114393、七股潟湖 way/222540774、吐露港 relation/9278484、博登湖 relation/1156846、格賴夫斯瓦爾德潟湖（Greifswalder Bodden）relation/8162631、琵琶湖 relation/63499、霞浦湖西浦 relation/253637。每筆資料的 `src` 欄位記錄 OSM 識別碼，地圖角落標示 OSM 出處。
+- 建置腳本與原始回應保存在專案根目錄 `work/水系地圖草稿/`；設計與核定見根目錄《水系世界地圖審閱稿.md》。水域名稱的佩訥河、佩訥水道、舒森河、阿爾根河為本作音譯；格賴夫斯瓦爾德的里克河（Ryck）待查，尚未畫入。
 
 
 ## 0.4 擴充紀錄
@@ -507,3 +513,34 @@ FishBase、臺灣魚類資料庫（人機驗證）與 TBN（403）本次無法�
 
 本批暫不收ニゴイ：日本資料分 Hemibarbus barbus 與 H. labeo，中研院／臺灣名錄有同物異名處理，待分類與中文名一致後再收。霞浦湖的ギバチ並非ギギ，不共用 gigi ID。
 
+
+
+## 0.19 魚餌分工與五種水生漁獲（查閱：2026-10-22）
+
+四種餌料、物種指定餌、重量、價格、魚池權重均為核定遊戲設定。147 種既有魚分組沿用本檔各魚食性來源；新增動物與魚類分開紀錄，許可證只計魚類。
+
+| ID／正式名 | 生態、分布與分類來源 |
+| --- | --- |
+| nipponense／日本沼蝦 Macrobrachium nipponense | [海生館日月潭標本 NMMB-CD002117](https://helloocean.nmmba.gov.tw/nmmba_front/SpecimenDetail.aspx?id=23146)支持日月潭採集；[水利署](https://www.wra.gov.tw/NewsRiverNoun_Content.aspx?n=25142&s=2191)支持名稱、東亞分布及緩流棲地。 |
+| pelagicus／遠海梭子蟹 Portunus pelagicus | [台江國家公園](https://www.tjnp.gov.tw/ch/sglarticle/crabs)支持七股等潟湖的成長棲地；[農業知識入口網](https://kmweb.moa.gov.tw/theme_data.php?id=165&theme=fisheasy)支持游泳蟹特徵與食用；[TBN](https://www.tbn.org.tw/taxa/3eca70ed-7240-4fef-aa7e-cc8e87788c6c)支持學名。 |
+| fangsiao／飯蛸 Amphioctopus fangsiao | [TBN](https://www.tbn.org.tw/taxa/614d29c4-53aa-4653-9081-01806388744f)列飯蛸為主名，短蛸、Octopus ocellatus 為別名／舊名；[臺灣貝類資料庫](https://shell.sinica.edu.tw/chinese/shellpic_T.php?science_no=2126)以舊名記錄澎湖內海分布。不是未正式命名的「澎湖章魚」。 |
+| lessoniana／萊氏擬烏賊 Sepioteuthis lessoniana | [農業知識入口網](https://kmweb.moa.gov.tw/theme_data.php?id=101&theme=fisheasy)及[新北市政府](https://www.ntpc.gov.tw/ch/home.jsp?dataserno=202210210034&id=28)支持東北角、澎湖分布、寬鰭形態及捕食蝦魚；龍洞屬東北角區域配置。 |
+| chinensis／中國槍魷 Uroteuthis chinensis | [農業知識入口網](https://kmweb.moa.gov.tw/theme_data.php?id=102&theme=fisheasy)支持現行名稱與形態；[中研院典藏](https://digiarch.sinica.edu.tw/content/repository/resource_content.jsp?oid=523552&queryString=%E8%B2%9D%E5%8D%A1+%E8%BB%9F%E9%AB%94%E5%8B%95%E7%89%A9%E9%96%80+%E9%8E%96%E7%AE%A1+%E9%8E%96%E7%AE%A1%E7%A7%91+%E9%A0%AD%E8%B6%B3%E7%B6%B1)以 Loligo chinensis 記錄澎湖內海，與[ TBN 分類](https://www.tbn.org.tw/taxa/a35040a7-15b3-47f6-9a51-f19cdeee18cd)對照後採 Uroteuthis chinensis。 |
+
+台語「軟絲仔 nńg-si-á」依[教育部辭典](https://sutian.moe.edu.tw/zh-hant/su/7968/)，釋義直接對應萊氏擬烏賊。其餘新增物種的台語、客語完全對應名稱仍待查，本版不以泛稱替代。
+
+餌料物品的現實用途參考[密蘇里州保育部](https://mdc.mo.gov/fishing/get-started-fishing/bait-lures)與[德州初學釣魚手冊](https://tpwd.texas.gov/publications/pwdpubs/media/pwd_bk_k0700_0639_baits.pdf)。一魚一餌及直接釣獲蝦蟹、章魚是本作簡化取得設定，並非逐種實釣建議。圖像為本版生成的獨立透明點陣素材，未使用來源網站照片。
+
+## 0.20 料理第 2 批（查閱日期 2026-10-22）
+
+依根目錄《料理第2批審閱稿.md》（作者已核定第一節七項全部照建議）。五種水生動物改為料理材料；龍井蝦仁、辣炒短蛸（需韓國分組）、日月潭潭蝦不收錄，依據見審閱稿第五節。
+
+| 菜名 | 材料 | 來源 |
+| --- | --- | --- |
+| 炸物、蒸魚、烤魚 | 炸物：0.5 公斤以下可料理魚、日本沼蝦、飯蛸、萊氏擬烏賊、中國槍魷；蒸魚、烤魚：可料理魚 | 通用基本料理，比照煎魚，不另列單一來源；材料範圍與效果為遊戲設定 |
+| 霞浦手長蝦唐揚 | 日本沼蝦 | 茨城縣霞ケ浦環境科學中心[自然觀察會資料](https://www.pref.ibaraki.jp/soshiki/seikatsukankyo/kasumigauraesc/05_gakushu/shizen/documents/2025_shizen5_kekka.pdf)：霞浦湖周邊蝦類為手長蝦與スジエビ，手長蝦做唐揚等食用（本日直接讀取 404，依搜尋摘要，待讀原文）；茨城縣[手長蝦頁面](https://www.pref.ibaraki.jp/nourinsuisan/kasui/shinko/tenagaebi.html)（霞浦湖北浦手長蝦漁業） |
+| 酒蒸沙蠘 | 遠海梭子蟹 | [TVBS 健康 2.0，2025-09-24](https://health.tvbs.com.tw/nutrition/357837)：轉述漁業署，沙蠘（遠海梭子蟹）雄蟹雲斑紋、雌蟹墨綠色，「適合：酒蒸、爆炒」。漁業署原貼文待查 |
+| 椰奶燉花蟹 | 遠海梭子蟹 | [Tagalog Now：alimasag](https://www.tagalognow.com/dictionary/alimasag/)（Portunus pelagicus，常以椰奶煮）；[Kawaling Pinoy](https://www.kawalingpinoy.com/?p=6591)、[Panlasang Pinoy](https://panlasangpinoy.com/wprm_print/45255)（蟹與南瓜、長豆以椰奶燉煮；食譜網站） |
+| 明石飯蛸煮付 | 飯蛸 | [神戶新聞 NEXT，2021-01-26](https://www.kobe-np.co.jp/news/akashi/202101/sp/0014031319.shtml?pg=amp)：明石浦イイダコ漁十二月起、二月高峰，旬在冬季與真蛸相反，ゆでダコ、天ぷら、煮付け |
+| 德島軟絲一夜干 | 萊氏擬烏賊 | 《徳島水研だより》第 110 號（2020 年 2 月）[〈アオリイカ料理教室〉](https://www.pref.tokushima.lg.jp/file/attachment/546406.pdf)：德島特產，料理教室介紹刺身、イカ飯、一夜干し。日本アオリイカ與臺灣軟絲屬 S. lessoniana 複合群，介紹不寫成同一族群 |
+| 小卷米粉 | 中國槍魷 | [TVBS 食尚玩家](https://supertaste.tvbs.com.tw/food/342544)、[康健雜誌](https://www.commonhealth.com.tw/article/82836)：基隆約占全國小卷產量三分之一，澎湖小卷為店家招牌，有整隻小卷的小卷米粉（搜尋摘要，待讀原文）。「小卷」泛指小型鎖管 |

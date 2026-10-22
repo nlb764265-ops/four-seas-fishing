@@ -3,7 +3,7 @@ const dictionary=typeof module!=='undefined'?require('./language-data.js'):root.
 const lengths=[...new Set(Object.keys(dictionary).map(k=>k.length))].sort((a,b)=>b-a);
 const cache=new Map();
 function simplify(value){const s=String(value);if(cache.has(s))return cache.get(s);let out='';for(let i=0;i<s.length;){let hit=false;for(const n of lengths){const k=s.slice(i,i+n);if(dictionary[k]){out+=dictionary[k];i+=n;hit=true;break}}if(!hit){const c=String.fromCodePoint(s.codePointAt(i));out+=c;i+=c.length}}if(cache.size>2500)cache.clear();cache.set(s,out);return out}
-const readings={鱨:['ㄔㄤˊ','cháng'],鰺:['ㄕㄣ','shēn'],
+const readings={蛸:['ㄕㄠ','shāo'],鱨:['ㄔㄤˊ','cháng'],鰺:['ㄕㄣ','shēn'],
 鮻:['ㄙㄨㄛ','suō'],鰶:['ㄐㄧˋ','jì'],鯁:['ㄍㄥˇ','gěng'],鮊:['ㄅㄛˊ','bó'],鱲:['ㄌㄚˋ','là'],鱧:['ㄌㄧˇ','lǐ'],鰕:['ㄒㄧㄚ','xiā'],鯻:['ㄌㄚˋ','là'],魨:['ㄊㄨㄣˊ','tún'],鰱:['ㄌㄧㄢˊ','lián'],鰻:['ㄇㄢˊ','mán'],鱺:['ㄌㄧˊ','lí'],鯧:['ㄔㄤ','chāng'],鯛:['ㄉㄧㄠ','diāo'],鰭:['ㄑㄧˊ','qí'],鰮:['ㄨㄣ','wēn'],鰛:['ㄨㄣ','wēn'],鯽:['ㄐㄧˋ','jì'],鯉:['ㄌㄧˇ','lǐ'],鯰:['ㄋㄧㄢˊ','nián'],鰍:['ㄑㄧㄡ','qiū'],鱔:['ㄕㄢˋ','shàn'],鯪:['ㄌㄧㄥˊ','líng'],魴:['ㄈㄤˊ','fáng'],鱅:['ㄩㄥ','yōng'],鯔:['ㄗ','zī'],鱠:['ㄎㄨㄞˋ','kuài'],鰡:['ㄌㄧㄡˊ','liú'],䱗:['ㄘㄢ','cān'],鱎:['ㄐㄧㄠˇ','jiǎo'],鰏:['ㄅㄧˋ','bì'],䰾:['ㄅㄚ','bā'],玳:['ㄉㄞˋ','dài'],瑁:['ㄇㄠˋ','mào'],緋:['ㄈㄟ','fēi'],棘:['ㄐㄧˊ','jí'],鰓:['ㄙㄞ','sāi'],鰾:['ㄅㄧㄠˋ','biào'],櫛:['ㄐㄧㄝˊ','jié'],鯇:['ㄏㄨㄢˋ','huàn'],鱸:['ㄌㄨˊ','lú'],鮭:['ㄍㄨㄟ','guī'],鱒:['ㄗㄨㄣ','zūn'],鯿:['ㄅㄧㄢ','biān'],鯡:['ㄈㄟ','fēi'],鰈:['ㄉㄧㄝˊ','dié'],頜:['ㄏㄜˊ','hé'],鮒:['ㄈㄨˋ','fù'],鮈:['ㄐㄩ','jū'],鮰:['ㄏㄨㄟˊ','huí'],鱥:['ㄍㄨㄟˋ','guì'],鱈:['ㄒㄩㄝˇ','xuě'],鰟:['ㄆㄤˊ','páng'],鮍:['ㄆㄧˊ','pí'],鯝:['ㄍㄨˋ','gù'],䱵:['ㄨㄥ','wēng'],鱊:['ㄩˋ','yù'],鮨:['ㄧˋ','yì']};
 let locale='zh-Hant';const KEY='four-seas-fishing-language';
 try{if(root.localStorage?.getItem(KEY)==='zh-Hans')locale='zh-Hans'}catch{}

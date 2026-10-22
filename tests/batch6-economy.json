@@ -1,88 +1,2308 @@
 {
-  "rule": "bait charged per fish caught; fares uncapped",
-  "worstRatio": 1.3723,
-  "worstAt": "2月 釣竿Lv.1 售價0 meat 無料理",
-  "fares": {
-    "sunmoon_bodensee": 500,
-    "sunmoon_greifswald": 470,
-    "bodensee_greifswald": 60
-  },
   "samples": [
     {
-      "month": 3,
+      "month": 1,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
       "bait": "dough",
-      "perCast": {
-        "sunmoon": 32.1,
-        "zengwen": 36.76,
-        "qigu": 34.24,
-        "guandu": 36.42,
-        "keelung": 42.29,
-        "penghu": 41.17,
-        "longdong": 42.59,
-        "kenting": 40.88,
-        "tolo": 40.48,
-        "bodensee": 41.91,
-        "greifswald": 33.2,
-        "biwa": 36.24,
-        "kasumigaura": 34.79
-      }
+      "income": 29.003999999999973
+    },
+    {
+      "month": 1,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "worm",
+      "income": 48.35944827586194
+    },
+    {
+      "month": 1,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "meat",
+      "income": 32.215999999999916
+    },
+    {
+      "month": 1,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "dough",
+      "income": 62.92799999999995
+    },
+    {
+      "month": 1,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "worm",
+      "income": 104.27889655172389
+    },
+    {
+      "month": 1,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "meat",
+      "income": 77.27199999999984
+    },
+    {
+      "month": 1,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "dough",
+      "income": 34.588505142856924
+    },
+    {
+      "month": 1,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "worm",
+      "income": 51.92217379310329
+    },
+    {
+      "month": 1,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "meat",
+      "income": 39.655286158333325
+    },
+    {
+      "month": 1,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "dough",
+      "income": 74.09701028571385
+    },
+    {
+      "month": 1,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "worm",
+      "income": 111.40434758620657
+    },
+    {
+      "month": 1,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "meat",
+      "income": 92.15057231666665
+    },
+    {
+      "month": 1,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "dough",
+      "income": 29.003999999999916
+    },
+    {
+      "month": 1,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "shrimp",
+      "income": 28.84104285714281
+    },
+    {
+      "month": 1,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "meat",
+      "income": 31.09675
+    },
+    {
+      "month": 1,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "dough",
+      "income": 62.927999999999834
+    },
+    {
+      "month": 1,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "shrimp",
+      "income": 67.88208571428562
+    },
+    {
+      "month": 1,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "meat",
+      "income": 75.0335
+    },
+    {
+      "month": 1,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "dough",
+      "income": 32.65226879999992
+    },
+    {
+      "month": 1,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "shrimp",
+      "income": 31.266637142857125
+    },
+    {
+      "month": 1,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "meat",
+      "income": 37.364681371428425
+    },
+    {
+      "month": 1,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "dough",
+      "income": 70.22453759999985
+    },
+    {
+      "month": 1,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "shrimp",
+      "income": 72.73327428571424
+    },
+    {
+      "month": 1,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "meat",
+      "income": 87.56936274285685
+    },
+    {
+      "month": 2,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "dough",
+      "income": 29.003999999999973
+    },
+    {
+      "month": 2,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "worm",
+      "income": 48.35944827586194
+    },
+    {
+      "month": 2,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "meat",
+      "income": 32.215999999999916
+    },
+    {
+      "month": 2,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "dough",
+      "income": 62.92799999999995
+    },
+    {
+      "month": 2,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "worm",
+      "income": 104.27889655172389
+    },
+    {
+      "month": 2,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "meat",
+      "income": 77.27199999999984
+    },
+    {
+      "month": 2,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "dough",
+      "income": 34.588505142856924
+    },
+    {
+      "month": 2,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "worm",
+      "income": 51.92217379310329
+    },
+    {
+      "month": 2,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "meat",
+      "income": 39.655286158333325
+    },
+    {
+      "month": 2,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "dough",
+      "income": 74.09701028571385
+    },
+    {
+      "month": 2,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "worm",
+      "income": 111.40434758620657
+    },
+    {
+      "month": 2,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "meat",
+      "income": 92.15057231666665
+    },
+    {
+      "month": 2,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "dough",
+      "income": 29.003999999999916
+    },
+    {
+      "month": 2,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "shrimp",
+      "income": 26.993991394148043
+    },
+    {
+      "month": 2,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "meat",
+      "income": 31.09675
+    },
+    {
+      "month": 2,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "dough",
+      "income": 62.927999999999834
+    },
+    {
+      "month": 2,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "shrimp",
+      "income": 64.1879827882961
+    },
+    {
+      "month": 2,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "meat",
+      "income": 75.0335
+    },
+    {
+      "month": 2,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "dough",
+      "income": 32.65226879999992
+    },
+    {
+      "month": 2,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "shrimp",
+      "income": 29.31889535283982
+    },
+    {
+      "month": 2,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "meat",
+      "income": 37.364681371428425
+    },
+    {
+      "month": 2,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "dough",
+      "income": 70.22453759999985
+    },
+    {
+      "month": 2,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "shrimp",
+      "income": 68.83779070567964
+    },
+    {
+      "month": 2,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "meat",
+      "income": 87.56936274285685
     },
     {
       "month": 3,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "dough",
+      "income": 29.003999999999973
+    },
+    {
+      "month": 3,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "worm",
+      "income": 48.35944827586194
+    },
+    {
+      "month": 3,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
       "bait": "meat",
-      "perCast": {
-        "sunmoon": 27.55,
-        "zengwen": 33.69,
-        "qigu": 27.47,
-        "guandu": 29.75,
-        "keelung": 35.89,
-        "penghu": 34.71,
-        "longdong": 36.2,
-        "kenting": 34.41,
-        "tolo": 34,
-        "bodensee": 35.49,
-        "greifswald": 26.38,
-        "biwa": 29.56,
-        "kasumigaura": 28.05
-      }
+      "income": 32.215999999999916
+    },
+    {
+      "month": 3,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "dough",
+      "income": 62.92799999999995
+    },
+    {
+      "month": 3,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "worm",
+      "income": 104.27889655172389
+    },
+    {
+      "month": 3,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "meat",
+      "income": 77.27199999999984
+    },
+    {
+      "month": 3,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "dough",
+      "income": 34.588505142856924
+    },
+    {
+      "month": 3,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "worm",
+      "income": 51.92217379310329
+    },
+    {
+      "month": 3,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "meat",
+      "income": 39.655286158333325
+    },
+    {
+      "month": 3,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "dough",
+      "income": 74.09701028571385
+    },
+    {
+      "month": 3,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "worm",
+      "income": 111.40434758620657
+    },
+    {
+      "month": 3,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "meat",
+      "income": 92.15057231666665
+    },
+    {
+      "month": 3,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "dough",
+      "income": 29.003999999999916
+    },
+    {
+      "month": 3,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "shrimp",
+      "income": 26.993991394148043
+    },
+    {
+      "month": 3,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "meat",
+      "income": 31.09675
+    },
+    {
+      "month": 3,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "dough",
+      "income": 62.927999999999834
+    },
+    {
+      "month": 3,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "shrimp",
+      "income": 64.1879827882961
+    },
+    {
+      "month": 3,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "meat",
+      "income": 75.0335
+    },
+    {
+      "month": 3,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "dough",
+      "income": 32.65226879999992
+    },
+    {
+      "month": 3,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "shrimp",
+      "income": 29.31889535283982
+    },
+    {
+      "month": 3,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "meat",
+      "income": 37.364681371428425
+    },
+    {
+      "month": 3,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "dough",
+      "income": 70.22453759999985
+    },
+    {
+      "month": 3,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "shrimp",
+      "income": 68.83779070567964
+    },
+    {
+      "month": 3,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "meat",
+      "income": 87.56936274285685
+    },
+    {
+      "month": 4,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "dough",
+      "income": 29.003999999999973
+    },
+    {
+      "month": 4,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "worm",
+      "income": 48.35944827586194
+    },
+    {
+      "month": 4,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "meat",
+      "income": 32.215999999999916
+    },
+    {
+      "month": 4,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "dough",
+      "income": 62.92799999999995
+    },
+    {
+      "month": 4,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "worm",
+      "income": 104.27889655172389
+    },
+    {
+      "month": 4,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "meat",
+      "income": 77.27199999999984
+    },
+    {
+      "month": 4,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "dough",
+      "income": 34.588505142856924
+    },
+    {
+      "month": 4,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "worm",
+      "income": 51.92217379310329
+    },
+    {
+      "month": 4,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "meat",
+      "income": 39.655286158333325
+    },
+    {
+      "month": 4,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "dough",
+      "income": 74.09701028571385
+    },
+    {
+      "month": 4,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "worm",
+      "income": 111.40434758620657
+    },
+    {
+      "month": 4,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "meat",
+      "income": 92.15057231666665
+    },
+    {
+      "month": 4,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "dough",
+      "income": 29.003999999999916
+    },
+    {
+      "month": 4,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "shrimp",
+      "income": 26.993991394148043
+    },
+    {
+      "month": 4,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "meat",
+      "income": 31.09675
+    },
+    {
+      "month": 4,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "dough",
+      "income": 62.927999999999834
+    },
+    {
+      "month": 4,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "shrimp",
+      "income": 64.1879827882961
+    },
+    {
+      "month": 4,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "meat",
+      "income": 75.0335
+    },
+    {
+      "month": 4,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "dough",
+      "income": 32.65226879999992
+    },
+    {
+      "month": 4,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "shrimp",
+      "income": 29.31889535283982
+    },
+    {
+      "month": 4,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "meat",
+      "income": 37.364681371428425
+    },
+    {
+      "month": 4,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "dough",
+      "income": 70.22453759999985
+    },
+    {
+      "month": 4,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "shrimp",
+      "income": 68.83779070567964
+    },
+    {
+      "month": 4,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "meat",
+      "income": 87.56936274285685
+    },
+    {
+      "month": 5,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "dough",
+      "income": 29.003999999999973
+    },
+    {
+      "month": 5,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "worm",
+      "income": 48.35944827586194
+    },
+    {
+      "month": 5,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "meat",
+      "income": 32.215999999999916
+    },
+    {
+      "month": 5,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "dough",
+      "income": 62.92799999999995
+    },
+    {
+      "month": 5,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "worm",
+      "income": 104.27889655172389
+    },
+    {
+      "month": 5,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "meat",
+      "income": 77.27199999999984
+    },
+    {
+      "month": 5,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "dough",
+      "income": 34.588505142856924
+    },
+    {
+      "month": 5,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "worm",
+      "income": 51.92217379310329
+    },
+    {
+      "month": 5,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "meat",
+      "income": 39.655286158333325
+    },
+    {
+      "month": 5,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "dough",
+      "income": 74.09701028571385
+    },
+    {
+      "month": 5,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "worm",
+      "income": 111.40434758620657
+    },
+    {
+      "month": 5,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "meat",
+      "income": 92.15057231666665
+    },
+    {
+      "month": 5,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "dough",
+      "income": 29.003999999999916
+    },
+    {
+      "month": 5,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "shrimp",
+      "income": 28.84104285714281
+    },
+    {
+      "month": 5,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "meat",
+      "income": 31.09675
+    },
+    {
+      "month": 5,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "dough",
+      "income": 62.927999999999834
+    },
+    {
+      "month": 5,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "shrimp",
+      "income": 67.88208571428562
+    },
+    {
+      "month": 5,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "meat",
+      "income": 75.0335
+    },
+    {
+      "month": 5,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "dough",
+      "income": 32.65226879999992
+    },
+    {
+      "month": 5,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "shrimp",
+      "income": 31.266637142857125
+    },
+    {
+      "month": 5,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "meat",
+      "income": 37.364681371428425
+    },
+    {
+      "month": 5,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "dough",
+      "income": 70.22453759999985
+    },
+    {
+      "month": 5,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "shrimp",
+      "income": 72.73327428571424
+    },
+    {
+      "month": 5,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "meat",
+      "income": 87.56936274285685
+    },
+    {
+      "month": 6,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "dough",
+      "income": 29.003999999999973
+    },
+    {
+      "month": 6,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "worm",
+      "income": 48.35944827586194
+    },
+    {
+      "month": 6,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "meat",
+      "income": 32.215999999999916
+    },
+    {
+      "month": 6,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "dough",
+      "income": 62.92799999999995
+    },
+    {
+      "month": 6,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "worm",
+      "income": 104.27889655172389
+    },
+    {
+      "month": 6,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "meat",
+      "income": 77.27199999999984
+    },
+    {
+      "month": 6,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "dough",
+      "income": 34.588505142856924
+    },
+    {
+      "month": 6,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "worm",
+      "income": 51.92217379310329
+    },
+    {
+      "month": 6,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "meat",
+      "income": 39.655286158333325
+    },
+    {
+      "month": 6,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "dough",
+      "income": 74.09701028571385
+    },
+    {
+      "month": 6,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "worm",
+      "income": 111.40434758620657
+    },
+    {
+      "month": 6,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "meat",
+      "income": 92.15057231666665
+    },
+    {
+      "month": 6,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "dough",
+      "income": 29.003999999999916
+    },
+    {
+      "month": 6,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "shrimp",
+      "income": 28.84104285714281
+    },
+    {
+      "month": 6,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "meat",
+      "income": 31.09675
+    },
+    {
+      "month": 6,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "dough",
+      "income": 62.927999999999834
+    },
+    {
+      "month": 6,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "shrimp",
+      "income": 67.88208571428562
+    },
+    {
+      "month": 6,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "meat",
+      "income": 75.0335
+    },
+    {
+      "month": 6,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "dough",
+      "income": 32.65226879999992
+    },
+    {
+      "month": 6,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "shrimp",
+      "income": 31.266637142857125
+    },
+    {
+      "month": 6,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "meat",
+      "income": 37.364681371428425
+    },
+    {
+      "month": 6,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "dough",
+      "income": 70.22453759999985
+    },
+    {
+      "month": 6,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "shrimp",
+      "income": 72.73327428571424
+    },
+    {
+      "month": 6,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "meat",
+      "income": 87.56936274285685
+    },
+    {
+      "month": 7,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "dough",
+      "income": 29.003999999999973
+    },
+    {
+      "month": 7,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "worm",
+      "income": 48.35944827586194
+    },
+    {
+      "month": 7,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "meat",
+      "income": 32.215999999999916
+    },
+    {
+      "month": 7,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "dough",
+      "income": 62.92799999999995
+    },
+    {
+      "month": 7,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "worm",
+      "income": 104.27889655172389
+    },
+    {
+      "month": 7,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "meat",
+      "income": 77.27199999999984
+    },
+    {
+      "month": 7,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "dough",
+      "income": 34.588505142856924
+    },
+    {
+      "month": 7,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "worm",
+      "income": 51.92217379310329
+    },
+    {
+      "month": 7,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "meat",
+      "income": 39.655286158333325
+    },
+    {
+      "month": 7,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "dough",
+      "income": 74.09701028571385
+    },
+    {
+      "month": 7,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "worm",
+      "income": 111.40434758620657
+    },
+    {
+      "month": 7,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "meat",
+      "income": 92.15057231666665
+    },
+    {
+      "month": 7,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "dough",
+      "income": 29.003999999999916
+    },
+    {
+      "month": 7,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "shrimp",
+      "income": 28.84104285714281
+    },
+    {
+      "month": 7,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "meat",
+      "income": 31.09675
+    },
+    {
+      "month": 7,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "dough",
+      "income": 62.927999999999834
+    },
+    {
+      "month": 7,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "shrimp",
+      "income": 67.88208571428562
+    },
+    {
+      "month": 7,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "meat",
+      "income": 75.0335
+    },
+    {
+      "month": 7,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "dough",
+      "income": 32.65226879999992
+    },
+    {
+      "month": 7,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "shrimp",
+      "income": 31.266637142857125
+    },
+    {
+      "month": 7,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "meat",
+      "income": 37.364681371428425
+    },
+    {
+      "month": 7,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "dough",
+      "income": 70.22453759999985
+    },
+    {
+      "month": 7,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "shrimp",
+      "income": 72.73327428571424
+    },
+    {
+      "month": 7,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "meat",
+      "income": 87.56936274285685
+    },
+    {
+      "month": 8,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "dough",
+      "income": 29.003999999999973
+    },
+    {
+      "month": 8,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "worm",
+      "income": 48.35944827586194
+    },
+    {
+      "month": 8,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "meat",
+      "income": 32.215999999999916
+    },
+    {
+      "month": 8,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "dough",
+      "income": 62.92799999999995
+    },
+    {
+      "month": 8,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "worm",
+      "income": 104.27889655172389
+    },
+    {
+      "month": 8,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "meat",
+      "income": 77.27199999999984
+    },
+    {
+      "month": 8,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "dough",
+      "income": 34.588505142856924
+    },
+    {
+      "month": 8,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "worm",
+      "income": 51.92217379310329
+    },
+    {
+      "month": 8,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "meat",
+      "income": 39.655286158333325
+    },
+    {
+      "month": 8,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "dough",
+      "income": 74.09701028571385
+    },
+    {
+      "month": 8,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "worm",
+      "income": 111.40434758620657
+    },
+    {
+      "month": 8,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "meat",
+      "income": 92.15057231666665
+    },
+    {
+      "month": 8,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "dough",
+      "income": 29.003999999999916
+    },
+    {
+      "month": 8,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "shrimp",
+      "income": 28.84104285714281
+    },
+    {
+      "month": 8,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "meat",
+      "income": 31.09675
+    },
+    {
+      "month": 8,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "dough",
+      "income": 62.927999999999834
+    },
+    {
+      "month": 8,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "shrimp",
+      "income": 67.88208571428562
+    },
+    {
+      "month": 8,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "meat",
+      "income": 75.0335
+    },
+    {
+      "month": 8,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "dough",
+      "income": 32.65226879999992
+    },
+    {
+      "month": 8,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "shrimp",
+      "income": 31.266637142857125
+    },
+    {
+      "month": 8,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "meat",
+      "income": 37.364681371428425
+    },
+    {
+      "month": 8,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "dough",
+      "income": 70.22453759999985
+    },
+    {
+      "month": 8,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "shrimp",
+      "income": 72.73327428571424
+    },
+    {
+      "month": 8,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "meat",
+      "income": 87.56936274285685
+    },
+    {
+      "month": 9,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "dough",
+      "income": 29.003999999999973
+    },
+    {
+      "month": 9,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "worm",
+      "income": 48.35944827586194
+    },
+    {
+      "month": 9,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "meat",
+      "income": 32.215999999999916
+    },
+    {
+      "month": 9,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "dough",
+      "income": 62.92799999999995
+    },
+    {
+      "month": 9,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "worm",
+      "income": 104.27889655172389
+    },
+    {
+      "month": 9,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "meat",
+      "income": 77.27199999999984
+    },
+    {
+      "month": 9,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "dough",
+      "income": 34.588505142856924
+    },
+    {
+      "month": 9,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "worm",
+      "income": 51.92217379310329
+    },
+    {
+      "month": 9,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "meat",
+      "income": 39.655286158333325
+    },
+    {
+      "month": 9,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "dough",
+      "income": 74.09701028571385
+    },
+    {
+      "month": 9,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "worm",
+      "income": 111.40434758620657
+    },
+    {
+      "month": 9,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "meat",
+      "income": 92.15057231666665
+    },
+    {
+      "month": 9,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "dough",
+      "income": 29.003999999999916
+    },
+    {
+      "month": 9,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "shrimp",
+      "income": 28.84104285714281
+    },
+    {
+      "month": 9,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "meat",
+      "income": 31.09675
+    },
+    {
+      "month": 9,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "dough",
+      "income": 62.927999999999834
+    },
+    {
+      "month": 9,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "shrimp",
+      "income": 67.88208571428562
+    },
+    {
+      "month": 9,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "meat",
+      "income": 75.0335
+    },
+    {
+      "month": 9,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "dough",
+      "income": 32.65226879999992
+    },
+    {
+      "month": 9,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "shrimp",
+      "income": 31.266637142857125
+    },
+    {
+      "month": 9,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "meat",
+      "income": 37.364681371428425
+    },
+    {
+      "month": 9,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "dough",
+      "income": 70.22453759999985
+    },
+    {
+      "month": 9,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "shrimp",
+      "income": 72.73327428571424
+    },
+    {
+      "month": 9,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "meat",
+      "income": 87.56936274285685
     },
     {
       "month": 10,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
       "bait": "dough",
-      "perCast": {
-        "sunmoon": 32.1,
-        "zengwen": 36.76,
-        "qigu": 34.24,
-        "guandu": 36.42,
-        "keelung": 42.29,
-        "penghu": 41.17,
-        "longdong": 42.59,
-        "kenting": 40.88,
-        "tolo": 40.48,
-        "bodensee": 41.91,
-        "greifswald": 34.7,
-        "biwa": 36.24,
-        "kasumigaura": 34.79
-      }
+      "income": 29.003999999999973
     },
     {
       "month": 10,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "worm",
+      "income": 48.35944827586194
+    },
+    {
+      "month": 10,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
       "bait": "meat",
-      "perCast": {
-        "sunmoon": 27.55,
-        "zengwen": 33.69,
-        "qigu": 27.47,
-        "guandu": 29.75,
-        "keelung": 35.89,
-        "penghu": 34.71,
-        "longdong": 36.2,
-        "kenting": 34.41,
-        "tolo": 34,
-        "bodensee": 35.49,
-        "greifswald": 27.95,
-        "biwa": 29.56,
-        "kasumigaura": 28.05
-      }
+      "income": 32.215999999999916
+    },
+    {
+      "month": 10,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "dough",
+      "income": 62.92799999999995
+    },
+    {
+      "month": 10,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "worm",
+      "income": 104.27889655172389
+    },
+    {
+      "month": 10,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "meat",
+      "income": 77.27199999999984
+    },
+    {
+      "month": 10,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "dough",
+      "income": 34.588505142856924
+    },
+    {
+      "month": 10,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "worm",
+      "income": 51.92217379310329
+    },
+    {
+      "month": 10,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "meat",
+      "income": 39.655286158333325
+    },
+    {
+      "month": 10,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "dough",
+      "income": 74.09701028571385
+    },
+    {
+      "month": 10,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "worm",
+      "income": 111.40434758620657
+    },
+    {
+      "month": 10,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "meat",
+      "income": 92.15057231666665
+    },
+    {
+      "month": 10,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "dough",
+      "income": 29.003999999999916
+    },
+    {
+      "month": 10,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "shrimp",
+      "income": 28.84104285714281
+    },
+    {
+      "month": 10,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "meat",
+      "income": 31.09675
+    },
+    {
+      "month": 10,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "dough",
+      "income": 62.927999999999834
+    },
+    {
+      "month": 10,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "shrimp",
+      "income": 67.88208571428562
+    },
+    {
+      "month": 10,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "meat",
+      "income": 75.0335
+    },
+    {
+      "month": 10,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "dough",
+      "income": 32.65226879999992
+    },
+    {
+      "month": 10,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "shrimp",
+      "income": 31.266637142857125
+    },
+    {
+      "month": 10,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "meat",
+      "income": 37.364681371428425
+    },
+    {
+      "month": 10,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "dough",
+      "income": 70.22453759999985
+    },
+    {
+      "month": 10,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "shrimp",
+      "income": 72.73327428571424
+    },
+    {
+      "month": 10,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "meat",
+      "income": 87.56936274285685
+    },
+    {
+      "month": 11,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "dough",
+      "income": 29.003999999999973
+    },
+    {
+      "month": 11,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "worm",
+      "income": 48.35944827586194
+    },
+    {
+      "month": 11,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "meat",
+      "income": 32.215999999999916
+    },
+    {
+      "month": 11,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "dough",
+      "income": 62.92799999999995
+    },
+    {
+      "month": 11,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "worm",
+      "income": 104.27889655172389
+    },
+    {
+      "month": 11,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "meat",
+      "income": 77.27199999999984
+    },
+    {
+      "month": 11,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "dough",
+      "income": 34.588505142856924
+    },
+    {
+      "month": 11,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "worm",
+      "income": 51.92217379310329
+    },
+    {
+      "month": 11,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "meat",
+      "income": 39.655286158333325
+    },
+    {
+      "month": 11,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "dough",
+      "income": 74.09701028571385
+    },
+    {
+      "month": 11,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "worm",
+      "income": 111.40434758620657
+    },
+    {
+      "month": 11,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "meat",
+      "income": 92.15057231666665
+    },
+    {
+      "month": 11,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "dough",
+      "income": 29.003999999999916
+    },
+    {
+      "month": 11,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "shrimp",
+      "income": 28.84104285714281
+    },
+    {
+      "month": 11,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "meat",
+      "income": 31.09675
+    },
+    {
+      "month": 11,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "dough",
+      "income": 62.927999999999834
+    },
+    {
+      "month": 11,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "shrimp",
+      "income": 67.88208571428562
+    },
+    {
+      "month": 11,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "meat",
+      "income": 75.0335
+    },
+    {
+      "month": 11,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "dough",
+      "income": 32.65226879999992
+    },
+    {
+      "month": 11,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "shrimp",
+      "income": 31.266637142857125
+    },
+    {
+      "month": 11,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "meat",
+      "income": 37.364681371428425
+    },
+    {
+      "month": 11,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "dough",
+      "income": 70.22453759999985
+    },
+    {
+      "month": 11,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "shrimp",
+      "income": 72.73327428571424
+    },
+    {
+      "month": 11,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "meat",
+      "income": 87.56936274285685
+    },
+    {
+      "month": 12,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "dough",
+      "income": 29.003999999999973
+    },
+    {
+      "month": 12,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "worm",
+      "income": 48.35944827586194
+    },
+    {
+      "month": 12,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 0,
+      "bait": "meat",
+      "income": 32.215999999999916
+    },
+    {
+      "month": 12,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "dough",
+      "income": 62.92799999999995
+    },
+    {
+      "month": 12,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "worm",
+      "income": 104.27889655172389
+    },
+    {
+      "month": 12,
+      "region": "bodensee",
+      "rod": 1,
+      "sales": 10,
+      "bait": "meat",
+      "income": 77.27199999999984
+    },
+    {
+      "month": 12,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "dough",
+      "income": 34.588505142856924
+    },
+    {
+      "month": 12,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "worm",
+      "income": 51.92217379310329
+    },
+    {
+      "month": 12,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 0,
+      "bait": "meat",
+      "income": 39.655286158333325
+    },
+    {
+      "month": 12,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "dough",
+      "income": 74.09701028571385
+    },
+    {
+      "month": 12,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "worm",
+      "income": 111.40434758620657
+    },
+    {
+      "month": 12,
+      "region": "bodensee",
+      "rod": 5,
+      "sales": 10,
+      "bait": "meat",
+      "income": 92.15057231666665
+    },
+    {
+      "month": 12,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "dough",
+      "income": 29.003999999999916
+    },
+    {
+      "month": 12,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "shrimp",
+      "income": 28.84104285714281
+    },
+    {
+      "month": 12,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 0,
+      "bait": "meat",
+      "income": 31.09675
+    },
+    {
+      "month": 12,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "dough",
+      "income": 62.927999999999834
+    },
+    {
+      "month": 12,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "shrimp",
+      "income": 67.88208571428562
+    },
+    {
+      "month": 12,
+      "region": "greifswald",
+      "rod": 1,
+      "sales": 10,
+      "bait": "meat",
+      "income": 75.0335
+    },
+    {
+      "month": 12,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "dough",
+      "income": 32.65226879999992
+    },
+    {
+      "month": 12,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "shrimp",
+      "income": 31.266637142857125
+    },
+    {
+      "month": 12,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 0,
+      "bait": "meat",
+      "income": 37.364681371428425
+    },
+    {
+      "month": 12,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "dough",
+      "income": 70.22453759999985
+    },
+    {
+      "month": 12,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "shrimp",
+      "income": 72.73327428571424
+    },
+    {
+      "month": 12,
+      "region": "greifswald",
+      "rod": 5,
+      "sales": 10,
+      "bait": "meat",
+      "income": 87.56936274285685
     }
   ]
 }

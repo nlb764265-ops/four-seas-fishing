@@ -1,0 +1,92 @@
+[
+  {
+    "file": "bait19.test.cjs",
+    "pass": true,
+    "output": "PASS 147 fish form four disjoint bait groups; five animals stay out of fish and recipes\nPASS all waters enforce bait, rod and time access; no unconfigured animal appears\nPASS every configured species is reachable with its designated bait\nPASS casting catches only the selected group and charges animals as well as fish\nPASS all five new animals can be captured and survive save, sale and discovery\nPASS empty hook only collects plants and needs neither money nor bait\nPASS unavailable bait and insufficient rod cannot start; travelling selects a valid stocked bait\nPASS changing bait applies only to the following cast\nPASS 0.18 active cast keeps its original result exactly once, then uses new pools\nPASS stopping a migrated cast leaves a valid save\nPASS legacy files migrate without duplicate repricing; all source snapshots remain untouched\nPASS anonymous search does not reveal animals; known animals retain bait clues and count separately\nPASS malformed animal records and incompatible item types are rejected\nPASS all animal images exist; approved redundant player copy is removed\nPASS every configured bait has a finite positive estimate when accessible\nPASS old unsupported bait is reselected without altering its pending cast\nPASS manual-slot load cancels a migrated pending cast and keeps a valid state\nbait19: 17 checks passed\n",
+    "error": ""
+  },
+  {
+    "file": "batch16.test.cjs",
+    "pass": true,
+    "output": "PASS 0.16 appends 36 species and two Japanese waters without renumbering the 95 old species\nPASS refilled pools keep the old species and their old ratios, and every pool sums to 100\nPASS new fish have complete facts, sourced names and consistent cooking flags\nPASS conditions follow the approved rules\nPASS Japanese dishes and restaurants use the cited fish and never lose money\nPASS empty hook is free, never consumed or bought, and mostly catches weeds\nPASS a 0.15 save loads with tripled box prices and can start fishing in a water it already visited\nPASS all months and effects keep best-bait regional income within 60 percent\nPASS new readings, plants and Japanese local names are wired in\nPASS cooking batch 1 adds six cited dishes for fish that only had pan-frying, all profitable\nbatch16: 10 checks passed\n",
+    "error": ""
+  },
+  {
+    "file": "batch18.test.cjs",
+    "pass": true,
+    "output": "PASS all 144 old fish keep their identities and order; new fish have unique, reachable IDs\nPASS two lake pools reach 14 without removing old fish or touching the eleven other waters\nPASS 0.17 saves retain money, catches, licence ownership and buffs with no repeated price scaling\nPASS undiscovered new fish keep names, foreign names and art hidden until capture\nPASS new catches settle identically online and offline with valid, positive weights\nPASS both lakes have positive designated-bait income and retain the existing recipe list\nbatch18: 6 checks passed\n",
+    "error": ""
+  },
+  {
+    "file": "batch2.test.cjs",
+    "pass": true,
+    "output": "PASS batch 2 adds two species and two distinct waters without renumbering the 84 old species\nPASS new IDs have descriptions, truthful anonymous clues and bilingual search after capture only\nPASS old 0.10 save and transfer retain its running cast, money, inventory and discovery\nPASS both new waters charge once per trip, settle catches and do not duplicate sale proceeds\nPASS new waters give same offline and foreground results including night restrictions\nPASS every new fish is actually catchable with both baits and all generated states reload\nPASS new fish weight bonuses stay inside the save limit\nPASS both new waters offer positive income for every applicable bait at early and late stages\n8 batch 2 checks passed\n",
+    "error": ""
+  },
+  {
+    "file": "batch6.test.cjs",
+    "pass": true,
+    "output": "PASS batch 6 appends nine species and two German waters without renumbering the 86 old species\nPASS new species have complete facts, sources and anonymous clues\nPASS fares are uncapped: Germany costs 500 from Sun Moon Lake, charged once, and short trips keep their old price\nPASS herring is twice as common in February to April only\nPASS bait is charged per fish caught in Germany, identically offline and in the foreground\nPASS every new fish is catchable and the largest possible pike still loads\nPASS readings cover only the name and common names\nPASS water search lists every fish of that water, keeps uncaught ones anonymous and counts progress\nPASS format 4 saves move to format 6 and refund the bait already paid for a running cast once\nPASS German waters have positive finite income across months, applicable baits and stages\nPASS player text reflects bait on catch, uncapped fares and the new search\nbatch6: 11 checks passed\n",
+    "error": ""
+  },
+  {
+    "file": "cooking-use.test.cjs",
+    "pass": true,
+    "output": "PASS nine fish retain their records but are absent from every recipe\nPASS removed ingredients cannot be cooked, with no fish, money or effect consumed\nPASS old active pan-fry effects remain valid through save import and settlement\nPASS common ingredients still cook and consume exactly one cheapest fish\nPASS removed-only discoveries never unlock pan-fry or a named recipe\ncooking-use: 5 checks passed\n",
+    "error": ""
+  },
+  {
+    "file": "cooking.test.cjs",
+    "pass": true,
+    "output": "PASS 0.13 recipes keep legacy IDs, complete fields and only edible fish\nPASS every recipe is recorded in SOURCES.md\nPASS effect follows cooking method and tier, durations never shorter than 0.12\nPASS legacy buffs from 0.12 saves stay valid\nPASS pan-fry needs a chosen edible fish and consumes the cheapest catch\nPASS multi-fish recipes use the chosen ingredient; single-fish recipes pick automatically\nPASS cooking gains stay modest and every dish pays back at early and late stages\nPASS kitchen UI uses categories, search and edible tags\ncooking: 8 checks passed\n",
+    "error": ""
+  },
+  {
+    "file": "engine.test.cjs",
+    "pass": true,
+    "output": "PASS starter state and JSON round trip\nPASS bait is charged only when a fish is caught; stopping costs nothing\nPASS no bait prevents starting; the last bait keeps fishing through weeds and stops after a fish\nPASS bait purchase costs and selected bait switch only next cast\nPASS offline settlement matches sequential foreground\nPASS full box stops before reserving extra bait\nPASS both bait types can hook weeds; weeds do not unlock fish\nPASS every visit to a licensed water pays only its route cost, without gear requirements\nPASS regional fish whitelist enforced\nPASS bounty consumes fish, cannot claim twice or cook afterwards\nPASS ordinary bulk sale preserves invasive fish\nPASS invasive cooking consumes fish and prevents later bounty\nPASS buff starts next cast and lasts its recipe duration\nPASS price buff never alters existing inventory values\nPASS rod upgrade preserves current cast timing and weight level\nPASS spending cannot strand a player without bait or a sellable catch\nPASS legacy 0.1 migration preserves progress and grants starter bait\nPASS bad imports fail closed without changing original\nPASS clock rollback grants nothing\nPASS all recipes use an edible catalogued fish and source pools exist\nPASS long deterministic simulation retains invariants\nPASS licensed sea travel has no gear gate and rejects insufficient funds\nPASS saltwater and freshwater pools remain separate\nPASS 0.2 state retains balances, unlocks and catches with yuan logs\nPASS player UI uses yuan and loads new collection module\nPASS unseen fish do not expose names or support name probing\nPASS expanded pools contain unique species and all species are reachable\nPASS first capture unlocks name and permanent description record\nPASS best accessible bait keeps regional income within 60 percent; unavailable bait is excluded\nPASS atlas clues point to real waters without leaking names\nPASS inedible puffer has no recipe and pleco is a bounty fish\nPASS no market multiplier: fish value depends only on the fish\nPASS environment is deterministic and follows the 60-minute game day\nPASS night-only fish cannot bite by day and keep their daily average\nPASS weather odds cover every region and flavor text is complete\nPASS environment changes are logged and logs keep at most 40 entries\nPASS tiny fish never record 0 kg and old 0 kg saves are repaired\nPASS qigu and penghu charge on each trip and retain their offline pools\nPASS geographic fares are symmetric, rounded up, uncapped and not affected by sales\nPASS travel settles the old water, charges once and leaves the unfinished cast unpaid\nPASS upgrades immediately reprice inventory and in-flight catches without compounding\nPASS cooking value is captured once and permanent sales apply at sale time\nPASS mixed legacy bounties reprice and consume once\nPASS sales limits, upgrade spending and invalid new saves fail safely\nPASS legacy 0.5, 0.6 and 0.7 fixtures retain money, inventory prices, bounty and pending cast\nPASS new saves preserve sales and inventory; rejected legacy imports do not mutate\nPASS every location is playable with the starting equipment and low cash\nPASS 0.8 conversion preserves current money and cooking price then scales future upgrades\nPASS both scripts search known entries and never reveal unknown names\nPASS all new species have complete facts, stable IDs and positive pool weights\nPASS invalid v4 base prices and invalid legacy values are rejected\n51 checks passed\n",
+    "error": ""
+  },
+  {
+    "file": "location18.test.cjs",
+    "pass": true,
+    "output": "PASS compact destination names, independent current and preview states, licence details and grade wording\n",
+    "error": ""
+  },
+  {
+    "file": "names.test.cjs",
+    "pass": true,
+    "output": "PASS local names are well formed and limited to the languages of the fish waters\nPASS every fish in the German waters has a German name, moved out of the common-name field\nPASS every local name is recorded in SOURCES.md\nPASS local names show only in the atlas and are searchable there after capture\nnames: 4 checks passed\n",
+    "error": ""
+  },
+  {
+    "file": "pacing17.test.cjs",
+    "pass": true,
+    "output": "PASS every cast waits 20-30 s at Lv.1 and 16-24 s at Lv.5, the same offline and in the foreground\nPASS the random cast length does not consume the save seed\nPASS box capacity follows 30/60/120/240/360 and the old box levels keep their upgrade costs\nPASS big fish need Lv.3 or Lv.5 rods and never bite with a weaker rod\nPASS pools shrink big fish, keep every species and sum to 100\nPASS per-cast prices are tripled: fish, bounties, bait, seasoning, restaurants and weeds\nPASS licences gate waters by atlas count and fee, are bought once and are kept by old saves\nPASS format 5 saves triple box prices once, keep the running cast and reload as format 6\npacing17: 8 checks passed\n",
+    "error": ""
+  },
+  {
+    "file": "plants.test.cjs",
+    "pass": true,
+    "output": "PASS every water has its own weed pool of recorded plants with sources\nPASS a weed is a plant of the current water, recorded once and worth 3 yuan\nPASS weed species follow the water weights over many casts\nPASS selling one plant keeps other plants and fish\nPASS older format 5 saves name held weeds after their water and stay readable by 0.13 rules\nPASS invalid plant data is rejected\nPASS plant atlas hides names until collected and finds plants by water\n7 plant checks passed\n",
+    "error": ""
+  },
+  {
+    "file": "restaurant.test.cjs",
+    "pass": true,
+    "output": "PASS every water has a restaurant; dish IDs are unique and never clash with recipes\nPASS every dish is recorded in SOURCES.md\nPASS only the current water can be ordered; ordering charges once and needs no fish\nPASS ordering keeps the bait reserve\nPASS a new meal replaces the current effect at once, for cooking and dining alike\nPASS replacing mid-cast keeps the cast on its old effect and costs the new meal nothing\nPASS offline settlement across an override counts casts once\nPASS saves keep working: 0.13 buffs without since, restaurant buffs and bad data\nPASS every dish pays back in its own water at early and late stages with a modest gain\nPASS kitchen UI offers home cooking and the local restaurant\nrestaurant: 10 checks passed\n",
+    "error": ""
+  },
+  {
+    "file": "revision15.test.cjs",
+    "pass": true,
+    "output": "PASS all 56 meals have concrete preparation descriptions, independent of effect-family labels\nPASS combined progress includes each discovered fish and plant once, even after sale\nPASS 0.14 saves retain plant collection and active meal when loaded in 0.15\nPASS eighteen pixel sheets have 251 unique slots and never draw an undiscovered species\nPASS detail art moves into the heading once; plant labels follow the author wording\nPASS combined plant rows remain anonymous and gain art only after collection\nrevision15: 6 checks passed\n",
+    "error": ""
+  },
+  {
+    "file": "transfer.test.cjs",
+    "pass": true,
+    "output": "PASS transfer: encryption, corruption/wrong code, game isolation, 4 legacy formats, active cast settlement, backup/recovery, storage failures, manual slot preservation\n",
+    "error": ""
+  }
+]

@@ -11,7 +11,7 @@ test('nine fish retain their records but are absent from every recipe',()=>{
  for(const id of ['qili','candidia','carp','gourami','munense'])assert(E.recipe('panfry').fishes.includes(id),id);
 });
 test('removed ingredients cannot be cooked, with no fish, money or effect consumed',()=>{
- for(const id of removed){const s=fresh();s.items=[item(id)];s.book[id]={count:1,best:E.fish(id).min};s.buff={id:'soup',left:20,since:0};const before=JSON.stringify(s);assert.equal(E.cook(s,'panfry',0,id),'請選擇魚材');assert.equal(JSON.stringify(s),before,id)}
+ for(const id of removed){const s=fresh();s.items=[item(id)];s.book[id]={count:1,best:E.fish(id).min};s.buff={id:'soup',left:20,since:0};const before=JSON.stringify(s);assert.equal(E.cook(s,'panfry',0,id),'請選擇材料');assert.equal(JSON.stringify(s),before,id)}
 });
 test('old active pan-fry effects remain valid through save import and settlement',()=>{
  for(const id of removed){const s=fresh();s.items=[item(id)];s.book[id]={count:1,best:E.fish(id).min};s.buff={id:'panfry',left:17,since:0,fish:id};const t=E.migrate(JSON.parse(JSON.stringify(s)),0);assert(t,id);assert(E.valid(t));assert.deepEqual(t.buff,s.buff);assert.deepEqual(t.items,s.items);assert.deepEqual(t.book,s.book);assert.equal(E.mealName(t.buff),'煎'+E.fish(id).name);E.settle(t,1000);assert(E.valid(t));assert.equal(t.buff.left,17)}

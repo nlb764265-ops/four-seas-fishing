@@ -2,8 +2,8 @@
  "rule": "gain = extra income over the effect duration versus no effect in the restaurant water; net = gain - price; October, comprehensive bait",
  "early": "rod Lv.1, sales 0",
  "late": "rod Lv.5, sales 10",
- "minNet": 21.1,
- "maxIncomePct": 16.9,
+ "minNet": 21.6,
+ "maxIncomePct": 17,
  "rows": [
   {
    "dish": "dine-sunmoon-teaegg",
@@ -14,9 +14,9 @@
    "amount": 0.05,
    "casts": 40,
    "price": 45,
-   "gain": 66.7,
-   "net": 21.7,
-   "incomePct": 5.2
+   "gain": 71.1,
+   "net": 26.1,
+   "incomePct": 5.8
   },
   {
    "dish": "dine-sunmoon-teaegg",
@@ -27,63 +27,63 @@
    "amount": 0.05,
    "casts": 40,
    "price": 45,
-   "gain": 149.2,
-   "net": 104.2,
+   "gain": 157.9,
+   "net": 112.9,
+   "incomePct": 5.3
+  },
+  {
+   "dish": "dine-zengwen-seabass",
+   "name": "鱸魚湯",
+   "region": "zengwen",
+   "stage": "early",
+   "effect": "speed",
+   "amount": 0.09,
+   "casts": 60,
+   "price": 135,
+   "gain": 183.9,
+   "net": 48.9,
+   "incomePct": 9.9
+  },
+  {
+   "dish": "dine-zengwen-seabass",
+   "name": "鱸魚湯",
+   "region": "zengwen",
+   "stage": "late",
+   "effect": "speed",
+   "amount": 0.09,
+   "casts": 60,
+   "price": 135,
+   "gain": 426.5,
+   "net": 291.5,
+   "incomePct": 9.9
+  },
+  {
+   "dish": "dine-zengwen-turkeyrice",
+   "name": "火雞肉飯",
+   "region": "zengwen",
+   "stage": "early",
+   "effect": "value",
+   "amount": 0.05,
+   "casts": 40,
+   "price": 45,
+   "gain": 68,
+   "net": 23,
+   "incomePct": 5
+  },
+  {
+   "dish": "dine-zengwen-turkeyrice",
+   "name": "火雞肉飯",
+   "region": "zengwen",
+   "stage": "late",
+   "effect": "value",
+   "amount": 0.05,
+   "casts": 40,
+   "price": 45,
+   "gain": 151.2,
+   "net": 106.2,
    "incomePct": 4.8
   },
   {
-   "dish": "dine-zengwen-seabass",
-   "name": "鱸魚湯",
-   "region": "zengwen",
-   "stage": "early",
-   "effect": "speed",
-   "amount": 0.09,
-   "casts": 60,
-   "price": 135,
-   "gain": 198.5,
-   "net": 63.5,
-   "incomePct": 9.9
-  },
-  {
-   "dish": "dine-zengwen-seabass",
-   "name": "鱸魚湯",
-   "region": "zengwen",
-   "stage": "late",
-   "effect": "speed",
-   "amount": 0.09,
-   "casts": 60,
-   "price": 135,
-   "gain": 469.2,
-   "net": 334.2,
-   "incomePct": 9.9
-  },
-  {
-   "dish": "dine-zengwen-turkeyrice",
-   "name": "火雞肉飯",
-   "region": "zengwen",
-   "stage": "early",
-   "effect": "value",
-   "amount": 0.05,
-   "casts": 40,
-   "price": 45,
-   "gain": 66.1,
-   "net": 21.1,
-   "incomePct": 4.5
-  },
-  {
-   "dish": "dine-zengwen-turkeyrice",
-   "name": "火雞肉飯",
-   "region": "zengwen",
-   "stage": "late",
-   "effect": "value",
-   "amount": 0.05,
-   "casts": 40,
-   "price": 45,
-   "gain": 148,
-   "net": 103,
-   "incomePct": 4.3
-  },
-  {
    "dish": "dine-qigu-milkfish",
    "name": "虱目魚肚湯",
    "region": "qigu",
@@ -92,8 +92,8 @@
    "amount": 0.13,
    "casts": 80,
    "price": 270,
-   "gain": 356.1,
-   "net": 86.1,
+   "gain": 384.9,
+   "net": 114.9,
    "incomePct": 14.9
   },
   {
@@ -105,8 +105,8 @@
    "amount": 0.13,
    "casts": 80,
    "price": 270,
-   "gain": 842.5,
-   "net": 572.5,
+   "gain": 905.6,
+   "net": 635.6,
    "incomePct": 14.9
   },
   {
@@ -118,9 +118,9 @@
    "amount": 0.1,
    "casts": 60,
    "price": 135,
-   "gain": 236.4,
-   "net": 101.4,
-   "incomePct": 11.5
+   "gain": 251.6,
+   "net": 116.6,
+   "incomePct": 11.3
   },
   {
    "dish": "dine-qigu-oysteromelet",
@@ -131,8 +131,8 @@
    "amount": 0.1,
    "casts": 60,
    "price": 135,
-   "gain": 517,
-   "net": 382,
+   "gain": 552,
+   "net": 417,
    "incomePct": 10.6
   },
   {
@@ -144,8 +144,8 @@
    "amount": 0.09,
    "casts": 60,
    "price": 135,
-   "gain": 196.6,
-   "net": 61.6,
+   "gain": 184.5,
+   "net": 49.5,
    "incomePct": 9.9
   },
   {
@@ -157,8 +157,8 @@
    "amount": 0.09,
    "casts": 60,
    "price": 135,
-   "gain": 455.6,
-   "net": 320.6,
+   "gain": 434,
+   "net": 299,
    "incomePct": 9.9
   },
   {
@@ -170,9 +170,9 @@
    "amount": 0.05,
    "casts": 40,
    "price": 45,
-   "gain": 75.6,
-   "net": 30.6,
-   "incomePct": 5.2
+   "gain": 70.2,
+   "net": 25.2,
+   "incomePct": 5.1
   },
   {
    "dish": "dine-guandu-agei",
@@ -183,8 +183,8 @@
    "amount": 0.05,
    "casts": 40,
    "price": 45,
-   "gain": 165.5,
-   "net": 120.5,
+   "gain": 157.1,
+   "net": 112.1,
    "incomePct": 4.9
   },
   {
@@ -196,8 +196,8 @@
    "amount": 0.09,
    "casts": 60,
    "price": 135,
-   "gain": 228.4,
-   "net": 93.4,
+   "gain": 232.9,
+   "net": 97.9,
    "incomePct": 9.9
   },
   {
@@ -209,8 +209,8 @@
    "amount": 0.09,
    "casts": 60,
    "price": 135,
-   "gain": 523.7,
-   "net": 388.7,
+   "gain": 527.6,
+   "net": 392.6,
    "incomePct": 9.9
   },
   {
@@ -222,8 +222,8 @@
    "amount": 0.05,
    "casts": 40,
    "price": 45,
-   "gain": 94.9,
-   "net": 49.9,
+   "gain": 96.1,
+   "net": 51.1,
    "incomePct": 5.6
   },
   {
@@ -235,8 +235,8 @@
    "amount": 0.05,
    "casts": 40,
    "price": 45,
-   "gain": 204.3,
-   "net": 159.3,
+   "gain": 205.2,
+   "net": 160.2,
    "incomePct": 5.3
   },
   {
@@ -248,8 +248,8 @@
    "amount": 0.05,
    "casts": 40,
    "price": 45,
-   "gain": 94.9,
-   "net": 49.9,
+   "gain": 96.1,
+   "net": 51.1,
    "incomePct": 5.6
   },
   {
@@ -261,8 +261,8 @@
    "amount": 0.05,
    "casts": 40,
    "price": 45,
-   "gain": 204.3,
-   "net": 159.3,
+   "gain": 205.2,
+   "net": 160.2,
    "incomePct": 5.3
   },
   {
@@ -274,8 +274,8 @@
    "amount": 0.09,
    "casts": 60,
    "price": 135,
-   "gain": 222.3,
-   "net": 87.3,
+   "gain": 231.5,
+   "net": 96.5,
    "incomePct": 9.9
   },
   {
@@ -287,8 +287,8 @@
    "amount": 0.09,
    "casts": 60,
    "price": 135,
-   "gain": 513.6,
-   "net": 378.6,
+   "gain": 521,
+   "net": 386,
    "incomePct": 9.9
   },
   {
@@ -300,8 +300,8 @@
    "amount": 0.1,
    "casts": 60,
    "price": 135,
-   "gain": 286.5,
-   "net": 151.5,
+   "gain": 275.8,
+   "net": 140.8,
    "incomePct": 11.2
   },
   {
@@ -313,8 +313,8 @@
    "amount": 0.1,
    "casts": 60,
    "price": 135,
-   "gain": 619.3,
-   "net": 484.3,
+   "gain": 585.7,
+   "net": 450.7,
    "incomePct": 10.5
   },
   {
@@ -326,9 +326,9 @@
    "amount": 0.4,
    "casts": 80,
    "price": 270,
-   "gain": 385.4,
-   "net": 115.4,
-   "incomePct": 11.8
+   "gain": 354.5,
+   "net": 84.5,
+   "incomePct": 12
   },
   {
    "dish": "dine-kenting-grouper",
@@ -339,9 +339,9 @@
    "amount": 0.4,
    "casts": 80,
    "price": 270,
-   "gain": 964,
-   "net": 694,
-   "incomePct": 12.9
+   "gain": 879.3,
+   "net": 609.3,
+   "incomePct": 13
   },
   {
    "dish": "dine-kenting-sashimi",
@@ -352,8 +352,8 @@
    "amount": 0.1,
    "casts": 60,
    "price": 135,
-   "gain": 276.2,
-   "net": 141.2,
+   "gain": 251.8,
+   "net": 116.8,
    "incomePct": 11.3
   },
   {
@@ -365,8 +365,8 @@
    "amount": 0.1,
    "casts": 60,
    "price": 135,
-   "gain": 592.8,
-   "net": 457.8,
+   "gain": 535.5,
+   "net": 400.5,
    "incomePct": 10.6
   },
   {
@@ -378,9 +378,9 @@
    "amount": 0.05,
    "casts": 40,
    "price": 45,
-   "gain": 92.1,
-   "net": 47.1,
-   "incomePct": 5.6
+   "gain": 83.9,
+   "net": 38.9,
+   "incomePct": 5.7
   },
   {
    "dish": "dine-kenting-mungbean",
@@ -391,8 +391,8 @@
    "amount": 0.05,
    "casts": 40,
    "price": 45,
-   "gain": 197.6,
-   "net": 152.6,
+   "gain": 178.5,
+   "net": 133.5,
    "incomePct": 5.3
   },
   {
@@ -404,9 +404,9 @@
    "amount": 0.15,
    "casts": 80,
    "price": 270,
-   "gain": 547.7,
-   "net": 277.7,
-   "incomePct": 16.9
+   "gain": 497.1,
+   "net": 227.1,
+   "incomePct": 17
   },
   {
    "dish": "dine-tolo-mantis",
@@ -417,9 +417,9 @@
    "amount": 0.15,
    "casts": 80,
    "price": 270,
-   "gain": 1184.3,
-   "net": 914.3,
-   "incomePct": 15.8
+   "gain": 1096.1,
+   "net": 826.1,
+   "incomePct": 15.9
   },
   {
    "dish": "dine-tolo-prawn",
@@ -430,8 +430,8 @@
    "amount": 0.3,
    "casts": 60,
    "price": 135,
-   "gain": 214.2,
-   "net": 79.2,
+   "gain": 192.1,
+   "net": 57.1,
    "incomePct": 8.8
   },
   {
@@ -443,248 +443,14 @@
    "amount": 0.3,
    "casts": 60,
    "price": 135,
-   "gain": 538.6,
-   "net": 403.6,
-   "incomePct": 9.6
+   "gain": 493.5,
+   "net": 358.5,
+   "incomePct": 9.5
   },
   {
    "dish": "dine-tolo-fishball",
    "name": "咖喱魚蛋",
    "region": "tolo",
-   "stage": "early",
-   "effect": "value",
-   "amount": 0.05,
-   "casts": 40,
-   "price": 45,
-   "gain": 91.3,
-   "net": 46.3,
-   "incomePct": 5.6
-  },
-  {
-   "dish": "dine-tolo-fishball",
-   "name": "咖喱魚蛋",
-   "region": "tolo",
-   "stage": "late",
-   "effect": "value",
-   "amount": 0.05,
-   "casts": 40,
-   "price": 45,
-   "gain": 197.4,
-   "net": 152.4,
-   "incomePct": 5.3
-  },
-  {
-   "dish": "dine-bodensee-trout",
-   "name": "磨坊主婦式鱒魚",
-   "region": "bodensee",
-   "stage": "early",
-   "effect": "value",
-   "amount": 0.1,
-   "casts": 60,
-   "price": 135,
-   "gain": 282.4,
-   "net": 147.4,
-   "incomePct": 11.2
-  },
-  {
-   "dish": "dine-bodensee-trout",
-   "name": "磨坊主婦式鱒魚",
-   "region": "bodensee",
-   "stage": "late",
-   "effect": "value",
-   "amount": 0.1,
-   "casts": 60,
-   "price": 135,
-   "gain": 600,
-   "net": 465,
-   "incomePct": 10.5
-  },
-  {
-   "dish": "dine-bodensee-maultaschen",
-   "name": "方形餃湯",
-   "region": "bodensee",
-   "stage": "early",
-   "effect": "speed",
-   "amount": 0.09,
-   "casts": 60,
-   "price": 135,
-   "gain": 226.3,
-   "net": 91.3,
-   "incomePct": 9.9
-  },
-  {
-   "dish": "dine-bodensee-maultaschen",
-   "name": "方形餃湯",
-   "region": "bodensee",
-   "stage": "late",
-   "effect": "speed",
-   "amount": 0.09,
-   "casts": 60,
-   "price": 135,
-   "gain": 512.2,
-   "net": 377.2,
-   "incomePct": 9.9
-  },
-  {
-   "dish": "dine-bodensee-spaetzle",
-   "name": "起司麵疙瘩",
-   "region": "bodensee",
-   "stage": "early",
-   "effect": "value",
-   "amount": 0.05,
-   "casts": 40,
-   "price": 45,
-   "gain": 94.1,
-   "net": 49.1,
-   "incomePct": 5.6
-  },
-  {
-   "dish": "dine-bodensee-spaetzle",
-   "name": "起司麵疙瘩",
-   "region": "bodensee",
-   "stage": "late",
-   "effect": "value",
-   "amount": 0.05,
-   "casts": 40,
-   "price": 45,
-   "gain": 200,
-   "net": 155,
-   "incomePct": 5.3
-  },
-  {
-   "dish": "dine-greifswald-plaice",
-   "name": "香煎鰈魚",
-   "region": "greifswald",
-   "stage": "early",
-   "effect": "value",
-   "amount": 0.1,
-   "casts": 60,
-   "price": 135,
-   "gain": 239.1,
-   "net": 104.1,
-   "incomePct": 11.5
-  },
-  {
-   "dish": "dine-greifswald-plaice",
-   "name": "香煎鰈魚",
-   "region": "greifswald",
-   "stage": "late",
-   "effect": "value",
-   "amount": 0.1,
-   "casts": 60,
-   "price": 135,
-   "gain": 527.3,
-   "net": 392.3,
-   "incomePct": 10.6
-  },
-  {
-   "dish": "dine-greifswald-bismarck",
-   "name": "俾斯麥鯡魚堡",
-   "region": "greifswald",
-   "stage": "early",
-   "effect": "value",
-   "amount": 0.05,
-   "casts": 40,
-   "price": 45,
-   "gain": 79.7,
-   "net": 34.7,
-   "incomePct": 5.7
-  },
-  {
-   "dish": "dine-greifswald-bismarck",
-   "name": "俾斯麥鯡魚堡",
-   "region": "greifswald",
-   "stage": "late",
-   "effect": "value",
-   "amount": 0.05,
-   "casts": 40,
-   "price": 45,
-   "gain": 175.8,
-   "net": 130.8,
-   "incomePct": 5.3
-  },
-  {
-   "dish": "dine-greifswald-soljanka",
-   "name": "酸辣雜燴湯",
-   "region": "greifswald",
-   "stage": "early",
-   "effect": "speed",
-   "amount": 0.09,
-   "casts": 60,
-   "price": 135,
-   "gain": 187.4,
-   "net": 52.4,
-   "incomePct": 9.9
-  },
-  {
-   "dish": "dine-greifswald-soljanka",
-   "name": "酸辣雜燴湯",
-   "region": "greifswald",
-   "stage": "late",
-   "effect": "speed",
-   "amount": 0.09,
-   "casts": 60,
-   "price": 135,
-   "gain": 446.7,
-   "net": 311.7,
-   "incomePct": 9.9
-  },
-  {
-   "dish": "dine-biwa-sashimi",
-   "name": "琵琶鱒刺身",
-   "region": "biwa",
-   "stage": "early",
-   "effect": "value",
-   "amount": 0.1,
-   "casts": 60,
-   "price": 135,
-   "gain": 248.4,
-   "net": 113.4,
-   "incomePct": 11.4
-  },
-  {
-   "dish": "dine-biwa-sashimi",
-   "name": "琵琶鱒刺身",
-   "region": "biwa",
-   "stage": "late",
-   "effect": "value",
-   "amount": 0.1,
-   "casts": 60,
-   "price": 135,
-   "gain": 541.7,
-   "net": 406.7,
-   "incomePct": 10.6
-  },
-  {
-   "dish": "dine-biwa-shijimi",
-   "name": "瀨田蜆味噌湯",
-   "region": "biwa",
-   "stage": "early",
-   "effect": "speed",
-   "amount": 0.09,
-   "casts": 60,
-   "price": 135,
-   "gain": 195.7,
-   "net": 60.7,
-   "incomePct": 9.9
-  },
-  {
-   "dish": "dine-biwa-shijimi",
-   "name": "瀨田蜆味噌湯",
-   "region": "biwa",
-   "stage": "late",
-   "effect": "speed",
-   "amount": 0.09,
-   "casts": 60,
-   "price": 135,
-   "gain": 459.7,
-   "net": 324.7,
-   "incomePct": 9.9
-  },
-  {
-   "dish": "dine-biwa-yokan",
-   "name": "丁稚羊羹",
-   "region": "biwa",
    "stage": "early",
    "effect": "value",
    "amount": 0.05,
@@ -695,6 +461,240 @@
    "incomePct": 5.7
   },
   {
+   "dish": "dine-tolo-fishball",
+   "name": "咖喱魚蛋",
+   "region": "tolo",
+   "stage": "late",
+   "effect": "value",
+   "amount": 0.05,
+   "casts": 40,
+   "price": 45,
+   "gain": 182.7,
+   "net": 137.7,
+   "incomePct": 5.3
+  },
+  {
+   "dish": "dine-bodensee-trout",
+   "name": "磨坊主婦式鱒魚",
+   "region": "bodensee",
+   "stage": "early",
+   "effect": "value",
+   "amount": 0.1,
+   "casts": 60,
+   "price": 135,
+   "gain": 203.5,
+   "net": 68.5,
+   "incomePct": 11.7
+  },
+  {
+   "dish": "dine-bodensee-trout",
+   "name": "磨坊主婦式鱒魚",
+   "region": "bodensee",
+   "stage": "late",
+   "effect": "value",
+   "amount": 0.1,
+   "casts": 60,
+   "price": 135,
+   "gain": 474.1,
+   "net": 339.1,
+   "incomePct": 10.7
+  },
+  {
+   "dish": "dine-bodensee-maultaschen",
+   "name": "方形餃湯",
+   "region": "bodensee",
+   "stage": "early",
+   "effect": "speed",
+   "amount": 0.09,
+   "casts": 60,
+   "price": 135,
+   "gain": 156.6,
+   "net": 21.6,
+   "incomePct": 9.9
+  },
+  {
+   "dish": "dine-bodensee-maultaschen",
+   "name": "方形餃湯",
+   "region": "bodensee",
+   "stage": "late",
+   "effect": "speed",
+   "amount": 0.09,
+   "casts": 60,
+   "price": 135,
+   "gain": 400.1,
+   "net": 265.1,
+   "incomePct": 9.9
+  },
+  {
+   "dish": "dine-bodensee-spaetzle",
+   "name": "起司麵疙瘩",
+   "region": "bodensee",
+   "stage": "early",
+   "effect": "value",
+   "amount": 0.05,
+   "casts": 40,
+   "price": 45,
+   "gain": 67.8,
+   "net": 22.8,
+   "incomePct": 5.8
+  },
+  {
+   "dish": "dine-bodensee-spaetzle",
+   "name": "起司麵疙瘩",
+   "region": "bodensee",
+   "stage": "late",
+   "effect": "value",
+   "amount": 0.05,
+   "casts": 40,
+   "price": 45,
+   "gain": 158,
+   "net": 113,
+   "incomePct": 5.3
+  },
+  {
+   "dish": "dine-greifswald-plaice",
+   "name": "香煎鰈魚",
+   "region": "greifswald",
+   "stage": "early",
+   "effect": "value",
+   "amount": 0.1,
+   "casts": 60,
+   "price": 135,
+   "gain": 203.5,
+   "net": 68.5,
+   "incomePct": 11.7
+  },
+  {
+   "dish": "dine-greifswald-plaice",
+   "name": "香煎鰈魚",
+   "region": "greifswald",
+   "stage": "late",
+   "effect": "value",
+   "amount": 0.1,
+   "casts": 60,
+   "price": 135,
+   "gain": 450.9,
+   "net": 315.9,
+   "incomePct": 10.7
+  },
+  {
+   "dish": "dine-greifswald-bismarck",
+   "name": "俾斯麥鯡魚堡",
+   "region": "greifswald",
+   "stage": "early",
+   "effect": "value",
+   "amount": 0.05,
+   "casts": 40,
+   "price": 45,
+   "gain": 67.8,
+   "net": 22.8,
+   "incomePct": 5.8
+  },
+  {
+   "dish": "dine-greifswald-bismarck",
+   "name": "俾斯麥鯡魚堡",
+   "region": "greifswald",
+   "stage": "late",
+   "effect": "value",
+   "amount": 0.05,
+   "casts": 40,
+   "price": 45,
+   "gain": 150.3,
+   "net": 105.3,
+   "incomePct": 5.4
+  },
+  {
+   "dish": "dine-greifswald-soljanka",
+   "name": "酸辣雜燴湯",
+   "region": "greifswald",
+   "stage": "early",
+   "effect": "speed",
+   "amount": 0.09,
+   "casts": 60,
+   "price": 135,
+   "gain": 156.6,
+   "net": 21.6,
+   "incomePct": 9.9
+  },
+  {
+   "dish": "dine-greifswald-soljanka",
+   "name": "酸辣雜燴湯",
+   "region": "greifswald",
+   "stage": "late",
+   "effect": "speed",
+   "amount": 0.09,
+   "casts": 60,
+   "price": 135,
+   "gain": 379.2,
+   "net": 244.2,
+   "incomePct": 9.9
+  },
+  {
+   "dish": "dine-biwa-sashimi",
+   "name": "琵琶鱒刺身",
+   "region": "biwa",
+   "stage": "early",
+   "effect": "value",
+   "amount": 0.1,
+   "casts": 60,
+   "price": 135,
+   "gain": 226.6,
+   "net": 91.6,
+   "incomePct": 11.5
+  },
+  {
+   "dish": "dine-biwa-sashimi",
+   "name": "琵琶鱒刺身",
+   "region": "biwa",
+   "stage": "late",
+   "effect": "value",
+   "amount": 0.1,
+   "casts": 60,
+   "price": 135,
+   "gain": 488.2,
+   "net": 353.2,
+   "incomePct": 10.6
+  },
+  {
+   "dish": "dine-biwa-shijimi",
+   "name": "瀨田蜆味噌湯",
+   "region": "biwa",
+   "stage": "early",
+   "effect": "speed",
+   "amount": 0.09,
+   "casts": 60,
+   "price": 135,
+   "gain": 177.4,
+   "net": 42.4,
+   "incomePct": 9.9
+  },
+  {
+   "dish": "dine-biwa-shijimi",
+   "name": "瀨田蜆味噌湯",
+   "region": "biwa",
+   "stage": "late",
+   "effect": "speed",
+   "amount": 0.09,
+   "casts": 60,
+   "price": 135,
+   "gain": 412.8,
+   "net": 277.8,
+   "incomePct": 9.9
+  },
+  {
+   "dish": "dine-biwa-yokan",
+   "name": "丁稚羊羹",
+   "region": "biwa",
+   "stage": "early",
+   "effect": "value",
+   "amount": 0.05,
+   "casts": 40,
+   "price": 45,
+   "gain": 75.5,
+   "net": 30.5,
+   "incomePct": 5.7
+  },
+  {
    "dish": "dine-biwa-yokan",
    "name": "丁稚羊羹",
    "region": "biwa",
@@ -703,8 +703,8 @@
    "amount": 0.05,
    "casts": 40,
    "price": 45,
-   "gain": 180.6,
-   "net": 135.6,
+   "gain": 162.7,
+   "net": 117.7,
    "incomePct": 5.3
   },
   {
@@ -716,9 +716,9 @@
    "amount": 0.1,
    "casts": 60,
    "price": 135,
-   "gain": 239.7,
-   "net": 104.7,
-   "incomePct": 11.5
+   "gain": 212.7,
+   "net": 77.7,
+   "incomePct": 11.6
   },
   {
    "dish": "dine-kasumigaura-karaage",
@@ -729,8 +729,8 @@
    "amount": 0.1,
    "casts": 60,
    "price": 135,
-   "gain": 522.2,
-   "net": 387.2,
+   "gain": 488.9,
+   "net": 353.9,
    "incomePct": 10.6
   },
   {
@@ -742,8 +742,8 @@
    "amount": 0.09,
    "casts": 60,
    "price": 135,
-   "gain": 187.9,
-   "net": 52.9,
+   "gain": 164.9,
+   "net": 29.9,
    "incomePct": 9.9
   },
   {
@@ -755,8 +755,8 @@
    "amount": 0.09,
    "casts": 60,
    "price": 135,
-   "gain": 442.2,
-   "net": 307.2,
+   "gain": 413.4,
+   "net": 278.4,
    "incomePct": 9.9
   },
   {
@@ -768,9 +768,9 @@
    "amount": 0.05,
    "casts": 40,
    "price": 45,
-   "gain": 79.9,
-   "net": 34.9,
-   "incomePct": 5.7
+   "gain": 70.9,
+   "net": 25.9,
+   "incomePct": 5.8
   },
   {
    "dish": "dine-kasumigaura-kinpira",
@@ -781,8 +781,8 @@
    "amount": 0.05,
    "casts": 40,
    "price": 45,
-   "gain": 174.1,
-   "net": 129.1,
+   "gain": 163,
+   "net": 118,
    "incomePct": 5.3
   }
  ]

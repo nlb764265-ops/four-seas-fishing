@@ -1,0 +1,15 @@
+{
+  "version": "0.19",
+  "files": {
+    "index.html": "7cb9934fb3d96289b7e781e2f43d56f474e2409f10c33e425046ec3f14a7df54",
+    "engine.js": "98cf934aad2fe2d49d87aca2d232b0e784c94ce89752056f0b48c813263cd9f0",
+    "app.js": "0069f31e1dac5e6a21559c5680a7e21ae3aa91244f20f32ec84c41bfaf8049d2",
+    "collections.js": "c2b1332dae6d57c6ee43a82e75de85f4a3d3d0b302f9c02166f145621cd8033e",
+    "style.css": "d7770de824f2522f322b31bc6da73024ed9bc57dea36132bd3165ca5ccedab83",
+    "data.js": "a6c2eda7f80f260147b63e83bc140aae64802f936ec1755dcc3ae9e858588887"
+  },
+  "fish": 147,
+  "animals": 5,
+  "plants": 30,
+  "publicDeployment": false
+}

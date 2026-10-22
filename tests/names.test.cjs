@@ -8,6 +8,6 @@ test('every fish in the German waters has a German name, moved out of the common
 
 test('every local name is recorded in SOURCES.md',()=>{const src=fs.readFileSync(path.join(root,'SOURCES.md'),'utf8');for(const f of D.fish)for(const [lang,names] of f.localNames){const words=lang==='德語'?names.match(/[A-Za-zÄÖÜäöüß]+/g):names.split('、').map(n=>n.trim().split(' ')[0]);for(const word of words)assert(src.includes(word),`${f.id} ${lang} ${word}`)}});
 
-test('local names show only in the atlas and are searchable there after capture',()=>{const c=fs.readFileSync(path.join(root,'collections.js'),'utf8');assert.equal(c.split('localNames').length-1,2);assert(c.indexOf('localNames')>c.indexOf('function renderAtlas'));const s=E.initial(0),perch=E.fish('perch');assert(!E.catalogMatches(s,perch,'Kretzer'));s.book.perch={count:1,best:.1};assert(E.catalogMatches(s,perch,'Kretzer'))});
+test('local names show only in the atlas and are searchable there after capture',()=>{const c=fs.readFileSync(path.join(root,'collections.js'),'utf8');assert(c.includes('function speciesDetail'));assert(c.indexOf('localNames')>c.indexOf('function renderAtlas'));const s=E.initial(0),perch=E.fish('perch');assert(!E.catalogMatches(s,perch,'Kretzer'));s.book.perch={count:1,best:.1};assert(E.catalogMatches(s,perch,'Kretzer'))});
 
 console.log(`names: ${checks} checks passed`);

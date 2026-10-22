@@ -1,25 +1,1012 @@
 {
-  "worst": 1.3723345552880162,
-  "worstAt": {
-    "month": 2,
-    "rod": 1,
-    "sales": 0,
-    "bait": "meat",
-    "buff": null
-  },
-  "march": {
-    "sunmoon": 32.095859372822034,
-    "zengwen": 36.761774951076255,
-    "qigu": 34.24360925925909,
-    "guandu": 36.41656524701863,
-    "keelung": 42.29386283727035,
-    "penghu": 41.16505755248365,
-    "longdong": 42.58980513392856,
-    "kenting": 40.88032587650429,
-    "tolo": 40.48371840455849,
-    "bodensee": 41.90964705882335,
-    "greifswald": 33.19517321428554,
-    "biwa": 36.23981808119064,
-    "kasumigaura": 34.79051812900658
-  }
+  "rows": [
+    {
+      "month": 1,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "dough",
+      "income": 32.854879999999916
+    },
+    {
+      "month": 1,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "worm",
+      "income": 32.92444680851039
+    },
+    {
+      "month": 1,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "meat",
+      "income": 35.24420691750643
+    },
+    {
+      "month": 1,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "dough",
+      "income": 35.76279741935465
+    },
+    {
+      "month": 1,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "worm",
+      "income": 35.81828851063837
+    },
+    {
+      "month": 1,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "meat",
+      "income": 42.463898691346735
+    },
+    {
+      "month": 1,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "dough",
+      "income": 30.536666666666633
+    },
+    {
+      "month": 1,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "worm",
+      "income": 30.756188959955484
+    },
+    {
+      "month": 1,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "meat",
+      "income": 37.917115384615286
+    },
+    {
+      "month": 1,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "dough",
+      "income": 35.82018666666688
+    },
+    {
+      "month": 1,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "worm",
+      "income": 34.68387600740132
+    },
+    {
+      "month": 1,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "meat",
+      "income": 41.06714307692318
+    },
+    {
+      "month": 2,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "dough",
+      "income": 32.854879999999916
+    },
+    {
+      "month": 2,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "worm",
+      "income": 32.92444680851039
+    },
+    {
+      "month": 2,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "meat",
+      "income": 35.24420691750643
+    },
+    {
+      "month": 2,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "dough",
+      "income": 35.76279741935465
+    },
+    {
+      "month": 2,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "worm",
+      "income": 35.81828851063837
+    },
+    {
+      "month": 2,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "meat",
+      "income": 42.463898691346735
+    },
+    {
+      "month": 2,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "dough",
+      "income": 30.536666666666633
+    },
+    {
+      "month": 2,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "worm",
+      "income": 30.756188959955484
+    },
+    {
+      "month": 2,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "meat",
+      "income": 37.917115384615286
+    },
+    {
+      "month": 2,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "dough",
+      "income": 35.82018666666688
+    },
+    {
+      "month": 2,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "worm",
+      "income": 34.68387600740132
+    },
+    {
+      "month": 2,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "meat",
+      "income": 41.06714307692318
+    },
+    {
+      "month": 3,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "dough",
+      "income": 32.854879999999916
+    },
+    {
+      "month": 3,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "worm",
+      "income": 32.92444680851039
+    },
+    {
+      "month": 3,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "meat",
+      "income": 35.24420691750643
+    },
+    {
+      "month": 3,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "dough",
+      "income": 35.76279741935465
+    },
+    {
+      "month": 3,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "worm",
+      "income": 35.81828851063837
+    },
+    {
+      "month": 3,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "meat",
+      "income": 42.463898691346735
+    },
+    {
+      "month": 3,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "dough",
+      "income": 30.536666666666633
+    },
+    {
+      "month": 3,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "worm",
+      "income": 30.756188959955484
+    },
+    {
+      "month": 3,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "meat",
+      "income": 37.917115384615286
+    },
+    {
+      "month": 3,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "dough",
+      "income": 35.82018666666688
+    },
+    {
+      "month": 3,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "worm",
+      "income": 34.68387600740132
+    },
+    {
+      "month": 3,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "meat",
+      "income": 41.06714307692318
+    },
+    {
+      "month": 4,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "dough",
+      "income": 32.854879999999916
+    },
+    {
+      "month": 4,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "worm",
+      "income": 32.92444680851039
+    },
+    {
+      "month": 4,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "meat",
+      "income": 35.24420691750643
+    },
+    {
+      "month": 4,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "dough",
+      "income": 35.76279741935465
+    },
+    {
+      "month": 4,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "worm",
+      "income": 35.81828851063837
+    },
+    {
+      "month": 4,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "meat",
+      "income": 42.463898691346735
+    },
+    {
+      "month": 4,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "dough",
+      "income": 30.536666666666633
+    },
+    {
+      "month": 4,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "worm",
+      "income": 30.756188959955484
+    },
+    {
+      "month": 4,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "meat",
+      "income": 37.917115384615286
+    },
+    {
+      "month": 4,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "dough",
+      "income": 35.82018666666688
+    },
+    {
+      "month": 4,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "worm",
+      "income": 34.68387600740132
+    },
+    {
+      "month": 4,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "meat",
+      "income": 41.06714307692318
+    },
+    {
+      "month": 5,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "dough",
+      "income": 32.854879999999916
+    },
+    {
+      "month": 5,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "worm",
+      "income": 32.92444680851039
+    },
+    {
+      "month": 5,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "meat",
+      "income": 35.24420691750643
+    },
+    {
+      "month": 5,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "dough",
+      "income": 35.76279741935465
+    },
+    {
+      "month": 5,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "worm",
+      "income": 35.81828851063837
+    },
+    {
+      "month": 5,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "meat",
+      "income": 42.463898691346735
+    },
+    {
+      "month": 5,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "dough",
+      "income": 30.536666666666633
+    },
+    {
+      "month": 5,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "worm",
+      "income": 30.756188959955484
+    },
+    {
+      "month": 5,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "meat",
+      "income": 37.917115384615286
+    },
+    {
+      "month": 5,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "dough",
+      "income": 35.82018666666688
+    },
+    {
+      "month": 5,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "worm",
+      "income": 34.68387600740132
+    },
+    {
+      "month": 5,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "meat",
+      "income": 41.06714307692318
+    },
+    {
+      "month": 6,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "dough",
+      "income": 32.854879999999916
+    },
+    {
+      "month": 6,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "worm",
+      "income": 32.92444680851039
+    },
+    {
+      "month": 6,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "meat",
+      "income": 35.24420691750643
+    },
+    {
+      "month": 6,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "dough",
+      "income": 35.76279741935465
+    },
+    {
+      "month": 6,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "worm",
+      "income": 35.81828851063837
+    },
+    {
+      "month": 6,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "meat",
+      "income": 42.463898691346735
+    },
+    {
+      "month": 6,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "dough",
+      "income": 30.536666666666633
+    },
+    {
+      "month": 6,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "worm",
+      "income": 30.756188959955484
+    },
+    {
+      "month": 6,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "meat",
+      "income": 37.917115384615286
+    },
+    {
+      "month": 6,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "dough",
+      "income": 35.82018666666688
+    },
+    {
+      "month": 6,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "worm",
+      "income": 34.68387600740132
+    },
+    {
+      "month": 6,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "meat",
+      "income": 41.06714307692318
+    },
+    {
+      "month": 7,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "dough",
+      "income": 32.854879999999916
+    },
+    {
+      "month": 7,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "worm",
+      "income": 32.92444680851039
+    },
+    {
+      "month": 7,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "meat",
+      "income": 35.24420691750643
+    },
+    {
+      "month": 7,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "dough",
+      "income": 35.76279741935465
+    },
+    {
+      "month": 7,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "worm",
+      "income": 35.81828851063837
+    },
+    {
+      "month": 7,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "meat",
+      "income": 42.463898691346735
+    },
+    {
+      "month": 7,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "dough",
+      "income": 30.536666666666633
+    },
+    {
+      "month": 7,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "worm",
+      "income": 30.756188959955484
+    },
+    {
+      "month": 7,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "meat",
+      "income": 37.917115384615286
+    },
+    {
+      "month": 7,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "dough",
+      "income": 35.82018666666688
+    },
+    {
+      "month": 7,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "worm",
+      "income": 34.68387600740132
+    },
+    {
+      "month": 7,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "meat",
+      "income": 41.06714307692318
+    },
+    {
+      "month": 8,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "dough",
+      "income": 32.854879999999916
+    },
+    {
+      "month": 8,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "worm",
+      "income": 32.92444680851039
+    },
+    {
+      "month": 8,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "meat",
+      "income": 35.24420691750643
+    },
+    {
+      "month": 8,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "dough",
+      "income": 35.76279741935465
+    },
+    {
+      "month": 8,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "worm",
+      "income": 35.81828851063837
+    },
+    {
+      "month": 8,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "meat",
+      "income": 42.463898691346735
+    },
+    {
+      "month": 8,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "dough",
+      "income": 30.536666666666633
+    },
+    {
+      "month": 8,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "worm",
+      "income": 30.756188959955484
+    },
+    {
+      "month": 8,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "meat",
+      "income": 37.917115384615286
+    },
+    {
+      "month": 8,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "dough",
+      "income": 35.82018666666688
+    },
+    {
+      "month": 8,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "worm",
+      "income": 34.68387600740132
+    },
+    {
+      "month": 8,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "meat",
+      "income": 41.06714307692318
+    },
+    {
+      "month": 9,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "dough",
+      "income": 32.854879999999916
+    },
+    {
+      "month": 9,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "worm",
+      "income": 32.92444680851039
+    },
+    {
+      "month": 9,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "meat",
+      "income": 35.24420691750643
+    },
+    {
+      "month": 9,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "dough",
+      "income": 35.76279741935465
+    },
+    {
+      "month": 9,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "worm",
+      "income": 35.81828851063837
+    },
+    {
+      "month": 9,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "meat",
+      "income": 42.463898691346735
+    },
+    {
+      "month": 9,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "dough",
+      "income": 30.536666666666633
+    },
+    {
+      "month": 9,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "worm",
+      "income": 30.756188959955484
+    },
+    {
+      "month": 9,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "meat",
+      "income": 37.917115384615286
+    },
+    {
+      "month": 9,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "dough",
+      "income": 35.82018666666688
+    },
+    {
+      "month": 9,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "worm",
+      "income": 34.68387600740132
+    },
+    {
+      "month": 9,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "meat",
+      "income": 41.06714307692318
+    },
+    {
+      "month": 10,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "dough",
+      "income": 32.854879999999916
+    },
+    {
+      "month": 10,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "worm",
+      "income": 32.92444680851039
+    },
+    {
+      "month": 10,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "meat",
+      "income": 35.24420691750643
+    },
+    {
+      "month": 10,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "dough",
+      "income": 35.76279741935465
+    },
+    {
+      "month": 10,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "worm",
+      "income": 35.81828851063837
+    },
+    {
+      "month": 10,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "meat",
+      "income": 42.463898691346735
+    },
+    {
+      "month": 10,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "dough",
+      "income": 30.536666666666633
+    },
+    {
+      "month": 10,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "worm",
+      "income": 30.756188959955484
+    },
+    {
+      "month": 10,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "meat",
+      "income": 37.917115384615286
+    },
+    {
+      "month": 10,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "dough",
+      "income": 35.82018666666688
+    },
+    {
+      "month": 10,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "worm",
+      "income": 34.68387600740132
+    },
+    {
+      "month": 10,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "meat",
+      "income": 41.06714307692318
+    },
+    {
+      "month": 11,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "dough",
+      "income": 32.854879999999916
+    },
+    {
+      "month": 11,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "worm",
+      "income": 32.92444680851039
+    },
+    {
+      "month": 11,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "meat",
+      "income": 35.24420691750643
+    },
+    {
+      "month": 11,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "dough",
+      "income": 35.76279741935465
+    },
+    {
+      "month": 11,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "worm",
+      "income": 35.81828851063837
+    },
+    {
+      "month": 11,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "meat",
+      "income": 42.463898691346735
+    },
+    {
+      "month": 11,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "dough",
+      "income": 30.536666666666633
+    },
+    {
+      "month": 11,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "worm",
+      "income": 30.756188959955484
+    },
+    {
+      "month": 11,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "meat",
+      "income": 37.917115384615286
+    },
+    {
+      "month": 11,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "dough",
+      "income": 35.82018666666688
+    },
+    {
+      "month": 11,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "worm",
+      "income": 34.68387600740132
+    },
+    {
+      "month": 11,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "meat",
+      "income": 41.06714307692318
+    },
+    {
+      "month": 12,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "dough",
+      "income": 32.854879999999916
+    },
+    {
+      "month": 12,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "worm",
+      "income": 32.92444680851039
+    },
+    {
+      "month": 12,
+      "region": "biwa",
+      "rod": 1,
+      "bait": "meat",
+      "income": 35.24420691750643
+    },
+    {
+      "month": 12,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "dough",
+      "income": 35.76279741935465
+    },
+    {
+      "month": 12,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "worm",
+      "income": 35.81828851063837
+    },
+    {
+      "month": 12,
+      "region": "biwa",
+      "rod": 5,
+      "bait": "meat",
+      "income": 42.463898691346735
+    },
+    {
+      "month": 12,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "dough",
+      "income": 30.536666666666633
+    },
+    {
+      "month": 12,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "worm",
+      "income": 30.756188959955484
+    },
+    {
+      "month": 12,
+      "region": "kasumigaura",
+      "rod": 1,
+      "bait": "meat",
+      "income": 37.917115384615286
+    },
+    {
+      "month": 12,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "dough",
+      "income": 35.82018666666688
+    },
+    {
+      "month": 12,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "worm",
+      "income": 34.68387600740132
+    },
+    {
+      "month": 12,
+      "region": "kasumigaura",
+      "rod": 5,
+      "bait": "meat",
+      "income": 41.06714307692318
+    }
+  ]
 }

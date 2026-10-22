@@ -1,0 +1,48 @@
+{
+  "version": "0.19",
+  "total": 182,
+  "desktop": {
+    "viewport": [
+      1280,
+      800
+    ],
+    "species": "qili",
+    "detailHeight": 579,
+    "detailScrollHeight": 579,
+    "top": 122.15625,
+    "bottom": 703.34375,
+    "readingLineHeight": "19.5px",
+    "keyboardTooltip": "日月潭·麵團 / 曾文水庫·麵團 / 關渡（淡水河口）·麵團"
+  },
+  "mobile": {
+    "viewports": [
+      [
+        390,
+        844
+      ],
+      [
+        320,
+        740
+      ]
+    ],
+    "species": "fangsiao",
+    "narrowDetail": {
+      "clientWidth": 277,
+      "scrollWidth": 277,
+      "dialogWidth": 289,
+      "viewport": 305
+    },
+    "categories": [
+      "蝦蟹",
+      "頭足類"
+    ],
+    "consoleErrors": []
+  },
+  "import": {
+    "format": 7,
+    "fishCaught": 147,
+    "animalsCaught": 5,
+    "boxItems": 6
+  },
+  "publicDeployment": false
+}
