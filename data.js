@@ -607,5 +607,7 @@ const batch2=[
 Object.assign(preparations,{deepfry:'裹粉油炸',steamfish:'薑蔥清蒸',grillfish:'抹鹽炭烤','tenaga-karaage':'整隻裹粉油炸','sake-steam-crab':'淋米酒清蒸','ginataang-alimasag':'椰奶燉煮','iidako-nitsuke':'醬汁燉煮','aori-ichiyaboshi':'鹽水浸泡、風乾後烤','squid-bihun':'與米粉同煮成湯'});
 for(const r of batch2){setPreparation(r);const t=recipeTiers[r.tier];r.fishes=r.fish==='*'?fish.filter(f=>f.cookable).map(f=>f.id):[].concat(r.fish);r.effect=cookingMethods[r.method].effect;r.amount=t[r.effect];r.casts=t.casts;r.cost=r.tier==='basic'?t.seasoning:Math.max(30,Math.round(Math.max(...r.fishes.map(id=>species.find(f=>f.id===id).price))*t.seasoning/5)*5);r.desc=`${{speed:'等待時間減少',value:'新漁獲售價增加',size:'新漁獲重量增加'}[r.effect]} ${Math.round(r.amount*100)}%，持續 ${r.casts} 竿。`}
 recipes.splice(1,0,...batch2.slice(0,3));recipes.push(...batch2.slice(3));
+// 0.21 rarity: a catch with any non-basic recipe is a signature catch (dark-blue name) and is kept by the bulk sale.
+const signatureIds=new Set(recipes.filter(r=>r.cuisine!=='basic').flatMap(r=>r.fishes));for(const f of species)f.signature=signatureIds.has(f.id);
 const data={fish,animals,species,plants,regions,baits,recipes,restaurants,dishes,dinePrices,recipeTiers,cookingMethods,cuisines,upgrades,economy,world};if(typeof module!=='undefined')module.exports=data;else root.FishingData=data;
 })(globalThis);
