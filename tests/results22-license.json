@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-23",
+  "scope": "Local implementation only; public site remains the previously deployed 0.22 image release",
+  "suites": [
+    {
+      "file": "license22.test.cjs",
+      "passed": 5
+    },
+    {
+      "file": "pacing17.test.cjs",
+      "passed": 8
+    },
+    {
+      "file": "engine.test.cjs",
+      "passed": 51
+    }
+  ],
+  "checksPassed": 64,
+  "browser": {
+    "time": "2026-10-23T12:24:58.315Z",
+    "bought": {
+      "money": 9850,
+      "region": "sunmoon",
+      "owned": true,
+      "fare": 30,
+      "expected": 30,
+      "valid": true
+    },
+    "sizes": [
+      {
+        "width": 1600,
+        "scroll": 1600,
+        "box": {
+          "x": 342,
+          "y": 486.171875,
+          "width": 576,
+          "height": 300.984375
+        },
+        "license": {
+          "x": 934,
+          "y": 486.171875,
+          "width": 576,
+          "height": 300.984375
+        }
+      },
+      {
+        "width": 1280,
+        "scroll": 1280,
+        "box": {
+          "x": 292,
+          "y": 486.171875,
+          "width": 466,
+          "height": 300.984375
+        },
+        "license": {
+          "x": 774,
+          "y": 486.171875,
+          "width": 466,
+          "height": 300.984375
+        }
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "box": {
+          "x": 16,
+          "y": 1200.09375,
+          "width": 358,
+          "height": 277.96875
+        },
+        "license": {
+          "x": 16,
+          "y": 1494.0625,
+          "width": 358,
+          "height": 292.984375
+        }
+      },
+      {
+        "width": 320,
+        "scroll": 320,
+        "box": {
+          "x": 16,
+          "y": 59.09375,
+          "width": 288,
+          "height": 277.96875
+        },
+        "license": {
+          "x": 16,
+          "y": 353.0625,
+          "width": 288,
+          "height": 319.984375
+        }
+      }
+    ],
+    "errors": []
+  }
+}
