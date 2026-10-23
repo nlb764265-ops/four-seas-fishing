@@ -314,3 +314,8 @@ footer{font-size:12px}
 @keyframes water-stamp-impact{0%{opacity:0;transform:translateY(-26px) scale(1.85) rotate(-23deg)}40%{opacity:.96;transform:translateY(2px) scale(.92) rotate(-9deg)}58%{opacity:.86;transform:translateY(-1px) scale(1.04) rotate(-14deg)}78%{opacity:.84;transform:scale(.99) rotate(-11deg)}100%{opacity:.84;transform:scale(1) rotate(-12deg)}}
 @media(max-width:650px){.water-completion{width:76px;height:76px}.current-water .water-actions>button{padding:7px 10px}.current-water>div:first-child{min-width:0}}
 @media(prefers-reduced-motion:reduce){.water-completion.stamp-impact{animation:none}}
+
+/* Map attribution sits above the map, with no badge frame or fill. */
+#mapDialog>.map-caption{position:static;display:block;max-width:100%;margin:-8px 0 7px;padding:0;border:0;background:transparent;box-shadow:none;text-align:right;white-space:normal;overflow:visible;font-size:10px;line-height:1.5}
+/* 0.22 license tiers: colour replaces the tier label; owned waters dim with a check. */
+#licenseCard select,#licenseCard option{font-weight:600}#licenseCard optgroup{color:var(--muted);font-style:normal;font-weight:400}.tier-1{color:#3f7d4f}.tier-2{color:#2f6aa3}.tier-3{color:#7a4aa6}.tier-4{color:#b5671f}#licenseCard option.owned,#licenseCard select.owned{font-weight:400;opacity:.6}

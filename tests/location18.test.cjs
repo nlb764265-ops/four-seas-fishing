@@ -1,7 +1,7 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),E=require('../engine.js');
 const src=fs.readFileSync(require('node:path').join(__dirname,'../app.js'),'utf8');
 const els={regionList:{},location:{},travel:{},mapDialog:{close(){}}};
-const scope={E,D:E.D,state:E.initial(0),preview:'keelung',Date,yuan:n=>n.toLocaleString('zh-TW'),document:{querySelectorAll(){return []}},$:id=>els[id],showRegion(){},act(){}};
+const scope={completionStamp:()=>'',syncCompletionStamps(){},E,D:E.D,state:E.initial(0),preview:'keelung',Date,yuan:n=>n.toLocaleString('zh-TW'),document:{querySelectorAll(){return []}},$:id=>els[id],showRegion(){},act(){}};
 vm.createContext(scope);vm.runInContext(src.slice(src.indexOf('function meter('),src.indexOf('function pips(')),scope);vm.runInContext(src.slice(src.indexOf('function renderLocation()'),src.indexOf('function renderStatus(')),scope);
 scope.renderLocation();
 assert.equal((els.regionList.innerHTML.match(/data-preview=/g)||[]).length,16);

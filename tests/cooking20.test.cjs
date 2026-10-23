@@ -15,7 +15,7 @@ test('basic deep-fry, steam and grill follow the approved material ranges and ef
  const small=D.fish.filter(f=>f.cookable&&f.max<=.5).map(f=>f.id);assert.equal(small.length,55);
  assert.deepEqual(fry.fishes,[...small,'nipponense','fangsiao','lessoniana','chinensis']);assert(!fry.fishes.includes('pelagicus'));
  for(const r of [steam,grill]){assert.deepEqual(r.fishes,pan.fishes);assert(!r.fishes.some(id=>animal(id)))}
- assert.deepEqual([fry.effect,fry.amount,fry.casts,fry.cost],['value',.05,40,15]);
+ assert.deepEqual([fry.effect,fry.amount,fry.casts,fry.cost],['speed',.05,40,15]);
  assert.deepEqual([steam.effect,steam.amount,steam.casts,steam.cost],['size',.2,40,15]);
  assert.deepEqual([grill.effect,grill.amount,grill.casts,grill.cost],['value',.05,40,15]);
  assert.equal(E.recipeName(fry,'fangsiao'),'炸飯蛸');assert.equal(E.recipeName(steam,'carp'),'蒸鯉魚');assert.equal(E.recipeName(grill,'blackporgy'),'烤黑鯛');

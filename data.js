@@ -83,7 +83,7 @@ const baits=[{"id":"dough","name":"麵團","cost":6,"weed":0.12,"desc":"適合�
 // 0.13 recipes: real dishes only, sources in SOURCES.md. `fish` is one ID, a list of interchangeable IDs, or '*' for any edible fish.
 // Effect follows the cooking method (see cookingMethods); tier sets amount, casts and seasoning, filled in near the end of this file.
 const recipes=[
-{id:'panfry',name:'煎魚',prefix:'煎',fish:'*',cuisine:'basic',origin:'各地家常',method:'fry',tier:'basic',about:'選用列入料理的魚種，魚身抹鹽、拭乾，下鍋把兩面煎到金黃。偏觀賞或少作食用的魚不列入材料。'},
+{id:'panfry',name:'煎魚',prefix:'煎',fish:'*',cuisine:'basic',origin:'各地家常',method:'fry',tier:'basic',about:'選用列入料理的魚種，魚身抹鹽、拭乾，下鍋把兩面煎到金黃。'},
 {id:'fried',name:'酥炸奇力魚',fish:'qili',cuisine:'taiwan',origin:'臺灣・日月潭',method:'fry',tier:'home',about:'奇力魚體型小，日月潭一帶常整尾裹粉油炸，炸酥後連骨一起吃。'},
 {id:'ginger',name:'三杯魚虎',fish:'snakehead',cuisine:'taiwan',origin:'臺灣・日月潭、曾文水庫',method:'fry',tier:'home',about:'日月潭與曾文水庫周邊餐館把移除的魚虎做成料理。魚虎肉質緊實、刺少，業者推薦做三杯或紅燒。'},
 {id:'jaguar-steam',name:'清蒸珍珠石斑',fish:'jaguar',cuisine:'taiwan',origin:'臺灣',method:'steam',tier:'home',about:'珍珠石斑在臺灣有食用紀錄，常整尾清蒸，鋪上蔥絲、薑絲。'},
@@ -495,10 +495,468 @@ for(const r of regions){r.basePool={...r.pool};const raw=Object.entries(r.pool).
 const licenseTiers=[null,{cost:150,atlas:8},{cost:800,atlas:25},{cost:3000,atlas:50},{cost:8000,atlas:80}];
 const licenseTier={zengwen:1,qigu:1,guandu:1,keelung:2,longdong:2,penghu:2,kenting:2,tolo:3,biwa:3,kasumigaura:3,bodensee:4,greifswald:4,arcachon:4,tokyo_bay:3,ishikari:3};
 for(const r of regions)if(licenseTier[r.id])r.license={tier:licenseTier[r.id],...licenseTiers[licenseTier[r.id]]};
-// 0.13 recipe tiers. While active: about +5% (basic), +10% (home) or +15% (classic) cast income; see tests/cooking-economy.json.
-const recipeTiers={basic:{name:'基本',value:.05,size:.2,casts:40,seasoning:15},home:{name:'家常',value:.1,speed:.09,size:.3,casts:60,seasoning:1.5},classic:{name:'名菜',value:.15,speed:.13,size:.4,casts:80,seasoning:3}};
-// Effect families are game balance rules; each dish has a separate, specific preparation description.
-const cookingMethods={soup:{name:'湯鍋燉煮',effect:'speed'},steam:{name:'清蒸汆煮',effect:'size'},fry:{name:'煎炸炒烤燻',effect:'value'},raw:{name:'生食',effect:'value'},pickle:{name:'醃漬',effect:'value'},rice:{name:'炊飯',effect:'value'},mix:{name:'熟食拌製',effect:'value'}};
+// Labels and seasoning prices; effects and duration are configured independently for each dish.
+const recipeTiers={basic:{name:'基本',seasoning:15},home:{name:'家常',seasoning:1.5},classic:{name:'名菜',seasoning:3}};
+// Cooking-method labels describe preparation only; they do not assign effects.
+const cookingMethods={soup:{name:'湯鍋燉煮'},steam:{name:'清蒸汆煮'},fry:{name:'煎炸炒烤燻'},raw:{name:'生食'},pickle:{name:'醃漬'},rice:{name:'炊飯'},mix:{name:'熟食拌製'}};
+const mealEffects={
+  "panfry": {
+    "effect": "value",
+    "amount": 0.05,
+    "casts": 40
+  },
+  "deepfry": {
+    "effect": "speed",
+    "amount": 0.05,
+    "casts": 40
+  },
+  "steamfish": {
+    "effect": "size",
+    "amount": 0.2,
+    "casts": 40
+  },
+  "grillfish": {
+    "effect": "value",
+    "amount": 0.05,
+    "casts": 40
+  },
+  "fried": {
+    "effect": "value",
+    "amount": 0.1,
+    "casts": 60
+  },
+  "ginger": {
+    "effect": "value",
+    "amount": 0.1,
+    "casts": 60
+  },
+  "jaguar-steam": {
+    "effect": "size",
+    "amount": 0.3,
+    "casts": 60
+  },
+  "president-steam": {
+    "effect": "size",
+    "amount": 0.4,
+    "casts": 80
+  },
+  "fishhead-pot": {
+    "effect": "speed",
+    "amount": 0.13,
+    "casts": 80
+  },
+  "marbled-steam": {
+    "effect": "size",
+    "amount": 0.3,
+    "casts": 60
+  },
+  "eel-noodle": {
+    "effect": "value",
+    "amount": 0.15,
+    "casts": 80
+  },
+  "soup": {
+    "effect": "speed",
+    "amount": 0.09,
+    "casts": 60
+  },
+  "steamed": {
+    "effect": "size",
+    "amount": 0.3,
+    "casts": 60
+  },
+  "sweetsour-carp": {
+    "effect": "value",
+    "amount": 0.15,
+    "casts": 80
+  },
+  "westlake": {
+    "effect": "size",
+    "amount": 0.4,
+    "casts": 80
+  },
+  "wuchang-steam": {
+    "effect": "size",
+    "amount": 0.4,
+    "casts": 80
+  },
+  "baoyu": {
+    "effect": "value",
+    "amount": 0.15,
+    "casts": 80
+  },
+  "stuffed-dace": {
+    "effect": "value",
+    "amount": 0.15,
+    "casts": 80
+  },
+  "snakehead-soup": {
+    "effect": "speed",
+    "amount": 0.09,
+    "casts": 60
+  },
+  "catfish-eggplant": {
+    "effect": "speed",
+    "amount": 0.09,
+    "casts": 60
+  },
+  "kabayaki": {
+    "effect": "value",
+    "amount": 0.15,
+    "casts": 80
+  },
+  "yanagawa": {
+    "effect": "speed",
+    "amount": 0.13,
+    "casts": 80
+  },
+  "chinu-shioyaki": {
+    "effect": "value",
+    "amount": 0.1,
+    "casts": 60
+  },
+  "kasago-nitsuke": {
+    "effect": "speed",
+    "amount": 0.09,
+    "casts": 60
+  },
+  "gurukun-karaage": {
+    "effect": "value",
+    "amount": 0.1,
+    "casts": 60
+  },
+  "taimeshi": {
+    "effect": "value",
+    "amount": 0.15,
+    "casts": 80
+  },
+  "kibinago-sashimi": {
+    "effect": "value",
+    "amount": 0.1,
+    "casts": 60
+  },
+  "pla-pao": {
+    "effect": "value",
+    "amount": 0.1,
+    "casts": 60
+  },
+  "pla-duk-fu": {
+    "effect": "value",
+    "amount": 0.15,
+    "casts": 80
+  },
+  "kretzer": {
+    "effect": "value",
+    "amount": 0.1,
+    "casts": 60
+  },
+  "smoked": {
+    "effect": "value",
+    "amount": 0.15,
+    "casts": 80
+  },
+  "forelle-blau": {
+    "effect": "size",
+    "amount": 0.4,
+    "casts": 80
+  },
+  "green-herring": {
+    "effect": "value",
+    "amount": 0.1,
+    "casts": 60
+  },
+  "karpfen-fraenkisch": {
+    "effect": "value",
+    "amount": 0.15,
+    "casts": 80
+  },
+  "quenelle": {
+    "effect": "size",
+    "amount": 0.4,
+    "casts": 80
+  },
+  "funazushi": {
+    "effect": "value",
+    "amount": 0.15,
+    "casts": 80
+  },
+  "amenoio": {
+    "effect": "value",
+    "amount": 0.1,
+    "casts": 60
+  },
+  "koayu-sansho": {
+    "effect": "speed",
+    "amount": 0.09,
+    "casts": 60
+  },
+  "moroko-dorozu": {
+    "effect": "value",
+    "amount": 0.1,
+    "casts": 60
+  },
+  "wakasagi-suzuke": {
+    "effect": "value",
+    "amount": 0.1,
+    "casts": 60
+  },
+  "kasumi-tsukudani": {
+    "effect": "speed",
+    "amount": 0.09,
+    "casts": 60
+  },
+  "karasumi": {
+    "effect": "value",
+    "amount": 0.15,
+    "casts": 80
+  },
+  "yellowfin-steam": {
+    "effect": "size",
+    "amount": 0.3,
+    "casts": 60
+  },
+  "grouper-steam": {
+    "effect": "size",
+    "amount": 0.4,
+    "casts": 80
+  },
+  "maasuni": {
+    "effect": "speed",
+    "amount": 0.09,
+    "casts": 60
+  },
+  "danggit": {
+    "effect": "value",
+    "amount": 0.1,
+    "casts": 60
+  },
+  "zander-muellerin": {
+    "effect": "value",
+    "amount": 0.1,
+    "casts": 60
+  },
+  "haze-tempura": {
+    "effect": "value",
+    "amount": 0.1,
+    "casts": 60
+  },
+  "nishin-zuke": {
+    "effect": "value",
+    "amount": 0.1,
+    "casts": 60
+  },
+  "tenaga-karaage": {
+    "effect": "value",
+    "amount": 0.1,
+    "casts": 60
+  },
+  "sake-steam-crab": {
+    "effect": "size",
+    "amount": 0.3,
+    "casts": 60
+  },
+  "ginataang-alimasag": {
+    "effect": "speed",
+    "amount": 0.09,
+    "casts": 60
+  },
+  "iidako-nitsuke": {
+    "effect": "speed",
+    "amount": 0.09,
+    "casts": 60
+  },
+  "aori-ichiyaboshi": {
+    "effect": "value",
+    "amount": 0.1,
+    "casts": 60
+  },
+  "squid-bihun": {
+    "effect": "speed",
+    "amount": 0.09,
+    "casts": 60
+  },
+  "dine-sunmoon-teaegg": {
+    "effect": "value",
+    "amount": 0.05,
+    "casts": 40
+  },
+  "dine-zengwen-seabass": {
+    "effect": "speed",
+    "amount": 0.09,
+    "casts": 60
+  },
+  "dine-zengwen-turkeyrice": {
+    "effect": "value",
+    "amount": 0.05,
+    "casts": 40
+  },
+  "dine-qigu-milkfish": {
+    "effect": "speed",
+    "amount": 0.13,
+    "casts": 80
+  },
+  "dine-qigu-oysteromelet": {
+    "effect": "value",
+    "amount": 0.1,
+    "casts": 60
+  },
+  "dine-guandu-fishball": {
+    "effect": "speed",
+    "amount": 0.09,
+    "casts": 60
+  },
+  "dine-guandu-agei": {
+    "effect": "value",
+    "amount": 0.05,
+    "casts": 40
+  },
+  "dine-keelung-dingbiancuo": {
+    "effect": "speed",
+    "amount": 0.09,
+    "casts": 60
+  },
+  "dine-keelung-tempura": {
+    "effect": "value",
+    "amount": 0.05,
+    "casts": 40
+  },
+  "dine-keelung-sandwich": {
+    "effect": "value",
+    "amount": 0.05,
+    "casts": 40
+  },
+  "dine-penghu-squidnoodle": {
+    "effect": "speed",
+    "amount": 0.09,
+    "casts": 60
+  },
+  "dine-longdong-abalone": {
+    "effect": "value",
+    "amount": 0.1,
+    "casts": 60
+  },
+  "dine-kenting-grouper": {
+    "effect": "size",
+    "amount": 0.4,
+    "casts": 80
+  },
+  "dine-kenting-sashimi": {
+    "effect": "value",
+    "amount": 0.1,
+    "casts": 60
+  },
+  "dine-kenting-mungbean": {
+    "effect": "value",
+    "amount": 0.05,
+    "casts": 40
+  },
+  "dine-tolo-mantis": {
+    "effect": "value",
+    "amount": 0.15,
+    "casts": 80
+  },
+  "dine-tolo-prawn": {
+    "effect": "size",
+    "amount": 0.3,
+    "casts": 60
+  },
+  "dine-tolo-fishball": {
+    "effect": "value",
+    "amount": 0.05,
+    "casts": 40
+  },
+  "dine-bodensee-trout": {
+    "effect": "value",
+    "amount": 0.1,
+    "casts": 60
+  },
+  "dine-bodensee-maultaschen": {
+    "effect": "speed",
+    "amount": 0.09,
+    "casts": 60
+  },
+  "dine-bodensee-spaetzle": {
+    "effect": "value",
+    "amount": 0.05,
+    "casts": 40
+  },
+  "dine-greifswald-plaice": {
+    "effect": "value",
+    "amount": 0.1,
+    "casts": 60
+  },
+  "dine-greifswald-bismarck": {
+    "effect": "value",
+    "amount": 0.05,
+    "casts": 40
+  },
+  "dine-greifswald-soljanka": {
+    "effect": "speed",
+    "amount": 0.09,
+    "casts": 60
+  },
+  "dine-biwa-sashimi": {
+    "effect": "value",
+    "amount": 0.1,
+    "casts": 60
+  },
+  "dine-biwa-shijimi": {
+    "effect": "speed",
+    "amount": 0.09,
+    "casts": 60
+  },
+  "dine-biwa-yokan": {
+    "effect": "value",
+    "amount": 0.05,
+    "casts": 40
+  },
+  "dine-kasumigaura-karaage": {
+    "effect": "value",
+    "amount": 0.1,
+    "casts": 60
+  },
+  "dine-kasumigaura-hobikini": {
+    "effect": "speed",
+    "amount": 0.09,
+    "casts": 60
+  },
+  "dine-kasumigaura-kinpira": {
+    "effect": "value",
+    "amount": 0.05,
+    "casts": 40
+  },
+  "dine-arcachon-oysters": {
+    "effect": "value",
+    "amount": 0.1,
+    "casts": 60
+  },
+  "dine-arcachon-moules": {
+    "effect": "size",
+    "amount": 0.3,
+    "casts": 60
+  },
+  "dine-arcachon-dune": {
+    "effect": "value",
+    "amount": 0.05,
+    "casts": 40
+  },
+  "dine-tokyo_bay-fukagawa": {
+    "effect": "value",
+    "amount": 0.1,
+    "casts": 60
+  },
+  "dine-ishikari-nabe": {
+    "effect": "speed",
+    "amount": 0.09,
+    "casts": 60
+  },
+  "dine-ishikari-soba": {
+    "effect": "value",
+    "amount": 0.05,
+    "casts": 40
+  }
+};
+function assignMealEffect(d){const spec=mealEffects[d.id];if(!spec)throw Error("Missing individual meal effect: "+d.id);Object.assign(d,spec)}
 const preparations={"panfry":"抹鹽香煎","fried":"裹粉油炸","ginger":"三杯煸炒收汁","jaguar-steam":"蔥薑清蒸","president-steam":"蔥薑清蒸","fishhead-pot":"魚頭先炸後燉","marbled-steam":"蔥薑清蒸","eel-noodle":"快炒勾芡","soup":"煎香後熬湯","steamed":"蔥薑清蒸","sweetsour-carp":"油炸淋糖醋汁","westlake":"汆煮後淋糖醋汁","wuchang-steam":"黃酒薑絲清蒸","baoyu":"油炸後浸滷汁","stuffed-dace":"釀餡香煎","snakehead-soup":"煎香後煲湯","catfish-eggplant":"醬燉","kabayaki":"刷醬炭烤","yanagawa":"湯煮淋蛋","chinu-shioyaki":"抹鹽火烤","kasago-nitsuke":"醬汁煮付","gurukun-karaage":"裹粉油炸","taimeshi":"先烤魚再與米同炊","kibinago-sashimi":"手開生食","pla-pao":"鹽殼炭烤","pla-duk-fu":"烤熟拆絲、油炸涼拌","kretzer":"奶油香煎","smoked":"煙燻","forelle-blau":"醋湯浸煮","green-herring":"裹粉奶油煎","karpfen-fraenkisch":"剖半裹粉油炸","quenelle":"魚泥成形後水煮","dine-sunmoon-teaegg":"茶葉與香菇滷煮","dine-zengwen-seabass":"薑絲煮湯","dine-zengwen-turkeyrice":"熟火雞肉撕絲、鋪飯淋汁","dine-qigu-milkfish":"薑絲煮湯","dine-qigu-oysteromelet":"粉漿加蛋煎製","dine-guandu-fishball":"魚丸煮湯","dine-guandu-agei":"油豆腐填餡蒸熟","dine-keelung-dingbiancuo":"鍋邊燙米漿、入湯同煮","dine-keelung-tempura":"魚漿壓片油炸","dine-keelung-sandwich":"炸麵包夾餡","dine-penghu-squidnoodle":"小管與麵線煮湯","dine-longdong-abalone":"蠔油快炒","dine-kenting-grouper":"清蒸","dine-kenting-sashimi":"生切裝盤","dine-kenting-mungbean":"綠豆仁煮糖水","dine-tolo-mantis":"炸香後椒鹽拌炒","dine-tolo-prawn":"滾水白灼","dine-tolo-fishball":"咖喱汁燉煮","dine-bodensee-trout":"裹粉奶油煎","dine-bodensee-maultaschen":"包餡後清湯煮熟","dine-bodensee-spaetzle":"麵疙瘩拌融化起司、鋪炸洋蔥","dine-greifswald-plaice":"奶油香煎","dine-greifswald-bismarck":"醋醃魚片夾麵包","dine-greifswald-soljanka":"酸辣湯燉煮"};
 const methodCorrections={westlake:'steam','kibinago-sashimi':'raw',taimeshi:'rice','dine-kenting-sashimi':'raw','dine-zengwen-turkeyrice':'mix','dine-greifswald-bismarck':'pickle','dine-bodensee-spaetzle':'mix'};
 function setPreparation(d){d.preparation=preparations[d.id];if(!d.preparation)throw Error('Missing cooking preparation: '+d.id);if(methodCorrections[d.id])d.method=methodCorrections[d.id]}
@@ -542,7 +1000,7 @@ mudskipper:'保留泥灘魚類的觀察與收集用途，本作不作料理材�
 Object.assign(nonCookingFish,{raccoonbutterfly:'觀賞魚，本作不作料理材料。',threadfinbutterfly:'觀賞魚，本作不作料理材料。'});
 Object.assign(nonCookingFish,{fivestripewrasse:'體型小、少作經濟魚，本作不作料理材料。',duckbillsleeper:'體型小、少作食用，本作不作料理材料。',frillfingoby:'體型小、少作食用，本作不作料理材料。',convict:'體型小、少作食用，本作不作料理材料。',jewelcichlid:'以觀賞利用為主，本作不作料理材料。'});
 for(const f of fish){f.cookable=!!f.edible&&!Object.hasOwn(nonCookingFish,f.id);f.cookingNote=nonCookingFish[f.id]||''}
-for(const r of recipes){const t=recipeTiers[r.tier];r.fishes=r.fish==='*'?fish.filter(f=>f.cookable).map(f=>f.id):[].concat(r.fish);r.effect=cookingMethods[r.method].effect;r.amount=t[r.effect];r.casts=t.casts;r.cost=r.tier==='basic'?t.seasoning:Math.max(30,Math.round(Math.max(...r.fishes.map(id=>fish.find(f=>f.id===id).price))*t.seasoning/5)*5);r.desc=`${{speed:'等待時間減少',value:'新漁獲售價增加',size:'新漁獲重量增加'}[r.effect]} ${Math.round(r.amount*100)}%，持續 ${r.casts} 竿。`}
+for(const r of recipes){const t=recipeTiers[r.tier];r.fishes=r.fish==='*'?fish.filter(f=>f.cookable).map(f=>f.id):[].concat(r.fish);assignMealEffect(r);r.cost=r.tier==='basic'?t.seasoning:Math.max(30,Math.round(Math.max(...r.fishes.map(id=>fish.find(f=>f.id===id).price))*t.seasoning/5)*5);r.desc=`${{speed:'等待時間減少',value:'新漁獲售價增加',size:'新漁獲重量增加'}[r.effect]} ${Math.round(r.amount*100)}%，持續 ${r.casts} 竿。`}
 // 0.14 local restaurants: order a dish in the current water for a cooking effect without using a catch.
 // Snacks (basic tier) always raise sale value; other tiers follow the cooking method. Sources: SOURCES.md「0.14 當地餐廳料理」.
 const restaurants={
@@ -606,7 +1064,7 @@ ishikari:{name:'石狩鍋屋',dishes:[
 Object.assign(preparations,{'dine-tokyo_bay-fukagawa':'蛤蜊味噌煮澆飯','dine-ishikari-nabe':'鮭魚與蔬菜味噌鍋','dine-ishikari-soba':'甘露煮鯡魚放在熱蕎麥麵上'});
 const dinePrices={basic:45,home:135,classic:270};
 const dishes=[];
-for(const [region,r] of Object.entries(restaurants))for(const d of r.dishes){d.id=`dine-${region}-${d.slug}`;setPreparation(d);const t=recipeTiers[d.tier];d.region=region;d.effect=d.tier==='basic'?'value':cookingMethods[d.method].effect;d.amount=t[d.effect];d.casts=t.casts;d.price=dinePrices[d.tier];d.desc=`${{speed:'等待時間減少',value:'新漁獲售價增加',size:'新漁獲重量增加'}[d.effect]} ${Math.round(d.amount*100)}%，持續 ${d.casts} 竿。`;dishes.push(d)}
+for(const [region,r] of Object.entries(restaurants))for(const d of r.dishes){d.id=`dine-${region}-${d.slug}`;setPreparation(d);const t=recipeTiers[d.tier];d.region=region;assignMealEffect(d);d.price=dinePrices[d.tier];d.desc=`${{speed:'等待時間減少',value:'新漁獲售價增加',size:'新漁獲重量增加'}[d.effect]} ${Math.round(d.amount*100)}%，持續 ${d.casts} 竿。`;dishes.push(d)}
 
 // 0.19 bait access and non-fish catches; fish-only licences and recipes retain D.fish.
 const baitGroups={"dough":["qili","crucian","carp","grass","silver","bighead","mudcarp","bream","girella","rabbitfish","mullet","tilapia","hypsibarbus","pleco","mezina","sergeant","stripey","niletilapia","scat","chelon","whitecrucian","largescalemullet","greenbackmullet","gizzardshad","sarba","midas","munense","chinesefilefish","commonbream","ayu","dottedshad","roach","tanakia","rosybitterling","comeshad","milkfish","convict","kuhua","yellowfinsurgeon","seagrassparrot"],"worm":["pachyhead","candidia","topmouth","mingtangoby","loach","amurcatfish","giurinus","walkingcatfish","swampeel","gourami","semifasciolatus","blaufelchen","honmoroko","nigorobuna","wakasagi","icefish","channelcat","bluegill","alpinechar","tench","pearleartheeater","redevil","jewelcichlid","siamglassfish","isaza"],"shrimp":["blackporgy","yellowfin","terapon","blackcarp","fourline","puffer","mono","twseabream","mudskipper","fusilier","goatfish","tuskfish","morwong","wrasse","redseabream","emperor","glassfish","neondamsel","lemuru","splendens","porcupine","yellowgoat","oyena","silversprat","silversillago","herring","flounder","fivestripewrasse","flagtail","manybargoatfish","whipfinmojarra","olivegoby","duckbillsleeper","nuchalponyfish","frillfingoby","eelgoby","raccoonbutterfly","blackeyewrasse","slenderpinjalo","threadfinbutterfly","greenfinwrasse","sammara","yellowstripescad","monogrammonocle"],"meat":["culter","snakehead","jaguar","marbledgoby","stripedsnakehead","redfinculter","spottedsnakehead","scorpionfish","russellsnapper","ladyfish","tarpon","eel","mangrovejack","dwarfsnakehead","bluespotgrouper","longfingrouper","squirrelfish","bigeyebream","monocle","coioides","yellowbarracuda","bigeyetrevally","perch","pike","browntrout","zander","garfish","biwamasu","hawkfish","burbot","duskysleeper","tankgoby","marbledeel","neglectascorpion","chocolatehind","bigeyesnapper","hasu","gigi"]};
@@ -649,7 +1107,7 @@ const species=[...fish.filter(f=>!fish21.includes(f)&&!fish22.includes(f)),...an
 for(const a of animals19){a.cookable=true;delete a.cookingNote}
 const friedAnimals=['nipponense','fangsiao','lessoniana','chinensis'];
 const batch2=[
-{id:'deepfry',name:'炸物',prefix:'炸',fish:[...fish.filter(f=>f.cookable&&f.max<=.5).map(f=>f.id),...friedAnimals],materialNote:'0.5 公斤以下的小型魚、日本沼蝦、飯蛸與魷魚類',cuisine:'basic',origin:'各地家常',method:'fry',tier:'basic',about:'小魚、蝦或章魚、魷魚裹上薄粉，下油鍋炸到酥脆，撒鹽趁熱吃。'},
+{id:'deepfry',name:'炸物',prefix:'炸',fish:[...fish.filter(f=>f.cookable&&f.max<=.5).map(f=>f.id),...friedAnimals],materialNote:'小型魚、日本沼蝦、飯蛸與魷魚類',cuisine:'basic',origin:'各地家常',method:'fry',tier:'basic',about:'小魚、蝦或章魚、魷魚裹上薄粉，下油鍋炸到酥脆，撒鹽趁熱吃。'},
 {id:'steamfish',name:'蒸魚',prefix:'蒸',fish:'*',cuisine:'basic',origin:'各地家常',method:'steam',tier:'basic',about:'整尾魚鋪上薑絲、蔥段，放進蒸籠蒸熟，最能吃出魚肉本身的味道。'},
 {id:'grillfish',name:'烤魚',prefix:'烤',fish:'*',cuisine:'basic',origin:'各地家常',method:'fry',tier:'basic',about:'魚身抹鹽，用炭火或烤架把兩面烤到焦香。'},
 {id:'tenaga-karaage',name:'霞浦手長蝦唐揚',orig:'テナガエビの唐揚げ',fish:'nipponense',cuisine:'japan',origin:'日本・茨城',method:'fry',tier:'home',about:'日本沼蝦在日本叫「手長蝦」（テナガエビ），雄蝦有一對比身體還長的螯足。霞浦湖、北浦自古就有捕撈手長蝦的漁業；茨城縣的環境中心介紹湖邊的蝦類時，說手長蝦常做成唐揚，非常好吃。整隻蝦裹粉下鍋油炸，連殼一起吃。'},
@@ -659,7 +1117,7 @@ const batch2=[
 {id:'aori-ichiyaboshi',name:'德島軟絲一夜干',orig:'アオリイカの一夜干し',fish:'lessoniana',cuisine:'japan',origin:'日本・德島',method:'fry',tier:'home',about:'軟絲在日本叫アオリイカ，是德島縣的特產。德島縣水產研究課曾以它開辦料理教室，教生魚片、烏賊飯與一夜干三種做法；一夜干是把剖開的軟絲泡過鹽水，風乾一晚後再烤。'},
 {id:'squid-bihun',name:'小卷米粉',orig:'小卷米粉',fish:'chinensis',cuisine:'taiwan',origin:'臺灣・基隆、澎湖',method:'soup',tier:'home',about:'臺灣把小型的鎖管叫做小卷。基隆是全臺最主要的小卷產地，澎湖的小卷也常被店家拿來當招牌；小卷米粉是把整隻小卷和米粉一起煮成湯，湯頭帶有海味。'}];
 Object.assign(preparations,{deepfry:'裹粉油炸',steamfish:'薑蔥清蒸',grillfish:'抹鹽炭烤','tenaga-karaage':'整隻裹粉油炸','sake-steam-crab':'淋米酒清蒸','ginataang-alimasag':'椰奶燉煮','iidako-nitsuke':'醬汁燉煮','aori-ichiyaboshi':'鹽水浸泡、風乾後烤','squid-bihun':'與米粉同煮成湯'});
-for(const r of batch2){setPreparation(r);const t=recipeTiers[r.tier];r.fishes=r.fish==='*'?fish.filter(f=>f.cookable).map(f=>f.id):[].concat(r.fish);r.effect=cookingMethods[r.method].effect;r.amount=t[r.effect];r.casts=t.casts;r.cost=r.tier==='basic'?t.seasoning:Math.max(30,Math.round(Math.max(...r.fishes.map(id=>species.find(f=>f.id===id).price))*t.seasoning/5)*5);r.desc=`${{speed:'等待時間減少',value:'新漁獲售價增加',size:'新漁獲重量增加'}[r.effect]} ${Math.round(r.amount*100)}%，持續 ${r.casts} 竿。`}
+for(const r of batch2){setPreparation(r);const t=recipeTiers[r.tier];r.fishes=r.fish==='*'?fish.filter(f=>f.cookable).map(f=>f.id):[].concat(r.fish);assignMealEffect(r);r.cost=r.tier==='basic'?t.seasoning:Math.max(30,Math.round(Math.max(...r.fishes.map(id=>species.find(f=>f.id===id).price))*t.seasoning/5)*5);r.desc=`${{speed:'等待時間減少',value:'新漁獲售價增加',size:'新漁獲重量增加'}[r.effect]} ${Math.round(r.amount*100)}%，持續 ${r.casts} 竿。`}
 recipes.splice(1,0,...batch2.slice(0,3));recipes.push(...batch2.slice(3));
 // 0.21 rarity: a catch with any non-basic recipe is a signature catch (dark-blue name) and is kept by the bulk sale.
 const signatureIds=new Set(recipes.filter(r=>r.cuisine!=='basic').flatMap(r=>r.fishes));for(const f of species)f.signature=signatureIds.has(f.id);

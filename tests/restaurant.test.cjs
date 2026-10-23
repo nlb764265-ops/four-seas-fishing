@@ -3,7 +3,7 @@ const root=path.resolve(__dirname,'..'),D=E.D,now=Date.UTC(2026,9,10);
 const fresh=(region='sunmoon')=>{const s=E.initial(0);s.seed=12345;s.money=1000;s.box=4;s.region=region;if(!s.unlocked.includes(region))s.unlocked.push(region);return s};
 const item=id=>({type:'fish',fish:id,kg:E.fish(id).min,baseValue:E.fish(id).price,baseBounty:E.fish(id).bounty,region:D.regions.find(r=>r.pool[id]).id});
 
-test('every water has a restaurant; dish IDs are unique and never clash with recipes',()=>{for(const r of D.regions){const x=D.restaurants[r.id];assert(x&&x.name&&x.dishes.length,r.id)}const ids=D.dishes.map(d=>d.id);assert.equal(new Set(ids).size,ids.length);assert(ids.every(id=>!E.recipe(id)));for(const d of D.dishes){for(const k of ['name','about','method','tier'])assert(d[k],d.id+' '+k);assert.equal(d.price,D.dinePrices[d.tier]);assert.equal(d.amount,D.recipeTiers[d.tier][d.effect]);if(d.tier==='basic')assert.equal(d.effect,'value');else assert.equal(d.effect,D.cookingMethods[d.method].effect)}});
+test('every water has a restaurant; dish IDs are unique and never clash with recipes',()=>{for(const r of D.regions){const x=D.restaurants[r.id];assert(x&&x.name&&x.dishes.length,r.id)}const ids=D.dishes.map(d=>d.id);assert.equal(new Set(ids).size,ids.length);assert(ids.every(id=>!E.recipe(id)));for(const d of D.dishes){for(const k of ['name','about','method','tier'])assert(d[k],d.id+' '+k);assert.equal(d.price,D.dinePrices[d.tier]);assert(['speed','value','size'].includes(d.effect));assert(d.amount>0&&Number.isInteger(d.casts)&&d.casts>0)}});
 
 test('every dish is recorded in SOURCES.md',()=>{const src=fs.readFileSync(path.join(root,'SOURCES.md'),'utf8');for(const d of D.dishes)assert(src.includes(d.name),d.name)});
 
