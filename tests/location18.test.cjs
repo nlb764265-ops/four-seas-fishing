@@ -4,7 +4,7 @@ const els={regionList:{},location:{},travel:{},mapDialog:{close(){}}};
 const scope={E,D:E.D,state:E.initial(0),preview:'keelung',Date,yuan:n=>n.toLocaleString('zh-TW'),document:{querySelectorAll(){return []}},$:id=>els[id],showRegion(){},act(){}};
 vm.createContext(scope);vm.runInContext(src.slice(src.indexOf('function meter('),src.indexOf('function pips(')),scope);vm.runInContext(src.slice(src.indexOf('function renderLocation()'),src.indexOf('function renderStatus(')),scope);
 scope.renderLocation();
-assert.equal((els.regionList.innerHTML.match(/data-preview=/g)||[]).length,14);
+assert.equal((els.regionList.innerHTML.match(/data-preview=/g)||[]).length,16);
 assert(!/目前位置|需許可證|單程|<small>/.test(els.regionList.innerHTML));
 assert.match(els.regionList.innerHTML,/data-preview="sunmoon"[^>]*is-current[^>]*aria-pressed="false"[^>]*aria-current="location"/);
 assert.match(els.regionList.innerHTML,/data-preview="keelung"[^>]*chosen[^>]*aria-pressed="true"/);

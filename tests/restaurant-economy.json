@@ -1,5 +1,5 @@
 {
- "rule": "gain = extra income over the effect duration versus no effect in the restaurant water; net = gain - price; October, comprehensive bait",
+ "rule": "gain = extra income over the effect duration versus no effect in the restaurant water; net = gain - price; October, dough or the first bait of a water without dough-eating fish",
  "early": "rod Lv.1, sales 0",
  "late": "rod Lv.5, sales 10",
  "minNet": 18.2,
@@ -861,6 +861,84 @@
    "price": 45,
    "gain": 142.4,
    "net": 97.4,
+   "incomePct": 5.4
+  },
+  {
+   "dish": "dine-tokyo_bay-fukagawa",
+   "name": "深川飯",
+   "region": "tokyo_bay",
+   "stage": "early",
+   "effect": "value",
+   "amount": 0.1,
+   "casts": 60,
+   "price": 135,
+   "gain": 206.7,
+   "net": 71.7,
+   "incomePct": 11.7
+  },
+  {
+   "dish": "dine-tokyo_bay-fukagawa",
+   "name": "深川飯",
+   "region": "tokyo_bay",
+   "stage": "late",
+   "effect": "value",
+   "amount": 0.1,
+   "casts": 60,
+   "price": 135,
+   "gain": 509.4,
+   "net": 374.4,
+   "incomePct": 10.6
+  },
+  {
+   "dish": "dine-ishikari-nabe",
+   "name": "石狩鍋",
+   "region": "ishikari",
+   "stage": "early",
+   "effect": "speed",
+   "amount": 0.09,
+   "casts": 60,
+   "price": 135,
+   "gain": 200.8,
+   "net": 65.8,
+   "incomePct": 9.9
+  },
+  {
+   "dish": "dine-ishikari-nabe",
+   "name": "石狩鍋",
+   "region": "ishikari",
+   "stage": "late",
+   "effect": "speed",
+   "amount": 0.09,
+   "casts": 60,
+   "price": 135,
+   "gain": 475.9,
+   "net": 340.9,
+   "incomePct": 9.9
+  },
+  {
+   "dish": "dine-ishikari-soba",
+   "name": "鯡魚蕎麥麵",
+   "region": "ishikari",
+   "stage": "early",
+   "effect": "value",
+   "amount": 0.05,
+   "casts": 40,
+   "price": 45,
+   "gain": 89.5,
+   "net": 44.5,
+   "incomePct": 6
+  },
+  {
+   "dish": "dine-ishikari-soba",
+   "name": "鯡魚蕎麥麵",
+   "region": "ishikari",
+   "stage": "late",
+   "effect": "value",
+   "amount": 0.05,
+   "casts": 40,
+   "price": 45,
+   "gain": 191.4,
+   "net": 146.4,
    "incomePct": 5.4
   }
  ]

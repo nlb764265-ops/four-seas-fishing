@@ -1,0 +1,135 @@
+{
+  "tool": "built-in imagegen",
+  "date": "2026-10-23",
+  "styleReferences": [
+    "assets/pixel-atlas-01-clear.png",
+    "assets/animal-nipponense.png",
+    "四海釣遊記0.21/assets/sprites16/fish-europeanseabass.png",
+    "四海釣遊記0.21/assets/sprites16/fish-commonsole.png",
+    "四海釣遊記0.21/assets/sprites16/meal-tenaga-karaage.png"
+  ],
+  "directGenerationReferences": "pixel-atlas-01-clear plus fish-europeanseabass or meal-tenaga-karaage; anatomy corrections use the generated target sprite itself",
+  "assets": [
+    {
+      "id": "fish-japaneseseabass",
+      "source": "C:/Users/nlb76/.codex/generated_images/01a16882-3838-7713-9905-086a5f858136/exec-dab9db89-f62e-47a6-a014-8ea4ffaf0c62.png",
+      "prompt": "ONE Japanese seabass Lateolabrax japonicus sprite; style-only pixel-atlas-01-clear and European seabass reference. Muted natural-history pixel illustration, stepped outlines, limited shading, grey-green back silver-white belly, sparse upper black spots, large mouth and projecting lower jaw, two dorsal sections. Complete left-facing side view, true transparent background, no text, border, scenery or shadow."
+    },
+    {
+      "id": "fish-mahaze",
+      "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16882-3838-7713-9905-086a5f858136\\exec-27e44464-f2fb-4b3f-b27d-fa14222a3bd3.png",
+      "prompt": "Use case: scientific-educational. ONE standalone transparent game sprite. Subject: Acanthogobius flavimanus 黃鰭刺鰕虎. Slender goby, broad flattened head, high-set eyes, pale brown flank with a row of dark blotches, TWO separate dorsal fins. References are STYLE ONLY, never transfer reference species markings or shape. Match muted natural-history pixel illustration, visible pixel stair-step contours, limited layered shading, subdued highlights, crisp fine pixel detail like reference at final 320px width. Full left-facing fish, complete anatomy and all fins within canvas with margin. True transparent background, no text, no border, no environment, no shadow. Not smooth vector, no painterly blur, no photo."
+    },
+    {
+      "id": "fish-shirogisu",
+      "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16882-3838-7713-9905-086a5f858136\\exec-5ecffbb6-7d56-40d0-93ad-63a8067c3ae5.png",
+      "prompt": "Use case: scientific-educational. ONE standalone transparent game sprite. Subject: Sillago japonica 日本沙鮻. Slender pointed snout, grey-green back darker crown, white belly, translucent fins, dark edge on forked tail. References are STYLE ONLY, never transfer reference species markings or shape. Match muted natural-history pixel illustration, visible pixel stair-step contours, limited layered shading, subdued highlights, crisp fine pixel detail like reference at final 320px width. Full left-facing fish, complete anatomy and all fins within canvas with margin. True transparent background, no text, no border, no environment, no shadow. Not smooth vector, no painterly blur, no photo.",
+      "originalSource": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16882-3838-7713-9905-086a5f858136\\exec-4989b957-aff3-43a1-b951-ca8adbdaa45c.png",
+      "correction": "Narrow body, pointed snout, small mouth and eye; grey-green back, white belly, translucent fins and dark tail edging."
+    },
+    {
+      "id": "fish-stoneflounder",
+      "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16882-3838-7713-9905-086a5f858136\\exec-b633bb38-8c7d-4c46-b3f6-0e39f7b36609.png",
+      "prompt": "Use case: scientific-educational. ONE standalone transparent game sprite. Subject: Kareius bicoloratus 石鰈. RIGHT-EYED oval flatfish viewed from ABOVE its eyed side, both eyes on same upper side near left-facing head, grey brown scaleless skin, several rows of prominent stone-like bony plates. Not ordinary side-on fish. References are STYLE ONLY, never transfer reference species markings or shape. Match muted natural-history pixel illustration, visible pixel stair-step contours, limited layered shading, subdued highlights, crisp fine pixel detail like reference at final 320px width. Full left-facing fish, complete anatomy and all fins within canvas with margin. True transparent background, no text, no border, no environment, no shadow. Not smooth vector, no painterly blur, no photo."
+    },
+    {
+      "id": "fish-marbledflounder",
+      "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16882-3838-7713-9905-086a5f858136\\exec-cc829cbd-76e3-4a14-aae6-f93435b3a3b8.png",
+      "prompt": "Use case: scientific-educational. ONE standalone transparent game sprite. Subject: Pseudopleuronectes yokohamae 橫濱擬鰈. RIGHT-EYED short broad oval flatfish, top view of eyed side, both eyes together by left-facing head, small mouth, irregular marbled dark and light brown camouflage. No bony plate rows. References are STYLE ONLY, never transfer reference species markings or shape. Match muted natural-history pixel illustration, visible pixel stair-step contours, limited layered shading, subdued highlights, crisp fine pixel detail like reference at final 320px width. Full left-facing fish, complete anatomy and all fins within canvas with margin. True transparent background, no text, no border, no environment, no cast shadow. Not smooth vector, no painterly blur, no photo."
+    },
+    {
+      "id": "fish-silvercroaker",
+      "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16882-3838-7713-9905-086a5f858136\\exec-5f3785eb-0eaa-45fc-89ac-620a4783f813.png",
+      "prompt": "Use case: scientific-educational. ONE standalone transparent game sprite. Subject: Pennahia argentata 白姑魚. Spindle-shaped silver-white croaker, one clear dark patch on gill cover, long pectoral fin, modestly arched back. References are STYLE ONLY, never transfer reference species markings or shape. Match muted natural-history pixel illustration, visible pixel stair-step contours, limited layered shading, subdued highlights, crisp fine pixel detail like reference at final 320px width. Full left-facing fish, complete anatomy and all fins within canvas with margin. True transparent background, no text, no border, no environment, no cast shadow. Not smooth vector, no painterly blur, no photo."
+    },
+    {
+      "id": "fish-sappa",
+      "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16882-3838-7713-9905-086a5f858136\\exec-470f818b-a385-435f-9972-6b2c4ce46122.png",
+      "prompt": "Use case: scientific-educational. ONE standalone transparent game sprite. Subject: Sardinella zunasi 壽南小沙丁魚. Small deep compressed herring, blue-green back silver flank, sharp belly scutes, NO dark spot at dorsal-fin origin. References are STYLE ONLY, never transfer reference species markings or shape. Match muted natural-history pixel illustration, visible pixel stair-step contours, limited layered shading, subdued highlights, crisp fine pixel detail like reference at final 320px width. Full left-facing fish, complete anatomy and all fins within canvas with margin. True transparent background, no text, no border, no environment, no cast shadow. Not smooth vector, no painterly blur, no photo."
+    },
+    {
+      "id": "fish-pacificherring",
+      "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16882-3838-7713-9905-086a5f858136\\exec-2e1b303e-18b2-4ae5-a402-1e6b01abc658.png",
+      "prompt": "Use case: scientific-educational. ONE standalone transparent game sprite. Subject: Clupea pallasii 太平洋鯡. Streamlined herring, dark blue olive back, silver-white sides, no distinct flank spots, forked tail. References are STYLE ONLY, never transfer reference species markings or shape. Match muted natural-history pixel illustration, visible pixel stair-step contours, limited layered shading, subdued highlights, crisp fine pixel detail like reference at final 320px width. Full left-facing fish, complete anatomy and all fins within canvas with margin. True transparent background, no text, no border, no environment, no cast shadow. Not smooth vector, no painterly blur, no photo."
+    },
+    {
+      "id": "fish-hokke",
+      "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16882-3838-7713-9905-086a5f858136\\exec-4a601a46-ad18-48da-8aaa-3f9114e7afde.png",
+      "prompt": "Use case: scientific-educational. ONE standalone transparent game sprite. Subject: Pleurogrammus azonus 遠東多線魚. Spindle body, long continuous dorsal fin, FIVE subtle lateral lines, yellow brown mottled markings. References are STYLE ONLY, never transfer reference species markings or shape. Match muted natural-history pixel illustration, visible pixel stair-step contours, limited layered shading, subdued highlights, crisp fine pixel detail like reference at final 320px width. Full left-facing fish, complete anatomy and all fins within canvas with margin. True transparent background, no text, no border, no environment, no cast shadow. Not smooth vector, no painterly blur, no photo.",
+      "originalSource": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16882-3838-7713-9905-086a5f858136\\exec-323577e6-e677-40e3-9ee8-95bf56fb7d86.png",
+      "correction": "Replace separated dorsal fins with one long uninterrupted dorsal; keep five lateral lines and muted yellow brown mottling."
+    },
+    {
+      "id": "fish-greenling",
+      "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16882-3838-7713-9905-086a5f858136\\exec-18261bd0-7abb-476d-b3ad-90783bc0ee3a.png",
+      "prompt": "Use case: scientific-educational. ONE standalone transparent game sprite. Subject: Hexagrammos otakii 大瀧六線魚. Elongated yellow brown to reddish brown mottled greenling, shallow notch in middle of dorsal fin, straight to slightly concave tail edge. References are STYLE ONLY, never transfer reference species markings or shape. Match muted natural-history pixel illustration, visible pixel stair-step contours, limited layered shading, subdued highlights, crisp fine pixel detail like reference at final 320px width. Full left-facing fish, complete anatomy and all fins within canvas with margin. True transparent background, no text, no border, no environment, no cast shadow. Not smooth vector, no painterly blur, no photo.",
+      "originalSource": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16882-3838-7713-9905-086a5f858136\\exec-218b6b01-ad97-497a-9952-8f73ac03cd59.png",
+      "correction": "One continuous dorsal with shallow middle notch; tail rear edge near vertical, only slightly concave."
+    },
+    {
+      "id": "fish-yellowstripedflounder",
+      "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16882-3838-7713-9905-086a5f858136\\exec-b723cc90-d122-407e-b99d-ebdd040ba4d6.png",
+      "prompt": "Use case: scientific-educational. ONE standalone transparent game sprite. Subject: Pseudopleuronectes herzensteini 黃條紋擬鰈. RIGHT-EYED oval flatfish viewed from above eyed side, both eyes near left-facing head, brown eyed surface, a little muted yellow visible along dorsal and anal fin margins. References are STYLE ONLY, never transfer reference species markings or shape. Match muted natural-history pixel illustration, visible pixel stair-step contours, limited layered shading, subdued highlights, crisp fine pixel detail like reference at final 320px width. Full left-facing fish, complete anatomy and all fins within canvas with margin. True transparent background, no text, no border, no environment, no cast shadow. Not smooth vector, no painterly blur, no photo."
+    },
+    {
+      "id": "fish-cresthead",
+      "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16882-3838-7713-9905-086a5f858136\\exec-79797da9-bce4-4bf5-be4b-9bbcf7d4fcf9.png",
+      "prompt": "Use case: scientific-educational. ONE standalone transparent game sprite. Subject: Pseudopleuronectes schrenki 斯氏擬鰈. RIGHT-EYED oval flatfish viewed from above eyed side, both eyes near left-facing head, brown body, distinctly DARKER head, restrained mottling. References are STYLE ONLY, never transfer reference species markings or shape. Match muted natural-history pixel illustration, visible pixel stair-step contours, limited layered shading, subdued highlights, crisp fine pixel detail like reference at final 320px width. Full left-facing fish, complete anatomy and all fins within canvas with margin. True transparent background, no text, no border, no environment, no cast shadow. Not smooth vector, no painterly blur, no photo."
+    },
+    {
+      "id": "fish-chubmackerel",
+      "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16882-3838-7713-9905-086a5f858136\\exec-ae76ff5c-d049-47d0-b7b4-672a8e1336ba.png",
+      "prompt": "Use case: scientific-educational. ONE standalone transparent game sprite. Subject: Scomber japonicus 白腹鯖. Spindle-shaped mackerel, blue green back with curved wavy black stripes, SILVER WHITE SPOTLESS belly, TWO separated dorsal fins plus tiny dorsal and anal finlets near slender tail peduncle, deeply forked tail. References are STYLE ONLY, never transfer reference species markings or shape. Match muted natural-history pixel illustration, visible pixel stair-step contours, limited layered shading, subdued highlights, crisp fine pixel detail like reference at final 320px width. Full left-facing fish, complete anatomy and all fins within canvas with margin. True transparent background, no text, no border, no environment, no cast shadow. Not smooth vector, no painterly blur, no photo."
+    },
+    {
+      "id": "fish-blackrockfish",
+      "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16882-3838-7713-9905-086a5f858136\\exec-821b294e-fa9e-4a96-918c-9bd3f6085859.png",
+      "prompt": "Use case: scientific-educational. ONE standalone transparent game sprite. Subject: Sebastes schlegelii 許氏平鮋. Large head and large mouth, grey black rockfish, dark diagonal bands below eye, prominent sharp dorsal spines, rounded fan tail. References are STYLE ONLY, never transfer reference species markings or shape. Match muted natural-history pixel illustration, visible pixel stair-step contours, limited layered shading, subdued highlights, crisp fine pixel detail like reference at final 320px width. Full left-facing fish, complete anatomy and all fins within canvas with margin. True transparent background, no text, no border, no environment, no cast shadow. Not smooth vector, no painterly blur, no photo."
+    },
+    {
+      "id": "fish-ezomebaru",
+      "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16882-3838-7713-9905-086a5f858136\\exec-f679acb9-2ab4-43f1-a7d1-4d30b93487fe.png",
+      "prompt": "Use case: scientific-educational. ONE standalone transparent game sprite. Subject: Sebastes taczanowskii 邊尾平鮋. Small deep compressed rockfish, dark brown mottled body, large eyes, sharp spiny dorsal fin, subtle pale fin margin. References are STYLE ONLY, never transfer reference species markings or shape. Match muted natural-history pixel illustration, visible pixel stair-step contours, limited layered shading, subdued highlights, crisp fine pixel detail like reference at final 320px width. Full left-facing fish, complete anatomy and all fins within canvas with margin. True transparent background, no text, no border, no environment, no cast shadow. Not smooth vector, no painterly blur, no photo."
+    },
+    {
+      "id": "fish-chika",
+      "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16882-3838-7713-9905-086a5f858136\\exec-5fae3b88-e38c-4e10-b801-e2d1ce54bd6f.png",
+      "prompt": "Use case: scientific-educational. ONE standalone transparent game sprite. Subject: Hypomesus japonicus 日本公魚. Slender silver smelt, small eye, single dorsal fin and distinct tiny adipose fin farther back above body, forked translucent tail. References are STYLE ONLY, never transfer reference species markings or shape. Match muted natural-history pixel illustration, visible pixel stair-step contours, limited layered shading, subdued highlights, crisp fine pixel detail like reference at final 320px width. Full left-facing fish, complete anatomy and all fins within canvas with margin. True transparent background, no text, no border, no environment, no cast shadow. Not smooth vector, no painterly blur, no photo."
+    },
+    {
+      "id": "fish-saffroncod",
+      "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16882-3838-7713-9905-086a5f858136\\exec-cb04b14a-2452-4b71-bd01-9ce9586d7b09.png",
+      "prompt": "Use case: scientific-educational. ONE standalone transparent game sprite. Subject: Eleginus gracilis 細身寬突鱈. Slender cod, THREE clearly separate dorsal fins and TWO anal fins, short lower jaw, short chin barbel, grey brown with vague dark patches, white edges on dorsal and tail fins. References are STYLE ONLY, never transfer reference species markings or shape. Match muted natural-history pixel illustration, visible pixel stair-step contours, limited layered shading, subdued highlights, crisp fine pixel detail like reference at final 320px width. Full left-facing fish, complete anatomy and all fins within canvas with margin. True transparent background, no text, no border, no environment, no cast shadow. Not smooth vector, no painterly blur, no photo."
+    },
+    {
+      "id": "fish-surfperch",
+      "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16882-3838-7713-9905-086a5f858136\\exec-832c6306-7df8-4c70-ba45-1cf94da8a1ab.png",
+      "prompt": "Use case: scientific-educational. ONE standalone transparent game sprite. Subject: Ditrema temminckii 海鯽. Deep laterally compressed leaf-shaped surfperch, silver to muted reddish brown, small mouth, continuous spiny to soft dorsal, gently forked tail. References are STYLE ONLY, never transfer reference species markings or shape. Match muted natural-history pixel illustration, visible pixel stair-step contours, limited layered shading, subdued highlights, crisp fine pixel detail like reference at final 320px width. Full left-facing fish, complete anatomy and all fins within canvas with margin. True transparent background, no text, no border, no environment, no cast shadow. Not smooth vector, no painterly blur, no photo."
+    },
+    {
+      "id": "meal-haze-tempura",
+      "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16882-3838-7713-9905-086a5f858136\\exec-294eb5d4-d974-456a-b40f-4d64fef0eb58.png",
+      "prompt": "Use case: scientific-educational. ONE standalone transparent game sprite. Subject: 鰕虎天婦羅 haze tempura. Several small butterflied deboned gobies, delicate thin pale golden battered crust, arranged on folded white tempura paper on a simple ceramic plate. Food viewed three-quarter from above. No shrimp. References are STYLE ONLY, never transfer reference species markings or shape. Match muted natural-history pixel illustration, visible pixel stair-step contours, limited layered shading, subdued highlights, crisp fine pixel detail like reference at final 320px width. Single complete dish, no extra garnish or utensils. True transparent background, no text, no border, no environment, no cast shadow. Not smooth vector, no painterly blur, no photo."
+    },
+    {
+      "id": "meal-nishin-zuke",
+      "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16882-3838-7713-9905-086a5f858136\\exec-7dfc2e7d-342a-42cc-a2ad-4533a842cce2.png",
+      "prompt": "Use case: scientific-educational. ONE standalone transparent game sprite. Subject: 鯡魚漬 nishin zuke. Small ceramic bowl with cut pieces of dried herring, white daikon chunks, pale cabbage, thin orange carrot strips and subtle rice koji grains, lightly pickled mixture. Three-quarter overhead view. References are STYLE ONLY, never transfer reference species markings or shape. Match muted natural-history pixel illustration, visible pixel stair-step contours, limited layered shading, subdued highlights, crisp fine pixel detail like reference at final 320px width. Single complete dish, no extra garnish or utensils. True transparent background, no text, no border, no environment, no cast shadow. Not smooth vector, no painterly blur, no photo."
+    },
+    {
+      "id": "meal-dine-tokyo_bay-fukagawa",
+      "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16882-3838-7713-9905-086a5f858136\\exec-ce681164-f4d7-463d-8657-265e105478b5.png",
+      "prompt": "Use case: scientific-educational. ONE standalone transparent game sprite. Subject: 深川飯 Fukagawa meshi. Simple ceramic rice bowl with white rice topped by miso-stewed small clam meats and sliced green onions. Three-quarter overhead view. References are STYLE ONLY, never transfer reference species markings or shape. Match muted natural-history pixel illustration, visible pixel stair-step contours, limited layered shading, subdued highlights, crisp fine pixel detail like reference at final 320px width. Single complete dish, no extra garnish or utensils. True transparent background, no text, no border, no environment, no cast shadow. Not smooth vector, no painterly blur, no photo."
+    },
+    {
+      "id": "meal-dine-ishikari-nabe",
+      "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16882-3838-7713-9905-086a5f858136\\exec-6aaff97b-d026-417b-a656-2f2491c1abfd.png",
+      "prompt": "Use case: scientific-educational. ONE standalone transparent game sprite. Subject: 石狩鍋 Ishikari nabe. Small rustic earthenware hotpot, kombu beneath salmon chunks, cabbage, white daikon and tofu arranged around central mound of brown miso in broth. Clearly identifiable orange salmon pieces. Three-quarter overhead view. References are STYLE ONLY, never transfer reference species markings or shape. Match muted natural-history pixel illustration, visible pixel stair-step contours, limited layered shading, subdued highlights, crisp fine pixel detail like reference at final 320px width. Single complete dish, no extra garnish or utensils. True transparent background, no text, no border, no environment, no cast shadow. Not smooth vector, no painterly blur, no photo."
+    },
+    {
+      "id": "meal-dine-ishikari-soba",
+      "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16882-3838-7713-9905-086a5f858136\\exec-f551a1f2-353c-4c97-9fc8-1c463f06b027.png",
+      "prompt": "Use case: scientific-educational. ONE standalone transparent game sprite. Subject: 鯡魚蕎麥麵 nishin soba. Ceramic bowl of hot broth and brown-grey buckwheat noodles topped with ONE long glossy dark brown sweet-simmered herring fillet, diagonally cut green onion sections. Three-quarter overhead view. References are STYLE ONLY, never transfer reference species markings or shape. Match muted natural-history pixel illustration, visible pixel stair-step contours, limited layered shading, subdued highlights, crisp fine pixel detail like reference at final 320px width. Single complete dish, no extra garnish or utensils. True transparent background, no text, no border, no environment, no cast shadow. Not smooth vector, no painterly blur, no photo."
+    }
+  ]
+}

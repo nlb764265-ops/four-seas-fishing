@@ -659,3 +659,60 @@ FishBase、臺灣魚類資料庫（人機驗證）與 TBN（403）本次無法�
 | compassjelly／羅盤水母 Chrysaora hysoscella | [SeaLifeBase](https://www.sealifebase.se/summary/Chrysaora-hysoscella.html)：傘徑 20 公分、16 條褐色放射寬帶與深色 V 形細線、每區 3 條觸手；近岸、0～150 公尺、黃昏較多；大西洋與地中海。法語 Méduse rayonnée（又稱 méduse boussole）見 ARS Bretagne；中文名依英、法俗名（compass jellyfish／méduse boussole）意譯，由 Agent 擬定，作者於 2026-10-23 核定採用。 |
 
 台語、客語與粵語名稱：未找到專指上述物種的辭典條目，待查。
+
+## 0.22 第 4 批：東京灣、石狩灣（查閱日期 2026-10-23）
+
+依使用者 2026-10-23「按著還沒做的繼續更新新內容」指示，接續《釣點與魚種擴充更新計劃.md》第 4 批直接實裝，未另出審閱稿；新魚與新菜不配圖，留給另一個 Agent 繪製。魚池權重、重量範圍、售價、許可證等級與料理效果為遊戲設定；調查紀錄不代表現況數量、竿釣比例或現行釣魚規定。
+
+### 水域與魚種選定
+
+- 東京灣：東京都環境局《平成 23 年度東京都內湾の水生生物調査結果について》[PDF](https://www.kankyo.metro.tokyo.lg.jp/documents/d/kankyo/creature-aquatic_creature-files-h23gaiyou)，圖 2「魚類調查出現種リスト」以小型底拖網（成魚）與小型地曳網（稚魚，葛西人工渚、台場海濱公園、城南大橋）共記錄 39 種，本批採用其中的スズキ、マハゼ、シロギス、イシガレイ、マコガレイ、シログチ、サッパ，及共用的クロダイ、ボラ、コノシロ、コトヒキ（花身雞魚）、クサフグ（黑點多紀魨）。マハゼ與ボラ在稚魚調查最多（年間 100 尾以上）；令和 7 年度稚魚調查速報亦記載各地點以マハゼ為優勢。夏季底層缺氧時成魚調查漁獲少，見同一報告。
+- 計劃原列的日本竹筴魚（マアジ）不在上列內灣調查名單，本批改收白姑魚、橫濱擬鰈與壽南小沙丁魚，作者於 2026-10-23 確認定案。
+- 石狩灣：石狩市「石狩の海水魚」[頁面](https://www.city.ishikari.hokkaido.jp/museum/1001801/1004573/1004690.html)列石狩灣沿岸普通可見的 29 種海水魚，本批採用ニシン、ホッケ、アイナメ（別名アブラコ）、マガレイ、クロガシラガレイ、イシガレイ、マサバ、クロソイ、エゾメバル（別名ガヤ）、チカ、コマイ、ウミタナゴ、クサフグ。同頁說明マサバ、ウマヅラハギ、クサフグ等暖水魚由對馬暖流帶入，灣內漁業上岸量以サケ最多、其次ニシン與カレイ類。シラウオ（日本銀魚）雖在名錄中，屬北海道紅皮書稀少種，本批不配置。
+- 水域概況：東京灣灣口寬約 7 公里、面積約 1,380 平方公里為一般地理資料；石狩濱冬季大量アマモ漂著見石狩市[報告 PDF](https://www.city.ishikari.hokkaido.jp/_res/projects/default_project/_page_/001/004/918/1004884_042.pdf)（搜尋摘要）。江戸前ハゼ復活プロジェクト見國土技術政策總合研究所[資料](https://www.ysk.nilim.go.jp/kakubu/engan/kaiyou/kenkyu/mahaze/2015mahaze.pdf)。
+- 地圖：本批未新增水系細節區框，兩灣沿用 1:50m 陸地；釣點標記為灣內示意位置（東京灣 35.62°N 139.83°E、石狩灣 43.25°N 141.25°E），不代表實地垂釣入口。
+
+### 魚種資料（FishBase 物種頁，經 fishbase.se 讀取文字）
+
+- 日本花鱸 [Lateolabrax japonicus](https://www.fishbase.se/summary/Lateolabrax-japonicus.html)：日本至南海；近岸流動水的岩礁；幼魚上溯河川、回海產卵；冬季產卵；幼時吃浮游動物，成魚吃小魚與蝦。最大 102 公分、8.7 公斤（遊戲縮為 3.5 公斤）。出世魚名セイゴ、フッコ、スズキ為日本通行說法。
+- 黃鰭刺鰕虎 [Acanthogobius flavimanus](https://www.fishbase.se/summary/Acanthogobius-flavimanus.html)：俄羅斯遠東、朝鮮半島、黃渤海與東海、北海道至九州；海灣與河口泥沙底，潮間帶至 6.5 公尺，有時溯河；冬至初春產卵於 Y 字形巢。最大 30 公分。
+- 日本沙鮻 [Sillago japonica](https://www.fishbase.se/summary/Sillago-japonica.html)：日本、韓國、中國與臺灣；內灣淺沙地，0～30 公尺；背灰綠、頭頂較深、尾鰭邊緣暗；常被誤認為多鱗沙鮻；食味佳。最大 30 公分。
+- 石鰈 [Kareius bicoloratus](https://www.fishbase.se/summary/Kareius-bicoloratus.html)：沿岸沙泥底，至 150 公尺，可入半淡鹹水。最大 50 公分。背上骨板與分布範圍另據中文維基百科「石鰈」。
+- 橫濱擬鰈 [Pseudopleuronectes yokohamae](https://www.fishbase.se/summary/Pseudopleuronectes-yokohamae.html)：北海道南部至黃渤海與東海北部、韓國；沿岸沙泥底；以多毛類為主食。最大 45 公分、1.9 公斤。模式產地橫濱見中文維基百科「橫濱擬鰈」。
+- 白姑魚 [Pennahia argentata](https://www.fishbase.se/summary/Pennahia-argentata.html)：香港至黃海、東至紀伊半島；沿岸沙泥底，20～140 公尺；吃小魚與無脊椎動物；鮮售或曬乾。最大 40 公分。
+- 壽南小沙丁魚 [Sardinella zunasi](https://www.fishbase.se/summary/Sardinella-zunasi.html)：日本南部沿岸至臺灣一帶；近岸含半封閉海域的砂泥底，沿岸成群；背鰭起點無黑點。最大 18 公分。岡山稱ママカリ為日本通行說法。
+- 太平洋鯡 [Clupea pallasii](https://www.fishbase.se/summary/Clupea-pallasii.html)：北極海與北太平洋；沿岸成群，成魚入淺灣產卵，幼魚第一年夏天在淺灣；成魚吃大型甲殼類與小魚；與大西洋鯡以脊椎骨數區分。最大 46 公分。
+- 遠東多線魚 [Pleurogrammus azonus](https://www.fishbase.se/summary/Pleurogrammus-azonus.html)：沿海州、鄂霍次克海、千島群島至茨城、對馬與黃海；0～240 公尺；幼魚表層成群、成魚底棲；側線 5 條；20 公尺內岩縫產卵、雄魚護卵；鮮、乾或鹽漬，宜煎烤。最大 62 公分、1.8 公斤。
+- 大瀧六線魚 [Hexagrammos otakii](https://www.fishbase.se/summary/Hexagrammos-otakii.html)：日本、朝鮮半島南部至黃海與沿海州；4～155 公尺岩礁，常聚人工魚礁；10～12 月產卵、雄魚護卵；日本有養殖。最大 57 公分、2.4 公斤。
+- 黃條紋擬鰈 [Pseudopleuronectes herzensteini](https://www.fishbase.se/summary/Pseudopleuronectes-herzensteini.html)：日本海沿岸、千島、庫頁島、朝鮮半島東岸、黃渤海；20～40 公尺。最大 50 公分、1.3 公斤。無眼側黃帶與模式產地北海道見中文維基百科「黃條紋擬鰈」。
+- 斯氏擬鰈 [Pseudopleuronectes schrenki](https://www.fishbase.se/summary/Pseudopleuronectes-schrenki.html)：鄂霍次克海南部、千島至朝鮮半島東岸與本州北部。最大 50 公分、2.5 公斤。日本名クロガシラ意為「黑頭」。
+- 白腹鯖 [Scomber japonicus](https://www.fishbase.se/summary/Scomber-japonicus.html)：印度—太平洋反熱帶分布；沿岸中上層，依體型成群，白天近底、夜間上浮覓食橈足類、魚與魷魚；背部波狀紋，太平洋族群腹部無斑。最大 64 公分、2.9 公斤。
+- 許氏平鮋 [Sebastes schlegelii](https://www.fishbase.se/summary/Sebastes-schlegelii.html)：日本、朝鮮半島與中國；近岸岩底 3～100 公尺；幼魚伴隨漂流海藻；卵胎生；日本有養殖。最大 65 公分、3.1 公斤。
+- 邊尾平鮋 [Sebastes taczanowskii](https://www.fishbase.se/summary/Sebastes-taczanowskii.html)：岩手縣與北海道至沿海州，韓國有紀錄；近岸，可入河口半淡鹹水；幼魚伴隨漂流海藻；胎生。最大 32 公分。
+- 日本公魚 [Hypomesus japonicus](https://www.fishbase.se/summary/Hypomesus-japonicus.html)：朝鮮半島與日本北部至千島與彼得大帝灣；沿海、溯河；五月在沙灘產卵。最大 25 公分、158 公克。
+- 細身寬突鱈 [Eleginus gracilis](https://www.fishbase.se/summary/Eleginus-gracilis.html)：北極海至北太平洋，西南至黃海一側、東南至錫特卡；淺海沿岸，入河但多在感潮範圍；冬季靠岸產卵、夏季往外覓食；三背鰭、二臀鰭、下頜較短、頦鬚短。最大 55 公分、1.3 公斤。
+- 海鯽 [Ditrema temminckii](https://www.fishbase.se/summary/Ditrema-temminckii.html)：日本、韓國與黃海；沙底與岩礁、馬尾藻叢；胎生，5～6 月產仔約 13 尾。最大 24 公分、144 公克。
+
+中文名：日本花鱸（別名日本真鱸、七星鱸）、黃鰭刺鰕虎、石鰈、橫濱擬鰈、黃條紋擬鰈、斯氏擬鰈、白腹鯖（別名日本鯖）、許氏平鮋、邊尾平鮋、日本公魚、細身寬突鱈（別名遠東寬突鱈）、太平洋鯡、遠東多線魚（別名花魚）、大瀧六線魚、壽南小沙丁魚（別名青鱗魚）依中文維基百科條目（以學名查詢 zh.wikipedia API 取得臺灣正體標題，2026-10-23）。白姑魚：維基條目名「銀彭納石首魚」，本作採其「又稱白姑魚」為正名、學術名列別名。日本沙鮻：維基條目名「少鱗鱚」，本作沿用計劃與臺灣常用的「日本沙鮻」，少鱗鱚、青沙鮻列別名。海鯽：中文維基無條目，採中國大陸文獻常用名，**待補證**。マハゼ的日文漢字寫作「真鯊」，中文「鯊」指鯊魚，容易誤會，不列為別名。注音補鱚（ㄒㄧˇ）、鯖（ㄑㄧㄥ）、鮋（ㄧㄡˊ）、鮶（ㄐㄩㄣ），依教育部《重編國語辭典修訂本》。
+
+### 日語名稱
+
+各魚日語名依上列東京都調查名單與石狩市名錄的片假名名稱：スズキ、マハゼ、シロギス、イシガレイ、マコガレイ、シログチ、サッパ、クロダイ、ボラ、コノシロ、コトヒキ、クサフグ、ニシン、ホッケ、アイナメ、アブラコ、マガレイ、クロガシラガレイ、マサバ、クロソイ、エゾメバル、ガヤ、チカ、コマイ、ウミタナゴ。スズキ的セイゴ、フッコ與シログチ的イシモチ為日本通行別名；ママカリ見上列壽南小沙丁魚說明。
+
+### 水草
+
+- 大葉藻：千葉縣水產研究資料（[PDF](https://www.pref.chiba.lg.jp/ninaite/shikenkenkyuu/documents/54_1.pdf)，搜尋摘要）記載アマモ自木更津沿岸至館山沿岸廣布、富津干潟アマモ場面積短期變動；石狩濱冬季アマモ漂著見上列石狩市報告。東京灣奧的石蓴類增生未找到可引用紀錄，暫不配置。
+- 川蔓藻（東京灣）：GBIF Ruppia maritima [taxon 2864004](https://www.gbif.org/species/2864004) 在 35.4～35.7°N、139.7～140.1°E 範圍內共 7 筆，主要為國立科學博物館（TNS）2005～2007 年採自 35.7°N 139.9°E（千葉縣行德、船橋一帶）的標本。
+- 石花菜（石狩灣）：GBIF Gelidium elegans [taxon 2662699](https://www.gbif.org/species/2662699) 在石狩灣範圍有 3 筆歷史標本：厚田（1896）、張碓（1955）與塩谷（1928）；為歷史紀錄，不代表現況。
+
+### 料理與餐廳
+
+- 鰕虎天婦羅（ハゼの天ぷら）：BE-PAL〈ハゼ釣りの時期は…〉[文章](https://www.bepal.net/archives/490253)：マハゼ食味佳、天婦羅是江戶前料理的定番、東京灣常見、江戶時代起受喜愛、釣期 5～12 月。
+- 鯡魚漬（ニシン漬け）：農林水產省「うちの郷土料理」[ニシン漬け 北海道](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nishinzuke_hokkaido.html)：入冬前曬成的身欠鯡與白蘿蔔、高麗菜、紅蘿蔔、薑、紅辣椒、米麴與約 3% 的鹽醃漬，身欠鯡先泡洗米水；冬季蔬菜水分結凍而爽脆；留萌地方以身欠鯡加工聞名；江戶末至明治鯡漁鼎盛，最多近百萬公噸。
+- 石狩鍋：農林水產省「うちの郷土料理」[石狩鍋 北海道](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ishikarinabe_hokkaido.html)：石狩川口漁民慶祝豐收的味噌鍋；昭和 20 年代以招待觀看鮭魚地曳網的遊客而全國知名；鮭魚、高麗菜、白蘿蔔與味噌為主；昆布鋪底、味噌置中、起鍋撒山椒；2007 年石狩市推動復興，9 月 15 日為石狩鍋紀念日。
+- 鯡魚蕎麥麵（ニシン蕎麦）：農林水產省「うちの郷土料理」[ニシン蕎麦 北海道](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nishinsoba_hokkaido.html)：身欠鯡以醬油、糖、酒、薑煮成甘露煮放在蕎麥麵上；北海道用濃口醬油、湯微甜；據說源自江差網元橫山家。
+- 深川飯（深川めし）：近畿日本ツーリスト「江戸前グルメ」[頁面](https://www.knt.co.jp/meito/sp/edo_mae/)（搜尋摘要）：深川（今江東區）漁師的伙食，蛤蜊與蔥以味噌煮後澆在飯上；另有蛤蜊與米同炊的炊込み式。農林水產省同系列頁面本次回應 403，待補讀。
+
+### 經濟
+
+兩灣都是 3 級許可證（3,000 元，需圖鑑 50 種魚），與琵琶湖、霞浦湖、吐露港同級。基礎售價（×3 前）11～18 元，參照斑鰶、黑點多紀魨、大西洋鯡、歐洲川鰈、多鱗沙鮻等相近魚種。各水域最佳魚餌的平均每竿收益（1 月與 7 月，Lv.1／Lv.3／Lv.5 釣竿）：東京灣 35.0～40.4 元、石狩灣 37.2～40.3 元；同級的琵琶湖 35.2～42.5、霞浦湖 37.9～41.1、吐露港 35.7～40.6 元。石狩灣沒有吃麵團的魚，麵團不能在當地使用。蚯蚓說明改為「適合部分淡水魚、淡水蝦，以及吃沙蠶的海灣底棲魚」。

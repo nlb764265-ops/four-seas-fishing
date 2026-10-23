@@ -269,6 +269,15 @@ footer{font-size:12px}
 #atlasDetail .fish-meta .fish-latin{display:block;font-size:13px}
 #atlasDetail .fish-meta .fish-reading{font-size:15px;line-height:1.3}
 #atlasDetail .fish-meta .local-names{font-size:14px;gap:2px 8px}
+
+/* 0.22: keep long species names readable beside the new sprites. */
+.atlas-chip:has(.pixel-art)>span:not(.pixel-art){overflow-wrap:anywhere;word-break:normal}
+@media(max-width:650px){
+ .atlas-chip:has(.pixel-art){grid-template-columns:minmax(0,1fr);row-gap:2px}
+ .atlas-chip:has(.pixel-art)>.pixel-art{grid-column:1;grid-row:1;justify-self:center}
+ .atlas-chip:has(.pixel-art)>span:not(.pixel-art){grid-column:1;grid-row:2}
+ .atlas-chip:has(.pixel-art)>small{grid-column:1;grid-row:3}
+}
 #atlasDetail .detail-stats{margin:8px 0}
 #atlasDetail .detail-stats>div{padding-top:8px;padding-bottom:8px}
 #atlasDetail .fish-description{display:grid;grid-template-columns:76px minmax(0,1fr);gap:8px 10px;margin:10px 0}

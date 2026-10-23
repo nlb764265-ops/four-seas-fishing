@@ -1,0 +1,312 @@
+{
+  "date": "2026-10-23",
+  "assets": [
+    {
+      "id": "fish-japaneseseabass",
+      "file": "assets/sprites16/fish-japaneseseabass.png",
+      "width": 320,
+      "height": 186,
+      "sha256": "5dda079202227e96d83a28d1c9b6facb3d38e77086993280028640bd01aabb02"
+    },
+    {
+      "id": "fish-mahaze",
+      "file": "assets/sprites16/fish-mahaze.png",
+      "width": 320,
+      "height": 130,
+      "sha256": "6d8892503b0ec68068698803b4934e96de7abd9584efb1c9e86462aedbe71023"
+    },
+    {
+      "id": "fish-shirogisu",
+      "file": "assets/sprites16/fish-shirogisu.png",
+      "width": 320,
+      "height": 159,
+      "sha256": "64bcdecad4a24b202af47b16bad52f3bd8472498bad78a6e703e2a90b489c965"
+    },
+    {
+      "id": "fish-stoneflounder",
+      "file": "assets/sprites16/fish-stoneflounder.png",
+      "width": 320,
+      "height": 173,
+      "sha256": "2c8572bdd27fa9eaeb0a2bdc16db92656e0fa15dfb68a2f9c2f5212fada236a4"
+    },
+    {
+      "id": "fish-marbledflounder",
+      "file": "assets/sprites16/fish-marbledflounder.png",
+      "width": 320,
+      "height": 164,
+      "sha256": "041bd30ece5825777633dfe22aa88f4ff535a92c03b2b7e571a03426a09f9862"
+    },
+    {
+      "id": "fish-silvercroaker",
+      "file": "assets/sprites16/fish-silvercroaker.png",
+      "width": 320,
+      "height": 162,
+      "sha256": "1f0ed04dc60f2adfbaa3d92a4a7eeed3b210cf030dd78f2bd568f546d63e7081"
+    },
+    {
+      "id": "fish-sappa",
+      "file": "assets/sprites16/fish-sappa.png",
+      "width": 320,
+      "height": 164,
+      "sha256": "5fb5a6039c5118cff93175bd42d25bc235d428db4606a3a961648cb3314ad667"
+    },
+    {
+      "id": "fish-pacificherring",
+      "file": "assets/sprites16/fish-pacificherring.png",
+      "width": 320,
+      "height": 149,
+      "sha256": "ccba514d77c375997fd834c76f23cdef18f9393d62ad204d5f4c8eed4d7449a6"
+    },
+    {
+      "id": "fish-hokke",
+      "file": "assets/sprites16/fish-hokke.png",
+      "width": 320,
+      "height": 166,
+      "sha256": "078ae9a3c91479dafed9e71d1e3af70fbc0cc75ca263c34f9b15db6038c70944"
+    },
+    {
+      "id": "fish-greenling",
+      "file": "assets/sprites16/fish-greenling.png",
+      "width": 320,
+      "height": 141,
+      "sha256": "612d24bdcaa63d8c649e32c3ffe0c213d4e5779a2d67f4e015dad0792f8e2ee6"
+    },
+    {
+      "id": "fish-yellowstripedflounder",
+      "file": "assets/sprites16/fish-yellowstripedflounder.png",
+      "width": 320,
+      "height": 203,
+      "sha256": "bd7002a695a44986524fd11f6e99ad4825eb35f12363f4baaacc58c3f097565e"
+    },
+    {
+      "id": "fish-cresthead",
+      "file": "assets/sprites16/fish-cresthead.png",
+      "width": 320,
+      "height": 164,
+      "sha256": "65c5510c9fb4be4fa017d1a9861bfed4ff92039e52b56d92ae82ebc9f9557a39"
+    },
+    {
+      "id": "fish-chubmackerel",
+      "file": "assets/sprites16/fish-chubmackerel.png",
+      "width": 320,
+      "height": 167,
+      "sha256": "17280045e3d708122015f7c0856bcfde9835d357aa1436089cf7e4ed267f9b85"
+    },
+    {
+      "id": "fish-blackrockfish",
+      "file": "assets/sprites16/fish-blackrockfish.png",
+      "width": 320,
+      "height": 164,
+      "sha256": "9e40e04266ee8dd64d61c06ab7dc84c55ba67d3e330fea9e86da049620184ef3"
+    },
+    {
+      "id": "fish-ezomebaru",
+      "file": "assets/sprites16/fish-ezomebaru.png",
+      "width": 320,
+      "height": 164,
+      "sha256": "f2060edf763469c5415b57cc3cf545b0e0d33b59c1b6774e18d9cff34d917d32"
+    },
+    {
+      "id": "fish-chika",
+      "file": "assets/sprites16/fish-chika.png",
+      "width": 320,
+      "height": 141,
+      "sha256": "200361d620e59130d4524fadaccf47df4eb494c35e483ae8238da4ee430e84d6"
+    },
+    {
+      "id": "fish-saffroncod",
+      "file": "assets/sprites16/fish-saffroncod.png",
+      "width": 320,
+      "height": 168,
+      "sha256": "1517fd6494499c184da91275f8c25037ee0af0af4150ed3954611ed845a3acfa"
+    },
+    {
+      "id": "fish-surfperch",
+      "file": "assets/sprites16/fish-surfperch.png",
+      "width": 320,
+      "height": 207,
+      "sha256": "66395eac7a75976fe0a374d66c2276e0b9683a5c66ffdbb1492e2af66bf629ef"
+    },
+    {
+      "id": "meal-haze-tempura",
+      "file": "assets/sprites16/meal-haze-tempura.png",
+      "width": 320,
+      "height": 216,
+      "sha256": "98e5c9433e0575f1715e7da52970825bc4d1e93b8699a100ef498b36a8cab78b"
+    },
+    {
+      "id": "meal-nishin-zuke",
+      "file": "assets/sprites16/meal-nishin-zuke.png",
+      "width": 320,
+      "height": 265,
+      "sha256": "0cce81d24820a25fc10f5ca953765c671a8a82c613ca044ec96acf29b778e480"
+    },
+    {
+      "id": "meal-dine-tokyo_bay-fukagawa",
+      "file": "assets/sprites16/meal-dine-tokyo_bay-fukagawa.png",
+      "width": 320,
+      "height": 263,
+      "sha256": "034b887afceff71fc452e56363fe07dab8f2425c675c958aef3a088d80088d20"
+    },
+    {
+      "id": "meal-dine-ishikari-nabe",
+      "file": "assets/sprites16/meal-dine-ishikari-nabe.png",
+      "width": 320,
+      "height": 248,
+      "sha256": "598c0228f3179805d4353e2bb3a3796009973e7e3c6dac697418e15b4984090c"
+    },
+    {
+      "id": "meal-dine-ishikari-soba",
+      "file": "assets/sprites16/meal-dine-ishikari-soba.png",
+      "width": 320,
+      "height": 247,
+      "sha256": "f495539332ef49dd061809c7bc2a3253d7b9d18c94b925b2e796568ebbb679a4"
+    }
+  ],
+  "suites": 20,
+  "passed": 20,
+  "browser": {
+    "time": "2026-10-23T11:50:17.593Z",
+    "url": "file:///C:/Users/nlb76/Downloads/%E5%9B%9B%E6%B5%B7%E9%87%A3%E9%81%8A%E8%A8%98/%E5%9B%9B%E6%B5%B7%E9%87%A3%E9%81%8A%E8%A8%980.22/index.html",
+    "coverage": [
+      {
+        "id": "japaneseseabass",
+        "width": 320,
+        "height": 186
+      },
+      {
+        "id": "mahaze",
+        "width": 320,
+        "height": 130
+      },
+      {
+        "id": "shirogisu",
+        "width": 320,
+        "height": 159
+      },
+      {
+        "id": "stoneflounder",
+        "width": 320,
+        "height": 173
+      },
+      {
+        "id": "marbledflounder",
+        "width": 320,
+        "height": 164
+      },
+      {
+        "id": "silvercroaker",
+        "width": 320,
+        "height": 162
+      },
+      {
+        "id": "sappa",
+        "width": 320,
+        "height": 164
+      },
+      {
+        "id": "pacificherring",
+        "width": 320,
+        "height": 149
+      },
+      {
+        "id": "hokke",
+        "width": 320,
+        "height": 166
+      },
+      {
+        "id": "greenling",
+        "width": 320,
+        "height": 141
+      },
+      {
+        "id": "yellowstripedflounder",
+        "width": 320,
+        "height": 203
+      },
+      {
+        "id": "cresthead",
+        "width": 320,
+        "height": 164
+      },
+      {
+        "id": "chubmackerel",
+        "width": 320,
+        "height": 167
+      },
+      {
+        "id": "blackrockfish",
+        "width": 320,
+        "height": 164
+      },
+      {
+        "id": "ezomebaru",
+        "width": 320,
+        "height": 164
+      },
+      {
+        "id": "chika",
+        "width": 320,
+        "height": 141
+      },
+      {
+        "id": "saffroncod",
+        "width": 320,
+        "height": 168
+      },
+      {
+        "id": "surfperch",
+        "width": 320,
+        "height": 207
+      },
+      {
+        "id": "haze-tempura",
+        "width": 320,
+        "height": 216
+      },
+      {
+        "id": "nishin-zuke",
+        "width": 320,
+        "height": 265
+      },
+      {
+        "id": "dine-tokyo_bay-fukagawa",
+        "width": 320,
+        "height": 263
+      },
+      {
+        "id": "dine-ishikari-nabe",
+        "width": 320,
+        "height": 248
+      },
+      {
+        "id": "dine-ishikari-soba",
+        "width": 320,
+        "height": 247
+      }
+    ],
+    "hidden": 0,
+    "sizes": [
+      {
+        "width": 1280,
+        "scroll": 1280,
+        "withoutArt": 1280,
+        "detail": 509.3125
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "withoutArt": 390,
+        "detail": 374
+      },
+      {
+        "width": 320,
+        "scroll": 320,
+        "withoutArt": 320,
+        "detail": 304
+      }
+    ],
+    "errors": []
+  },
+  "scope": "Local only; no public deployment"
+}
