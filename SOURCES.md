@@ -1,4 +1,4 @@
-# 四海釣遊記 0.15：資料來源
+# 四海釣遊記 0.23：資料來源
 
 查閱日期：2026-10-21。魚類文字為依資料重寫的簡介，沒有使用來源照片或大段原文。魚類資料不等於遊戲機率、價格與現實賞金政策。
 
@@ -716,3 +716,80 @@ FishBase、臺灣魚類資料庫（人機驗證）與 TBN（403）本次無法�
 ### 經濟
 
 兩灣都是 3 級許可證（3,000 元，需圖鑑 50 種魚），與琵琶湖、霞浦湖、吐露港同級。基礎售價（×3 前）11～18 元，參照斑鰶、黑點多紀魨、大西洋鯡、歐洲川鰈、多鱗沙鮻等相近魚種。各水域最佳魚餌的平均每竿收益（1 月與 7 月，Lv.1／Lv.3／Lv.5 釣竿）：東京灣 35.0～40.4 元、石狩灣 37.2～40.3 元；同級的琵琶湖 35.2～42.5、霞浦湖 37.9～41.1、吐露港 35.7～40.6 元。石狩灣沒有吃麵團的魚，麵團不能在當地使用。蚯蚓說明改為「適合部分淡水魚、淡水蝦，以及吃沙蠶的海灣底棲魚」。
+
+
+## 0.23 濟州沿岸、韓語名稱與料理
+
+
+
+以下均於 2026-10-23 查閱。資料只支持名稱、形態、分布與做法，不能用來宣稱現行豐度、實際釣獲率或垂釣許可。採集與調查年份依原文記載，不能用搜尋引擎的近期收錄日期代替。
+
+| 編號 | 來源 | 本稿採用範圍 |
+| --- | --- | --- |
+| F1 | Kwun 等（2017），[Checklist of the tidal pool fishes of Jeju Island, Korea](https://pmc.ncbi.nlm.nih.gov/articles/PMC5674173/)，DOI 10.3897/zookeys.709.14711 | 濟州 4 處潮池的調查；瓜子鱲、小鱗瓜子鱲、條石鯛、尾斑光鰓雀鯛、絲背冠鱗單棘魨、褐臭肚魚、柴魚、花身雞魚的當地紀錄。原文 Chromis notatus 與現行 Chromis notata 對照處理。 |
+| F2 | 濟州大學，Koh（2002），[近岸水下鮑魚養殖籠周邊魚類觀察](https://oak.jejunu.ac.kr/bitstream/2020.oak/18147/2/%EC%A0%9C%EC%A3%BC%20%EC%97%B0%EC%95%88%20%ED%95%B4%EC%A4%91%20%EC%A0%84%EB%B3%B5%20%EA%B0%80%EB%91%90%EB%A6%AC%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%A3%BC%EB%B3%80%EC%97%90%20%EC%B6%9C%ED%98%84%ED%95%98%EB%8A%94%20%EC%96%B4%EB%A5%98%EC%9D%98%20%EC%A2%85%EC%A1%B0%EC%84%B1%20%EB%B0%8F%20%ED%96%89%EB%8F%99%ED%8A%B9%EC%84%B1.pdf) | 2000～2001 年的近岸觀察名錄含嘉鱲、斑石鯛、白腹鯖；屬觀察到的魚，不視為普通岸釣魚池的直接比例。全文可讀，書目、名錄及表6已查核。 |
+| F3 | Lee 等（2012），[Feeding Habits of Sebastiscus marmoratus in the Coastal Waters of Jeju Island](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001714503)，DOI 10.3796/KSFT.2012.48.4.379 | 摘要載 2008～2009 年濟州近岸 254 尾石狗公的研究，支持分布、韓語 쏨뱅이 及魚蝦類食性。 |
+| F4 | 韓國國立海洋生物資源館 MBRIS：[瓜子鱲](https://www.mbris.kr/pub/marine/tsearch/tsearchDetail.do?spcTxnId=270000007132)、[小鱗瓜子鱲](https://www.mbris.kr/pub/marine/tsearch/tsearchDetail.do?spcTxnId=270000007130)、[條石鯛](https://www.mbris.kr/pub/marine/tsearch/tsearchDetail.do?spcTxnId=270000012286)、[斑石鯛](https://www.mbris.kr/pub/marine/tsearch/tsearchDetail.do?spcTxnId=270000012287) | 韓語名與學名對應、形態及分布。條石鯛頁完整開啟曾逾時，採已可讀取的索引內容；其形態另用 F7 支持。 |
+| F5 | MBRIS：[尾斑光鰓雀鯛](https://www.mbris.kr/pub/marine/tsearch/tsearchDetail.do?spcTxnId=270000003808)、[絲背冠鱗單棘魨](https://www.mbris.kr/pub/marine/tsearch/tsearchDetail.do?spcTxnId=270000017064)、[褐臭肚魚](https://www.mbris.kr/pub/marine/tsearch/tsearchDetail.do?spcTxnId=270000016477)、[柴魚](https://www.mbris.kr/pub/marine/tsearch/tsearchDetail.do?spcTxnId=270000010772) | 韓語名、形態與生態；尾斑光鰓雀鯛的濟州分布及浮游動物食性。 |
+| F6 | MBRIS：[花身雞魚](https://www.mbris.kr/pub/marine/tsearch/tsearchDetail.do?spcTxnId=270000017681)、[白腹鯖](https://www.mbris.kr/pub/marine/tsearch/tsearchDetail.do?spcTxnId=270000016166)、[嘉鱲](https://www.mbris.kr/pub/marine/tsearch/tsearchDetail.do?spcTxnId=270000012524) | 既有魚種韓語名；花身雞魚頁另有西歸浦標本，白腹鯖頁載濟州相關洄游。 |
+| F7 | 臺灣魚類資料庫：[小鱗瓜子鱲](https://fishdb.sinica.edu.tw/taxon/381910-fishdb/specimen)、[條石鯛](https://fishdb.sinica.edu.tw/eng/species.php?science=Oplegnathus+fasciatus)、[斑石鯛](https://fishdb.sinica.edu.tw/chi/species.php?gen=Oplegnathus&spe=punctatus)、[尾斑光鰓雀鯛](https://fishdb.sinica.edu.tw/chi/species.php?gen=Chromis&spe=notata)、[絲背冠鱗單棘魨](https://fishdb.sinica.edu.tw/chi/species.php?gen=Stephanolepis&spe=cirrhifer) | 中文名、別名、形態、生態與食用分類。小鱗瓜子鱲曾用名黑瓜子鱲，本案採現行資料庫名；絲背冠鱗單棘魨使用資料庫完整名稱，避免「剝皮魚」混指多種。 |
+| F8 | 海洋保育署，[2025 友善釣魚手冊](https://www.oca.gov.tw/filedownload?file=sustainable%2F202601161714040.pdf&filedisplay=2025%E5%8F%8B%E5%96%84%E9%87%A3%E9%AD%9A%E6%89%8B%E5%86%8A.pdf&flag=doc) | 索引可讀黑毛段落支持小鱗瓜子鱲中文名、海藻與小型無脊椎動物食性。未把臺灣季節說明套用成濟州遊戲條件。 |
+| F9 | 臺灣魚類資料庫：[日本竹筴魚](https://fishdb.sinica.edu.tw/taxon/381555-fishdb)、[牙鮃](https://fishdb.sinica.edu.tw/chi/species.php?id=382745)、[牙鮃圖鑑](https://fishdb.sinica.edu.tw/e_books/fishshell2011pic_m.php?id=447)、[短角單棘魨](https://fishdb.sinica.edu.tw/taxon/383002-fishdb)、[日本的鯛](https://fishdb.sinica.edu.tw/chi/species.php?gen=Zeus&spe=faber)、[日本鯷](https://fishdb.sinica.edu.tw/taxon/380976-fishdb) | 本次追加魚種的中文名、形態、生態與食用分類。牙鮃眼位依臺灣魚類資料庫左側描述；MBRIS 對應頁形態欄有右側等疑似誤植，僅採其韓語學名對應，不沿用該段形態。 |
+| F10 | 韓國國立水產科學院：[日本竹筴魚 전갱이](https://www.nifs.go.kr/contents/actionContentsCons0088.do)、[牙鮃 넙치](https://www.nifs.go.kr/portal/bt/frctA/actionSpeciesSearchView.do?taxonId=11229)、[日本下鱵魚 학공치](https://www.nifs.go.kr/portal/bt/frctA/actionSpeciesSearchView.do?taxonId=10565)；MBRIS：[短角單棘魨 말쥐치](https://www.mbris.kr/pub/marine/tsearch/tsearchDetail.do?spcTxnId=270000017947)、[日本的鯛 달고기](https://www.mbris.kr/pub/marine/tsearch/tsearchDetail.do?spcTxnId=270000019107)、[日本鯷 멸치](https://www.mbris.kr/pub/marine/tsearch/tsearchDetail.do?spcTxnId=270000006029) | 6 種追加新魚的韓語名。日本鯷頁亦說明濟州名 멜 與食用用途；短角單棘魨頁附濟州捕獲研究。其濟州出現依 F1、F2：日本鯷與日本下鱵魚見 F1，其餘4種見 F2 名錄。 |
+| F11 | [中研院日本下鱵魚標本](https://catalog.digitalarchives.tw/item/00/00/5d/bb.html)、[京都府海洋中心：サヨリ](https://www.pref.kyoto.jp/kaiyo2/sayori.html)、[神戶市立平磯海釣公園魚種說明](https://kobeumiduri.jp/fishpoint/) | 日本下鱵魚中文名及下頜形態、浮游動物與海藻食性；食用分類參照海釣公園サヨリ段落。學名與韓語以 F10 為準，不以通用俗名跨種套用。 |
+| F12 | MBRIS：[日本銀帶鯡](https://www.mbris.kr/pub/marine/tsearch/tsearchDetail.do?spcTxnId=270000016919)、[烏魚](https://www.mbris.kr/pub/marine/tsearch/tsearchDetail.do?spcTxnId=270000028620)、[大瀧六線魚](https://www.mbris.kr/pub/marine/tsearch/tsearchDetail.do?spcTxnId=270000008285)、[南方擬金眼鯛](https://www.mbris.kr/pub/marine/tsearch/tsearchDetail.do?spcTxnId=270000013157)；[韓國國立生物資源館脊椎動物名錄](https://www.nibr.go.kr/aiibook/catImage/25/Vertebrates.pdf)、[慶尚北道深鰕虎資料](https://www.gb.go.kr/Main/marinefishery/page.do?BD_CODE=mok_15&B_LEVEL=0&B_NUM=36439400&B_STEP=36439399&Start=20&V_NUM=21&bdName=&cmd=2&dept_code=&dept_name=&key=4&mnu_uid=15947&p1=0&p2=0&word=) | 本次6種共用魚韓語名。奧奈鑽嘴魚 게레치 依國立名錄之 Gerres oyena；深鰕虎 무늬망둑 依政府物種頁，其他四種見 MBRIS。濟州出現均見 F1；種名 Chelon macrolepis 等異名按學名去重，不建立重複魚種。 |
+| W1 | Kang 等（2011），[Macroalgal species composition and seasonal variation in biomass on Udo, Jeju Island, Korea](https://oak.go.kr/central/journallist/journaldetail.do?article_seq=11258)，DOI 10.4490/algae.2011.26.4.333 | 牛島羊栖菜與石花菜紀錄、岩質基底；只採物種出現，不轉換為 60／40 的現實比例。 |
+| W2 | 濟州大學，[羊栖菜研究資料](https://esac.jejunu.ac.kr/data/6c8140ea-f9f7-4d86-bdf0-123b6b2f9f97)；韓國國立水產科學院，[Sargassum fusiforme（톳）](https://www.nifs.go.kr/portal/bt/frctA/actionSpeciesSearchView.do?taxonId=11684) | 2022-09-26 濟州市調查資料及韓語名對應。 |
+| C1 | 濟州特別自治道農業技術院（2016），[제주전통향토음식－제주의 농촌밥상을 엿보다](https://agri.jeju.go.kr/agri/infocenter/technology.htm?act=view&page=17&seq=41907) | 官方目錄明列 톨무침（톳무침）、자리물회（자리돔물회）、고등어구이 及 빙떡，支持濟州地方菜歸屬。附件約129MB，網頁工具無法全文載入，未宣稱已讀完整書。 |
+| C2 | 濟州官方食譜，[사라져가는 제주의 전통음식 레시피 PDF，第63頁 톳무침](https://agri.jeju.go.kr/files/board/6de12949-7f89-4bd8-bcd2-10d3188aba6c.pdf) | 索引可讀該頁的羊栖菜、洋蔥、豆醬、辣椒醬、蒜、芝麻、梅汁及醋與做法。全文約49MB超過網頁工具上限，本稿據該頁索引整理，未引用整書。 |
+| C3 | 濟州觀光公社 Visit Jeju，[송산동地方飲食介紹](https://www.visitjeju.net/kr/themtour/view?contentsid=CNTS_300000000016052) | 자리물회 的豆醬湯底、帶骨切片與蔬菜做法；以 MBRIS 對應 자리돔 的學名。 |
+| C4 | 韓國國立水產科學院，[白腹鯖 고등어](https://www.nifs.go.kr/portal/bt/frctA/actionSpeciesSearchView.do?taxonId=11718) | 將 C1 的 고등어구이 魚材限定為可對應的 Scomber japonicus。 |
+| C5 | 日本駐濟州總領事館，[濟州飲食：蕎麥](https://www.jeju.kr.emb-japan.go.jp/itpr_ko/11_000001_00339.html) | 官方地方飲食介紹說明 빙떡 使用蕎麥餅皮包蘿蔔等蔬菜。 |
+
+
+魚池權重、重量、價格、指定魚餌及料理效果依作者核定審閱稿，均為遊戲設定。11 種魚與4道菜的插圖由 imagegen 依既有素材風格生成；未使用來源網站的圖片。
+
+### 0.23 韓語與菜名對照
+
+- 小鱗瓜子鱲：긴꼬리벵에돔。
+- 條石鯛：돌돔。
+- 斑石鯛：강담돔。
+- 尾斑光鰓雀鯛：자리돔。
+- 絲背冠鱗單棘魨：쥐치。
+- 日本竹筴魚：전갱이。
+- 牙鮃：넙치。
+- 短角單棘魨：말쥐치。
+- 日本的鯛：달고기。
+- 日本鯷：멸치。
+- 日本下鱵魚：학공치。
+- 瓜子鱲：벵에돔。
+- 褐臭肚魚：독가시치。
+- 柴魚：범돔。
+- 花身雞魚：살벤자리。
+- 白腹鯖：고등어。
+- 石狗公：쏨뱅이。
+- 嘉鱲：참돔。
+- 日本銀帶鯡：샛줄멸。
+- 烏魚：숭어。
+- 大瀧六線魚：쥐노래미。
+- 奧奈鑽嘴魚：게레치。
+- 南方擬金眼鯛：남방주걱치。
+- 深鰕虎：무늬망둑。
+
+自製料理：濟州水拌生魚片（자리물회）、濟州烤鯖魚（고등어구이）、涼拌羊栖菜（톳무침／톨무침）。餐廳菜：蕎麥蘿蔔捲（빙떡）、濟州烤鯖魚（고등어구이）、濟州水拌生魚片（자리물회）。來源與原食材對應見上表 C1～C5。
+
+濟州水域標籤在既有海岸圖形上按釣點示意座標繪製，未新增 OSM 或 Natural Earth 海岸幾何。
+
+### 濟州新增魚種名稱對照
+
+- 小鱗瓜子鱲（Girella leonina）：https://fishdb.sinica.edu.tw/taxon/381910-fishdb
+- 條石鯛（Oplegnathus fasciatus）：https://fishdb.sinica.edu.tw/eng/species.php?science=Oplegnathus+fasciatus
+- 斑石鯛（Oplegnathus punctatus）：https://fishdb.sinica.edu.tw/chi/species.php?gen=Oplegnathus&spe=punctatus
+- 尾斑光鰓雀鯛（Chromis notata）：https://www.mbris.kr/pub/marine/tsearch/tsearchDetail.do?spcTxnId=270000003808
+- 絲背冠鱗單棘魨（Stephanolepis cirrhifer）：https://fishdb.sinica.edu.tw/chi/species.php?gen=Stephanolepis&spe=cirrhifer
+- 日本竹筴魚（Trachurus japonicus）：https://fishdb.sinica.edu.tw/taxon/381555-fishdb
+- 牙鮃（Paralichthys olivaceus）：https://fishdb.sinica.edu.tw/chi/species.php?id=382745
+- 短角單棘魨（Thamnaconus modestus）：https://fishdb.sinica.edu.tw/taxon/383002-fishdb
+- 日本的鯛（Zeus faber）：https://fishdb.sinica.edu.tw/chi/species.php?gen=Zeus&spe=faber
+- 日本鯷（Engraulis japonicus）：https://fishdb.sinica.edu.tw/taxon/380976-fishdb
+- 日本下鱵魚（Hyporhamphus sajori）：https://www.pref.kyoto.jp/kaiyo2/sayori.html

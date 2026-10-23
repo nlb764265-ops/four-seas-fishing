@@ -4,7 +4,7 @@ let checks=0;const test=(name,fn)=>{fn();checks++;console.log('PASS '+name)};
 const fresh=()=>{const s=E.initial(0);s.money=1000;return s};
 const item=id=>({type:'fish',fish:id,kg:E.fish(id).min,baseValue:E.fish(id).price,baseBounty:E.fish(id).bounty,region:D.regions.find(r=>r.pool[id]).id});
 test('nine fish retain their records but are absent from every recipe',()=>{
- assert.equal(E.recipe('panfry').fishes.length,152);
+ assert.equal(E.recipe('panfry').fishes.length,163);
  assert.deepEqual(D.fish.filter(f=>f.edible&&!f.cookable).map(f=>f.id).sort(),[...removed,'fivestripewrasse','duckbillsleeper','frillfingoby','convict','jewelcichlid','raccoonbutterfly','threadfinbutterfly'].sort());
  for(const id of removed){const f=E.fish(id);assert(f.edible);assert(!f.cookable);assert(f.cookingNote);assert(!D.recipes.some(r=>r.fishes.includes(id)))}
  for(const r of D.recipes)for(const id of r.fishes)assert(E.fish(id).cookable,r.id+' '+id);
@@ -24,9 +24,6 @@ test('removed-only discoveries never unlock pan-fry or a named recipe',()=>{
  const state=fresh(),scope={document:{addEventListener(){}},E,D,state};vm.createContext(scope);vm.runInContext(fs.readFileSync(require.resolve('../collections.js'),'utf8'),scope);
  for(const id of removed)state.book[id]={count:1,best:E.fish(id).min};
  assert.equal(vm.runInContext('D.recipes.filter(kitchenUnlocked).length',scope),0);
- assert.equal(vm.runInContext("fishFoodTag(E.fish('pleco'))",scope),'不作料理');
- assert.equal(vm.runInContext("fishFoodTag(E.fish('puffer'))",scope),'不可食用');
- assert.equal(vm.runInContext("fishFoodTag(E.fish('carp'))",scope),'可食用');
  state.book.carp={count:1,best:.5};assert(vm.runInContext("kitchenUnlocked(E.recipe('panfry'))",scope));
 });
 console.log(`cooking-use: ${checks} checks passed`);

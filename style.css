@@ -201,7 +201,7 @@ footer{font-size:12px}
 .local-names dd{margin:0;overflow-wrap:anywhere}
 
 /* 0.15 first pixel illustration batch: 4 by 4 sprite atlas, local/offline. */
-.pixel-art{display:block;flex:0 0 48px;width:48px;height:48px;background-image:url('assets/pixel-atlas-01-clear.png');background-size:400% 400%;background-repeat:no-repeat;image-rendering:pixelated;border-radius:4px}
+.pixel-art{display:block;flex:0 0 48px;width:48px;height:48px;background-image:url('assets/pixel-atlas-01-clear.webp');background-size:400% 400%;background-repeat:no-repeat;image-rendering:pixelated;border-radius:4px}
 .item-chip:has(.pixel-art){display:grid;grid-template-columns:48px minmax(0,1fr);column-gap:10px;align-items:center}
 .item-chip:has(.pixel-art)>.pixel-art{grid-column:1;grid-row:1/3}
 .item-chip:has(.pixel-art)>span:not(.pixel-art),.item-chip:has(.pixel-art)>small{grid-column:2;min-width:0}
@@ -215,9 +215,9 @@ footer{font-size:12px}
 
 /* 0.15 batch 2: transparent art, header right, no frames. */
 .pixel-art{border:0;border-radius:0;filter:saturate(.55)}
-.pixel-sheet-2{background-image:url('assets/pixel-atlas-02-clear.png');filter:saturate(.55)}
-.pixel-sheet-3{background-image:url('assets/pixel-atlas-03-clear.png');filter:saturate(.3)}
-.pixel-meal-fishhead{background-image:url('assets/meal-fishhead-pot.png');background-size:contain;background-position:center!important}
+.pixel-sheet-2{background-image:url('assets/pixel-atlas-02-clear.webp');filter:saturate(.55)}
+.pixel-sheet-3{background-image:url('assets/pixel-atlas-03-clear.webp');filter:saturate(.3)}
+.pixel-meal-fishhead{background-image:url('assets/meal-fishhead-pot.webp');background-size:contain;background-position:center!important}
 .item-picker-grid:has(.kitchen-chip .pixel-art){grid-template-columns:repeat(2,minmax(0,1fr))}
 .detail-head:has(.pixel-large){display:grid;grid-template-columns:minmax(0,1fr) 150px;gap:12px;align-items:start;position:relative}
 .detail-head:has(.pixel-large)>div{min-width:0}
@@ -225,10 +225,10 @@ footer{font-size:12px}
 @media(max-width:650px){.detail-head:has(.pixel-large){grid-template-columns:minmax(0,1fr) 108px;gap:8px;padding-right:14px}.detail-head>.pixel-large{width:108px;height:108px}.detail-head:has(.pixel-large) .detail-close{position:absolute;right:-8px;top:-12px}}
 
 /* 0.15 batch 3: muted transparent fish, plants and meals. */
-.pixel-sheet-4{background-image:url('assets/pixel-atlas-04-clear.png')}
-.pixel-sheet-5{background-image:url('assets/pixel-atlas-05-clear.png')}
-.pixel-sheet-6{background-image:url('assets/pixel-atlas-06-clear.png')}
-.pixel-sheet-7{background-image:url('assets/pixel-atlas-07-clear.png')}
+.pixel-sheet-4{background-image:url('assets/pixel-atlas-04-clear.webp')}
+.pixel-sheet-5{background-image:url('assets/pixel-atlas-05-clear.webp')}
+.pixel-sheet-6{background-image:url('assets/pixel-atlas-06-clear.webp')}
+.pixel-sheet-7{background-image:url('assets/pixel-atlas-07-clear.webp')}
 .pixel-kind-meal:is(.pixel-sheet-5,.pixel-sheet-6,.pixel-sheet-7){filter:saturate(.3)}
 
 /* Isolate each sprite by its own bounds; adjacent sprites may cross the nominal grid. */
@@ -236,21 +236,21 @@ footer{font-size:12px}
 .pixel-art::before{content:'';position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:var(--art-width,100%);height:var(--art-height,100%);background-image:inherit;background-repeat:no-repeat;background-size:var(--art-size,100% 100%);background-position:var(--art-position,center);image-rendering:pixelated}
 
 /* 0.15 batch 4: all remaining fish, retaining individual sprite bounds. */
-.pixel-sheet-8{background-image:url('assets/pixel-atlas-08-clear.png?v=spots1')}
-.pixel-sheet-9{background-image:url('assets/pixel-atlas-09-clear.png')}
-.pixel-sheet-10{background-image:url('assets/pixel-atlas-10-clear.png')}
-.pixel-sheet-11{background-image:url('assets/pixel-atlas-11-clear.png')}
-.pixel-sheet-12{background-image:url('assets/pixel-atlas-12-clear.png')}
+.pixel-sheet-8{background-image:url('assets/pixel-atlas-08-clear.webp')}
+.pixel-sheet-9{background-image:url('assets/pixel-atlas-09-clear.webp')}
+.pixel-sheet-10{background-image:url('assets/pixel-atlas-10-clear.webp')}
+.pixel-sheet-11{background-image:url('assets/pixel-atlas-11-clear.webp')}
+.pixel-sheet-12{background-image:url('assets/pixel-atlas-12-clear.webp')}
 
-.pixel-sheet-13{background-image:url('assets/pixel-atlas-13-clear.png')}
+.pixel-sheet-13{background-image:url('assets/pixel-atlas-13-clear.webp')}
 
-.pixel-sheet-14{background-image:url('assets/pixel-atlas-14-clear.png')}
+.pixel-sheet-14{background-image:url('assets/pixel-atlas-14-clear.webp')}
 
-.pixel-sheet-15{background-image:url('assets/pixel-atlas-15-clear.png')}
+.pixel-sheet-15{background-image:url('assets/pixel-atlas-15-clear.webp')}
 
-.pixel-sheet-16{background-image:url('assets/pixel-atlas-16-clear.png')}
+.pixel-sheet-16{background-image:url('assets/pixel-atlas-16-clear.webp')}
 
-.pixel-sheet-17{background-image:url('assets/pixel-atlas-17-clear.png')}
+.pixel-sheet-17{background-image:url('assets/pixel-atlas-17-clear.webp')}
 
 /* Compact destination names; fill marks the current water, outline marks the preview. */
 #mapDialog .region-list{gap:6px;margin-top:12px}
@@ -270,14 +270,15 @@ footer{font-size:12px}
 #atlasDetail .fish-meta .fish-reading{font-size:15px;line-height:1.3}
 #atlasDetail .fish-meta .local-names{font-size:14px;gap:2px 8px}
 
-/* 0.22: keep long species names readable beside the new sprites. */
-.atlas-chip:has(.pixel-art)>span:not(.pixel-art){overflow-wrap:anywhere;word-break:normal}
-@media(max-width:650px){
- .atlas-chip:has(.pixel-art){grid-template-columns:minmax(0,1fr);row-gap:2px}
- .atlas-chip:has(.pixel-art)>.pixel-art{grid-column:1;grid-row:1;justify-self:center}
- .atlas-chip:has(.pixel-art)>span:not(.pixel-art){grid-column:1;grid-row:2}
- .atlas-chip:has(.pixel-art)>small{grid-column:1;grid-row:3}
-}
+/* Atlas columns follow list width, including the narrow desktop sidebar. */
+#atlasList .item-picker-grid{grid-template-columns:repeat(auto-fill,minmax(min(100%,140px),1fr));gap:8px}
+.atlas-chip{justify-content:flex-start;align-items:stretch}
+.atlas-chip:has(.pixel-art){grid-template-columns:minmax(0,1fr);grid-template-rows:48px auto 1fr;row-gap:4px;align-items:start}
+.atlas-chip:has(.pixel-art)>.pixel-art{grid-column:1;grid-row:1;justify-self:center}
+.atlas-chip:has(.pixel-art)>span:not(.pixel-art){grid-column:1;grid-row:2}
+.atlas-chip:has(.pixel-art)>small{grid-column:1;grid-row:3}
+#atlasList .atlas-chip>span:not(.pixel-art){width:100%;line-height:1.6;overflow-wrap:anywhere;word-break:normal}
+#atlasList .atlas-chip>small{white-space:normal;line-height:1.5;overflow-wrap:anywhere}
 #atlasDetail .detail-stats{margin:8px 0}
 #atlasDetail .detail-stats>div{padding-top:8px;padding-bottom:8px}
 #atlasDetail .fish-description{display:grid;grid-template-columns:76px minmax(0,1fr);gap:8px 10px;margin:10px 0}
@@ -319,3 +320,216 @@ footer{font-size:12px}
 #mapDialog>.map-caption{position:static;display:block;max-width:100%;margin:-8px 0 7px;padding:0;border:0;background:transparent;box-shadow:none;text-align:right;white-space:normal;overflow:visible;font-size:10px;line-height:1.5}
 /* 0.22 license tiers: colour replaces the tier label; owned waters dim with a check. */
 #licenseCard select,#licenseCard option{font-weight:600}#licenseCard optgroup{color:var(--muted);font-style:normal;font-weight:400}.tier-1{color:#3f7d4f}.tier-2{color:#2f6aa3}.tier-3{color:#7a4aa6}.tier-4{color:#b5671f}#licenseCard option.owned,#licenseCard select.owned{font-weight:400;opacity:.6}
+/* 0.22 revision: compact bait shop. */
+.bait-shop{background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);overflow:hidden}
+.bait-row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:8px 18px;padding:11px 18px}
+.bait-row+.bait-row{border-top:1px solid var(--line)}
+.bait-info{min-width:0}
+.bait-info h3{margin:0;font-size:17px;line-height:1.5;display:flex;align-items:baseline;flex-wrap:wrap;gap:2px 12px}
+.bait-held{font:12px/1.5 "Microsoft JhengHei",system-ui,sans-serif;color:var(--muted)}
+.bait-held b{color:var(--green);font-size:14px;padding:0 1px}
+.bait-info p{margin:0;font-size:12px;line-height:1.65}
+.bait-meta{color:var(--gold)}
+.bait-desc{color:var(--muted);display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2;overflow:hidden}
+.bait-buy{display:grid;grid-template-columns:repeat(3,78px);gap:6px}
+.bait-buy button{display:flex;flex-direction:column;align-items:center;justify-content:center;width:auto;min-width:0;margin:0;padding:4px 6px;line-height:1.35;border-radius:6px}
+.bait-buy button b{font-size:14px;color:var(--green)}
+.bait-buy button small{font-size:11px;color:var(--muted);white-space:nowrap}
+.bait-buy button:not(:disabled):hover b{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:650px){.bait-row{grid-template-columns:minmax(0,1fr);padding:12px 14px}.bait-desc{display:block;overflow:visible}.bait-buy{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
+/* 0.22 revision: meal duration on its own line. */
+.meal-casts{display:block;margin-top:2px;font-size:13px;font-weight:400;color:var(--muted)}.meal-hint{margin:8px 0 0;font-size:13px;color:var(--muted)}.meal-hint.idle{color:var(--warn)}
+
+/* 0.23 layout: dark top bar replaces the sidebar; pages carry no separate title. */
+.topbar{display:block;position:sticky;top:0;z-index:40;margin:0;padding:0;border:0;background:var(--deep);color:#e8eadf}
+.topbar-inner{max-width:1320px;margin:0 auto;padding:10px 32px;min-height:62px;display:flex;align-items:center;gap:10px 26px}
+.topbar .brand{font:700 22px/1.4 Georgia,"PMingLiU",serif;letter-spacing:3px;color:#f6f4eb;text-decoration:none;white-space:nowrap}
+.topbar nav{display:flex;gap:4px;flex:1 1 auto;padding:0;overflow:visible}
+.topbar nav button{display:flex;align-items:center;gap:6px;position:relative;border:0;border-radius:7px;background:transparent;color:#cfd6cb;padding:8px 14px;font-size:15px;white-space:nowrap}
+.topbar nav button svg{display:none}
+.topbar nav button:hover{background:#ffffff12;color:#fff}
+.topbar nav button.selected{background:#f3f1e7;color:var(--deep);font-weight:700}
+.topbar nav small{font-size:12px;color:#e6c48e;margin:0}
+.topbar nav button.selected small{color:var(--gold)}
+.topbar nav small.warn{color:#f0a785}.topbar nav button.selected small.warn{color:var(--warn)}
+.shop-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#e6c48e;margin-left:2px}
+.location-chip{display:none}
+.wallet{display:flex;align-items:baseline;gap:6px;margin:0 0 0 auto;padding:0;border:0;background:none;font-size:15px;color:#e8eadf;white-space:nowrap}
+.wallet span{font-size:13px;color:#b9c4b8;letter-spacing:0}
+.wallet strong{font:600 21px/1.2 Georgia,serif;color:#fff;margin:0}
+.settings-button{display:flex;align-items:center;justify-content:center;width:42px;height:42px;padding:0;border:0;border-radius:7px;background:transparent;color:#cfd6cb}
+.settings-button svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.8}
+.settings-button:hover{background:#ffffff12;color:#fff}.settings-button.selected{background:#f3f1e7;color:var(--deep)}
+.location-chip svg,.topbar nav svg{fill:none;stroke:currentColor;stroke-width:1.8}
+main{max-width:1320px;margin:0 auto;padding:30px 32px 48px}
+.page-heading{font-size:22px;margin:0 0 12px}.page-heading-row{display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 14px;margin-top:30px}.page-heading-row .page-heading{margin-bottom:12px}.page-heading-row p{margin:0}
+.text-link{border:0;background:none;padding:0;color:var(--green);text-decoration:underline;text-underline-offset:4px;font:inherit;font-size:14px;cursor:pointer}.text-link:hover{background:none;color:var(--deep)}
+
+/* 0.23 fishing card */
+.fishing-grid{grid-template-columns:minmax(0,1fr) minmax(300px,380px)}
+.fishing-panel{padding:26px 30px 28px}
+.current-water{align-items:flex-end}
+.current-water .water-actions{gap:8px;align-items:flex-end;min-width:0}
+.water-progress{font-size:14px}
+.stat-tiles label{font-size:13px;color:var(--muted)}
+.stat-tiles select{margin:2px 0;padding:4px 8px;font-size:15px;max-width:100%}
+.stat-tiles strong.long{font-size:15px;line-height:1.5;font-family:inherit;font-weight:600}
+.stat-tiles small:empty{display:none}
+.stat-tiles small.warn{color:var(--warn)}
+.alert-tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:10px}
+.alert-tiles:empty{display:none}
+.alert-tile{position:relative;overflow:hidden;display:flex;flex-direction:column;background:var(--panel);border:1px solid var(--line);border-radius:9px;padding:10px 14px 14px}
+.alert-tile:only-child,.alert-tile.wide{grid-column:1/-1}
+.tile-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.tile-head span{font-size:13px;color:var(--gold)}.tile-head b{font-size:14px;font-weight:600}
+.alert-tile>strong{font:600 20px/1.4 Georgia,"PMingLiU",serif}
+.tile-foot{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:2px}
+.tile-foot small{font-size:13px;color:var(--muted)}.tile-foot .text-link{font-size:13px}
+.alert-tile>i{position:absolute;left:0;bottom:0;height:4px;width:var(--fill);background:var(--gold)}
+.alert-tile>i.ready{background:var(--green)}
+.alert-tile.gold{background:#fbf6ea;border-color:#e6d6b8}
+.alert-tile.warn{background:#fbefe8;border-color:#e8c3b2}.alert-tile.warn .tile-head span{color:var(--warn)}.alert-tile.warn>strong{font-size:17px;font-family:inherit}
+.tile-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.primary.small{padding:4px 16px;font-size:14px;box-shadow:0 2px 0 #18322a}
+.fishing-side{display:grid;gap:22px;min-width:0;position:sticky;top:84px}
+.mini-map-card{gap:10px;padding:16px 18px}
+.mini-map-card .section-title{border:0;padding:0}
+.mini-map-card .section-title h3,.journal .section-title h3{font-size:18px}
+.mini-map-card .mini-map-canvas{display:block;width:100%;height:210px;padding:0;margin:0;border:1px solid var(--line);border-radius:8px;background:var(--paper);overflow:hidden;cursor:pointer}
+.mini-map-card .mini-map-canvas:hover{background:var(--paper)}
+
+/* 0.23 catch box rows */
+.collection-tabs small{font-size:12px;opacity:.75;margin-left:2px}
+.box-list-wrap{min-width:0;background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);overflow:hidden}
+.box-list{padding:6px 0}
+.box-head,.box-row{display:grid;grid-template-columns:minmax(0,1fr) 56px 96px 92px;align-items:center;gap:10px;padding:0 18px}
+.box-head{font-size:12px;color:var(--muted);padding-top:6px;padding-bottom:4px}.box-head span:not(:first-child){text-align:right}
+.box-list .picker-group{margin:12px 18px 4px}
+.box-row{width:100%;min-height:52px;border:0;border-top:1px solid #ecebe0;border-radius:0;background:transparent;text-align:left;font-size:15px}
+.box-row:hover{background:var(--panel)}
+.box-row.active{background:var(--soft);box-shadow:inset 3px 0 0 var(--green)}
+.box-row>.pixel-art{display:none}
+.box-row .box-name{display:flex;align-items:center;gap:10px;min-width:0}
+.box-row b,.box-row .box-kg,.box-row .box-value{text-align:right;font-weight:500;font-variant-numeric:tabular-nums}
+.box-row .box-kg{color:var(--muted);font-size:14px}
+.row-tag{font-size:12px;padding:0 8px;border-radius:10px;background:var(--soft);color:var(--green);white-space:nowrap}
+.row-tag.bounty{background:#f8e8d6;color:#8a4d1c}
+.box-list-wrap .collection-bulk{margin:0;padding:12px 18px;border-top:1px solid var(--line);background:var(--panel);flex-wrap:wrap;flex-direction:row}
+.box-list-wrap .collection-bulk p{font-size:14px;color:var(--muted)}.box-list-wrap .collection-bulk b{color:var(--ink)}
+.bounty-strip{display:flex;flex-wrap:wrap;align-items:center;gap:6px 22px;margin-bottom:16px;padding:14px 20px;background:#fbf6ea;border:1px solid #e6d6b8;border-radius:12px}
+.bounty-strip h3{font-size:18px;margin:0}.bounty-strip p{margin:0;font-size:14px;color:var(--muted)}.bounty-strip b{color:var(--ink)}
+.bounty-strip button{margin-left:auto}
+.primary.bounty{background:#8a5a26;border-color:#8a5a26;box-shadow:0 2px 0 #5b3a16}.primary.bounty:hover{background:#6f4618}
+.tag.warn{color:var(--warn)}
+.detail-summary{margin:4px 0 6px;font-size:16px}
+.detail-links{display:grid;grid-template-columns:repeat(auto-fit,minmax(0,1fr));gap:8px}
+.bounty-tag{display:block;font-weight:600;color:#8a4d1c}
+#atlasDetail .bounty-stat{background:#fbf6ea}
+
+/* 0.23 kitchen */
+.buff-banner{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px;margin-bottom:16px;padding:12px 18px;border-radius:10px;background:var(--soft);font-size:15px}
+.buff-banner .buff-note{margin-left:auto;font-size:13px;color:var(--muted)}
+.kitchen-bar .collection-tabs{margin-bottom:10px}
+.meal-facts{display:grid;gap:4px;margin:12px 0;padding:12px 14px;border-radius:8px;background:var(--panel);border:1px solid var(--line);font-size:15px}
+.meal-facts p{margin:0}.meal-facts span{display:inline-block;min-width:44px;margin-right:6px;font-size:13px;color:var(--muted)}
+.kitchen-chip b{font-size:13px}
+
+/* 0.23 shop rows */
+.shop-list{background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow)}
+.shop-row{display:grid;grid-template-columns:170px minmax(0,1fr) 190px;align-items:center;gap:8px 20px;padding:16px 22px}
+.shop-row+.shop-row{border-top:1px solid var(--line)}
+.shop-name h3{margin:0;font-size:18px}.shop-name small{font-size:13px;color:var(--muted)}
+.shop-change{margin:0;font-size:15px}.shop-change span{color:var(--gold)}
+.shop-change small{display:block;font-size:13px;color:var(--muted);margin-top:4px}
+.shop-change select{width:100%;max-width:320px}
+.shop-buy{display:flex;flex-direction:column;align-items:stretch;gap:3px;text-align:center}
+.shop-buy small{font-size:12px;color:var(--muted)}
+.bait-held.warn{color:var(--warn);font-weight:600}
+
+/* 0.23 map: list of waters beside the map, grouped by licence tier */
+#mapDialog{width:min(1180px,calc(100vw - 40px))}
+.map-layout{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:20px;align-items:start}
+.map-main{min-width:0}
+#mapDialog .map-wrap{height:clamp(300px,62dvh,600px)}
+.map-side{display:flex;flex-direction:column;gap:12px;min-width:0;max-height:calc(62dvh + 30px);min-height:0}
+#mapDialog .region-list{display:block;margin:0;flex:1 1 auto;min-height:120px;overflow:auto;padding-right:4px;scrollbar-width:thin}
+.region-tier{margin:10px 0 2px;padding-left:10px;font-size:13px;font-weight:700;letter-spacing:1px}.region-tier:first-child{margin-top:0}.region-tier.tier-0{color:var(--muted)}
+#mapDialog .region-list .region-row{display:flex;width:100%;align-items:center;gap:8px;min-height:38px;padding:4px 10px;border:0;border-radius:6px;background:transparent;text-align:left;font-size:15px}
+#mapDialog .region-list .region-row:hover{background:var(--soft)}
+#mapDialog .region-list .region-row span{flex:1;min-width:0}
+#mapDialog .region-list .region-row small{font-size:12px;color:var(--muted);white-space:nowrap;margin:0}
+#mapDialog .region-list .region-row small.ready{color:#3f7d4f;font-weight:600}
+#mapDialog .region-list .region-row.chosen{background:var(--soft);box-shadow:inset 0 0 0 1px var(--green);font-weight:700}
+#mapDialog .region-list .region-row.is-current{background:var(--green);color:var(--paper)}
+#mapDialog .region-list .region-row.is-current small{color:#dfe7df}
+#mapDialog .location{display:block;padding:14px 16px;border-radius:10px;background:var(--card);border:1px solid var(--line)}
+#mapDialog .location h2{font-size:22px;margin:2px 0 4px}
+#mapDialog .location p{font-size:14px;margin:4px 0}
+#mapDialog .location-action{margin-top:10px;min-width:0;align-items:stretch}
+#mapDialog .location-action>.water-completion{width:70px;height:70px}
+
+/* 0.23 settings */
+.settings-grid{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:22px;align-items:start}
+.settings-main,.settings-side{display:grid;gap:18px;min-width:0}
+.settings-grid .save-panel{max-width:none;margin:0}
+.settings-grid .card h2{font-size:20px;margin:0}
+.save-head{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px}
+#saveStatus{margin:0;font-size:13px;color:var(--green)}
+.help-copy{max-width:none}
+.help-copy details{border-top:1px solid var(--line);padding:10px 0}
+.help-copy summary{cursor:pointer;font-weight:700;font-size:16px}
+.help-copy details p{margin:8px 0 0;font-size:15px;line-height:1.9}
+.settings-side .language-switch{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.settings-side .language-switch button{min-height:44px;border-radius:0;font-size:15px;text-decoration:none}
+.settings-side .language-switch button[aria-pressed=true]{background:var(--green);color:#fff;text-decoration:none}
+.restart-card{border-color:#e8c3b2;box-shadow:none}.restart-card h2{color:var(--warn)}
+
+@media(max-width:1100px){.fishing-side{position:static;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}.map-layout{grid-template-columns:1fr}.map-side{max-height:none}#mapDialog .region-list{max-height:260px}#mapDialog .map-wrap{height:clamp(220px,40dvh,420px)}.settings-grid{grid-template-columns:1fr}.shop-row{grid-template-columns:150px minmax(0,1fr) 170px}}
+@media(max-width:900px){.topbar-inner{padding:10px 18px;gap:8px 14px}.topbar nav button{padding:8px 10px}main{padding:24px 18px 40px}}
+@media(max-width:650px){
+ .topbar-inner{padding:8px 12px 8px 14px;min-height:56px}
+ .topbar .brand{display:none}
+ .location-chip{display:flex;align-items:center;gap:6px;min-height:40px;padding:0 12px;border:1px solid #3d5a4e;border-radius:7px;background:transparent;color:#eef0e6;font-size:15px}
+ .location-chip svg{width:14px;height:14px}
+ .location-chip:hover{background:#ffffff12}
+ .wallet span{font-size:12px}.wallet strong{font-size:19px}
+ .topbar nav{position:fixed;left:0;right:0;bottom:0;z-index:45;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0;padding:4px 4px calc(6px + env(safe-area-inset-bottom));background:var(--card);border-top:1px solid var(--line)}
+ .topbar nav button{flex-direction:column;justify-content:center;gap:1px;min-height:52px;padding:2px;font-size:12px;color:var(--muted);border-radius:8px}
+ .topbar nav button svg{display:block;width:22px;height:22px}
+ .topbar nav button.selected{background:transparent;color:var(--green)}
+ .topbar nav button:hover{background:transparent;color:var(--ink)}
+ .topbar nav small{position:absolute;top:2px;right:4px;font-size:10px;padding:0 5px;border-radius:8px;background:var(--gold);color:#fff}
+ .topbar nav button.selected small{color:#fff}.topbar nav small.warn,.topbar nav button.selected small.warn{background:var(--warn);color:#fff}
+ .shop-dot{position:absolute;top:6px;right:calc(50% - 16px)}
+ body{padding-bottom:76px}
+ main{padding:14px 12px 24px}
+ .fishing-panel{padding:16px}
+ .mini-map-card{display:none}
+ .stat-tiles strong.long{font-size:13px}
+ .alert-tiles{grid-template-columns:1fr}
+ .fishing-side{grid-template-columns:1fr}
+ .box-head,.box-row{grid-template-columns:minmax(0,1fr) 44px 84px;padding:0 12px}.box-head span:nth-child(3),.box-row .box-kg{display:none}
+ .box-list .picker-group{margin:10px 12px 4px}
+ .bounty-strip{padding:12px 14px}.bounty-strip button{margin-left:0;width:100%}
+ .buff-banner .buff-note{margin-left:0}
+ .shop-row{grid-template-columns:1fr;padding:14px 16px}
+ .shop-change select{max-width:none}
+ #mapDialog .region-list{max-height:220px}
+ #toast{bottom:84px}
+}
+#mapDialog .map-main>.map-caption{position:static;display:block;max-width:100%;margin:0 0 6px;padding:0;border:0;background:transparent;box-shadow:none;text-align:right;white-space:normal;overflow:visible;font-size:10px;line-height:1.5}
+@media(max-width:1100px){.fishing-grid{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:650px){.topbar nav small{display:block}}
+@media(max-width:650px){.topbar nav small{position:static;padding:0;background:none!important;color:var(--warn)!important;font-size:10px;line-height:1.1}.topbar nav small:not(.warn){display:none}}
+/* 0.23 atlas head: one progress line; category counts live on the tabs. */
+.atlas-head{display:flex;align-items:center;flex-wrap:wrap;gap:6px 18px;margin-bottom:14px}
+.atlas-head p{margin:0;display:flex;align-items:baseline;gap:10px;white-space:nowrap}
+.atlas-head span{font-size:13px;color:var(--gold)}
+.atlas-head strong{font:600 26px/1.3 Georgia,"PMingLiU",serif}
+.atlas-head .catalog-progress{flex:1 1 240px;height:6px;margin:0;border-radius:999px;overflow:hidden}
+.atlas-head .catalog-progress div{border-radius:999px}
+
+/* 0.23: quiet recipe availability; selected border remains visible. */
+.kitchen-chip.unavailable{background:#f7e6de;border-color:#e6c8ba}.kitchen-chip.unavailable.active{background:#f0d8cb;border-color:var(--green,#315c4d)}
+.kitchen-chip:not(.ready):not(.active):hover{background:#f2dbcf}

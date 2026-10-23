@@ -2,10 +2,10 @@ const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('nod
 const src=fs.readFileSync(require('node:path').join(__dirname,'../app.js'),'utf8');
 const els={regionList:{},location:{},travel:{},mapDialog:{close(){}}};
 const scope={completionStamp:()=>'',syncCompletionStamps(){},E,D:E.D,state:E.initial(0),preview:'keelung',Date,yuan:n=>n.toLocaleString('zh-TW'),document:{querySelectorAll(){return []}},$:id=>els[id],showRegion(){},act(){}};
-vm.createContext(scope);vm.runInContext(src.slice(src.indexOf('function meter('),src.indexOf('function pips(')),scope);vm.runInContext(src.slice(src.indexOf('function renderLocation()'),src.indexOf('function renderStatus(')),scope);
+vm.createContext(scope);vm.runInContext(src.slice(src.indexOf('function meter('),src.indexOf('function completedWaterIds(')),scope);vm.runInContext(src.slice(src.indexOf('function regionNote('),src.indexOf('function renderStatus(')),scope);
 scope.renderLocation();
-assert.equal((els.regionList.innerHTML.match(/data-preview=/g)||[]).length,16);
-assert(!/目前位置|需許可證|單程|<small>/.test(els.regionList.innerHTML));
+assert.equal((els.regionList.innerHTML.match(/data-preview=/g)||[]).length,17);
+assert(!/目前位置|需許可證|單程|許可證 [0-9]/.test(els.regionList.innerHTML));assert(els.regionList.innerHTML.includes('2級水域'));assert.match(els.regionList.innerHTML,/data-preview="keelung"[^]*?圖鑑需 25 種/);
 assert.match(els.regionList.innerHTML,/data-preview="sunmoon"[^>]*is-current[^>]*aria-pressed="false"[^>]*aria-current="location"/);
 assert.match(els.regionList.innerHTML,/data-preview="keelung"[^>]*chosen[^>]*aria-pressed="true"/);
 assert(els.location.innerHTML.includes('2級水域'));assert(els.location.innerHTML.includes('取得許可證並前往'));assert.equal((els.location.innerHTML.match(/許可證/g)||[]).length,1);assert(!els.location.innerHTML.includes('許可證永久有效'));assert(!els.location.innerHTML.includes('單程旅費'));

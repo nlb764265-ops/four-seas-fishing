@@ -2,23 +2,23 @@ const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('nod
 let checks=0;const test=(name,fn)=>{fn();console.log('PASS '+name);checks++};
 test('all 56 meals have concrete preparation descriptions, independent of effect-family labels',()=>{
  for(const d of [...D.recipes,...D.dishes]){assert(d.preparation,d.id);assert(!['湯鍋燉煮','清蒸水煮','煎炸烤燻'].includes(d.preparation),d.id)}
- assert.equal(D.recipes.length+D.dishes.length,91);
- for(const d of [E.recipe('kibinago-sashimi'),E.dish('dine-kenting-sashimi')]){assert.equal(d.method,'raw');assert.match(d.preparation,/生食|生切/);assert.equal(d.effect,'value')}
- assert.equal(E.dish('dine-greifswald-bismarck').method,'pickle');assert.equal(E.recipe('westlake').method,'steam');assert.equal(E.recipe('westlake').effect,'size');assert.equal(E.recipe('taimeshi').preparation,'先烤魚再與米同炊');
+ assert.equal(D.recipes.length+D.dishes.length,97);
+ for(const d of [E.recipe('kibinago-sashimi'),E.dish('dine-kenting-sashimi')]){assert.equal(d.method,'raw');assert.match(d.preparation,/生食|生切/);assert.equal(d.effect,{'kibinago-sashimi':'double','dine-kenting-sashimi':'lure'}[d.id])}
+ assert.equal(E.dish('dine-greifswald-bismarck').method,'pickle');assert.equal(E.recipe('westlake').method,'steam');assert.equal(E.recipe('westlake').effect,'lure');assert.equal(E.recipe('taimeshi').preparation,'先烤魚再與米同炊');
 });
 test('combined progress includes each discovered fish and plant once, even after sale',()=>{
- const s=E.initial(0);assert.equal(E.collectionProgress(s).total,227);assert.deepEqual(E.collectionProgress(s).fish,{caught:0,total:178});assert.deepEqual(E.collectionProgress(s).plants,{caught:0,total:31});
+ const s=E.initial(0);assert.equal(E.collectionProgress(s).total,238);assert.deepEqual(E.collectionProgress(s).fish,{caught:0,total:189});assert.deepEqual(E.collectionProgress(s).plants,{caught:0,total:31});
  s.book.carp={count:12,best:1};s.plants.hyacinth=8;assert.equal(E.collectionProgress(s).caught,2);assert.equal(s.items.length,0);
  s.book.unknown={count:1};s.plants.unknown=1;assert.equal(E.collectionProgress(s).caught,2);
- for(const f of D.fish)s.book[f.id]={count:1,best:f.min};for(const p of D.plants)s.plants[p.id]=1;assert.equal(E.collectionProgress(s).caught,209);
+ for(const f of D.fish)s.book[f.id]={count:1,best:f.min};for(const p of D.plants)s.plants[p.id]=1;assert.equal(E.collectionProgress(s).caught,220);
 });
 test('0.14 saves retain plant collection and active meal when loaded in 0.15',()=>{
  const s=E.initial(1000);s.book.carp={count:1,best:1};s.total=1;s.plants.hyacinth=2;s.weeds=2;s.buff={id:'dine-kenting-sashimi',left:20,since:1000};const t=E.migrate(JSON.parse(JSON.stringify(s)),1000);assert(t);assert.equal(E.collectionProgress(t).caught,2);assert.deepEqual(t.buff,s.buff);assert.equal(t.money,s.money);
 });
-test('twenty-two pixel sheets have 300 unique slots and never draw an undiscovered species',()=>{
+test('twenty-two pixel sheets have 318 mappings and 315 unique slots and never draw an undiscovered species',()=>{
  const source=fs.readFileSync(path.join(__dirname,'../collections.js'),'utf8');
  const scope={D,D,document:{addEventListener(){}},E,state:E.initial(0)};vm.createContext(scope);vm.runInContext(source,scope);
- const slots=vm.runInContext('pixelSlots',scope);assert.equal(Object.values(slots).flatMap(Object.values).length,300);assert.equal(new Set(Object.values(slots).flatMap(Object.values)).size,300);
+ const slots=vm.runInContext('pixelSlots',scope);assert.equal(Object.values(slots).flatMap(Object.values).length,318);assert.equal(new Set(Object.values(slots).flatMap(Object.values)).size,315);
  for(const f of D.fish)assert.notEqual(slots.fish[f.id],undefined,f.id);
  for(const p of D.plants)assert.notEqual(slots.plant[p.id],undefined,p.id);
  for(const d of [...D.recipes,...D.dishes])assert.notEqual(slots.meal[d.id],undefined,d.id);
@@ -37,7 +37,7 @@ test('detail art moves into the heading once; plant labels follow the author wor
  assert.equal((html.match(/pixel-large/g)||[]).length,1);assert(html.indexOf('pixel-large')<html.indexOf('detail-close'));assert(html.indexOf('pixel-large')<html.indexOf('<p>description'));
  assert.equal(E.plant('hyacinth').type,'浮游植物');assert.equal(E.plant('waterlettuce').type,'浮游植物');
  assert(vm.runInContext("pixelArt('meal','fishhead-pot',true)",scope).includes('pixel-meal-fishhead'));
- const css=fs.readFileSync(path.join(__dirname,'../style.css'),'utf8');assert(css.includes("url('assets/meal-fishhead-pot.png')"));const single=fs.readFileSync(path.join(__dirname,'../assets/meal-fishhead-pot.png'));assert.equal(single[25],6);
+ const css=fs.readFileSync(path.join(__dirname,'../style.css'),'utf8');assert(css.includes("url('assets/meal-fishhead-pot.webp')"));const single=fs.readFileSync(path.join(__dirname,'../assets/meal-fishhead-pot.png'));assert.equal(single[25],6);
 });
 test('combined plant rows remain anonymous and gain art only after collection',()=>{
  const source=fs.readFileSync(path.join(__dirname,'../collections.js'),'utf8'),s=E.initial(0),scope={document:{addEventListener(){}},E,state:s};vm.createContext(scope);vm.runInContext(source,scope);
