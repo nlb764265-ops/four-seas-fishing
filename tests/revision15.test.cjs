@@ -15,14 +15,13 @@ test('combined progress includes each discovered fish and plant once, even after
 test('0.14 saves retain plant collection and active meal when loaded in 0.15',()=>{
  const s=E.initial(1000);s.book.carp={count:1,best:1};s.total=1;s.plants.hyacinth=2;s.weeds=2;s.buff={id:'dine-kenting-sashimi',left:20,since:1000};const t=E.migrate(JSON.parse(JSON.stringify(s)),1000);assert(t);assert.equal(E.collectionProgress(t).caught,2);assert.deepEqual(t.buff,s.buff);assert.equal(t.money,s.money);
 });
-test('twenty pixel sheets have 268 unique slots and never draw an undiscovered species',()=>{
+test('twenty pixel sheets have 277 unique slots and never draw an undiscovered species',()=>{
  const source=fs.readFileSync(path.join(__dirname,'../collections.js'),'utf8');
  const scope={D,D,document:{addEventListener(){}},E,state:E.initial(0)};vm.createContext(scope);vm.runInContext(source,scope);
- const slots=vm.runInContext('pixelSlots',scope);assert.equal(Object.values(slots).flatMap(Object.values).length,268);assert.equal(new Set(Object.values(slots).flatMap(Object.values)).size,268);
+ const slots=vm.runInContext('pixelSlots',scope);assert.equal(Object.values(slots).flatMap(Object.values).length,277);assert.equal(new Set(Object.values(slots).flatMap(Object.values)).size,277);
  for(const f of D.fish)assert.notEqual(slots.fish[f.id],undefined,f.id);
  for(const p of D.plants)assert.notEqual(slots.plant[p.id],undefined,p.id);
- // 0.20 cooking batch 2 has no art yet and renders as text.
- for(const d of [...D.recipes,...D.dishes])if(!['deepfry','steamfish','grillfish','tenaga-karaage','sake-steam-crab','ginataang-alimasag','iidako-nitsuke','aori-ichiyaboshi','squid-bihun'].includes(d.id))assert.notEqual(slots.meal[d.id],undefined,d.id);
+ for(const d of [...D.recipes,...D.dishes])assert.notEqual(slots.meal[d.id],undefined,d.id);
  const bounds=vm.runInContext('pixelBounds',scope);for(const a of Object.values(bounds))for(const [x,y,w,h]of a.rects){assert(x>=0&&y>=0&&w>0&&h>0);assert(x+w<=a.width&&y+h<=a.height)}
  assert(bounds[2].rects[0][0]+bounds[2].rects[0][2]<bounds[2].rects[1][0],'jaguar crop excludes preceding tail');
  assert(vm.runInContext("pixelArt('fish','jaguar',true)",scope).includes('--art-position:'));
