@@ -2,8 +2,8 @@
  "rule": "gain = extra income over the effect duration versus no effect in the restaurant water; net = gain - price; October, comprehensive bait",
  "early": "rod Lv.1, sales 0",
  "late": "rod Lv.5, sales 10",
- "minNet": 21.6,
- "maxIncomePct": 17,
+ "minNet": 18.2,
+ "maxIncomePct": 17.1,
  "rows": [
   {
    "dish": "dine-sunmoon-teaegg",
@@ -92,8 +92,8 @@
    "amount": 0.13,
    "casts": 80,
    "price": 270,
-   "gain": 384.9,
-   "net": 114.9,
+   "gain": 376.6,
+   "net": 106.6,
    "incomePct": 14.9
   },
   {
@@ -105,8 +105,8 @@
    "amount": 0.13,
    "casts": 80,
    "price": 270,
-   "gain": 905.6,
-   "net": 635.6,
+   "gain": 887.3,
+   "net": 617.3,
    "incomePct": 14.9
   },
   {
@@ -118,9 +118,9 @@
    "amount": 0.1,
    "casts": 60,
    "price": 135,
-   "gain": 251.6,
-   "net": 116.6,
-   "incomePct": 11.3
+   "gain": 246.8,
+   "net": 111.8,
+   "incomePct": 11.4
   },
   {
    "dish": "dine-qigu-oysteromelet",
@@ -131,8 +131,8 @@
    "amount": 0.1,
    "casts": 60,
    "price": 135,
-   "gain": 552,
-   "net": 417,
+   "gain": 541.4,
+   "net": 406.4,
    "incomePct": 10.6
   },
   {
@@ -196,8 +196,8 @@
    "amount": 0.09,
    "casts": 60,
    "price": 135,
-   "gain": 232.9,
-   "net": 97.9,
+   "gain": 227.9,
+   "net": 92.9,
    "incomePct": 9.9
   },
   {
@@ -209,8 +209,8 @@
    "amount": 0.09,
    "casts": 60,
    "price": 135,
-   "gain": 527.6,
-   "net": 392.6,
+   "gain": 517,
+   "net": 382,
    "incomePct": 9.9
   },
   {
@@ -222,8 +222,8 @@
    "amount": 0.05,
    "casts": 40,
    "price": 45,
-   "gain": 96.1,
-   "net": 51.1,
+   "gain": 94.2,
+   "net": 49.2,
    "incomePct": 5.6
   },
   {
@@ -235,8 +235,8 @@
    "amount": 0.05,
    "casts": 40,
    "price": 45,
-   "gain": 205.2,
-   "net": 160.2,
+   "gain": 201.3,
+   "net": 156.3,
    "incomePct": 5.3
   },
   {
@@ -248,8 +248,8 @@
    "amount": 0.05,
    "casts": 40,
    "price": 45,
-   "gain": 96.1,
-   "net": 51.1,
+   "gain": 94.2,
+   "net": 49.2,
    "incomePct": 5.6
   },
   {
@@ -261,8 +261,8 @@
    "amount": 0.05,
    "casts": 40,
    "price": 45,
-   "gain": 205.2,
-   "net": 160.2,
+   "gain": 201.3,
+   "net": 156.3,
    "incomePct": 5.3
   },
   {
@@ -300,8 +300,8 @@
    "amount": 0.1,
    "casts": 60,
    "price": 135,
-   "gain": 275.8,
-   "net": 140.8,
+   "gain": 267.8,
+   "net": 132.8,
    "incomePct": 11.2
   },
   {
@@ -313,8 +313,8 @@
    "amount": 0.1,
    "casts": 60,
    "price": 135,
-   "gain": 585.7,
-   "net": 450.7,
+   "gain": 568.9,
+   "net": 433.9,
    "incomePct": 10.5
   },
   {
@@ -326,8 +326,8 @@
    "amount": 0.4,
    "casts": 80,
    "price": 270,
-   "gain": 354.5,
-   "net": 84.5,
+   "gain": 351.2,
+   "net": 81.2,
    "incomePct": 12
   },
   {
@@ -339,8 +339,8 @@
    "amount": 0.4,
    "casts": 80,
    "price": 270,
-   "gain": 879.3,
-   "net": 609.3,
+   "gain": 870.9,
+   "net": 600.9,
    "incomePct": 13
   },
   {
@@ -352,8 +352,8 @@
    "amount": 0.1,
    "casts": 60,
    "price": 135,
-   "gain": 251.8,
-   "net": 116.8,
+   "gain": 249.4,
+   "net": 114.4,
    "incomePct": 11.3
   },
   {
@@ -365,8 +365,8 @@
    "amount": 0.1,
    "casts": 60,
    "price": 135,
-   "gain": 535.5,
-   "net": 400.5,
+   "gain": 530.4,
+   "net": 395.4,
    "incomePct": 10.6
   },
   {
@@ -378,8 +378,8 @@
    "amount": 0.05,
    "casts": 40,
    "price": 45,
-   "gain": 83.9,
-   "net": 38.9,
+   "gain": 83.1,
+   "net": 38.1,
    "incomePct": 5.7
   },
   {
@@ -391,8 +391,8 @@
    "amount": 0.05,
    "casts": 40,
    "price": 45,
-   "gain": 178.5,
-   "net": 133.5,
+   "gain": 176.8,
+   "net": 131.8,
    "incomePct": 5.3
   },
   {
@@ -404,9 +404,9 @@
    "amount": 0.15,
    "casts": 80,
    "price": 270,
-   "gain": 497.1,
-   "net": 227.1,
-   "incomePct": 17
+   "gain": 482.9,
+   "net": 212.9,
+   "incomePct": 17.1
   },
   {
    "dish": "dine-tolo-mantis",
@@ -417,8 +417,8 @@
    "amount": 0.15,
    "casts": 80,
    "price": 270,
-   "gain": 1096.1,
-   "net": 826.1,
+   "gain": 1064.6,
+   "net": 794.6,
    "incomePct": 15.9
   },
   {
@@ -430,8 +430,8 @@
    "amount": 0.3,
    "casts": 60,
    "price": 135,
-   "gain": 192.1,
-   "net": 57.1,
+   "gain": 186.6,
+   "net": 51.6,
    "incomePct": 8.8
   },
   {
@@ -443,8 +443,8 @@
    "amount": 0.3,
    "casts": 60,
    "price": 135,
-   "gain": 493.5,
-   "net": 358.5,
+   "gain": 479.3,
+   "net": 344.3,
    "incomePct": 9.5
   },
   {
@@ -456,8 +456,8 @@
    "amount": 0.05,
    "casts": 40,
    "price": 45,
-   "gain": 82.8,
-   "net": 37.8,
+   "gain": 80.5,
+   "net": 35.5,
    "incomePct": 5.7
   },
   {
@@ -469,8 +469,8 @@
    "amount": 0.05,
    "casts": 40,
    "price": 45,
-   "gain": 182.7,
-   "net": 137.7,
+   "gain": 177.4,
+   "net": 132.4,
    "incomePct": 5.3
   },
   {
@@ -482,8 +482,8 @@
    "amount": 0.1,
    "casts": 60,
    "price": 135,
-   "gain": 203.5,
-   "net": 68.5,
+   "gain": 201.6,
+   "net": 66.6,
    "incomePct": 11.7
   },
   {
@@ -495,8 +495,8 @@
    "amount": 0.1,
    "casts": 60,
    "price": 135,
-   "gain": 474.1,
-   "net": 339.1,
+   "gain": 469.6,
+   "net": 334.6,
    "incomePct": 10.7
   },
   {
@@ -508,87 +508,87 @@
    "amount": 0.09,
    "casts": 60,
    "price": 135,
-   "gain": 156.6,
+   "gain": 154.9,
+   "net": 19.9,
+   "incomePct": 9.9
+  },
+  {
+   "dish": "dine-bodensee-maultaschen",
+   "name": "方形餃湯",
+   "region": "bodensee",
+   "stage": "late",
+   "effect": "speed",
+   "amount": 0.09,
+   "casts": 60,
+   "price": 135,
+   "gain": 396.1,
+   "net": 261.1,
+   "incomePct": 9.9
+  },
+  {
+   "dish": "dine-bodensee-spaetzle",
+   "name": "起司麵疙瘩",
+   "region": "bodensee",
+   "stage": "early",
+   "effect": "value",
+   "amount": 0.05,
+   "casts": 40,
+   "price": 45,
+   "gain": 67.2,
+   "net": 22.2,
+   "incomePct": 5.9
+  },
+  {
+   "dish": "dine-bodensee-spaetzle",
+   "name": "起司麵疙瘩",
+   "region": "bodensee",
+   "stage": "late",
+   "effect": "value",
+   "amount": 0.05,
+   "casts": 40,
+   "price": 45,
+   "gain": 156.5,
+   "net": 111.5,
+   "incomePct": 5.3
+  },
+  {
+   "dish": "dine-greifswald-plaice",
+   "name": "香煎鰈魚",
+   "region": "greifswald",
+   "stage": "early",
+   "effect": "value",
+   "amount": 0.1,
+   "casts": 60,
+   "price": 135,
+   "gain": 199.7,
+   "net": 64.7,
+   "incomePct": 11.7
+  },
+  {
+   "dish": "dine-greifswald-plaice",
+   "name": "香煎鰈魚",
+   "region": "greifswald",
+   "stage": "late",
+   "effect": "value",
+   "amount": 0.1,
+   "casts": 60,
+   "price": 135,
+   "gain": 442.3,
+   "net": 307.3,
+   "incomePct": 10.7
+  },
+  {
+   "dish": "dine-greifswald-bismarck",
+   "name": "俾斯麥鯡魚堡",
+   "region": "greifswald",
+   "stage": "early",
+   "effect": "value",
+   "amount": 0.05,
+   "casts": 40,
+   "price": 45,
+   "gain": 66.6,
    "net": 21.6,
-   "incomePct": 9.9
-  },
-  {
-   "dish": "dine-bodensee-maultaschen",
-   "name": "方形餃湯",
-   "region": "bodensee",
-   "stage": "late",
-   "effect": "speed",
-   "amount": 0.09,
-   "casts": 60,
-   "price": 135,
-   "gain": 400.1,
-   "net": 265.1,
-   "incomePct": 9.9
-  },
-  {
-   "dish": "dine-bodensee-spaetzle",
-   "name": "起司麵疙瘩",
-   "region": "bodensee",
-   "stage": "early",
-   "effect": "value",
-   "amount": 0.05,
-   "casts": 40,
-   "price": 45,
-   "gain": 67.8,
-   "net": 22.8,
-   "incomePct": 5.8
-  },
-  {
-   "dish": "dine-bodensee-spaetzle",
-   "name": "起司麵疙瘩",
-   "region": "bodensee",
-   "stage": "late",
-   "effect": "value",
-   "amount": 0.05,
-   "casts": 40,
-   "price": 45,
-   "gain": 158,
-   "net": 113,
-   "incomePct": 5.3
-  },
-  {
-   "dish": "dine-greifswald-plaice",
-   "name": "香煎鰈魚",
-   "region": "greifswald",
-   "stage": "early",
-   "effect": "value",
-   "amount": 0.1,
-   "casts": 60,
-   "price": 135,
-   "gain": 203.5,
-   "net": 68.5,
-   "incomePct": 11.7
-  },
-  {
-   "dish": "dine-greifswald-plaice",
-   "name": "香煎鰈魚",
-   "region": "greifswald",
-   "stage": "late",
-   "effect": "value",
-   "amount": 0.1,
-   "casts": 60,
-   "price": 135,
-   "gain": 450.9,
-   "net": 315.9,
-   "incomePct": 10.7
-  },
-  {
-   "dish": "dine-greifswald-bismarck",
-   "name": "俾斯麥鯡魚堡",
-   "region": "greifswald",
-   "stage": "early",
-   "effect": "value",
-   "amount": 0.05,
-   "casts": 40,
-   "price": 45,
-   "gain": 67.8,
-   "net": 22.8,
-   "incomePct": 5.8
+   "incomePct": 5.9
   },
   {
    "dish": "dine-greifswald-bismarck",
@@ -599,8 +599,8 @@
    "amount": 0.05,
    "casts": 40,
    "price": 45,
-   "gain": 150.3,
-   "net": 105.3,
+   "gain": 147.4,
+   "net": 102.4,
    "incomePct": 5.4
   },
   {
@@ -612,8 +612,8 @@
    "amount": 0.09,
    "casts": 60,
    "price": 135,
-   "gain": 156.6,
-   "net": 21.6,
+   "gain": 153.2,
+   "net": 18.2,
    "incomePct": 9.9
   },
   {
@@ -625,8 +625,8 @@
    "amount": 0.09,
    "casts": 60,
    "price": 135,
-   "gain": 379.2,
-   "net": 244.2,
+   "gain": 371.5,
+   "net": 236.5,
    "incomePct": 9.9
   },
   {
@@ -784,6 +784,84 @@
    "gain": 163,
    "net": 118,
    "incomePct": 5.3
+  },
+  {
+   "dish": "dine-arcachon-oysters",
+   "name": "阿卡雄生蠔",
+   "region": "arcachon",
+   "stage": "early",
+   "effect": "value",
+   "amount": 0.1,
+   "casts": 60,
+   "price": 135,
+   "gain": 206.8,
+   "net": 71.8,
+   "incomePct": 11.7
+  },
+  {
+   "dish": "dine-arcachon-oysters",
+   "name": "阿卡雄生蠔",
+   "region": "arcachon",
+   "stage": "late",
+   "effect": "value",
+   "amount": 0.1,
+   "casts": 60,
+   "price": 135,
+   "gain": 427.2,
+   "net": 292.2,
+   "incomePct": 10.7
+  },
+  {
+   "dish": "dine-arcachon-moules",
+   "name": "白酒淡菜",
+   "region": "arcachon",
+   "stage": "early",
+   "effect": "size",
+   "amount": 0.3,
+   "casts": 60,
+   "price": 135,
+   "gain": 165.7,
+   "net": 30.7,
+   "incomePct": 9.3
+  },
+  {
+   "dish": "dine-arcachon-moules",
+   "name": "白酒淡菜",
+   "region": "arcachon",
+   "stage": "late",
+   "effect": "size",
+   "amount": 0.3,
+   "casts": 60,
+   "price": 135,
+   "gain": 396.1,
+   "net": 261.1,
+   "incomePct": 10
+  },
+  {
+   "dish": "dine-arcachon-dune",
+   "name": "白沙丘泡芙",
+   "region": "arcachon",
+   "stage": "early",
+   "effect": "value",
+   "amount": 0.05,
+   "casts": 40,
+   "price": 45,
+   "gain": 68.9,
+   "net": 23.9,
+   "incomePct": 5.8
+  },
+  {
+   "dish": "dine-arcachon-dune",
+   "name": "白沙丘泡芙",
+   "region": "arcachon",
+   "stage": "late",
+   "effect": "value",
+   "amount": 0.05,
+   "casts": 40,
+   "price": 45,
+   "gain": 142.4,
+   "net": 97.4,
+   "incomePct": 5.4
   }
  ]
 }

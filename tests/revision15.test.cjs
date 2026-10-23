@@ -2,23 +2,23 @@ const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('nod
 let checks=0;const test=(name,fn)=>{fn();console.log('PASS '+name);checks++};
 test('all 56 meals have concrete preparation descriptions, independent of effect-family labels',()=>{
  for(const d of [...D.recipes,...D.dishes]){assert(d.preparation,d.id);assert(!['湯鍋燉煮','清蒸水煮','煎炸烤燻'].includes(d.preparation),d.id)}
- assert.equal(D.recipes.length+D.dishes.length,83);
+ assert.equal(D.recipes.length+D.dishes.length,86);
  for(const d of [E.recipe('kibinago-sashimi'),E.dish('dine-kenting-sashimi')]){assert.equal(d.method,'raw');assert.match(d.preparation,/生食|生切/);assert.equal(d.effect,'value')}
  assert.equal(E.dish('dine-greifswald-bismarck').method,'pickle');assert.equal(E.recipe('westlake').method,'steam');assert.equal(E.recipe('westlake').effect,'size');assert.equal(E.recipe('taimeshi').preparation,'先烤魚再與米同炊');
 });
 test('combined progress includes each discovered fish and plant once, even after sale',()=>{
- const s=E.initial(0);assert.equal(E.collectionProgress(s).total,182);assert.deepEqual(E.collectionProgress(s).fish,{caught:0,total:147});assert.deepEqual(E.collectionProgress(s).plants,{caught:0,total:30});
+ const s=E.initial(0);assert.equal(E.collectionProgress(s).total,209);assert.deepEqual(E.collectionProgress(s).fish,{caught:0,total:160});assert.deepEqual(E.collectionProgress(s).plants,{caught:0,total:31});
  s.book.carp={count:12,best:1};s.plants.hyacinth=8;assert.equal(E.collectionProgress(s).caught,2);assert.equal(s.items.length,0);
  s.book.unknown={count:1};s.plants.unknown=1;assert.equal(E.collectionProgress(s).caught,2);
- for(const f of D.fish)s.book[f.id]={count:1,best:f.min};for(const p of D.plants)s.plants[p.id]=1;assert.equal(E.collectionProgress(s).caught,177);
+ for(const f of D.fish)s.book[f.id]={count:1,best:f.min};for(const p of D.plants)s.plants[p.id]=1;assert.equal(E.collectionProgress(s).caught,191);
 });
 test('0.14 saves retain plant collection and active meal when loaded in 0.15',()=>{
  const s=E.initial(1000);s.book.carp={count:1,best:1};s.total=1;s.plants.hyacinth=2;s.weeds=2;s.buff={id:'dine-kenting-sashimi',left:20,since:1000};const t=E.migrate(JSON.parse(JSON.stringify(s)),1000);assert(t);assert.equal(E.collectionProgress(t).caught,2);assert.deepEqual(t.buff,s.buff);assert.equal(t.money,s.money);
 });
-test('eighteen pixel sheets have 251 unique slots and never draw an undiscovered species',()=>{
+test('twenty pixel sheets have 268 unique slots and never draw an undiscovered species',()=>{
  const source=fs.readFileSync(path.join(__dirname,'../collections.js'),'utf8');
  const scope={D,D,document:{addEventListener(){}},E,state:E.initial(0)};vm.createContext(scope);vm.runInContext(source,scope);
- const slots=vm.runInContext('pixelSlots',scope);assert.equal(Object.values(slots).flatMap(Object.values).length,251);assert.equal(new Set(Object.values(slots).flatMap(Object.values)).size,251);
+ const slots=vm.runInContext('pixelSlots',scope);assert.equal(Object.values(slots).flatMap(Object.values).length,268);assert.equal(new Set(Object.values(slots).flatMap(Object.values)).size,268);
  for(const f of D.fish)assert.notEqual(slots.fish[f.id],undefined,f.id);
  for(const p of D.plants)assert.notEqual(slots.plant[p.id],undefined,p.id);
  // 0.20 cooking batch 2 has no art yet and renders as text.

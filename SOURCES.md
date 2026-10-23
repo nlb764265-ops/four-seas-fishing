@@ -544,3 +544,118 @@ FishBase、臺灣魚類資料庫（人機驗證）與 TBN（403）本次無法�
 | 明石飯蛸煮付 | 飯蛸 | [神戶新聞 NEXT，2021-01-26](https://www.kobe-np.co.jp/news/akashi/202101/sp/0014031319.shtml?pg=amp)：明石浦イイダコ漁十二月起、二月高峰，旬在冬季與真蛸相反，ゆでダコ、天ぷら、煮付け |
 | 德島軟絲一夜干 | 萊氏擬烏賊 | 《徳島水研だより》第 110 號（2020 年 2 月）[〈アオリイカ料理教室〉](https://www.pref.tokushima.lg.jp/file/attachment/546406.pdf)：德島特產，料理教室介紹刺身、イカ飯、一夜干し。日本アオリイカ與臺灣軟絲屬 S. lessoniana 複合群，介紹不寫成同一族群 |
 | 小卷米粉 | 中國槍魷 | [TVBS 食尚玩家](https://supertaste.tvbs.com.tw/food/342544)、[康健雜誌](https://www.commonhealth.com.tw/article/82836)：基隆約占全國小卷產量三分之一，澎湖小卷為店家招牌，有整隻小卷的小卷米粉（搜尋摘要，待讀原文）。「小卷」泛指小型鎖管 |
+
+## 0.21 法國阿卡雄灣（查閱日期 2026-10-22）
+
+依作者 2026-10-22 指示直接實裝，未另出審閱稿。魚池權重、重量範圍、售價、許可證等級與餐廳效果為遊戲設定。
+
+### 水域與魚種選定
+
+- 魚種選定：Ifremer、Géolittomer 與 CRTS 合著《La petite pêche en Aquitaine – le bassin d'Arcachon》（Caill-Milly 等，2001 年 12 月）[PDF](https://archimer.ifremer.fr/doc/00000/1660/1293.pdf)。報告把歐洲鰻、歐洲鱸（bar commun）、金頭鯛（dorade royale）、粗唇龜鯔（mulet lippu）與金鮻、兩種鰩、鬚羊魚（rouget barbet de vase）、烏賊與歐洲鰨（sole commune）列為灣內主要魚種；1999～2000 年上岸量表中鯔類（Mulets d'Europe）14.24 公噸為魚類最多，另列灰鯛（Griset）0.49 公噸。歐洲鱸以單層刺網「loup」在滿潮前後於水道與海草床捕捉、多為幼魚；金頭鯛以 loup、jagude（三層刺網）與 palet 捕捉，比斯開灣族群夏末秋初產卵，二歲為雄、三歲後轉雌；歐洲鰨以三層刺網捕捉；粗唇龜鯔四月產卵；鬚羊魚幼魚夏末來到比斯開灣沿岸。
+- 共用的細頜針魚與歐洲川鰈：Quéro 與 Cendrero《Incidence des activités de pêche sur les poissons dans les eaux marines d'Arcachon du 18e siècle à nos jours》（Ifremer，1995 年 9 月）[PDF](https://archimer.ifremer.fr/doc/00017/12803/9746.pdf)，名錄列 Orphie commune Belone belone、Flet commun Platichthys flesus，並附當地舊稱。
+- 水域概況：[法文維基百科「Bassin d'Arcachon」](https://fr.wikipedia.org/wiki/Bassin_d%27Arcachon)：滿潮 174 平方公里、退潮 60 平方公里；水道每日約 3.7 億立方公尺海水進出、約八十年週期移動；萊爾河三角洲 2012 年 1 月列入拉姆薩濕地；牡蠣年產約 18,000 公噸、為歐洲最大牡蠣苗產地、每年逾 30 億顆幼蠔運往法國其他產區；十九世紀起以塗石灰瓦片收集蚵苗，歐洲牡蠣約 1920 年消失、1970 年葡萄牙牡蠣疫病後引進長牡蠣；鳥島高腳屋建於 1946 與 1948 年，並非看守蚵田之用；2014 年 6 月 5 日設立海洋自然公園。皮拉沙丘為歐洲最高沙丘，屬一般常識，該頁未列高度，介紹文字不寫數字。
+- 地圖：灣面在 OpenStreetMap 沒有獨立水域物件，形狀取自 Natural Earth 1:10m 陸地；萊爾河取 [OSM relation/299601（L'Eyre）](https://www.openstreetmap.org/relation/299601)。產生方式見 work/水系地圖草稿/extend21.py。釣點標記位置為灣內示意，不代表實地垂釣入口。
+
+### 魚種資料（FishBase 物種頁，經 fishbase.se 讀取文字）
+
+- 歐洲鱸 [Dicentrarchus labrax](https://www.fishbase.se/summary/Dicentrarchus-labrax.html)：東北大西洋摩洛哥至挪威、地中海與黑海南部；沿岸、河口、潟湖，偶入河川；夏季入沿岸與河口、冷季移往外海。最大 103 公分、12 公斤。胸鰭鐮刀狀、尾鰭分叉、整隻吞食獵物另據上列 Ifremer 2001 報告。
+- 金頭鯛 [Sparus aurata](https://www.fishbase.se/summary/Sparus-aurata.html)：英倫三島至維德角、地中海；海草床、沙底與碎浪帶，常見於 30 公尺以內；春季進入半淡鹹水潟湖與河口；以貝類為主，含貽貝與牡蠣；體高、鰓蓋有大黑斑。兩眼間金帶為本種通用特徵（英名 gilt-head 由此而來）。
+- 歐洲鰨 [Solea solea](https://www.fishbase.se/summary/Solea-solea.html)：特隆赫姆峽灣以南（含北海、西波羅的海）至塞內加爾與地中海；多單獨、鑽入沙泥底，冬季退往深水；幼魚前二至三年在海灣等沿岸育幼場；成魚夜間覓食蠕蟲、貝類與小型甲殼類。最大 70 公分、3 公斤。
+- 粗唇龜鯔 [Chelon labrosus](https://www.fishbase.se/summary/Chelon-labrosus.html)：冰島、法羅群島、挪威南部至維德角，地中海與黑海；近岸成群，常入半淡鹹水潟湖與淡水；夏季北移；成魚食底棲矽藻、附生藻類、小型無脊椎動物與碎屑，幼魚只吃浮游動物。最大 4.5 公斤。上唇厚而具乳突為本種通用辨識特徵。
+- 鬚羊魚 [Mullus barbatus](https://www.fishbase.se/summary/Mullus-barbatus.html)：蘇格蘭、挪威至塞內加爾，地中海與黑海；大陸棚礫石、沙與泥底，水深 10～328 公尺；食底棲小甲殼類、蠕蟲與貝類；主要以鮮魚上市。最大 680 公克。
+- 黑椎鯛 [Spondyliosoma cantharus](https://www.fishbase.se/summary/Spondyliosoma-cantharus.html)：斯堪地那維亞至納米比亞北部，地中海與黑海；海草床、岩礁與沙底至約 300 公尺；群居；雜食，吃海藻與小型無脊椎動物（尤其甲殼類）；先雌後雄；體高、具淡縱紋而無黑斑，吻長不短於眼徑；重要食用魚。最大 1.2 公斤。
+
+中文名：歐洲鱸、金頭鯛、鰨（本作稱歐洲鰨，別名列鰨、多佛鰨）、粗唇龜鯔、黑椎鯛依中文維基百科條目名（經 Dicentrarchus labrax 等學名重新導向核對）。鬚羊魚無中文維基條目，採 Mullus 屬「羊魚」的常用譯名，FishBase 中文俗名頁本次遭防爬蟲攔截，待補證。黑椎鯛別名「灰鯛」譯自法文 dorade grise。
+
+### 法語名稱
+
+依上列 Ifremer 2001 報告與 Quéro & Cendrero 1995 名錄的法文名：歐洲鱸 Bar commun（地中海稱 Loup，FishBase 法文俗名）；金頭鯛 Dorade royale（亦作 Daurade royale）；歐洲鰨 Sole commune；粗唇龜鯔 Mulet lippu；鬚羊魚 Rouget barbet de vase；黑椎鯛 Griset、Dorade grise；細頜針魚 Orphie commune；歐洲川鰈 Flet commun。
+
+### 水草
+
+- 大葉藻：Ifremer 阿卡雄實驗室依水框架指令監測灣東側「Arcachon amont」水體的 Zostera marina 與 Z. noltei，該處是灣內唯一 Z. marina 大量出現的地點（[Ifremer 報告](https://archimer.ifremer.fr/doc/00214/32571/31039.pdf)，搜尋摘要）。
+- 滸苔：灣內自 1982 年起記錄到 Enteromorpha 屬綠藻夏季大量增生（[OIEau 文獻摘要〈Étude de la prolifération des algues vertes dans le bassin d'Arcachon〉](https://www.oieau.fr/eaudoc/oai/Etude-de-la-prolif%C3%A9ration-des-algues-vertes-dans-le-bassin-dArcachon)）；Enteromorpha 已併入 Ulva 屬，報告未逐種鑑定，本作以滸苔代表。石蓴未找到灣內專屬紀錄，不列入。
+
+### 餐廳：蚵棚小館
+
+| 菜名 | 效果 | 來源 |
+| --- | --- | --- |
+| 阿卡雄生蠔 Huîtres du Bassin d'Arcachon | 生食，家常 | 牡蠣年產與苗產地見上列法文維基；灣邊蚵棚（cabanes ostréicoles）供生蠔品嚐，見[吉倫特 DDTM 海洋事務文件](https://www.dirm.sud-atlantique.developpement-durable.gouv.fr/IMG/pdf/2_4_la_conchyliculture.pdf)及古炎-梅斯特拉港蚵棚品嚐的旅遊資訊（搜尋摘要） |
+| 白酒淡菜 Moules marinières | 清蒸汆煮，家常 | [法文維基百科「Moules marinières」](https://fr.wikipedia.org/wiki/Moules_marini%C3%A8res)：奶油、紅蔥頭、白酒、香芹，常配薯條；源於夏朗德。阿卡雄灣 1999～2000 年上岸表亦列貽貝（Moules）22.31 公噸（Ifremer 2001） |
+| 白沙丘泡芙 Dune blanche | 小吃 | [Sortir à Paris](https://www.sortiraparis.com/hotels-and-restaurants/fooding/articles/195431-dunes-blanches-in-paris/lang/en) 等多家報導：麵包師傅 Pascal Lucas 2007 年在費雷角半島 Piquey 首創，撒糖小泡芙填輕奶油餡，名稱取自白色沙丘；2009 年註冊商標。奶油餡配方未公開，介紹只寫「輕盈的奶油餡」 |
+
+考慮後未採用：波爾多式燉七鰓鰻（Lamproie à la bordelaise，搜尋只找到來源不明的鏡像食譜）。
+
+### 經濟
+
+新魚售價依同為 4 級許可證的格賴夫斯瓦爾德潟湖比照：各餌料平均每竿收益（全年、Lv.1／Lv.3／Lv.5 釣竿），阿卡雄灣麵團約 31～32、蝦肉 30～34、小魚 30～36 元；格賴夫斯瓦爾德潟湖麵團 29～33、蝦肉 28～31、小魚 31～37 元。最大重量 2.2 公斤以上的歐洲鱸、金頭鯛、粗唇龜鯔需 Lv.3 釣竿。
+
+### 0.21 補魚：阿卡雄灣第 2 批（查閱日期 2026-10-23）
+
+依作者 2026-10-23 指示補充並覆蓋 0.21，未另出審閱稿。選種以 Ifremer 2001 報告為準：補齊報告列為灣內主要魚種、第 1 批尚未收錄的歐洲鰻鱺（anguille d'Europe）、金鮻（mulet doré）、背棘鰩（raie bouclée）與波鰩（raie brunette），再加入 1999～2000 年上岸表中量較多的塞內加爾鰨（Sole sénégalaise 3.28 公噸，多於歐洲鰨 1.92 公噸）與歐洲康吉鰻（Congre commun 1.39 公噸）。上岸表的白鯛（Sar commun，Diplodus sargus，2.14 公噸）查無可靠中文名，暫不收錄；烏賊（Seiches，131.68 公噸）屬頭足類，不在本批魚種範圍。
+
+報告內容：歐洲鰻鱺在馬尾藻海產卵，幼生（柳葉魚）隨墨西哥灣流漂到歐洲，最大補充量在比斯開灣，於大陸棚變態為玻璃鰻；成鰻為活躍掠食者，吃魚、昆蟲與貝類；灣內以鰻籠（verveux）捕撈，上岸表另列玻璃鰻（Civelle）0.93 公噸。金鮻產卵期十月至十一月。兩種鰩最大體長約 1.15 公尺（背棘鰩）與 1 公尺（波鰩），雌魚較大，吃甲殼類與雙殼貝。
+
+物種資料（FishBase 物種頁，經 fishbase.se 讀取文字）：
+
+- 歐洲鰻鱺 [Anguilla anguilla](https://www.fishbase.se/summary/Anguilla-anguilla.html)：斯堪地那維亞至摩洛哥的大西洋沿岸、波羅的海、地中海與黑海及相連河川；身體前段圓筒、後段側扁，下頜略長，背、尾、臀鰭相連，背鰭起點遠在胸鰭後；棲於溪流至大河、湖岸各種水底，只見於與海相通的水域；單獨、有地盤性；馬尾藻海產卵。IUCN 極危（2018-11-07 評估）。最大 6.6 公斤。
+- 金鮻 [Chelon auratus](https://www.fishbase.se/summary/Chelon-auratus.html)：英倫三島、北海至西非外海諸島，地中海與黑海；胸鰭較長、基部無黑斑，鰓蓋有金斑；成群近岸，進入潟湖與河口下游，罕入淡水；幼魚冬春移入潟湖與河口；吃底棲小生物、碎屑，偶食昆蟲與浮游生物。最大 2.5 公斤。IUCN 近危。
+- 波鰩 [Raja undulata](https://www.fishbase.se/summary/Raja-undulata.html)：英倫三島南部至幾內亞比索，地中海；大陸棚沙底；吃各種底棲動物；卵鞘長方形、四角有尖角，產在沙泥灘。IUCN 近危。背面波浪狀花紋為英名 undulate ray 由來。
+- 背棘鰩 [Raja clavata](https://www.fishbase.se/summary/Raja-clavata.html)：冰島至馬達加斯加，含地中海；近菱形、吻短圓、胸鰭外角明顯；背面粗糙，頸至尾一列 30～50 枚棘，大型雌魚腹面也有刺；常見於 10～60 公尺沿岸泥、沙、礫底，耐低鹽；夜行性，偏好甲殼類，也吃魚；最大 18 公斤。IUCN 近危。
+- 塞內加爾鰨 [Solea senegalensis](https://www.fishbase.se/summary/Solea-senegalensis.html)：比斯開灣至塞內加爾、安哥拉，西地中海較少；有眼側胸鰭鰭膜黑色，歐洲鰨則為胸鰭後端一塊黑斑；沿岸 100 公尺內沙泥底，也入半淡鹹水湖；食底棲無脊椎動物；商業捕撈，試驗性養殖。
+- 歐洲康吉鰻 [Conger conger](https://www.fishbase.se/summary/Conger-conger.html)：挪威、冰島至塞內加爾，地中海與黑海；岩礁與沙底 0～500 公尺，幼魚近岸、成魚移往深水；夜行性，捕食魚、甲殼類與頭足類；一生只繁殖一次，5～15 歲成熟；全長可達 3 公尺。無鱗、背鰭起於胸鰭附近為鰻形魚通用特徵。
+
+中文名：歐洲鰻鱺、金鮻、波鰩、背棘鰩、塞內加爾鰨、歐洲康吉鰻依中文維基百科條目名（經英文維基學名條目的語言連結核對，2026-10-23）。
+
+法語名：Anguille d'Europe、Mulet doré、Raie brunette、Raie bouclée、Sole du Sénégal（Ifremer 2001 上岸表寫作 Sole sénégalaise）、Congre commun，依上列 Ifremer 2001 報告與 Quéro & Cendrero 1995 名錄。
+
+遊戲設定：基礎售價（×3 前）21／11／14／15／15／15 元；背棘鰩與歐洲康吉鰻最大重量 4 公斤以上，需 Lv.5 釣竿，波鰩需 Lv.3。歐洲鰻鱺夜晚限定（比照日本鰻鱺），歐洲康吉鰻、背棘鰩、塞內加爾鰨夜晚較常見。補魚後全年平均每竿收益：麵團約 30～31 元、蝦肉 31～34 元、小魚 33～38 元；格賴夫斯瓦爾德潟湖為 29～33、28～31、31～37 元。本批 6 種魚暫無配圖，以文字顯示。
+
+### 0.21 補充物種：阿卡雄灣第 3 批（查閱日期 2026-10-23）
+
+依作者 2026-10-23 指示補全阿卡雄灣的物種並覆蓋 0.21：1 種魚、4 種水生動物、1 種水草。
+
+- 沙重牙鯛 [Diplodus sargus](https://www.fishbase.se/summary/Diplodus-sargus.html)：Ifremer 2001 上岸表 Sar commun 2.14 公噸。中文名依[中文維基百科「重牙鯛屬」](https://zh.wikipedia.org/wiki/%E9%87%8D%E7%89%99%E9%AF%9B%E5%B1%AC)的物種表：Diplodus sargus 為沙重牙鯛；作者提供的「少帶重牙鯛」在同表是亞種 D. sargus lineatus，不是本種。FishBase：體側 5 條黑帶與 4 條灰帶，吻長大於眼徑；沿岸岩礁與海草床，0～50 公尺；活躍，常在黎明進入碎浪帶；從岩石上啄食貝類等底棲無脊椎動物；布列塔尼至直布羅陀、馬德拉，地中海、黑海西南部，南至南非；小型商業漁業、養殖與遊釣。最大 1.9 公斤。法語 Sar commun。
+- 歐洲烏賊 Sepia officinalis：Ifremer 2001 報告列為灣內主要物種，上岸表 Seiches 為頭足類最多。報告：春夏於沿岸產卵、約二歲成熟、每雌約 3,000 粒卵成串附著；秋季未成熟個體移往深水；以兩條觸腕捕捉甲殼類與魚；全灣以刺網與烏賊籠捕撈。[SeaLifeBase](https://www.sealifebase.se/summary/Sepia-officinalis.html)：設得蘭群島、挪威南部至西北非與地中海；溫帶最大外套膜長 49 公分、4 公斤；在日本、韓國、義大利、西班牙尤受重視。中文名：中文維基與 FAO 名錄均無中文條目，「歐洲烏賊」為依分布取的名稱，作者於 2026-10-23 核定採用。法語 Seiche commune。
+- 普通章魚 [Octopus vulgaris](https://www.sealifebase.se/summary/Octopus-vulgaris.html)：上岸表 Poulpes 5.72 公噸（Ifremer 2001，未分種，以本種代表）。溫帶與熱帶環球分布；沿岸岩礁、沙、泥底至大陸棚緣，常見於 150 公尺內；地中海最有價值的章魚之一。中文名依中文維基「普通章魚」，別名真蛸為日文名漢字。法語 Poulpe。
+- 普通濱蟹 [Carcinus maenas](https://www.sealifebase.se/summary/Carcinus-maenas.html)：上岸表 Crabe vert d'Europe。背甲寬常見 5 公分、最大 7.7 公分；潮間帶至 200 公尺，石下、泥沙底，也見於半淡鹹水潟湖與海草床；冰島、挪威至茅利塔尼亞，已引入北美、南非、澳洲。背甲前緣兩側五齒為本種通用辨識特徵。中文名依中文維基「普通濱蟹」。法語 Crabe vert。
+- 褐蝦 [Crangon crangon](https://www.sealifebase.se/summary/Crangon-crangon.html)：上岸表 Crevette grise 1.11 公噸。最大 8.9 公分；海水與低鹽水域、半淡鹹水潟湖，細沙或略帶泥的沙底；幼蝦在海草床與沙灘；肉食性，吃小型甲殼類、環節動物與貝類；東北大西洋與地中海。中文名依中文維基「褐蝦」。法語 Crevette grise。
+- 諾氏大葉藻 Zostera noltei：[MarLIN](https://www.marlin.ac.uk/species/detail/1409)：葉長 6～22 公分、寬 0.5～1.5 公釐，葉尖鈍、常有缺刻，匍匐地下莖固定沉積物；潮間帶泥灘與富含有機質的細沙；挪威南部至茅利塔尼亞，地中海與黑海只見於半淡鹹水。Ifremer《Suivi stationnel (2006-2022) des herbiers de zostères … FRFC06 Arcachon amont》（2023 年 8 月，[PDF](https://archimer.ifremer.fr/doc/00850/96227/104389.pdf)）表 15：Z. noltei 1989 年 6,846 公頃、2019 年 3,856 公頃（−44%）；Z. marina 1989 年 381 公頃，較最大範圍減少 85%；黑雁冬季大量取食矮型大葉藻。中文名：查無中文條目；「矮大葉藻」在中國植物志是 Zostera japonica 的名稱，不可沿用，「諾氏大葉藻」為依種小名取的名稱，作者於 2026-10-23 核定採用。大葉藻原有的阿卡雄灣說明據此改為「面積比 1988 年減少約八成五」。
+
+遊戲設定：沙重牙鯛基礎售價（×3 前）13 元，蝦肉餌。水生動物每隻售價：歐洲烏賊 45、普通章魚 52、普通濱蟹 36、褐蝦 30 元；餌料依序為蝦肉、小魚、小魚、蝦肉，蝦肉餌說明改為「適合部分河口魚、沿岸魚、頭足類與海蝦」。四種動物暫不作料理材料（「尚未開放料理用途」），待查到使用該物種的菜式來源後再開放。水草權重：諾氏大葉藻 50、大葉藻 20、滸苔 30。補充後全年平均每竿收益：麵團 30～31、蝦肉 30～33、小魚 31～35 元（格賴夫斯瓦爾德潟湖 29～33、28～31、31～37）。本批全部暫無配圖。
+
+
+## 0.21 水母（查閱日期 2026-10-23）
+
+水母是任何魚餌都可能勾到的混獲，會消耗該竿魚餌，售價 2 元、不可食用，另設「水母」分類；混獲機率（各水域 1～3%）、重量與價格都是遊戲設定。下列觀察紀錄只支持該種曾在水域附近出現，不代表數量或季節。分布紀錄多來自 GBIF 收錄的 iNaturalist 研究級觀察與香港水母普查（HKJP）資料集。
+
+### 水域配置與分布依據
+
+| 水域 | 水母（權重＝每竿百分比） | 依據 |
+|---|---|---|
+| 博登湖 | 桃花水母 1 | [聖加侖州《Quallen im Bodensee》](https://www.sg.ch/umwelt-natur/wasser/eingetaucht--wasserwissen/quallen-im-bodensee-.html)：1999 年於哈德灣首次發現、2018 年炎夏再現；傘徑最多 2.5 公分、含水 99.3%；水溫超過 25 °C 才形成水母；對人無害，不具入侵性。 |
+| 格賴夫斯瓦爾德潟湖 | 海月水母 2 | [GBIF 6431812014](https://www.gbif.org/occurrence/6431812014)（格賴夫斯瓦爾德港，2026-07-04）；水域方框內共 118 筆。德國北海與波羅的海最常見、夏季至初秋出現見 [Euronews 2026-07-09](https://de.euronews.com/2026/07/09/gefahrliche-quallen-deutschland-mittelmeer-ostsee-nordsee-baden)。 |
+| 阿卡雄灣 | 海月水母、根口水母、羅盤水母各 0.5 | 海月水母：[GBIF 3310239281](https://www.gbif.org/occurrence/3310239281)（UMS PatriNat，2001，灣內）。根口水母：[GBIF 6188025262](https://www.gbif.org/occurrence/6188025262)、[GBIF 4465667215](https://www.gbif.org/occurrence/4465667215)（阿卡雄市沿岸），方框內 27 筆。羅盤水母：[GBIF 5215849478](https://www.gbif.org/occurrence/5215849478)、[GBIF 5216420240](https://www.gbif.org/occurrence/5216420240)（費雷角）。 |
+| 基隆沿岸 | 白色霞水母 2 | [GBIF 6195362134](https://www.gbif.org/occurrence/6195362134)（基隆中正區，2026-04-04）。 |
+| 龍洞岩岸 | 白色霞水母 2、希維茨基斯氏箱形水母 1 | 白色霞水母：[GBIF 6184787970](https://www.gbif.org/occurrence/6184787970)、[GBIF 6334470894](https://www.gbif.org/occurrence/6334470894)（貢寮龍洞）。箱形水母：[GBIF 5230358415](https://www.gbif.org/occurrence/5230358415)（龍洞岬，2025-07-05）、[GBIF 5230846085](https://www.gbif.org/occurrence/5230846085)（東北角蝙蝠洞）。 |
+| 七股潟湖 | 倒立水母 2 | [GBIF 4522536615](https://www.gbif.org/occurrence/4522536615)、[GBIF 4420687622](https://www.gbif.org/occurrence/4420687622)（臺南將軍區沿岸，七股潟湖北側），方框內 27 筆；未找到潟湖內本身的紀錄，標記為鄰近水域。 |
+| 墾丁沿岸 | 倒立水母 1 | [GBIF 3923354491](https://www.gbif.org/occurrence/3923354491)（車城後灣，2022-02-26），僅 1 筆，位於恆春半島西側。 |
+| 吐露港 | 白色霞水母、鞭腕水母、澳洲斑點水母各 1 | 白色霞水母：[GBIF 6192459506](https://www.gbif.org/occurrence/6192459506)（烏溪沙渡頭灣）。鞭腕水母：[GBIF 6192459749](https://www.gbif.org/occurrence/6192459749)（海星灣）；[香港水母普查](https://zh.hkjellyfish.com/hk-species)記 2021 年吐露港大量出現。澳洲斑點水母：[GBIF 6192459791](https://www.gbif.org/occurrence/6192459791)（吐露海峽）、[GBIF 6192459626](https://www.gbif.org/occurrence/6192459626)（榕樹澳紅樹林）。 |
+
+日月潭、曾文水庫、關渡、澎湖內海、琵琶湖、霞浦湖：查無可確認物種與水域的水母紀錄，暫不配置，待查。澎湖有 Aurelia malayensis 與 Lychnorhiza malayensis 各 1 筆 iNaturalist 紀錄（[GBIF 6470071896](https://www.gbif.org/occurrence/6470071896)、[GBIF 6500196785](https://www.gbif.org/occurrence/6500196785)），因查無可靠中文名而未收錄；基隆八斗子另有中華黃金水母 Chrysaora chinensis 1 筆（[GBIF 4525214199](https://www.gbif.org/occurrence/4525214199)），因形態資料不足未收錄。
+
+### 物種資料
+
+| ID／中文名 學名 | 來源 |
+|---|---|
+| freshwaterjelly／桃花水母 Craspedacusta sowerbii | [SeaLifeBase](https://www.sealifebase.se/summary/Craspedacusta-sowerbii.html)：傘徑最大 2.5 公分；從小池塘到大型水庫；水母季節性出現於夏季至初秋；以浮游動物為食。中文名「桃花水母」見[中央社 2017](https://www.cna.com.tw/news/acn/201707220160.aspx)。德語 Süßwasserqualle 見聖加侖州頁面。 |
+| moonjelly／海月水母 Aurelia aurita | [SeaLifeBase](https://www.sealifebase.se/summary/Aurelia-aurita.html)：環球分布、傘徑 40～50 公分、半透明帶粉紅藍紫、四個馬蹄形生殖腺、也見於半淡鹹水、峽灣與河口。刺輕微、「月亮水母」俗名見香港水母普查。德語 Ohrenqualle 見 Euronews；法語 Aurélie 見 [ARS Bretagne 水母指南](https://bretagne.ars.sante.fr/media/14267/download)。 |
+| nozakii／白色霞水母 Cyanea nozakii | [香港水母普查](https://zh.hkjellyfish.com/hk-species)：中文名、香港最常見且為螫傷主因、中層水域、印度—西太平洋。[SeaLifeBase](https://www.sealifebase.se/summary/Cyanea-nozakii.html)：乳白色、胃囊間水管網狀吻合；SeaLifeBase 記最大傘徑 26 公分，香港資料記約 120 公分，兩者不一，介紹不寫傘徑。 |
+| upsidedownjelly／倒立水母 Cassiopea andromeda | 中文名依 [TaiCOL t0077590](https://taicol.tw/zh-hant/taxon/t0077590)。[SeaLifeBase](https://www.sealifebase.se/summary/Cassiopea-andromeda.html)：黃褐色帶白斑、傘徑最大 30 公分、常倒置於水底被誤認為海葵；淺水潟湖、沙泥灘、紅樹林與海草床；有毒（Venomous）。 |
+| boxjelly／希維茨基斯氏箱形水母 Copula sivickisi | 中文名依維基數據 [Q2469196](https://www.wikidata.org/wiki/Q2469196)。[SeaLifeBase](https://www.sealifebase.se/summary/Copula-sivickisi.html)：最大 1.4 公分；嚴格夜行，白天附著底質；多在珊瑚礁，夜間於表層以視覺獵捕浮游甲殼類；對人無害（Harmless）。 |
+| acromitus／鞭腕水母 Acromitus flagellatus | 中文名與俗名「端鞭水母、四草水母」見香港水母普查（六月起大量出現、2021 年吐露港）。[SeaLifeBase](https://www.sealifebase.se/summary/Acromitus-flagellatus.html)：傘徑 12 公分、傘面光滑或細顆粒、口腕約與傘徑等長並有細絲末端；紅樹林與河口；印尼、馬來西亞、印度與臺灣。 |
+| spottedjelly／澳洲斑點水母 Phyllorhiza punctata | 中文名依維基數據 [Q1509691](https://www.wikidata.org/wiki/Q1509691)。[SeaLifeBase](https://www.sealifebase.se/summary/Phyllorhiza-punctata.html)：藍褐色帶白點、最大 60 公分、八條透明分枝口腕末端有褐色刺細胞團；近岸港灣與河口混濁水域、紅樹林；印度—太平洋、西大西洋與地中海。 |
+| rhizostome／根口水母 Rhizostoma octopus | [SeaLifeBase](https://www.sealifebase.se/summary/Rhizostoma-octopus.html)：東北大西洋，北緯 38～73 度，最大 90 公分，對人無害。ARS Bretagne 指南稱 Rhizostome（Rhyzostoma octopus），又稱 Poumon de mer；無觸手的描述亦據 ARS 水母資料。中文名取根口水母屬（Rhizostoma）的屬名，維基數據的「桶水母」標於地中海的 R. pulmo，故不採用；此名由 Agent 擬定，作者於 2026-10-23 核定採用。 |
+| compassjelly／羅盤水母 Chrysaora hysoscella | [SeaLifeBase](https://www.sealifebase.se/summary/Chrysaora-hysoscella.html)：傘徑 20 公分、16 條褐色放射寬帶與深色 V 形細線、每區 3 條觸手；近岸、0～150 公尺、黃昏較多；大西洋與地中海。法語 Méduse rayonnée（又稱 méduse boussole）見 ARS Bretagne；中文名依英、法俗名（compass jellyfish／méduse boussole）意譯，由 Agent 擬定，作者於 2026-10-23 核定採用。 |
+
+台語、客語與粵語名稱：未找到專指上述物種的辭典條目，待查。
