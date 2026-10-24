@@ -480,6 +480,7 @@ main{max-width:1320px;margin:0 auto;padding:30px 32px 48px}
 .help-copy details{border-top:1px solid var(--line);padding:10px 0}
 .help-copy summary{cursor:pointer;font-weight:700;font-size:16px}
 .help-copy details p{margin:8px 0 0;font-size:15px;line-height:1.9}
+.update-notes ul{margin:8px 0 0;padding-left:20px;font-size:15px;line-height:1.8}
 .settings-side .language-switch{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--line);border-radius:8px;overflow:hidden}
 .settings-side .language-switch button{min-height:44px;border-radius:0;font-size:15px;text-decoration:none}
 .settings-side .language-switch button[aria-pressed=true]{background:var(--green);color:#fff;text-decoration:none}

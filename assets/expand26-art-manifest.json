@@ -1,0 +1,624 @@
+[
+  {
+    "id": "yellowcheek",
+    "name": "鱤",
+    "kind": "fish",
+    "subject": "Elopichthys bambusa 細長梭形大魚、頭尖吻長、口大而前位、體側銀白、鰓蓋與頰部帶黃色、背鰭位置偏後、尾鰭深叉",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-fce4ed7b-624c-44a9-a56a-6ca22e5a8321.png",
+    "file": "assets/sprites16/fish-yellowcheek.png",
+    "webp": "assets/sprites16/fish-yellowcheek.webp",
+    "size": [
+      320,
+      103
+    ],
+    "sourceBytes": 1053432,
+    "pngBytes": 39916,
+    "webpBytes": 11880,
+    "alphaBounds": [
+      12,
+      12,
+      308,
+      91
+    ],
+    "sha256": "480ace62dda8bd45ebf0f4fa759e99faede1bd6be2461211962ee3f62a5562a1"
+  },
+  {
+    "id": "barbelchub",
+    "name": "赤眼鱒",
+    "kind": "fish",
+    "subject": "Squaliobarbus curriculus 長而略呈圓筒形、眼睛上緣有紅斑、每片鱗基部有黑點連成縱列、尾鰭灰色叉形",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-322c89c9-7318-4357-8952-15cdc03c2de7.png",
+    "file": "assets/sprites16/fish-barbelchub.png",
+    "webp": "assets/sprites16/fish-barbelchub.webp",
+    "size": [
+      320,
+      147
+    ],
+    "sourceBytes": 979544,
+    "pngBytes": 56367,
+    "webpBytes": 15342,
+    "alphaBounds": [
+      12,
+      12,
+      308,
+      135
+    ],
+    "sha256": "bc382c44d6b88fbbc1c4112ef78f09aa7424379f48cbe2049121bb04d0726e17"
+  },
+  {
+    "id": "spottedsteed",
+    "name": "花䱻",
+    "kind": "fish",
+    "subject": "Hemibarbus maculatus 身體略長、吻部尖、口下一對短鬚、背部與體側散布大小不一的黑斑",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-3fcd1f9b-17b4-4763-a2c2-de8b358ee13c.png",
+    "file": "assets/sprites16/fish-spottedsteed.png",
+    "webp": "assets/sprites16/fish-spottedsteed.webp",
+    "size": [
+      320,
+      125
+    ],
+    "sourceBytes": 1173423,
+    "pngBytes": 50016,
+    "webpBytes": 14850,
+    "alphaBounds": [
+      12,
+      12,
+      308,
+      113
+    ],
+    "sha256": "066678a555c1862e968b2d2748b390375def1b87714db7eb2007a4f84ae6c7f9"
+  },
+  {
+    "id": "xenocypris",
+    "name": "黃尾鯝",
+    "kind": "fish",
+    "subject": "Xenocypris davidi 側扁、頭小、口小而下位、體色銀白、尾鰭明顯黃至橘黃",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-36d247a0-a500-436e-b998-b4b38a2e56c6.png",
+    "file": "assets/sprites16/fish-xenocypris.png",
+    "webp": "assets/sprites16/fish-xenocypris.webp",
+    "size": [
+      320,
+      144
+    ],
+    "sourceBytes": 950090,
+    "pngBytes": 55376,
+    "webpBytes": 15352,
+    "alphaBounds": [
+      12,
+      12,
+      308,
+      132
+    ],
+    "sha256": "53aa41772ab8a8c16e528885afe638f3a1c966c517d1bb6ed9f2bb6c7224af40"
+  },
+  {
+    "id": "nitidcatfish",
+    "name": "光澤黃顙魚",
+    "kind": "fish",
+    "subject": "Tachysurus nitidus 鱨科、頭扁、四對鬚、黃褐而有光澤、背鰭與胸鰭硬棘、脂鰭；比既有黃顙魚細長、斑塊較少，不可直接換色沿用",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-63b3a563-ccbe-47e9-9719-161c06d4ee8d.png",
+    "file": "assets/sprites16/fish-nitidcatfish.png",
+    "webp": "assets/sprites16/fish-nitidcatfish.webp",
+    "size": [
+      320,
+      132
+    ],
+    "sourceBytes": 857452,
+    "pngBytes": 43627,
+    "webpBytes": 15308,
+    "alphaBounds": [
+      12,
+      12,
+      308,
+      120
+    ],
+    "sha256": "55579580fa1a5768e45e21e06918e299d236bf7543c1914fa19e1e411122d17c"
+  },
+  {
+    "id": "arcticchar",
+    "name": "北極紅點鮭",
+    "kind": "fish",
+    "subject": "Salvelinus alpinus 鮭形、背部暗橄欖綠、體側淡色圓斑、腹部橘紅、胸腹臀鰭前緣白邊、脂鰭；不可沿用既有阿爾卑斯紅點鮭",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-faf89db0-8921-449b-bb8d-9c33baf9d6e6.png",
+    "file": "assets/sprites16/fish-arcticchar.png",
+    "webp": "assets/sprites16/fish-arcticchar.webp",
+    "size": [
+      320,
+      139
+    ],
+    "sourceBytes": 937514,
+    "pngBytes": 53667,
+    "webpBytes": 15124,
+    "alphaBounds": [
+      12,
+      12,
+      308,
+      127
+    ],
+    "sha256": "7a03ae116cbd515efc98aeedcf3feba6eb983c1ea0a59e13594fa317ddc9cea6"
+  },
+  {
+    "id": "grayling",
+    "name": "茴魚",
+    "kind": "fish",
+    "subject": "Thymallus thymallus 背鰭特別高大如帆且帶紫紅斑紋、鱗片大、口小、脂鰭、體側灰銀",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-46b3e86d-2301-4e7d-9d4f-5e0bc54f60d1.png",
+    "file": "assets/sprites16/fish-grayling.png",
+    "webp": "assets/sprites16/fish-grayling.webp",
+    "size": [
+      320,
+      155
+    ],
+    "sourceBytes": 1066311,
+    "pngBytes": 63294,
+    "webpBytes": 16956,
+    "alphaBounds": [
+      12,
+      12,
+      308,
+      143
+    ],
+    "sha256": "4981134f0347baeffa25c1d7bc72e2395cc9aab5641ae673f1301fd72f9aa3c7"
+  },
+  {
+    "id": "vendace",
+    "name": "歐白鮭",
+    "kind": "fish",
+    "subject": "Coregonus albula 小型細長銀色、下頜略突出於上頜、脂鰭、尾鰭叉形",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-cde8908f-1cbd-4840-b312-d50550604eb6.png",
+    "file": "assets/sprites16/fish-vendace.png",
+    "webp": "assets/sprites16/fish-vendace.webp",
+    "size": [
+      320,
+      133
+    ],
+    "sourceBytes": 734286,
+    "pngBytes": 46887,
+    "webpBytes": 12238,
+    "alphaBounds": [
+      12,
+      12,
+      308,
+      121
+    ],
+    "sha256": "0f94804704ead5bc6ae9abfa270d46123e84907203d01b6c396e1a134beb60b4"
+  },
+  {
+    "id": "commonwhitefish",
+    "name": "衰白鮭",
+    "kind": "fish",
+    "subject": "Coregonus maraena 銀白側扁、頭小、吻端鈍而略突出於口前、脂鰭、尾鰭叉形；體高大於歐白鮭，也不可沿用既有博登湖白鮭",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-1f34b254-f282-4972-a31b-72adf0a645d8.png",
+    "file": "assets/sprites16/fish-commonwhitefish.png",
+    "webp": "assets/sprites16/fish-commonwhitefish.webp",
+    "size": [
+      320,
+      153
+    ],
+    "sourceBytes": 954317,
+    "pngBytes": 57703,
+    "webpBytes": 14714,
+    "alphaBounds": [
+      12,
+      12,
+      308,
+      141
+    ],
+    "sha256": "de3bc6833522c8f6cf696da09be9e77bdde9e505b1163e4d875406fd366484dc"
+  },
+  {
+    "id": "smelt",
+    "name": "歐洲胡瓜魚",
+    "kind": "fish",
+    "subject": "Osmerus eperlanus 細長半透明、口大有細齒、下頜突出、體側一道銀色縱帶、脂鰭",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-371d88cb-eb74-4b0c-aab7-9d4718471e38.png",
+    "file": "assets/sprites16/fish-smelt.png",
+    "webp": "assets/sprites16/fish-smelt.webp",
+    "size": [
+      320,
+      115
+    ],
+    "sourceBytes": 894114,
+    "pngBytes": 39683,
+    "webpBytes": 11348,
+    "alphaBounds": [
+      12,
+      12,
+      308,
+      103
+    ],
+    "sha256": "17cef4a2d012b824be8cbd45493ef52519a82daa8005b49645dafb706f66f93e"
+  },
+  {
+    "id": "fourhorn",
+    "name": "四角床杜父魚",
+    "kind": "fish",
+    "subject": "Myoxocephalus quadricornis 頭大而扁、頭頂四個骨質突起、身體向後漸細、胸鰭寬大、無鱗、灰褐雲斑",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-335352e4-448b-4337-b3d2-34cd3c93b567.png",
+    "file": "assets/sprites16/fish-fourhorn.png",
+    "webp": "assets/sprites16/fish-fourhorn.webp",
+    "size": [
+      320,
+      134
+    ],
+    "sourceBytes": 968887,
+    "pngBytes": 58940,
+    "webpBytes": 16642,
+    "alphaBounds": [
+      12,
+      12,
+      308,
+      122
+    ],
+    "sha256": "22508eb93231ff5f398ce7bac7fa4550498480b30fc551bc481afd644a0a613b"
+  },
+  {
+    "id": "stickleback",
+    "name": "三刺魚",
+    "kind": "fish",
+    "subject": "Gasterosteus aculeatus 體形小、背上三根分開的硬棘、腹鰭棘、體側骨板；以繁殖期雄魚喉腹部紅色呈現",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-45c5bb5d-a2e5-49a8-94aa-45bbcbc1f80a.png",
+    "file": "assets/sprites16/fish-stickleback.png",
+    "webp": "assets/sprites16/fish-stickleback.webp",
+    "size": [
+      320,
+      148
+    ],
+    "sourceBytes": 1052292,
+    "pngBytes": 57508,
+    "webpBytes": 16282,
+    "alphaBounds": [
+      12,
+      12,
+      308,
+      136
+    ],
+    "sha256": "527a692edbc002b8c36d33679e9c3f98901084f25a765c71cab5cc526da764e6",
+    "revision": "2026-10-24 anatomy redraw"
+  },
+  {
+    "id": "commongoby",
+    "name": "普通細鰕虎",
+    "kind": "fish",
+    "subject": "Pomatoschistus microps 極小、淡沙色半透明帶細點、兩枚背鰭、第一背鰭後部暗斑",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-3f88dbb3-236b-4c9c-9cbe-f8dca50c547d.png",
+    "file": "assets/sprites16/fish-commongoby.png",
+    "webp": "assets/sprites16/fish-commongoby.webp",
+    "size": [
+      320,
+      124
+    ],
+    "sourceBytes": 1075948,
+    "pngBytes": 50831,
+    "webpBytes": 15574,
+    "alphaBounds": [
+      12,
+      12,
+      308,
+      112
+    ],
+    "sha256": "7a4cb126a4d63c6c42feb8185026cddc063779ee20e14f69798de1c1fb7cf2aa"
+  },
+  {
+    "id": "sandgoby",
+    "name": "沙細鰕虎",
+    "kind": "fish",
+    "subject": "Pomatoschistus minutus 比普通細鰕虎稍長、沙黃色帶網狀紋、第一背鰭後端藍黑斑；兩種細鰕虎要能分辨",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-42fb903d-da8d-4b32-a09f-4eb386d58f2c.png",
+    "file": "assets/sprites16/fish-sandgoby.png",
+    "webp": "assets/sprites16/fish-sandgoby.webp",
+    "size": [
+      320,
+      129
+    ],
+    "sourceBytes": 950024,
+    "pngBytes": 55685,
+    "webpBytes": 17196,
+    "alphaBounds": [
+      12,
+      12,
+      308,
+      117
+    ],
+    "sha256": "0d712236cecd6f430d5008490f92c358eae2cfd709224ee60ae987de8bf55fb7"
+  },
+  {
+    "id": "dace",
+    "name": "歐洲雅羅魚",
+    "kind": "fish",
+    "subject": "Leuciscus leuciscus 細長銀亮、背部灰綠、頭小吻稍尖、臀鰭外緣內凹、鰭色偏淡",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-de1a15bd-9e2d-4845-81d8-1f9e1102b3b9.png",
+    "file": "assets/sprites16/fish-dace.png",
+    "webp": "assets/sprites16/fish-dace.webp",
+    "size": [
+      320,
+      135
+    ],
+    "sourceBytes": 885113,
+    "pngBytes": 50465,
+    "webpBytes": 13592,
+    "alphaBounds": [
+      12,
+      12,
+      308,
+      123
+    ],
+    "sha256": "3f32f5f6a9ce4f3ceebd3337bdbbca8c6b6cf48c4fc4638e9d637ffcffbd94f5"
+  },
+  {
+    "id": "chub",
+    "name": "圓腹雅羅魚",
+    "kind": "fish",
+    "subject": "Squalius cephalus 粗壯近圓筒形、頭寬口大、大鱗片帶暗色邊形成網紋、臀鰭外緣外凸並帶紅色",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-f5bcf858-06eb-4d68-94c5-b338bb1a0298.png",
+    "file": "assets/sprites16/fish-chub.png",
+    "webp": "assets/sprites16/fish-chub.webp",
+    "size": [
+      320,
+      151
+    ],
+    "sourceBytes": 1053658,
+    "pngBytes": 61867,
+    "webpBytes": 16652,
+    "alphaBounds": [
+      12,
+      12,
+      308,
+      139
+    ],
+    "sha256": "1682052dc03312e4ae3856e526a88a7a7747ec8c10961ed3e93851cb8210be12"
+  },
+  {
+    "id": "thinlipmullet",
+    "name": "薄唇鮻",
+    "kind": "fish",
+    "subject": "Chelon ramada 細長鯔形、背部灰藍、體側數條灰色縱紋、上唇薄、兩枚背鰭、胸鰭基部暗斑",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-79758e1b-560e-4862-ac08-c900b00b3f6d.png",
+    "file": "assets/sprites16/fish-thinlipmullet.png",
+    "webp": "assets/sprites16/fish-thinlipmullet.webp",
+    "size": [
+      320,
+      134
+    ],
+    "sourceBytes": 960457,
+    "pngBytes": 51841,
+    "webpBytes": 14082,
+    "alphaBounds": [
+      12,
+      12,
+      308,
+      122
+    ],
+    "sha256": "bb7e7c729be50cddcf09c45534e9d59de5d58f6c322ba2a5bff28df2444e5cea"
+  },
+  {
+    "id": "sprat",
+    "name": "黍鯡",
+    "kind": "fish",
+    "subject": "Sprattus sprattus 小型側扁、背部藍綠、體側銀白、腹緣稜鱗呈鋸齒、背鰭起點在腹鰭之後",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-47ccfa26-5089-4977-b900-baa43173486a.png",
+    "file": "assets/sprites16/fish-sprat.png",
+    "webp": "assets/sprites16/fish-sprat.webp",
+    "size": [
+      320,
+      129
+    ],
+    "sourceBytes": 877860,
+    "pngBytes": 49845,
+    "webpBytes": 13964,
+    "alphaBounds": [
+      12,
+      12,
+      308,
+      117
+    ],
+    "sha256": "e010f16df27012cf50a2ec8fad354459c8649b347d9d52e5226004f6a4d5677a"
+  },
+  {
+    "id": "redswampcrayfish",
+    "name": "克氏原螯蝦",
+    "kind": "animal",
+    "subject": "Procambarus clarkii 暗紅到鮮紅、大螯細長且表面布滿顆粒狀突起、頭胸甲厚實、腹部分節；活體色，不可畫成煮熟的橘紅",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-5427151f-2e75-407f-8dd8-b1309f7d3e06.png",
+    "file": "assets/animal-redswampcrayfish.png",
+    "webp": "assets/animal-redswampcrayfish.webp",
+    "size": [
+      320,
+      198
+    ],
+    "sourceBytes": 1797472,
+    "pngBytes": 69708,
+    "webpBytes": 26532,
+    "alphaBounds": [
+      12,
+      12,
+      308,
+      186
+    ],
+    "sha256": "e163f292fe798dd2c4619742bab27ca389e106c9f3542e73751de3022f735ca7"
+  },
+  {
+    "id": "signalcrayfish",
+    "name": "信號小龍蝦",
+    "kind": "animal",
+    "subject": "Pacifastacus leniusculus 褐到藍褐、大螯寬而表面光滑、螯關節處一塊白或藍白色斑（必須清楚可見）、螯腹面紅色；不可只把克氏原螯蝦換色",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-7ea97e43-2a34-44f1-9f21-beb32e135c85.png",
+    "file": "assets/animal-signalcrayfish.png",
+    "webp": "assets/animal-signalcrayfish.webp",
+    "size": [
+      320,
+      194
+    ],
+    "sourceBytes": 1799025,
+    "pngBytes": 71662,
+    "webpBytes": 27222,
+    "alphaBounds": [
+      12,
+      12,
+      308,
+      182
+    ],
+    "sha256": "9a5cd151c70521139feecb7142b8bcc435938ec768202d7280d63d4b7c926027"
+  },
+  {
+    "id": "xuyi-shisanxiang",
+    "name": "十三香小龍蝦",
+    "kind": "meal",
+    "subject": "一盤紅亮、帶醬色湯汁燒煮的整隻小龍蝦，可見香料碎粒",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-03904266-da05-4556-a705-cae3d96bf2e3.png",
+    "file": "assets/sprites16/meal-xuyi-shisanxiang.png",
+    "webp": "assets/sprites16/meal-xuyi-shisanxiang.webp",
+    "size": [
+      320,
+      214
+    ],
+    "sourceBytes": 2146109,
+    "pngBytes": 123807,
+    "webpBytes": 33984,
+    "alphaBounds": [
+      12,
+      12,
+      308,
+      202
+    ],
+    "sha256": "6607e1a1164a4b9b25768d6e433f653618fec857dfd01229f44e9f0d92e8b644"
+  },
+  {
+    "id": "kokta-krafter",
+    "name": "蒔蘿鹽水煮小龍蝦",
+    "kind": "meal",
+    "subject": "放涼後堆在盤上的鮮紅整隻小龍蝦，配一兩枝蒔蘿花冠（傘形花序）",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-1de07b6b-7feb-4c98-9658-edb18d5afc09.png",
+    "file": "assets/sprites16/meal-kokta-krafter.png",
+    "webp": "assets/sprites16/meal-kokta-krafter.webp",
+    "size": [
+      320,
+      200
+    ],
+    "sourceBytes": 2126757,
+    "pngBytes": 109647,
+    "webpBytes": 31364,
+    "alphaBounds": [
+      12,
+      12,
+      308,
+      188
+    ],
+    "sha256": "c7d4e85e61e375b6753a59808996ea940681ad3be000af5f0cd0edf82d1a38b0"
+  },
+  {
+    "id": "jellied-eels",
+    "name": "鰻魚凍",
+    "kind": "meal",
+    "subject": "小碗或杯中切段的鰻魚，周圍是半透明的淡色凝凍",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-deceddef-5a80-41e3-91d0-3491b1024d05.png",
+    "file": "assets/sprites16/meal-jellied-eels.png",
+    "webp": "assets/sprites16/meal-jellied-eels.webp",
+    "size": [
+      320,
+      257
+    ],
+    "sourceBytes": 1094939,
+    "pngBytes": 120780,
+    "webpBytes": 29368,
+    "alphaBounds": [
+      12,
+      12,
+      308,
+      245
+    ],
+    "sha256": "ddfff58357a4c94a6bfbbfa6e9befe3e37e2e8bc051887649ea4392c5f7695f4"
+  },
+  {
+    "id": "whitebait",
+    "name": "炸銀魚",
+    "kind": "meal",
+    "subject": "一盤裹粉炸至金黃的整條小魚，配一角檸檬",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-59150bea-4abc-4790-afeb-3f6ced41620a.png",
+    "file": "assets/sprites16/meal-whitebait.png",
+    "webp": "assets/sprites16/meal-whitebait.webp",
+    "size": [
+      320,
+      203
+    ],
+    "sourceBytes": 1604668,
+    "pngBytes": 105405,
+    "webpBytes": 25334,
+    "alphaBounds": [
+      12,
+      12,
+      308,
+      191
+    ],
+    "sha256": "2e5381e3c52d9f7fe1bc98e673234211370bed1fa16de9d331d716a755d6a640"
+  },
+  {
+    "id": "pingqiao-tofu",
+    "name": "平橋豆腐",
+    "kind": "meal",
+    "subject": "碗裝細豆腐丁羹，湯色清亮、表面一層油光，可見少許青蔥或香菜",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-339179b3-6d34-44d5-8fe2-0b4a557ac23c.png",
+    "file": "assets/sprites16/meal-pingqiao-tofu.png",
+    "webp": "assets/sprites16/meal-pingqiao-tofu.webp",
+    "size": [
+      320,
+      251
+    ],
+    "sourceBytes": 960531,
+    "pngBytes": 107957,
+    "webpBytes": 24450,
+    "alphaBounds": [
+      12,
+      12,
+      308,
+      239
+    ],
+    "sha256": "3cce80b8a762aeba27776bc9f68892ba82c8e911575a65310a8de4158349af65"
+  },
+  {
+    "id": "granna-polkagris",
+    "name": "格蘭納拐杖糖",
+    "kind": "meal",
+    "subject": "紅白條紋扭轉的薄荷硬糖棒，可兩三段並放；不加包裝或文字",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-cf45971f-8e1b-4981-b4c3-160c4ae01248.png",
+    "file": "assets/sprites16/meal-granna-polkagris.png",
+    "webp": "assets/sprites16/meal-granna-polkagris.webp",
+    "size": [
+      320,
+      200
+    ],
+    "sourceBytes": 1468226,
+    "pngBytes": 92883,
+    "webpBytes": 23258,
+    "alphaBounds": [
+      12,
+      12,
+      308,
+      188
+    ],
+    "sha256": "1846ceca89de1fb17429a712dc125b9c9780f3ad63d2faa8e363a4dfe5547f57"
+  },
+  {
+    "id": "pie-and-mash",
+    "name": "派與薯泥",
+    "kind": "meal",
+    "subject": "盤中一個酥皮肉派與一團馬鈴薯泥，淋上淡綠色的歐芹醬汁",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-be96a63b-3560-4423-89e1-db21c5666dd6.png",
+    "file": "assets/sprites16/meal-pie-and-mash.png",
+    "webp": "assets/sprites16/meal-pie-and-mash.webp",
+    "size": [
+      320,
+      218
+    ],
+    "sourceBytes": 1670489,
+    "pngBytes": 113206,
+    "webpBytes": 26538,
+    "alphaBounds": [
+      12,
+      12,
+      308,
+      206
+    ],
+    "sha256": "cb59ead023ab82057b9dc30905d54f0bf63923b1f15b1d37fcddb03466caa854"
+  }
+]

@@ -1,4 +1,4 @@
-# 四海釣遊記 0.23：資料來源
+# 四海釣遊記 0.25：資料來源
 
 查閱日期：2026-10-21。魚類文字為依資料重寫的簡介，沒有使用來源照片或大段原文。魚類資料不等於遊戲機率、價格與現實賞金政策。
 
@@ -820,3 +820,161 @@ FishBase、臺灣魚類資料庫（人機驗證）與 TBN（403）本次無法�
 自製料理：清蒸白魚、銀魚炒蛋、醉蝦、清蒸大閘蟹、松鼠鱖魚、塘鱧魚燉蛋、桂花雞頭米。餐廳「湖鮮船菜館」（遊戲虛構店名）：太湖船點、銀魚炒蛋、太湖醉蟹、蓴菜銀魚羹。
 
 新增魚種：刀鱭（Coilia nasus）、大銀魚（Protosalanx chinensis）、陳氏短吻銀魚（Neosalanx tangkahkeii）、黃顙魚（Tachysurus fulvidraco）、間下鱵（Hyporhamphus intermedius）、黑鰭鰁（Sarcocheilichthys nigripinnis）、鱖魚（Siniperca chuatsi）、似鱎（Toxabramis swinhonis）、河川沙塘鱧（Odontobutis potamophila）、鯿（Parabramis pekinensis）、蒙古鮊（Chanodichthys mongolicus）、烏鱧（Channa argus）。新增水生動物：秀麗白蝦（Palaemon modestus）、中華絨螯蟹（Eriocheir sinensis）。新增水草：馬來眼子菜（Potamogeton wrightii）、苦草（Vallisneria natans）、芡實（Euryale ferox）、細果野菱（Trapa maximowiczii）。中國水域不另列地方語言名。
+
+## 0.25 東京灣、石狩灣、濟州水生動物與太湖小型魚（查閱日期 2026-10-24）
+
+四處水域沿用原有許可證與位置。魚池權重、重量、售價、魚餌與料理效果為遊戲設定；調查、名錄與標本紀錄只支持分布，不代表現行資源量、釣獲率或垂釣規定。
+
+### 東京灣
+
+| 編號 | 來源 | 採用範圍 |
+| --- | --- | --- |
+| T1 | 東京都環境局，[平成23年度水生生物調查報告本文](https://www.kankyo.metro.tokyo.lg.jp/documents/d/kankyo/creature-aquatic_creature-files-h23houkoku_honbun) | 表 3.1-23：赤魟（Hemitrygon akajei，調查作 Dasyatis akajei）、日本鯷、細條銀口天竺鯛（Jaydia lineata，調查作 Apogon lineatus）、雙棘三棘魨（Triacanthus biaculeatus）；表 3.1-11 城南大橋雙棘三棘魨。調查期間 2011 年 4 月至 2012 年 3 月。 |
+| T2 | 東京都環境局，[2019年11月成魚調查速報](https://www.kankyo.metro.tokyo.lg.jp/documents/d/kankyo/creature-aquatic_creature-files-2019_11_seigyo_sokuhou) | St.25 細條銀口天竺鯛。 |
+| T3 | 東京都環境局，[令和3年度魚類調查](https://www.kankyo.metro.tokyo.lg.jp/documents/d/kankyo/creature-aquatic_creature-files-r3_gyorui) | 黃鰭鯛（Acanthopagrus latus）、項斑項鰏（Nuchequula nuchalis）；口蝦蛄（Oratosquilla oratoria）、日本蟳（Charybdis japonica）。 |
+| F1 | 臺灣魚類資料庫，[赤魟](https://fishdb.sinica.edu.tw/taxon/383140-fishdb) | 名稱、體盤與尾刺、沙泥底、食性、毒刺與食用分類。 |
+| F2 | [臺灣生命大百科：細條銀口天竺鯛](https://taieol.tw/pages/56541)；[FishBase](https://www.fishbase.se/Fieldguide/FieldGuideSummary.php?c_code=156&genusname=Jaydia&speciesname=lineata)；[WoRMS Jaydia](https://www.marinespecies.org/aphia.php?p=taxlist&tName=Jaydia) | 學名與別名、口孵、魚漿利用。舊名 lineatus 與 lineata 同種。 |
+| F3 | 臺灣魚類資料庫，[雙棘三棘魨](https://fishdb.sinica.edu.tw/eng/species.php?id=383050)；[WoRMS](https://www.marinespecies.org/aphia.php?id=283034&p=taxdetails) | 形態、沙泥底、食性、鮮售。 |
+| F4 | 東京都島嶼農林水產綜合中心，[マアナゴ](https://www.ifarc.metro.tokyo.lg.jp/archive/27,946,55,226.html)；臺灣魚類資料庫，[繁星糯鰻](https://fishdb.sinica.edu.tw/taxon/380723-fishdb) | 繁星糯鰻（Conger myriaster）名稱、白色點列、東京灣分布、夜間覓食與料理利用。 |
+| A1 | 神奈川縣水產技術中心，[シャコ](https://www.pref.kanagawa.jp/docs/mx7/cnt/f430693/zukan-shako.html)；[SeaLifeBase](https://www.sealifebase.org/summary/Oratosquilla-oratoria) | 口蝦蛄泥底洞居、食性、東京灣與鹽煮／壽司用途。 |
+| A2 | [國立自然科學博物館日本蟳典藏](https://www.nmns.edu.tw/collect/catalog/detail/?id=21381)；[臺灣生物多樣性網絡](https://www.tbn.org.tw/taxa/b93c5d4f-7773-4b8b-b737-b1c446531df5)；[日本蟳肌肉品質研究](https://pmc.ncbi.nlm.nih.gov/articles/PMC12294135/) | 日本蟳名稱、形態、棲地與食用分類。 |
+| C1 | 三重縣水產研究所，[伊勢灣的マアナゴ](https://www.pref.mie.lg.jp/suigi/hp/78568017335.htm) | 煮穴子：酒、味醂、糖、醬油煮軟。 |
+| C2 | 神奈川縣 A1；[築地場外市場鹽煮介紹](https://www.tsukiji.or.jp/info/2010/06/p1555/) | 鹽水蝦蛄（自製與江戶前食堂小份）。 |
+
+### 石狩灣
+
+| 編號 | 來源 | 採用範圍 |
+| --- | --- | --- |
+| R1 | 石狩市，[石狩の海水魚](https://www.city.ishikari.hokkaido.jp/museum/1001801/1004573/1004690.html) | 日本鯷、日本下鱵魚、牙鮃、短角單棘魨、大頭鱈、黃線狹鱈、日本叉牙魚的石狩紀錄。 |
+| N1 | 食藥署[魚類名稱中英對照](https://www.fda.gov.tw/tc/includes/GetFile.ashx?cid=42304&id=f639039180917628062)；[鱈屬鑑別研究](https://www.fda.gov.tw/tc/includes/GetFile.ashx?id=f637457037955299589) | 大頭鱈／太平洋鱈（Gadus macrocephalus）、黃線狹鱈／阿拉斯加鱈（Gadus chalcogrammus）。 |
+| N2 | 教育百科轉載國家教育研究院[日本叉牙魚](https://pedia.cloud.edu.tw/Entry/Detail/?search=%E5%8F%89%E7%89%99&title=%E6%97%A5%E6%9C%AC%E5%8F%89%E7%89%99%E9%AD%9A) | 日本叉牙魚（Arctoscopus japonicus）中文名、體形、上斜口。 |
+| F1 | 北海道政府，[マダラ](https://www.pref.hokkaido.lg.jp/sr/gid/fis024.html)；[FishBase](https://www.fishbase.se/summary/Gadus-macrocephalus.html) | 大頭鱈形態、生態、食用；三平汁使用マダラ。 |
+| F2 | 北海道政府，[スケトウダラ](https://www.pref.hokkaido.lg.jp/sr/gid/fis026.html)；[FishBase](https://www.fishbase.se/summary/Gadus-chalcogrammus.html)；[石狩灣黃線狹鱈研究](https://agriknowledge.affrc.go.jp/RN/2010931999.pdf) | 黃線狹鱈形態、食性、魚漿與魚卵利用、石狩灣研究。舊名 Theragra chalcogramma 同種。 |
+| F3 | 北海道政府，[ハタハタ](https://www.pref.hokkaido.lg.jp/sr/gid/fis043.html)；道總研[石狩灣日本叉牙魚刺網漁業](https://www.hro.or.jp/fisheries/h3mfcd0000000gsj/o7u1kr000000019q/o7u1kr000000d4fu/o7u1kr000000cc10.html)；鳥取縣[物種資料](https://www.pref.tottori.lg.jp/73958.htm) | 埋沙、產卵、石狩灣厚田秋冬接岸、食性與無鱗；鹽烤與一夜干。 |
+| C1 | 農林水產省，[三平汁・北海道](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sambeijiru_hokkaido.html)；襟裳町[地方飲食資料](https://www.town.erimo.lg.jp/horoizumi/mobile/dp6l350000000ybc-att/dp6l3500000012tu.pdf)；F1 | 三平汁：鹽漬鯡魚、鱈魚（マダラ、スケソウダラ）與蔬菜、昆布。分別支持太平洋鯡、大頭鱈、黃線狹鱈三種材料。 |
+| C2 | 北海道政府，[ホッケ](https://www.pref.hokkaido.lg.jp/sr/gid/fis035.html) | 烤花魚一夜干（遠東多線魚 Pleurogrammus azonus）。 |
+| C3 | 北海道政府 F3 | 鹽烤日本叉牙魚。 |
+
+### 濟州沿岸水生動物
+
+| 編號 | 來源 | 採用範圍 |
+| --- | --- | --- |
+| J1 | [Kim 1985，韓國十足類系統研究](https://decapoda.nhm.org/pdfs/25928/25928-001.pdf) | 日本對蝦 1982-08-20 濟州港標本（Penaeus (Melicertus) japonicus、보리새우）。 |
+| J2 | 釜山市水產資源研究所，[보리새우](https://www.busan.go.kr/fisheries/frfishpoint06)；[海大甲殼類數典](https://crust.biodiv.tw/species.php?id=CrList114)；[WoRMS](https://www.marinespecies.org/aphia.php?p=taxlist&tName=Penaeus+japonicus) | 日本對蝦（Penaeus japonicus，同物異名 Marsupenaeus japonicus）名稱、橫帶、尾扇、埋沙與夜間活動。 |
+| J3 | [埃及地中海 Marsupenaeus japonicus 胃內容物研究](https://jades.journals.ekb.eg/article_67654_3c44f9b5d2236d98b6ac2959406b96d1.pdf)；[Zupo et al. 2016](https://www.szn.it/images/pubblicazioni/Zupo_et_al_2016.pdf) | 日本對蝦野外食性：雜食偏肉食，以甲殼類與魚類殘骸為主，隨底棲生物組成調整。 |
+| J4 | [Naturalis：Portunus trituberculatus](https://crabs-japan.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=33808)；[MBRIS 꽃게](https://www.mbris.kr/pub/marine/tsearch/tsearchDetail.do?spcTxnId=270000014333)；[農業知識入口網](https://kmweb.moa.gov.tw/theme_data.php?id=168&theme=fisheasy)；[食物來源研究](https://pmc.ncbi.nlm.nih.gov/articles/PMC12052833/) | 三疣梭子蟹西歸浦分布、形態、韓語名、棲地與食性。 |
+| J5 | [MBRIS 藍紋章魚](https://www.mbris.kr/pub/marine/tsearch/tsearchDetail.do?spcTxnId=270000007964)（DOI 10.1016/j.japb.2018.01.005）；[中研院國際貝庫](https://shell.sinica.edu.tw/chinese/shellbase_detail.php?science_no=4565)；[澳洲博物館](https://australian.museum/learn/animals/molluscs/southern-blue-lined-octopus-hapalochaena-fasciata/)；[韓國毒素研究](https://pmc.ncbi.nlm.nih.gov/articles/PMC10145357/) | 藍紋章魚（Hapalochlaena fasciata）2015 年濟州標本、中文名、形態、棲地、河豚毒素（不可食用、排除料理）。 |
+| J6 | [KCI：濟州沿岸萊氏擬烏賊研究 2009](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001372132) | 萊氏擬烏賊（흰꼴뚜기）濟州沿岸紀錄。 |
+| C1 | 大分縣，[車蝦特產介紹](https://www.pref.oita.jp/soshiki/10400/tokusanhin-kurumaebi.html) | 鹽烤日本對蝦（自製，日本・大分）；濟州海邊食堂「鹽烤明蝦」同做法，不稱濟州鄉土菜。 |
+
+### 太湖小型魚
+
+| 編號 | 來源 | 採用範圍 |
+| --- | --- | --- |
+| S1 | 劉燕山等，[東太湖魚類群落結構特徵及其與環境因子的關係](https://www.ecologica.cn/html/2021/2/stxb202004130872.htm)（DOI 10.5846/stxb202004130872） | 表 1 同列大鰭鱊、興凱鱊、中華鰟鮍、棒花魚、小黃黝魚；中華鰟鮍列碎屑食性。 |
+| S2 | 吉林省地方志，[大鰭鱊](https://dfz.jl.gov.cn/jltc/201712/t20171206_5217555.html)、[興凱鱊](https://dfz.jl.gov.cn/jltc/201712/t20171205_5217554.html)、[棒花魚](https://dfz.jl.gov.cn/jltc/201804/t20180408_5217573.html) | 大鰭鱊（Acheilognathus macropterus）、興凱鱊（Acheilognathus chankaensis）、棒花魚（Abbottina rivularis）形態、棲地、食性與食用紀錄。興凱鱊「幾乎無食用價值」不作不可食用證據。 |
+| S3 | [Catalog of Fishes 鱊科](https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?family=Acheilognathidae&tbl=species)；[中研院 Rhodeus 名錄](https://fishdb.sinica.edu.tw/chi/chinesequer2.php?D1=&R1=&T1=&cn=&dere=desc&fm=&gc=&me=&orderby=family_ch&page=457&pz=25&vn=)；[FishBase 中華鰟鮍](https://www.fishbase.se/Fieldguide/FieldGuideSummary.php?c_code=156&genusname=Rhodeus&speciesname=sinensis) | 興凱鱊接受名；中華鰟鮍（Rhodeus sinensis）中文名與形態。 |
+| S4 | [崇明濕地資料庫：棒花魚](https://www.cmwetlands.com/index.php?classid=12997&t=show&z_id=2022) | 下位口、短鬚、斑紋與雜食性。 |
+| S5 | [中國小黃黝魚種群遺傳結構，2016](https://html.rhhz.net/shhydxxb/20160501770.htm)；[湖北東湖站](https://dhl.cern.ac.cn/content?id=38562)；[ITIS](https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=637642) | 小黃黝魚（Micropercops swinhonis）太湖採樣、學名與外形。 |
+
+興凱鱊、中華鰟鮍、小黃黝魚的食用分類與小黃黝魚物種級野外食性，2026-10-24 再查仍無可靠資料，圖鑑標「待查」，資料欄 edible 留空；五種均不作料理材料。
+
+### 料理與餐廳
+
+自製：煮穴子、鹽水蝦蛄、三平汁、烤花魚一夜干、鹽烤日本叉牙魚、鹽烤日本對蝦。餐廳：江戶前食堂「鹽水蝦蛄」、石狩鍋屋「三平汁」、濟州海邊食堂「鹽烤明蝦」。來源見上列各表 C 欄。
+
+### 0.25 當地語言名稱
+
+日語（依東京都調查、石狩市名錄與北海道政府資料）：赤魟 アカエイ、細條銀口天竺鯛 テンジクダイ、雙棘三棘魨 ギマ、繁星糯鰻 マアナゴ、口蝦蛄 シャコ、日本蟳 イシガニ、大頭鱈 マダラ、黃線狹鱈 スケトウダラ、日本叉牙魚 ハタハタ；共用魚補日本鯷 カタクチイワシ、黃鰭鯛 キチヌ、項斑項鰏 ヒイラギ、日本下鱵魚 サヨリ、牙鮃 ヒラメ、短角單棘魨 ウマヅラハギ。韓語（依釜山市、MBRIS 與 KCI 論文）：日本對蝦 보리새우、三疣梭子蟹 꽃게、藍紋章魚 파란선문어、萊氏擬烏賊 흰꼴뚜기。
+
+### 0.25 同版補充：食用分類與新增料理（查閱日期 2026-10-24）
+
+| 編號 | 來源 | 採用範圍 |
+| --- | --- | --- |
+| E1 | [Wikipedia：Khanka spiny bitterling](https://en.wikipedia.org/wiki/Khanka_spiny_bitterling)；[網易轉載百科條目](https://c.m.163.com/news/a/KVMFO7GR05434E62.html) | 興凱鱊可作食用魚及觀賞魚，具漁業與水族館用途；改為可食用並開放通用料理。 |
+| E2 | [CN104012435B 中華鰟鮍高效繁殖方法](https://patents.google.com/patent/CN104012435B/zh)；[澎湃新聞](https://www.thepaper.cn/newsDetail_forward_23664969) | 中華鰟鮍具觀賞與一定食用價值；魚小刺多，多作小雜魚。改為可食用並開放通用料理。 |
+| E3 | [FishBase：Micropercops swinhonis](https://fishbase.se/summary/SpeciesSummary.php?id=68232)；[百度百科：黃黝](https://baike.baidu.com/item/%E9%BB%84%E9%BB%9D/1876756) | 小黃黝魚為肉食性，FishBase 估算營養級 3.1；野外胃內容物研究未查到。食用紀錄仍未查到，維持不作料理材料、edible 留空。 |
+| E4 | 雙棘三棘魨（F3）、大鰭鱊與棒花魚（S2） | 已有食用紀錄而查無專屬菜式，依守則只開放煎魚、炸物、蒸魚、烤魚四種通用料理。 |
+| C4 | 宮城縣，[水產料理食譜（2025 年 12 月）](https://www.pref.miyagi.jp/documents/16731/r7_december_recipe.pdf)；愛知縣水產試驗場[アカエイ利用資料](https://www.pref.aichi.jp/uploaded/attachment/46068.pdf)；香川縣「隠れた地魚」アカエイ資料 | 經搜尋索引讀取。煮付赤魟（アカエイの煮つけ）：熱水霜降後與牛蒡同煮，氣仙沼地區料理學校提供；去除血液與體表黏液以免腥味。香川另有アカエイのみそ汁。 |
+| C5 | 農林水產省「うちの郷土料理」，[ネブトの唐揚げ（廣島）](https://www.maff.go.jp/e/policies/market/k_ryouri/search_menu/4973/index.html) | 已讀全文。ネブト即テンジクダイ；去頭、鹽水洗、麵粉與太白粉各半裹粉、中溫油炸後撒鹽。炸天竺鯛。 |
+| C6 | 韓國民族文化大百科，[꽃게](https://encykorea.aks.ac.kr/Article/E0011257)、[게장](https://encykorea.aks.ac.kr/Article/E0002121)；韓食振興院[한식문화상자：간장게장](https://www.kculture.or.kr/cms/content/view/835)；KCI，[민꽃게장의 식품 성분](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001230583)；韓國觀光公社，[돌게 간장게장](https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=d33c95ed-3354-4ece-9820-606d3735eac5) | 醬油醃蟹（간장게장）：三疣梭子蟹（꽃게）與日本蟳（민꽃게、돌게）各有醃製醬蟹的來源。 |
+
+## 0.26 小龍蝦三水域：洪澤湖、韋特恩湖、泰晤士河
+
+依根目錄《小龍蝦三水域審閱稿.md》實裝。查閱日期均為 2026-10-24。魚池權重、重量、價格、賞金、許可證與料理效果是遊戲設定；三處地圖標記是釣點示意位置，標籤畫在 Natural Earth 既有的湖泊輪廓與河道上，未新增海岸幾何。
+
+### 新物種
+
+| 物種 | 學名 | 水域與依據 |
+| --- | --- | --- |
+| 鱤 | Elopichthys bambusa | 洪澤湖（H1）；FishBase 列為漁業魚種 |
+| 赤眼鱒 | Squaliobarbus curriculus | 洪澤湖（H1）；食用依人民日報客戶端報導梅州魚生用赤眼鱒養殖標準 |
+| 花䱻 | Hemibarbus maculatus | 洪澤湖（H1）；FishBase 漁業魚種 |
+| 黃尾鯝 | Xenocypris davidi | 洪澤湖 2017～2018 年新紀錄（H1）；FishBase 漁業魚種 |
+| 光澤黃顙魚 | Tachysurus nitidus | 洪澤湖（H1）；只查到食性研究，食用資料待查，不作料理 |
+| 北極紅點鮭 | Salvelinus alpinus | 韋特恩湖（V2，瑞典紅色名錄把 storröding 歸入本種） |
+| 茴魚 | Thymallus thymallus | 韋特恩湖（V1、V3） |
+| 歐白鮭 | Coregonus albula | 韋特恩湖開放水域生物量 68%（V4）；中文名依中文維基「白鮭屬」與 FAO AGROVOC |
+| 衰白鮭 | Coregonus maraena | 韋特恩湖（V1）；中文名依中文維基；Eschmeyer's Catalog of Fishes 將自韋特恩湖描述的 C. vaetterensis 列為其異名，FishBase 另有 C. widegreni 的處理，本作採瑞典 Artfakta 現行做法 |
+| 歐洲胡瓜魚 | Osmerus eperlanus | 韋特恩湖冰河孑遺（V3）、泰晤士河（T1） |
+| 四角床杜父魚 | Myoxocephalus quadricornis | 韋特恩湖冰河孑遺（V3）；少作食用，不作料理 |
+| 三刺魚 | Gasterosteus aculeatus | 韋特恩湖（V4 調查物種）、泰晤士河（T1）；不作食用 |
+| 普通細鰕虎 | Pomatoschistus microps | 泰晤士河潮間帶數量最多（T1）；不作食用 |
+| 沙細鰕虎 | Pomatoschistus minutus | 泰晤士河（T1）；不作食用 |
+| 歐洲雅羅魚 | Leuciscus leuciscus | 泰晤士河（T1、T2）；FishBase 列為釣遊與釣餌魚，不作料理 |
+| 圓腹雅羅魚 | Squalius cephalus | 泰晤士河（T1）；英國多作釣遊魚，不作料理 |
+| 薄唇鮻 | Chelon ramada | 泰晤士河（T1）；FishBase 漁業與養殖，IUCN 近危 |
+| 黍鯡 | Sprattus sprattus | 泰晤士河（T1）；FishBase 記載可鮮食、燻、罐裝、煎烤 |
+| 克氏原螯蝦 | Procambarus clarkii | 洪澤湖（H2） |
+| 信號小龍蝦 | Pacifastacus leniusculus | 韋特恩湖（V5）、泰晤士河流域（T3） |
+
+物種形態、棲地與食性依各物種的 FishBase 條目重寫，連結見遊戲圖鑑的來源欄。
+
+### 來源
+
+| 代號 | 來源 | 用途 |
+| --- | --- | --- |
+| H1 | 毛志剛等，[洪澤湖魚類群落結構及其資源變化](https://jlakes.alljournals.cn/html/2019/4/20190421.html)，《湖泊科學》2019(4) | 2017～2018 年 51 種魚，優勢種鱅、䱗、鯽、刀鱭、紅鰭原鮊、黃顙魚、鰱；正文點名的物種組成魚池。文中「陳氏短吻銀魚」依中文名對應遊戲現有物種（Neosalanx tangkahkeii），該文學名寫作 Salangichthys jordani，與中文名不一致。網站憑證錯誤，以本機下載閱讀，表 2 為圖片未逐列讀取。 |
+| H2 | 澎湃新聞，[盱眙龍蝦：一隻小龍蝦帶動城市大營銷產業](https://www.thepaper.cn/newsDetail_forward_8180484)，2020-11-04；《生態學雜誌》[克氏原螯蝦綜述](https://www.cje.net.cn/CN/Y2010/V29/I01/124) | 克氏原螯蝦 20 世紀二三十年代傳到南京一帶，再進入盱眙境內的陡湖、洪澤湖；原產美國南部與墨西哥北部。 |
+| H3 | 淮安市、宿遷市政府，[洪澤湖生態環境保護規劃](http://sthjj.huaian.gov.cn/upload/2017-01/0f131e63-e67e-4238-8a1e-ac285c752876.pdf)，2016 | 水生高等植物 38 種，優勢種蘆葦、茭草、李氏禾、馬來眼子菜；芡實、菱角素享盛名；湖內以螃蟹及鯉、鯽、鱅、青、草、鰱為主。水草採蘆葦、馬來眼子菜、芡實。 |
+| H4 | 新華網，[洪澤湖大閘蟹地理標誌](https://www.news.cn/info/20251202/e74c151cc1ce4a049eb9c10354ece963/c.html)；新華網，[洪澤湖禁漁期案件](https://www.news.cn/legal/20260121/50f1baf1084245378d9efe44ba0fbb5b/c.html) | 洪澤湖大閘蟹為國家地理標誌產品；湖區禁捕與禁漁期，水域介紹註明遊戲不代表現行規定。 |
+| V1 | 瑞典語維基，[Vättern](https://sv.wikipedia.org/wiki/V%C3%A4ttern) | 魚種（abborre、gädda、gös、harr、lake、öring、sik、röding 等）與民眾可不經許可在離岸 300 公尺內捕撈小龍蝦。 |
+| V2 | Vätternvårdsförbundet，[Rapport 150：Rödinglekprovfiske i Vättern](https://vattern.org/wp-content/uploads/Rapport150_Rodinglekprovfiske-i-Vattern_DS_TGA.pdf) | 韋特恩湖有瑞典最大的紅點鮭族群；storröding 已依分類歸入 Salvelinus alpinus。 |
+| V3 | Jönköping 市，[Lake Vättern](https://www.jonkoping.se/download/18.74fef9ab15548f0b800241cf/1465889811488/01%20V%C3%A4ttern.pdf) | 瑞典 50 種淡水魚中有 31 種見於韋特恩湖；北極紅點鮭、歐洲胡瓜魚、四角床杜父魚是冰河孑遺；鱒與茴魚溯溪產卵。 |
+| V4 | SLU，[Pelagisk fisk i Vättern 2022](https://research.slu.se/en/publications/pelagisk-fisk-i-v%C3%A4ttern-2022/)；SLU，[Fler men mindre kräftor i Vättern och Hjälmaren](https://www.slu.se/en/ew-news/2024/5/fler-men-mindre-kraftor-i-vattern-och-hjalmaren) | 歐白鮭占開放水域生物量 68%；小龍蝦數量多但平均體型變小。 |
+| V5 | Eurofish，[How Sweden turned the invasive signal crayfish into a resource](https://eurofish.dk/?p=8688)，2026-02-12 | 原生歐洲螯蝦受螯蝦瘟疫重創後，1960 年代引入信號小龍蝦，最早放養於韋特恩湖；信號小龍蝦帶有螯蝦瘟疫。 |
+| V6 | Vätternvårdsförbundet，[Fakta 9：Vegetationsundersökning i Vättern 2011](https://vattern.org/wp-content/uploads/Fakta9-Vegetationsundersokning-i-Vattern-2011.pdf) | 水生植物名單含 Chara globularis、Potamogeton perfoliatus、Phragmites australis；水草採球狀輪藻、穿葉眼子菜、蘆葦。名單中的 Elodea canadensis 與遊戲現有伊樂藻不同種，不沿用。 |
+| T1 | ZSL，[Larval and juvenile fish in the Thames](https://www.tideway.london/media/3924/zsl-tidal-thames-fish-report-sept-2019.pdf)，2019-08 | 格林威治、帕特尼兩站 2017～2018 年潮間帶物種數量，依數量排序配置泰晤士河權重。 |
+| T2 | Environment Agency，[Fish survey reveals huge variety in River Thames](https://gov.uk/government/news/fish-survey-reveals-huge-variety-in-river-thames)，2015-06-26；ZSL，[Surprising facts about Thames species](https://www.zsl.org/blogs/conservation/surprising-facts-about-thames-species) | 潮汐段的 dace、smelt、common bream、sea bass、flounder；1957 年被宣告生物死亡後累計紀錄超過一百種魚。 |
+| T3 | GBIF occurrence API（北緯 51.40～51.52、經度 −0.36～0.10，2026-10-24 查詢）；Environment Agency，[Crayfish data update for Environment Agency Thames Region](https://www.gbif.org/dataset/00152458-37ab-4698-b3fc-1b0cfb5c15d8) | 信號小龍蝦 9 筆，多在流入潮汐段的克蘭河與艾爾沃斯一帶，河道本身紀錄少，權重設 3；中華絨螯蟹 288 筆（含 Gilbey 等 2003 年泰晤士河資料集）；篦齒眼子菜見錫恩公園潮汐草地，穿葉眼子菜見特丁頓一帶的泰晤士河畔。泰晤士河水草採蘆葦、篦齒眼子菜、穿葉眼子菜。 |
+| T4 | Clark 等，[The alien Chinese mitten crab in the Thames catchment](https://plymsea.ac.uk/id/eprint/2068/)，1998；Port of London Authority〈Plants on the tidal Thames〉（原網址已轉址，經搜尋摘要） | 中華絨螯蟹在泰晤士河的族群與掘洞危害；潮汐段的蘆葦床。 |
+| B1 | Commission Implementing Regulation (EU) 2016/1141 附件，[legislation.gov.uk](https://www.legislation.gov.uk/eur/2016/1141/data.html) | Pacifastacus leniusculus、Procambarus clarkii、Eriocheir sinensis 均列入歐盟入侵種管制名單。中國國家級重點管理名錄是否收錄克氏原螯蝦未查到全表，洪澤湖不設懸賞。 |
+
+### 賞金與懸賞地點
+
+0.26 起賞金只能在懸賞地點繳交，物種在哪裡釣到都可以（作者 2026-10-24 決定）。信號小龍蝦懸賞地點為韋特恩湖、泰晤士河，賞金 66；中華絨螯蟹懸賞地點為泰晤士河，賞金 72，在太湖、洪澤湖釣到的也能帶去繳交。魚虎、珍珠石斑、琵琶鼠、蟾鬍鯰改為只能在臺灣 8 處水域繳交。賞金係數比照既有賞金魚，約為售價係數 1.5 倍（B1、T3、T4、V5）。
+
+### 料理
+
+| 料理 | 來源 |
+| --- | --- |
+| 十三香小龍蝦（自製、洪澤湖餐廳） | 中新網，[盱眙小龍蝦集中開捕](https://www.chinanews.com.cn/tp/2024/04-22/10203276.shtml)，2024-04-22（十三香口味由盱眙開創）；惠農網，[中國龍蝦之都在哪裡？](http://news.cnhnb.com/mrdzx/detail/439648/)（十三種香料燒煮，麻、辣、鮮、香） |
+| 蒔蘿鹽水煮小龍蝦 kokta kräftor（自製、韋特恩湖餐廳） | Wikipedia，[Crayfish party](https://en.wikipedia.org/wiki/Crayfish_party)（鹽水加蒔蘿煮熟後冷食，配麵包與起司；法規過去只允許夏末捕撈） |
+| 鰻魚凍 jellied eels（自製、泰晤士河餐廳） | London Museum，[Jellied eels](https://www.londonmuseum.org.uk/collections/london-stories/jellied-eels/)（東區傳統小吃；泰晤士河鰻魚族群自 1980 年代崩落，現多用進口鰻魚） |
+| 炸銀魚 whitebait（自製、泰晤士河餐廳） | Wikipedia，[Whitebait](https://en.wikipedia.org/wiki/Whitebait)（英國指黍鯡與鯡魚幼魚，裹粉油炸，配檸檬與麵包奶油；夏季沿泰晤士河到格林威治吃銀魚）；London Museum，[Whitebait dinner menu](https://www.londonmuseum.org.uk/collections/v/object-798476/dinner-menu-whitebait-dinner-menu) |
+| 平橋豆腐（洪澤湖餐廳） | Wikipedia，[Huai'an Pingqiao tofu](https://en.wikipedia.org/wiki/Huai%27an_Pingqiao_tofu)（豆腐丁、雞湯、鯽魚腦提鮮、勾芡；乾隆傳說不寫入正文） |
+| 清蒸大閘蟹（洪澤湖餐廳） | 沿用 0.24 太湖同名料理來源；洪澤湖大閘蟹地理標誌見 H4 |
+| 格蘭納拐杖糖 polkagris（韋特恩湖餐廳） | Wikipedia，[Polkagris](https://en.wikipedia.org/wiki/Polkagris)（1859 年 Amalia Eriksson 在格蘭納創製，糖、薄荷、水與少量醋，於大理石桌上拉長扭轉） |
+| 派與薯泥 pie and mash（泰晤士河餐廳） | Britannica，[pie and mash](https://britannica.com/topic/pie-and-mash)；Wikipedia，[Pie and mash](https://en.wikipedia.org/wiki/Pie_and_mash)；London Museum〈London's pie & mash shops〉（liquor 傳統上用燉鰻魚的湯汁製作） |
+
+鱤、赤眼鱒、花䱻、黃尾鯝、北極紅點鮭、茴魚、歐白鮭、衰白鮭、歐洲胡瓜魚、薄唇鮻、黍鯡查無本批可用的專屬菜式，開放煎魚、蒸魚、烤魚通用料理；最大重量 0.5 公斤以下的黃尾鯝、歐白鮭、歐洲胡瓜魚、黍鯡另可做炸物。
+
+### 當地語言名
+
+瑞典語（韋特恩湖，依 V1 與 FishBase 瑞典語俗名）：河鱸 abborre、白斑狗魚 gädda、梭鱸 gös、江鱈 lake、褐鱒 öring、北極紅點鮭 röding、茴魚 harr、歐白鮭 siklöja、衰白鮭 sik、歐洲胡瓜魚 nors、四角床杜父魚 hornsimpa、三刺魚 storspigg、信號小龍蝦 signalkräfta。
+
+英語（泰晤士河，依 T1、T2 與 FishBase 英語俗名）：普通細鰕虎 common goby、歐洲川鰈 flounder、擬鯉 roach、歐洲鱸 European seabass、歐洲胡瓜魚 smelt、歐洲雅羅魚 dace、三刺魚 three-spined stickleback、歐洲鰻鱺 European eel、河鱸 perch、沙細鰕虎 sand goby、圓腹雅羅魚 chub、歐鯿 common bream、薄唇鮻 thinlip grey mullet、黍鯡 sprat、信號小龍蝦 signal crayfish、中華絨螯蟹 Chinese mitten crab。中國水域不另列地方語言名。
+
+### 配圖
+
+27 組圖由另一個對話以內建 imagegen 製作（work/expansion26-art/），18 種魚與 7 道料理在 sprites16/，2 種小龍蝦在 assets/；餐廳同名菜共用自製菜圖，洪澤湖清蒸大閘蟹沿用 taihu-steamed-crab。尺寸與檔案大小見 assets/expand26-art-manifest.json。三刺魚與細條銀口天竺鯛已於同版換成重畫圖。

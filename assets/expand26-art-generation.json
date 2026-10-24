@@ -1,0 +1,241 @@
+[
+  {
+    "id": "redswampcrayfish",
+    "prompt": "Use case: scientific-educational. Game collection sprite. Use supplied reference images ONLY for visual style, never copy species shape. Low saturation natural history PIXEL illustration, sharply stepped pixel edges, restrained highlights, limited discrete shade clusters, no smooth painting, no photography. One complete isolated object, true transparent background, generous transparent margin, no text, no frame, no environment, no shadow. Details must read at 160px; design as approximately 300px object, not a highly detailed large painting. Subject: ONE LIVE red swamp crayfish Procambarus clarkii. Dark wine-red/muted red living shell, NOT cooked orange. Thick cephalothorax, segmented abdomen and tail fan. TWO long narrow claws covered in distinct granular bumps, all walking legs and long antennae fully in frame. Natural slightly elevated three-quarter side view facing left, claws extended apart so both are legible. Match the existing prawn and crab reference pixel treatment. Critical correction: background outside the animal must be entirely alpha=0. NO red haze, NO colored backdrop, NO translucent glow. Leave at least 6% empty transparent margin on all sides, including antenna tips. Use flatter less glossy shell highlights, like the crab reference. Render one sprite only.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/pixel-atlas-01-clear.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/animal-mittencrab.png"
+    ],
+    "source": "C:/Users/nlb76/.codex/generated_images/01a16e5c-c39a-76a0-b801-d67d24df81a1/exec-5427151f-2e75-407f-8dd8-b1309f7d3e06.png"
+  },
+  {
+    "id": "yellowcheek",
+    "prompt": "Use case: scientific-educational. Game collection sprite. Use supplied reference images ONLY for visual style, never copy species shape. Low saturation natural history PIXEL illustration, sharply stepped pixel edges, restrained highlights, limited discrete shade clusters, no smooth painting, no photography. One complete isolated object, true transparent background, generous transparent margin, no text, no frame, no environment, no shadow. Details must read at 160px; design as approximately 300px object, not a highly detailed large painting. Subject: 鱤. Elopichthys bambusa 細長梭形大魚、頭尖吻長、口大而前位、體側銀白、鰓蓋與頰部帶黃色、背鰭位置偏後、尾鰭深叉. Single fish, full strict side view, head LEFT. All fins and tail intact. Natural species proportions, do not borrow carp morphology from reference. Background alpha zero, no haze or glow. Modest 6% empty margin. Restrained flat pixel shade clusters matching the references.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/pixel-atlas-01-clear.png"
+    ],
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-fce4ed7b-624c-44a9-a56a-6ca22e5a8321.png"
+  },
+  {
+    "id": "barbelchub",
+    "prompt": "Use case: scientific-educational. Game collection sprite. Use supplied reference images ONLY for visual style, never copy species shape. Low saturation natural history PIXEL illustration, sharply stepped pixel edges, restrained highlights, limited discrete shade clusters, no smooth painting, no photography. One complete isolated object, true transparent background, generous transparent margin, no text, no frame, no environment, no shadow. Details must read at 160px; design as approximately 300px object, not a highly detailed large painting. Subject: 赤眼鱒. Squaliobarbus curriculus 長而略呈圓筒形、眼睛上緣有紅斑、每片鱗基部有黑點連成縱列、尾鰭灰色叉形. Single fish, full strict side view, head LEFT. All fins and tail intact. Natural species proportions, do not borrow carp morphology from reference. Background alpha zero, no haze or glow. Modest 6% empty margin. Restrained flat pixel shade clusters matching the references.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/pixel-atlas-01-clear.png"
+    ],
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-322c89c9-7318-4357-8952-15cdc03c2de7.png"
+  },
+  {
+    "id": "spottedsteed",
+    "prompt": "Use case: scientific-educational. Game collection sprite. Use supplied reference images ONLY for visual style, never copy species shape. Low saturation natural history PIXEL illustration, sharply stepped pixel edges, restrained highlights, limited discrete shade clusters, no smooth painting, no photography. One complete isolated object, true transparent background, generous transparent margin, no text, no frame, no environment, no shadow. Details must read at 160px; design as approximately 300px object, not a highly detailed large painting. Subject: 花䱻. Hemibarbus maculatus 身體略長、吻部尖、口下一對短鬚、背部與體側散布大小不一的黑斑. Single fish, full strict side view, head LEFT. All fins and tail intact. Natural species proportions, do not borrow carp morphology from reference. Background alpha zero, no haze or glow. Modest 6% empty margin. Restrained flat pixel shade clusters matching the references.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/pixel-atlas-01-clear.png"
+    ],
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-3fcd1f9b-17b4-4763-a2c2-de8b358ee13c.png"
+  },
+  {
+    "id": "xenocypris",
+    "prompt": "Use case: scientific-educational. Game collection sprite. Use supplied reference images ONLY for visual style, never copy species shape. Low saturation natural history PIXEL illustration, sharply stepped pixel edges, restrained highlights, limited discrete shade clusters, no smooth painting, no photography. One complete isolated object, true transparent background, generous transparent margin, no text, no frame, no environment, no shadow. Details must read at 160px; design as approximately 300px object, not a highly detailed large painting. Subject: 黃尾鯝. Xenocypris davidi 側扁、頭小、口小而下位、體色銀白、尾鰭明顯黃至橘黃. Single fish, full strict side view, head LEFT. All fins and tail intact. Natural species proportions, do not borrow carp morphology from reference. Background alpha zero, no haze or glow. Modest 6% empty margin. Restrained flat pixel shade clusters matching the references.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/pixel-atlas-01-clear.png"
+    ],
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-36d247a0-a500-436e-b998-b4b38a2e56c6.png"
+  },
+  {
+    "id": "nitidcatfish",
+    "prompt": "Use case: scientific-educational. Game collection sprite. Use supplied reference images ONLY for visual style, never copy species shape. Low saturation natural history PIXEL illustration, sharply stepped pixel edges, restrained highlights, limited discrete shade clusters, no smooth painting, no photography. One complete isolated object, true transparent background, generous transparent margin, no text, no frame, no environment, no shadow. Details must read at 160px; design as approximately 300px object, not a highly detailed large painting. Subject: ONE Tachysurus nitidus (nitid yellow catfish), NOT Tachysurus fulvidraco. Full left facing side view. Very long slender sleek body, low flattened head, FOUR PAIRS of barbels, dorsal and pectoral spines, adipose fin. Muted uniform golden brown back and pale yellow flanks. Essential: very few faint diffuse markings, NO large black blotches, NO tiger pattern. More elongated than yellow catfish. True transparent background, all fins barbels intact.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/pixel-atlas-01-clear.png"
+    ],
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-63b3a563-ccbe-47e9-9719-161c06d4ee8d.png"
+  },
+  {
+    "id": "commonwhitefish",
+    "prompt": "Use case: scientific-educational. Game collection sprite. Use supplied reference images ONLY for visual style, never copy species shape. Low saturation natural history PIXEL illustration, sharply stepped pixel edges, restrained highlights, limited discrete shade clusters, no smooth painting, no photography. One complete isolated object, true transparent background, generous transparent margin, no text, no frame, no environment, no shadow. Details must read at 160px; design as approximately 300px object, not a highly detailed large painting. Subject: 衰白鮭; Coregonus maraena 銀白側扁、頭小、吻端鈍而略突出於口前、脂鰭、尾鰭叉形；體高大於歐白鮭，也不可沿用既有博登湖白鮭. One fish, head LEFT, full strict side view, complete fins, anatomically accurate species proportions. Genuinely transparent empty background, no haze or glow. At least 6% transparent margin on all sides. Restrained pixel clusters and highlights matching references.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/pixel-atlas-01-clear.png"
+    ],
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-1f34b254-f282-4972-a31b-72adf0a645d8.png"
+  },
+  {
+    "id": "arcticchar",
+    "prompt": "Use case: scientific-educational. Game collection sprite. Use supplied reference images ONLY for visual style, never copy species shape. Low saturation natural history PIXEL illustration, sharply stepped pixel edges, restrained highlights, limited discrete shade clusters, no smooth painting, no photography. One complete isolated object, true transparent background, generous transparent margin, no text, no frame, no environment, no shadow. Details must read at 160px; design as approximately 300px object, not a highly detailed large painting. Subject: 北極紅點鮭; Salvelinus alpinus 鮭形、背部暗橄欖綠、體側淡色圓斑、腹部橘紅、胸腹臀鰭前緣白邊、脂鰭；不可沿用既有阿爾卑斯紅點鮭. One fish, head LEFT, full strict side view, complete fins, anatomically accurate species proportions. Genuinely transparent empty background, no haze or glow. At least 6% transparent margin on all sides. Restrained pixel clusters and highlights matching references.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/pixel-atlas-01-clear.png"
+    ],
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-faf89db0-8921-449b-bb8d-9c33baf9d6e6.png"
+  },
+  {
+    "id": "smelt",
+    "prompt": "Use case: scientific-educational. Game collection sprite. Use supplied reference images ONLY for visual style, never copy species shape. Low saturation natural history PIXEL illustration, sharply stepped pixel edges, restrained highlights, limited discrete shade clusters, no smooth painting, no photography. One complete isolated object, true transparent background, generous transparent margin, no text, no frame, no environment, no shadow. Details must read at 160px; design as approximately 300px object, not a highly detailed large painting. Subject: 歐洲胡瓜魚; Osmerus eperlanus 細長半透明、口大有細齒、下頜突出、體側一道銀色縱帶、脂鰭. One fish, head LEFT, full strict side view, complete fins, anatomically accurate species proportions. Genuinely transparent empty background, no haze or glow. At least 6% transparent margin on all sides. Restrained pixel clusters and highlights matching references.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/pixel-atlas-01-clear.png"
+    ],
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-371d88cb-eb74-4b0c-aab7-9d4718471e38.png"
+  },
+  {
+    "id": "grayling",
+    "prompt": "Use case: scientific-educational. Game collection sprite. Use supplied reference images ONLY for visual style, never copy species shape. Low saturation natural history PIXEL illustration, sharply stepped pixel edges, restrained highlights, limited discrete shade clusters, no smooth painting, no photography. One complete isolated object, true transparent background, generous transparent margin, no text, no frame, no environment, no shadow. Details must read at 160px; design as approximately 300px object, not a highly detailed large painting. Subject: 茴魚; Thymallus thymallus 背鰭特別高大如帆且帶紫紅斑紋、鱗片大、口小、脂鰭、體側灰銀. One fish, head LEFT, full strict side view, complete fins, anatomically accurate species proportions. Genuinely transparent empty background, no haze or glow. At least 6% transparent margin on all sides. Restrained pixel clusters and highlights matching references.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/pixel-atlas-01-clear.png"
+    ],
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-46b3e86d-2301-4e7d-9d4f-5e0bc54f60d1.png"
+  },
+  {
+    "id": "fourhorn",
+    "prompt": "Use case: scientific-educational. Game collection sprite. Use supplied reference images ONLY for visual style, never copy species shape. Low saturation natural history PIXEL illustration, sharply stepped pixel edges, restrained highlights, limited discrete shade clusters, no smooth painting, no photography. One complete isolated object, true transparent background, generous transparent margin, no text, no frame, no environment, no shadow. Details must read at 160px; design as approximately 300px object, not a highly detailed large painting. Subject: 四角床杜父魚; Myoxocephalus quadricornis 頭大而扁、頭頂四個骨質突起、身體向後漸細、胸鰭寬大、無鱗、灰褐雲斑. One fish, head LEFT, full strict side view, complete fins, anatomically accurate species proportions. Genuinely transparent empty background, no haze or glow. At least 6% transparent margin on all sides. Restrained pixel clusters and highlights matching references.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/pixel-atlas-01-clear.png"
+    ],
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-335352e4-448b-4337-b3d2-34cd3c93b567.png"
+  },
+  {
+    "id": "stickleback",
+    "prompt": "Use case: scientific-educational. REDRAW the fish in image 1: Gasterosteus aculeatus breeding male, left-facing full side view. Essential correction: EXACTLY THREE isolated dorsal spines TOTAL before the separate soft dorsal fin. Arrange two long slender spines followed by ONE MUCH SHORTER third spine. Each isolated spine is a single narrow smooth tapering spike; NO doubled outlines, NO forked tips, NO tiny extra spikes between them. Clearly smooth back in all gaps. Behind the third spine leave a distinct small gap then one LOW ROUNDED soft-rayed dorsal fin whose rays are entirely joined by membrane; its edge must be smooth and rounded, NOT a fourth pointed spike. Preserve silver green bony flank plates, red throat and belly, single visible pelvic spine below, narrow tail peduncle and complete tail. Image 2 is only style reference: low saturation natural history pixel art, crisp stepped pixel edges and limited shade clusters. Match native ~300px sprite detail. Single isolated fish, transparent alpha-zero background, 8% empty margin, no text/shadow/frame.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/work/expansion26-art/assets/sprites16/fish-stickleback.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.26/assets/pixel-atlas-01-clear.png"
+    ],
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-45c5bb5d-a2e5-49a8-94aa-45bbcbc1f80a.png",
+    "revision": "2026-10-24 anatomy redraw",
+    "anatomySources": [
+      "https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/cosewic-assessments-status-reports/threespine-stickleback-species-bundle.html",
+      "https://a100.gov.bc.ca/pub/eswp/speciesSummary.do?id=18457"
+    ]
+  },
+  {
+    "id": "sandgoby",
+    "prompt": "Use case: scientific-educational. Game collection sprite. Use supplied reference images ONLY for visual style, never copy species shape. Low saturation natural history PIXEL illustration, sharply stepped pixel edges, restrained highlights, limited discrete shade clusters, no smooth painting, no photography. One complete isolated object, true transparent background, generous transparent margin, no text, no frame, no environment, no shadow. Details must read at 160px; design as approximately 300px object, not a highly detailed large painting. Subject: 沙細鰕虎; Pomatoschistus minutus 比普通細鰕虎稍長、沙黃色帶網狀紋、第一背鰭後端藍黑斑；兩種細鰕虎要能分辨. One fish, head LEFT, full strict side view, complete fins, anatomically accurate species proportions. Genuinely transparent empty background, no haze or glow. At least 6% transparent margin on all sides. Restrained pixel clusters and highlights matching references.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/pixel-atlas-01-clear.png"
+    ],
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-42fb903d-da8d-4b32-a09f-4eb386d58f2c.png"
+  },
+  {
+    "id": "vendace",
+    "prompt": "Use case: scientific-educational. Game collection sprite. Use supplied reference images ONLY for visual style, never copy species shape. Low saturation natural history PIXEL illustration, sharply stepped pixel edges, restrained highlights, limited discrete shade clusters, no smooth painting, no photography. One complete isolated object, true transparent background, generous transparent margin, no text, no frame, no environment, no shadow. Details must read at 160px; design as approximately 300px object, not a highly detailed large painting. Subject: 歐白鮭; Coregonus albula 小型細長銀色、下頜略突出於上頜、脂鰭、尾鰭叉形. One fish, head LEFT, full strict side view, complete fins, anatomically accurate species proportions. Genuinely transparent empty background, no haze or glow. At least 6% transparent margin on all sides. Restrained pixel clusters and highlights matching references.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/pixel-atlas-01-clear.png"
+    ],
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-cde8908f-1cbd-4840-b312-d50550604eb6.png"
+  },
+  {
+    "id": "dace",
+    "prompt": "Use case: scientific-educational. Game collection sprite. Use supplied reference images ONLY for visual style, never copy species shape. Low saturation natural history PIXEL illustration, sharply stepped pixel edges, restrained highlights, limited discrete shade clusters, no smooth painting, no photography. One complete isolated object, true transparent background, generous transparent margin, no text, no frame, no environment, no shadow. Details must read at 160px; design as approximately 300px object, not a highly detailed large painting. Subject: 歐洲雅羅魚; Leuciscus leuciscus 細長銀亮、背部灰綠、頭小吻稍尖、臀鰭外緣內凹、鰭色偏淡. One fish, head LEFT, full strict side view, complete fins, anatomically accurate species proportions. Genuinely transparent empty background, no haze or glow. At least 6% transparent margin on all sides. Restrained pixel clusters and highlights matching references.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/pixel-atlas-01-clear.png"
+    ],
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-de1a15bd-9e2d-4845-81d8-1f9e1102b3b9.png"
+  },
+  {
+    "id": "commongoby",
+    "prompt": "Use case: scientific-educational. Game collection sprite. Use supplied reference images ONLY for visual style, never copy species shape. Low saturation natural history PIXEL illustration, sharply stepped pixel edges, restrained highlights, limited discrete shade clusters, no smooth painting, no photography. One complete isolated object, true transparent background, generous transparent margin, no text, no frame, no environment, no shadow. Details must read at 160px; design as approximately 300px object, not a highly detailed large painting. Subject: 普通細鰕虎; Pomatoschistus microps 極小、淡沙色半透明帶細點、兩枚背鰭、第一背鰭後部暗斑. One fish, head LEFT, full strict side view, complete fins, anatomically accurate species proportions. Genuinely transparent empty background, no haze or glow. At least 6% transparent margin on all sides. Restrained pixel clusters and highlights matching references.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/pixel-atlas-01-clear.png"
+    ],
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-3f88dbb3-236b-4c9c-9cbe-f8dca50c547d.png"
+  },
+  {
+    "id": "chub",
+    "prompt": "Use case: scientific-educational. Game collection sprite. Use supplied reference images ONLY for visual style, never copy species shape. Low saturation natural history PIXEL illustration, sharply stepped pixel edges, restrained highlights, limited discrete shade clusters, no smooth painting, no photography. One complete isolated object, true transparent background, generous transparent margin, no text, no frame, no environment, no shadow. Details must read at 160px; design as approximately 300px object, not a highly detailed large painting. Subject: 圓腹雅羅魚; Squalius cephalus 粗壯近圓筒形、頭寬口大、大鱗片帶暗色邊形成網紋、臀鰭外緣外凸並帶紅色. One fish, head LEFT, full strict side view, complete fins, anatomically accurate species proportions. Genuinely transparent empty background, no haze or glow. At least 6% transparent margin on all sides. Restrained pixel clusters and highlights matching references.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/pixel-atlas-01-clear.png"
+    ],
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-f5bcf858-06eb-4d68-94c5-b338bb1a0298.png"
+  },
+  {
+    "id": "sprat",
+    "prompt": "Use case: scientific-educational. Game collection sprite. Use supplied reference images ONLY for visual style, never copy species shape. Low saturation natural history PIXEL illustration, sharply stepped pixel edges, restrained highlights, limited discrete shade clusters, no smooth painting, no photography. One complete isolated object, true transparent background, generous transparent margin, no text, no frame, no environment, no shadow. Details must read at 160px; design as approximately 300px object, not a highly detailed large painting. Subject: 黍鯡; Sprattus sprattus 小型側扁、背部藍綠、體側銀白、腹緣稜鱗呈鋸齒、背鰭起點在腹鰭之後. One fish, head LEFT, full strict side view, complete fins, anatomically accurate species proportions. Genuinely transparent empty background, no haze or glow. At least 6% transparent margin on all sides. Restrained pixel clusters and highlights matching references.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/pixel-atlas-01-clear.png"
+    ],
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-47ccfa26-5089-4977-b900-baa43173486a.png"
+  },
+  {
+    "id": "thinlipmullet",
+    "prompt": "Use case: scientific-educational. Game collection sprite. Use supplied reference images ONLY for visual style, never copy species shape. Low saturation natural history PIXEL illustration, sharply stepped pixel edges, restrained highlights, limited discrete shade clusters, no smooth painting, no photography. One complete isolated object, true transparent background, generous transparent margin, no text, no frame, no environment, no shadow. Details must read at 160px; design as approximately 300px object, not a highly detailed large painting. Subject: 薄唇鮻; Chelon ramada 細長鯔形、背部灰藍、體側數條灰色縱紋、上唇薄、兩枚背鰭、胸鰭基部暗斑. One fish, head LEFT, full strict side view, complete fins, anatomically accurate species proportions. Genuinely transparent empty background, no haze or glow. At least 6% transparent margin on all sides. Restrained pixel clusters and highlights matching references.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/pixel-atlas-01-clear.png"
+    ],
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-79758e1b-560e-4862-ac08-c900b00b3f6d.png"
+  },
+  {
+    "id": "xuyi-shisanxiang",
+    "prompt": "Use case: scientific-educational. Game collection sprite. Use supplied reference images ONLY for visual style, never copy species shape. Low saturation natural history PIXEL illustration, sharply stepped pixel edges, restrained highlights, limited discrete shade clusters, no smooth painting, no photography. One complete isolated object, true transparent background, generous transparent margin, no text, no frame, no environment, no shadow. Details must read at 160px; design as approximately 300px object, not a highly detailed large painting. Subject: 十三香小龍蝦; 一盤紅亮、帶醬色湯汁燒煮的整隻小龍蝦，可見香料碎粒. One serving, full plate/bowl where specified, elevated three-quarter view. No utensils. Genuinely transparent empty background, no haze or glow. At least 6% transparent margin on all sides. Restrained pixel clusters and highlights matching references.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/pixel-atlas-01-clear.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/sprites16/meal-taihu-steamed-crab.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/sprites16/meal-tokyo-boiled-shako.png"
+    ],
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-03904266-da05-4556-a705-cae3d96bf2e3.png"
+  },
+  {
+    "id": "signalcrayfish",
+    "prompt": "Use case: scientific-educational. Game collection sprite. Use supplied reference images ONLY for visual style, never copy species shape. Low saturation natural history PIXEL illustration, sharply stepped pixel edges, restrained highlights, limited discrete shade clusters, no smooth painting, no photography. One complete isolated object, true transparent background, generous transparent margin, no text, no frame, no environment, no shadow. Details must read at 160px; design as approximately 300px object, not a highly detailed large painting. Subject: 信號小龍蝦; Pacifastacus leniusculus 褐到藍褐、大螯寬而表面光滑、螯關節處一塊白或藍白色斑（必須清楚可見）、螯腹面紅色；不可只把克氏原螯蝦換色. One LIVE crayfish, facing left slightly elevated side view. BOTH broad smooth claws with clear WHITE SIGNAL PATCHES at joints and hints of red underside. All antennae and legs intact. Genuinely transparent empty background, no haze or glow. At least 6% transparent margin on all sides. Restrained pixel clusters and highlights matching references.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/pixel-atlas-01-clear.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/animal-nipponense.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/animal-mittencrab.png"
+    ],
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-7ea97e43-2a34-44f1-9f21-beb32e135c85.png"
+  },
+  {
+    "id": "jellied-eels",
+    "prompt": "Use case: scientific-educational. Game collection sprite. Use supplied reference images ONLY for visual style, never copy species shape. Low saturation natural history PIXEL illustration, sharply stepped pixel edges, restrained highlights, limited discrete shade clusters, no smooth painting, no photography. One complete isolated object, true transparent background, generous transparent margin, no text, no frame, no environment, no shadow. Details must read at 160px; design as approximately 300px object, not a highly detailed large painting. Subject: 鰻魚凍; 小碗或杯中切段的鰻魚，周圍是半透明的淡色凝凍. One serving, full plate/bowl where specified, elevated three-quarter view. No utensils. Genuinely transparent empty background, no haze or glow. At least 6% transparent margin on all sides. Restrained pixel clusters and highlights matching references.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/pixel-atlas-01-clear.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/sprites16/meal-taihu-steamed-crab.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/sprites16/meal-tokyo-boiled-shako.png"
+    ],
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-deceddef-5a80-41e3-91d0-3491b1024d05.png"
+  },
+  {
+    "id": "kokta-krafter",
+    "prompt": "Use case: scientific-educational. Game collection sprite. Use supplied reference images ONLY for visual style, never copy species shape. Low saturation natural history PIXEL illustration, sharply stepped pixel edges, restrained highlights, limited discrete shade clusters, no smooth painting, no photography. One complete isolated object, true transparent background, generous transparent margin, no text, no frame, no environment, no shadow. Details must read at 160px; design as approximately 300px object, not a highly detailed large painting. Subject: 蒔蘿鹽水煮小龍蝦; 放涼後堆在盤上的鮮紅整隻小龍蝦，配一兩枝蒔蘿花冠（傘形花序）. One serving, full plate/bowl where specified, elevated three-quarter view. No utensils. Genuinely transparent empty background, no haze or glow. At least 6% transparent margin on all sides. Restrained pixel clusters and highlights matching references.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/pixel-atlas-01-clear.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/sprites16/meal-taihu-steamed-crab.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/sprites16/meal-tokyo-boiled-shako.png"
+    ],
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-1de07b6b-7feb-4c98-9658-edb18d5afc09.png"
+  },
+  {
+    "id": "whitebait",
+    "prompt": "Use case: scientific-educational. Game collection sprite. Use supplied reference images ONLY for visual style, never copy species shape. Low saturation natural history PIXEL illustration, sharply stepped pixel edges, restrained highlights, limited discrete shade clusters, no smooth painting, no photography. One complete isolated object, true transparent background, generous transparent margin, no text, no frame, no environment, no shadow. Details must read at 160px; design as approximately 300px object, not a highly detailed large painting. Subject: 炸銀魚; 一盤裹粉炸至金黃的整條小魚，配一角檸檬. One serving, full plate/bowl where specified, elevated three-quarter view. No utensils. Genuinely transparent empty background, no haze or glow. At least 6% transparent margin on all sides. Restrained pixel clusters and highlights matching references.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/pixel-atlas-01-clear.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/sprites16/meal-taihu-steamed-crab.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/sprites16/meal-tokyo-boiled-shako.png"
+    ],
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-59150bea-4abc-4790-afeb-3f6ced41620a.png"
+  },
+  {
+    "id": "granna-polkagris",
+    "prompt": "Use case: scientific-educational. Game collection sprite. Use supplied reference images ONLY for visual style, never copy species shape. Low saturation natural history PIXEL illustration, sharply stepped pixel edges, restrained highlights, limited discrete shade clusters, no smooth painting, no photography. One complete isolated object, true transparent background, generous transparent margin, no text, no frame, no environment, no shadow. Details must read at 160px; design as approximately 300px object, not a highly detailed large painting. Subject: 格蘭納拐杖糖; 紅白條紋扭轉的薄荷硬糖棒，可兩三段並放；不加包裝或文字. One serving, full plate/bowl where specified, elevated three-quarter view. No utensils. Genuinely transparent empty background, no haze or glow. At least 6% transparent margin on all sides. Restrained pixel clusters and highlights matching references.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/pixel-atlas-01-clear.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/sprites16/meal-taihu-steamed-crab.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/sprites16/meal-tokyo-boiled-shako.png"
+    ],
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-cf45971f-8e1b-4981-b4c3-160c4ae01248.png"
+  },
+  {
+    "id": "pingqiao-tofu",
+    "prompt": "Use case: scientific-educational. Game collection sprite. Use supplied reference images ONLY for visual style, never copy species shape. Low saturation natural history PIXEL illustration, sharply stepped pixel edges, restrained highlights, limited discrete shade clusters, no smooth painting, no photography. One complete isolated object, true transparent background, generous transparent margin, no text, no frame, no environment, no shadow. Details must read at 160px; design as approximately 300px object, not a highly detailed large painting. Subject: 平橋豆腐; 碗裝細豆腐丁羹，湯色清亮、表面一層油光，可見少許青蔥或香菜. One serving, full plate/bowl where specified, elevated three-quarter view. No utensils. Genuinely transparent empty background, no haze or glow. At least 6% transparent margin on all sides. Restrained pixel clusters and highlights matching references.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/pixel-atlas-01-clear.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/sprites16/meal-taihu-steamed-crab.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/sprites16/meal-tokyo-boiled-shako.png"
+    ],
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-339179b3-6d34-44d5-8fe2-0b4a557ac23c.png"
+  },
+  {
+    "id": "pie-and-mash",
+    "prompt": "Use case: scientific-educational. Game collection sprite. Use supplied reference images ONLY for visual style, never copy species shape. Low saturation natural history PIXEL illustration, sharply stepped pixel edges, restrained highlights, limited discrete shade clusters, no smooth painting, no photography. One complete isolated object, true transparent background, generous transparent margin, no text, no frame, no environment, no shadow. Details must read at 160px; design as approximately 300px object, not a highly detailed large painting. Subject: 派與薯泥; 盤中一個酥皮肉派與一團馬鈴薯泥，淋上淡綠色的歐芹醬汁. One serving, full plate/bowl where specified, elevated three-quarter view. No utensils. Genuinely transparent empty background, no haze or glow. At least 6% transparent margin on all sides. Restrained pixel clusters and highlights matching references.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/pixel-atlas-01-clear.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/sprites16/meal-taihu-steamed-crab.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/sprites16/meal-tokyo-boiled-shako.png"
+    ],
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-be96a63b-3560-4423-89e1-db21c5666dd6.png"
+  }
+]

@@ -7,3 +7,6 @@ window.WORLD_WATER.local.push({k:"sea",z:6,n:"濟州沿岸",src:"遊戲釣點概
 
 // 0.24 Taihu: label only; the lake outline is already in the Natural Earth lakes layer.
 window.WORLD_WATER.local.push({k:"lake",z:3,n:"太湖",src:"遊戲釣點概略位置",g:[],l:[120.22,31.2]});
+
+// 0.26 labels only; the lake outlines and the Thames course are the existing Natural Earth data.
+window.WORLD_WATER.local.push({k:"lake",z:3,n:"洪澤湖",src:"遊戲釣點概略位置",g:[],l:[118.55,33.3]},{k:"lake",z:3,n:"韋特恩湖",src:"遊戲釣點概略位置",g:[],l:[14.55,58.4]},{k:"river",z:8,n:"泰晤士河",src:"遊戲釣點概略位置",g:[],l:[0.15,51.5]});

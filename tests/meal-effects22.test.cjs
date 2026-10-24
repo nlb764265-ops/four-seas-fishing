@@ -8,8 +8,8 @@ test('every meal uses one of the seven effects with the approved amounts per dur
  const count={};for(const m of all){count[m.effect]=(count[m.effect]||0)+1;assert([40,60,80].includes(m.casts),m.id);const tier={40:0,60:1,80:2}[m.casts];
   const want={lure:[1.5,2,2.5],weed:[.5,.75,1],bait:[.25,.35,.5],double:[.08,.1,.12],night:[.5,.75,1],animal:[2,2.5,3]}[m.effect];if(want)assert.equal(m.amount,want[tier],m.id);else assert.equal(m.effect,'speed',m.id);
   assert(!m.desc.split('，')[0].includes('持續'),m.id);assert.match(m.desc,new RegExp(`持續 ${m.casts} 竿。$`))}
- assert.deepEqual(count,{speed:24,lure:27,weed:18,bait:8,double:16,night:5,animal:10});
- assert.deepEqual(all.filter(m=>m.effect==='double').map(m=>m.id).sort(),['dine-jeju-mackerel','jeju-grilled-mackerel','taihu-silver-eggs','dine-taihu-silvereggs','baoyu','danggit','funazushi','ginger','green-herring','grillfish','gurukun-karaage','kibinago-sashimi','pla-duk-fu','smoked','wakasagi-suzuke','zander-muellerin'].sort());
+ assert.deepEqual(count,{speed:32,lure:30,weed:23,bait:8,double:24,night:5,animal:10});
+ assert.deepEqual(all.filter(m=>m.effect==='double').map(m=>m.id).sort(),['dine-jeju-mackerel','jeju-grilled-mackerel','ganjang-gejang','tokyo-boiled-shako','dine-tokyo_bay-shako','ishikari-hokke','taihu-silver-eggs','dine-taihu-silvereggs','baoyu','danggit','funazushi','ginger','green-herring','grillfish','gurukun-karaage','kibinago-sashimi','pla-duk-fu','smoked','wakasagi-suzuke','zander-muellerin','xuyi-shisanxiang','jellied-eels','dine-hongze-crab','dine-thames-jellied'].sort());
  assert.deepEqual(['kabayaki','eel-noodle','catfish-eggplant','dine-kasumigaura-hobikini'].map(id=>(E.recipe(id)||E.dish(id)).effect),['night','night','night','night'])});
 test('weed meals cut water plants; the empty hook still only brings up plants',()=>{
  const plain=run(fresh(),null,600),half=run(fresh(),'panfry',600),none=run(fresh(),'sweetsour-carp',600);
@@ -44,7 +44,7 @@ test('live hints describe the current water and bait, and flag meals with no eff
  assert.match(E.mealHint(s,'westlake').text,/^使用麵團時，有 \d+ 種可上鉤的魚與水生動物尚未登錄。$/);
  for(const id of E.waterSpecies('sunmoon'))(E.fish(id).category?s.animals:s.book)[id]={count:1,best:1};assert.equal(E.mealHint(s,'westlake').idle,true);
  const b=fresh('biwa');assert.deepEqual(E.mealHint(b,'dine-arcachon-moules'),{text:'琵琶湖沒有水生動物，目前沒有效果。',idle:true});assert.equal(E.mealHint(b,'kabayaki').idle,false);
- const t=fresh('tokyo_bay');assert.equal(E.mealHint(t,'kabayaki').idle,true);
+ const t=fresh('ishikari');assert.equal(E.mealHint(t,'kabayaki').idle,true);assert.equal(E.mealHint(fresh('tokyo_bay'),'kabayaki').idle,false,'0.25: the conger is likelier at night');
  s.selectedBait='none';assert.equal(E.mealHint(s,'panfry').idle,true);assert.equal(E.mealHint(s,'grillfish').idle,true);assert.equal(E.mealHint(s,'nishin-zuke').text,'空鉤不消耗魚餌，目前沒有效果。')});
 test('saves holding a meal from before the change keep working',()=>{
  const s=fresh();s.buff={id:'steamfish',left:7,since:0};const m=E.migrate(JSON.parse(JSON.stringify(s)),1);assert(m&&E.valid(m));assert.equal(m.buff.id,'steamfish');E.toggle(m,1);E.settle(m,1+m.castMs);assert.equal(m.buff.left,6)});

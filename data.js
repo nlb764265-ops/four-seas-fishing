@@ -1722,6 +1722,179 @@ const dishes24=[
  {slug:'chuncai',name:'蓴菜銀魚羹',method:'soup',tier:'classic',effect:'lure',amount:2.5,casts:80,price:270,preparation:'銀魚與蓴菜入雞湯勾芡',about:'蓴菜葉片小而包著透明膠質，蘇州市面上的蓴菜多來自太湖東山。銀魚、蓴菜與火腿絲、香菇絲放入雞湯煮滾，勾芡成羹，最後淋入蛋白。',art:'taihu-chuncai'}
 ].map(d=>({...d,id:'dine-taihu-'+d.slug,region:'taihu'}));
 for(const d of dishes24){d.desc=mealDesc(d);dishes.push(d)}restaurants.taihu={name:'湖鮮船菜館',dishes:dishes24};
+// 0.25 Tokyo Bay, Ishikari Bay, Jeju animals and Taihu small fish. Runtime prices and final pool weights: no further x3 or size scaling.
+const seaFish=(o)=>({bounty:0,edible:true,cookable:true,water:'sea',kind:'海水魚種',cookingNote:'',...o});
+const fish25tokyo=[
+ seaFish({id:'redstingray',name:'赤魟',latin:'Hemitrygon akajei',min:.3,max:3.5,price:45,requiredBait:'shrimp',rod:2,other:'赤土魟、紅魴、牛尾魴',form:'頭部與胸鰭連成寬大的菱形體盤，背面赤褐色，腹面較淺。後方拖著細長如鞭的尾巴，尾上有一根帶毒腺的硬刺。',habitat:'沿岸、河口與潟湖的沙泥底，貼近海底覓食。',diet:'吃小魚與甲殼類。',distribution:'西太平洋魚種，從日本南部到東南亞海域均有分布。東京都內灣 2011 年度成魚調查有紀錄。',food:'有食用紀錄，日本宮城、香川等地有煮付與味噌湯等吃法；尾刺帶毒腺，處理時須先去除。',hint:'寬大的褐色體盤貼著海底，細長尾巴上帶有硬刺。',source:'https://fishdb.sinica.edu.tw/taxon/383140-fishdb',localNames:[['日語','アカエイ']]}),
+ seaFish({id:'linedcardinal',name:'細條銀口天竺鯛',latin:'Jaydia lineata',min:.01,max:.02,price:30,requiredBait:'worm',rod:0,other:'細紋銀口天竺鯛、細條天竺鯛',form:'頭大、眼睛也大，身體灰銀色，側面排列多道細窄的褐色橫帶。背鰭分成前後兩枚，尾鰭後緣較平。',habitat:'近岸到較深水域的沙泥底。雄魚會把卵含在口中照顧。',diet:'吃多毛類及小型底棲無脊椎動物。',distribution:'印度至西太平洋有分布。東京都內灣 2011 年度成魚調查有紀錄，2019 年 11 月的調查也採到這種魚。',food:'有作魚漿原料的利用紀錄；廣島縣福山一帶稱為「ネブト」，去頭後裹粉炸成小菜。',hint:'灰銀色的大眼小魚，身側排著許多細細的褐色橫帶。',source:'https://taieol.tw/pages/56541',localNames:[['日語','テンジクダイ']]}),
+ seaFish({id:'triplespine',name:'雙棘三棘魨',latin:'Triacanthus biaculeatus',min:.03,max:.3,price:42,requiredBait:'shrimp',rod:0,other:'雙棘三刺魨、三腳釘、三角狄',form:'身體側扁，吻部尖短，尾柄細長。背上立著粗硬的長棘，腹部兩側也各有一根硬棘；背部較深，腹部銀白，部分魚鰭帶黃色。',habitat:'沿岸與河口附近的沙泥底。',diet:'攝食底棲無脊椎動物。',distribution:'印度至西太平洋有分布，日本南部亦有紀錄。東京都內灣 2011 年度稚魚調查在城南大橋採到這種魚。',food:'可食用，有以鮮魚上市的紀錄；屬於三棘魨科。',hint:'背上與腹側都有硬棘的銀色魚，尾柄細長，魚鰭帶黃。',source:'https://fishdb.sinica.edu.tw/eng/species.php?id=383050',localNames:[['日語','ギマ']]}),
+ seaFish({id:'whitespottedconger',name:'繁星糯鰻',latin:'Conger myriaster',min:.08,max:1.5,price:48,requiredBait:'meat',rod:0,other:'星康吉鰻、糯米鰻、穴子鰻',form:'身體細長，背面褐色、腹面淺白，背鰭、尾鰭與臀鰭連成一圈。頭部與身體兩側排列著白色小點，像一列列細小的星星。',habitat:'沿岸與河口附近的沙泥底。白天藏在洞穴或海底隱蔽處，夜裡出來覓食。',diet:'吃蝦蟹、頭足類與小魚。',distribution:'西北太平洋魚種，日本沿岸、朝鮮半島與東海均有分布。是東京灣的代表性漁獲之一，當地也以夜釣捕獲。',food:'日本常用的「穴子」魚材，可作煮穴子、天婦羅與壽司。',hint:'細長的褐色海魚，頭部與身側排列著白色小點。',source:'https://fishdb.sinica.edu.tw/taxon/380723-fishdb',localNames:[['日語','マアナゴ']]})
+];
+const fish25ishikari=[
+ seaFish({id:'pacificcod',name:'大頭鱈',latin:'Gadus macrocephalus',min:.3,max:3.5,price:48,requiredBait:'meat',rod:2,other:'太平洋鱈',form:'頭部大，嘴寬，上頜比下頜向前突出，下巴垂著一根明顯的鬚。背部灰褐，體側有不規則深色斑紋，背上分列三枚背鰭。',habitat:'冷水海域的底層魚，生活在大陸棚與較深的近海。冬季會移向產卵水域。',diet:'攝食魚類、蝦蟹、章魚及其他底棲動物。',distribution:'北太平洋有分布，日本以北海道周邊較常見，石狩市海水魚名錄列有紀錄。',food:'白肉魚，可煮鍋、鹽烤或加工保存，在北海道常作冬季湯鍋材料。',hint:'頭大嘴寬的褐斑魚，下巴垂著一根長鬚。',source:'https://www.pref.hokkaido.lg.jp/sr/gid/fis024.html',localNames:[['日語','マダラ']]}),
+ seaFish({id:'alaskapollock',name:'黃線狹鱈',latin:'Gadus chalcogrammus',min:.15,max:2,price:42,requiredBait:'meat',rod:0,other:'阿拉斯加鱈',form:'身體較細長，背面橄欖褐色，體側銀灰並帶斑紋。眼睛和嘴都大，下頜突出，下巴的鬚很短或不明顯，與大頭鱈粗長的頦鬚不同。',habitat:'寒冷海域的近底層，也會上下移動覓食。冬春成群到產卵水域聚集。',diet:'攝食磷蝦等甲殼類、小魚與頭足類。',distribution:'北太平洋寒冷海域有分布，石狩灣有採樣與漁業研究紀錄。',food:'魚肉常作魚漿，魚卵是日本鱈子與明太子的常用原料；也有以整魚或魚塊煮湯的吃法。',hint:'眼大、下頜突出，身體細長的灰褐色海魚。',source:'https://www.pref.hokkaido.lg.jp/sr/gid/fis026.html',localNames:[['日語','スケトウダラ']]}),
+ seaFish({id:'sailfinsandfish',name:'日本叉牙魚',latin:'Arctoscopus japonicus',min:.02,max:.12,price:39,requiredBait:'shrimp',rod:0,other:'',form:'身體細長而略側扁，嘴巴大而斜向上，兩枚背鰭相隔較遠，胸鰭寬大。背面有黃褐與深褐色的不規則斑紋，身上沒有鱗片。',habitat:'較深的沙泥底，會把身體部分埋進沙裡。繁殖時成群游到淺水藻場產卵。',diet:'攝食端足類、糠蝦與頭足類。',distribution:'日本海與北日本等海域有分布，石狩灣厚田沿岸有秋冬接岸的漁業紀錄。',food:'可鹽烤、煮付或曬成一夜干，北海道也有飯壽司加工。',hint:'嘴巴斜向上的黃褐色小魚，胸鰭寬大，兩枚背鰭分得很開。',source:'https://www.hro.or.jp/fisheries/h3mfcd0000000gsj/o7u1kr000000019q/o7u1kr000000d4fu/o7u1kr000000cc10.html',localNames:[['日語','ハタハタ']]})
+];
+// Edible stays null for the yellow dwarf goby: no reliable source records it as food, so it is kept out of every recipe.
+const fish25taihu=[
+ freshFish({id:'largerfinbitterling',name:'大鰭鱊',latin:'Acheilognathus macropterus',min:.01,max:.06,price:30,requiredBait:'dough',rod:0,other:'',kind:'湖區紀錄魚種',form:'身體側扁而薄，輪廓近卵圓形，背鰭與臀鰭較發達；繁殖期雄魚的體色與鰭部更顯眼。',habitat:'生活於緩流或靜水，常見於水草生長的水域。',diet:'雜食，以植物葉片、藻類等為食。',distribution:'中國東部淡水水域等地；東太湖實地調查有紀錄。',food:'有食用紀錄，也作觀賞利用。',hint:'扁薄的身體像一片葉，背鰭與臀鰭都較寬。',source:'https://dfz.jl.gov.cn/jltc/201712/t20171206_5217555.html'}),
+ freshFish({id:'khankabitterling',name:'興凱鱊',latin:'Acheilognathus chankaensis',min:.01,max:.02,price:30,requiredBait:'dough',rod:0,other:'',kind:'湖區紀錄魚種',form:'身體側扁，頭小而眼較大，尾鰭淺分叉；繁殖期雄魚的體側帶藍色反光，腹鰭與臀鰭可見鮮明邊帶。',habitat:'棲息於江河、湖泊的靜水或緩流處，不作長距離游動。',diet:'主要攝取藻類及植物碎屑。',distribution:'俄羅斯與中國的東亞淡水水域；東太湖調查也有紀錄。',food:'體型小，可作食用魚，也常作觀賞利用；在原產地具漁業與水族館用途。',hint:'繁殖期體側會泛藍色反光，鰭邊帶著黑白色帶。',source:'https://dfz.jl.gov.cn/jltc/201712/t20171205_5217554.html'}),
+ freshFish({id:'chinesebitterling',name:'中華鰟鮍',latin:'Rhodeus sinensis',min:.01,max:.02,price:30,requiredBait:'dough',rod:0,other:'',kind:'湖區紀錄魚種',form:'身體側扁，輪廓近橢圓，頭與口較小；側線不完全，背鰭約從身體中段開始。',habitat:'東太湖等淡水水域。',diet:'東太湖調查將其列入碎屑食性魚。',distribution:'中國淡水水系；東太湖實地調查有紀錄。',food:'以觀賞魚聞名，也有一定的食用價值；魚小刺多，多當作小雜魚處理。',hint:'身體扁圓，頭和口都很小，側線沒有一路延伸到尾部。',source:ecoTaihu}),
+ freshFish({id:'rivulargudgeon',name:'棒花魚',latin:'Abbottina rivularis',min:.01,max:.03,price:33,requiredBait:'worm',rod:0,other:'',kind:'湖區紀錄魚種',form:'身體前段較粗，吻圓而口向下，嘴角有一對短鬚；體側有深色斑塊，背鰭與尾鰭帶細小黑斑。',habitat:'生活於河流、湖泊與溝塘的底層，常停在淺水沙泥底。',diet:'攝食小型無脊椎動物，也吃植物碎屑及藻類。',distribution:'中國多個淡水水系；東太湖調查有紀錄。',food:'有食用紀錄。',hint:'口朝向水底，嘴邊有短鬚，背鰭和尾鰭散著黑色小點。',source:'https://dfz.jl.gov.cn/jltc/201804/t20180408_5217573.html'}),
+ freshFish({id:'yellowdwarfgoby',name:'小黃黝魚',latin:'Micropercops swinhonis',min:.01,max:.01,price:27,requiredBait:'worm',rod:0,other:'',kind:'湖區紀錄魚種',edible:null,cookable:false,cookingNote:'尚無可靠的食用紀錄，不作料理材料。',form:'體型小，淡黃至褐色的身體上有較深的斑紋，頭部較寬，背鰭分成前後兩部。',habitat:'棲息於池塘、湖沼及緩流水域。',diet:'偏肉食性的小型底棲魚，野外食物組成的研究資料很少。',distribution:'中國長江及北方多個水系有紀錄，太湖有採樣與群落調查資料。',food:'食用資料待查。',hint:'小小的身體帶深色斑紋，背上前後兩片背鰭分開。',source:'https://html.rhhz.net/shhydxxb/20160501770.htm'})
+];
+const seaAnimal=(o)=>({bounty:0,rod:0,edible:true,cookable:true,water:'sea',cookingNote:'',...o});
+const animals25tokyo=[
+ seaAnimal({id:'mantisshrimp',name:'口蝦蛄',other:'蝦蛄、螳螂蝦',latin:'Oratosquilla oratoria',category:'crustacean',kind:'海水蝦類',requiredBait:'meat',min:.015,max:.06,price:45,form:'身體細長而分節，眼睛長在能活動的眼柄上，前方一對捕捉足折起時像螳螂的鐮刀。腹部末端展開成寬扁的尾扇。',habitat:'在內灣淺海的沙泥底挖洞生活。',diet:'攝食小魚、甲殼類與其他底棲生物。',distribution:'西太平洋有分布，東京灣的歷年調查均有紀錄，也是過去江戶前壽司常用的漁獲。',food:'常以鹽水煮熟、去殼後食用，也用作壽司材料。',hint:'眼睛長在細柄上，前足折起來像一對小鐮刀。',source:'https://www.pref.kanagawa.jp/docs/mx7/cnt/f430693/zukan-shako.html',localNames:[['日語','シャコ']]}),
+ seaAnimal({id:'japaneseswimmingcrab',name:'日本蟳',other:'石蟳仔',latin:'Charybdis japonica',category:'crustacean',kind:'海水蟹類',requiredBait:'meat',min:.03,max:.15,price:39,form:'甲殼較寬，兩側排列尖齒，體色可見橄欖綠、褐色或紫色。螯足粗壯，最後一對腳的末端扁平，能用來划水。',habitat:'河口與沿岸淺海，出沒於沙泥底及其他近岸棲地。',diet:'捕食貝類、甲殼類與小魚。',distribution:'西太平洋的日本、韓國與中國沿海等地有分布，東京都內灣 2021 年度調查採到這種蟹。',food:'可食用；韓國稱돌게或민꽃게，殼較薄，常醃成醬蟹。',hint:'甲殼兩側有尖齒，最後一對腳像小小的划槳。',source:'https://www.nmns.edu.tw/collect/catalog/detail/?id=21381',localNames:[['日語','イシガニ']]})
+];
+const animals25jeju=[
+ seaAnimal({id:'kurumaprawn',name:'日本對蝦',other:'日本囊對蝦、九節蝦',latin:'Penaeus japonicus',category:'crustacean',kind:'海水蝦類',requiredBait:'shrimp',min:.015,max:.1,price:42,form:'身體細長，淡色的甲殼上有一節節褐色橫帶，尾扇帶藍、黃等色澤，長觸鬚從頭前伸出。',habitat:'生活於近岸沙底或沙泥底，白天常埋身底質，夜間活動較多。',diet:'雜食而偏肉食，胃中以小型甲殼類與魚類殘骸為主，也會隨棲地的底棲生物調整食物。',distribution:'印度—西太平洋的近岸海域；濟州港有採集紀錄。',food:'可食用的對蝦，常見鹽烤、天婦羅及酒蒸等做法。',hint:'淡色身體帶著褐色橫紋，長鬚伸過頭前。',source:'https://www.busan.go.kr/fisheries/frfishpoint06',localNames:[['韓語','보리새우']]}),
+ seaAnimal({id:'gazamicrab',name:'三疣梭子蟹',other:'',latin:'Portunus trituberculatus',category:'crustacean',kind:'海水蟹類',requiredBait:'meat',min:.04,max:.3,price:45,form:'頭胸甲寬扁，兩側各有突出的長棘，背面呈灰綠至褐色，最後一對腳扁平如槳。',habitat:'生活於近岸沙底與沙泥底，能游泳，也會藏在底部。',diet:'攝食貝類、小型甲殼類及其他底棲生物。',distribution:'西北太平洋沿岸；濟州島西歸浦有分布紀錄。',food:'韓國最常食用的蟹，常做成醬蟹、辣燉蟹湯或清蒸。',hint:'寬甲殼的兩側伸出長棘，最後一對腳像小槳。',source:'https://crabs-japan.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=33808',localNames:[['韓語','꽃게']]}),
+ seaAnimal({id:'bluelinedoctopus',name:'藍紋章魚',other:'',latin:'Hapalochlaena fasciata',category:'cephalopod',kind:'章魚類',requiredBait:'meat',min:.005,max:.03,price:30,edible:false,cookable:false,cookingNote:'不可作料理材料。',form:'小型章魚，身體淡褐色，外套膜與頭部可見藍色線紋，腕上有藍色環紋；受到刺激時斑紋更鮮明。',habitat:'藏身於近岸岩礁、潮池與淺海海草床，也會利用空貝殼等遮蔽物。',diet:'捕食小型甲殼類及魚。',distribution:'澳洲東部與西北太平洋部分沿岸；2015 年濟州島南岸潮池採得的標本經形態及 DNA 比對確認。',food:'含河豚毒素，不作食用。',hint:'身體上是藍色線紋，腕上則有小環紋。',source:'https://www.mbris.kr/pub/marine/tsearch/tsearchDetail.do?spcTxnId=270000007964',localNames:[['韓語','파란선문어']]})
+];
+fish.push(...fish25tokyo,...fish25ishikari,...fish25taihu);animals.push(...animals25tokyo,...animals25jeju);
+species.push(...fish25tokyo,...animals25tokyo,...fish25ishikari,...animals25jeju,...fish25taihu);
+conditions.whitespottedconger={phase:{night:2},note:'夜晚較常見'};
+const addName25=(id,lang,name)=>{const s=species.find(x=>x.id===id);if(!s.localNames.some(([l])=>l===lang))s.localNames.push([lang,name])},note25=(id,text)=>{const s=species.find(x=>x.id===id);s.distribution=s.distribution.replace(/\s*$/,'')+text};
+for(const [id,ja,text] of [['japaneseanchovy','カタクチイワシ','東京都內灣的成魚調查亦有紀錄。'],['yellowfin','キチヌ','東京都內灣的稚魚調查亦有紀錄。'],['nuchalponyfish','ヒイラギ','東京都內灣的稚魚調查亦有紀錄。']]){addName25(id,'日語',ja);note25(id,text)}
+for(const [id,ja] of [['japaneseanchovy','カタクチイワシ'],['japanesehalfbeak','サヨリ'],['oliveflounder','ヒラメ'],['blackscraper','ウマヅラハギ']]){addName25(id,'日語',ja);note25(id,'石狩市的海水魚名錄亦有紀錄。')}
+addName25('lessoniana','韓語','흰꼴뚜기');species.find(x=>x.id==='lessoniana').distribution='印度—西太平洋近岸；臺灣東北角、澎湖及韓國濟州沿岸均有紀錄。';
+const setPool25=(id,pool,basePool=pool)=>{const r=regions.find(r=>r.id===id);r.pool={...pool};r.basePool={...basePool}};
+setPool25('tokyo_bay',{mahaze:15,japaneseseabass:3,mullet:3,dottedshad:6,shirogisu:7,blackporgy:2,terapon:5,stoneflounder:2,marbledflounder:5,silvercroaker:4,sappa:8,puffer:6,japaneseanchovy:8,linedcardinal:6,triplespine:5,redstingray:1,whitespottedconger:5,yellowfin:4,nuchalponyfish:5},
+ {mahaze:13,japaneseseabass:6,mullet:6,dottedshad:5,shirogisu:6,blackporgy:4,terapon:4,stoneflounder:4,marbledflounder:5,silvercroaker:4,sappa:7,puffer:5,japaneseanchovy:7,linedcardinal:5,triplespine:4,redstingray:2,whitespottedconger:5,yellowfin:4,nuchalponyfish:4});
+regions.find(r=>r.id==='tokyo_bay').animals={mantisshrimp:5,japaneseswimmingcrab:3};
+setPool25('ishikari',{pacificherring:13,hokke:7,greenling:6,yellowstripedflounder:6,cresthead:6,stoneflounder:2,chubmackerel:6,blackrockfish:2,ezomebaru:8,chika:9,saffroncod:6,surfperch:6,puffer:3,japaneseanchovy:6,japanesehalfbeak:5,oliveflounder:1,blackscraper:3,pacificcod:1,alaskapollock:2,sailfinsandfish:2},
+ {pacificherring:11,hokke:8,greenling:6,yellowstripedflounder:6,cresthead:6,stoneflounder:4,chubmackerel:6,blackrockfish:4,ezomebaru:7,chika:8,saffroncod:6,surfperch:5,puffer:3,japaneseanchovy:5,japanesehalfbeak:4,oliveflounder:2,blackscraper:3,pacificcod:2,alaskapollock:2,sailfinsandfish:2});
+regions.find(r=>r.id==='jeju').animals={lessoniana:5,kurumaprawn:4,gazamicrab:3,bluelinedoctopus:1};
+setPool25('taihu',{coilia:12,largeicefish:4,shortsnouticefish:6,yellowcatfish:5,intermediushalfbeak:3,blackfingudgeon:2,mandarinfish:2,toxabramis:6,darksleeper:2,whitebream:2,mongolianculter:2,northernsnakehead:2,crucian:7,qili:6,carp:3,culter:2,topmouth:2,silver:2,bream:2,rosybitterling:2,loach:2,giurinus:2,grass:2,redfinculter:2,bighead:1,largerfinbitterling:5,khankabitterling:3,chinesebitterling:3,rivulargudgeon:4,yellowdwarfgoby:2});
+const recipes25=[
+ {id:'tokyo-simmered-anago',name:'煮穴子',orig:'煮穴子',fish:'whitespottedconger',fishes:['whitespottedconger'],method:'soup',tier:'home',effect:'speed',amount:.08,casts:60,cost:15,preparation:'切段後以甜鹹煮汁煮軟',about:'穴子處理乾淨、切段，放入日本酒、味醂、糖與醬油調成的煮汁，煮到魚肉柔軟。繁星糯鰻是日本常用的穴子魚材，身側能看見排列整齊的白點。',origin:'日本・東京'},
+ {id:'tokyo-boiled-shako',name:'鹽水蝦蛄',orig:'シャコの塩ゆで',fish:'mantisshrimp',fishes:['mantisshrimp'],method:'steam',tier:'home',effect:'double',amount:.08,casts:40,cost:15,preparation:'鹽水煮熟後去殼',about:'蝦蛄放入加鹽的沸水中煮熟，去殼後食用。熟肉緊實而帶彈性，也常用作江戶前壽司的材料。',origin:'日本・東京'},
+ {id:'ishikari-sanpei',name:'三平汁',orig:'三平汁',fish:['pacificcod','alaskapollock','pacificherring'],fishes:['pacificcod','alaskapollock','pacificherring'],method:'soup',tier:'home',effect:'speed',amount:.08,casts:60,cost:15,preparation:'鹽漬魚與根莖蔬菜入昆布湯煮',about:'把鹽漬的鱈魚或鯡魚與白蘿蔔、馬鈴薯等蔬菜放進昆布湯裡煮，魚本身的鹹味也融進湯中。三平汁是北海道的家常湯，使用的魚隨地方而異，黃線狹鱈也是其中一種魚材。',origin:'日本・北海道'},
+ {id:'ishikari-hokke',name:'烤花魚一夜干',orig:'ホッケの一夜干し',fish:'hokke',fishes:['hokke'],method:'fry',tier:'home',effect:'double',amount:.08,casts:40,cost:15,preparation:'剖開浸鹽水、稍乾後烤',about:'花魚剖開、浸過鹽水，稍加乾燥後再烤熟。魚皮烤出焦香，厚實的魚肉仍帶油脂；這裡的花魚指北海道常吃的遠東多線魚。',origin:'日本・北海道'},
+ {id:'ishikari-sandfish',name:'鹽烤日本叉牙魚',orig:'ハタハタの塩焼き',fish:'sailfinsandfish',fishes:['sailfinsandfish'],method:'fry',tier:'home',effect:'weed',amount:.75,casts:60,cost:15,preparation:'抹鹽後烤熟',about:'日本叉牙魚抹鹽後烤熟，魚身帶著黃褐色斑紋，肉質細嫩。北海道除了鹽烤，也會將牠煮付或加工成一夜干。',origin:'日本・北海道'},
+ {id:'kuruma-shioyaki',name:'鹽烤日本對蝦',orig:'くるまえびの塩焼き',fish:'kurumaprawn',fishes:['kurumaprawn'],method:'fry',tier:'home',effect:'speed',amount:.08,casts:60,cost:15,preparation:'連殼撒鹽烤熟',about:'日本對蝦連殼撒鹽烤熟，外殼帶著焦香，蝦肉緊實而有甜味。大分縣介紹當地車蝦時，收錄了鹽烤、天婦羅與酒蒸等吃法。',origin:'日本・大分'}
+].map(r=>({...r,cuisine:'japan'}));
+for(const r of recipes25){r.desc=mealDesc(r);recipes.push(r)}
+const recipes25b=[
+ {id:'akaei-nitsuke',name:'煮付赤魟',orig:'アカエイの煮つけ',fish:'redstingray',fishes:['redstingray'],method:'soup',tier:'home',effect:'speed',amount:.08,casts:60,cost:15,preparation:'汆燙去黏液後與牛蒡同煮',about:'赤魟切塊後先用熱水燙過，洗去表面的黏液與血水，再和牛蒡一起以醬油、糖與酒煮入味。宮城縣氣仙沼一帶的家常吃法，魟魚的軟骨煮透後也能一起吃。',cuisine:'japan',origin:'日本・宮城'},
+ {id:'nebuto-karaage',name:'炸天竺鯛',orig:'ネブトの唐揚げ',fish:'linedcardinal',fishes:['linedcardinal'],method:'fry',tier:'home',effect:'weed',amount:.5,casts:40,cost:15,preparation:'去頭、裹粉油炸後撒鹽',about:'廣島縣福山一帶把天竺鯛叫做「ネブト」。牠的頭硬、耳石大，先去頭再用鹽水洗過，薄薄裹上麵粉與太白粉，以中溫油炸，趁熱撒鹽，是孩子與下酒都喜歡的地方小菜。',cuisine:'japan',origin:'日本・廣島'},
+ {id:'ganjang-gejang',name:'醬油醃蟹',orig:'간장게장',fish:['gazamicrab','japaneseswimmingcrab'],fishes:['gazamicrab','japaneseswimmingcrab'],method:'pickle',tier:'home',effect:'double',amount:.1,casts:60,cost:15,preparation:'生蟹浸入煮過放涼的醬油',about:'把洗淨的生蟹放進容器，倒入煮滾後放涼的醬油醃汁，冷藏熟成。韓國西海岸常用三疣梭子蟹（꽃게）製作；殼較薄的日本蟳（돌게）也常醃成醬蟹。吃時把飯拌進蟹殼裡的蟹膏。',cuisine:'korea',origin:'韓國'}
+];
+for(const r of recipes25b){r.desc=mealDesc(r);recipes.push(r)}
+// Edible new fish without a sourced dish of their own join the general recipes.
+const general25=['triplespine','largerfinbitterling','khankabitterling','chinesebitterling','rivulargudgeon'];
+for(const r of recipes.filter(r=>r.cuisine==='basic'&&r.id!=='deepfry')){r.fishes.push(...general25);if(Array.isArray(r.fish))r.fish.push(...general25)}
+{const r=recipes.find(r=>r.id==='deepfry'),own=new Set(['redstingray','linedcardinal','whitespottedconger','pacificcod','alaskapollock','sailfinsandfish']);r.fishes=[...fish.filter(f=>f.cookable&&f.max<=.5&&!own.has(f.id)).map(f=>f.id),...friedAnimals];r.fish=[...r.fishes]}
+const dishes25=[
+ {id:'dine-tokyo_bay-shako',region:'tokyo_bay',name:'鹽水蝦蛄',orig:'シャコの塩ゆで',method:'steam',tier:'basic',effect:'double',amount:.08,casts:40,price:45,preparation:'鹽水煮熟後去殼',about:'蝦蛄放入加鹽的沸水中煮熟，去殼後食用。熟肉緊實而帶彈性，也常用作江戶前壽司的材料。',art:'tokyo-boiled-shako'},
+ {id:'dine-ishikari-sanpei',region:'ishikari',name:'三平汁',orig:'三平汁',method:'soup',tier:'home',effect:'speed',amount:.08,casts:60,price:135,preparation:'鹽漬魚與根莖蔬菜入昆布湯煮',about:'把鹽漬的鱈魚或鯡魚與白蘿蔔、馬鈴薯等蔬菜放進昆布湯裡煮，魚本身的鹹味也融進湯中。三平汁是北海道的家常湯，使用的魚隨地方而異，黃線狹鱈也是其中一種魚材。',art:'ishikari-sanpei'},
+ {id:'dine-jeju-kuruma',region:'jeju',name:'鹽烤明蝦',method:'fry',tier:'home',effect:'speed',amount:.08,casts:60,price:135,preparation:'連殼撒鹽烤熟',about:'整尾日本對蝦撒鹽烤熟，連殼上桌，剝開後是帶甜味的蝦肉。',art:'kuruma-shioyaki'}
+];
+for(const d of dishes25){d.desc=mealDesc(d);dishes.push(d);restaurants[d.region].dishes.push(d)}
+// 0.26 crayfish waters: Hongze Lake, Lake Vättern and the tidal Thames. Runtime prices and final pool weights.
+const fb26=n=>'https://www.fishbase.se/summary/'+n.replace(' ','-')+'.html';
+const fish26hongze=[
+ freshFish({id:'yellowcheek',name:'鱤',latin:'Elopichthys bambusa',min:.8,max:5,price:54,requiredBait:'meat',rod:4,other:'黃鑽、竿魚',kind:'湖區紀錄魚種',form:'身體細長如梭，頭尖吻長，嘴大而無牙，體側銀白，鰓蓋附近帶黃色。',habitat:'大型江河與相連湖泊的中上層水域，多在主河道活動。',diet:'凶猛的魚食性魚，主要捕食其他小型魚。',distribution:'東亞從黑龍江到紅河流域皆有分布，洪澤湖調查列為魚食性魚類。',food:'可作食用魚。',hint:'細長的銀色大魚，在水層中追捕小魚。',source:fb26('Elopichthys bambusa')}),
+ freshFish({id:'barbelchub',name:'赤眼鱒',latin:'Squaliobarbus curriculus',min:.2,max:2,price:45,requiredBait:'dough',rod:0,other:'紅眼魚',kind:'湖區紀錄魚種',form:'身體長而略呈圓筒形，眼睛上緣帶紅色，體側鱗片基部有黑點。',habitat:'江河與湖泊的中下層，屬江湖半洄游魚類。',diet:'雜食性，攝食藻類、水草碎屑與小型無脊椎動物。',distribution:'中國東部各大水系有分布，洪澤湖調查記錄為江湖半洄游魚類。',food:'淡水經濟魚類，廣東梅州一帶也用來做魚生。',hint:'眼睛上緣帶紅色的長身魚。',source:'https://www.peopleapp.com/column/30052034522-500007470966'}),
+ freshFish({id:'spottedsteed',name:'花䱻',latin:'Hemibarbus maculatus',min:.1,max:1,price:45,requiredBait:'worm',rod:0,other:'麻鯉、雞頭魚',kind:'湖區紀錄魚種',form:'身體略長，吻部較尖，口下有一對短鬚，體側散布大小不一的黑斑。',habitat:'江河與湖泊的底層。',diet:'以水生昆蟲、螺類等底棲動物為主。',distribution:'東亞多處水系有分布，洪澤湖調查列為底棲肉食性魚類。',food:'可作食用魚。',hint:'身上散布黑斑，貼著湖底找食物。',source:fb26('Hemibarbus maculatus')}),
+ freshFish({id:'xenocypris',name:'黃尾鯝',latin:'Xenocypris davidi',min:.05,max:.5,price:36,requiredBait:'dough',rod:0,other:'黃尾、黃片',kind:'湖區紀錄魚種',form:'身體側扁，口小而位於下方，體色銀白，尾鰭呈黃色。',habitat:'江河與湖泊的中下層。',diet:'以刮食著生藻類與碎屑為主。',distribution:'中國中、東部水系有分布；洪澤湖在 2017～2018 年調查中首次記錄。',food:'可作食用魚。',hint:'銀白的小口魚，尾鰭帶著黃色。',source:fb26('Xenocypris davidi')}),
+ freshFish({id:'nitidcatfish',name:'光澤黃顙魚',latin:'Tachysurus nitidus',min:.03,max:.25,price:45,requiredBait:'worm',rod:0,other:'',kind:'湖區紀錄魚種',edible:null,cookable:false,cookingNote:'尚無該種的食用資料，不作料理材料。',form:'身體較黃顙魚細長，頭部扁平，口邊有四對鬚，體色黃褐而有光澤，背鰭與胸鰭有硬棘。',habitat:'湖泊與河流的底層。',diet:'攝食底棲甲殼類、多毛類與水生昆蟲。',distribution:'中國東部水系有分布，洪澤湖調查有紀錄。',food:'食用資料待查。',hint:'帶鬚的黃褐色小魚，鰭上有尖硬的棘。',source:'https://china-fishery.com/scxuebao/article/pdf/20140609359'})
+];
+const fish26vattern=[
+ freshFish({id:'arcticchar',name:'北極紅點鮭',latin:'Salvelinus alpinus',min:.3,max:3,price:66,requiredBait:'worm',rod:2,other:'紅點鮭',kind:'水域紀錄魚種',form:'身體流線，背部暗綠到灰褐，體側有淡色斑點，繁殖期腹部轉為橘紅。',habitat:'寒冷、清澈的深水湖，韋特恩湖的族群在湖中大石塊間產卵。',diet:'捕食小型魚與底棲無脊椎動物。',distribution:'北半球高緯度淡水與沿海；韋特恩湖是瑞典最大的紅點鮭族群之一，過去稱 storröding 的大型族群現歸為本種。',food:'可作食用魚，也有養殖與遊釣。',hint:'深水湖裡的鮭類，腹部有時帶著橘紅色。',source:'https://vattern.org/wp-content/uploads/Rapport150_Rodinglekprovfiske-i-Vattern_DS_TGA.pdf',localNames:[['瑞典語','röding']]}),
+ freshFish({id:'grayling',name:'茴魚',latin:'Thymallus thymallus',min:.2,max:1.2,price:57,requiredBait:'worm',rod:0,other:'河茴魚',kind:'水域紀錄魚種',form:'身體細長，背鰭特別高大，常帶紫色與紅色斑紋，鱗片較大。',habitat:'清涼、流動的溪河與湖泊，會溯入支流產卵。',diet:'以水生昆蟲為主，也吃落水的陸生昆蟲。',distribution:'歐洲北部與中部；韋特恩湖有瑞典最南端的茴魚族群。',food:'可作食用魚，也是遊釣魚。',hint:'背上張著一片又高又大的鰭。',source:fb26('Thymallus thymallus'),localNames:[['瑞典語','harr']]}),
+ freshFish({id:'vendace',name:'歐白鮭',latin:'Coregonus albula',min:.02,max:.15,price:42,requiredBait:'shrimp',rod:0,other:'',kind:'水域紀錄魚種',form:'體形小而細長，銀白色，下頜略突出。',habitat:'深而清的湖泊開放水域，常成群活動。',diet:'以浮游動物為主。',distribution:'北歐與中歐北部的湖泊；瑞典農業大學 2022 年的調查中，歐白鮭占韋特恩湖開放水域魚類生物量的 68%。',food:'可作食用魚，魚卵在瑞典製成魚子。',hint:'成群在開闊湖水裡游動的小型銀魚。',source:fb26('Coregonus albula'),localNames:[['瑞典語','siklöja']]}),
+ freshFish({id:'commonwhitefish',name:'衰白鮭',latin:'Coregonus maraena',min:.3,max:1.5,price:57,requiredBait:'worm',rod:0,other:'',kind:'水域紀錄魚種',form:'身體銀白而側扁，頭小，吻端略鈍。瑞典各湖的白鮭外形差異很大，現多視為同一種的不同生態型。',habitat:'湖泊與波羅的海沿岸的冷水域。',diet:'攝食底棲無脊椎動物與浮游動物。',distribution:'北歐湖泊與波羅的海周邊；韋特恩湖有紀錄。',food:'可作食用魚，常見燻製。',hint:'小頭的銀白色鮭類，比同湖的歐白鮭大得多。',source:fb26('Coregonus maraena'),localNames:[['瑞典語','sik']]}),
+ freshFish({id:'smelt',name:'歐洲胡瓜魚',latin:'Osmerus eperlanus',min:.01,max:.06,price:36,requiredBait:'shrimp',rod:0,other:'',kind:'河口魚種',water:'brackish',form:'身體細長半透明，口大有齒，新鮮時帶有類似小黃瓜的氣味。',habitat:'湖泊與河口；韋特恩湖的族群是冰河時期留下的陸封族群。',diet:'捕食浮游動物與小型魚。',distribution:'歐洲西北部的河口與湖泊；韋特恩湖與泰晤士河潮汐段均有紀錄。',food:'可作食用魚，也有燻製與作釣餌的利用。',hint:'細長半透明的小魚，聞起來有一點瓜果氣味。',source:fb26('Osmerus eperlanus'),localNames:[['瑞典語','nors'],['英語','smelt']]}),
+ freshFish({id:'fourhorn',name:'四角床杜父魚',latin:'Myoxocephalus quadricornis',min:.03,max:.2,price:36,requiredBait:'worm',rod:0,other:'',kind:'水域紀錄魚種',water:'brackish',cookable:false,cookingNote:'少作食用，不作料理材料。',form:'頭大而扁，身體向後漸細，頭頂有骨質突起，體色灰褐。',habitat:'寒冷湖泊與海域的底層。',diet:'捕食底棲甲殼類與小型魚。',distribution:'北極周邊海域與北歐湖泊；韋特恩湖的族群是冰河時期留下的孑遺。',food:'少作食用，遊戲中不作料理材料。',hint:'大頭的底棲魚，頭上長著幾個小突起。',source:fb26('Myoxocephalus quadricornis'),localNames:[['瑞典語','hornsimpa']]}),
+ freshFish({id:'stickleback',name:'三刺魚',latin:'Gasterosteus aculeatus',min:.001,max:.005,price:30,requiredBait:'shrimp',rod:0,other:'刺魚',kind:'水域紀錄魚種',edible:false,cookable:false,cookingNote:'體形過小，不作料理材料。',form:'體形小，背上有三根分開的硬棘，體側有骨板；繁殖期雄魚喉部轉紅。',habitat:'湖泊、河口與沿岸淺水。',diet:'攝食小型甲殼類與水生昆蟲。',distribution:'北半球溫帶與寒帶廣泛分布；韋特恩湖與泰晤士河均有紀錄。',food:'體形過小，遊戲中不作料理材料。',hint:'拇指大的小魚，背上立著三根刺。',source:fb26('Gasterosteus aculeatus'),localNames:[['瑞典語','storspigg'],['英語','three-spined stickleback']]})
+];
+const fish26thames=[
+ freshFish({id:'commongoby',name:'普通細鰕虎',latin:'Pomatoschistus microps',min:.001,max:.003,price:30,requiredBait:'shrimp',rod:0,other:'',kind:'河口魚種',water:'brackish',edible:false,cookable:false,cookingNote:'體形過小，不作料理材料。',form:'體形細小，淡沙色帶細點，雄魚背鰭有暗斑。',habitat:'河口與潮間帶的泥沙淺灘。',diet:'攝食小型甲殼類與多毛類。',distribution:'歐洲大西洋沿岸；倫敦動物學會在泰晤士河潮間帶的調查中數量最多。',food:'體形過小，遊戲中不作料理材料。',hint:'潮水退去後，泥灘水窪裡最常見的小鰕虎。',source:fb26('Pomatoschistus microps'),localNames:[['英語','common goby']]}),
+ freshFish({id:'sandgoby',name:'沙細鰕虎',latin:'Pomatoschistus minutus',min:.002,max:.006,price:30,requiredBait:'shrimp',rod:0,other:'',kind:'海水魚種',water:'sea',edible:false,cookable:false,cookingNote:'體形過小，不作料理材料。',form:'比普通細鰕虎稍大，體色沙黃帶網紋，適合貼在沙底隱藏。',habitat:'河口與沿岸的沙質底。',diet:'攝食小型甲殼類。',distribution:'歐洲大西洋沿岸；泰晤士河潮汐段有紀錄。',food:'體形過小，遊戲中不作料理材料。',hint:'沙色的小鰕虎，伏在沙底幾乎看不出來。',source:fb26('Pomatoschistus minutus'),localNames:[['英語','sand goby']]}),
+ freshFish({id:'dace',name:'歐洲雅羅魚',latin:'Leuciscus leuciscus',min:.05,max:.3,price:36,requiredBait:'worm',rod:0,other:'',kind:'水域紀錄魚種',cookable:false,cookingNote:'主要作釣遊與釣餌用途，不作料理材料。',form:'身體細長銀亮，背部灰綠，鰭色偏淡，吻部稍尖。',habitat:'水流清涼的河流中上層，也進入潮汐段的淡水河段。',diet:'攝食水生昆蟲、落水昆蟲與植物碎屑。',distribution:'歐洲北部與中部河流；泰晤士河潮汐段調查有紀錄。',food:'主要作釣遊與釣餌用途，遊戲中不作料理材料。',hint:'河流上層的銀色小魚，吻部略尖。',source:fb26('Leuciscus leuciscus'),localNames:[['英語','dace']]}),
+ freshFish({id:'chub',name:'圓腹雅羅魚',latin:'Squalius cephalus',min:.2,max:2.5,price:39,requiredBait:'dough',rod:2,other:'',kind:'水域紀錄魚種',cookable:false,cookingNote:'在英國多作釣遊魚，不作料理材料。',form:'身體粗壯，頭寬口大，鱗片大而有暗色邊，形成網狀紋。',habitat:'河流中下游與緩流處。',diet:'雜食性，從昆蟲、甲殼類到植物果實都吃，大型個體也捕食小魚。',distribution:'歐洲大部分河流；泰晤士河潮汐段有紀錄。',food:'部分地區有漁業利用，在英國多作釣遊魚，遊戲中不作料理材料。',hint:'頭寬口大的河魚，鱗片邊緣像描了一圈深色。',source:fb26('Squalius cephalus'),localNames:[['英語','chub']]}),
+ freshFish({id:'thinlipmullet',name:'薄唇鮻',latin:'Chelon ramada',min:.2,max:1.5,price:33,requiredBait:'dough',rod:0,other:'',kind:'河口魚種',water:'brackish',form:'身體細長，背部灰藍，體側有數條灰色縱紋，上唇較薄。',habitat:'河口與沿岸，會進入半淡鹹水的潮汐河段。',diet:'刮食底泥中的藻類與有機碎屑。',distribution:'歐洲大西洋與地中海沿岸；泰晤士河潮汐段有紀錄。',food:'可作食用魚，也有養殖；國際自然保護聯盟列為近危。',hint:'河口的灰色鯔魚，嘴唇比同類薄。',source:fb26('Chelon ramada'),localNames:[['英語','thinlip grey mullet']]}),
+ freshFish({id:'sprat',name:'黍鯡',latin:'Sprattus sprattus',min:.005,max:.02,price:33,requiredBait:'shrimp',rod:0,other:'小鯡',kind:'海水魚種',water:'sea',form:'體形小而側扁，背部藍綠，腹部銀白，腹緣有稜鱗。',habitat:'近海與河口的上層水域，常成群活動。',diet:'以浮游動物為主。',distribution:'歐洲東北大西洋、北海與波羅的海；泰晤士河潮汐段有紀錄。',food:'英國炸銀魚的常用材料之一，也可煎、烤、燻製或製罐。',hint:'成群游動的銀色小魚，腹部摸起來像一排小鋸齒。',source:fb26('Sprattus sprattus'),localNames:[['英語','sprat']]})
+];
+const freshAnimal=(o)=>({rod:0,edible:true,cookable:true,water:'fresh',localNames:[],cookingNote:'',category:'crustacean',...o});
+const animals26=[
+ freshAnimal({id:'redswampcrayfish',name:'克氏原螯蝦',other:'小龍蝦、紅色螯蝦',latin:'Procambarus clarkii',kind:'淡水螯蝦',requiredBait:'worm',min:.015,max:.06,price:42,bounty:0,form:'體色暗紅到鮮紅，一對大螯表面有顆粒狀突起，頭胸甲厚實。',habitat:'湖泊、池塘、溝渠與稻田，會在岸邊掘洞。',diet:'雜食性，攝食水草、碎屑、螺類與小型動物。',distribution:'原產美國南部與墨西哥北部；20 世紀前期經日本傳入南京一帶，再擴散到盱眙的陡湖與洪澤湖等水域。',food:'中國各地普遍食用，盱眙以十三香小龍蝦聞名。',hint:'舉著一對紅色大螯的甲殼動物。',source:'https://www.thepaper.cn/newsDetail_forward_8180484'}),
+ freshAnimal({id:'signalcrayfish',name:'信號小龍蝦',other:'信號螯蝦',latin:'Pacifastacus leniusculus',kind:'淡水螯蝦',requiredBait:'meat',min:.03,max:.12,price:45,bounty:66,bountyAt:['vattern','thames'],form:'體色褐到藍褐，大螯腹面紅色，螯關節處有一塊白色或藍白色的斑，像打信號的旗子。',habitat:'湖泊與河流，躲在石縫、河岸洞穴中。',diet:'雜食性，攝食水草、碎屑、無脊椎動物與魚卵。',distribution:'原產北美西部；1960 年代引入瑞典，最早放養於韋特恩湖。在英國廣泛擴散，泰晤士河流域的支流與河段都有紀錄。會傳播螯蝦瘟疫，列在歐盟入侵種管制名單。',food:'瑞典傳統上以蒔蘿鹽水煮食。',hint:'大螯關節處有一塊顯眼白斑的螯蝦。',source:'https://eurofish.dk/?p=8688',localNames:[['瑞典語','signalkräfta'],['英語','signal crayfish']]})
+];
+fish.push(...fish26hongze,...fish26vattern,...fish26thames);animals.push(...animals26);
+species.push(...fish26hongze,animals26[0],...fish26vattern,animals26[1],...fish26thames);
+conditions.signalcrayfish={months:[8,9],amount:2,note:'8～9 月較常見'};
+// Bounties are handed in only at their bounty waters; a catch from anywhere counts.
+const taiwanWaters=['sunmoon','zengwen','qigu','guandu','keelung','penghu','longdong','kenting'];
+for(const id of ['snakehead','jaguar','pleco','walkingcatfish'])species.find(s=>s.id===id).bountyAt=taiwanWaters;
+Object.assign(species.find(s=>s.id==='mittencrab'),{bounty:72,bountyAt:['thames']});
+const note26=(id,text)=>{const s=[...species,...plants].find(x=>x.id===id);s.distribution=s.distribution.replace(/\s*$/,'')+text},addName26=(id,lang,name)=>{const s=species.find(x=>x.id===id);s.localNames||=[];if(!s.localNames.some(([l])=>l===lang))s.localNames.push([lang,name])};
+for(const id of ['coilia','qili','crucian','redfinculter','yellowcatfish','bighead','silver','topmouth','largeicefish','shortsnouticefish','grass','carp','culter','bream','rosybitterling','northernsnakehead','intermediushalfbeak','blackcarp','eel','malaypondweed','foxnut'])note26(id,'洪澤湖亦有紀錄。');
+note26('reed','洪澤湖、韋特恩湖與泰晤士河潮汐段亦有紀錄。');note26('sagopondweed','泰晤士河潮汐段的錫恩公園潮汐草地亦有紀錄。');note26('claspingpondweed','泰晤士河特丁頓一帶亦有紀錄。');
+for(const id of ['perch','pike','zander','burbot','browntrout','stonewort','claspingpondweed'])note26(id,'韋特恩湖亦有紀錄。');
+for(const id of ['flounder','roach','europeanseabass','europeaneel','commonbream'])note26(id,'泰晤士河潮汐段亦有紀錄。');
+note26('perch','泰晤士河潮汐段亦有紀錄。');
+note26('mittencrab','洪澤湖的大閘蟹為國家地理標誌產品；在英國泰晤士河是入侵種，會掘洞破壞河岸，可在當地繳交賞金。');
+for(const [id,name] of [['perch','abborre'],['pike','gädda'],['zander','gös'],['burbot','lake'],['browntrout','öring']])addName26(id,'瑞典語',name);
+for(const [id,name] of [['flounder','flounder'],['roach','roach'],['europeanseabass','European seabass'],['perch','perch'],['europeaneel','European eel'],['commonbream','common bream'],['mittencrab','Chinese mitten crab']])addName26(id,'英語',name);
+const lic26=tier=>({tier,...[null,{cost:150,atlas:8},{cost:800,atlas:25},{cost:3000,atlas:50},{cost:8000,atlas:80}][tier]});
+regions.push(
+ {id:'hongze',name:'洪澤湖',area:'中國・江蘇',lat:33.3,lon:118.7,water:'淡水湖泊',license:lic26(3),
+  desc:'洪澤湖位於淮河下游，是中國的大型淡水湖之一，湖區以鯉科魚類為主，刀鱭、大銀魚等洄游魚也在湖中定居繁殖。南岸的盱眙以小龍蝦聞名，紅色的克氏原螯蝦經南京一帶傳入後，在湖區與周邊水塘繁衍。湖區近年實施禁捕，遊戲內的垂釣不代表現行規定。',
+  pool:{coilia:12,qili:10,crucian:10,yellowcatfish:7,redfinculter:6,bighead:5,xenocypris:5,nitidcatfish:5,silver:4,largeicefish:4,barbelchub:4,spottedsteed:4,topmouth:3,shortsnouticefish:3,grass:2,carp:2,culter:2,bream:2,rosybitterling:2,northernsnakehead:2,intermediushalfbeak:2,yellowcheek:2,blackcarp:1,eel:1},
+  animals:{redswampcrayfish:12,mittencrab:2},weeds:{reed:40,malaypondweed:35,foxnut:25},
+  source:'https://jlakes.alljournals.cn/html/2019/4/20190421.html'},
+ {id:'vattern',name:'韋特恩湖',area:'瑞典・約塔蘭',lat:58.4,lon:14.6,water:'深水湖泊・淡水',license:lic26(4),
+  desc:'韋特恩湖是瑞典第二大湖，湖水深而清澈，北極紅點鮭、歐洲胡瓜魚等冰河時期留下的魚類在此生活。原生的歐洲螯蝦因螯蝦瘟疫大量死亡後，1960 年代引進北美的信號小龍蝦，湖區後來發展出瑞典少見的小龍蝦漁業。信號小龍蝦會傳播螯蝦瘟疫，是瀕危的歐洲螯蝦目前最大的威脅。',
+  pool:{vendace:20,perch:18,smelt:14,arcticchar:8,commonwhitefish:8,stickleback:7,grayling:6,burbot:5,pike:4,browntrout:4,zander:3,fourhorn:3},
+  animals:{signalcrayfish:12},weeds:{stonewort:40,claspingpondweed:35,reed:25},
+  source:'https://sv.wikipedia.org/wiki/V%C3%A4ttern'},
+ {id:'thames',name:'泰晤士河',area:'英國・倫敦',lat:51.48,lon:0,water:'河口潮汐段・半淡鹹水',license:lic26(4),
+  desc:'泰晤士河流經倫敦的河段受潮汐影響，河水在淡水與海水之間變化。這段河流在 1950 年代曾被宣告生物死亡，水質改善後，至今已記錄過百種魚類，也是歐洲鱸、歐洲川鰈等海魚的育幼場。來自東亞的中華絨螯蟹在潮汐段大量出現，北美的信號小龍蝦則擴散到流域內的支流與河段，兩者都是當地的入侵種。',
+  pool:{commongoby:18,flounder:12,roach:10,europeanseabass:9,smelt:9,dace:8,stickleback:6,europeaneel:6,perch:5,sandgoby:5,chub:4,commonbream:3,thinlipmullet:3,sprat:2},
+  animals:{signalcrayfish:3,mittencrab:4},weeds:{reed:60,sagopondweed:25,claspingpondweed:15},
+  source:'https://www.tideway.london/media/3924/zsl-tidal-thames-fish-report-sept-2019.pdf'});
+for(const id of ['hongze','vattern','thames']){const r=regions.find(r=>r.id===id);r.basePool={...r.pool}}
+Object.assign(world.weatherOdds,{hongze:[40,35,25],vattern:[35,40,25],thames:[30,40,30]});
+world.flavor.hongze={
+ phase:{dawn:['湖面起了薄霧，遠處的網圍只露出一排竹竿。','早起的水鳥從蘆葦叢裡飛出來，貼著水面掠過。'],day:['日光照在寬闊的湖面上，看不到對岸。','風吹過湖面，岸邊的馬來眼子菜在水下輕輕擺動。'],dusk:['夕陽落向湖西，水面一片金黃。','歸航的小船拖著長長的水紋靠向岸邊。'],night:['湖上只剩幾點漁燈，蘆葦間傳來蟲鳴。','遠處的大堤亮著一排燈，倒影在湖面晃動。']},
+ weather:{sunny:['天空晴朗，湖水在遠處和天色連成一片。','陽光下的芡實葉浮在水面，葉面皺褶裡積著水珠。'],cloudy:['雲層壓低，湖水顯得灰濛濛的。','起風了，湖面翻起一層短浪。'],rain:['雨點落在湖面，蘆葦被打得低下頭。','雨裡的湖岸一片朦朧，只聽得到雨打水面的聲音。']},
+ facts:['洪澤湖在 2017～2018 年的調查共採到 51 種魚，鯉科占大多數。','刀鱭、大銀魚原是洄游魚，長期困在湖中後，已能在湖內自然繁殖。','盱眙的小龍蝦產業規模很大，十三香小龍蝦就是從當地開始流行。','洪澤湖的水生植物在 1950 年代幾乎遍布湖面，如今分布面積已不到三成。']};
+world.flavor.vattern={
+ phase:{dawn:['天色微亮，湖水清得能看見岸邊的石塊。','晨霧貼著湖面慢慢散開，對岸的樹林漸漸清楚。'],day:['陽光照進深色的湖水，岸邊的岩石暖了起來。','湖面很寬，遠處只看得見一道細細的對岸。'],dusk:['太陽落得很晚，湖面久久映著橘色的天光。','天色暗下前，湖上的風停了，水面平得像鏡子。'],night:['夜裡的湖面很靜，偶爾有魚翻出水花。','岸邊小鎮的燈光一盞盞亮起，映在黑色的湖水上。']},
+ weather:{sunny:['晴空下的湖水藍得很深。','陽光透進清澈的湖水，看得見水底的輪藻。'],cloudy:['雲層遮住陽光，湖面轉成鉛灰色。','風從湖上吹來，帶著一股涼意。'],rain:['冷雨落在湖上，岸邊的石頭濕得發亮。','雨幕遮住了對岸，湖面只剩一片灰。']},
+ facts:['瑞典的 50 種淡水魚中，有 31 種出現在韋特恩湖。','在韋特恩湖，民眾可以不經許可，在離岸 300 公尺內的公共水域捕撈小龍蝦。','近年韋特恩湖小龍蝦的平均體型越來越小，研究認為和捕撈強度有關。','韋特恩湖北邊的格蘭納小鎮，是紅白條紋拐杖糖的發源地。']};
+world.flavor.thames={
+ phase:{dawn:['天剛亮，河面上已有早班的渡輪駛過。','晨光照在泥灘上，幾隻水鳥沿著水邊覓食。'],day:['潮水推著河面緩緩移動，岸邊露出一段泥灘。','觀光船從橋下駛過，船尾的浪拍上河岸。'],dusk:['夕陽照在對岸的建築上，河面泛著橘光。','河邊的酒館陸續亮燈，傳出熱鬧的人聲。'],night:['兩岸的燈光倒映在河面，被水流拉成細長的光帶。','夜裡的河水流得更急，浮標在暗處輕輕晃動。']},
+ weather:{sunny:['難得的晴天，河邊步道上多了散步的人。','陽光照在褐色的河水上，泛起細碎的亮光。'],cloudy:['灰色的雲壓在河面上，風裡帶著涼意。','天色灰沉，河面和天空幾乎同一種顏色。'],rain:['細雨落在河面，對岸的輪廓變得模糊。','雨打在河邊的石階上，水窪裡冒起一圈圈漣漪。']},
+ tide:{rising:['潮水漲了上來，泥灘一點一點被河水淹沒。'],falling:['水位退下，岸邊的泥灘與石階露了出來。']},
+ facts:['泰晤士河在 1957 年曾被宣告生物死亡，之後記錄到的魚類已超過一百種。','泰晤士河的潮間帶是歐洲鱸、歐洲川鰈與歐洲胡瓜魚的育幼場。','中華絨螯蟹會在河岸掘洞，造成河岸崩塌。','19 世紀格林威治的酒館以銀魚晚宴聞名，國會議員每年會乘船前往聚餐。']};
+const recipes26=[
+ {id:'xuyi-shisanxiang',name:'十三香小龍蝦',fish:'redswampcrayfish',fishes:['redswampcrayfish'],method:'soup',tier:'home',effect:'double',amount:.1,casts:60,cost:15,preparation:'與十三香香料燒煮',about:'盱眙的招牌吃法，用十三種香料與小龍蝦一起燒煮，滋味麻、辣、鮮、香。當地被稱為中國龍蝦之都，十三香口味就是從這裡開始流行。',cuisine:'china',origin:'中國・盱眙'},
+ {id:'kokta-krafter',name:'蒔蘿鹽水煮小龍蝦',orig:'kokta kräftor',fish:'signalcrayfish',fishes:['signalcrayfish'],method:'steam',tier:'home',effect:'speed',amount:.08,casts:60,cost:15,preparation:'蒔蘿鹽水煮熟後放涼',about:'瑞典夏末的小龍蝦派對（kräftskiva）主菜。小龍蝦在加了蒔蘿的鹽水中煮熟，放涼後整隻端上桌，配麵包與起司。這項傳統源自過去法規只允許在夏末捕撈小龍蝦。',cuisine:'europe',origin:'瑞典'},
+ {id:'jellied-eels',name:'鰻魚凍',orig:'jellied eels',fish:'europeaneel',fishes:['europeaneel'],method:'mix',tier:'home',effect:'double',amount:.1,casts:60,cost:30,preparation:'鰻魚段煮熟後冷卻成凍',about:'倫敦東區的傳統小吃。鰻魚切段後煮熟，湯汁冷卻後自然凝成凍，常在派與薯泥店販售。過去泰晤士河的鰻魚多到漁網可以設到倫敦市區，如今歐洲鰻鱺已列極危，店家多改用外地進口的鰻魚。',cuisine:'europe',origin:'英國・倫敦'},
+ {id:'whitebait',name:'炸銀魚',orig:'whitebait',fish:['sprat','herring'],fishes:['sprat','herring'],method:'fry',tier:'home',effect:'weed',amount:.75,casts:60,cost:15,preparation:'裹粉油炸',about:'把整條小魚裹上麵粉，下鍋炸到酥脆，配檸檬與麵包奶油。英國的銀魚多是鯡魚與黍鯡的幼魚；19 世紀泰晤士河邊格林威治的酒館以銀魚晚宴聞名，國會議員每年會乘船前往聚餐。',cuisine:'europe',origin:'英國・倫敦'}
+];
+for(const r of recipes26){r.desc=mealDesc(r);recipes.push(r)}
+// Edible new fish without a sourced dish of their own join the general recipes; small ones also fry.
+const general26=['yellowcheek','barbelchub','spottedsteed','xenocypris','arcticchar','grayling','vendace','commonwhitefish','smelt','thinlipmullet','sprat'];
+for(const r of recipes.filter(r=>r.cuisine==='basic'&&r.id!=='deepfry')){r.fishes.push(...general26);if(Array.isArray(r.fish))r.fish.push(...general26)}
+{const r=recipes.find(r=>r.id==='deepfry'),extra=general26.filter(id=>fish.find(f=>f.id===id).max<=.5);r.fishes.splice(r.fishes.length-friedAnimals.length,0,...extra);r.fish=[...r.fishes]}
+const dishes26=[
+ {id:'dine-hongze-pingqiao',region:'hongze',name:'平橋豆腐',method:'soup',tier:'basic',effect:'weed',amount:.5,casts:40,price:45,preparation:'豆腐丁入雞湯、以鯽魚腦提鮮後勾芡',about:'淮安的傳統名菜。嫩豆腐切小丁，放入久燉的雞湯，以鯽魚腦提鮮，勾芡後淋上麻油。表面的油封住熱氣，看起來不冒煙，入口卻非常燙。',art:'pingqiao-tofu'},
+ {id:'dine-hongze-crab',region:'hongze',name:'清蒸大閘蟹',method:'steam',tier:'home',effect:'double',amount:.1,casts:60,price:135,preparation:'隔水清蒸、蘸薑醋',about:'中華絨螯蟹的螯足長著絨毛，俗稱大閘蟹，洪澤湖大閘蟹是國家地理標誌產品。整隻隔水清蒸，蒸到蟹殼轉為橘紅，再蘸薑末與香醋。',art:'taihu-steamed-crab'},
+ {id:'dine-hongze-shisanxiang',region:'hongze',name:'十三香小龍蝦',method:'soup',tier:'classic',effect:'lure',amount:2.5,casts:80,price:270,preparation:'與十三香香料燒煮',about:'盱眙的招牌吃法，用十三種香料與小龍蝦一起燒煮，滋味麻、辣、鮮、香。當地被稱為中國龍蝦之都，十三香口味就是從這裡開始流行。',art:'xuyi-shisanxiang'},
+ {id:'dine-vattern-polkagris',region:'vattern',name:'格蘭納拐杖糖',orig:'polkagris',method:'mix',tier:'basic',effect:'speed',amount:.05,casts:40,price:45,preparation:'糖漿拉長扭轉後切段',about:'1859 年，住在韋特恩湖畔小鎮格蘭納的寡婦阿瑪莉亞・埃里克松做出這種紅白條紋的薄荷硬糖。糖漿煮好後在大理石桌上拉長、扭轉，再切成段，至今仍是格蘭納的名產。',art:'granna-polkagris'},
+ {id:'dine-vattern-krafter',region:'vattern',name:'蒔蘿鹽水煮小龍蝦',orig:'kokta kräftor',method:'steam',tier:'classic',effect:'lure',amount:2.5,casts:80,price:270,preparation:'蒔蘿鹽水煮熟後放涼',about:'瑞典夏末的小龍蝦派對（kräftskiva）主菜。小龍蝦在加了蒔蘿的鹽水中煮熟，放涼後整隻端上桌，配麵包與起司。這項傳統源自過去法規只允許在夏末捕撈小龍蝦。',art:'kokta-krafter'},
+ {id:'dine-thames-piemash',region:'thames',name:'派與薯泥',orig:'pie and mash',method:'fry',tier:'basic',effect:'weed',amount:.5,casts:40,price:45,preparation:'肉派配薯泥、淋歐芹醬汁',about:'倫敦東區的平價老店菜色：烤得酥香的肉派配上馬鈴薯泥，淋上稱為 liquor 的綠色歐芹醬汁。這醬汁傳統上用燉煮鰻魚剩下的湯汁製作，名字指的是湯汁，不是酒。派與薯泥店在 19 世紀出現於東區，店裡也賣熱鰻魚與鰻魚凍。',art:'pie-and-mash'},
+ {id:'dine-thames-jellied',region:'thames',name:'鰻魚凍',orig:'jellied eels',method:'mix',tier:'home',effect:'double',amount:.1,casts:60,price:135,preparation:'鰻魚段煮熟後冷卻成凍',about:'倫敦東區的傳統小吃。鰻魚切段後煮熟，湯汁冷卻後自然凝成凍，常在派與薯泥店販售。如今歐洲鰻鱺已列極危，店家多改用外地進口的鰻魚。',art:'jellied-eels'},
+ {id:'dine-thames-whitebait',region:'thames',name:'炸銀魚',orig:'whitebait',method:'fry',tier:'classic',effect:'lure',amount:2.5,casts:80,price:270,preparation:'裹粉油炸',about:'把整條小魚裹上麵粉，下鍋炸到酥脆，配檸檬與麵包奶油。19 世紀泰晤士河邊格林威治的酒館以銀魚晚宴聞名，國會議員每年會乘船前往聚餐。',art:'whitebait'}
+];
+for(const d of dishes26){d.desc=mealDesc(d);dishes.push(d)}
+restaurants.hongze={name:'湖畔龍蝦館',dishes:dishes26.filter(d=>d.region==='hongze')};restaurants.vattern={name:'湖岸螯蝦屋',dishes:dishes26.filter(d=>d.region==='vattern')};restaurants.thames={name:'河畔酒館',dishes:dishes26.filter(d=>d.region==='thames')};
 const signatureIds=new Set(recipes.filter(r=>r.cuisine!=='basic').flatMap(r=>r.fishes));for(const f of species)f.signature=signatureIds.has(f.id);
 const data={fish,animals,species,plants,regions,baits,recipes,restaurants,dishes,dinePrices,recipeTiers,cookingMethods,cuisines,upgrades,economy,world};if(typeof module!=='undefined')module.exports=data;else root.FishingData=data;
 })(globalThis);

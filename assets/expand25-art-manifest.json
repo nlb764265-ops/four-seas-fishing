@@ -1,0 +1,549 @@
+[
+  {
+    "id": "pacificcod",
+    "name": "大頭鱈",
+    "kind": "fish",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-6f0e795f-beb7-4968-be36-35b9b80f17fd.png",
+    "file": "assets/sprites16/fish-pacificcod.png",
+    "size": [
+      320,
+      125
+    ],
+    "sourceBytes": 1066188,
+    "pngBytes": 48593,
+    "webpBytes": 13968,
+    "alphaBounds": [
+      16,
+      11,
+      308,
+      113
+    ],
+    "sha256": "a11302ee338fe19c8ac7e3d01570607373a9c55fb972fef5cce07ac2f8ae3755"
+  },
+  {
+    "id": "redstingray",
+    "name": "赤魟",
+    "kind": "fish",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-0059c2c1-f213-4511-aee2-a51b4d9a5915.png",
+    "file": "assets/sprites16/fish-redstingray.png",
+    "size": [
+      320,
+      262
+    ],
+    "sourceBytes": 643153,
+    "pngBytes": 52814,
+    "webpBytes": 13744,
+    "alphaBounds": [
+      25,
+      17,
+      312,
+      242
+    ],
+    "sha256": "310244e3ba567711fdcad869c04803c2279414284ffc0d1c7a88ffaeb458ee9a"
+  },
+  {
+    "id": "linedcardinal",
+    "name": "細條銀口天竺鯛",
+    "kind": "fish",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16e5c-c39a-76a0-b801-d67d24df81a1\\exec-2739fdd6-0ae8-48d5-9a38-a64fa0e5f93a.png",
+    "file": "assets/sprites16/fish-linedcardinal.png",
+    "size": [
+      320,
+      182
+    ],
+    "sourceBytes": 1127288,
+    "pngBytes": 78266,
+    "webpBytes": 21820,
+    "alphaBounds": [
+      12,
+      12,
+      308,
+      170
+    ],
+    "sha256": "9f3b239dfcbc6dfd89828a28db32a9a85071407bd724a1e2a399d22abf0bb87a",
+    "revision": "2026-10-24 anatomy redraw"
+  },
+  {
+    "id": "triplespine",
+    "name": "雙棘三棘魨",
+    "kind": "fish",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-c9165ce1-7fc5-4e74-a214-b156ea0a48a9.png",
+    "file": "assets/sprites16/fish-triplespine.png",
+    "size": [
+      320,
+      182
+    ],
+    "sourceBytes": 742541,
+    "pngBytes": 46494,
+    "webpBytes": 13940,
+    "alphaBounds": [
+      34,
+      17,
+      300,
+      164
+    ],
+    "sha256": "0a000a069c95932deef991aabab0483bf52f8d9fc910d4a690813e70af0397d3"
+  },
+  {
+    "id": "whitespottedconger",
+    "name": "繁星糯鰻",
+    "kind": "fish",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-89e45b43-f164-4bae-a627-ea7ad2831036.png",
+    "file": "assets/sprites16/fish-whitespottedconger.png",
+    "size": [
+      320,
+      127
+    ],
+    "sourceBytes": 712061,
+    "pngBytes": 29464,
+    "webpBytes": 9032,
+    "alphaBounds": [
+      12,
+      9,
+      312,
+      115
+    ],
+    "sha256": "04ff3f6693ec664ef029b03220e8db71d6ca40466d71902e964df0b400bc0bb8"
+  },
+  {
+    "id": "mantisshrimp",
+    "name": "口蝦蛄",
+    "kind": "animal",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-7f392e38-010b-4946-ad73-9e0866437bc3.png",
+    "file": "assets/animal-mantisshrimp.png",
+    "size": [
+      320,
+      131
+    ],
+    "sourceBytes": 1217471,
+    "pngBytes": 48505,
+    "webpBytes": 19230,
+    "alphaBounds": [
+      19,
+      11,
+      312,
+      123
+    ],
+    "sha256": "0ae483cca6017d1ccf5374cb97859a3c8dadfef2f5dfe0d90b53db84db6e01cf"
+  },
+  {
+    "id": "japaneseswimmingcrab",
+    "name": "日本蟳",
+    "kind": "animal",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-2a021184-f7a9-421e-8e7c-ebd583c71685.png",
+    "file": "assets/animal-japaneseswimmingcrab.png",
+    "size": [
+      320,
+      217
+    ],
+    "sourceBytes": 1691834,
+    "pngBytes": 102137,
+    "webpBytes": 36086,
+    "alphaBounds": [
+      8,
+      8,
+      310,
+      202
+    ],
+    "sha256": "bf6a9f10315406348fd72e93e17d7d573b0916d081863567446e300d5ba89a49"
+  },
+  {
+    "id": "alaskapollock",
+    "name": "黃線狹鱈",
+    "kind": "fish",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-0a0cd16a-520b-4407-953a-678313ef3cc9.png",
+    "file": "assets/sprites16/fish-alaskapollock.png",
+    "size": [
+      320,
+      126
+    ],
+    "sourceBytes": 946096,
+    "pngBytes": 41753,
+    "webpBytes": 12298,
+    "alphaBounds": [
+      10,
+      8,
+      312,
+      116
+    ],
+    "sha256": "861f51297aff9e2ce58634e108fe002ff965414a1a0f08c21600f9c38f3903d8"
+  },
+  {
+    "id": "sailfinsandfish",
+    "name": "日本叉牙魚",
+    "kind": "fish",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-601d4b61-69a4-4b6c-870a-ee4f8e059736.png",
+    "file": "assets/sprites16/fish-sailfinsandfish.png",
+    "size": [
+      320,
+      131
+    ],
+    "sourceBytes": 994305,
+    "pngBytes": 44082,
+    "webpBytes": 13034,
+    "alphaBounds": [
+      9,
+      8,
+      309,
+      120
+    ],
+    "sha256": "aac02c9a3ef7bcf7da351fee0f185e76e1eff7cf13aaaf93bc2a7297ff05d042"
+  },
+  {
+    "id": "kurumaprawn",
+    "name": "日本對蝦",
+    "kind": "animal",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-fd4e81a2-d033-4cb2-98ae-8c15dd60b4f0.png",
+    "file": "assets/animal-kurumaprawn.png",
+    "size": [
+      320,
+      193
+    ],
+    "sourceBytes": 1098212,
+    "pngBytes": 66836,
+    "webpBytes": 27886,
+    "alphaBounds": [
+      8,
+      12,
+      312,
+      175
+    ],
+    "sha256": "9fbe1595f3f51e9ce148b717aad3b16f975ca5a584779ac16fc1defcbc165e11"
+  },
+  {
+    "id": "gazamicrab",
+    "name": "三疣梭子蟹",
+    "kind": "animal",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-d5c232a6-cad4-4afb-a3f7-4d07b0a2c290.png",
+    "file": "assets/animal-gazamicrab.png",
+    "size": [
+      320,
+      220
+    ],
+    "sourceBytes": 1848952,
+    "pngBytes": 104821,
+    "webpBytes": 37044,
+    "alphaBounds": [
+      12,
+      14,
+      311,
+      208
+    ],
+    "sha256": "871a0e229eb94c3bc4ba5d9caf970d2599099a8567788b2db3d572e441468b16"
+  },
+  {
+    "id": "bluelinedoctopus",
+    "name": "藍紋章魚",
+    "kind": "animal",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-2f09b8b5-c829-4cb1-8984-709b4bb219c9.png",
+    "file": "assets/animal-bluelinedoctopus.png",
+    "size": [
+      320,
+      281
+    ],
+    "sourceBytes": 1263777,
+    "pngBytes": 109973,
+    "webpBytes": 33892,
+    "alphaBounds": [
+      12,
+      21,
+      308,
+      258
+    ],
+    "sha256": "f68202ba8ebefa6f8cff40643d9055ea5f22499f719283f8910b5cbdcc504671"
+  },
+  {
+    "id": "largerfinbitterling",
+    "name": "大鰭鱊",
+    "kind": "fish",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-487528a0-1d94-4c56-8cc5-f963f17250c0.png",
+    "file": "assets/sprites16/fish-largerfinbitterling.png",
+    "size": [
+      320,
+      171
+    ],
+    "sourceBytes": 1203164,
+    "pngBytes": 65200,
+    "webpBytes": 17958,
+    "alphaBounds": [
+      13,
+      8,
+      308,
+      161
+    ],
+    "sha256": "a882920abdc148c9d7543b4454d3ef5fdd611852c9867be677f9b9d0f066f02c"
+  },
+  {
+    "id": "khankabitterling",
+    "name": "興凱鱊",
+    "kind": "fish",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-2772649f-e6fc-450f-bdbc-607b163733f9.png",
+    "file": "assets/sprites16/fish-khankabitterling.png",
+    "size": [
+      320,
+      201
+    ],
+    "sourceBytes": 930937,
+    "pngBytes": 62299,
+    "webpBytes": 16876,
+    "alphaBounds": [
+      13,
+      11,
+      310,
+      188
+    ],
+    "sha256": "1cfba3beb49e8925e2c20070b206bfd438ec81578130d08a05323eda5f1af108"
+  },
+  {
+    "id": "chinesebitterling",
+    "name": "中華鰟鮍",
+    "kind": "fish",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-f3c954cd-3aa7-454c-86cf-1d00cd8d862b.png",
+    "file": "assets/sprites16/fish-chinesebitterling.png",
+    "size": [
+      320,
+      189
+    ],
+    "sourceBytes": 842768,
+    "pngBytes": 53256,
+    "webpBytes": 14692,
+    "alphaBounds": [
+      8,
+      12,
+      297,
+      181
+    ],
+    "sha256": "e9d2d92cefc37d0a9a96fc96c86e3ee0f12ce2716332060d78adfb17263cdd22"
+  },
+  {
+    "id": "rivulargudgeon",
+    "name": "棒花魚",
+    "kind": "fish",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-111ccf77-29c6-4342-b868-78e338e573b7.png",
+    "file": "assets/sprites16/fish-rivulargudgeon.png",
+    "size": [
+      320,
+      124
+    ],
+    "sourceBytes": 1117927,
+    "pngBytes": 47858,
+    "webpBytes": 13890,
+    "alphaBounds": [
+      14,
+      9,
+      312,
+      114
+    ],
+    "sha256": "afa1b75e54f8a9a91326af033b74cd59970dbf74ff782831b7c6f5cbcdd3e3bd"
+  },
+  {
+    "id": "yellowdwarfgoby",
+    "name": "小黃黝魚",
+    "kind": "fish",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-c71e7c03-1048-496d-ba72-b5f71f1d7a80.png",
+    "file": "assets/sprites16/fish-yellowdwarfgoby.png",
+    "size": [
+      320,
+      127
+    ],
+    "sourceBytes": 975630,
+    "pngBytes": 43848,
+    "webpBytes": 13332,
+    "alphaBounds": [
+      22,
+      13,
+      305,
+      117
+    ],
+    "sha256": "8531609eb4d4bfbf4182833cdcaa9547e7a2aa400e5c8a9860ced2583b44f4f7"
+  },
+  {
+    "id": "tokyo-simmered-anago",
+    "name": "煮穴子",
+    "kind": "meal",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-b4340e81-3030-4cee-9e53-e2238c69271f.png",
+    "file": "assets/sprites16/meal-tokyo-simmered-anago.png",
+    "size": [
+      320,
+      209
+    ],
+    "sourceBytes": 998615,
+    "pngBytes": 64763,
+    "webpBytes": 15846,
+    "alphaBounds": [
+      30,
+      27,
+      299,
+      198
+    ],
+    "sha256": "36b04cad63d000138bb8f858b28912879d2c18f5976b6e12e8bedc16727f910e"
+  },
+  {
+    "id": "tokyo-boiled-shako",
+    "name": "鹽水蝦蛄",
+    "kind": "meal",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-05b0faec-f94e-42f2-86bf-1b5950742bef.png",
+    "file": "assets/sprites16/meal-tokyo-boiled-shako.png",
+    "size": [
+      320,
+      240
+    ],
+    "sourceBytes": 1309501,
+    "pngBytes": 97052,
+    "webpBytes": 23734,
+    "alphaBounds": [
+      24,
+      29,
+      312,
+      213
+    ],
+    "sha256": "8293486efa940c532d1a407208f130b1a867abf5c671e28fa31af094ca9f0a38"
+  },
+  {
+    "id": "ishikari-sanpei",
+    "name": "三平汁",
+    "kind": "meal",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-4ac58bb3-98f7-48c7-ac0a-9d202112acb7.png",
+    "file": "assets/sprites16/meal-ishikari-sanpei.png",
+    "size": [
+      320,
+      272
+    ],
+    "sourceBytes": 1119030,
+    "pngBytes": 94566,
+    "webpBytes": 20770,
+    "alphaBounds": [
+      31,
+      39,
+      295,
+      262
+    ],
+    "sha256": "562bc6224ae266ea72c339ee2dc36f1f3c593290e08507d460f53674aab0afc1"
+  },
+  {
+    "id": "ishikari-hokke",
+    "name": "烤花魚一夜干",
+    "kind": "meal",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-25b7ce8a-233a-4231-86bc-1f8cbe3d269f.png",
+    "file": "assets/sprites16/meal-ishikari-hokke.png",
+    "size": [
+      320,
+      205
+    ],
+    "sourceBytes": 1018373,
+    "pngBytes": 62253,
+    "webpBytes": 16774,
+    "alphaBounds": [
+      21,
+      19,
+      307,
+      187
+    ],
+    "sha256": "09e80141b2b8f1a802f67aa5869517197712c4209ce30c3ccfb47cafa72c92b5"
+  },
+  {
+    "id": "ishikari-sandfish",
+    "name": "鹽烤日本叉牙魚",
+    "kind": "meal",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-1f7ab82d-9214-4b2d-8e2f-8af5da715541.png",
+    "file": "assets/sprites16/meal-ishikari-sandfish.png",
+    "size": [
+      320,
+      210
+    ],
+    "sourceBytes": 1172889,
+    "pngBytes": 84378,
+    "webpBytes": 21720,
+    "alphaBounds": [
+      19,
+      31,
+      304,
+      195
+    ],
+    "sha256": "49e8d44163eeeb9aa6670af808ba6b4fc6e8bf8a44e075e73dd24dd354866d41"
+  },
+  {
+    "id": "kuruma-shioyaki",
+    "name": "鹽烤日本對蝦",
+    "kind": "meal",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-13332c85-98aa-4134-9981-b30feeb0c791.png",
+    "file": "assets/sprites16/meal-kuruma-shioyaki.png",
+    "size": [
+      320,
+      218
+    ],
+    "sourceBytes": 1214657,
+    "pngBytes": 76261,
+    "webpBytes": 21208,
+    "alphaBounds": [
+      33,
+      26,
+      301,
+      205
+    ],
+    "sha256": "4e75d49cb9e0cef14dfebae82337b8135334289ab72110f2f5af97fc4fc75b61"
+  },
+  {
+    "id": "akaei-nitsuke",
+    "name": "煮付赤魟",
+    "kind": "meal",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-d2c7be77-d5e0-4396-b4a0-0cbff49080cb.png",
+    "file": "assets/sprites16/meal-akaei-nitsuke.png",
+    "size": [
+      320,
+      201
+    ],
+    "sourceBytes": 1028357,
+    "pngBytes": 66323,
+    "webpBytes": 16644,
+    "alphaBounds": [
+      38,
+      35,
+      312,
+      170
+    ],
+    "sha256": "c4931ae76518d39e85d82d2f314c0219c6fcae420f1dcd6f3f57a63c97da39a9"
+  },
+  {
+    "id": "nebuto-karaage",
+    "name": "炸天竺鯛",
+    "kind": "meal",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-00d407f2-5c36-4db7-9a71-188f1aee0ddf.png",
+    "file": "assets/sprites16/meal-nebuto-karaage.png",
+    "size": [
+      320,
+      213
+    ],
+    "sourceBytes": 1228263,
+    "pngBytes": 70016,
+    "webpBytes": 18092,
+    "alphaBounds": [
+      36,
+      10,
+      303,
+      191
+    ],
+    "sha256": "ba1187b820e19d7c69cdf67c6c73d4c248fca01ef70e827fa7f568d7b6f7fb2b"
+  },
+  {
+    "id": "ganjang-gejang",
+    "name": "醬油醃蟹",
+    "kind": "meal",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-dcf5a5f9-e7bf-4a85-8b42-0a4d965be637.png",
+    "file": "assets/sprites16/meal-ganjang-gejang.png",
+    "size": [
+      320,
+      207
+    ],
+    "sourceBytes": 1298688,
+    "pngBytes": 85838,
+    "webpBytes": 22486,
+    "alphaBounds": [
+      25,
+      13,
+      303,
+      195
+    ],
+    "sha256": "691b82e1bc5532d21e1670c73259a050396b492515b82196acfb796c40b0d0f1"
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "id": "akaei-nitsuke",
+    "name": "煮付赤魟",
+    "kind": "meal",
+    "relative": "sprites16/meal-akaei-nitsuke.png",
+    "subject": "A small Japanese simmered stingray dish: five irregular thick chunky cuts of cooked ray wing, pale ivory flesh and thin muted brown-gray skin edges, subtly visible cartilaginous cross-sections; short rustic burdock root pieces with tan-brown skin and pale cut centers, all in a shallow pool of translucent soy-brown sweet simmering sauce. One warm ivory ceramic shallow bowl or rimmed plate, complete container, slight overhead three-quarter view. NOT a whole ray, no tail or poisonous spine, no eel strips or sushi, no rice.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/work/expansion25-art/assets/sprites16/meal-tokyo-simmered-anago.png"
+    ],
+    "prompt": "Use case: scientific-educational. Create ONE independent game inventory meal sprite. Subject: A small Japanese simmered stingray dish: five irregular thick chunky cuts of cooked ray wing, pale ivory flesh and thin muted brown-gray skin edges, subtly visible cartilaginous cross-sections; short rustic burdock root pieces with tan-brown skin and pale cut centers, all in a shallow pool of translucent soy-brown sweet simmering sauce. One warm ivory ceramic shallow bowl or rimmed plate, complete container, slight overhead three-quarter view. NOT a whole ray, no tail or poisonous spine, no eel strips or sushi, no rice.\nInput images are direct STYLE REFERENCES ONLY for the existing game's low-saturation natural-history pixel illustration, not recipes or ingredient instructions. Match restrained layered colors, deliberate small pixel clusters, visibly stepped outer contours, sparse highlights and warm ivory ceramic. Keep exact dish differences described above. Draw as a native approximately 280px-wide sprite even if output canvas is larger. Flat isolated inventory cutout with genuinely transparent RGBA background: alpha zero immediately outside bowl/plate contour, no glow, no vignette, no diffuse shadow, no ground, no scenery. No text, border, logo or extra containers. Preserve complete plate and generous transparent margin. Not photographic, no watercolor, no smooth vector or shiny 3D.",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-d2c7be77-d5e0-4396-b4a0-0cbff49080cb.png",
+    "revision": {
+      "prompt": "Precise food-detail correction only. Keep the exact ivory plate, brown soy simmering sauce, short burdock root pieces, four simmered stingray wing pieces, entire layout and crisp muted pixel-art style. On the pale cross-sectional faces of the ray meat, REMOVE the large clusters of circular holes/rings that look like lotus root. Ray wing pieces should show pale dense flesh with fine parallel cartilaginous striations and at most tiny solid cartilage dots, not large hollow bone rings. Make the brown-gray skin edges smooth/finely textured, without a grid of fish scales. This is ray wing meat, not salmon steaks or lotus root. Preserve genuine transparency immediately outside plate, absolutely no glow, halo, shadow or added object. Do not alter burdock cut ends.",
+      "references": [
+        "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-f29a1db7-ab82-45cd-86f7-a497ff6ae5d4.png"
+      ]
+    },
+    "initialSource": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-94dd6eb9-05fe-4322-a9d2-e0f574dfef44.png"
+  },
+  {
+    "id": "nebuto-karaage",
+    "name": "炸天竺鯛",
+    "kind": "meal",
+    "relative": "sprites16/meal-nebuto-karaage.png",
+    "subject": "One small warm ivory ceramic plate holding a loose low pile of roughly 9 small DECAPITATED cardinalfish (Jaydia lineata) thinly dredged in flour and starch and deep-fried. Short crisp golden-tan fish bodies with small forked tail fins still attached, clean cut neck ends visibly showing no heads. Thin craggy fried coating with a few fine salt grains, warm pale beige meat at a few cut ends. NO eyes, NO intact heads, NO shrimp, NO squid rings, NO large fillets, NO thick tempura batter, NO dipping bowl or rice. Entire plate visible in gentle three-quarter view.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/sprites16/meal-deepfry.png"
+    ],
+    "prompt": "Use case: scientific-educational. Create ONE independent game inventory meal sprite. Subject: One small warm ivory ceramic plate holding a loose low pile of roughly 9 small DECAPITATED cardinalfish (Jaydia lineata) thinly dredged in flour and starch and deep-fried. Short crisp golden-tan fish bodies with small forked tail fins still attached, clean cut neck ends visibly showing no heads. Thin craggy fried coating with a few fine salt grains, warm pale beige meat at a few cut ends. NO eyes, NO intact heads, NO shrimp, NO squid rings, NO large fillets, NO thick tempura batter, NO dipping bowl or rice. Entire plate visible in gentle three-quarter view.\nInput images are direct STYLE REFERENCES ONLY for the existing game's low-saturation natural-history pixel illustration, not recipes or ingredient instructions. Match restrained layered colors, deliberate small pixel clusters, visibly stepped outer contours, sparse highlights and warm ivory ceramic. Keep exact dish differences described above. Draw as a native approximately 280px-wide sprite even if output canvas is larger. Flat isolated inventory cutout with genuinely transparent RGBA background: alpha zero immediately outside bowl/plate contour, no glow, no vignette, no diffuse shadow, no ground, no scenery. No text, border, logo or extra containers. Preserve complete plate and generous transparent margin. Not photographic, no watercolor, no smooth vector or shiny 3D.",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-00d407f2-5c36-4db7-9a71-188f1aee0ddf.png",
+    "revision": {
+      "prompt": "Create a NEW isolated game dish sprite matching the exact rendering and cutout presentation of this existing plate image. One small warm ivory ceramic plate holding a loose low pile of roughly 9 small DECAPITATED cardinalfish (Jaydia lineata) thinly dredged in flour and starch and deep-fried. Short crisp golden-tan fish bodies with small forked tail fins still attached, clean cut neck ends visibly showing no heads. Thin craggy fried coating with a few fine salt grains, warm pale beige meat at a few cut ends. NO eyes, NO intact heads, NO shrimp, NO squid rings, NO large fillets, NO thick tempura batter, NO dipping bowl or rice. Entire plate visible in gentle three-quarter view. Low-saturation detailed pixel art, cream ceramic, small deliberate pixel clusters, crisp stepped edges, restrained light and shadow ON the food only. Flat inventory icon, single dish. Genuine transparent background. There must be NO PIXELS outside the plate contour other than fully transparent ones: absolutely NO surrounding light aura, haze, brown halo, cast shadow or vignette. Do not change the background into a color. No text or extra objects.",
+      "references": [
+        "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/sprites16/meal-taihu-steamed-whitefish.png"
+      ]
+    },
+    "initialSource": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-2050b938-3bb5-4c8d-9677-ea062e2391d5.png"
+  },
+  {
+    "id": "ganjang-gejang",
+    "name": "醬油醃蟹",
+    "kind": "meal",
+    "relative": "sprites16/meal-ganjang-gejang.png",
+    "subject": "One small warm ivory shallow ceramic bowl of Korean ganjang-gejang SOY-MARINATED RAW SWIMMING CRAB. A wide gray-green olive-brown shell piece opened beside two or three cut body sections, bare blue-gray/brown claws, raw translucent ivory-gray crab flesh and a small restrained natural ochre roe patch exposed in one body section, partially submerged in dark translucent soy-brown marinade. Read as raw marinated portunid swimming crab, NOT steamed crab, NO red or orange cooked shell, NO fuzzy mitten claws, NO star anise or wine, NO rice. Full bowl in gentle three-quarter view. Minimal garnish: at most two small thin green chili rings; main subject crab and soy sauce.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/sprites16/meal-taihu-drunken-crab.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/work/expansion25-art/assets/sprites16/meal-ishikari-sanpei.png"
+    ],
+    "prompt": "Use case: scientific-educational. Create ONE independent game inventory meal sprite. Subject: One small warm ivory shallow ceramic bowl of Korean ganjang-gejang SOY-MARINATED RAW SWIMMING CRAB. A wide gray-green olive-brown shell piece opened beside two or three cut body sections, bare blue-gray/brown claws, raw translucent ivory-gray crab flesh and a small restrained natural ochre roe patch exposed in one body section, partially submerged in dark translucent soy-brown marinade. Read as raw marinated portunid swimming crab, NOT steamed crab, NO red or orange cooked shell, NO fuzzy mitten claws, NO star anise or wine, NO rice. Full bowl in gentle three-quarter view. Minimal garnish: at most two small thin green chili rings; main subject crab and soy sauce.\nInput images are direct STYLE REFERENCES ONLY for the existing game's low-saturation natural-history pixel illustration, not recipes or ingredient instructions. Match restrained layered colors, deliberate small pixel clusters, visibly stepped outer contours, sparse highlights and warm ivory ceramic. Keep exact dish differences described above. Draw as a native approximately 280px-wide sprite even if output canvas is larger. Flat isolated inventory cutout with genuinely transparent RGBA background: alpha zero immediately outside bowl/plate contour, no glow, no vignette, no diffuse shadow, no ground, no scenery. No text, border, logo or extra containers. Preserve complete plate and generous transparent margin. Not photographic, no watercolor, no smooth vector or shiny 3D.",
+    "source": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-dcf5a5f9-e7bf-4a85-8b42-0a4d965be637.png",
+    "revision": {
+      "prompt": "Make a new isolated inventory sprite in exactly this reference dish's pixel-art rendering and clean cutout presentation. One small warm ivory shallow ceramic bowl of Korean ganjang-gejang SOY-MARINATED RAW SWIMMING CRAB. A wide gray-green olive-brown shell piece opened beside two or three cut body sections, bare blue-gray/brown claws, raw translucent ivory-gray crab flesh and a small restrained natural ochre roe patch exposed in one body section, partially submerged in dark translucent soy-brown marinade. Read as raw marinated portunid swimming crab, NOT steamed crab, NO red or orange cooked shell, NO fuzzy mitten claws, NO star anise or wine, NO rice. Full bowl in gentle three-quarter view. Minimal garnish: at most two small thin green chili rings; main subject crab and soy sauce. Muted gray olive-brown raw crab shell and ivory-gray raw flesh in dark brown soy liquid; no cooked-red shell. Low saturation, restrained layered pixel shading, cream ceramic. Entire single bowl, slight three-quarter view. The space outside the bowl must be empty with alpha=0. No glow, brown aura, vignette, haze, soft shadow, lighting spill, table or other background. Solid opaque ceramic and food, crisp stepped outer pixel outline, transparent background. No text.",
+      "references": [
+        "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.25/assets/sprites16/meal-taihu-steamed-whitefish.png"
+      ]
+    },
+    "initialSource": "C:\\Users\\nlb76\\.codex\\generated_images\\01a16d3f-9b4b-75d3-8e79-edc19971f9ad\\exec-aa206849-b632-4dda-8819-a2c0f521c6b0.png"
+  }
+]

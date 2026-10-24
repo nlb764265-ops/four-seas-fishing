@@ -1,0 +1,272 @@
+[
+  {
+    "id": "pacificcod",
+    "name": "大頭鱈",
+    "kind": "fish",
+    "relative": "sprites16/fish-pacificcod.png",
+    "subject": "",
+    "prompt": "Use case: scientific-educational. Create ONE isolated game inventory sprite of a Pacific cod Gadus macrocephalus, complete left-facing lateral view. Broad heavy head, wide mouth, one conspicuous long chin barbel, robust tapering mottled gray-brown body, THREE separate rounded dorsal fins and TWO anal fins, pale gray belly, rounded caudal fin. All fins and barbel intact. Input image 1 is STYLE REFERENCE ONLY: reproduce the existing game's low-saturation natural-history pixel illustration: clearly stepped pixel edges, restrained layered shading, modest highlights, muted earth grays, readable anatomical details. Match the fish sprites' pixel density, not a photograph, watercolor, smooth vector, or glossy 3D. Draw at a visually native roughly 280px-wide sprite scale with clean deliberate pixel clusters, even if output canvas is larger. One fish only, centered, ample fully transparent margin; absolutely no text, labels, props, scenery, water, ground, shadow or frame. Do not copy the anatomy or markings of any reference fish. Transparent background.",
+    "source": "C:/Users/nlb76/.codex/generated_images/01a16d3f-9b4b-75d3-8e79-edc19971f9ad/exec-6f0e795f-beb7-4968-be36-35b9b80f17fd.png",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.24/assets/pixel-atlas-01-clear.png"
+    ]
+  },
+  {
+    "id": "redstingray",
+    "name": "赤魟",
+    "kind": "fish",
+    "relative": "sprites16/fish-redstingray.png",
+    "subject": "Hemitrygon akajei red stingray. Full dorsal top view, pointed snout facing upper-left, broad flattened diamond-like rounded pectoral disc, uniform muted reddish brown dorsal skin, two small raised eyes and spiracles, long thin complete whip tail extending to lower-right with a small sting near its base. Entire long tail visible with ample space. Not a manta, no horns or white manta patterns.",
+    "prompt": "Use case: scientific-educational. Asset: ONE independent transparent-background game inventory sprite. Subject: Hemitrygon akajei red stingray. Full dorsal top view, pointed snout facing upper-left, broad flattened diamond-like rounded pectoral disc, uniform muted reddish brown dorsal skin, two small raised eyes and spiracles, long thin complete whip tail extending to lower-right with a small sting near its base. Entire long tail visible with ample space. Not a manta, no horns or white manta patterns.\nSTYLE REFERENCES ONLY: attached existing game illustrations define pixel density, subdued color and rendering, not subject anatomy. Match the accepted sample's low-saturation natural-history pixel art, crisp stepped edges, deliberate small pixel clusters, limited layered shading, controlled small highlights, thin dark contour. Readable around 160px display size, with anatomy emphasized by a naturally native ~280px sprite resolution even on a larger canvas. No photorealism, watercolor, blurry gradients, shiny 3D or smooth vector outline. Complete specimen with all fins/limbs, head left for lateral fish unless a special view is specified. Centered, generous truly transparent margins, no text, labels, frame, background scene, water, cast shadow or extra objects. Do not copy reference species markings or appendages.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.24/assets/pixel-atlas-01-clear.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/work/expansion25-art/assets/sprites16/fish-pacificcod.png"
+    ]
+  },
+  {
+    "id": "linedcardinal",
+    "name": "細條銀口天竺鯛",
+    "kind": "fish",
+    "relative": "sprites16/fish-linedcardinal.png",
+    "subject": "Jaydia lineata. Small silver-gray cardinalfish with disproportionately large round eye and mouth, about eight fine narrow brown horizontal stripes running head to tail on flanks, two separated dorsal fins (first triangular spiny, second soft), nearly straight or very slightly notched tail margin, translucent muted tan fins. Complete left-facing side view. Do not draw red tropical cardinalfish.",
+    "prompt": "Use case: scientific-educational. Asset: ONE independent transparent-background game inventory sprite. Subject: Jaydia lineata. Small silver-gray cardinalfish with disproportionately large round eye and mouth, about eight fine narrow brown horizontal stripes running head to tail on flanks, two separated dorsal fins (first triangular spiny, second soft), nearly straight or very slightly notched tail margin, translucent muted tan fins. Complete left-facing side view. Do not draw red tropical cardinalfish.\nSTYLE REFERENCES ONLY: attached existing game illustrations define pixel density, subdued color and rendering, not subject anatomy. Match the accepted sample's low-saturation natural-history pixel art, crisp stepped edges, deliberate small pixel clusters, limited layered shading, controlled small highlights, thin dark contour. Readable around 160px display size, with anatomy emphasized by a naturally native ~280px sprite resolution even on a larger canvas. No photorealism, watercolor, blurry gradients, shiny 3D or smooth vector outline. Complete specimen with all fins/limbs, head left for lateral fish unless a special view is specified. Centered, generous truly transparent margins, no text, labels, frame, background scene, water, cast shadow or extra objects. Do not copy reference species markings or appendages.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.24/assets/pixel-atlas-01-clear.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/work/expansion25-art/assets/sprites16/fish-pacificcod.png"
+    ]
+  },
+  {
+    "id": "triplespine",
+    "name": "雙棘三棘魨",
+    "kind": "fish",
+    "relative": "sprites16/fish-triplespine.png",
+    "subject": "Triacanthus biaculeatus triplespine. Laterally compressed angular silvery gray body with small pointed snout, long narrow caudal peduncle, forked yellowish tail. One strong long erect anterior dorsal spine, a tiny second dorsal spine next to it, paired stiff pelvic spines below the chest (far-side may partly show), low soft dorsal and anal fins far back, subtle yellow fin tint. Complete left-facing lateral view. Not a puffer inflated into a ball or a rounded triggerfish.",
+    "prompt": "Use case: scientific-educational. Asset: ONE independent transparent-background game inventory sprite. Subject: Triacanthus biaculeatus triplespine. Laterally compressed angular silvery gray body with small pointed snout, long narrow caudal peduncle, forked yellowish tail. One strong long erect anterior dorsal spine, a tiny second dorsal spine next to it, paired stiff pelvic spines below the chest (far-side may partly show), low soft dorsal and anal fins far back, subtle yellow fin tint. Complete left-facing lateral view. Not a puffer inflated into a ball or a rounded triggerfish.\nSTYLE REFERENCES ONLY: attached existing game illustrations define pixel density, subdued color and rendering, not subject anatomy. Match the accepted sample's low-saturation natural-history pixel art, crisp stepped edges, deliberate small pixel clusters, limited layered shading, controlled small highlights, thin dark contour. Readable around 160px display size, with anatomy emphasized by a naturally native ~280px sprite resolution even on a larger canvas. No photorealism, watercolor, blurry gradients, shiny 3D or smooth vector outline. Complete specimen with all fins/limbs, head left for lateral fish unless a special view is specified. Centered, generous truly transparent margins, no text, labels, frame, background scene, water, cast shadow or extra objects. Do not copy reference species markings or appendages.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.24/assets/pixel-atlas-01-clear.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/work/expansion25-art/assets/sprites16/fish-pacificcod.png"
+    ]
+  },
+  {
+    "id": "whitespottedconger",
+    "name": "繁星糯鰻",
+    "kind": "fish",
+    "relative": "sprites16/fish-whitespottedconger.png",
+    "subject": "Conger myriaster white-spotted conger. Long slender brown eel with pale ivory underside, distinctly aligned little white sensory pore dots along head and flank, low dorsal/caudal/anal fins forming one continuous narrow edging, small pectoral fin behind gill. Left-facing head and gently curved body so full tapering tail remains visible. Not a spotted moray, no large random polka-dots.",
+    "prompt": "Use case: scientific-educational. Asset: ONE independent transparent-background game inventory sprite. Subject: Conger myriaster white-spotted conger. Long slender brown eel with pale ivory underside, distinctly aligned little white sensory pore dots along head and flank, low dorsal/caudal/anal fins forming one continuous narrow edging, small pectoral fin behind gill. Left-facing head and gently curved body so full tapering tail remains visible. Not a spotted moray, no large random polka-dots.\nSTYLE REFERENCES ONLY: attached existing game illustrations define pixel density, subdued color and rendering, not subject anatomy. Match the accepted sample's low-saturation natural-history pixel art, crisp stepped edges, deliberate small pixel clusters, limited layered shading, controlled small highlights, thin dark contour. Readable around 160px display size, with anatomy emphasized by a naturally native ~280px sprite resolution even on a larger canvas. No photorealism, watercolor, blurry gradients, shiny 3D or smooth vector outline. Complete specimen with all fins/limbs, head left for lateral fish unless a special view is specified. Centered, generous truly transparent margins, no text, labels, frame, background scene, water, cast shadow or extra objects. Do not copy reference species markings or appendages.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.24/assets/pixel-atlas-01-clear.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/work/expansion25-art/assets/sprites16/fish-pacificcod.png"
+    ]
+  },
+  {
+    "id": "mantisshrimp",
+    "name": "口蝦蛄",
+    "kind": "animal",
+    "relative": "animal-mantisshrimp.png",
+    "subject": "Oratosquilla oratoria mantis shrimp, full isolated slightly oblique dorsal/lateral natural pose, head toward left, long dorsoventrally flattened segmented olive-gray/tan body, two short stalked eyes, two folded spiny raptorial forelimbs like mantis arms (spearer, NOT huge smashing fists or lobster claws), several small walking legs, wide flattened spiny tail fan. Complete antennae and legs.",
+    "prompt": "Use case: scientific-educational. Asset: ONE independent transparent-background game inventory sprite. Subject: Oratosquilla oratoria mantis shrimp, full isolated slightly oblique dorsal/lateral natural pose, head toward left, long dorsoventrally flattened segmented olive-gray/tan body, two short stalked eyes, two folded spiny raptorial forelimbs like mantis arms (spearer, NOT huge smashing fists or lobster claws), several small walking legs, wide flattened spiny tail fan. Complete antennae and legs.\nSTYLE REFERENCES ONLY: attached existing game illustrations define pixel density, subdued color and rendering, not subject anatomy. Match the accepted sample's low-saturation natural-history pixel art, crisp stepped edges, deliberate small pixel clusters, limited layered shading, controlled small highlights, thin dark contour. Readable around 160px display size, with anatomy emphasized by a naturally native ~280px sprite resolution even on a larger canvas. No photorealism, watercolor, blurry gradients, shiny 3D or smooth vector outline. Complete specimen with all fins/limbs, head left for lateral fish unless a special view is specified. Centered, generous truly transparent margins, no text, labels, frame, background scene, water, cast shadow or extra objects. Do not copy reference species markings or appendages.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.24/assets/pixel-atlas-01-clear.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.24/assets/animal-nipponense.png"
+    ]
+  },
+  {
+    "id": "japaneseswimmingcrab",
+    "name": "日本蟳",
+    "kind": "animal",
+    "relative": "animal-japaneseswimmingcrab.png",
+    "subject": "Charybdis japonica Japanese swimming crab. Complete dorsal slight three-quarter specimen view, two robust chelipeds, broad roughly hexagonal olive-brown carapace, six distinct anterolateral teeth each side, last tooth not extraordinarily long, muted purple-brown joints, four pairs of walking/swimming legs including flattened paddle-like last pair. Anatomically a crab: two claws plus eight legs total, no antennae like a lobster. No bright blue tropical coloration.",
+    "prompt": "Use case: scientific-educational. Asset: ONE independent transparent-background game inventory sprite. Subject: Charybdis japonica Japanese swimming crab. Complete dorsal slight three-quarter specimen view, two robust chelipeds, broad roughly hexagonal olive-brown carapace, six distinct anterolateral teeth each side, last tooth not extraordinarily long, muted purple-brown joints, four pairs of walking/swimming legs including flattened paddle-like last pair. Anatomically a crab: two claws plus eight legs total, no antennae like a lobster. No bright blue tropical coloration.\nSTYLE REFERENCES ONLY: attached existing game illustrations define pixel density, subdued color and rendering, not subject anatomy. Match the accepted sample's low-saturation natural-history pixel art, crisp stepped edges, deliberate small pixel clusters, limited layered shading, controlled small highlights, thin dark contour. Readable around 160px display size, with anatomy emphasized by a naturally native ~280px sprite resolution even on a larger canvas. No photorealism, watercolor, blurry gradients, shiny 3D or smooth vector outline. Complete specimen with all fins/limbs, head left for lateral fish unless a special view is specified. Centered, generous truly transparent margins, no text, labels, frame, background scene, water, cast shadow or extra objects. Do not copy reference species markings or appendages.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.24/assets/pixel-atlas-01-clear.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.24/assets/animal-nipponense.png"
+    ]
+  },
+  {
+    "id": "alaskapollock",
+    "name": "黃線狹鱈",
+    "kind": "fish",
+    "relative": "sprites16/fish-alaskapollock.png",
+    "subject": "Gadus chalcogrammus Alaska pollock. Full left-facing lateral specimen, slender elongated olive gray-brown body with darker mottling and pale silvery belly, large eye, lower jaw protruding beyond upper jaw, chin barbel extremely short and inconspicuous. Three distinctly separated dorsal fins and two anal fins, rather narrow caudal peduncle and shallowly forked tail. Clearly slimmer and more pointed-headed than the Pacific cod style sample. No long chin barbel.",
+    "prompt": "Use case: scientific-educational. Asset: ONE independent transparent-background game inventory sprite. Subject: Gadus chalcogrammus Alaska pollock. Full left-facing lateral specimen, slender elongated olive gray-brown body with darker mottling and pale silvery belly, large eye, lower jaw protruding beyond upper jaw, chin barbel extremely short and inconspicuous. Three distinctly separated dorsal fins and two anal fins, rather narrow caudal peduncle and shallowly forked tail. Clearly slimmer and more pointed-headed than the Pacific cod style sample. No long chin barbel.\nSTYLE REFERENCES ONLY: attached existing game illustrations define pixel density, subdued color and rendering, not subject anatomy. Match the accepted sample's low-saturation natural-history pixel art, crisp stepped edges, deliberate small pixel clusters, limited layered shading, controlled small highlights, thin dark contour. Readable around 160px display size, with anatomy emphasized by a naturally native ~280px sprite resolution even on a larger canvas. No photorealism, watercolor, blurry gradients, shiny 3D or smooth vector outline. Complete specimen with all fins/limbs, head left for lateral fish unless a special view is specified. Centered, generous truly transparent margins, no text, labels, frame, background scene, water, cast shadow or extra objects. Do not copy reference species markings or appendages.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.24/assets/pixel-atlas-01-clear.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/work/expansion25-art/assets/sprites16/fish-pacificcod.png"
+    ]
+  },
+  {
+    "id": "sailfinsandfish",
+    "name": "日本叉牙魚",
+    "kind": "fish",
+    "relative": "sprites16/fish-sailfinsandfish.png",
+    "subject": "Arctoscopus japonicus Japanese sandfish. Full left-facing side view, elongated small fish, smooth scaleless yellow-tan body with irregular dark brown dorsal blotches, large obliquely upturned mouth, two dorsal fins separated by a noticeable gap (small first spiny fin and longer soft second fin), broad fan-like pectoral fins, large slightly forked tail. Not a cod: no chin barbel, no third dorsal fin.",
+    "prompt": "Use case: scientific-educational. Asset: ONE independent transparent-background game inventory sprite. Subject: Arctoscopus japonicus Japanese sandfish. Full left-facing side view, elongated small fish, smooth scaleless yellow-tan body with irregular dark brown dorsal blotches, large obliquely upturned mouth, two dorsal fins separated by a noticeable gap (small first spiny fin and longer soft second fin), broad fan-like pectoral fins, large slightly forked tail. Not a cod: no chin barbel, no third dorsal fin.\nSTYLE REFERENCES ONLY: attached existing game illustrations define pixel density, subdued color and rendering, not subject anatomy. Match the accepted sample's low-saturation natural-history pixel art, crisp stepped edges, deliberate small pixel clusters, limited layered shading, controlled small highlights, thin dark contour. Readable around 160px display size, with anatomy emphasized by a naturally native ~280px sprite resolution even on a larger canvas. No photorealism, watercolor, blurry gradients, shiny 3D or smooth vector outline. Complete specimen with all fins/limbs, head left for lateral fish unless a special view is specified. Centered, generous truly transparent margins, no text, labels, frame, background scene, water, cast shadow or extra objects. Do not copy reference species markings or appendages.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.24/assets/pixel-atlas-01-clear.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/work/expansion25-art/assets/sprites16/fish-pacificcod.png"
+    ]
+  },
+  {
+    "id": "kurumaprawn",
+    "name": "日本對蝦",
+    "kind": "animal",
+    "relative": "animal-kurumaprawn.png",
+    "subject": "Penaeus japonicus kuruma prawn. Complete side/three-quarter view head left, slender curved pale cream body with continuous brown transverse tiger bands over carapace and abdomen, long slender antennae, toothed rostrum, many delicate walking legs, fan tail with muted blue/yellow accents and small reddish fringe. This is a penaeid shrimp: NO giant freshwater-prawn chelipeds like style reference. Full antenna tips and tail visible.",
+    "prompt": "Use case: scientific-educational. Asset: ONE independent transparent-background game inventory sprite. Subject: Penaeus japonicus kuruma prawn. Complete side/three-quarter view head left, slender curved pale cream body with continuous brown transverse tiger bands over carapace and abdomen, long slender antennae, toothed rostrum, many delicate walking legs, fan tail with muted blue/yellow accents and small reddish fringe. This is a penaeid shrimp: NO giant freshwater-prawn chelipeds like style reference. Full antenna tips and tail visible.\nSTYLE REFERENCES ONLY: attached existing game illustrations define pixel density, subdued color and rendering, not subject anatomy. Match the accepted sample's low-saturation natural-history pixel art, crisp stepped edges, deliberate small pixel clusters, limited layered shading, controlled small highlights, thin dark contour. Readable around 160px display size, with anatomy emphasized by a naturally native ~280px sprite resolution even on a larger canvas. No photorealism, watercolor, blurry gradients, shiny 3D or smooth vector outline. Complete specimen with all fins/limbs, head left for lateral fish unless a special view is specified. Centered, generous truly transparent margins, no text, labels, frame, background scene, water, cast shadow or extra objects. Do not copy reference species markings or appendages.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.24/assets/pixel-atlas-01-clear.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.24/assets/animal-nipponense.png"
+    ]
+  },
+  {
+    "id": "gazamicrab",
+    "name": "三疣梭子蟹",
+    "kind": "animal",
+    "relative": "animal-gazamicrab.png",
+    "subject": "Portunus trituberculatus gazami swimming crab. Complete dorsal slight three-quarter view, very broad transversely oval carapace nearly twice as wide as long, dull green-brown finely granular dorsal shell with three subtle elevated dorsal bumps. Nine anterolateral teeth on each side with the last lateral spine clearly long and projecting sideways, three small frontal teeth, sturdy pale brown claws, last leg pair flattened into swimming paddles. Two claws plus eight legs, all complete. Distinguish from a compact hexagonal Charybdis crab. No red three spots.",
+    "prompt": "Use case: scientific-educational. Asset: ONE independent transparent-background game inventory sprite. Subject: Portunus trituberculatus gazami swimming crab. Complete dorsal slight three-quarter view, very broad transversely oval carapace nearly twice as wide as long, dull green-brown finely granular dorsal shell with three subtle elevated dorsal bumps. Nine anterolateral teeth on each side with the last lateral spine clearly long and projecting sideways, three small frontal teeth, sturdy pale brown claws, last leg pair flattened into swimming paddles. Two claws plus eight legs, all complete. Distinguish from a compact hexagonal Charybdis crab. No red three spots.\nSTYLE REFERENCES ONLY: attached existing game illustrations define pixel density, subdued color and rendering, not subject anatomy. Match the accepted sample's low-saturation natural-history pixel art, crisp stepped edges, deliberate small pixel clusters, limited layered shading, controlled small highlights, thin dark contour. Readable around 160px display size, with anatomy emphasized by a naturally native ~280px sprite resolution even on a larger canvas. No photorealism, watercolor, blurry gradients, shiny 3D or smooth vector outline. Complete specimen with all fins/limbs, head left for lateral fish unless a special view is specified. Centered, generous truly transparent margins, no text, labels, frame, background scene, water, cast shadow or extra objects. Do not copy reference species markings or appendages.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.24/assets/pixel-atlas-01-clear.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.24/assets/animal-nipponense.png"
+    ]
+  },
+  {
+    "id": "bluelinedoctopus",
+    "name": "藍紋章魚",
+    "kind": "animal",
+    "relative": "animal-bluelinedoctopus.png",
+    "subject": "Hapalochlaena fasciata blue-lined octopus. One small octopus, softly pear-shaped pale tan mantle, two eyes, eight curling arms naturally spread with some overlapping. Distinct thin muted cobalt BLUE LINES along mantle and head, SMALL BLUE RINGS confined mostly to arms. Tiny papillae subtly indicated. Full body and all arm tips, dorsal three-quarter natural specimen pose. Markings readable but not neon or glowing; not a giant octopus, not Hapalochlaena lunulata covered in large round rings all over the mantle.",
+    "prompt": "Use case: scientific-educational. Asset: ONE independent transparent-background game inventory sprite. Subject: Hapalochlaena fasciata blue-lined octopus. One small octopus, softly pear-shaped pale tan mantle, two eyes, eight curling arms naturally spread with some overlapping. Distinct thin muted cobalt BLUE LINES along mantle and head, SMALL BLUE RINGS confined mostly to arms. Tiny papillae subtly indicated. Full body and all arm tips, dorsal three-quarter natural specimen pose. Markings readable but not neon or glowing; not a giant octopus, not Hapalochlaena lunulata covered in large round rings all over the mantle.\nSTYLE REFERENCES ONLY: attached existing game illustrations define pixel density, subdued color and rendering, not subject anatomy. Match the accepted sample's low-saturation natural-history pixel art, crisp stepped edges, deliberate small pixel clusters, limited layered shading, controlled small highlights, thin dark contour. Readable around 160px display size, with anatomy emphasized by a naturally native ~280px sprite resolution even on a larger canvas. No photorealism, watercolor, blurry gradients, shiny 3D or smooth vector outline. Complete specimen with all fins/limbs, head left for lateral fish unless a special view is specified. Centered, generous truly transparent margins, no text, labels, frame, background scene, water, cast shadow or extra objects. Do not copy reference species markings or appendages.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.24/assets/pixel-atlas-01-clear.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.24/assets/animal-nipponense.png"
+    ]
+  },
+  {
+    "id": "largerfinbitterling",
+    "name": "大鰭鱊",
+    "kind": "fish",
+    "relative": "sprites16/fish-largerfinbitterling.png",
+    "subject": "Acheilognathus macropterus large-fin bitterling. Complete left-facing side view of a small laterally compressed oval/deep-bodied freshwater fish, modest small head and mouth, silver/olive body with subdued warm rose metal tint, noticeably long-based tall dorsal and anal fins with fine rays, darker olive back and pale cream belly, forked caudal fin, restrained tan-rose fin tint. Natural male coloration, not luminous aquarium fantasy. Scaled fish, not tilapia or round crucian carp.",
+    "prompt": "Use case: scientific-educational. Asset: ONE independent transparent-background game inventory sprite. Subject: Acheilognathus macropterus large-fin bitterling. Complete left-facing side view of a small laterally compressed oval/deep-bodied freshwater fish, modest small head and mouth, silver/olive body with subdued warm rose metal tint, noticeably long-based tall dorsal and anal fins with fine rays, darker olive back and pale cream belly, forked caudal fin, restrained tan-rose fin tint. Natural male coloration, not luminous aquarium fantasy. Scaled fish, not tilapia or round crucian carp.\nSTYLE REFERENCES ONLY: attached existing game illustrations define pixel density, subdued color and rendering, not subject anatomy. Match the accepted sample's low-saturation natural-history pixel art, crisp stepped edges, deliberate small pixel clusters, limited layered shading, controlled small highlights, thin dark contour. Readable around 160px display size, with anatomy emphasized by a naturally native ~280px sprite resolution even on a larger canvas. No photorealism, watercolor, blurry gradients, shiny 3D or smooth vector outline. Complete specimen with all fins/limbs, head left for lateral fish unless a special view is specified. Centered, generous truly transparent margins, no text, labels, frame, background scene, water, cast shadow or extra objects. Do not copy reference species markings or appendages.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.24/assets/pixel-atlas-01-clear.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/work/expansion25-art/assets/sprites16/fish-pacificcod.png"
+    ]
+  },
+  {
+    "id": "khankabitterling",
+    "name": "興凱鱊",
+    "kind": "fish",
+    "relative": "sprites16/fish-khankabitterling.png",
+    "subject": "Acheilognathus chankaensis Khanka bitterling. Complete left-facing side view, small laterally compressed spindle/oval freshwater fish, less deep than large-fin bitterling, small blunt head, large eye, shallow forked tail, silvery flanks with muted steel-blue/olive reflection. Dorsal and anal fins moderately long but distinctly shorter-based than Acheilognathus macropterus; male pelvic fin with pale leading margin, anal fin with an inner pale band and dark outer margin. No oversized flowing ornamental fins.",
+    "prompt": "Use case: scientific-educational. Asset: ONE independent transparent-background game inventory sprite. Subject: Acheilognathus chankaensis Khanka bitterling. Complete left-facing side view, small laterally compressed spindle/oval freshwater fish, less deep than large-fin bitterling, small blunt head, large eye, shallow forked tail, silvery flanks with muted steel-blue/olive reflection. Dorsal and anal fins moderately long but distinctly shorter-based than Acheilognathus macropterus; male pelvic fin with pale leading margin, anal fin with an inner pale band and dark outer margin. No oversized flowing ornamental fins.\nSTYLE REFERENCES ONLY: attached existing game illustrations define pixel density, subdued color and rendering, not subject anatomy. Match the accepted sample's low-saturation natural-history pixel art, crisp stepped edges, deliberate small pixel clusters, limited layered shading, controlled small highlights, thin dark contour. Readable around 160px display size, with anatomy emphasized by a naturally native ~280px sprite resolution even on a larger canvas. No photorealism, watercolor, blurry gradients, shiny 3D or smooth vector outline. Complete specimen with all fins/limbs, head left for lateral fish unless a special view is specified. Centered, generous truly transparent margins, no text, labels, frame, background scene, water, cast shadow or extra objects. Do not copy reference species markings or appendages.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.24/assets/pixel-atlas-01-clear.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/work/expansion25-art/assets/sprites16/fish-pacificcod.png"
+    ]
+  },
+  {
+    "id": "chinesebitterling",
+    "name": "中華鰟鮍",
+    "kind": "fish",
+    "relative": "sprites16/fish-chinesebitterling.png",
+    "subject": "Rhodeus sinensis Chinese bitterling. Complete left-facing side view, small compressed oval body, short small head and tiny mouth, relatively large eye, silver-gray scales, olive-gray upper back with dark edging on upper scales, pale belly, modest triangular dorsal starts mid-body, modest anal fin, forked tail and translucent gray-tan fins. Incomplete lateral line subtly indicated anteriorly only. More compact short-finned shape than the two Acheilognathus sprites, not a recolor of an existing rosy bitterling. Restrained natural coloration, no neon glow.",
+    "prompt": "Use case: scientific-educational. Asset: ONE independent transparent-background game inventory sprite. Subject: Rhodeus sinensis Chinese bitterling. Complete left-facing side view, small compressed oval body, short small head and tiny mouth, relatively large eye, silver-gray scales, olive-gray upper back with dark edging on upper scales, pale belly, modest triangular dorsal starts mid-body, modest anal fin, forked tail and translucent gray-tan fins. Incomplete lateral line subtly indicated anteriorly only. More compact short-finned shape than the two Acheilognathus sprites, not a recolor of an existing rosy bitterling. Restrained natural coloration, no neon glow.\nSTYLE REFERENCES ONLY: attached existing game illustrations define pixel density, subdued color and rendering, not subject anatomy. Match the accepted sample's low-saturation natural-history pixel art, crisp stepped edges, deliberate small pixel clusters, limited layered shading, controlled small highlights, thin dark contour. Readable around 160px display size, with anatomy emphasized by a naturally native ~280px sprite resolution even on a larger canvas. No photorealism, watercolor, blurry gradients, shiny 3D or smooth vector outline. Complete specimen with all fins/limbs, head left for lateral fish unless a special view is specified. Centered, generous truly transparent margins, no text, labels, frame, background scene, water, cast shadow or extra objects. Do not copy reference species markings or appendages.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.24/assets/pixel-atlas-01-clear.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/work/expansion25-art/assets/sprites16/fish-pacificcod.png"
+    ]
+  },
+  {
+    "id": "rivulargudgeon",
+    "name": "棒花魚",
+    "kind": "fish",
+    "relative": "sprites16/fish-rivulargudgeon.png",
+    "subject": "Abbottina rivularis river gudgeon. Complete left-facing side view, short stout cylindrical anterior body tapering toward forked tail, large blunt head, small inferior downturned mouth with one tiny short barbel at each mouth corner, flat belly. Muddy yellow-brown back, paler beige belly, a row of roughly eight irregular dark blotches along flank, little dark dots on dorsal and caudal fin rays, single dorsal fin. No fused goby suction disc, no second dorsal fin.",
+    "prompt": "Use case: scientific-educational. Asset: ONE independent transparent-background game inventory sprite. Subject: Abbottina rivularis river gudgeon. Complete left-facing side view, short stout cylindrical anterior body tapering toward forked tail, large blunt head, small inferior downturned mouth with one tiny short barbel at each mouth corner, flat belly. Muddy yellow-brown back, paler beige belly, a row of roughly eight irregular dark blotches along flank, little dark dots on dorsal and caudal fin rays, single dorsal fin. No fused goby suction disc, no second dorsal fin.\nSTYLE REFERENCES ONLY: attached existing game illustrations define pixel density, subdued color and rendering, not subject anatomy. Match the accepted sample's low-saturation natural-history pixel art, crisp stepped edges, deliberate small pixel clusters, limited layered shading, controlled small highlights, thin dark contour. Readable around 160px display size, with anatomy emphasized by a naturally native ~280px sprite resolution even on a larger canvas. No photorealism, watercolor, blurry gradients, shiny 3D or smooth vector outline. Complete specimen with all fins/limbs, head left for lateral fish unless a special view is specified. Centered, generous truly transparent margins, no text, labels, frame, background scene, water, cast shadow or extra objects. Do not copy reference species markings or appendages.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.24/assets/pixel-atlas-01-clear.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/work/expansion25-art/assets/sprites16/fish-pacificcod.png"
+    ]
+  },
+  {
+    "id": "yellowdwarfgoby",
+    "name": "小黃黝魚",
+    "kind": "fish",
+    "relative": "sprites16/fish-yellowdwarfgoby.png",
+    "subject": "Micropercops swinhonis small freshwater sleeper. Complete left-facing side view, miniature elongate somewhat stout fish, relatively broad blunt head with large eye, pale yellow-tan to olive-brown body with several diffuse dark vertical flank bars/blotches, TWO clearly separated dorsal fins, rounded fan-shaped tail, modest broad pectoral fin. Short plain fins and subdued mottled skin, not an ornamental betta or true goby with a suction disc. No barbels.",
+    "prompt": "Use case: scientific-educational. Asset: ONE independent transparent-background game inventory sprite. Subject: Micropercops swinhonis small freshwater sleeper. Complete left-facing side view, miniature elongate somewhat stout fish, relatively broad blunt head with large eye, pale yellow-tan to olive-brown body with several diffuse dark vertical flank bars/blotches, TWO clearly separated dorsal fins, rounded fan-shaped tail, modest broad pectoral fin. Short plain fins and subdued mottled skin, not an ornamental betta or true goby with a suction disc. No barbels.\nSTYLE REFERENCES ONLY: attached existing game illustrations define pixel density, subdued color and rendering, not subject anatomy. Match the accepted sample's low-saturation natural-history pixel art, crisp stepped edges, deliberate small pixel clusters, limited layered shading, controlled small highlights, thin dark contour. Readable around 160px display size, with anatomy emphasized by a naturally native ~280px sprite resolution even on a larger canvas. No photorealism, watercolor, blurry gradients, shiny 3D or smooth vector outline. Complete specimen with all fins/limbs, head left for lateral fish unless a special view is specified. Centered, generous truly transparent margins, no text, labels, frame, background scene, water, cast shadow or extra objects. Do not copy reference species markings or appendages.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.24/assets/pixel-atlas-01-clear.png",
+      "C:/Users/nlb76/Downloads/四海釣遊記/work/expansion25-art/assets/sprites16/fish-pacificcod.png"
+    ]
+  },
+  {
+    "id": "tokyo-simmered-anago",
+    "name": "煮穴子",
+    "kind": "meal",
+    "relative": "sprites16/meal-tokyo-simmered-anago.png",
+    "subject": "One small warm ivory ceramic plate containing several thick cut pieces of simmered Conger myriaster eel fillet, soft ivory cooked flesh, brown skin underneath, glossy but restrained light soy/mirin brown glaze, gently stacked overlapping with visible soft flesh ridges. This is plain ni-anago simmered eel, no rice, no sushi, no whole living eel, no garnish beyond tiny modest green accent if needed. Entire plate visible from a gentle three-quarter angle.",
+    "prompt": "Use case: scientific-educational. Asset: ONE independent transparent-background game inventory sprite. Subject: One small warm ivory ceramic plate containing several thick cut pieces of simmered Conger myriaster eel fillet, soft ivory cooked flesh, brown skin underneath, glossy but restrained light soy/mirin brown glaze, gently stacked overlapping with visible soft flesh ridges. This is plain ni-anago simmered eel, no rice, no sushi, no whole living eel, no garnish beyond tiny modest green accent if needed. Entire plate visible from a gentle three-quarter angle.\nSTYLE REFERENCES ONLY: attached existing game illustrations define pixel density, subdued color and rendering, not subject anatomy. Match the accepted sample's low-saturation natural-history pixel art, crisp stepped edges, deliberate small pixel clusters, limited layered shading, controlled small highlights, thin dark contour. Readable around 160px display size, with anatomy emphasized by a naturally native ~280px sprite resolution even on a larger canvas. No photorealism, watercolor, blurry gradients, shiny 3D or smooth vector outline. Dish container is part of the single object; match the existing atlas meal sprites. Centered, generous truly transparent margins, no text, labels, frame, background scene, water, cast shadow or extra objects. Do not copy reference species markings or appendages.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.24/assets/pixel-atlas-01-clear.png"
+    ]
+  },
+  {
+    "id": "tokyo-boiled-shako",
+    "name": "鹽水蝦蛄",
+    "kind": "meal",
+    "relative": "sprites16/meal-tokyo-boiled-shako.png",
+    "subject": "One simple warm ivory ceramic plate with four or five salt-boiled mantis shrimp Oratosquilla oratoria, primarily peeled flattened segmented cooked tail meats with pale beige-pink/pale lavender brown shell edges on one illustrative piece. Recognizable broad flattened mantis-shrimp abdomen ridges, no large lobster claws, no sushi rice, no battered coating, no sauce pool. Entire plate visible, three-quarter view.",
+    "prompt": "Use case: scientific-educational. Asset: ONE independent transparent-background game inventory sprite. Subject: One simple warm ivory ceramic plate with four or five salt-boiled mantis shrimp Oratosquilla oratoria, primarily peeled flattened segmented cooked tail meats with pale beige-pink/pale lavender brown shell edges on one illustrative piece. Recognizable broad flattened mantis-shrimp abdomen ridges, no large lobster claws, no sushi rice, no battered coating, no sauce pool. Entire plate visible, three-quarter view.\nSTYLE REFERENCES ONLY: attached existing game illustrations define pixel density, subdued color and rendering, not subject anatomy. Match the accepted sample's low-saturation natural-history pixel art, crisp stepped edges, deliberate small pixel clusters, limited layered shading, controlled small highlights, thin dark contour. Readable around 160px display size, with anatomy emphasized by a naturally native ~280px sprite resolution even on a larger canvas. No photorealism, watercolor, blurry gradients, shiny 3D or smooth vector outline. Dish container is part of the single object; match the existing atlas meal sprites. Centered, generous truly transparent margins, no text, labels, frame, background scene, water, cast shadow or extra objects. Do not copy reference species markings or appendages.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.24/assets/pixel-atlas-01-clear.png"
+    ]
+  },
+  {
+    "id": "ishikari-sanpei",
+    "name": "三平汁",
+    "kind": "meal",
+    "relative": "sprites16/meal-ishikari-sanpei.png",
+    "subject": "One warm off-white ceramic bowl of Hokkaido sanpeijiru soup, clear light kombu broth with chunky white cooked cod with dark gray skin edges, rustic white daikon chunks, pale yellow potato chunks and a few short green onion pieces. Fish and vegetables distinct, homestyle unsophisticated. No noodles, no rice, no salmon-orange fish, no creamy milky soup, no red chili oil. Full bowl including base from three-quarter view.",
+    "prompt": "Use case: scientific-educational. Asset: ONE independent transparent-background game inventory sprite. Subject: One warm off-white ceramic bowl of Hokkaido sanpeijiru soup, clear light kombu broth with chunky white cooked cod with dark gray skin edges, rustic white daikon chunks, pale yellow potato chunks and a few short green onion pieces. Fish and vegetables distinct, homestyle unsophisticated. No noodles, no rice, no salmon-orange fish, no creamy milky soup, no red chili oil. Full bowl including base from three-quarter view.\nSTYLE REFERENCES ONLY: attached existing game illustrations define pixel density, subdued color and rendering, not subject anatomy. Match the accepted sample's low-saturation natural-history pixel art, crisp stepped edges, deliberate small pixel clusters, limited layered shading, controlled small highlights, thin dark contour. Readable around 160px display size, with anatomy emphasized by a naturally native ~280px sprite resolution even on a larger canvas. No photorealism, watercolor, blurry gradients, shiny 3D or smooth vector outline. Dish container is part of the single object; match the existing atlas meal sprites. Centered, generous truly transparent margins, no text, labels, frame, background scene, water, cast shadow or extra objects. Do not copy reference species markings or appendages.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.24/assets/pixel-atlas-01-clear.png"
+    ]
+  },
+  {
+    "id": "ishikari-hokke",
+    "name": "烤花魚一夜干",
+    "kind": "meal",
+    "relative": "sprites16/meal-ishikari-hokke.png",
+    "subject": "One cream oval ceramic plate holding one whole butterflied grilled dried Atka mackerel Pleurogrammus azonus (hokke), split open lengthwise and lying opened flesh-up, tail and head attached, two broad cream-beige fish-flesh lobes joined down central backbone, golden brown seared edges and a few dark grill marks, thin gray-brown skin border. One recognizable opened fish, not two separate fillets and not a raw silver fish. Whole plate visible, slight overhead three-quarter angle; no garnish mound.",
+    "prompt": "Use case: scientific-educational. Asset: ONE independent transparent-background game inventory sprite. Subject: One cream oval ceramic plate holding one whole butterflied grilled dried Atka mackerel Pleurogrammus azonus (hokke), split open lengthwise and lying opened flesh-up, tail and head attached, two broad cream-beige fish-flesh lobes joined down central backbone, golden brown seared edges and a few dark grill marks, thin gray-brown skin border. One recognizable opened fish, not two separate fillets and not a raw silver fish. Whole plate visible, slight overhead three-quarter angle; no garnish mound.\nSTYLE REFERENCES ONLY: attached existing game illustrations define pixel density, subdued color and rendering, not subject anatomy. Match the accepted sample's low-saturation natural-history pixel art, crisp stepped edges, deliberate small pixel clusters, limited layered shading, controlled small highlights, thin dark contour. Readable around 160px display size, with anatomy emphasized by a naturally native ~280px sprite resolution even on a larger canvas. No photorealism, watercolor, blurry gradients, shiny 3D or smooth vector outline. Dish container is part of the single object; match the existing atlas meal sprites. Centered, generous truly transparent margins, no text, labels, frame, background scene, water, cast shadow or extra objects. Do not copy reference species markings or appendages.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.24/assets/pixel-atlas-01-clear.png"
+    ]
+  },
+  {
+    "id": "ishikari-sandfish",
+    "name": "鹽烤日本叉牙魚",
+    "kind": "meal",
+    "relative": "sprites16/meal-ishikari-sandfish.png",
+    "subject": "One small cream oval ceramic plate with three whole salt-grilled Japanese sandfish Arctoscopus japonicus, parallel arranged, heads facing left, tiny elongated fish, upper brown mottled golden skin, pale cooked belly, intact heads and tails, delicate fins and two separate dorsal fins, lightly charred patches. No skewers, no rice, no batter or sauce, no huge fish. Entire plate in gentle three-quarter view.",
+    "prompt": "Use case: scientific-educational. Asset: ONE independent transparent-background game inventory sprite. Subject: One small cream oval ceramic plate with three whole salt-grilled Japanese sandfish Arctoscopus japonicus, parallel arranged, heads facing left, tiny elongated fish, upper brown mottled golden skin, pale cooked belly, intact heads and tails, delicate fins and two separate dorsal fins, lightly charred patches. No skewers, no rice, no batter or sauce, no huge fish. Entire plate in gentle three-quarter view.\nSTYLE REFERENCES ONLY: attached existing game illustrations define pixel density, subdued color and rendering, not subject anatomy. Match the accepted sample's low-saturation natural-history pixel art, crisp stepped edges, deliberate small pixel clusters, limited layered shading, controlled small highlights, thin dark contour. Readable around 160px display size, with anatomy emphasized by a naturally native ~280px sprite resolution even on a larger canvas. No photorealism, watercolor, blurry gradients, shiny 3D or smooth vector outline. Dish container is part of the single object; match the existing atlas meal sprites. Centered, generous truly transparent margins, no text, labels, frame, background scene, water, cast shadow or extra objects. Do not copy reference species markings or appendages.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.24/assets/pixel-atlas-01-clear.png"
+    ]
+  },
+  {
+    "id": "kuruma-shioyaki",
+    "name": "鹽烤日本對蝦",
+    "kind": "meal",
+    "relative": "sprites16/meal-kuruma-shioyaki.png",
+    "subject": "One warm ivory oval ceramic plate with three salt-grilled kuruma prawns Penaeus japonicus, whole head-on and shell-on, naturally curved, cooked muted coral-orange and warm reddish brown transverse bands, charred shell edges, complete tail fans and visible fine antennae contained above plate. Light salt crystals, no sauce or rice, no tempura batter, not raw gray-blue shrimp. Entire plate, gentle three-quarter view.",
+    "prompt": "Use case: scientific-educational. Asset: ONE independent transparent-background game inventory sprite. Subject: One warm ivory oval ceramic plate with three salt-grilled kuruma prawns Penaeus japonicus, whole head-on and shell-on, naturally curved, cooked muted coral-orange and warm reddish brown transverse bands, charred shell edges, complete tail fans and visible fine antennae contained above plate. Light salt crystals, no sauce or rice, no tempura batter, not raw gray-blue shrimp. Entire plate, gentle three-quarter view.\nSTYLE REFERENCES ONLY: attached existing game illustrations define pixel density, subdued color and rendering, not subject anatomy. Match the accepted sample's low-saturation natural-history pixel art, crisp stepped edges, deliberate small pixel clusters, limited layered shading, controlled small highlights, thin dark contour. Readable around 160px display size, with anatomy emphasized by a naturally native ~280px sprite resolution even on a larger canvas. No photorealism, watercolor, blurry gradients, shiny 3D or smooth vector outline. Dish container is part of the single object; match the existing atlas meal sprites. Centered, generous truly transparent margins, no text, labels, frame, background scene, water, cast shadow or extra objects. Do not copy reference species markings or appendages.",
+    "references": [
+      "C:/Users/nlb76/Downloads/四海釣遊記/四海釣遊記0.24/assets/pixel-atlas-01-clear.png"
+    ]
+  }
+]
