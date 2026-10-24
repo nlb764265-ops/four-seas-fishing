@@ -4,3 +4,6 @@ window.WORLD_WATER={"boxes":[[118.9,21.6,122.4,25.6],[112.8,21.7,115.2,23.6],[5.
 
 // A label only; shoreline geometry remains the existing Natural Earth land data.
 window.WORLD_WATER.local.push({k:"sea",z:6,n:"濟州沿岸",src:"遊戲釣點概略位置",g:[],l:[126.57,33.23]});
+
+// 0.24 Taihu: label only; the lake outline is already in the Natural Earth lakes layer.
+window.WORLD_WATER.local.push({k:"lake",z:3,n:"太湖",src:"遊戲釣點概略位置",g:[],l:[120.22,31.2]});

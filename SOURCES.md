@@ -83,7 +83,7 @@ Natural Earth [1:50m Land](https://www.naturalearthdata.com/downloads/50m-physic
 
 本版新增兩個釣點，共 5 處水域、63 種魚。遊戲移除各水域的市場行情倍率，魚價只取決於魚種與重量。
 
-- 關渡（淡水河口）：依[關渡自然公園・關渡的魚類](https://gd-park.org.tw/sites/gd-park.org.tw/files/att/關渡的魚類_1.pdf)（2017 年版，共 55 種）。新增大眼海鰱、大海鰱、日本鰻鱺、尼羅口孵非鯽、銀紋笛鯛、金錢魚、銀鱗鯧、臺灣棘鯛、彈塗魚、前鱗龜鮻、蟾鬍鯰、黃鱔、七星鱧與高身鯽，並沿用名錄中已收錄的魚種。蟾鬍鯰（泰國土虱）依名錄列為外來入侵種並設為賞金魚。名錄中觀賞小魚與鰕虎等未全部收錄。銀紋笛鯛、前鱗龜鮻與彈塗魚的形態與棲所依海大魚類數典重寫。
+- 關渡：依[關渡自然公園・關渡的魚類](https://gd-park.org.tw/sites/gd-park.org.tw/files/att/關渡的魚類_1.pdf)（2017 年版，共 55 種）。新增大眼海鰱、大海鰱、日本鰻鱺、尼羅口孵非鯽、銀紋笛鯛、金錢魚、銀鱗鯧、臺灣棘鯛、彈塗魚、前鱗龜鮻、蟾鬍鯰、黃鱔、七星鱧與高身鯽，並沿用名錄中已收錄的魚種。蟾鬍鯰（泰國土虱）依名錄列為外來入侵種並設為賞金魚。名錄中觀賞小魚與鰕虎等未全部收錄。銀紋笛鯛、前鱗龜鮻與彈塗魚的形態與棲所依海大魚類數典重寫。
 - 龍洞岩岸（東北角）：依國立臺灣海洋大學[海大魚類數典・台灣東北角常見魚類](https://digifish.biodiv.tw/northeast.php)。新增藍點石斑魚、玳瑁石斑、黑帶棘鰭魚、異黑鯛、雙帶烏尾冬、白頸赤尾冬、印度海緋鯉、藍豬齒魚、背帶鷹斑鯛與雲斑海豬魚。名錄中的六角石斑主要產於臺灣南部海域，本版未放入龍洞。蝴蝶魚、雀鯛等以觀賞為主的小型礁魚未收錄。
 - 地圖標記為水域概略位置：關渡 25.118° N、121.462° E；龍洞 25.115° N、121.918° E，不代表實地垂釣許可位置。
 
@@ -328,11 +328,11 @@ Natural Earth [1:50m Land](https://www.naturalearthdata.com/downloads/50m-physic
 - 鯛魚飯：[日本海上自衛隊鯛めし食譜](https://www.mod.go.jp/msdf/kanmeshi/menu/jp/027/index.html)先炙魚皮，再放入米與高湯同炊，做法顯示「先烤魚再與米同炊」，以炊飯獨立分類。
 - 火雞肉飯、起司麵疙瘩、俾斯麥鯡魚堡：沿用上節對應來源及既有介紹，分別為熟火雞肉撕絲鋪飯淋汁、麵疙瘩拌起司鋪炸洋蔥、醋醃魚片夾麵包，避免顯示成煎炸烤燻或清蒸水煮。
 
-具體做法全表見料理做法查核.md。畫風化點陣圖為 AI 生成遊戲插畫，不作為現實物種鑑定依據。
+具體做法全表見根目錄《歷代更新記錄.md》「料理做法查核（0.15）」一節。畫風化點陣圖為 AI 生成遊戲插畫，不作為現實物種鑑定依據。
 
 ## 0.15 料理魚材取捨（2026-10-22）
 
-本節查閱日期為 2026-10-22。食用紀錄與遊戲是否採作料理材料分開處理；以下來源作為取捨參考，不把觀賞利用、低漁獲價值或資料不足等同於毒性。完整 9 種調整表見《料理魚材調整.md》。
+本節查閱日期為 2026-10-22。食用紀錄與遊戲是否採作料理材料分開處理；以下來源作為取捨參考，不把觀賞利用、低漁獲價值或資料不足等同於毒性。完整 9 種調整表見根目錄《歷代更新記錄.md》「料理魚材調整（0.15）」一節。
 
 - 琵琶鼠：[臺灣魚類資料庫](https://fishdb.sinica.edu.tw/chi/species.php?id=395254)列為觀賞魚，未列為食用魚；[臺北市生物多樣性資料庫](https://biodiv.gov.taipei/page/about/index.aspx?kind=47&lang=US)說明因水族飼養引入。本作排除魚材。
 - 銀鱗鯧：[臺灣魚類資料庫](https://fishdb.sinica.edu.tw/taxon/382162-fishdb)的利用說明以觀賞為主、食用價值低。本作排除魚材。
@@ -497,7 +497,7 @@ FishBase、臺灣魚類資料庫（人機驗證）與 TBN（403）本次無法�
 | 磨坊主婦式梭鱸排 | 梭鱸 | [speisekarte.de：朗根阿根 Hotel-Restaurant Schwedi](https://www.speisekarte.de/langenargen/restaurant/schwedi/speisekarte)；[wandernundmehr.at](https://www.wandernundmehr.at/faq/welchen-fisch-isst-man-am-bodensee) |
 # 0.18 日本湖泊補魚（查閱：2026-10-22）
 
-本批從 0.17 的 144 種魚接編三種，完整遊戲數值、魚池配置與來源限制見《日本湖泊補魚實裝記錄.md》。權重、重量、價格與夜晚倍率為遊戲設定。各來源的現實保育或商業漁業資訊，不當作本作釣獲率或現行遊釣規則。
+本批從 0.17 的 144 種魚接編三種，完整遊戲數值、魚池配置與來源限制見根目錄《歷代更新記錄.md》「日本湖泊補魚：琵琶湖、霞浦湖（0.18）」一節。權重、重量、價格與夜晚倍率為遊戲設定。各來源的現實保育或商業漁業資訊，不當作本作釣獲率或現行遊釣規則。
 
 | 識別／學名 | 中文名與日語名 | 來源及支持範圍 |
 | --- | --- | --- |
@@ -793,3 +793,30 @@ FishBase、臺灣魚類資料庫（人機驗證）與 TBN（403）本次無法�
 - 日本的鯛（Zeus faber）：https://fishdb.sinica.edu.tw/chi/species.php?gen=Zeus&spe=faber
 - 日本鯷（Engraulis japonicus）：https://fishdb.sinica.edu.tw/taxon/380976-fishdb
 - 日本下鱵魚（Hyporhamphus sajori）：https://www.pref.kyoto.jp/kaiyo2/sayori.html
+
+## 0.24 太湖（查閱日期 2026-10-23）
+
+太湖採 3 級許可證（3,000 元，需圖鑑 50 種魚），座標 31.20°N、120.25°E 為遊戲示意位置；地圖只新增名稱標籤，湖岸沿用 Natural Earth 1:10m 湖泊圖層。魚池權重、重量、售價與料理效果為遊戲設定。太湖自 2020 年 10 月起禁捕十年，以下分布紀錄不代表現行資源量或垂釣許可。
+
+| 編號 | 來源 | 採用範圍 |
+| --- | --- | --- |
+| F1 | 張翔、沈偉、周國棟，[2018–2020 年太湖魚類群落結構及其環境因子典範對應分析](https://www.ere.ac.cn/cn/article/id/12314) | 只讀摘要。52 種；湖鱭（Coilia nasus）數量優勢、鯉重量優勢；點名翹嘴鮊、黃顙魚（Tachysurus fulvidraco）、黑鰭鰁（Sarcocheilichthys nigripinnis）、奇力魚（Hemiculter leucisculus）。 |
+| F2 | [太湖魚類群落結構及多樣性](https://www.cje.net.cn/CN/Y2011/V30/I12/2836)，《生態學雜誌》30(12) | 經搜尋摘要。2009～2010 年拖網 50 種；優勢種湖鱭、間下鱵（Hyporhamphus intermedius）、陳氏短吻銀魚。 |
+| F3 | [上海海洋大學學報 2018, 27(1)](https://html.rhhz.net/shhydxxb/20170301976.htm)；[水產學報 1997](https://china-fishery.cn/cn/article/pdf/preview/19970204.pdf) | 經搜尋摘要。太湖銀魚種類：大銀魚（Protosalanx chinensis，異名 P. hyalocranius）、陳氏短吻銀魚（Neosalanx tangkahkeii，舊稱太湖新銀魚）；湖鱭為刀鱭定居型。 |
+| F4 | 劉燕山等，[東太湖魚類群落結構特徵及其與環境因子的關係](https://www.ecologica.cn/html/2021/2/stxb202004130872.htm)，《生態學報》2021, 41(2): 769-780 | 已讀全文頁。2019 年東太湖 39 種名錄：鱖（Siniperca chuatsi）、似鱎（Toxabramis swinhonis）、河川沙塘鱧（Odontobutis potamophila）、鯿（Parabramis pekinensis）、蒙古鮊（Culter mongolicus，本作用 Chanodichthys mongolicus）、烏鱧（Channa argus），以及共用的鯽、鱅、草魚、紅鰭原鮊、團頭魴、高體鰟鮍、麥穗魚、泥鰍、子陵吻鰕虎、翹嘴鮊、刀鱭、黃顙魚。 |
+| F5 | 盛漂等，[太湖禁捕當年魚類群落結構及環境驅動因子](https://www.cjae.net/CN/10.13287/j.1001-9332.202309.030)，《應用生態學報》2023, 34(9) | 只讀摘要。2020 年 42 種；湖鱭占數量 85.1%，似鱎、鰱、鱅、陳氏短吻銀魚相對重要性高。 |
+| F6 | [生物多樣性 2025, 33(6) 南四湖河川沙塘鱧研究](https://www.biodiversity-science.net/EN/Y2025/V33/I6/24290)；[水產學報 1996 年第 3 期](https://china-fishery.com/scxuebao/article/pdf/19960301) | 經搜尋摘要。河川沙塘鱧為長江流域小型底棲肉食魚，主食幼魚與蝦；地方名塘鱧魚、土布魚。 |
+| A1 | 溫周瑞等（2011），〈太湖日本沼蝦、秀麗白蝦現存量的周年動態研究〉，《長江流域資源與環境》20(9) | 經搜尋摘要。秀麗白蝦（Palaemon modestus，舊屬 Exopalaemon）與日本沼蝦的太湖紀錄。 |
+| A2 | [第一財經：太湖大閘蟹](https://www.yicai.com/news/100771803.html)；[東太湖圍網拆除後水生植被](https://www.ere.ac.cn/cn/article/id/12153)；[文匯報 2021-01-17](https://dzb.whb.cn/imgPath/2021-01-17/50117.pdf) | 中華絨螯蟹（Eriocheir sinensis）網圍養殖 2019 年底拆除；2020 年 10 月起太湖退捕禁捕。 |
+| W1 | 趙凱等，[1960 年以來太湖水生植被演變](https://jlakes.alljournals.cn/html/2017/2/20170211.html)，《湖泊科學》2017, 29(2) | 已讀全文頁。2014 年全湖 39 種維管植物：馬來眼子菜（Potamogeton wrightii，原表作 P. malaianus）、苦草（Vallisneria natans）、芡實（Euryale ferox）、細果野菱（Trapa maximowiczii）、荇菜（莕菜）、微齒眼子菜、黑藻、伊樂藻（1986 年引入）；蓴菜 2014 年無野生分布。 |
+| C1 | 無錫市政府英文網，[Taihu Lake Three Whites](https://en.wuxi.gov.cn/2025-10/14/c_1131705.htm) | 清蒸白魚、銀魚炒蛋、醉蝦。 |
+| C2 | 無錫市政府英文網，[太湖船點](https://en.wuxi.gov.cn/2025-10/13/c_1131160.htm) | 經搜尋摘要。太湖船點 2016 年列為江蘇省級非遺。 |
+| C3 | [中新網 2026-07-13](https://www.chinanews.com.cn/life/2026/07-13/10658329.shtml)、[揚子晚報 2026-04](https://www.yzwb.net/news/yysp/202604/t20260412_341447.html)、[光明網](https://m.gmw.cn/2026-07/13/content_1304531529.htm) | 蓴菜銀魚羹做法；蘇州蓴菜多產自東山；野生蓴菜為國家二級保護植物。 |
+| C4 | [澎湃新聞：蘇州雞頭米](https://www.thepaper.cn/newsDetail_forward_31756434)、[揚子晚報 2026-08](https://www.yzwb.net/news/jiangsu/suzhou/202608/t20260826_386461.html) | 桂花雞頭米。 |
+| C5 | 無錫市政府英文網，[Taihu drunken crabs](https://en.wuxi.gov.cn/2021-10/13/c_667835.htm)、[Hairy crabs](https://en.wuxi.gov.cn/2023-11/02/c_935752.htm) | 清蒸大閘蟹（配薑末鎮江醋）、太湖醉蟹（黃酒與香料醃製）。 |
+| C6 | 中國日報政府專頁，[Squirrel-shaped Mandarin Fish](https://govt.chinadaily.com.cn/s/201807/17/WS5b88a3c5498ea626bcc565a5/squirrel-shaped-mandarin-fish.html)；[Euronews 2024-12-17](https://www.euronews.com/2024/12/17/fusing-old-and-new-tradition-meets-modernity-in-chinas-venice-of-the-east) | 松鼠鱖魚。典故以「相傳」處理。 |
+| C7 | [澎湃新聞政務號：春天第一鮮](https://m.thepaper.cn/newsDetail_forward_30661014)、[三聯生活周刊](https://ny.zdline.cn/h5/article/detail.do?artId=223010) | 塘鱧魚燉蛋。 |
+
+自製料理：清蒸白魚、銀魚炒蛋、醉蝦、清蒸大閘蟹、松鼠鱖魚、塘鱧魚燉蛋、桂花雞頭米。餐廳「湖鮮船菜館」（遊戲虛構店名）：太湖船點、銀魚炒蛋、太湖醉蟹、蓴菜銀魚羹。
+
+新增魚種：刀鱭（Coilia nasus）、大銀魚（Protosalanx chinensis）、陳氏短吻銀魚（Neosalanx tangkahkeii）、黃顙魚（Tachysurus fulvidraco）、間下鱵（Hyporhamphus intermedius）、黑鰭鰁（Sarcocheilichthys nigripinnis）、鱖魚（Siniperca chuatsi）、似鱎（Toxabramis swinhonis）、河川沙塘鱧（Odontobutis potamophila）、鯿（Parabramis pekinensis）、蒙古鮊（Chanodichthys mongolicus）、烏鱧（Channa argus）。新增水生動物：秀麗白蝦（Palaemon modestus）、中華絨螯蟹（Eriocheir sinensis）。新增水草：馬來眼子菜（Potamogeton wrightii）、苦草（Vallisneria natans）、芡實（Euryale ferox）、細果野菱（Trapa maximowiczii）。中國水域不另列地方語言名。

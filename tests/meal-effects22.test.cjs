@@ -8,8 +8,8 @@ test('every meal uses one of the seven effects with the approved amounts per dur
  const count={};for(const m of all){count[m.effect]=(count[m.effect]||0)+1;assert([40,60,80].includes(m.casts),m.id);const tier={40:0,60:1,80:2}[m.casts];
   const want={lure:[1.5,2,2.5],weed:[.5,.75,1],bait:[.25,.35,.5],double:[.08,.1,.12],night:[.5,.75,1],animal:[2,2.5,3]}[m.effect];if(want)assert.equal(m.amount,want[tier],m.id);else assert.equal(m.effect,'speed',m.id);
   assert(!m.desc.split('，')[0].includes('持續'),m.id);assert.match(m.desc,new RegExp(`持續 ${m.casts} 竿。$`))}
- assert.deepEqual(count,{speed:22,lure:24,weed:17,bait:8,double:14,night:4,animal:8});
- assert.deepEqual(all.filter(m=>m.effect==='double').map(m=>m.id).sort(),['dine-jeju-mackerel','jeju-grilled-mackerel','baoyu','danggit','funazushi','ginger','green-herring','grillfish','gurukun-karaage','kibinago-sashimi','pla-duk-fu','smoked','wakasagi-suzuke','zander-muellerin'].sort());
+ assert.deepEqual(count,{speed:24,lure:27,weed:18,bait:8,double:16,night:5,animal:10});
+ assert.deepEqual(all.filter(m=>m.effect==='double').map(m=>m.id).sort(),['dine-jeju-mackerel','jeju-grilled-mackerel','taihu-silver-eggs','dine-taihu-silvereggs','baoyu','danggit','funazushi','ginger','green-herring','grillfish','gurukun-karaage','kibinago-sashimi','pla-duk-fu','smoked','wakasagi-suzuke','zander-muellerin'].sort());
  assert.deepEqual(['kabayaki','eel-noodle','catfish-eggplant','dine-kasumigaura-hobikini'].map(id=>(E.recipe(id)||E.dish(id)).effect),['night','night','night','night'])});
 test('weed meals cut water plants; the empty hook still only brings up plants',()=>{
  const plain=run(fresh(),null,600),half=run(fresh(),'panfry',600),none=run(fresh(),'sweetsour-carp',600);

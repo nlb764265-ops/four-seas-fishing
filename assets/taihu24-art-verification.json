@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-23T20:17:08.414Z",
+  "version": "0.24",
+  "sprites": 28,
+  "contentMappings": 29,
+  "visualReview": "All 28 sprites reviewed on warm-white background at 160px; representative compared against existing Japanese anchovy. Two icefish redrawn to remove scales.",
+  "browser": {
+    "desktop": "not completed",
+    "mobile390": "not completed",
+    "mobile320": "not completed",
+    "reason": "IAB localhost timed out; Windows Computer Use ended because it could not determine current browser URL safely."
+  },
+  "published": false,
+  "results": [
+    {
+      "suite": "taihu24-art.test.cjs",
+      "passed": true,
+      "output": "PASS 29 Taihu image mappings, 28 transparent assets, hidden entries, shared recipe artwork and all existing image markup\n"
+    },
+    {
+      "suite": "revision15.test.cjs",
+      "passed": true,
+      "output": "PASS all 56 meals have concrete preparation descriptions, independent of effect-family labels\nPASS combined progress includes each discovered fish and plant once, even after sale\nPASS 0.14 saves retain plant collection and active meal when loaded in 0.15\nPASS twenty-four pixel sheets have 348 mappings and 341 unique slots and never draw an undiscovered species\nPASS detail art moves into the heading once; plant labels follow the author wording\nPASS combined plant rows remain anonymous and gain art only after collection\nrevision15: 6 checks passed\n"
+    },
+    {
+      "suite": "taihu24.test.cjs",
+      "passed": true,
+      "output": "PASS existing IDs and catalogue numbers stay put; Taihu adds 12 fish, 2 animals and 4 plants\nPASS Taihu is a tier-3 lake with 25 fish summing to 100, three animals and eight weeds\nPASS every Taihu fish and animal is reachable and offline catches equal foreground settlement\nPASS Taihu income per cast stays inside the tier-3 range\nPASS foxnut sweet soup consumes one foxnut, charges once and unlocks from an old save\nPASS silver-fish eggs take either Taihu icefish but not the Japanese icefish; crab and shrimp have their own dishes\nPASS Taihu restaurant serves four dishes, every new dish is sourced and the dish card no longer says no ingredients\nPASS Guandu drops the river-mouth suffix and the map labels Taihu\nPASS desktop readings show on hover with a hint while touch screens keep the reading line\nPASS the catch box can sell a chosen number of one kind, most valuable first, once\ntaihu24: 10 checks passed\n"
+    },
+    {
+      "suite": "jeju23.test.cjs",
+      "passed": true,
+      "output": "PASS all existing IDs and catalogue numbers remain stable; Jeju has 24 Korean-named fish\nPASS every Jeju fish is reachable and offline catches equal foreground settlement\nPASS old saves unlock the new recipe from previous plant discovery; correct plant is consumed once\nPASS bulk sale preserves the new dedicated plant ingredient\nPASS Jeju licence charges once and travel still charges each direction\nPASS new images remain hidden before discovery and restaurant aliases share home dish art\nPASS recipe cards omit availability text, while unavailable cards have a distinct pale orange background\njeju23: 7 checks passed\n"
+    },
+    {
+      "suite": "batch22.test.cjs",
+      "passed": true,
+      "output": "PASS eighteen fish are appended after the jellyfish; every 0.21 entry keeps its number\nPASS Tokyo Bay and Ishikari Bay are level-3 bays with shared fish, weeds, restaurants and Japanese names\nPASS every new fish is catchable with its bait and offline settlement equals step-by-step play\nPASS income at both bays stays within the range of the other level-3 waters\nPASS the two dishes are signature recipes that pay back, and all new sprites exist and stay hidden until discovered\nPASS a 0.21 save loads unchanged and buys the level-3 licence on its first trip to each bay\nbatch22: 6 checks passed\n"
+    }
+  ],
+  "webpValidation": {
+    "count": 28,
+    "transparent": true,
+    "dimensionsMatch": true
+  }
+}
