@@ -493,7 +493,8 @@ const sizeWeight=f=>f.max>=4?.3:f.max>=2.2?.5:f.max>=.7?.8:1;
 for(const r of regions){r.basePool={...r.pool};const raw=Object.entries(r.pool).map(([id,w])=>[id,w*sizeWeight(fish.find(f=>f.id===id))]),total=raw.reduce((a,[,w])=>a+w,0),pool={},parts=raw.map(([id,w])=>{const exact=w/total*100;pool[id]=Math.max(1,Math.floor(exact));return[id,exact%1]});let left=100-Object.values(pool).reduce((a,b)=>a+b,0);parts.sort((a,b)=>b[1]-a[1]);for(let i=0;left>0;i++,left--)pool[parts[i%parts.length][0]]++;while(left<0){const id=Object.keys(pool).sort((a,b)=>pool[b]-pool[a])[0];pool[id]--;left++}r.pool=pool}
 // Fishing licences: every water except Sun Moon Lake needs a one-time licence, bought on the first trip.
 const licenseTiers=[null,{cost:150,atlas:8},{cost:800,atlas:25},{cost:3000,atlas:50},{cost:8000,atlas:80}];
-const licenseTier={zengwen:1,qigu:1,guandu:1,keelung:2,longdong:2,penghu:2,kenting:2,tolo:3,biwa:3,kasumigaura:3,bodensee:4,greifswald:4,arcachon:4,tokyo_bay:3,ishikari:3};
+// 0.26 revision: Sun Moon Lake is the tier-1 starting water; the other Taiwan waters move to tier 2 or 3.
+const licenseTier={sunmoon:1,zengwen:2,qigu:2,guandu:2,keelung:2,longdong:2,penghu:3,kenting:3,tolo:3,biwa:3,kasumigaura:3,bodensee:4,greifswald:4,arcachon:4,tokyo_bay:3,ishikari:3};
 for(const r of regions)if(licenseTier[r.id])r.license={tier:licenseTier[r.id],...licenseTiers[licenseTier[r.id]]};
 // Labels and seasoning prices; effects and duration are configured independently for each dish.
 const recipeTiers={basic:{name:'基本',seasoning:15},home:{name:'家常',seasoning:1.5},classic:{name:'名菜',seasoning:3}};

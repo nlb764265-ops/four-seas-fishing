@@ -415,6 +415,8 @@ main{max-width:1320px;margin:0 auto;padding:30px 32px 48px}
 .box-row .box-kg{color:var(--muted);font-size:14px}
 .row-tag{font-size:12px;padding:0 8px;border-radius:10px;background:var(--soft);color:var(--green);white-space:nowrap}
 .row-tag.bounty{background:#f8e8d6;color:#8a4d1c}
+.row-tag.locked{background:#e3e7ee;color:#3b4a60}
+.detail-actions .locked-note{width:100%}
 .box-list-wrap .collection-bulk{margin:0;padding:12px 18px;border-top:1px solid var(--line);background:var(--panel);flex-wrap:wrap;flex-direction:row}
 .box-list-wrap .collection-bulk p{font-size:14px;color:var(--muted)}.box-list-wrap .collection-bulk b{color:var(--ink)}
 .bounty-strip{display:flex;flex-wrap:wrap;align-items:center;gap:6px 22px;margin-bottom:16px;padding:14px 20px;background:#fbf6ea;border:1px solid #e6d6b8;border-radius:12px}
@@ -563,3 +565,6 @@ main{max-width:1320px;margin:0 auto;padding:30px 32px 48px}
 /* 0.24: a catch name never breaks into a vertical column; its tag drops below when space runs out. */
 .box-name{flex-wrap:wrap;gap:2px 10px}
 .box-name>span:first-child{white-space:nowrap}
+
+/* 0.26 revision: starting-water choice for a new game */
+#startDialog{width:min(620px,calc(100vw - 24px));max-height:90dvh;padding:22px;border:1px solid var(--line);border-radius:12px;background:var(--paper);color:var(--ink);overflow:auto}#startDialog::backdrop{background:#1b302b80}#startDialog h2{margin:0 0 6px}#startDialog .muted{margin:0 0 14px;font-size:13px}.start-list{display:grid;gap:10px}.start-list button{display:grid;gap:3px;text-align:left;padding:12px 14px;white-space:normal}.start-list strong{font-size:17px;color:var(--green)}.start-list small{color:var(--muted);font-size:12px}.start-list span{font-size:13px;line-height:1.6}
