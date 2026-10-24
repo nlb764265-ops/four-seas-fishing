@@ -975,6 +975,10 @@ FishBase、臺灣魚類資料庫（人機驗證）與 TBN（403）本次無法�
 
 英語（泰晤士河，依 T1、T2 與 FishBase 英語俗名）：普通細鰕虎 common goby、歐洲川鰈 flounder、擬鯉 roach、歐洲鱸 European seabass、歐洲胡瓜魚 smelt、歐洲雅羅魚 dace、三刺魚 three-spined stickleback、歐洲鰻鱺 European eel、河鱸 perch、沙細鰕虎 sand goby、圓腹雅羅魚 chub、歐鯿 common bream、薄唇鮻 thinlip grey mullet、黍鯡 sprat、信號小龍蝦 signal crayfish、中華絨螯蟹 Chinese mitten crab。中國水域不另列地方語言名。
 
+### 既有四區入口調級（2026-10-24）
+
+依作者核定，太湖、琵琶湖、濟州沿岸、泰晤士河改為一級許可證（150 元、圖鑑 8 種魚），與日月潭同列新遊戲起點；起點當地證件免費。這是遊戲進度設定，原有地理、物種、魚池、料理與來源不變，並不表示現實水域物種較少或大魚減少。本機實裝與驗證見根目錄《歷代更新記錄.md》及 work/starter-tiers26/。
+
 ### 配圖
 
 27 組圖由另一個對話以內建 imagegen 製作（work/expansion26-art/），18 種魚與 7 道料理在 sprites16/，2 種小龍蝦在 assets/；餐廳同名菜共用自製菜圖，洪澤湖清蒸大閘蟹沿用 taihu-steamed-crab。尺寸與檔案大小見 assets/expand26-art-manifest.json。三刺魚與細條銀口天竺鯛已於同版換成重畫圖。

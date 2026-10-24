@@ -1896,6 +1896,8 @@ const dishes26=[
 ];
 for(const d of dishes26){d.desc=mealDesc(d);dishes.push(d)}
 restaurants.hongze={name:'湖畔龍蝦館',dishes:dishes26.filter(d=>d.region==='hongze')};restaurants.vattern={name:'湖岸螯蝦屋',dishes:dishes26.filter(d=>d.region==='vattern')};restaurants.thames={name:'河畔酒館',dishes:dishes26.filter(d=>d.region==='thames')};
+// Regional starters: preserve the complete waters and change only their licence requirements.
+for(const id of ['taihu','biwa','jeju','thames'])regions.find(r=>r.id===id).license={tier:1,...licenseTiers[1]};
 const signatureIds=new Set(recipes.filter(r=>r.cuisine!=='basic').flatMap(r=>r.fishes));for(const f of species)f.signature=signatureIds.has(f.id);
 const data={fish,animals,species,plants,regions,baits,recipes,restaurants,dishes,dinePrices,recipeTiers,cookingMethods,cuisines,upgrades,economy,world};if(typeof module!=='undefined')module.exports=data;else root.FishingData=data;
 })(globalThis);
