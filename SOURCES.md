@@ -1,4 +1,4 @@
-# 四海釣遊記 0.29：資料來源
+# 四海釣遊記 0.30：資料來源
 
 查閱日期：2026-10-21。魚類文字為依資料重寫的簡介，沒有使用來源照片或大段原文。魚類資料不等於遊戲機率、價格與現實賞金政策。
 
@@ -1412,4 +1412,170 @@ Omwoma 2014 與 NASA 頁面只有搜尋摘要；PMC 上的基蘇木灣區微囊�
 - [Downing 等 2013，Was Lates Late?](https://pmc.ncbi.nlm.nih.gov/articles/PMC3800122/)導言明列尼羅尖吻鱸 1954 年非正式引入、1963 年正式引入，支持核定正文的「1950 年代」。[FishBase 尼羅尖吻鱸形態](https://www.fishbase.se/summary/347)支持大型、厚實、大口與銀白體色。
 - [Maseno University，Opande 的布袋蓮分布研究](https://repository.maseno.ac.ke/bitstream/handle/123456789/5102/OPANDE%20George0001.pdf?isAllowed=y&sequence=1)第 7 頁列出 Winam Gulf 的 Pistia（原文拼作 statoites）、Cyperus papyrus 等；另由[肯亞 NEMA 的維多利亞湖工程環評](https://nema.go.ke/images/Docs/EIA_1340-1349/EIA_1347%20LVRR_DDD_Part%205.pdf)第 70 頁的摘要交叉支持大萍 Pistia stratiotes 與布袋蓮的湖區紀錄。環評全文連線未成功，來源限制保留。
 
-補字字型沿用遍黑體 Plangothic P1 V2.9.5795 與既有 SIL OFL 授權，加入簡體「鱨」所需 U+2CD8F。擴充區子集由 12 字增為 13 字，rare-glyphs.woff 重新取字後為 4,072 bytes；擴充 A 區 5 字不變。25 張配圖另案製作，未以其他物種圖片代用。
+補字字型沿用遍黑體 Plangothic P1 V2.9.5795 與既有 SIL OFL 授權，加入簡體「鱨」所需 U+2CD8F。擴充區子集由 12 字增為 13 字，rare-glyphs.woff 重新取字後為 4,072 bytes；擴充 A 區 5 字不變。25 張配圖已於 2026-10-25 在本機完成接入，使用各自物種的圖片；圖像製作與查核見 assets/圖像0.29說明.md。
+
+
+## 0.30 巴拉那河・伊泰普水庫（2026-10-25）
+
+本批依作者核定稿實裝，24 種魚追加於既有物種末端。新增水蘊草；淡水蝦未納入。魚池、重量、配餌、天氣與料理數值均為遊戲設定。保留審閱時的原始查核日期與證據範圍，不將舊文獻改稱當前採樣。
+
+
+
+查閱日期均為 2026-10-25。下列來源用於現實資料；價格、重量範圍、釣竿、魚餌、權重、天氣與料理效果均為本稿的遊戲設定。水庫尺度的魚池不代表各種都在聖赫勒拿同一岸點釣得到；示意座標不代表已確認的合法垂釣入口。
+
+| 編號 | 來源與本稿採用範圍 |
+| --- | --- |
+| S1 | [Scientific Reports：Evaluating 36 years of fishing sustainability in a large reservoir（2025）](https://www.nature.com/articles/s41598-025-88209-8)。讀取正文的方法、結果與地理背景；支持水庫形成、長期漁業監測及俗名漁業類群不能當成單一物種。網頁獨立表 1 未成功開啟，未以該表逐種核定。 |
+| S2 | [Gubiani 等：伊泰普魚類長重與長長關係（2025）](https://onlinelibrary.wiley.com/doi/10.1155/jai/6631571)。讀取方法、正文表 1、表 2；1987 年 3 月至 2024 年 7 月，水庫影響區 63 處職業漁業採集點。直接採用其列名的兩種兔脂鯉、條紋鯪脂鯉、密斑銀板魚、斑油鯰、南美伊林油鯰、盔喉鰭鯰、顆粒翼陶樂鯰、山斑低眼鯰、石首魚、狼牙脂鯉、大口小脂鯉、南美鴨嘴鯰、凱氏麗魚、鯉魚與尼羅口孵非鯽作為庫區漁獲依據；不聲稱每種都有 2024 年單年紀錄。補充檔憑證標本與逐點資料未下載，實裝前對接來源需保留這一限制。 |
+| S3 | [聖赫勒拿保護區周邊魚類調查](https://www.scielo.br/j/bn/a/MwFwZSDHBcBsvXLC88kCdgd/?lang=en)。2017 年 11 月至 2019 年 11 月季度採樣，讀取正文、表 2 與圖說；博奈直線脂鯉、狼牙脂鯉、鈍吻兔脂鯉、大鼻裂齒脂鯉、南美伊林油鯰與盔喉鰭鯰有當次沿岸紀錄。蝕齒斯坦達脂鯉與大口小脂鯉另有追述的 1987 年紀錄；前者另見 S8 的伊泰普憑證。本文所稱 *A. lacustris* 出版時沿用合併分類，不據此推定為現今狹義的湖麗脂鯉，也不逐尾改鑑定為高身麗脂鯉。保護區資料只作分布證據。 |
+| S4 | [Vanegas-Ríos 等（2019），*Moenkhausia bonita* 的地理變異與 *M. intermedia* 分布](https://doi.org/10.1590/1982-0224-20170123)。已讀摘要及分類說明：拉普拉塔流域部分舊 *M. intermedia* 為 *M. bonita*；不把 aff. intermedia 或整批舊紀錄自動改名。本稿以 S3 的 *M. bonita* 直接採集紀錄換掉原候選中間直線脂鯉，因此不再依賴 NAGA（2005）表格對欄。 |
+| S5 | [Spatiotemporal dynamics of larvae and juveniles… in Itaipu](https://www.scielo.br/j/bip/a/NCtvNRRkwPskWGRfP8NZXHQ/?lang=en)。讀取 species characteristics 段，明確說明當地舊稱 *H. edentatus* 後經修正為 *H. oremaculatus*，提供低眼鯰形態與濾食資料；另以 [2024 年上巴拉那外來魚清單](https://www.ni.bio.br/content/v22n1/1982-0224-2023-0066/1982-0224-ni-22-01-e230066.pdf)的對照列交叉核對。兩者是分類修正關係，不把兩個有效種當成學名同義。 |
+| S6 | [Mormul 等（2010）伊泰普水草調查](https://www.scielo.sa.cr/pdf/rbt/v58n4/a30v58n4.pdf)。2008 年巴西岸 235 站；已下載並讀原始 PDF，附錄 I 印刷第 1448 頁（PDF 第 12 頁）明列 *Pistia stratiotes*，Current（2008）與 Earlier（1995～1998）均有紀錄，也核對水蘊草、黑藻、布袋蓮。S3 的 *Pistia* sp. 不作種級依據；原表截圖留在 sources/plants2010-12.png。 |
+| S7 | [巴拉那州《Delícias do Paraná》](https://www.agricultura.pr.gov.br/sites/default/arquivos_restritos/files/documento/2021-11/livro_delicias_do_parana.pdf)，印刷第 78 頁（PDF 第 80 頁）Guaíra「Pintado na Telha」。已下載、讀文字並檢視原頁，核對魚塊、番茄、洋蔥、椰奶、香草、陶瓦與烤製做法；截圖 sources/recipes-80.png。[瓜伊拉官方旅遊頁](https://turismo.guaira.pr.gov.br/materiasintM/3822)補地方菜身分，[歐盟商品名](https://fish-commercial-names.ec.europa.eu/fish-names/species/pseudoplatystoma-corruscans_en)補 pintado 對應 *P. corruscans*，不延伸到雜交鯰。 |
+
+S8：[Ota 等（2018）上巴拉那魚類分類修訂](https://www.scielo.br/j/ni/a/tScwvm8JLhKnbxKjtBQLPBx/?lang=en)，DOI 10.1590/1982-0224-20170094。已保存全文並讀本批相關種級形態、圖說與修正表；補蝕齒斯坦達脂鯉、條紋鯪脂鯉、南美伊林油鯰、湖沼狼牙脂鯉、大口小脂鯉、南美鴨嘴鯰及斑油鯰的外形。圖 12 的 *S. insculpta* NUP 1424 明列 Itaipu Reservoir, Guaíra。斑油鯰採自身種級條目與圖 29a，不套用曾被錯鑑定為本種的 *P. mysteriosus* 圖片；其特徵為黃底、成行深褐斑及帶斑鰭。
+
+### 名稱與分類對照
+
+中文名優先採臺灣魚類資料庫《拉漢魚典》與農業知識入口網，同名欄只作中文名證據，不以其中較舊的科名或有效名欄取代近期分類研究。下列為已採用的名稱與種級資料；新補的形態、食性與分類修正以本節及文末查核結論為準。
+
+| 物種群 | 名稱與種級資料來源 |
+| --- | --- |
+| 高身麗脂鯉 | 改採高身麗脂鯉 *Astyanax altiparanae*；中文名見[拉漢魚典](https://fishdb.sinica.edu.tw/chi/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&me=&orderby=science&page=29&pz=100&vn=)。[Gavazzoni 等（2024）](https://journals.sagepub.com/doi/10.1089/zeb.2024.0132)以分子、染色體與形態資料支持恢復有效種，另核對 [Catalog of Fishes](https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=65839)。水庫分布直接採 [2012 年分子研究](https://www.geneticsmr.org/articles/mitochondrial-dloop-nucleotide-diversity-in-astyanax-osteichthyes-characidae-from-the-upper-paran-and-upper-paraguay-riv.pdf)圖 2 的 Itaipu／Entre Rios 採樣，不依 S3 舊合併名推定。形態見[染色體研究的物種描述](https://compcytogen.pensoft.net/article/1745/download/pdf/)；雜食見[Cassemiro 等（2002）](https://periodicos.uem.br/ojs/index.php/ActaSciBiolSci/article/download/2314/2282)，該研究地在 Salto Caxias，僅作食性依據。食用採 [Aquaculture（2017）種級養殖研究](https://repositorio.unesp.br/bitstreams/6bf65d0d-5167-491b-a29c-113ff323e228/download)，DOI 10.1016/j.aquaculture.2017.01.007，其導論明列本種用於人類食用與活餌。 |
+| 博奈直線脂鯉 | 改採博奈直線脂鯉 *Moenkhausia bonita*；中文名見[拉漢魚典](https://fishdb.sinica.edu.tw/eng/chinesequer2.php?R1=&T1=&cn=&dere=&fm=&gc=&orderby=science&page=397&pz=50&vn=)。S3 是水庫直接紀錄，S4 說明舊鑑定問題，S8 的本種條目提供暗色側帶與尾鰭末端暗邊。[Caldatto 等（2023）](https://www.scielo.br/j/bn/a/yNdhXpxMxnSHkWpfK4tvtXK/?format=pdf&lang=en)的 Formoso 七站胃內容研究支持無脊椎動物食性；不再沿用中間直線脂鯉的跳躍、體長或食用敘述。遊戲魚餌改為蚯蚓。 |
+| 蝕齒斯坦達脂鯉 | [拉漢魚典](https://fishdb.sinica.edu.tw/eng/chinesequer2.php?R1=&T1=&cn=&dere=&fm=&gc=&orderby=family_name&page=108&pz=100&vn=)；[FishBase](https://www.fishbase.se/summary/52540)；[食物清單](https://fishbase.se/TrophicEco/FoodItemsList.php?genus=Steindachnerina&species=insculpta&vstockcode=43699)。名稱中的「蝕齒」不拿來推導不存在的口器描述。 |
+| 大鼻裂齒脂鯉 | [拉漢魚典](https://fishdb.sinica.edu.tw/eng/chinesequer2.php?D1=&R1=&T1=&cn=&dere=asc&fm=&gc=&orderby=chinese_mainland&page=78&pz=100&vn=)；[GBIF 所載 Ota 等分類處理](https://www.gbif.org/zh/species/162245458)提供突出吻部、尾柄斑與銀黃體色。 |
+| 弗氏兔脂鯉 | [農業知識入口網](https://kmweb.moa.gov.tw/theme_data.php?id=35&theme=fish_illustration)提供中文名、別名與三斑形態；[FishBase](https://www.fishbase.se/summary/Leporinus-friderici.html)列漁業與養殖利用。 |
+| 鈍吻兔脂鯉 | [FishBase 俗名](https://fishbase.se/ComNames/23445)保留中文名，學名採 *Megaleporinus*；[阿根廷國家公園 SIB](https://sib.gob.ar/especies/megaleporinus-obtusidens)提供外形、食性與深水棲地；[烏拉圭自然史資料](https://cdf.montevideo.gub.uy/system/files/descargas_exposiciones/mnhn_eac-muestra_web.pdf)補食用。piapara 也指 *M. piavussu*，本批不收此當地名。 |
+| 條紋鯪脂鯉 | [拉漢魚典](https://fishdb.sinica.edu.tw/chi/chinesequer2.php?R1=&T1=&cn=&dere=&fm=&gc=&me=&orderby=family_name&page=1854&pz=15&vn=)；[FishBase](https://www.fishbase.se/summary/Prochilodus-lineatus.html)；[伊泰普漁業研究](https://citeseerx.ist.psu.edu/document?doi=e5ad0a8cf1da6b1fb71cbdf67bf9759111ecdf11&repid=rep1&type=pdf)表列有機物與附著生物食性。 |
+| 密斑銀板魚 | [臺灣魚類資料庫](https://fishdb.sinica.edu.tw/chi/import_already.php?R1=science&dere=desc&img=&key=&page=13&pz=100)；[FWS 風險資料](https://www.fws.gov/media/ecological-risk-screening-summary-metynnis-lippincottianus-fish-no-common-name-uncertain-risk)補原生分布；[Curiaú 研究](https://www.scielo.br/j/cr/a/GwSd4cGrYMCZqJd9TGYHjZS/?lang=en)補食性。S2 列本種，並非斑點銀板魚 *M. maculatus*。兩者不合併。 |
+| 斑油鯰 | [FishBase 俗名](https://www.fishbase.se/ComNames/CommonNamesList.php?GenusName=Pimelodus&ID=23451&SpeciesName=maculatus&StockCode=18631)；[阿根廷農漁主管機關](https://www.magyp.gob.ar/sitio/areas/pesca_continental/especies/bagre_amarillo.php)提供食性、食用與蚯蚓釣餌。mandi 是多種鯰魚泛稱，只採完整 mandi-amarelo；形態已補核 S8 本種條目與圖 29a。 |
+| 南美伊林油鯰 | [拉漢魚典](https://fishdb.sinica.edu.tw/chi/chinesequer2.php?R1=&T1=&cn=&dere=&fm=&gc=&me=&orderby=science&page=646&pz=25&vn=)；[Abes 等 2001](https://www.scielo.br/j/babt/a/Bqbx8jLRQthKwYskSZPBBHp/abstract/?lang=en)的水庫 306 尾胃內容研究支持食性與商業漁獲身分。 |
+| 盔喉鰭鯰 | [臺灣魚類資料庫](https://fishdb.sinica.edu.tw/chi/import_already.php?R1=purpose&dere=desc&img=&key=&page=9&pz=25)；[巴西環境部外來水生物資料](https://www.gov.br/mma/pt-br/assuntos/biodiversidade-e-biomas/biodiversidade1/aguas_continentais_final.pdf)提供形態與棲地；[聖赫勒拿食性研究](https://www.scielo.br/j/alb/a/9sG5w8C5YVnG3mtWCfw8dWR/?lang=en)支持陸生昆蟲食性。舊 *Parauchenipterus galeatus* 見 [NCBI 名稱對照](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=337678&mode=Info)。 |
+| 顆粒翼陶樂鯰 | 中文名見[拉漢魚典](https://fishdb.sinica.edu.tw/eng/chinesequer2.php?D1=&R1=&T1=&cn=&dere=asc&fm=&gc=&orderby=is_accepted_name&page=64&pz=200&vn=)；[阿根廷主管機關](https://www.magyp.gob.ar/sitio/areas/pesca_continental/especies/armado_comun.php?accion=imp)支持雜食與區域食用，[UEM 典藏的伊泰普食性研究](https://repositorio.uem.br/jspui/handle/1/5158?mode=full)支持雙殼貝、植物與藻類轉換；[FishBase](https://www.fishbase.se/summary/pterodoras-granulosus.html)仍提示部分不同水系種群待分類。本稿只採巴拉那種群，不寫亞馬遜棕櫚果食性。 |
+| 山斑低眼鯰 | [拉漢魚典](https://fishdb.sinica.edu.tw/eng/chinesequer2.php?D1=&R1=&T1=&cn=&dere=desc&fm=&gc=&orderby=family_ch&page=58&pz=500&vn=)提供中文名，S5 提供分類修正、形態與食性。 |
+| 巴西異鱗石首魚 | [FAO AGROVOC](https://agrovoc.review.fao.org/browse/agrovoc/zh/page/c_43156)提供中文名；[UFOPA 魚類資料](https://www.ufopa.edu.br/media/file/site/procce/documentos/2023/91b41a6725af925853318d870f2dfdc6.pdf)提供體色、棲地、食性與利用；聖赫勒拿食性研究見上列。 |
+| 狼牙脂鯉、兩種大型魚 | 狼牙脂鯉中文名見[拉漢魚典](https://fishdb.sinica.edu.tw/eng/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&orderby=family_name&page=2&pz=100&vn=)，形態已核 S8；S3 有採集憑證。大口小脂鯉中文名見 [拉漢魚典](https://fishdb.sinica.edu.tw/eng/chinesequer2.php?D1=&R1=&T1=&cn=&dere=asc&fm=&gc=&orderby=family_name&page=144&pz=50&vn=)，[FishBase](https://fishbase.mnhn.fr/summary/Salminus-brasiliensis.html)補分布體型，[食性頁](https://fishbase.se/Ecology/Salminus_brasiliensis)補攝食。南美鴨嘴鯰中文名見 [拉漢魚典](https://fishdb.sinica.edu.tw/eng/chinesequer2.php?D1=&R1=&T1=&cn=&dere=desc&fm=&gc=&orderby=family_ch&page=58&pz=500&vn=)，別名見 [FishBase 俗名](https://fishbase.se/ComNames/CommonNameSummary.php?autoctr=284074)，[摘要](https://www.fishbase.se/summary/Pseudoplatystoma_corruscans.html)補分布、食性與食用。兩種大型魚體色與鴨嘴鯰斑紋已補核 S8 的種級描述及圖說。 |
+| 凱氏麗魚 | [農業知識入口網](https://kmweb.moa.gov.tw/theme_data.php?id=11&theme=fish_illustration)提供名稱、別名與形態；[Itaipu 2023 年科學監測](https://www.itaipu.gov.py/noticias/medio-ambiente/division-de-embalse-de-itaipu-realizo-primer-monitoreo-icticola-del-ano-en-reservas-naturales)與 S2 提供種級庫區紀錄。tucunaré 泛指多種麗魚，不收。原生托坎廷斯—阿拉瓜亞水系與成魚食魚，已補核[2010 年種級胃內容研究](https://doi.org/10.1590/S1519-69842010000500017)，幼魚另有昆蟲、甲殼類食物。 |
+| 水蘊草 | [環境部水生植物資料](https://water.moenv.gov.tw/PureStream/zh-TW/Class_Plants.aspx)與[農業部水生植物手冊](https://kmweb.moa.gov.tw/redirect_files.php?id=9337)支持中文名、輪生葉、白色三瓣花、莖段繁殖與南美洲原產。水蘊草是 *Egeria densa*，既有伊樂藻是 *Elodea nuttallii*，不可共用 ID。 |
+
+地方名先核對來源中的學名對應，再排除明確同名異物。mandi-amarelo、pintado 與 pacu-caranha 保留既有來源；本輪發現 armado、dourado 亦跨種使用，因此 armado 改採 abotoado，dourado 從玩家欄移除。armado 與 *Pterodoras granulosus* 改以可開啟的 [IDRC《Migratory Fishes of South America》上巴拉那章](https://idrc-crdi.ca/sites/default/files/openebooks/114-0/index.html)本種條目補核，明列巴西名 armado／abotoado 及伊泰普漁業。原官方養殖手冊連結本輪開啟為 404，搜尋索引仍有對照，僅留作交叉線索，不聲稱讀過完整手冊。另已讀[巴拉圭國會圖書館魚類名稱表](https://www.bacn.gov.py/conoce-tu-ley/500/pesca-y-cr-a-de-peces)，只取其學名與名稱對照：斑油鯰 bagre amarillo、鏟吻油鯰 pico de pato、南美伊林油鯰 trompudo／juru pito（表中屬名誤排為 Leringichthys，按有效學名校正）。不把該舊頁的法規、尺寸與禁漁資訊寫入遊戲。新補名稱與仍排除的通稱詳見下列第二輪查核；未取得可採用對照者仍保留待查。
+
+### 六種追加魚與巴拉那名稱的來源補充（2026-10-25）
+
+本次新增細鱗肥脂鯉、多斑鋸脂鯉、亞馬遜河針牙脂鯉、南美鱗甲鯰、鏟吻油鯰及詹氏甲鰨。六種均已在 S2 正文表格找到學名，支持庫區種級漁獲；仍沿用該研究涵蓋 1987～2024 年、不可逐種聲稱 2024 年仍常見的限制。多斑鋸脂鯉、針牙脂鯉與鏟吻油鯰另有 S3 當次近岸採集紀錄。各來源查閱日同為 2026-10-25。
+
+| 項目 | 來源與採用方式 |
+| --- | --- |
+| 細鱗肥脂鯉 | 中文名與葡萄牙語 pacu-caranha 見 [FishBase 俗名表](https://www.fishbase.se/ComNames/CommonNamesList.php?GenusName=Piaractus&ID=55383&SpeciesName=mesopotamicus&StockCode=45873)；pacu 同指其他肥脂鯉，採較完整名稱。[FishBase 生物學](https://www.fishbase.se/summary/Piaractus-mesopotamicus.html)支持進入淹水森林吃堅果與種子；[阿根廷養殖主管機關報告](https://www.magyp.gob.ar/sitio/areas/acuicultura/zonificacion/_archivos//000000_Informe%20Corrientes.pdf)支持臼齒狀牙及偏植物性雜食；[UFGD 2024 年種級重描述學位論文摘要](https://repositorio.ufgd.edu.br/jspui/handle/prefix/6308)支持細鱗形態與巴拉那—巴拉圭—烏拉圭分布。只讀典藏摘要，未宣稱讀完論文。食用見[阿根廷食物資料](https://alimentosargentinos.magyp.gob.ar/HomeAlimentos/difusion-y-publicaciones/material/pescado.pdf)。 |
+| 多斑鋸脂鯉 | 中文名見[拉漢魚典](https://fishdb.sinica.edu.tw/chi/chinesequer2.php?%24dere=&D1=&R1=&T1=&key=&orderby=science&page=61&pz=500)；形態、來源水系及魚肉／魚鰭食性見巴西環境部《外來大陸水域物種》（前文盔喉鰭鯰所用官方 PDF，*S. marginatus* 條目），本次讀取[同書條目擷取](https://ecocidio.com.br/wp-content/uploads/2023/05/Especies-Exoticas-Invasoras-de-Aguas-Continentais-no-Brasil-2.pdf)。[聖赫勒拿食性研究](https://www.scielo.br/j/alb/a/9sG5w8C5YVnG3mtWCfw8dWR/?lang=en)補當地胃內容。它不是 *S. serrulatus*（銳齒鋸脂鯉），也不是 *S. maculatus*（斑鋸脂鯉）。 |
+| 亞馬遜河針牙脂鯉 | 中文名見[林業保育署物種名錄](https://conservation.forest.gov.tw/File.aspx?fno=74175)，僅作名稱對照；[世界銀行典藏《Migratory Fishes》上巴拉那章](https://documents1.worldbank.org/curated/pt/607691468753260624/pdf/29828011552510114100Migratory0fish.pdf)印刷第 56 頁支持伊泰普表層數公尺、夜間靠岸追獵、小魚食性與漁業利用；[ETYFish 分類語源資料](https://etyfish.org/ETYFish_Cynodontidae.pdf)連結原始描述並說明發達犬齒。中文名稱不作水系分布推論。 |
+| 南美鱗甲鯰 | 中文名改採[中研院拉漢魚典](https://fishdb.sinica.edu.tw/chi/chinesequer2.php?D1=&R1=&T1=&cn=&dere=asc&fm=&gc=&me=&orderby=is_accepted_name&page=24&pz=500&vn=)的「南美鱗甲鯰」，不沿用原稿的「南美銼鱗甲鯰」。[Ota 等 2018 分類處理（Plazi）](https://tb.plazi.org/GgServer/html/038941033817FFB9FF42FA29282407C9)支持骨板、下位口、深灰無斑與分布；[Delariva、Agostinho 2001 原始研究摘要](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1095-8649.2001.tb00534.x)支持吸食細碎有機物。該食性研究的採樣地在水庫上游，僅用作物種食性，水庫分布另由 S2 支持。[2016 年原始研究](https://www.sciencedirect.com/science/article/pii/S1870345316300057)支持流水硬底棲地及漁業利用，正文採一般個體形態，不採白化特例。 |
+| 鏟吻油鯰 | 中文名見[臺灣魚類資料庫](https://fishdb.sinica.edu.tw/chi/import_forbidden.php?R1=family_c&dere=&img=&key=&page=2&pz=12)與[FishBase 俗名](https://nrm-fishbaselinux01.nrm.se/ComNames/12144)，只作名稱資料，不將輸入清單轉成遊戲限制。[Littmann 2007，Zootaxa 1422 原始分類修訂](https://mapress.com/zt/article/download/zootaxa.1422.1.1/26525/27574)提供鏟狀上頜、側線長帶、種級分布及食用交易；[FishBase 生物學](https://www.fishbase.se/summary/Sorubim-lima.html)支持成魚成群、夜行、吃魚與甲殼類。 |
+| 詹氏甲鰨 | 中文名見[GBIF／Catalogue of Life](https://www.gbif.org/taxon/RTBD)；臺灣輸入紀錄的 cf. jenynsii 只是近似鑑定，不拿來證明本種形態。[巴西 IMASUL《Peixes do Pantanal e Entorno》種級條目](https://www.imasul.ms.gov.br/wp-content/uploads/2022/11/Montagem-livro-Peixes-VERSAO-FINAL-MARCO-2022-ISBN97865-81066-05-5-ONLINE_FINAL-1.pdf)支持右眼側、橢圓扁平體形、深褐條斑與左側貼底；[烏拉圭主管機關《Peces de Uruguay》](https://www.gub.uy/ministerio-ganaderia-agricultura-pesca/sites/ministerio-ganaderia-agricultura-pesca/files/documentos/publicaciones/10_-_peces_de_uruguay_2011.pdf)印刷第 162 頁支持淡水、半埋沙泥、伏擊小魚與零星食用。不將舊書的未評估狀態當成現今保育等級。 |
+| 巴拉那名稱 | [巴拉那州 IAT 典藏《Origens e significados dos nomes dos municípios paranaenses》](https://www.iat.pr.gov.br/sites/agua-terra/arquivos_restritos/files/documento/2020-07/origens_significados_nomes_municipios_pr.pdf)「A origem do nome Paraná」解作 pará（海）＋anã（相像），意為像海的大河；[阿根廷波薩達斯市政府](https://dev.posadas.gov.ar/ciudad)的河流象徵說明採 pariente del mar（海的親族）。玩家知識使用兩種常見譯法，不把其中一種說成唯一逐字譯義。 |
+
+追加魚的資料 ID 依序為 mesopotamicus、marginatus、rhaphiodon、rhinelepis、sorubim、jenynsii，均已在 0.29 基準查核無撞名。它們只增加收集與出售；本批無新增賞金、專用菜或通用料理材料。六種皆沿用發現後才揭露姓名、圖片與搜尋結果的規則；詹氏甲鰨配圖需呈現兩眼在右側的扁平魚體，不能沿用一般魚類側視姿態。
+
+### 第二輪食用與地方名查核（2026-10-25）
+
+本輪使用葡萄牙語 consumo／consumo humano／alimentação humana／comestível／comercialização，以及英文 human consumption／food fish，連同學名與種級俗名查找，並排除魚自己吃什麼的胃內容研究。用途結論分為明確食用、食用相關研究、綜合記載及其他用途；不把商業漁獲、無害或某個近緣種可食用直接當成證據。原始 PDF、文字擷取與核對頁圖保存在 work/itaipu-review-20261025/sources/。
+
+| 物種 | 新證據及採用結論 |
+| --- | --- |
+| 密斑銀板魚 | [ICMBio《Flona do Amana 管理計畫》診斷卷](https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/flona-do-amana/arquivos/pm_amana_vol1_diagnostico_p2.pdf)，印刷第 5.104 頁（該分冊 PDF 第 104 頁），「Espécies de Interesse Econômico e Cultural」明列 *Metynnis lippincottianus* 為供當地居民食用的魚，已下載並檢視原頁。確認有食用紀錄，但地點在 Amana，不是伊泰普地方菜。 |
+| 湖沼狼牙脂鯉 | [Nascimento 等（2023），ABRHidro 完整論文](https://files.abrhidro.org.br/Eventos/Trabalhos/206/XV-ENREHSE0038-1-20230304-074725.pdf)，第 1～4 頁明列 *Acestrorhynchus lacustris*，以 2021～2022 年下聖弗朗西斯科的 59 尾樣本討論人類食用；另核對 [ICMBio Ipanema 管理計畫（2016）](https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/flona-de-ipanema/documentos/pm_flona_de_ipanema_vol_i_diagnostico.pdf)第 143 頁的區域食用、遊釣綜合記載。可寫有種級人類食用研究，不寫成伊泰普常見菜，也不把一次汞檢測外推為任何地方、時間都適合食用。 |
+| 蝕齒斯坦達脂鯉 | Ipanema 同頁明列 *S. insculpta* 與其他魚，接著合述居民用作食用及遊釣；已下載並查看原頁，但沒有逐種分開記錄用途，故補為「有綜合記載、單種食用未詳」，不直接升為明確食用。既有種級研究記錄餌魚利用。外地舊記錄另須排除曾被混鑑定的 *S. nigrotaenia*，分類依[2019 年重描述](https://www.scielo.br/j/ni/a/ZC6RLcyf7vHtSRQK3FWntGG/)。 |
+| 博奈直線脂鯉 | [IMASUL《Peixes do Pantanal e Entorno》](https://www.imasul.ms.gov.br/wp-content/uploads/2022/11/Montagem-livro-Peixes-VERSAO-FINAL-MARCO-2022-ISBN97865-81066-05-5-ONLINE_FINAL-1.pdf)印刷第 150～151 頁明列「espécie com potencial ornamental」。[巴拉圭 Paracel 環境基線原始報告](https://paracel.com.py/wp-content/uploads/2022/05/02.3_Volumen-II_Libro-III-Linea-de-Base-Socioeconomica.pdf)印刷第 139 頁將本種勾在 Ornamental 欄，Subsistencia／Comercial 留白；本輪讀搜尋索引的表格擷取，未冒稱下載原頁。這些支持觀賞用途，留白不能證明無人食用；仍未確認食用，不以 lambari 泛稱的炸魚料理替代證據。 |
+
+巴西地方名新增以[巴拉那州《Diário Oficial》2024-06-05 第 11673 號](https://crbio07.gov.br/wp-content/uploads/2024/06/doe_ex_2024-06-05-lista-especies-ameacadas-fauna.pdf)的學名—俗名欄為主要對照，已下載全文、逐種讀表；只取名稱，不將舊版地方保育評估當成目前全球狀態。物種完整對應仍須同時排除同表中明顯同名異物，因此不是所有表列俗名都收。
+
+| 魚種 | 本輪採用的巴西葡萄牙語名 | 核對位置或補充來源 |
+| --- | --- | --- |
+| 博奈直線脂鯉 | lambari-de-cauda-listrada | 州公報第 104 頁；[2026 年 Maringá 原始魚類調查](https://actalb.org/article/10.1590/S2179-975X7025/pdf/alb-38-e4.pdf)第 6 頁再次對應；不使用 lambari 泛稱。 |
+| 蝕齒斯坦達脂鯉 | saguiru-do-rabo-amarelo | [2013 年原始種級研究](https://scielo.br/j/rbpv/a/87dHJTxtCpj4SjDwM7MngvJ/?ilang=en&lang=en)導論明列；不用涵蓋 *Cyphocharax* 及多種 *Steindachnerina* 的 saguiru。 |
+| 大鼻裂齒脂鯉 | taguara | 州公報種級列。 |
+| 弗氏兔脂鯉 | araçu-cabeça-gorda | 州公報種級列。 |
+| 密斑銀板魚 | pacu-marreca | 州公報第 104 頁；同表的 *M. maculatus* 列 pacu，兩者區別處理。 |
+| 南美伊林油鯰 | mandi-boca | 州公報第 102 頁，與 *I. syi* 的 mandi-beiçudo 分開；保留先前已核的巴拉圭名稱。 |
+| 盔喉鰭鯰 | anujá | 州公報第 110 頁，對應現行 *Trachelyopterus galeatus*。 |
+| 巴西異鱗石首魚 | pescada-do-piauí | [巴西環境部種級資料](https://www.gov.br/mma/pt-br/assuntos/biodiversidade-e-biomas/biodiversidade1/especies-exoticas-invasoras/aguas_continentais_final_vdefeso.pdf)印刷第 485 頁；另有[漁業研究所種級原始研究](https://institutodepesca.org/index.php/bip/pt_BR/article/view/23_213-216)。不使用 corvina 泛稱。 |
+| 亞馬遜河針牙脂鯉 | chafalote | 州公報第 107 頁，直接對應 *Rhaphiodon vulpinus*。 |
+| 南美鱗甲鯰 | acari-roncador | 州公報第 107 頁，直接對應 *Rhinelepis aspera*。 |
+| 鏟吻油鯰 | surubim-bico-de-pato | 州公報第 109 頁；保留先前核對的巴拉圭西班牙語 pico de pato。 |
+
+仍未收地方名的魚已逐種查過：大口小脂鯉的 dourado 在州公報也給 *Salminus hilarii*，故撤回先前採用；顆粒翼陶樂鯰的 armado 在同表也給 *Trachydoras paraguayensis*，故改採同表及 IDRC 明確對應的 abotoado。高身麗脂鯉的 lambari-do-rabo-amarelo 也出現在狹義湖麗脂鯉與其他脂鯉名錄，且涉及新舊分類；鈍吻兔脂鯉的 piapara、條紋鯪脂鯉的 corimbatá、山斑低眼鯰的 mapará、湖沼狼牙脂鯉的 peixe-cachorro、凱氏麗魚的 tucunaré／tucunaré-amarelo、多斑鋸脂鯉的 piranha／catirina、詹氏甲鰨的 linguado 均有跨種或來源衝突，不用這些稱呼填入空欄。州公報同時把 catirina 給 *S. maculatus* 與 *S. marginatus*，是明確排除例；*Cichla kelberi* 的 tucunaré-amarelo 雖見[UFV 動物博物館](https://museudezoologia.ufv.br/edicao-20-junho-de-2010/)，[Hórus 原始風險名錄](https://institutohorus.org.br/analise-de-risco-para-especies-exoticas/analise-de-risco-para-peixes-exoticos/)卻把同名給 *C. monoculus*，本批先不採用。兩種共用魚的 carpa／tilápia 同樣保留排除，不能因有學名對照就宣稱通稱只有一種意思。先前核定的地方名仍限定於其來源的地域及物種語境，不視為全南美洲通用的唯一名稱。
+
+植物另補：水蘊草的巴西葡萄牙語 elodea brasileira 見[USP 水草調查冊](https://ecologia.ib.usp.br/portal/dmdocuments/Revista_Projeto_Ypora_macrofitas.pdf)印刷第 30 頁；大萍的 alface-d’água 見[UFRJ 國家博物館植物資料](https://museunacional.ufrj.br/hortobotanico/aquaticas/pistiastratiotes.html)。布袋蓮的 aguapé 雖見[UFRJ 種級條目](https://www.museunacional.ufrj.br/hortobotanico/aquaticas/eichhorniacrassipes.html)，仍是可跨種的水草俗稱，本批不收；黑藻查到的 hidrila 來源是墨西哥西班牙語，不能當成伊泰普的巴西／巴拉圭當地名。上述植物名只補對照，不改草池、收集數與收益。
+
+
+
+### 實裝設定
+
+自製瓦烤鴨嘴鯰：只耗南美鴨嘴鯰 1 尾與調味料 20 元，收竿時間縮短 8%、100 竿；餐廳同菜 90 元、同效果與竿數。這是本批明確核定的逐道設定，不由料理標籤重新套用既有價格或竿數。沿用存檔格式 7，舊存檔不自動取得新水域許可證。兩種食用證據未定的魚 edible 為 null，cookable 僅南美鴨嘴鯰為 true；其餘新魚不自動加入通用料理。
+
+
+### 本批採用物種
+
+- 高身麗脂鯉（Astyanax altiparanae）：https://www.geneticsmr.org/articles/mitochondrial-dloop-nucleotide-diversity-in-astyanax-osteichthyes-characidae-from-the-upper-paran-and-upper-paraguay-riv.pdf
+- 博奈直線脂鯉（Moenkhausia bonita）：https://www.scielo.br/j/bn/a/MwFwZSDHBcBsvXLC88kCdgd/?lang=en
+- 蝕齒斯坦達脂鯉（Steindachnerina insculpta）：https://www.scielo.br/j/bn/a/MwFwZSDHBcBsvXLC88kCdgd/?lang=en
+- 大鼻裂齒脂鯉（Schizodon nasutus）：https://www.scielo.br/j/bn/a/MwFwZSDHBcBsvXLC88kCdgd/?lang=en
+- 弗氏兔脂鯉（Leporinus friderici）：https://onlinelibrary.wiley.com/doi/10.1155/jai/6631571
+- 鈍吻兔脂鯉（Megaleporinus obtusidens）：https://onlinelibrary.wiley.com/doi/10.1155/jai/6631571
+- 條紋鯪脂鯉（Prochilodus lineatus）：https://onlinelibrary.wiley.com/doi/10.1155/jai/6631571
+- 密斑銀板魚（Metynnis lippincottianus）：https://onlinelibrary.wiley.com/doi/10.1155/jai/6631571
+- 斑油鯰（Pimelodus maculatus）：https://onlinelibrary.wiley.com/doi/10.1155/jai/6631571
+- 南美伊林油鯰（Iheringichthys labrosus）：https://www.scielo.br/j/bn/a/MwFwZSDHBcBsvXLC88kCdgd/?lang=en
+- 盔喉鰭鯰（Trachelyopterus galeatus）：https://www.scielo.br/j/bn/a/MwFwZSDHBcBsvXLC88kCdgd/?lang=en
+- 顆粒翼陶樂鯰（Pterodoras granulosus）：https://onlinelibrary.wiley.com/doi/10.1155/jai/6631571
+- 山斑低眼鯰（Hypophthalmus oremaculatus）：https://onlinelibrary.wiley.com/doi/10.1155/jai/6631571
+- 巴西異鱗石首魚（Plagioscion squamosissimus）：https://onlinelibrary.wiley.com/doi/10.1155/jai/6631571
+- 湖沼狼牙脂鯉（Acestrorhynchus lacustris）：https://www.scielo.br/j/bn/a/MwFwZSDHBcBsvXLC88kCdgd/?lang=en
+- 大口小脂鯉（Salminus brasiliensis）：https://onlinelibrary.wiley.com/doi/10.1155/jai/6631571
+- 南美鴨嘴鯰（Pseudoplatystoma corruscans）：https://onlinelibrary.wiley.com/doi/10.1155/jai/6631571
+- 凱氏麗魚（Cichla kelberi）：https://onlinelibrary.wiley.com/doi/10.1155/jai/6631571
+- 細鱗肥脂鯉（Piaractus mesopotamicus）：https://onlinelibrary.wiley.com/doi/10.1155/jai/6631571
+- 多斑鋸脂鯉（Serrasalmus marginatus）：https://onlinelibrary.wiley.com/doi/10.1155/jai/6631571
+- 亞馬遜河針牙脂鯉（Rhaphiodon vulpinus）：https://onlinelibrary.wiley.com/doi/10.1155/jai/6631571
+- 南美鱗甲鯰（Rhinelepis aspera）：https://onlinelibrary.wiley.com/doi/10.1155/jai/6631571
+- 鏟吻油鯰（Sorubim lima）：https://onlinelibrary.wiley.com/doi/10.1155/jai/6631571
+- 詹氏甲鰨（Catathyridium jenynsii）：https://onlinelibrary.wiley.com/doi/10.1155/jai/6631571
+- 水蘊草（Egeria densa）；圖像清單見 assets/itaipu30-art-manifest.json。
+
+
+## 0.30 同版補魚：馬當 4 魚、伊利湖 2 魚
+
+# 六魚補足的正式來源與設定（2026-10-25）
+
+本批來源稿以 0.29 為基準，作者於本次指定同版併入 0.30；實裝前實際基準已為 354 魚、438 種總收集，新增後為 360 魚、444 種。水域維持 27 處、起點 10 處、動物 39 種、植物 45 種，自製料理 89 道、餐廳菜 65 道。只增加馬當 4 魚、伊利湖 2 魚，無新水域、賞金、專用菜或存檔版本。
+
+## 採樣、名稱與分類
+
+- 馬當 4 魚分布：Zuraini 等（2026），[Species composition and size distribution of the tropical estuarine fishes in Matang Mangrove Forest Reserve](https://smujo.id/biodiv/article/download/23368/9368/1214121)，正文與表 3（PDF 第 6 頁）。Paramugil parmatus、Hexanematichthys sagor、Osteogeneiosus militaris、Pennahia aneus 均有直接採樣；表中 Hexanetimatichthys 是拼字變體，依正文與現行分類採 Hexanematichthys。樣本比例不作遊戲權重，採樣尺寸也不等於物種全球最大尺寸。
+- 伊利湖 2 魚分布：[Pennsylvania Fish & Boat Commission，Presque Isle Bay 2025](https://www.pa.gov/content/dam/copapwp-pagov/en/fishandboat/documents/fishing/where-to-fish/biologist-reports/1xpresqueislebay-2025panfishblackbass.pdf)，表 1 黑斑刺蓋太陽魚 71 尾、表 2 眼斑雀鱔 106 尾。此為伊利湖附屬普雷斯克島灣，不是遊戲示意座標的現場調查；水域卡片補明涵蓋近岸及附屬湖灣。
+- 中文名沿作者審閱稿所查臺灣魚類資料庫與同學名對照：盾副鯔（別名寡鱗鮻）、細尾六絲鯰、骨頰海鯰（別名骨舌海鯰）、截尾白姑魚、黑斑刺蓋太陽魚、眼斑雀鱔（別名斑點雀鱔）。轉為本專案繁體；皆為新增學名，不與既有白姑魚 Pennahia argentata、白刺蓋太陽魚 Pomoxis annularis、骨雀鱔 Lepisosteus osseus 合併。
+- 截尾白姑魚採 **Pennahia aneus**，保留 Pennahia anea 作搜尋對照。與稿件建議不同之處有直接分類依據：[Kottelat（2013），印刷第 356 頁／PDF 第 358 頁](https://lkcnhm.nus.edu.sg/app/uploads/2017/04/rbz_S27.pdf)說明 aneus 為名稱而非須配合屬名變性的形容詞；[Catalog of Fishes 的原種條目](https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=36581)搜尋索引亦列目前 Pennahia aneus，但原站直讀遇 403，未冒稱讀過完整頁。[NCBI](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=435129)與新加坡原始分類文獻交叉核對。舊 FAO、臺灣與日本博物館仍使用 anea，屬同一物種的拼法差異。
+- 細尾六絲鯰依[Marceniuk 等，海鯰科新分類](https://academic.oup.com/zoolinnean/article/200/2/426/7246615)直接列 Hexanematichthys sagor，保留屬名，不將其他曾置於同屬的種混入。
+
+## 生態、外形及食用
+
+- 盾副鯔：[日本國立科學博物館種級圖鑑](https://www.kahaku.go.jp/research/db/zoology/Fishes_of_Andaman_Sea/contents/mugilidae/07.html)支持體高、寬扁頭、兩個分離背鰭、微凹尾緣、銀色與淡暗縱線，並列海岸與河口棲地及約 30cm；[孟加拉森林局收錄的紅皮書](https://sufal.bforest.gov.bd/redlist/wp-content/uploads/2023/03/Volume-5-Freshwater-Fishes-Full-Book.pdf)的 Paramugil parmata 舊拼名條目支持濾取底層碎屑。[沙烏地食品藥物管理局海產核准清單](https://www.sfda.gov.sa/sites/default/files/2021-08/Bangladesh-fish_0.pdf)列其食用海產交易。後者只作食用利用依據，不作馬當分布或當前貿易資格聲明。
+- 細尾六絲鯰：[FAO，印刷第 1862 頁](https://www.fao.org/4/x2401e/x2401e35.pdf)支持粗紋頭盾、扁帶狀長鬚、背胸硬棘、藍褐背／白腹、深叉尾與河口環境。[霹靂河原始食用魚研究](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0241320&type=printable)支持無脊椎動物及小魚的食性與人類食用利用；不把特定年份污染採樣外推為現時食用安全保證。
+- 骨頰海鯰：[FAO 種級表第 7～8 頁](https://www.fao.org/4/ad468e/AD468eAW.pdf)支持只一對硬質長頜鬚、沒有頦鬚、光滑扁頭、暗藍背與白腹，並有鮮魚上市利用。[Deo 等（2010）原始研究摘要](https://epubs.icar.org.in/index.php/JIFA/article/view/56387)支持底棲無脊椎動物與小魚食性；另一水域研究的食物比例不可說成馬當比例。
+- 截尾白姑魚：[臺灣魚類資料庫](https://fishdb.sinica.edu.tw/taxon/382479-fishdb)及[日本國立科學博物館](https://www.kahaku.go.jp/research/db/zoology/Fishes_of_Andaman_Sea/contents/sciaenidae/06.html)支持斜口、大眼、無頦鬚、近截形尾、沿岸砂泥底與食小甲殼類及小魚；[FAO 印刷第 3168 頁](https://www.fao.org/4/y0770e/y0770e38.pdf)明列鮮食與乾鹹上市。[Gandhi 的種級胃內容研究](https://epubs.icar.org.in/index.php/IJF/article/view/11888)支持魚、蝦及其他甲殼類。新增到既有通用煎、蒸、烤，不新增地方菜或改動效果。
+- 黑斑刺蓋太陽魚：[密蘇里州保育部的兩種刺蓋太陽魚辨識](https://mdc.mo.gov/sites/default/files/2025-04/Managing%20Crappie%20in%20Small%20Impoundments%202025.pdf)支持不規則暗斑及 7～8 枚背鰭棘，對照白種的橫帶與較少硬棘；[佛州魚類與野生動物委員會](https://myfwc.com/wildlifehabitats/profiles/freshwater/black-crappie/)支持對稱的大背／臀鰭、湖泊與慢流、水生昆蟲／甲殼類／小魚食性及食用用途。不加夜間限定。
+- 眼斑雀鱔：[密蘇里州保育部種級圖鑑](https://mdc.mo.gov/discover-nature/field-guide/spotted-gar)與[安大略政府](https://www.ontario.ca/page/spotted-gar)支持較短寬吻、頭與各鰭的圓斑、菱形硬鱗、水草豐富的清緩水及小魚食性；魚肉偶供食用、卵有毒，本作不作料理。安大略的地方法定等級不套用為全球 IUCN 評估，也不推成遊戲賞金或現實垂釣指引。
+
+## 當地名稱
+
+馬來西亞漁業部 [Valid Local Name of Malaysian Marine Fishes](https://repository.seafdec.org.my/bitstream/handle/20.500.12561/1010/Valid%20Local%20Name%20of%20Malaysia%20Marine%20Fishes_DOF_2.pdf?isAllowed=y&sequence=1)的種級 (V) 對照採 Belanak mulut lebar、Duri pedukang、Duri muncung；[海魚辨識手冊](https://repository.seafdec.org.my/bitstream/handle/20.500.12561/319/Panduan_Mengenali_Spesies_Ikan_Marin_pdf.pdf?sequence=3)採 Gelama pisang。原檔直讀逾時，本次讀取可索引的原表擷取，未聲稱已逐頁下載；排除跨種泛稱 Belanak、Duri。伊利湖兩種的英語名 black crappie、spotted gar 依採樣報告及官方種級資料，均只在發現後圖鑑顯示。
+
+## 遊戲設定與採用差異
+
+重量、售價、魚餌、釣竿與權重皆為遊戲設定：盾副鯔 .02～.5kg／42 元／麵團／Lv.1，細尾六絲鯰 .1～1.5kg／48 元／蚯蚓／Lv.1，骨頰海鯰 .05～.8kg／48 元／蝦肉／Lv.1，截尾白姑魚 .03～.8kg／42 元／蝦肉／Lv.1，黑斑刺蓋太陽魚 .08～1.2kg／45 元／小魚／Lv.1，眼斑雀鱔 .3～4.5kg／54 元／小魚／Lv.5。比照綠背鮻 45、斑海鯰 48、白刺蓋太陽魚 45、骨雀鱔 54 的現價與體型壓縮尺度。六魚 edible 為 true，僅截尾白姑魚 cookable 為 true；其他食用魚本批仍只供收集及出售。
+
+兩池採原稿完整權重表，各合計 100，保留全部舊魚。魚池權重不是野外比例或每竿機率。全球六魚追加在現版末端，穩定 ID 為 shieldmullet、sagorcatfish、soldiercatfish、donkeycroaker、blackcrappie、spottedgar；舊物種順序與存檔格式 7 不變。經濟、材料機會成本、舊魚與全池收集時間另見本批實際測試紀錄。
+
+
+本輪料理適用範圍：截尾白姑魚按既有白姑魚 42 元與 .8kg 尺度設定，接入通用煎、蒸、烤；炸魚沿用小魚不超過 .5kg 的既有範圍，不納入。初始試算以 .5kg／45 元開放炸魚時，馬當初期裝備部分付費魚餌即使吃滿效果仍不抵魚材與佐料，因此不為增加料理入口而放寬既有適用規則或延長全體炸魚效果。新魚參數依最終資料與本輪測試為準。

@@ -19,3 +19,5 @@ window.WORLD_WATER.local.push({k:"lake",z:3,n:"塔爾湖",src:"遊戲釣點概�
 window.WORLD_WATER.local.push({k:"lake",z:3,n:"伊利湖",src:"遊戲釣點概略位置",g:[],l:[-82.45,41.8]},{k:"sea",z:6,n:"莫頓灣",src:"遊戲釣點概略位置",g:[],l:[153.25,-27.3]});
 
 window.WORLD_WATER.local.push({k:"lake",z:5,n:"維多利亞湖",src:"遊戲釣點概略位置",g:[],l:[34.74,-0.14]});
+
+window.WORLD_WATER.local.push({k:"lake",z:5,n:"伊泰普水庫",src:"遊戲釣點概略位置",g:[],l:[-54.40,-24.85]});
