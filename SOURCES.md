@@ -1,4 +1,4 @@
-# 四海釣遊記 0.25：資料來源
+# 四海釣遊記 0.27：資料來源
 
 查閱日期：2026-10-21。魚類文字為依資料重寫的簡介，沒有使用來源照片或大段原文。魚類資料不等於遊戲機率、價格與現實賞金政策。
 
@@ -396,7 +396,7 @@ Natural Earth [1:50m Land](https://www.naturalearthdata.com/downloads/50m-physic
 - 墾丁：[106 年度墾丁海域垂釣魚類資源量監測調查](https://mpa.oca.gov.tw/Files/Knowledge/cdc47203a5ab401184a7764e06266d15.pdf) 表七、表八：五帶錦魚 471、鯔形湯鯉 267、褐臭肚魚 200、翼䱵 153（表八另計 126）、銀鱗鯧 120、多帶海緋鯉 103 尾。
 - 吐露港：Nip 與 Wong（2010），[Zoological Studies 49(6)](https://zoolstud.sinica.edu.tw/Journals/49.6/760.pdf) 表三吐露港兩站：Konosirus punctatus（排名 3）、Liza affinis（4）、Gerres oyena（5）、Gerres filamentosus（9）、Takifugu niphobles（18）、Liza macrolepis（23），皆為幼魚紀錄。
 - 博登湖：GBIF 範圍 47.45～47.85° N、8.9～9.8° E（含周邊河川）：Rutilus rutilus 242、Tinca tinca 308、Lota lota 162、Sander lucioperca 93、Salvelinus umbla 23 筆；紅點鮭 2008 年職業漁獲約 13 噸，依 [schule-bw ab23](https://www.schule-bw.de/faecher-und-schularten/gesellschaftswissenschaftliche-und-philosophische-faecher/landeskunde-landesgeschichte/module/epochen/umweltgeschichte/bodensee/ab23.pdf) 所轉載的 IBKF 統計。
-- 格賴夫斯瓦爾德潟湖：GBIF 範圍 54.08～54.32° N、13.3～13.85° E：Rutilus rutilus 18、Abramis brama 10、Salmo trutta 4 筆；大西洋鱈 0 筆，不收。
+- 格賴夫斯瓦爾德潟湖：GBIF 範圍 54.08～54.32° N、13.3～13.85° E：Rutilus rutilus 18、Abramis brama 10、Salmo trutta 4 筆；大西洋鱈 0 筆，當時不收；0.27 B2 改依 LALLF 2001 分區統計與 Bochert & Winkler 名錄收錄，見文末「0.27 博登湖、格賴夫斯瓦爾德潟湖補魚」。
 - 俗名：[中文維基百科](https://zh.wikipedia.org/) 各條目所列俗名——五帶錦魚（四齒、青花龍、貓仔魚）、鯔形湯鯉（銀湯鯉、花尾、烏尾冬仔）、翼䱵（短嘴格、低眶鷹斑鯛；短嘴格為臺灣物種名錄用名）、多帶副緋鯉（秋姑、老爺、鬚哥）、斑鰶（扁屏仔、油魚、海鯽仔）、長棘銀鱸（曳絲鑽嘴魚、碗米仔）。
 - 德語名：Seesaibling、Rotauge、Plötze、Schleie、Trüsche、Quappe、Meerforelle，依[德文維基百科](https://de.wikipedia.org/)「Seesaibling」「Rotauge」「Schleie」「Quappe」（博登湖稱 Trüsche）、「Meerforelle」各條目。
 - 讀音：䱵 ㄨㄥ／wēng（[hanzifinder U+4C75](https://hanzifinder.com/en/char/%E4%B1%B5)）；鮒、鮈、鮰、鱥、鱈、鰟、鮍、鯝、鱊依一般字典讀音。
@@ -982,3 +982,268 @@ FishBase、臺灣魚類資料庫（人機驗證）與 TBN（403）本次無法�
 ### 配圖
 
 27 組圖由另一個對話以內建 imagegen 製作（work/expansion26-art/），18 種魚與 7 道料理在 sprites16/，2 種小龍蝦在 assets/；餐廳同名菜共用自製菜圖，洪澤湖清蒸大閘蟹沿用 taihu-steamed-crab。尺寸與檔案大小見 assets/expand26-art-manifest.json。三刺魚與細條銀口天竺鯛已於同版換成重畫圖。
+
+## 0.27 東南亞：塔爾湖、馬當紅樹林
+
+依根目錄《東南亞釣點審閱稿.md》實裝，作者核定時將塔爾湖改為一級釣點（150 元、圖鑑 8 種魚，可選為起點），馬當紅樹林維持五級（20,000 元、圖鑑 120 種魚）。查閱日期均為 2026-10-24。魚池權重、重量、價格、賞金、許可證與料理效果是遊戲設定；來源中的採樣數量、季節、受威脅等級與封閉漁期不直接當成遊戲機率或規則，菲律賓小沙丁魚全年可遇。兩處地圖標記為遊戲示意位置；塔爾湖輪廓取自 [Natural Earth 1:10m lakes](https://github.com/nvkelso/natural-earth-vector/blob/v5.1.2/geojson/ne_10m_lakes.geojson)（v5.1.2，Lake Taal，scalerank 9，公共領域），原始檔與擷取結果存於 work/ne-lakes27/；該比例尺輪廓較粗略，未手繪修改。馬當紅樹林只加名稱標籤，海岸沿用既有陸地資料。
+
+### 新物種
+
+| 物種 | 學名 | 水域與依據 |
+| --- | --- | --- |
+| 菲律賓小沙丁魚 | Sardinella tawilis | 塔爾湖（T1、T3、F1）；酥炸塔威利沙丁魚（C1） |
+| 黑頦帚齒非鯽 | Sarotherodon melanotheron | 塔爾湖引入族群（T1、F2）；中文主名暫依中文物種條目，待核可靠名錄 |
+| 小眼雙邊魚 | Ambassis miops | 塔爾湖（T1、F3）；食用資料待查，edible 留空、不作料理 |
+| 鉛色勻鯻 | Leiopotherapon plumbeus | 塔爾湖（T1、F4） |
+| 馬尼拉海鯰 | Arius manillensis | 塔爾湖引入（T1、F5）；中文主名待核可靠名錄 |
+| 浪人鰺 | Caranx ignobilis | 塔爾湖 maliputo（T1、F6）；浪人鰺酸湯（C2） |
+| 射水魚 | Toxotes jaculatrix | 馬當（M2、F7、N1）；可食用，不作料理 |
+| 七星射水魚 | Toxotes chatareus | 馬當（M2、F8、N1）；可食用，不作料理 |
+| 尖吻鱸 | Lates calcarifer | 馬當（M1、F9、N2）；三味尖吻鱸（C3） |
+| 四指馬鮁 | Eleutheronema tetradactylum | 馬當（M1、F10） |
+| 赤鼻稜鯷 | Thryssa kammalensis | 馬當（M1、F11、N3）；可食用，不作料理 |
+| 斑海鯰 | Arius maculatus | 馬當（M1、F12） |
+| 長鰳 | Ilisha elongata | 馬當（M1、F13） |
+| 無齒鰶 | Anodontostoma chacunda | 馬當（M1、F14） |
+| 葉鯡 | Escualosa thoracata | 馬當（M1、F15） |
+| 墨吉對蝦 | Penaeus merguiensis | 馬當（M3、F16）；Fenneropenaeus merguiensis 為同物異名 |
+| 欖綠青蟳 | Scylla olivacea | 馬當（M4、F17） |
+| 正紅樹 | Rhizophora apiculata | 馬當（P2、P3）；採集物為漂落枝葉 |
+| 紅茄冬 | Rhizophora mucronata | 馬當（P2、P3）；不混用紅海欖（R. stylosa）之名 |
+
+沿用物種：虱目魚、尼羅口孵非鯽、紅魔麗體魚、叉舌鰕虎、珍珠石斑、厚唇雙冠麗魚見於塔爾湖（T1、T4），菲律賓語名 bangus、tilapia、pula、biya、dugong 依 T1，厚唇雙冠麗魚當地名待查；綠背鮻、金錢魚、虱目魚見於馬當（M1），金錢魚馬來語 kitang 依 N4。黑藻、布袋蓮、大萍組成塔爾湖草池（P1；後兩種只讀到論文表格轉錄，原始表待補證）。珍珠石斑的懸賞地點加入塔爾湖，依據為 T5 的入侵與捕食研究，賞金是遊戲設定。十八丁蝦麵（C4）只作餐廳菜，未指定蝦種。
+
+### 當地名稱
+
+只在圖鑑顯示。菲律賓語名依 T1 塔爾湖上岸調查表的地方名，浪人鰺 maliputo 另見 C2；馬來語名依 N1～N4 與 P3。
+
+| 物種 | 語言 | 名稱 | 依據 |
+| --- | --- | --- | --- |
+| 菲律賓小沙丁魚 | 菲律賓語 | tawilis | T1、T3 |
+| 黑頦帚齒非鯽 | 菲律賓語 | aroyo | T1 |
+| 小眼雙邊魚 | 菲律賓語 | ning-ning | T1 |
+| 鉛色勻鯻 | 菲律賓語 | ayungin | T1 |
+| 馬尼拉海鯰 | 菲律賓語 | kanduli | T1（不以泛稱 kanduli 的其他海鯰替代） |
+| 浪人鰺 | 菲律賓語 | maliputo | T1、C2 |
+| 虱目魚、尼羅口孵非鯽、紅魔麗體魚、叉舌鰕虎、珍珠石斑 | 菲律賓語 | bangus、tilapia、pula、biya、dugong | T1 |
+| 射水魚、七星射水魚 | 馬來語 | sumpit belang、sumpit tanda | N1 |
+| 尖吻鱸 | 馬來語 | siakap | N2 |
+| 赤鼻稜鯷 | 馬來語 | bilis | N3 |
+| 金錢魚 | 馬來語 | kitang | N4 |
+| 正紅樹、紅茄冬 | 馬來語 | bakau minyak、bakau kurap | P3 |
+
+厚唇雙冠麗魚、四指馬鮁、斑海鯰、長鰳、無齒鰶、葉鯡、墨吉對蝦、欖綠青蟳，以及綠背鮻、虱目魚的馬來語名待查，不以同屬或市場泛稱補位。
+
+### 來源
+
+| 編號 | 來源與本批採用範圍 |
+| --- | --- |
+| T1 | Mutia 等（2022），[Status of Lake Taal Fisheries Amid Volcanic Threat and Covid 19 Pandemic](https://inajl.org/index.php/inajl/article/download/23/35/377)：PDF 第 3 頁表 1 為實際上岸調查的 10 種主要魚與地方名；第 8 頁表 8 含 Caranx ignobilis。用於本批 11 種魚的出現與地方名，沒有用網箱名單替代野外漁獲。 |
+| T2 | Mutia 等（2018），[Status of Taal Lake Fishery Resources](https://www.nfrdi.da.gov.ph/tpjf/vol25/pp128-135.php)：摘要可讀，43 種魚及引入魚問題；PDF 全文連線失敗，不依未讀表格增魚。[ILEC 塔爾湖資料](https://wldb.ilec.or.jp/Display/html/3575)支持湖泊位置、連海與黑藻；其舊魚名錄僅作歷史背景。 |
+| T3 | NFRDI（2026-03-02），[2-month tawilis ban in Taal Lake](https://nfrdi.da.gov.ph/2026/03/02/nfrdi-joins-multi-agency-info-drive-for-2-month-tawilis-ban-in-taal-lake/)：2026 年 3 月 1 日至 4 月 30 日封閉漁期與保育措施。[IUCN 2018 評估](https://doi.org/10.2305/IUCN.UK.2018-2.RLTS.T98836352A143839946.en)為 EN，不把 2018 評估日期寫成 2026 新評估。 |
+| T4 | To 等（2025），[Shifts in the feeding ecology of Sardinella tawilis](https://www.int-res.com/articles/esr2025/57/n057p177.pdf)：樣本表含 Amphilophus labiatus，支持厚唇雙冠麗魚在塔爾湖出現；不能與 T1 的 A. citrinellus 合併為同種。 |
+| T5 | Agasen 等（2006），[塔爾湖珍珠石斑研究，UPLB 書目與摘要](https://www.ukdr.uplb.edu.ph/journal-articles/4255/)：外來入侵與捕食原生魚。[USGS 物種頁](https://nas.er.usgs.gov/Queries/FactSheet.aspx?SpeciesID=445)亦引用該研究。懸賞為本作提案。 |
+| M1 | Zuraini 等（2026），[Species composition and size distribution in MMFR](https://smujo.id/biodiv/article/download/23368/9368/1214121)，DOI 10.13057/biodiv/d270137：2021 年 Kuala Larut、Kuala Sangga、Kuala Gula 採樣，PDF 第 6 頁表 3 支持本稿除兩種射水魚以外的 10 種魚。只採出現紀錄；不把科級優勢度套成竿釣比例。[作者機構庫](https://irep.iium.edu.my/131850/)可核對書目。 |
+| M2 | Simon 等（2010），[兩種射水魚形態研究](https://pmc.ncbi.nlm.nih.gov/articles/PMC2970897/)，DOI 10.1631/jzus.B1000054：方法段明列馬當座標與 2007～2008 年 63／65 尾兩種射水魚樣本。頁面後續開啟遇驗證，初次可讀方法段；不採婆羅洲另一個 Matang 的記錄。 |
+| M3 | Adnan 等（2002），[Matang 的 Penaeus merguiensis 補充群研究](https://researchportal.murdoch.edu.au/esploro/outputs/journalArticle/Variability-of-and-the-influence-of/991005546335107891)：幼蝦多年採樣、河口育幼環境。 |
+| M4 | Kosuge（2001），[Matang 青蟳資源調查](https://www.jstage.jst.go.jp/article/jarq/35/2/35_145/_article/-char/en)：摘要明列 Scylla olivacea；不把另一種 Scylla 或其他馬來西亞濕地的採集移到馬當。 |
+| F1 | [NFRDI 沙丁魚生態綜述](https://www.nfrdi.da.gov.ph/tpjf/etc/Willette%20et%20al.%20Sardines%20Review.pdf)可讀索引段：tawilis 形態、湖泊特有與食性；[FishBase 食物表](https://fishbase.se/TrophicEco/DietCompoSummary.php?dietcode=7910&genusname=Sardinella&speciesname=tawilis)為浮游動物。[FishBase 中文名](https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Sardinella&ID=1518&SpeciesName=tawilis&StockCode=1711)。 |
+| F2 | [Animal Diversity Web 黑頦非鯽](https://animaldiversity.org/accounts/Sarotherodon_melanotheron/)支持形態、生態；[FishBase](https://www.fishbase.se/Country/CountrySpeciesSummary.php?c_code=566&id=1412)支持漁業利用。中文「黑頦帚齒非鯽／黑頰非鯽」先依[中文物種條目](https://zh.wikipedia.org/wiki/黑頦帚齒非鯽)對應，標為採用的暫定中文主名，實裝前再核對可靠中文名錄。 |
+| F3 | [中研院 Ambassis miops](https://fishdb.sinica.edu.tw/taxon/381308-fishdb)支持中文名；[Museums Victoria 物種頁](https://fishesofaustralia.net.au/home/species/1585)支持透明色澤、棲地與食性。食用資料未明。 |
+| F4 | [FishBase 鉛色勻鯻名稱](https://fishbase.mnhn.fr/ComNames/CommonNamesList.php?GenusName=Leiopotherapon&ID=4872&SpeciesName=plumbeus&StockCode=5102)、[成魚食物表](https://www.fishbase.se/trophiceco/DietCompoSummary.php?dietcode=2298&genusname=Leiopotherapon&speciesname=plumbeus)；[SEAFDEC 養殖手冊](https://repository.seafdec.org/handle/20.500.12066/6514?locale-attribute=vi)與[2021 年報](https://repository.seafdec.org.ph/bitstream/10862/6411/2/AQD-Highlights-2021.pdf)支持食用與原生魚背景。 |
+| F5 | [FishBase 馬尼拉海鯰](https://fishbase.se/Country/CountrySpeciesSummary.php?c_code=608&id=27634&lang=chinese)支持分布、尺寸、食性與商業漁業；中文主名依[中文物種條目](https://zh.wikipedia.org/wiki/馬尼拉海鯰)，實裝前再核中文名錄。 |
+| F6 | [中研院 Caranx ignobilis 名錄](https://fishdb.sinica.edu.tw/taxalist?_text_=Caranx+ignobilis)及[標本](https://fishdb.sinica.edu.tw/muse/digi_object/328ad94cccf6e6b1c9c10f290fd84c56)支持浪人鰺；T1、C2 支持塔爾湖與食用。[中研院資料轉載](https://market.cloud.edu.tw/resources/web/1757214)支持高額側扁形態；[海洋保育署魚類手冊](https://www.oca.gov.tw/filedownload?file=sustainable%2F202402231006570.pdf&filedisplay=%E3%80%8C2023+%E5%8F%8B%E5%96%84%E9%87%A3%E9%AD%9A%E3%80%8D%E6%89%8B%E5%86%8A.pdf&flag=doc)支持形態與魚、甲殼類食性，不套六帶鰺的幼魚橫帶。 |
+| F7 | [FishBase 射水魚](https://www.fishbase.org/summary/Toxotes_jaculatrix.html)：形態、噴水捕蟲、棲地與鮮售；[FishBase 中文名](https://www.fishbase.se/ComNames/8229)。 |
+| F8 | [FishBase T. chatareus](https://www.fishbase.se/summary/Toxotes-chatareus.html)：形態、生態、食用；[水產試驗所七星高射炮](https://www.tfrin.gov.tw/theme_data.php?id=7132&sub_theme=aquatic&theme=collection)支持中文俗名。七星射水魚為本稿通用名稱，並保留官方俗名供搜尋。 |
+| F9 | [中研院尖吻鱸](https://fishdb.sinica.edu.tw/taxalist?_text_=Lates+calcarifer)、[FishBase 馬來西亞圖鑑](https://www.fishbase.se/FieldGuide/FieldGuideSummary.php?c_code=458&genusname=Lates&speciesname=calcarifer)：中文名、形態、棲地、食性與食用。 |
+| F10 | [中研院四指馬鮁](https://fishdb.sinica.edu.tw/chi/species.php?id=395540)：形態、食性、分布與食用；[FishBase 馬來西亞圖鑑](https://www.fishbase.se/FieldGuide/FieldGuideSummary.php?c_code=458&genusname=Eleutheronema&speciesname=tetradactylum)指出東亞近似種，勿依臺灣泛稱跨種套用。 |
+| F11 | [中研院赤鼻稜鯷](https://fishdb.sinica.edu.tw/taxon/380984-fishdb)：中文名、形態、食性與加工利用。 |
+| F12 | [中研院斑海鯰](https://fishdb.sinica.edu.tw/taxon/382918-fishdb)、[舊版完整描述](https://fishdb.sinica.edu.tw/chi/species.php?gen=Arius&spe=maculatus)：中文名、三對鬚、棘毒與食用分開；[2024 原研究作者稿](https://drs.nio.res.in/drs/bitstream/handle/2264/9230/11244.pdf?isAllowed=y&sequence=1)支持物種級貝類、甲殼類、多毛類等食物，研究地非馬當，不套用其食物比例。 |
+| F13 | [中研院長鰳](https://fishdb.sinica.edu.tw/chi/species.php?science=Ilisha+elongata)：中文名、形態、食性、食用。 |
+| F14 | [FishBase 無齒鰶](https://www.fishbase.se/summary/Anodontostoma-chacunda.html)、[中文名對照](https://www.fishbase.se/ComNames/CommonNamesList.php?GenusName=Anodontostoma&ID=1619&SpeciesName=chacunda&StockCode=1812)：黑肩斑、棲地、食性與加工。 |
+| F15 | [日本國立科學博物館葉鯡圖鑑](https://www.kahaku.go.jp/research/db/zoology/FishGuide/data/fish134.html)、[Chilika Development Authority 魚類圖鑑](https://www.chilika.com/documents/newsevents_1609466543.pdf)第 67 頁種介：形態、食用；中文名以[中國地方公開調查名錄](https://www.xinhui.gov.cn/attachment/0/330/330371/3253664.pdf)之學名對照。 |
+| F16 | [海大甲殼類數典](https://crust.biodiv.tw/species.php?science=Penaeus+merguiensis)支持中文名與異名；[FAO 種介](https://www.fao.org/4/ac384e/AC384E17.htm)支持食性、底質與利用。 |
+| F17 | [水產試驗所欖綠青蟳](https://www.tfrin.gov.tw/theme_data.php?id=6752&sub_theme=aquatic&theme=collection)、[農業知識入口網](https://kmweb.moa.gov.tw/theme_data.php?id=161&theme=fisheasy)支持中文名與形態；[2015 食性研究](https://www.sciencedirect.com/science/article/pii/S1319562X15001813)支持甲殼類、軟體動物等食物。 |
+| P1 | [ILEC 塔爾湖](https://wldb.ilec.or.jp/Display/html/3575)確認黑藻；T5 原文表 1 的布袋蓮、大萍為[可讀轉錄](https://studyres.com/doc/7764031/whole-vol-9-no-2---uplb-journals-online)（原文連結尚未取得）。因此塔爾湖後兩種草池配置先列候選，實裝前補原始表或新的當地種級資料；不把屬級 Vallisneria 任意指定為苦草。 |
+| P2 | [2022 馬當紅樹組織與沉積物研究](https://pmc.ncbi.nlm.nih.gov/articles/PMC9653693/)、[2021 馬當落葉分解研究](https://link.springer.com/article/10.1007/s00442-021-04865-3)支持兩種 Rhizophora 的當地出現與葉片／落葉；[PROSEA 正紅樹](https://prosea.prota4u.org/view.aspx?id=3038)支持支柱根、胎生與形態差異。 |
+| P3 | [Flora of China 紅樹科](https://www.iplant.cn/foc/pdf/Rhizophoraceae.pdf)：Rhizophora mucronata 為紅茄冬；[植物智 R. apiculata](https://www.iplant.cn/info/Rhizophora%20apiculata)及[林草局圖鑑](https://www.forestry.gov.cn/html/main/main_5461/20211027145728649868711/file/20211027150134712382817.pdf)支持正紅樹。馬來語名見[MyBIS 紅茄冬](https://www.mybis.gov.my/sp/29513)及[馬當植被研究](https://ir.uitm.edu.my/83573/1/83573.pdf)。 |
+| N1 | 馬來西亞漁業局，[Valid Local Name of Malaysian Marine Fishes](https://repository.seafdec.org.my/bitstream/handle/20.500.12561/1010/Valid%20Local%20Name%20of%20Malaysia%20Marine%20Fishes_DOF_2.pdf?isAllowed=y&sequence=1)：索引表逐種對應兩種射水魚為 sumpit belang、sumpit tanda；全文 11MB 超出工具限制，不宣稱讀完整書。[MyBIS](https://www.mybis.gov.my/sp/24637)亦支持 sumpit belang。 |
+| N2 | [FishBase Siakap 逐種／語言／地區表](https://fishbase.se/ComNames/CommonNameSearchList.php?CommonName=Sia&crit1_operator=CONTAINS)：Lates calcarifer、Malay、Malaysia，排除別國或其他魚種的同名。 |
+| N3 | [FishBase 赤鼻稜鯷地方名紀錄](https://fishbase.se/ComNames/CommonNameSummary.php?autoctr=329896)：bilis、Malay、Malaysia，原引馬來西亞漁業局 2009。 |
+| N4 | [MyBIS Scatophagus argus](https://www.mybis.gov.my/sp/28464)：kitang 為馬來語名。其他當地名未核對者保留待查。 |
+| C1 | [Balete 市政府地方物產](https://www.baletebatangas.gov.ph/tourism/products)、[Lipa 市政府地方菜](https://lipa.gov.ph/lipa-cuisines/)：tawilis 的酥炸、番茄鹹蛋搭配與其他做法，未使用泛稱 sardine 的食譜跨種套入。 |
+| C2 | NFRDI，[maliputo 地方料理](https://nfrdi.da.gov.ph/2024/05/30/gma-tvs-pinas-sarap-to-feature-nfrdis-maliputo/)：明確對應 Caranx ignobilis 與 sinigang na maliputo、炭烤。來源未列完整配方，本稿不指定酸味果實。 |
+| C3 | 馬來西亞棕油局，[Siakap Tiga Rasa 食譜](https://mpob.gov.my/wp-content/uploads/2025/02/Red-Palm-Oil-MALAY.pdf)，索引第 58 頁醬料含番茄、鳳梨、辣椒等；全文約 40MB 超出工具限制。[馬來西亞旅遊局](https://www.tourism.gov.my/news/trade/view/citarasa-nipah-is-back-with-an-outstanding-showcase-of-malaysia-s-diverse-culinary-heritage)另確認菜式，魚種以 N2 對應。 |
+| C4 | 馬來西亞旅遊局，[2024 旅遊景點資料](https://www.malaysia.travel/storage/files/pdf/2024-MSTD-POI.pdf)，Mee Udang Kuala Sepetang 條目：大蝦、濃湯與地方歸屬。未指定蝦種，因此只作餐廳菜。 |
+
+## 0.27 墾丁沿岸、吐露港補魚
+
+依根目錄《墾丁沿岸補魚審閱稿.md》實裝，兩地各由 12 種魚增至 20 種。查閱日期均為 2026-10-24。重量、價格、魚池權重與料理資格是遊戲設定，調查數量不直接當成遊戲機率。
+
+| 物種 | 學名 | 水域 |
+| --- | --- | --- |
+| 梭地豆娘魚 | Abudefduf sordidus | 墾丁 |
+| 七帶豆娘魚 | Abudefduf septemfasciatus | 墾丁 |
+| 綠刺尾鯛 | Acanthurus triostegus | 墾丁 |
+| 耳帶蝴蝶魚 | Chaetodon auripes | 墾丁 |
+| 克氏蝴蝶魚 | Chaetodon kleinii | 墾丁 |
+| 卡羅鸚鯉 | Calotomus carolinus | 墾丁 |
+| 日本綠鸚哥魚 | Chlorurus japanensis | 墾丁 |
+| 三葉錦魚 | Thalassoma trilobatum | 墾丁 |
+| 眶棘雙邊魚 | Ambassis gymnocephalus | 吐露港 |
+| 星沙鮻 | Sillago aeolus | 吐露港 |
+| 長身鑽嘴魚 | Gerres oblongus | 吐露港 |
+| 紋縞鰕虎 | Tridentiger trigonocephalus | 吐露港 |
+| 斑點雞籠鯧 | Drepane punctata | 吐露港 |
+| 斑條金梭魚 | Sphyraena jello | 吐露港 |
+| 四帶牙鯻（新增分布） | Pelates quadrilineatus | 吐露港 |
+| 彈塗魚（新增分布） | Periophthalmus modestus | 吐露港 |
+
+墾丁分布採[墾管處 106 年度垂釣魚類監測報告](https://mpa.oca.gov.tw/Files/Knowledge/cdc47203a5ab401184a7764e06266d15.pdf)表八（PDF 第 47～50 頁），八種新魚均有非零數量；保護區測站不標成玩家的實際垂釣入口。新魚的台語、客語名稱尚無完整種級對應，沿用「未列出的台語與客語名稱待查」。
+
+| 物種與建議穩定 ID | 主要資料來源 |
+| --- | --- |
+| 梭地豆娘魚／blackspotsergeant | [魚類資料庫 382311](https://fishdb.sinica.edu.tw/taxon/382311-fishdb)：主名、尾柄黑斑、底藻食性、可食用但少作漁獲。 |
+| 七帶豆娘魚／sevenbarsergeant | [魚類資料庫 382309](https://fishdb.sinica.edu.tw/taxon/382309-fishdb)：主名、寬暗帶、尾柄無黑點、藻與無脊椎動物食性。 |
+| 綠刺尾鯛／convictsurgeon | [魚類資料庫 381275](https://fishdb.sinica.edu.tw/taxon/381275-fishdb/occurrence)、[物種說明](https://fishdb.sinica.edu.tw/chi/species.php?gen=Acanthurus&spe=triostegus)：主名、絲狀藻食性、尾柄硬棘及可能具熱帶海魚毒。本作 edible:true、cookable:false，不能以「有毒物種」直接推成任何個體均不可食用。 |
+| 耳帶蝴蝶魚／orientalbutterfly | [物種說明](https://fishdb.sinica.edu.tw/chi/species.php?gen=Chaetodon&spe=auripes)：眼帶與白帶、食性、觀賞用途，不作食用。 |
+| 克氏蝴蝶魚／kleinbutterfly | [物種說明 381580](https://fishdb.sinica.edu.tw/chi/species.php?id=381580)：主名、黑腹鰭、食性與觀賞用途。 |
+| 卡羅鸚鯉／stareyeparrot | [魚類資料庫 382435](https://fishdb.sinica.edu.tw/taxon/382435-fishdb)：分離外齒、雄雌體色、藻與海草食性、食用利用。 |
+| 日本綠鸚哥魚／japaneseparrot | [魚類資料庫 382439](https://fishdb.sinica.edu.tw/taxon/382439-fishdb)、[行動版條目](https://fishdb.sinica.edu.tw/mobi/species.php?id=382439)：主名、初期與終期體色、底藻食性、可食用。 |
+| 三葉錦魚／christmaswrasse | [魚類資料庫 382036](https://fishdb.sinica.edu.tw/taxon/382036-fishdb)：主名、無 Y 形胸鰭基斑、食性、可食用。該頁以「五帶錦魚」搭配 T. purpureum，與本作既有 T. quinquevittatum 不一致，本稿不沿用其比較魚種名，只描述本種特徵。 |
+
+吐露港分布採 Nip 與 Wong（2010）[香港東部紅樹林與非紅樹林淺岸幼魚研究](https://zoolstud.sinica.edu.tw/Journals/49.6/760.pdf)表三的吐露港 KL、SB 欄位（報告頁 765～766），不以 Port Shelter 欄位代替；J 為幼魚、A 為成魚，表中個體均重不作遊戲重量。粵語名只收有學名對應的香港漁護署[人工魚礁魚類名錄](https://www.afcd.gov.hk/tc_chi/fisheries/ar/files/ar_fish_list.pdf)：眶棘雙邊魚「透明梳蘿」、斑條金梭魚「竹簽」；「沙鑽」「梳蘿」「雞籠鯧」等可能泛指多種魚的名稱不採用。
+
+| 收錄項目 | 吐露港表格證據 | 生態、中文名或粵語來源 |
+| --- | --- | --- |
+| 眶棘雙邊魚／baldglassy | KL、SB 皆有 J、A 或 J 紀錄 | [海生館標本](https://helloocean.nmmba.gov.tw/nmmba_front/SpecimenDetail.aspx?id=27416)對應裸頭雙邊魚／眶棘雙邊魚；[廈門大學河口研究站](https://t-smart.xmu.edu.cn/info/2472/5375.htm)支持透明體色、群游與小型動物食性；[香港漁護署名錄](https://www.afcd.gov.hk/tc_chi/fisheries/ar/files/ar_fish_list.pdf)列透明梳蘿。研究站所寫最大長度與 FishBase 不一致，不使用其最大值。 |
+| 星沙鮻／orientalsillago | KL、SB 皆有 J 紀錄 | [魚類資料庫 382624](https://fishdb.sinica.edu.tw/chi/species.php?id=382624)、[FAO 原始物種頁](https://www.fao.org/4/x2400e/x2400e48.pdf)：主名、斑紋、砂泥底與食用利用。 |
+| 長身鑽嘴魚／slendermojarra | KL、SB 皆有 J 紀錄 | [魚類資料庫 381684](https://fishdb.sinica.edu.tw/taxon/381684-fishdb)：主名、修長體形、伸縮口、砂泥底及煎炸利用。 |
+| 紋縞鰕虎／chameleongoby | KL、SB 皆有 J、A 紀錄 | [魚類資料庫 381864](https://fishdb.sinica.edu.tw/taxon/381864-fishdb)：主名、腹鰭吸盤與白點；[韓國國立海洋生物資源館](https://www.mbris.kr/pub/marine/tsearch/tsearchDetail.do?spcTxnId=270000018321)：深色縱帶、底棲及動物食性。不混為雙帶縞鰕虎。 |
+| 斑點雞籠鯧／spottedsicklefish | SB 有 J 紀錄 | [魚類資料庫 381643](https://fishdb.sinica.edu.tw/taxon/381643-fishdb)、[日本國立科學博物館](https://www.kahaku.go.jp/research/db/zoology/Fishes_of_Andaman_Sea/contents/drepanidae/02.html)：主名、點列、高身、鐮刀胸鰭及棲地食性。不是銀鱗鯧。 |
+| 斑條金梭魚／pickhandlebarracuda | SB 有 J 紀錄 | [魚類資料庫 382649](https://fishdb.sinica.edu.tw/taxon/382649-fishdb)：主名、橫帶、尾色及食用利用；[FishBase](https://www.fishbase.se/FieldGuide/FieldGuideSummary.php?c_code=156A&genusname=Sphyraena&speciesname=jello)記毒性報告需確認；漁護署名錄對應粵語竹簽。不是黃尾金梭魚或巴拉金梭魚。 |
+| 四帶牙鯻／fourline | KL、SB 皆有 J 紀錄 | Pelates quadrilineatus 精確對接現有 ID，沿用生態、售價與料理設定。 |
+| 彈塗魚／mudskipper | KL 有 A 紀錄 | Periophthalmus modestus 精確對接現有 ID；不將另一資料使用的 P. cantonensis 自行當同種。 |
+
+## 0.27 博登湖、格賴夫斯瓦爾德潟湖補魚
+
+依根目錄《博登湖、格賴夫斯瓦爾德潟湖補魚審閱稿.md》實裝，兩地各增至 20 種魚，博登湖另增利莫斯螯蝦。查閱日期均為 2026-10-24。重量、價格、魚池權重、賞金與料理資格是遊戲設定；名錄與漁獲統計屬歷史資料，不代表現今族群數量、竿釣機率或現行法規。
+
+| 物種 | 學名 | 水域 |
+| --- | --- | --- |
+| 歐鯰 | Silurus glanis | 博登湖 |
+| 歐白魚 | Alburnus alburnus | 博登湖 |
+| 粗鱗鯿 | Blicca bjoerkna | 博登湖 |
+| 梅花鱸 | Gymnocephalus cernua | 博登湖、格賴夫斯瓦爾德潟湖 |
+| 鮈 | Gobio gobio | 博登湖 |
+| 大西洋鱈 | Gadus morhua | 格賴夫斯瓦爾德潟湖 |
+| 大菱鮃 | Scophthalmus maximus | 格賴夫斯瓦爾德潟湖 |
+| 綿鳚 | Zoarces viviparus | 格賴夫斯瓦爾德潟湖 |
+| 利莫斯螯蝦（水生動物） | Faxonius limosus | 博登湖 |
+| 歐洲鰻鱺、三刺魚、圓腹雅羅魚、歐洲雅羅魚（新增分布） | Anguilla anguilla、Gasterosteus aculeatus、Squalius cephalus、Leuciscus leuciscus | 博登湖 |
+| 歐洲鰻鱺、歐洲胡瓜魚、黍鯡、普通細鰕虎、沙細鰕虎、三刺魚、衰白鮭（新增分布） | Anguilla anguilla、Osmerus eperlanus、Sprattus sprattus、Pomatoschistus microps、Pomatoschistus minutus、Gasterosteus aculeatus、Coregonus maraena | 格賴夫斯瓦爾德潟湖 |
+
+分布依據：
+
+- 博登湖：[IBKF「Fische des Bodensees」](https://ibkf.org/fische-des-bodensees-2/)列 Wels（頁面拼作 Siluris glanis；最大原生掠食魚，數量增加並部分歸因暖化）、Ukelei／Laube、Güster／Blicke（族群弱）、Kaulbarsch（外來，1987 年首見）、Gründling（岸邊小魚）、Aal（放流支持，視為避難水域）、Dreistachliger Stichling（約二十世紀初可能隨觀賞魚引入，2013 年起上湖開闊水域數量最多）、Döbel／Aitel／Alet（頁面舊名 Leuciscus cephalus，對應本作 Squalius cephalus；密度中等、無商業意義）、Hasel（阿爾根河口曾為產卵場），以及改變食物網的外來種 Kamberkrebs（Orconectes limosus）。
+- 博登湖螯蝦：博登湖各邦水資源保護單位《[Neuankömmlinge im Bodensee](https://umwelt.tg.ch/public/upload/assets/12826/Neuankoemmlinge-im-Bodensee.pdf?fp=2)》（2008 年 4 月）：Kamberkrebs 在湖內擴散、西部湖區很常見；信號小龍蝦只在支流，不配置於博登湖；中華絨螯蟹僅零星發現，不收。該資料另記 Kaulbarsch 1995 年已是淺水帶最常見的魚。
+- 格賴夫斯瓦爾德潟湖：Peenestrom 航道[魚類評估報告](https://www.kuestendaten.de/media/zdm/portalosk/Projekte/Peenestrom/Planunterlagen_Peenestrom/G_Fachgutachten/G_4_Fachgutachten_Fische/G_4_Fachgutachten_Fische.pdf)（2007-07-10）PDF 第 13～14 頁表二（Jönsson 等 1997）與表三（Bochert & Winkler 2001：Dorsch 漁業意義 F、Steinbutt f、Aalmutter f、Ostseeschnäpel f），第 15～18 頁表四與圖二～四（2006 年 5～6 月採樣：Aalmutter 出現於七成網次，Kaulbarsch、Stint 在 Gräftengrund 約 100.9 尾／公頃，Dreistachliger Stichling 在 Loch 一網約 1,222 尾／公頃，Strandgrundel、Sandgrundel、Sprotte、Ostseeschnäpel）。表中的 Schwarzgrundel 為 Gobius niger，不作黑鰕虎（Neogobius melanostomus）證據；黑鰕虎與中華絨螯蟹本次未查到本潟湖近年紀錄，未收。
+- [LALLF 2001 年分區漁獲統計](https://www.lallf.de/fileadmin/media/PDF/fischer/5_Statistik/xFangstatistik_2001Gebiete.pdf) Greifsw. Bodden 欄：Dorsch／Kabeljau 10,597 公斤、Steinbutt 483、Aal 11,623、Schnäpel 2,897。0.16 以 GBIF 0 筆排除大西洋鱈，本次改依本表收錄。
+
+物種資料：
+
+| 物種／ID | 來源與說明 |
+| --- | --- |
+| 歐鯰／wels | [中文維基「歐鯰」](https://zh.wikipedia.org/wiki/Silurus_glanis)：主名、別名六鬚鯰與歐洲巨鯰、三對鬚、小背鰭無脂鰭、棲地、食性、分布、市售與卵有毒。遊戲重量 1～8 公斤為設定，需 Lv.5 釣竿。 |
+| 歐白魚／bleak | [AGROVOC](https://agrovoc.fao.org/browse/agrovoc/en/page/c_40075) 中文名欧白鱼；[FishBase](https://fishbase.net.br/summary/4730)：開闊水域群游、浮游動物與落水昆蟲、少量漁獲、作餌、鱗片曾製 Essence d'Orient。edible:true、cookable:false。 |
+| 粗鱗鯿／silverbream | [AGROVOC](https://agrovoc.fao.org/browse/agrovoc/en/page/c_49553?clang=fi) 中文名粗鳞鳊；[FishBase](https://fishbase.net.br/summary/blicca-bjoerkna.html)：成對鰭基部橙紅、群居靜水、夜行、底棲無脊椎動物食性、little interest to consumers。edible:true、cookable:false。 |
+| 梅花鱸／ruffe | [AGROVOC](https://agrovoc.fao.org/browse/agrovoc/en/page/c_42631?clang=hi) 中文名梅花鲈；[FishBase](https://fishbase.net.br/summary/Gymnocephalus-cernua)：暗斑、背鰭相連、半鹹水湖、比河鱸深、側線夜間覓食、食性、少量漁獲與作餌。edible:true、cookable:false。 |
+| 鮈／gudgeon | 中文維基「鮈」（經[鏡像](https://zhwiki.oracleblog.org/zh-mo/%E9%AE%88)讀取）主名；[FishBase](https://fishbase.net.br/summary/Gobio-gobio)：口鬚達眼下、沙底、群居、日行、食性、作餌。edible:true、cookable:false。 |
+| 大西洋鱈／atlanticcod | [FishBase](https://fishbase.net.br/summary/Gadus-morhua)：下頜觸鬚、側線、體色、幼魚棲地、晨昏捕食、波羅的海三月 20 公尺以深產卵、鮮乾鹽燻利用。需 Lv.3 釣竿，通用煎、蒸、烤。與既有大頭鱈 G. macrocephalus 不同種。 |
+| 大菱鮃／turbot | [FishBase](https://fishbase.net.br/summary/Scophthalmus-maximus)：近圓扁平、有眼側無鱗具骨瘤、底棲魚食性、波羅的海半鹹水族群、高評價食用魚與養殖。需 Lv.3 釣竿，通用煎、蒸、烤。 |
+| 綿鳚／eelpout | [中文維基「綿鳚」](https://zh.wikipedia.org/wiki/Zoarces_viviparus)：主名、體形與體色、40 公尺以淺、底棲無脊椎動物與魚卵、8～9 月交配胎生 30～400 尾、分布、可食。中國的「綿鳚」亦用於 Z. elongatus，本作以學名區分。通用料理，最大 0.4 公斤另接炸物。 |
+| 利莫斯螯蝦／spinycheekcrayfish | 中文名依中文維基「[利莫斯螯蝦](https://zh.wikipedia.com/wiki/%E5%88%A9%E8%8E%AB%E6%96%AF%E8%9E%AF%E8%9D%A6)」（鏡像，單一來源，作者 2026-10-24 確認採用）；[巴塞爾城市州 Kamberkrebs](https://www.bs.ch/wsu/aue/abteilung-gewaesser-und-boden/arten-im-und-am-gewaesser/kamberkrebs)：頸溝前後棘、腹節紅褐帶、橙紅螯尖、最長 12 cm／120 g、耐受度、螯蝦瘟疫。引入年代各來源不一，正文不寫年份；食性未在來源明列，標待查。edible:true、cookable:false。 |
+
+賞金：利莫斯螯蝦列入[歐盟執行規則 2016/1141 附件](https://www.legislation.gov.uk/eur/2016/1141/annexes/2016-07-13)（Orconectes limosus），依作者「如果是入侵種，則設置博登湖賞金」設賞金 60 元、懸賞地點博登湖；比例比照信號小龍蝦 45／66 元。Gymnocephalus cernua 與 Gasterosteus aculeatus 雖在博登湖屬外來魚，不在該名單，不設賞金。
+
+德語名稱：依 IBKF 頁面、評估報告表二與表三、LALLF 統計原文。新物種 Wels、Ukelei、Laube、Güster、Blicke、Kaulbarsch、Gründling、Dorsch、Kabeljau、Steinbutt、Aalmutter、Kamberkrebs；既有魚追加 Aal、Dreistachliger Stichling、Döbel、Alet、Hasel、Stint、Sprotte、Strandgrundel、Sandgrundel、Ostseeschnäpel。
+
+料理：本批不新增菜式。歐鯰、大西洋鱈、大菱鮃、綿鳚接通用煎魚、蒸魚、烤魚，綿鳚另接炸物；歐白魚、粗鱗鯿、梅花鱸、鮈與利莫斯螯蝦可食用但未取得使用該物種的菜式來源，不作材料。
+
+## 0.27 琵琶湖、霞浦湖補魚
+
+依根目錄《琵琶湖、霞浦湖補魚審閱稿.md》實裝，兩湖各由 14 種增至 20 種魚，另新增水生動物條紋長臂蝦與料理「滋賀蝦豆」。中文主名「琵琶湖鰁」「油鰁」「石川魚」「短棘縞鰕虎」依審閱稿提案，經作者 2026-10-24 確認採用。查閱日期均為 2026-10-24。重量、價格、魚池權重與料理效果是遊戲設定；調查紀錄是歷史資料，不代表現今族群數量或竿釣機率。
+
+| 物種 | 學名 | 水域 |
+| --- | --- | --- |
+| 琵琶湖鯰 | Silurus biwaensis | 琵琶湖 |
+| 石鯰 | Silurus lithophilus | 琵琶湖 |
+| 琵琶湖鰁 | Sarcocheilichthys variegatus microoculus | 琵琶湖 |
+| 油鰁 | Sarcocheilichthys biwaensis | 琵琶湖 |
+| 石川魚 | Ischikauia steenackeri | 琵琶湖、霞浦湖 |
+| 大口黑鱸 | Micropterus salmoides | 琵琶湖、霞浦湖 |
+| 短棘縞鰕虎 | Tridentiger brevispinis | 霞浦湖 |
+| 條紋長臂蝦（水生動物） | Palaemon paucidens | 琵琶湖、霞浦湖 |
+| 武昌魚、大鰭鱊、日本花鱸、日本沼蝦（新增分布） | Megalobrama amblycephala、Acheilognathus macropterus、Lateolabrax japonicus、Macrobrachium nipponense | 霞浦湖 |
+
+| 來源 | 支持內容及限制 |
+| --- | --- |
+| [國立環境研究所 霞ヶ浦長期魚類モニタリング 15-1 魚類個體數](https://db.cger.nies.go.jp/gem/inter/GEMS/database/kasumi/data/bio/15-1_fish_density_v20250930.xlsx)（CC BY 4.0，[方法說明](https://db.cger.nies.go.jp/gem/inter/GEMS/database/kasumi/archive/pdf/methods/15_fish.pdf)） | 西浦定置網 2005-04～2025-09 共 115 次。テナガエビ、オオタナゴ、ヌマチチブ、ワタカ、スズキ、ダントウボウ、スジエビ、オオクチバス均有紀錄，作為霞浦湖分布依據；ビワヒガイ只有 2007 年 1 尾，不配置於霞浦湖。 |
+| [環境省 Moni1000 淡水魚 2020 速報](https://www.biodic.go.jp/moni1000/findings/newsflash/pdf/freshwaterfishes_2020.pdf) | 西浦的スズキ與ヌマチチブ；ヌマチチブ在霞浦稱ゴロ、作佃煮原料，據此加入「霞浦佃煮」材料；ワタカ為國內外來種。 |
+| [茨城縣：ハゼ類](https://www.pref.ibaraki.jp/nourinsuisan/kasui/shinko/hazerui.html) | 僅搜尋摘要（縣網站當日系統故障）：ゴロ多數為ヌマチチブ、加工成佃煮。 |
+| [環境省：琵琶湖重要濕地](https://www.env.go.jp/nature/important_wetland/wetland/w316.html) | 特有魚ビワコオオナマズ、イワトコナマズ、ビワヒガイ、アブラヒガイ。 |
+| [京都府紅皮書：ビワコオオナマズ](https://www.pref.kyoto.jp/kankyo/rdb/bio/db/fis0040.html)、[ワタカ](https://www.pref.kyoto.jp/kankyo/rdb/bio/db/fis0036.html) | 大鯰外形、夜間湖心捕食、梅雨期靠岸產卵；ワタカ外形、水草為主的雜食、原產琵琶湖淀川、移植各地、環境省 CR。 |
+| [中文維基：琵琶湖鯰](https://zh.wikipedia.org/wiki/Silurus_biwaensis)、[石鯰](https://zh.wikipedia.org/wiki/Silurus_lithophilus) | 中文主名與體長。 |
+| [BE-PAL：イワトコナマズ](https://www.bepal.net/archives/520761)、[料理篇](https://www.bepal.net/archives/520766) | 雜誌報導，次要來源：北湖深處、稀有、鍋物與蒲燒。石鯰據此作通用料理材料。 |
+| [茨城縣魚顏帳：ビワヒガイ](https://www.pref.ibaraki.jp/nourinsuisan/naisuishi/gyogancho/documents/066_biwahigai.pdf) | 僅搜尋摘要：原分布琵琶湖與瀨田川、春至初夏味佳。 |
+| 滋賀縣絕滅危惧種一覽（[PDF](https://www.pref.shiga.lg.jp/file/attachment/5467588.pdf)） | 僅搜尋摘要：アブラヒガイ為琵琶湖水系特有並減少。 |
+| [滋賀縣：外來魚對策](https://www.pref.shiga.lg.jp/gf00/7242.html) | 大口黑鱸 1974 年首見、1980 年代擴散、外來魚資源量推估、禁止再放流。 |
+| [滋賀縣：琵琶湖漁業代表魚貝](https://www.pref.shiga.lg.jp/gf00/7249.html)、[湖魚料理](https://www.pref.shiga.lg.jp/gf00/7255.html)、[琵琶湖系統](https://www.pref.shiga.lg.jp/biwako-system/18893.html) | スジエビ屬琵琶湖八珍、釣客稱シラサエビ、水草帶捕撈、活體透明煮熟轉紅；えび豆為喜慶鄉土菜；スジエビかき揚げ食譜，據此接入炸物。 |
+| [AGROVOC：Palaemon paucidens](https://agrovoc.fao.org/browse/agrovoc/en/page/c_46535) | 中文名條紋長臂蝦（条纹长臂虾）。 |
+| [Animal Diversity Web：Tridentiger brevispinis](https://animaldiversity.org/accounts/Tridentiger_brevispinis/classification) | 短棘縞鰕虎魚名稱，單一來源。 |
+
+分類註記：ビワヒガイ依日本文獻寫亞種 Sarcocheilichthys variegatus microoculus（Catalog of Fishes 另列 S. microoculus 為異名）；アブラヒガイ原記載 S. biwaensis Hosoya 1982。琵琶湖鯰、油鰁、石川魚未取得食用資料，標「食用資料待查」並不作料理材料。日本沼蝦在琵琶湖的紀錄僅見搜尋摘要，本次不配置於琵琶湖。ニゴイ沿用 0.18 的不收決定。
+
+日語名稱：ビワコオオナマズ、イワトコナマズ、ビワヒガイ、アブラヒガイ、ワタカ（又稱ウマウオ）、オオクチバス（俗稱ブラックバス）、ヌマチチブ（霞浦稱ゴロ）、スジエビ（釣客稱シラサエビ）；既有物種追加ダントウボウ、オオタナゴ、テナガエビ。
+
+料理：
+
+| 料理 | 材料 | 來源 |
+| --- | --- | --- |
+| 滋賀蝦豆 | 條紋長臂蝦 | [滋賀縣湖魚料理](https://www.pref.shiga.lg.jp/gf00/7255.html)「えび豆」：條紋長臂蝦與大豆燉煮的鄉土料理 |
+| 霞浦佃煮（追加材料） | 短棘縞鰕虎 | 環境省 Moni1000 2020 速報：ヌマチチブ為霞浦佃煮原料 |
+| 炸物（追加材料） | 條紋長臂蝦、琵琶湖鰁 | 滋賀縣スジエビかき揚げ食譜；琵琶湖鰁依通用小魚炸物規則 |
+
+石鯰、琵琶湖鰁、大口黑鱸另接通用煎魚、蒸魚、烤魚。
+
+## 0.27 韋特恩湖、泰晤士河補魚
+
+依根目錄《韋特恩湖、泰晤士河補魚審閱稿.md》實裝：韋特恩湖由 12 增至 19 種魚，泰晤士河由 14 增至 24 種魚，新增八棘多刺魚、沙真銀漢魚兩種，其餘為既有物種新增分布。查閱日期均為 2026-10-24。
+
+| 物種 | 學名 | 水域 |
+| --- | --- | --- |
+| 八棘多刺魚 | Pungitius pungitius | 韋特恩湖、泰晤士河 |
+| 沙真銀漢魚 | Atherina presbyter | 泰晤士河 |
+| 擬鯉、丁鱥、歐鯿、歐白魚、粗鱗鯿、梅花鱸（新增分布） | Rutilus rutilus、Tinca tinca、Abramis brama、Alburnus alburnus、Blicca bjoerkna、Gymnocephalus cernua | 韋特恩湖 |
+| 歐洲鰨、丁鱥、大西洋鯡、歐白魚、鮈、鯉魚、粗唇龜鯔、大西洋鱈（新增分布） | Solea solea、Tinca tinca、Clupea harengus、Alburnus alburnus、Gobio gobio、Cyprinus carpio、Chelon labrosus、Gadus morhua | 泰晤士河 |
+
+| 來源 | 支持內容及限制 |
+| --- | --- |
+| [Vätternvårdsförbundet：Fisksamhället](https://vattern.org/fisk-och-fiske/fisksamhallet/)、[Benlöja](https://vattern.org/fisk-och-fiske/fisksamhallet/benloja-alburnus-alburnus/)、[Sutare](https://vattern.org/fisk-och-fiske/fisksamhallet/sutare-tinca-tinca/) | 湖內名錄 mört、sutare、braxen、björkna、benlöja、gers、småspigg。 |
+| [瑞典海洋與水管理署：Benlöja](https://www.havochvatten.se/arter-och-livsmiljoer/arter-och-naturtyper/benloja.html)、[Småspigg](https://www.havochvatten.se/arter-och-livsmiljoer/arter-och-naturtyper/smaspigg.html)、[Mört](https://www.havochvatten.se/arter-och-livsmiljoer/arter-och-naturtyper/mort.html)、[Finfo 2005:9](https://www.havochvatten.se/download/18.64f5b3211343cffddb2800018447/1708690209993/finfo2005_9.pdf) | 瑞典語名稱與學名對照；八棘多刺魚的棲地、體長與築巢。 |
+| [SLU Artfakta：småspigg](https://artfakta.se/naturvard/taxon/206152)、[Skansen：Storspigg och småspigg](https://www.skansen.se/se-och-gora/djurpark/baltic-sea-science-center/akvarier_och_arter/akvarievaggen/storspigg-smaspigg/)、[愛爾蘭內陸漁業署](https://www.fisheriesireland.ie/fish-species/nine-spined-stickleback-pungitius-pungitius) | 外形、植物覆蓋的淺水棲地、食性。 |
+| [海生館標本 NMMB-P021514](https://helloocean.nmmba.gov.tw/nmmba_front/SpecimenDetail.aspx?id=27634)、[中科院典藏漁業資料](https://bdt.semi.ac.cn/library/upload/files/2017/10/1610185475.pdf) | 中文名八棘多刺魚與別名九刺魚。 |
+| [ZSL《Larval and juvenile fish in the Thames》2019](https://www.tideway.london/media/3924/zsl-tidal-thames-fish-report-sept-2019.pdf) | 表 3.3：沙真銀漢魚、八棘多刺魚、丁鱥在格林威治與帕特尼的幼魚紀錄。 |
+| [ZSL：Animals in the Thames](https://www.zsl.org/what-we-do/conservation/protecting-species/animals-in-the-thames) | 歐洲鰨的育幼場功能。 |
+| [英國國會書面答覆 HL10629](https://questions-statements.parliament.uk/written-questions/detail/2023-10-17/HL10629) | 里奇蒙潮汐段 2010～2022 名錄：bleak、gudgeon、common carp。 |
+| [Thames Water／Ricardo：Annex B2.3 Fish Assessment Report](https://www.thameswater.co.uk/media-library/home/about-us/regulation/regional-water-resources/water-recycling-schemes-in-london/gate-2-reports/Annex-B23--Fish-Assessment-report.pdf) | 潮汐段 Reach D、F：格林威治 Clupea harengus、Chelon labrosus，伍利奇 Gadus morhua。 |
+| [英國自然史博物館：Clupea harengus](https://www.nhm.ac.uk/our-science/data/uk-species/taxon?tvk=NBNSYS0000174637)、[MarLIN：Atlantic cod](https://www.marlin.ac.uk/species/detail/2095)、[NHM：Sand Smelt](https://www.nhm.ac.uk/our-science/data/uk-species/taxon?tvk=NHMSYS0020552687) | 英語名與學名對照。 |
+| [FishBase：Atherina presbyter](https://www.fishbase.se/summary/45)、[FAO 銀漢魚科圖鑑](https://horizon.documentation.ird.fr/exl-doc/pleins_textes/divers20-10/010076875.pdf)、[DORIS](https://doris.ffessm.fr/Especes/Atherina-presbyter-Pretre-423) | 沙真銀漢魚中文名、雙背鰭與銀色側帶、河口群游與食性；未取得具體食用方法，標「食用資料待查」。 |
+
+瑞典語名稱：mört、sutare、braxen、benlöja、björkna、gers、småspigg。英語名稱：nine-spined stickleback、sand smelt、tench、bleak、Dover sole、herring、gudgeon、common carp、thick-lipped grey mullet、Atlantic cod。
+
+料理：本批不新增菜式；八棘多刺魚、沙真銀漢魚不作材料，既有物種的料理資格不變。
+
+## 0.27 已完成配圖接入
+
+塔爾湖、馬當紅樹林（work/expansion27-art，29 魚、2 動物、4 料理、2 植物）與墾丁、吐露港、博登湖、格賴夫斯瓦爾德潟湖補魚（work/expansion27b-art，8 魚、1 動物）配圖由另一個 Agent 製作，2026-10-24 接入 assets，像素槽 424～466。琵琶湖、霞浦湖、韋特恩湖、泰晤士河補魚的 11 項配圖已於 2026-10-25 完成並接入，像素槽 467～476 與獨立條紋長臂蝦圖；製作、參考與驗證見 assets/圖像第十六批說明.md。
