@@ -1,7 +1,5 @@
 (function(root){'use strict';
 const dictionary=typeof module!=='undefined'?require('./language-data.js'):root.FishingChineseData;
-// 0.25: OpenCC maps these to rare extension glyphs that many fonts lack; keep the common forms (大鳍鱊、日本蟳、赤魟).
-for(const c of '鱊蟳魟')dictionary[c]=c;
 const lengths=[...new Set(Object.keys(dictionary).map(k=>k.length))].sort((a,b)=>b-a);
 const cache=new Map();
 function simplify(value){const s=String(value);if(cache.has(s))return cache.get(s);let out='';for(let i=0;i<s.length;){let hit=false;for(const n of lengths){const k=s.slice(i,i+n);if(dictionary[k]){out+=dictionary[k];i+=n;hit=true;break}}if(!hit){const c=String.fromCodePoint(s.codePointAt(i));out+=c;i+=c.length}}if(cache.size>2500)cache.clear();cache.set(s,out);return out}

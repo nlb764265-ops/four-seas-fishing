@@ -1,4 +1,4 @@
-# 四海釣遊記 0.27：資料來源
+# 四海釣遊記 0.29：資料來源
 
 查閱日期：2026-10-21。魚類文字為依資料重寫的簡介，沒有使用來源照片或大段原文。魚類資料不等於遊戲機率、價格與現實賞金政策。
 
@@ -174,6 +174,8 @@ Natural Earth [1:50m Land](https://www.naturalearthdata.com/downloads/50m-physic
 重點採音：[鮊 ㄅㄛˊ](https://dict.variants.moe.edu.tw/dictView.jsp?ID=111744)、[鱲 ㄌㄚˋ](https://dict.variants.moe.edu.tw/dictView.jsp?ID=112193)、[鰏 ㄅㄧˋ](https://dict.variants.moe.edu.tw/dictView.jsp?ID=111956)、[䰾 ㄅㄚ（鯉科魚義）](https://dict.variants.moe.edu.tw/dictView.jsp?ID=111676)、[鱎 ㄐㄧㄠˇ](https://dict.variants.moe.edu.tw/dictView.jsp?ID=112129)、[䱗 ㄘㄢ](https://pedia.cloud.edu.tw/Entry/Detail?title=𩽐)、[櫛 ㄐㄧㄝˊ](https://dict.revised.moe.edu.tw/dictView.jsp?ID=5593)、[鰡 ㄌㄧㄡˊ](https://pedia.cloud.edu.tw/Entry/Detail/?search=鰡&title=鰡)。鱲的 liè 異讀留在原審閱稿查核表，介面採教育部 là。其餘優先字來源沿用根目錄審閱稿的教育部、中央研究院字形條目。
 
 繁簡字典取自 [OpenCC ver.1.1.9](https://github.com/BYVoid/OpenCC/tree/ver.1.1.9/data/dictionary) 的 TSCharacters 與 TSPhrases，遵循 Apache-2.0，授權原文隨附 `OPENCC-LICENSE.txt`。採最長詞組匹配後字元匹配；魚名、俗名、敘述與介面使用同一離線轉換，學名與 stable ID 不變。語言偏好使用獨立儲存鍵，不寫入遊戲進度。
+
+罕用字補字字型（0.28 同版修訂）：簡體轉換與部分魚名會用到 CJK 擴充區的罕用字（如吻𫚥虎、大鳍𫚪、翼䱵），許多手機字型沒有收錄而顯示成方框。遊戲內附補字字型 Fishing Rare Glyphs：12 個擴充 B 區以後的字取自 [遍黑體 Plangothic P1 V2.9.5795](https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project)，5 個擴充 A 區的字取自 [思源黑體 Noto Sans SC 2.004](https://fonts.google.com/noto/specimen/Noto+Sans+SC)（經 Google Fonts 取得），皆遵循 SIL Open Font License 1.1，只取用遊戲需要的字並改名，授權原文隨附 `RARE-GLYPHS-LICENSE.txt`。字型以 unicode-range 限定只負責這些字，其餘文字照用原本的字型。
 
 
 ## 0.11 東亞第 2 批：墾丁沿岸、吐露港
@@ -1344,3 +1346,70 @@ FishBase、臺灣魚類資料庫（人機驗證）與 TBN（403）本次無法�
 ### 南半球季節
 
 莫頓灣的季節標籤依南半球顯示（3～5 月秋、6～8 月冬、9～11 月春、12～2 月夏）；只改顯示，不改月份倍率。烏魚沿用共用的 11～1 月倍率，不代表當地洄游季節。
+
+
+## 0.29 維多利亞湖（2026-10-25）
+
+
+
+| 範圍 | 來源與採用方式 |
+| --- | --- |
+| 基蘇木灣區魚池 | [Okechi 等 2022, Conservation Science and Practice 4:e12826](https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/csp2.12826)：2018 年 11 月至 2019 年 7 月，在登加、恩德雷、納亞與姆方加諾四處以 0.5～2 吋網目的刺網採樣，記錄 17 類魚。附錄 S3 的生物量表列出 *L. niloticus*、*B. sadleri*、*E. apleurogramma*、*S. victoriae*、*S. afrofischeri*、*M. victoriae*、*L. victorianus*、Haplochromine、*B. jacksonii*、*O. niloticus*、*E. profundus*、*P. aethiopicus*、*O. variabilis*、*C. zillii*、*M. kannume*、*M. plagiostoma*、*Schilbe mystus*。正文寫 *Schilbe intermedius*，附錄寫 *S. mystus*；維多利亞湖的族群依 FishBase 採 *S. intermedius*。網目下限 0.5 吋，未捕到 omena 不代表灣內沒有。 |
+| 湖區概況、omena、布袋蓮、尼羅米蝦 | [LVFO 第四期漁業管理計劃（2021～2025）](https://www.lvfo.org/sites/default/files/field/FMP%20IV%20BOOKLET.pdf)：omena 的三國名稱、2006 年占商業漁獲 55.3%、1999～2015 年生物量變化、慈鯛恢復以少數浮游動物食性種為主、1989 年布袋蓮擴散、*Caridina nilotica* 增加並列為管理對象。 |
+| 尖齒鬍鯰、多克瑪鱨在基蘇木灣區 | [Omwoma 等 2014, Lakes & Reservoirs](https://onlinelibrary.wiley.com/doi/10.1111/lre.12068)：1995～2009 年基蘇木灣區商業漁獲以 omena、尼羅尖吻鱸、肺魚、維多利亞野鯪、慈鯛、尖齒鬍鯰與多克瑪鱨為主（搜尋摘要，未讀全文）。本次實裝已核對作者機構典藏摘要，補證見下方。 |
+| 物種形態、棲地、食性、體長、利用 | FishBase 各種摘要頁：[R. argentea](https://www.fishbase.se/summary/Rastrineobola-argentea.html)、[L. niloticus](https://www.fishbase.se/summary/Lates-niloticus.html)、[P. aethiopicus](https://www.fishbase.se/summary/Protopterus-aethiopicus.html)、[C. gariepinus](https://www.fishbase.se/summary/Clarias-gariepinus.html)、[B. docmak](https://www.fishbase.se/summary/Bagrus-docmak.html)、[S. victoriae](https://www.fishbase.se/summary/Synodontis-victoriae.html)、[S. afrofischeri](https://www.fishbase.se/summary/Synodontis-afrofischeri.html)、[S. intermedius](https://www.fishbase.se/summary/Schilbe-intermedius.html)、[M. kannume](https://www.fishbase.se/summary/Mormyrus-kannume.html)、[L. victorianus](https://www.fishbase.se/summary/Labeo-victorianus.html)、[O. variabilis](https://www.fishbase.se/summary/Oreochromis-variabilis.html)、[B. sadleri](https://www.fishbase.se/summary/Brachyalestes-sadleri.html)、[E. apleurogramma](https://www.fishbase.se/summary/Enteromius-apleurogramma.html)、[M. victoriae](https://www.fishbase.se/summary/Marcusenius-victoriae.html)、[P. nigricans](https://www.fishbase.se/summary/Pollimyrus-nigricans.html)。雜色口孵非鯽的紅皮書欄為 NT（2020 評估），生物學段落仍寫極危的舊狀態，本稿採 NT；維多利亞野鯪 2023 年評估為 LC，正文不寫保育等級。兩種歧鬚鮠、肋線魮與兩種象鼻魚頁面沒有利用欄，食用資料待查。尼羅尖吻鱸 1950 年代引入的年代為常見說法，實裝前補一份直接來源；尼羅尖吻鱸的體色描述也待補來源。 |
+| 慈鯛的灣內紀錄 | GBIF 出現紀錄 API，以南緯 0.6～北緯 0.05、東經 34.0～34.95 的範圍查詢 Cichlidae（2026-10-25）：奧氏溪麗鯛 44 筆（1984～2002，MCZ、NHMUK、肯亞國家博物館；含 Kusa／Kasa beach 灣岸），腹紋樸麗魚 33 筆（1990～1995，Rusinga、Mfangano），異頜樸麗魚 23 筆（1984～1993，Rusinga Channel），緣牙樸麗魚 31 筆（1982～1993，含「Lake Victoria. S. Gulf, Dunga」）。範圍內 2000 年後的慈鯛紀錄以河流、河口與衛星湖為主，湖內樸麗魚只到屬級。查詢中途遇 GBIF 流量限制，後段其他種的年份未取得；範圍內也含 Kanyaboli、Sare 等衛星湖紀錄，正文只引用湖岸地點。奧氏溪麗鯛的模式產地 Kavirondo Bay 見 [Catalog of Fishes](https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=21185) 與 [Plazi 的 2013 年屬修訂摘錄](https://tb.plazi.org/GgServer/html/03888791BC2DE802FDFCB2999EA9FAF9)；用於控制螺類見 [Environmental Conservation 的肯亞西部研究](https://resolve.cambridge.org/core/journals/environmental-conservation/article/studies-on-biological-control-of-intermediate-hosts-of-schistosomiasis-in-western-kenya/0D878737CB643BAF8B114B51F2DD4050)（只見標題，未讀內容）。腹紋樸麗魚自 1991 年回升，出自姆萬扎灣的 [Witte 等 2007, Aquatic Ecosystem Health & Management](https://www.tandfonline.com/doi/abs/10.1080/14634980701709410)（搜尋摘要）。 |
+| 慈鯛的原始描述 | Internet Archive 的 BioStor 鏡像（BHL 頁面有機器人驗證，未使用）：[Greenwood 1957, Part II](https://archive.org/details/biostor-1283)（*H. xenognathus* 新種描述：35 尾 80～113 mm SL、活體與保存體色、牙齒、硬底沿岸與砂岸、胃中螺肉）；[Greenwood 1959, Part III](https://archive.org/details/biostor-65897)（*H. plagiodon* 重描述：5 尾雄魚 56～85 mm SL、活體顏色不明、保存標本體色、斜切的外齒、Entebbe 砂岸、腸中昆蟲幼蟲與細砂）；[Greenwood & Gee 1969, Part VII](https://archive.org/details/biostor-266044)（*H. laparogramma* 新種描述：學名指中央縱帶、雄魚活體顏色、離岸泥底 50～110 呎、吃雙翅目幼蟲與蛹）。[Banyankimbona 等 2013, European Journal of Taxonomy 39](https://europeanjournaloftaxonomy.eu/index.php/ejt/article/download/145/195)：*A. alluaudi* 重描述、活體與保存體色、臼齒狀咽齒、背鰭硬棘 17～19、臀鰭 4～7（多為 5～6）、最大 163 mm SL（Greenwood 1959）、引入東非各地控制螺類；選模標本產地 Kavirondo Gulf。[Witte & van Oijen 1990, Zoologische Verhandelingen 262](https://repository.naturalis.nl/pub/317685/ZV1990262001.pdf)：*H. plagiodon*、*H. xenognathus* 列為以口部剝食螺類的類群，*H. laparogramma* 列為浮游動物食性並於繁殖期遷入淺水。 |
+| 多色褶唇麗魚 | [Boulenger 1907, The Fishes of the Nile](https://archive.org/details/fishesNileTextBoul) p. 497～499：圓尾、鰭條數、保存標本體色，並引述原描述者 Schoeller 的活體體色（淡銅紫色、虹彩鱗片、藍綠亮點、雄魚臀鰭末端紅斑、繁殖期天藍色光澤與黑喉、受驚時的縱橫紋）與最大約 70 mm。Boulenger 把本種併入 *H. strigigena* 敘述，正文只採 Schoeller 針對 *Chromis multicolor* 的活體描述與通用形態。[Greenwood 1965, The Cichlid fishes of Lake Nabugabo](https://archive.org/details/biostor-266032)：列出維多利亞湖等分布；有遮蔽、水草茂密的湖岸植物帶、沼澤與河口最常見；胃中有小魚、搖蚊與蜉蝣幼蟲、劍水蚤與介形蟲、藻類與狸藻碎片、寡毛類。[FishBase](https://www.fishbase.se/summary/Pseudocrenilabrus-multicolor.html)：8 cm TL、圓尾、溪流與池塘、雜食、母親口孵、IUCN 無危（2021-03-30 評估）、觀賞用；中文名雜色褶唇麗魚、多色樸麗魚。[中文維基百科：多色褶唇麗魚](https://zh.wikipedia.org/wiki/多色褶唇麗魚)與[褶唇麗魚屬](https://zh.wikipedia.org/wiki/褶唇麗魚屬)（條目標 DD，為舊評估）。[Seriously Fish](https://seriouslyfish.com/species/pseudocrenilabrus-multicolor/)：靜水或緩流、水草莖間與漂浮植物下、雄魚臀鰭橘斑、最早在水族箱繁殖的慈鯛之一。GBIF（2026-10-25）：1990 年 MCZ「Rusinga Island, Nyagina Beach」、1996 年 NRM 基蘇木一帶 5 處、1997 年 Ahero 稻作區、2002 年 Sondu Miriu，以及 2008～2024 年肯亞國家博物館在 Nzoia、Yala、Sio 等支流的紀錄。英文維基另列亞種 *P. m. victoriae*，亞種地位未被普遍承認，本稿以種處理。 |
+| 維多利亞湖樸麗魚 | [Greenwood 1962, Part V](https://archive.org/details/biostor-1284)（重描述：20 尾 117～166 mm SL，含巴黎自然史博物館的正模標本，產地 Kavirondo Bay, Kenya；活體與保存體色、腹鰭第一鰭條延長、外齒隨體型由二尖轉為單尖；六處已知產地均為有遮蔽的 20～40 呎泥底；12 尾胃中為 10～15 mm 的仔魚，兩尾可辨為樸麗魚仔魚）。[FishBase](https://www.fishbase.se/summary/Haplochromis-victorianus.html)：16.6 cm SL、6～12 m、吃小魚、IUCN 極危 C2a(ii)（2010-03-31 評估）、中文名維多利亞樸麗魚。[英文維基百科](https://en.wikipedia.org/wiki/Haplochromis_victorianus)與[中文維基百科](https://zh.wikipedia.org/wiki/維多利亞湖樸麗魚)標為 CR（可能已滅絕）；中文維基的樸麗魚屬列表把維多利亞樸麗魚給 *H. victoriae*（Greenwood 1956，DD）。GBIF（2026-10-25）共 33 筆：MNHN「kavirondo」、NHMUK「Naia Bay, Kavirondo Gulf」（無年份），最晚為 1985 年 Bugando、Irumi Channel、Kome Channel 等坦尚尼亞一側紀錄。 |
+| 慈鯛的中文名 | FishBase 俗名清單與[中文維基百科：樸麗魚屬](https://zh.wikipedia.org/wiki/樸麗魚屬)一致：腹紋樸麗魚、異頜樸麗魚、緣牙樸麗魚；*H. obliquidens* 為斜紋樸麗魚，與本稿各種不重複（一則搜尋摘要把 EOL 的「緣牙樸麗魚」對到 *H. obliquidens*，經兩處來源核對為摘要錯配）。奧氏溪麗鯛見 FishBase 與[搜狐的維多利亞湖慈鯛介紹](https://www.sohu.com/a/135169010_644568)。 |
+| 慈鯛的形態、食性、保育等級、中文名 | FishBase：[A. alluaudi](https://www.fishbase.se/summary/Astatoreochromis-alluaudi.html)（19 cm SL、LC 2021、吃螺、背鰭硬棘 16～20、臀鰭硬棘 4～7、用於控制螺類、盧歐語 hamaga、中文名奧氏溪麗鯛）、[H. laparogramma](https://www.fishbase.se/summary/Haplochromis-laparogramma.html)（8.5 cm、LC 2010、腹紋樸麗魚）、[H. xenognathus](https://www.fishbase.se/summary/Haplochromis-xenognathus.html)（11.3 cm、LC 2010、異頜樸麗魚）、[H. plagiodon](https://www.fishbase.se/summary/Haplochromis-plagiodon.html)（8.5 cm、VU 2010、緣牙樸麗魚）。FishBase 的 *A. alluaudi* 最大 19 cm SL 與 2013 年修訂引用的 163 mm SL 不同，遊戲重量以 0.2 公斤為上限，兩者都可容納。fulu／furu 為泛稱，不收。 |
+| 維多利亞野鯪的漁獲比例 | [Outa 等 2020, Lakes & Reservoirs](https://onlinelibrary.wiley.com/doi/10.1111/lre.12299)：主湖漁獲占比由 1958 年的 10.5% 降至 1970 年不到 1%（搜尋摘要，原文 403 未讀）。 |
+| 中文名與當地名 | FishBase 各種俗名清單（CommonNamesList）：中文名取自 China／Taiwan 的華語條目；盧歐語、斯瓦希里語取自 Kenya、Tanzania 條目。排除同字異物：ngege（三種吳郭魚）、okoko（兩種歧鬚鮠）、soga／osoga（兩種鮭脂鯉）。這些俗名是 FishBase 收錄的地方名，實裝前若能找到盧歐語辭典或肯亞漁業署名錄，再交叉核對。 |
+| 登加濕地與紙莎草 | [Key Biodiversity Areas：Dunga swamp](https://www.keybiodiversityareas.org/site/factsheet/6427) 與 [BirdLife：Dunga Swamp IBA](https://datazone.birdlife.org/site/factsheet/dunga-swamp-iba-kenya/text)：登加位於基蘇木南方約 10 公里，紙莎草沿岸延伸約 1.5 公里；[達爾文計畫的登加管理計劃草案](https://www.darwininitiative.org.uk/documents/EIDPO029/21537/EIDPO029%20AR1%20Ann20-%20Draft%20Dunga%20Swamp%20IBA%20Management%20plan%20_v1_.pdf)寫約 5 公里，故正文寫 1.5～5 公里。 |
+| 布袋蓮、大萍 | [NASA Earth Observatory](https://science.nasa.gov/?p=1128394)：基蘇木灣區的布袋蓮爆發面積，並列出大萍、紙莎草為灣內水生植物（搜尋摘要）。大萍的種級紀錄偏弱，實裝前補一份基蘇木灣區的植物調查；查不到時把權重改給布袋蓮與紙莎草。 |
+| 料理 | [Maseno University 基蘇木旅遊資訊](https://maseno.ac.ke/sites/default/files/2026-02/Tourist%20Information.pdf)：炸吳郭魚或尼羅尖吻鱸配烏加利與番茄洋蔥沙拉（kachumbari）；omena 曬乾後油炒或燉煮；登加湖灘可現買鮮魚請餐館烤。[Paukwa：A Culinary Adventure at Dunga Beach](https://www.paukwa.or.ke/?p=18332)：登加以 ngege、mbuta、omena 為主，配 kuon（烏加利）與蔬菜。 |
+
+### 審閱階段未讀全文與限制（補證結果見下方）
+
+Omwoma 2014 與 NASA 頁面只有搜尋摘要；PMC 上的基蘇木灣區微囊藻毒素研究遇驗證頁，未讀。Okechi 2022 讀了正文與附錄 S3 的種名，未逐站核對生物量數值。慈鯛沒有 2000 年後的灣內種級調查；*O. esculentus* 與尼羅米蝦形態的種級資料未完成查核。
+
+
+### 實裝定稿
+
+- 新耙波拉魚（Rastrineobola argentea）：盧歐語 omena；斯瓦希里語 dagaa
+- 尼羅尖吻鱸（Lates niloticus）：盧歐語 mbuta；斯瓦希里語 sangara
+- 埃塞俄比非洲肺魚（Protopterus aethiopicus）：盧歐語 kamongo；斯瓦希里語 kamongo
+- 尖齒鬍鯰（Clarias gariepinus）：盧歐語 ongala；斯瓦希里語 kambali
+- 多克瑪鱨（Bagrus docmak）：盧歐語 seu
+- 維多利亞歧鬚鮠（Synodontis victoriae）：
+- 阿氏歧鬚鮠（Synodontis afrofischeri）：
+- 銀鍚伯鯰（Schilbe intermedius）：盧歐語 rawa
+- 卡氏長頜魚（Mormyrus kannume）：盧歐語 suma
+- 維多利亞野鯪（Labeo victorianus）：盧歐語 ningu
+- 雜色口孵非鯽（Oreochromis variabilis）：盧歐語 mbiru
+- 薩氏鮭脂鯉（Brachyalestes sadleri）：
+- 肋線魮（Enteromius apleurogramma）：盧歐語 adel
+- 維氏異吻象鼻魚（Marcusenius victoriae）：
+- 黑矮長頜魚（Pollimyrus nigricans）：盧歐語 abobo
+- 奧氏溪麗鯛（Astatoreochromis alluaudi）：盧歐語 hamaga
+- 腹紋樸麗魚（Haplochromis laparogramma）：
+- 異頜樸麗魚（Haplochromis xenognathus）：
+- 緣牙樸麗魚（Haplochromis plagiodon）：
+- 維多利亞湖樸麗魚（Haplochromis victorianus）：
+- 多色褶唇麗魚（Pseudocrenilabrus multicolor）：
+- 尼羅米蝦 Caridina nilotica；紙莎草 Cyperus papyrus；尼羅口孵非鯽 盧歐語 nyamami。
+
+共 26 處水域、330 種魚、39 種動物、44 種植物、88 道自製料理、64 道餐廳菜，起點 9 處。魚池、數值與玩家正文依核定稿；不設本地賞金，存檔格式維持 7。
+
+
+### 核定料理與補證（2026-10-25）
+
+自製「燉奧梅納」（新耙波拉魚、8% 多一條、40 竿、調味料 15 元）與「炸魚配烏加利」（尼羅口孵非鯽或尼羅尖吻鱸、速度 +8%、80 竿、調味料 15 元）；餐廳「登加湖岸食堂」販售「燉奧梅納」（45 元、同自製效果）與「炸尼羅尖吻鱸配烏加利」（270 元、誘魚 2.5、80 竿）。菜式與材料來源沿用上述 Maseno University 與 Paukwa。作者核准炸魚配烏加利由原稿 60 竿延長至 80 竿，修正用尼羅尖吻鱸做材料時在低收益魚池的輕微虧損；所有可用材料、適用水域、魚餌、1／5 級釣竿與售價 0／10 級、1／7 月逐項試算，最低淨收益 22.85 元。
+
+- [Omwoma 等 2014，作者機構典藏摘要](https://portal.fis.tum.de/en/publications/declining-commercial-fish-catches-in-lake-victorias-winam-gulf-th/)直接列出基蘇木灣區七組商業漁獲，包含尖齒鬍鯰與多克瑪鱨（摘要拼作 Clarias gariaepinus、Bagrus domac，學名依分類資料校正）。期刊全文仍無法取得；本次已直接閱讀典藏摘要，不再僅依搜尋片段。
+- [Ignatow 等 1996，Hydrobiologia 332:175–181](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/42892/10750_2004_Article_BF00031923.pdf;sequence=1)：已讀全文。支持 Caridina nilotica 長約 2.5 公分、小個體透明、近岸水草床與離岸近底／水層活動、食有機碎屑與藻類。本作以小型透明個體為圖鑑與配圖代表；大個體也可能為深褐、深藍或黑色。新增名稱仍為暫擬中文名。
+- [Downing 等 2013，Was Lates Late?](https://pmc.ncbi.nlm.nih.gov/articles/PMC3800122/)導言明列尼羅尖吻鱸 1954 年非正式引入、1963 年正式引入，支持核定正文的「1950 年代」。[FishBase 尼羅尖吻鱸形態](https://www.fishbase.se/summary/347)支持大型、厚實、大口與銀白體色。
+- [Maseno University，Opande 的布袋蓮分布研究](https://repository.maseno.ac.ke/bitstream/handle/123456789/5102/OPANDE%20George0001.pdf?isAllowed=y&sequence=1)第 7 頁列出 Winam Gulf 的 Pistia（原文拼作 statoites）、Cyperus papyrus 等；另由[肯亞 NEMA 的維多利亞湖工程環評](https://nema.go.ke/images/Docs/EIA_1340-1349/EIA_1347%20LVRR_DDD_Part%205.pdf)第 70 頁的摘要交叉支持大萍 Pistia stratiotes 與布袋蓮的湖區紀錄。環評全文連線未成功，來源限制保留。
+
+補字字型沿用遍黑體 Plangothic P1 V2.9.5795 與既有 SIL OFL 授權，加入簡體「鱨」所需 U+2CD8F。擴充區子集由 12 字增為 13 字，rare-glyphs.woff 重新取字後為 4,072 bytes；擴充 A 區 5 字不變。25 張配圖另案製作，未以其他物種圖片代用。
