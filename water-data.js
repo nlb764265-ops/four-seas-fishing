@@ -14,3 +14,6 @@ window.WORLD_WATER.local.push({k:"lake",z:3,n:"洪澤湖",src:"遊戲釣點概�
 // 0.27: Lake Taal outline from Natural Earth 1:10m lakes (v5.1.2, scalerank 9); Matang is a label on the existing coastline.
 window.WORLD_WATER.lakes.push({"z":6,"g":[[[120.994,14.058],[121.021,14.063],[121.05,14.052],[121.045,14.011],[121.032,13.983],[121.007,13.962],[120.966,13.957],[120.945,13.987],[120.936,14.037],[120.932,14.07],[120.978,14.07],[120.994,14.058]]]});
 window.WORLD_WATER.local.push({k:"lake",z:3,n:"塔爾湖",src:"遊戲釣點概略位置",g:[],l:[121.0,14.0]},{k:"sea",z:6,n:"馬當紅樹林",src:"遊戲釣點概略位置",g:[],l:[100.6,4.85]});
+
+// 0.28 labels only; the Lake Erie outline is already in the Natural Earth lakes layer and Moreton Bay uses the existing coastline.
+window.WORLD_WATER.local.push({k:"lake",z:3,n:"伊利湖",src:"遊戲釣點概略位置",g:[],l:[-82.45,41.8]},{k:"sea",z:6,n:"莫頓灣",src:"遊戲釣點概略位置",g:[],l:[153.25,-27.3]});

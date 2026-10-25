@@ -11,11 +11,12 @@ const WEED=3,LOGS=40,W=D.world,HOUR=3600000,SLOT=1200000,TIDE=1800000;
 // Deterministic [0,1) hash so weather and flavor text never consume the save's random seed.
 function hash(a,b){let h=Math.imul(a^0x9e3779b9,2654435761)^Math.imul((b|0)^0x7f4a7c15,1597334677)^Math.imul(Math.floor(b/4294967296)+1,40503);h=Math.imul(h^h>>>15,2246822507);h=Math.imul(h^h>>>13,3266489909);return((h^h>>>16)>>>0)/4294967296}
 function month(at){return new Date(at+8*HOUR).getUTCMonth()+1}
-function seasonName(m){return m>=3&&m<=5?'春':m>=6&&m<=8?'夏':m>=9&&m<=11?'秋':'冬'}
+// Southern-hemisphere waters (region.south) shift only the season label by half a year.
+function seasonName(m,south=false){if(south)m=(m+5)%12+1;return m>=3&&m<=5?'春':m>=6&&m<=8?'夏':m>=9&&m<=11?'秋':'冬'}
 function minuteOf(at){return Math.floor(((at%HOUR)+HOUR)%HOUR/60000)}
 function weatherAt(regionId,at){const m=month(at),odds=((m===12||m<=2)&&W.winterOdds[regionId])||W.weatherOdds[regionId],ri=[...regionId].reduce((h,c)=>Math.imul(h,31)+c.charCodeAt(0)|0,7);let roll=hash(ri,Math.floor(at/SLOT))*100;return W.weathers.find((w,i)=>(roll-=odds[i])<0)||W.weathers[W.weathers.length-1]}
 // Game environment at a moment: 60-minute game day, 20-minute weather slots per region, real Taiwan month for season.
-function env(regionId,at){const min=minuteOf(at),p=[...W.phases].reverse().find(x=>min>=x.from),w=weatherAt(regionId,at),m=month(at),nextPhase=(W.phases.find(x=>x.from>min)?.from??60)*60000-((at%HOUR)+HOUR)%HOUR,nextWeather=(Math.floor(at/SLOT)+1)*SLOT-at;return{phase:p.id,phaseName:p.name,weather:w.id,weatherName:w.name,month:m,season:seasonName(m),tide:W.flavor[regionId]?.tide?(((at%TIDE)+TIDE)%TIDE<TIDE/2?'rising':'falling'):null,next:Math.min(nextPhase,nextWeather)}}
+function env(regionId,at){const min=minuteOf(at),p=[...W.phases].reverse().find(x=>min>=x.from),w=weatherAt(regionId,at),m=month(at),nextPhase=(W.phases.find(x=>x.from>min)?.from??60)*60000-((at%HOUR)+HOUR)%HOUR,nextWeather=(Math.floor(at/SLOT)+1)*SLOT-at;return{phase:p.id,phaseName:p.name,weather:w.id,weatherName:w.name,month:m,season:seasonName(m,!!region(regionId)?.south),tide:W.flavor[regionId]?.tide?(((at%TIDE)+TIDE)%TIDE<TIDE/2?'rising':'falling'):null,next:Math.min(nextPhase,nextWeather)}}
 // A night meal raises each phase to at least that share of the fish's best phase; weather and season stay as they are.
 function factor(id,e,night=0){const c=W.conditions[id];if(!c)return 1;let f=1;if(c.phase){const m=c.phase[e.phase]??1;f*=night?Math.max(m,Math.max(...W.phases.map(p=>c.phase[p.id]??1))*night):m}if(c.weather?.[e.weather]!=null)f*=c.weather[e.weather];if(c.months?.includes(e.month))f*=c.amount;return f}
 function pick(list,a,b){return list[Math.floor(hash(a,b)*list.length)]}

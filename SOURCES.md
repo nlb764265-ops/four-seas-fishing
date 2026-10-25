@@ -1247,3 +1247,100 @@ FishBase、臺灣魚類資料庫（人機驗證）與 TBN（403）本次無法�
 ## 0.27 已完成配圖接入
 
 塔爾湖、馬當紅樹林（work/expansion27-art，29 魚、2 動物、4 料理、2 植物）與墾丁、吐露港、博登湖、格賴夫斯瓦爾德潟湖補魚（work/expansion27b-art，8 魚、1 動物）配圖由另一個 Agent 製作，2026-10-24 接入 assets，像素槽 424～466。琵琶湖、霞浦湖、韋特恩湖、泰晤士河補魚的 11 項配圖已於 2026-10-25 完成並接入，像素槽 467～476 與獨立條紋長臂蝦圖；製作、參考與驗證見 assets/圖像第十六批說明.md。
+
+## 0.28 北美伊利湖、澳洲莫頓灣（查閱日期 2026-10-25）
+
+兩處皆為一級水域並可選為新遊戲起點。伊利湖以整湖近岸魚群作綜合水域，地圖標記放在西部湖區概略位置（41.70°N、82.60°W）；莫頓灣概括灣內相連的河口、沙泥底與海草床（27.30°S、153.25°E），不含海洋公園內的隔離淡水濕地、東側外海與北澳名錄。兩者都不是實地垂釣入口。現實名錄與遊戲權重分開：來源支持物種在何種範圍出現，不支持遊戲斤兩、售價、裝備門檻或現行釣捕規定。原研究的採樣年份以各頁為準。
+
+### 伊利湖來源
+
+| 來源 | 用途與限制 |
+| --- | --- |
+| [托萊多大學：俄亥俄州近岸魚群名錄](https://www.utoledo.edu/nsm/lec/research/be/docs/Lake_Erie_species_list.pdf) | 托萊多至克里夫蘭岸線；除草魚外，本批 23 種魚可按英語名比對。調查較早，不代表 2026 年豐度。 |
+| [USGS 伊利湖生物站 2025 年報](https://www.glfc.org/pubs/lake_committees/common_docs/2025_LEBS_AnnualReport_final_032526.pdf) | 表 1 的英語名與學名支持多數魚種；白斑狗魚、草魚、鈍吻胖頭鱥另依其他來源。 |
+| [GLFC 伊利湖餌魚工作組 2023 報告](https://glfc.org/pubs/lake_committees/erie/FTG_docs/annual_reports/FTG_report_2023.pdf) | 附錄 1 的草魚屬已列入的入侵種；大頭鰱、青魚、白鰱、丁鱥列為不在湖內，本批排除。 |
+| [USGS：Faxonius rusticus](https://nas.er.usgs.gov/queries/GreatLakes/FactSheet.aspx?Species_ID=214) | 羅洛斯鏽斑螯蝦在伊利湖／莫米河口的紀錄、兩側鏽斑與舊名 Orconectes rusticus；桑達斯基灣可能屬原生範圍，因此不統稱外來入侵，也不設賞金。 |
+| [ILEC 世界湖泊資料庫：Lake Erie](https://wldb.ilec.or.jp/Display/html/3407)、[NOAA：西伊利湖沉水植物變化](https://repository.library.noaa.gov/view/noaa/35688/noaa_35688_DS1.pdf) | Vallisneria americana、Chara globularis、Myriophyllum spicatum 的歷史紀錄；不據此宣稱目前覆蓋度。 |
+| [密西根 DNR](https://www.michigan.gov/dnr/education/michigan-species/fish-species/walleye)：Walleye、Yellow perch、Smallmouth bass、Pumpkinseed、Rock bass、Bullheads 各種級頁 | 外形與棲地；大眼梭鱸低光時段覓食，遊戲的清晨、黃昏與夜晚 ×1.5 倍率屬遊戲設定。 |
+| [西維吉尼亞 DNR：Freshwater drum](https://wvdnr.gov/plants-animals/sportfish/freshwater-drum/)、[愛荷華 DNR：Emerald shiner](https://programs.iowadnr.gov/bionet/Fish/Species/31)、[德州野生動物署：White Bass](https://tpwd.texas.gov/huntwild/wild/species/wtb/)、[威斯康辛 DNR：White perch](https://dnr.wisconsin.gov/topic/Fishing/species/whiteperch.html)、[密蘇里保育部：Longnose gar](https://mdc.mo.gov/discover-nature/field-guide/longnose-gar) | 各種外形、食性與食用紀錄；骨雀鱔卵有毒，本作不作料理材料。 |
+| [Eschmeyer 魚類名錄：Micropterus dolomieu](https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=19646) | 有效拼法 dolomieu。 |
+
+### 莫頓灣來源
+
+| 來源 | 用途與限制 |
+| --- | --- |
+| [莫頓灣近岸魚蟹分區研究](https://moretonbayfoundation.org/articles/changes-in-fish-and-crab-abundance-in-response-to-the-moreton-bay-marine-park-rezoning/) | 澳洲棘鯛、金鯛、黃錫鯛、斑沙鮻、格氏新海鯰、寬頭牛尾魚、絲棘龍占魚、銀紋笛鯛、點帶石斑與扁鰺；表內 Epinephalus coioides 標準化為 Epinephelus coioides。 |
+| [Moreton Banks 魚類棲地區](https://www.business.qld.gov.au/industries/farms-fishing-forestry/fisheries/development/fish-habitat-area/plan/moreton-banks)、[莫頓灣魚類生態研究綜述](https://moretonbayfoundation.org/articles/fishes-of-moreton-bay-ecology-human-impacts-and-conservation/)、[莫頓灣漁業研究綜述](https://moretonbayfoundation.org/articles/fishing-and-fisheries-of-moreton-bay/) | 灣內棲地與烏魚、纖沙鮻、三尖魢、鋸緣青蟳、Portunus armatus 等漁業群；俗名不單獨作種級證據。 |
+| [PeerJ 2019 灣內魚類採集](https://pmc.ncbi.nlm.nih.gov/articles/PMC6505424/)、[Parasite 2023 灣內宿主名錄](https://www.parasite-journal.org/articles/parasite/pdf/2023/01/parasite230096.pdf)、[Tibbetts & Connolly 1998 莫頓灣 Nekton](https://www.rodconnolly.com/uploads/2/5/7/2/25722279/tibbetts___connolly_1998_nekton_of_moreton_bay.pdf)、[昆士蘭濕地名錄](https://wetlandinfo.detsi.qld.gov.au/wetlands/facts-maps/wildlife/?AreaID=marine-park-moreton-bay&Class=ray-finned+fishes&Kingdom=animals) | Gerres oyena、G. subfasciatus、Sillago ciliata、S. maculata、Atherinomorus vaigiensis、Monodactylus argenteus、Lutjanus russellii、Siganus fuscescens、Herklotsichthys castelnaui，以及 Eden Island 鹽沼與紅樹林採樣的 Ambassis marianus。 |
+| [WoRMS 半嘴魚科名錄](https://www.marinespecies.org/aphia.php?p=taxlist&pid=125453&rComp=%3E%3D&tRank=220)、[FAO 半嘴魚科](https://www.fao.org/4/x2400e/x2400e12.pdf) | 舊亞種 Arrhamphus sclerolepis krefftii 接受為 Arrhamphus krefftii；不把北方種 A. sclerolepis 加進莫頓灣。 |
+| [Fishes of Australia](https://fishesofaustralia.net.au/home/species/672)：澳洲棘鯛、三尖魢、半帶鑽嘴魚、金鯛各種級頁；[CSIRO CAAB](https://www.cmar.csiro.au/caab/taxon_report.cfm?caab_code=37353004) | 外形、棲地、食性與標準英語名；Chrysophrys auratus（舊名 Pagrus auratus）與嘉鱲 Pagrus major 分列（[WoRMS](https://www.marinespecies.org/aphia.php?p=taxlist&tName=Pagrus)）。 |
+| [昆士蘭 DPI 幼年 Tailor 標放研究](https://era.dpi.qld.gov.au/id/eprint/471/1/MortonMovementTagged-SEC.pdf)、[澳洲漁業狀況：Trumpeter whiting](https://www.fish.gov.au/report/343-Trumpeter-Whiting-2020) | Pomatomus saltatrix、Sillago maculata 的灣內紀錄。 |
+| [昆士蘭 DPI／Courtney & Masel 1997](https://era.dpi.qld.gov.au/id/eprint/469/)、[FAO 莫頓灣對蝦研究](https://www.fao.org/fishery/docs/CDrom/aquaculture/a0844t/docrep/005/AC740T/AC740T11.htm)、[莫頓灣拖網策略](https://www.publications.qld.gov.au/dataset/8f852387-620d-472c-998c-944282debcb4/resource/0c05e4a2-25ee-4605-a390-ec94d416a507/download/moreton-bay-trawl-region-harvest-strategy.pdf) | Metapenaeus bennettae、Penaeus esculentus、Penaeus plebejus（舊名 Melicertus plebejus）、Penaeus merguiensis 與 P. armatus；Thenus 只到屬級，未加入。 |
+| [CSIRO CAAB：Portunus armatus](https://www.cmar.csiro.au/data/caab/taxon_report.cfm?caab_code=28911005)、[西澳博物館：Scylla serrata](https://museum.wa.gov.au/online-collections/names/scylla-serrata) | 武裝梭子蟹與遠海梭子蟹分種；鋸緣青蟳與欖綠青蟳分種。 |
+| [澳洲環境部：東部海域關鍵物種](https://www.dcceew.gov.au/sites/default/files/documents/key-species.pdf) | Sepioteuthis australis 的沿岸棲地與分布北界到莫頓灣；屬分布綜述，灣內種級實捕資料待補。 |
+| [昆士蘭公園：莫頓灣海草](https://parks.qld.gov.au/parks/moreton-bay/about/culture/seagrass)、[Eastern Banks 海草研究](https://pmc.ncbi.nlm.nih.gov/articles/PMC4550905/)、[POWO：Oceana serrulata](https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A602938-1) | 七種海草：Zostera muelleri、Halophila ovalis、Halodule uninervis、Halophila spinulosa、Halophila decipiens、Oceana serrulata（舊組合 Cymodocea serrulata）、Syringodium isoetifolium。遊戲勾起零落草葉，不代表現實准許採集。 |
+
+### 新物種與中文名
+
+| 水域 | 物種 | 學名 | 中文名依據 |
+| --- | --- | --- | --- |
+| 伊利湖 | 大眼梭鱸 | Sander vitreus | [FishBase FAO-FIES 中文名](https://fishbase.se/ComNames/CommonNameSummary.php?autoctr=390045) |
+| 伊利湖 | 河黃鱸 | Perca flavescens | [拉漢魚典](https://fishdb.sinica.edu.tw/chi/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&me=&orderby=chinese_mainland&page=84&pz=200&vn=)，別名金鱸 |
+| 伊利湖 | 小口黑鱸 | Micropterus dolomieu | [臺灣魚類資料庫標本名錄](https://fishdb.sinica.edu.tw/chi/specimen_species.php?R1=total&R2=&dere=+asc&key=&m=&page=6&pz=200) |
+| 伊利湖 | 白鱸 | Morone chrysops | [水產試驗所](https://www.tfrin.gov.tw/theme_data.php?id=94&theme=aquatic_technology)；拉漢魚典另列金眼狼鱸 |
+| 伊利湖 | 美洲狼鱸 | Morone americana | [拉漢魚典](https://fishdb.sinica.edu.tw/eng/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&orderby=is_accepted_name&page=699&pz=30&vn=)，別名白石鮨 |
+| 伊利湖 | 淡水石首魚 | Aplodinotus grunniens | [拉漢魚典](https://fishdb.sinica.edu.tw/eng/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&orderby=family_ch&page=543&pz=20&vn=) |
+| 伊利湖 | 翡翠美洲鱥、斑尾美洲鱥、鈍吻胖頭鱥 | Notropis atherinoides、Notropis hudsonius、Pimephales notatus | [拉漢魚典](https://fishdb.sinica.edu.tw/chi/chinesequer2.php?R1=&T1=&cn=&dere=&fm=&gc=&me=&orderby=family_name&page=26&pz=500&vn=) |
+| 伊利湖 | 金體美鯿魚 | Notemigonus crysoleucas | [FAO AGROVOC](https://agrovoc.apps.fao.org/browse/agrovoc/ar/page/c_40206?clang=my) 金体美鳊鱼，轉繁體 |
+| 伊利湖 | 美洲真鰶 | Dorosoma cepedianum | [FishBase 中文俗名](https://www.fishbase.net.br/ComNames/CommonNamesList.php?GenusName=Dorosoma&ID=1604&SpeciesName=cepedianum&StockCode=1797)；ID americangizzardshad，與日本海鰶 gizzardshad 分開 |
+| 伊利湖 | 駝背太陽魚、白刺蓋太陽魚 | Lepomis gibbosus、Pomoxis annularis | [輸入物種名錄](https://fishdb.sinica.edu.tw/chi/import_already.php?R1=family_c&dere=asc&img=&key=&page=13&pz=20) |
+| 伊利湖 | 岩鈍鱸 | Ambloplites rupestris | [拉漢魚典](https://fishdb.sinica.edu.tw/eng/chinesequer2.php?D1=&R1=&T1=&cn=&dere=desc&fm=&gc=&orderby=science&page=1118&pz=30&vn=) |
+| 伊利湖 | 雲斑鮰 | Ameiurus nebulosus | [拉漢魚典](https://fishdb.sinica.edu.tw/chi/chinesequer2.php?R1=&T1=&cn=&dere=desc&fm=&gc=&me=&orderby=chinese_taiwan&page=71&pz=50&vn=) |
+| 伊利湖 | 康氏亞口魚 | Catostomus commersonii | [臺灣魚類資料庫標本 NTUM01792](https://fishdb.sinica.edu.tw/chi/specimendetail.php?id=NTUM01792) |
+| 伊利湖 | 黑口新鰕虎 | Neogobius melanostomus | [拉漢魚典](https://fishdb.sinica.edu.tw/chi/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&me=&orderby=family_ch&page=2792&pz=10&vn=) |
+| 伊利湖 | 骨雀鱔 | Lepisosteus osseus | [輸入物種名錄](https://fishdb.sinica.edu.tw/chi/import_already.php?R1=science&dere=desc&img=&key=&page=15&pz=100)，別名長吻雀鱔 |
+| 伊利湖 | 羅洛斯鏽斑螯蝦 | Faxonius rusticus | [林務局研究報告](https://www.forest.gov.tw/file/81756)印刷第 29 頁（舊名 Orconectes rusticus） |
+| 伊利湖 | 美洲苦草 | Vallisneria americana | [臺大植物資訊系統](https://tai2.ntu.edu.tw/family/Hydrocharitaceae/Vallisneria)；與苦草 Vallisneria natans 分列 |
+| 莫頓灣 | 澳洲棘鯛 | Acanthopagrus australis | [拉漢魚典](https://fishdb.sinica.edu.tw/chi/chinesequer2.php?D1=&R1=&T1=&cn=&dere=asc&fm=&gc=&me=&orderby=science&page=0&pz=200&vn=) |
+| 莫頓灣 | 纖沙鮻 | Sillago ciliata | [輸入物種名錄](https://fishdb.sinica.edu.tw/chi/import_2013.php?R1=science&dere=desc&img=&key=&page=0&pz=100) |
+| 莫頓灣 | 斑沙鮻 | Sillago maculata | [拉漢魚典](https://fishdb.sinica.edu.tw/eng/chinesequer2.php?D1=&R1=&T1=&cn=&dere=&fm=&gc=&orderby=science&page=1220&pz=25&vn=) |
+| 莫頓灣 | 寬頭牛尾魚 | Platycephalus fuscus | [拉漢魚典](https://fishdb.sinica.edu.tw/eng/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&orderby=chinese_mainland&page=32&pz=500&vn=)，大陸名棕灰鯒 |
+| 莫頓灣 | 三尖魢 | Girella tricuspidata | [FishBase 中文列表](https://fishbase.se/ComNames/CommonNamesList.php?GenusName=Girella&ID=8173&SpeciesName=tricuspidata&StockCode=8486) |
+| 莫頓灣 | 克氏圓吻星鱵 | Arrhamphus krefftii | [拉漢魚典](https://fishdb.sinica.edu.tw/chi/chinesequer2.php?D1=&R1=&T1=&cn=&dere=&fm=&gc=&me=&orderby=science&page=102&pz=25&vn=)（舊亞種名對應） |
+| 莫頓灣 | 扁鰺 | Pomatomus saltatrix | [臺灣魚類資料庫](https://fishdb.sinica.edu.tw/chi/species.php?science=Pomatomus+saltatrix) |
+| 莫頓灣 | 金鯛 | Chrysophrys auratus | [臺灣魚類資料庫](https://fishdb.sinica.edu.tw/taxon/383236-fishdb) |
+| 莫頓灣 | 半帶鑽嘴魚 | Gerres subfasciatus | [拉漢魚典](https://fishdb.sinica.edu.tw/eng/chinesequer2.php?D1=&R1=&T1=&cn=&dere=&fm=&gc=&orderby=science&page=128&pz=100&vn=) |
+| 莫頓灣 | 格氏新海鯰 | Neoarius graeffei | [輸入物種名錄](https://fishdb.sinica.edu.tw/chi/import_already_pic.php?id=264) |
+| 莫頓灣 | 卡氏似青鱗魚 | Herklotsichthys castelnaui | [拉漢魚典](https://fishdb.sinica.edu.tw/eng/chinesequer2.php?D1=&R1=&T1=&cn=&dere=desc&fm=&gc=&orderby=author&page=126&pz=200&vn=) |
+| 莫頓灣 | 澳洲美銀漢魚 | Atherinomorus vaigiensis | [拉漢魚典](https://fishdb.sinica.edu.tw/chi/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&me=&orderby=family_name&page=22&pz=100&vn=)；不與 A. lacunosus 混用 |
+| 莫頓灣 | 瑪麗雙邊魚 | Ambassis marianus | [拉漢魚典](https://fishdb.sinica.edu.tw/chi/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&me=&orderby=family_ch&page=973&pz=20&vn=) |
+| 莫頓灣 | 絲棘龍占魚 | Lethrinus genivittatus | [臺灣魚類資料庫](https://fishdb.sinica.edu.tw/taxon/16093-fishdb/taxonomy) |
+| 莫頓灣 | 鋸緣青蟳 | Scylla serrata | [臺中市海岸資源漁業發展所](https://www.links.taichung.gov.tw/837108/2758517/2758582/2758583/2758668) |
+| 莫頓灣 | 武裝梭子蟹 | Portunus armatus | [《水產學報》2025，49(7)](https://www.sciengine.com/parse/pdf/1000-0615/447F19D83BF34DEC9E40413F381F5D47.pdf) 第 5.3 節，轉繁體 |
+| 莫頓灣 | 綠尾新對蝦 | Metapenaeus bennettae | [行政院公報](https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg030196/ch07/type3/gov88/num16/images/Eg01.pdf) |
+| 莫頓灣 | 虎紋對蝦 | Penaeus esculentus | [農業部雙語詞彙](https://www.moa.gov.tw/theme_list.php?page=635&theme=dictionary) |
+| 莫頓灣 | 澳洲對蝦 | Penaeus plebejus | [農業部雙語詞彙](https://www.moa.gov.tw/theme_list.php?keyword=H&page=209&theme=dictionary) |
+| 莫頓灣 | 南方擬烏賊 | Sepioteuthis australis | [SeaLifeBase FAO-FIES 中文名](https://www.sealifebase.se/comnames/CommonNameSummary.php?autoctr=76797) |
+| 莫頓灣 | 牟氏鰻草、棘狀喜鹽草 | Zostera muelleri、Halophila spinulosa | [《漁業科學進展》2023](https://yykxjz.ijournals.cn/html/2023/4/20230307002.htm) |
+| 莫頓灣 | 毛葉鹽藻 | Halophila decipiens | [臺大植物資訊系統](https://tai2.ntu.edu.tw/species/603%20003%2003%200) |
+| 莫頓灣 | 齒葉絲粉草 | Oceana serrulata | [海洋保育署調查表](https://mpa.oca.gov.tw/Files/Knowledge/18a7189815524e93a6e94eb3e0dfc50c.pdf)（舊組合 Cymodocea serrulata） |
+| 莫頓灣 | 針葉藻 | Syringodium isoetifolium | [TBN](https://www.tbn.org.tw/taxa/e91bd5bb-3ba3-40a8-93d7-ed78d8a845ec)，別名水韭菜 |
+
+水域譯名「伊利湖」見[水利署水利名詞](https://www.wra.gov.tw/NewsRiverNoun_Content.aspx?n=25142&s=2668)，「莫頓灣」見海洋保育署《與海共生》印刷第 91 頁。食用資料未足的物種標「食用資料待查」；審閱稿未提供棲地或食性的物種標「食性資料待查」，不補造結論。
+
+英語名稱（只在圖鑑顯示）：walleye、yellow perch、smallmouth bass、white bass、white perch、freshwater drum、emerald shiner、spottail shiner、golden shiner、gizzard shad、pumpkinseed、rock bass、brown bullhead、white crappie、white sucker、bluntnose minnow、round goby、longnose gar、rusty crayfish、common carp、grass carp、bluegill、channel catfish、largemouth bass、northern pike；yellowfin bream、sand whiting、trumpeter whiting、dusky flathead、luderick、southern snubnose garfish、tailor、snapper、common silverbiddy、blue catfish、southern herring、common hardyhead、estuary glassfish、longspine emperor、giant mud crab、blue swimmer crab、greentail prawn、brown tiger prawn、eastern king prawn、southern calamari、sea mullet、tarwhine、common silver-biddy、mangrove jack、Moses perch、goldspotted rockcod、diamondfish、dusky rabbitfish、banana prawn。
+
+### 料理與餐廳
+
+| 料理 | 魚材 | 來源 |
+| --- | --- | --- |
+| 酥煎河黃鱸（自製；湖岸炸魚屋） | 河黃鱸 | [LCBO：Crispy Perch](https://www.lcbo.com/en/recipe/crispy-perch/F201904009)，明列 yellow perch，靈感來自伊利湖多佛港的 perch plate。 |
+| 金黃香煎大眼梭鱸（自製；湖岸炸魚屋） | 大眼梭鱸 | [加拿大 Freshwater Fish：From Lake to Plate](https://publications.gc.ca/collections/collection_2016/ocped-ffmc/CC194-1-2011-eng.pdf) 印刷第 37 頁 Golden Pan-Fried Walleye；不宣稱為伊利湖獨有。 |
+| 啤酒麵糊炸寬頭牛尾魚（自製；海灣小館） | 寬頭牛尾魚 | [雪梨魚市場：Dusky flathead](https://www.sydneyfishmarket.com.au/species/dusky-flathead/)、[Flathead Fillets in Beer Batter](https://www.sydneyfishmarket.com.au/recipe/flathead-fillets-in-beer-batter/)。 |
+| 辣椒青蟳（自製；海灣小館） | 鋸緣青蟳 | [雪梨魚市場：Mud crab](https://www.sydneyfishmarket.com.au/species/mud-crab/)、[Singapore Chilli Mud Crab](https://www.sydneyfishmarket.com.au/whats-hot-the-best-winter-dishes-at-sfm/)；菜源為新加坡。 |
+
+通用煎、蒸、烤新增大眼梭鱸、河黃鱸、白鱸、淡水石首魚、雲斑鮰、澳洲棘鯛、纖沙鮻、斑沙鮻、寬頭牛尾魚、扁鰺、金鯛、絲棘龍占魚、鋸緣青蟳、武裝梭子蟹、綠尾新對蝦、虎紋對蝦、澳洲對蝦與南方擬烏賊；通用炸物另加河黃鱸、斑沙鮻、絲棘龍占魚與三種新蝦。食用依據：密西根 DNR（大眼梭鱸、河黃鱸、雲斑鮰）、德州野生動物署（白鱸）、西維吉尼亞 DNR（淡水石首魚）、雪梨魚市場（[澳洲棘鯛](https://www.sydneyfishmarket.com.au/species/yellowfin-bream/)、[纖沙鮻](https://www.sydneyfishmarket.com.au/species/sand-whiting/)、寬頭牛尾魚、鋸緣青蟳）、澳洲漁業狀況（斑沙鮻）、Fishes of Australia（金鯛）、臺灣魚類資料庫（扁鰺、絲棘龍占魚）與上列對蝦、梭子蟹、擬烏賊漁業資料。
+
+### 南半球季節
+
+莫頓灣的季節標籤依南半球顯示（3～5 月秋、6～8 月冬、9～11 月春、12～2 月夏）；只改顯示，不改月份倍率。烏魚沿用共用的 11～1 月倍率，不代表當地洄游季節。

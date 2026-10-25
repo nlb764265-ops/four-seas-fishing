@@ -519,7 +519,7 @@ main{max-width:1320px;margin:0 auto;padding:30px 32px 48px}
  .shop-row{grid-template-columns:1fr;padding:14px 16px}
  .shop-change select{max-width:none}
  #mapDialog .region-list{max-height:220px}
- #toast{bottom:84px}
+ #toast{bottom:84px} #catchToast{bottom:140px}
 }
 #mapDialog .map-main>.map-caption{position:static;display:block;max-width:100%;margin:0 0 6px;padding:0;border:0;background:transparent;box-shadow:none;text-align:right;white-space:normal;overflow:visible;font-size:10px;line-height:1.5}
 @media(max-width:1100px){.fishing-grid{grid-template-columns:minmax(0,1fr)}}
@@ -568,3 +568,5 @@ main{max-width:1320px;margin:0 auto;padding:30px 32px 48px}
 
 /* 0.26 revision: starting-water choice for a new game */
 #startDialog{width:min(620px,calc(100vw - 24px));max-height:90dvh;padding:22px;border:1px solid var(--line);border-radius:12px;background:var(--paper);color:var(--ink);overflow:auto}#startDialog::backdrop{background:#1b302b80}#startDialog h2{margin:0 0 6px}#startDialog .muted{margin:0 0 14px;font-size:13px}.start-list{display:grid;gap:10px}.start-list button{display:grid;gap:3px;text-align:left;padding:12px 14px;white-space:normal}.start-list strong{font-size:17px;color:var(--green)}.start-list small{color:var(--muted);font-size:12px}.start-list span{font-size:13px;line-height:1.6}
+
+#catchToast{position:fixed;left:50%;bottom:80px;z-index:1990;display:flex;flex-wrap:wrap;justify-content:center;gap:6px;max-width:calc(100% - 32px);transform:translate(-50%,12px);opacity:0;pointer-events:none;transition:opacity .25s,transform .25s}#catchToast.show{opacity:1;transform:translate(-50%,0)}.catch-chip{display:flex;align-items:center;gap:8px;padding:5px 14px 5px 6px;border-radius:999px;background:var(--deep);color:var(--card);box-shadow:0 6px 20px #18322a40;font-size:14px;line-height:1.4;white-space:nowrap}.catch-chip .pixel-art{flex:0 0 34px;width:34px;height:34px;border-radius:50%;background-color:#f6f4eb}.catch-chip>span:only-child{padding-left:8px}.catch-more{align-self:center;padding:5px 12px;border-radius:999px;background:var(--deep);color:var(--card);font-size:13px}@media(prefers-reduced-motion:reduce){#catchToast{transition:none}}
