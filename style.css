@@ -319,7 +319,7 @@ footer{font-size:12px}
 /* Map attribution sits above the map, with no badge frame or fill. */
 #mapDialog>.map-caption{position:static;display:block;max-width:100%;margin:-8px 0 7px;padding:0;border:0;background:transparent;box-shadow:none;text-align:right;white-space:normal;overflow:visible;font-size:10px;line-height:1.5}
 /* 0.22 license tiers: colour replaces the tier label; owned waters dim with a check. */
-#licenseCard select,#licenseCard option{font-weight:600}#licenseCard optgroup{color:var(--muted);font-style:normal;font-weight:400}.tier-1{color:#3f7d4f}.tier-2{color:#2f6aa3}.tier-3{color:#7a4aa6}.tier-4{color:#b5671f}#licenseCard option.owned,#licenseCard select.owned{font-weight:400;opacity:.6}
+#licenseCard select,#licenseCard option{font-weight:600}#licenseCard optgroup{color:var(--muted);font-style:normal;font-weight:400}.tier-1{color:#3f7d4f}.tier-2{color:#2f6aa3}.tier-3{color:#7a4aa6}.tier-4{color:#b5671f}.tier-5{color:#a8434f}#licenseCard option.owned,#licenseCard select.owned{font-weight:400;opacity:.6}
 /* 0.22 revision: compact bait shop. */
 .bait-shop{background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);overflow:hidden}
 .bait-row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:8px 18px;padding:11px 18px}
