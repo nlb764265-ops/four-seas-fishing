@@ -1,4 +1,4 @@
-# 四海釣遊記 0.30：資料來源
+# 四海釣遊記 0.31：資料來源
 
 查閱日期：2026-10-21。魚類文字為依資料重寫的簡介，沒有使用來源照片或大段原文。魚類資料不等於遊戲機率、價格與現實賞金政策。
 
@@ -2205,3 +2205,73 @@ T1還有其他已在遊戲中的候選，例如大海鰱、草魚、長棘銀鱸
 
 
 完整核定正文與參數保存於測試定稿檔；原始PDF與擷取頁圖見根目錄 work/taal-zengwen-review/。實裝、圖像與驗證證據見 work/taal-zengwen30/ 及 assets/圖像0.30塔爾曾文補種說明.md。塔爾未定種蝦蟹、兩植物原表及舊名Neocaridina不納入本次實裝。
+
+
+## 0.31 關渡、石狩灣與吐露港物種補足（2026-10-27，本機）
+
+依作者「這兩個一起實裝0.31」核定兩份詳案。由最後0.30含確認提示版本複製為0.31；新增5動物與水筆仔，364魚、46動物、46植物、總收集456，410種魚與動物均有介紹。新增動物順序arcuata、heliceformosensis、giantpacificoctopus、threespotcrab、crucifixcrab，舊物種順序與格式7保留。魚池、basePool、料理、賞金、許可證及伊泰普配置均保留；關渡動物5／4、石狩6／3、吐露新動物4／2／3／4及三種水母各1，關渡植物30／25／20／15／10。基準價不是每公斤單價，原吐露港收益取捨已由作者接受，不另調價。
+
+完整核定欄位見 tests/fixtures/refill31.json，接入前完整資料見 refill31-before.json；圖像提示與驗證見 assets/圖像0.31說明.md。來源的採樣與取證限制依下方原詳案歸檔，未把待證候選實裝。
+
+| ID／物種 | 介紹與形態來源 |
+|---|---|
+| arcuata／弧邊管招潮蟹 | [Tubuca arcuata](https://www.oca.gov.tw/ch/home.jsp?dataserno=202202220026&id=522&mcustomize=ocamaritime_view.jsp&parentpath=0%2C298%2C386)；交叉依下列原始來源。 |
+| heliceformosensis／臺灣厚蟹 | [Helice formosensis](https://taieol.tw/pages/125754)；交叉依下列原始來源。 |
+| giantpacificoctopus／北太平洋巨型章魚 | [Enteroctopus dofleini](https://www.pref.hokkaido.lg.jp/sr/gid/fis072.html)；交叉依下列原始來源。 |
+| threespotcrab／紅星梭子蟹 | [Portunus sanguinolentus](https://www.sealifebase.se/summary/Portunus-sanguinolentus.html)；交叉依下列原始來源。 |
+| crucifixcrab／鏽斑蟳 | [Charybdis feriata](https://www.sealifebase.se/summary/Charybdis-feriata.html)；交叉依下列原始來源。 |
+
+水筆仔 Kandelia obovata 與關渡蘆葦沿下列原植物來源；兩種蟹、巨型章魚與水筆仔均採核定正文。口蝦蛄分布依序追加石狩灣、吐露港，墨吉對蝦追加吐露港。新動物均無賞金、cookable:false，既有口蝦蛄與墨吉對蝦料理資格保留；蟹類粵語名分別三點蟹與紅蟹，兩種既有蝦不套用泛稱。水筆仔台語採教育部種義相符詞目。
+
+### 關渡、石狩灣來源與待查歸檔
+
+### 來源與實際查閱範圍
+
+查閱日期2026-10-27。種級分布與自然史如下，遊戲重量、售價與權重均為本稿建議值。
+
+| 支持內容 | 來源與查閱情形 |
+| --- | --- |
+| 關渡兩種蟹直接紀錄 | [關渡自然公園・親蟹平台](https://gd-park.org.tw/page/50565)，正文與照片標註弧邊招潮蟹、臺灣厚蟹；[臺北市府2003年原始新聞稿](https://english.udd.gov.taipei/News_Content.aspx?n=DD9CEC17A97FBC64&s=5EA8185692C74702&sms=72544237BBE4C5F6)另有施工觀察名單，屬歷史紀錄。公園賣螃蟹圖鑑的商品頁不當作園區分布證據。 |
+| 弧邊管招潮蟹名稱與形態 | [海保署種頁](https://www.oca.gov.tw/ch/home.jsp?dataserno=202202220026&id=522&mcustomize=ocamaritime_view.jsp&parentpath=0%2C298%2C386)、[國立臺灣博物館](https://collections.culture.tw/ntm_collectionsweb/EN/Collection?GID=MLMDMFM7MA)、[TBN名稱頁](https://www.tbn.org.tw/taxa/1abee003-468b-478a-9635-014f3099c28d)。舊Uca arcuata與現Tubuca arcuata同種。不同頁命名年有誤差，遊戲只列二名法。 |
+| 招潮蟹攝食 | [香港土木工程拓展署](https://sslo.cedd.gov.hk/tc/exploring-more/nature-conservation/eco-logs/exploring-the-intertidal-zones/intertidal-crabs/index.html)含本種及小螯篩取有機物的說明，只用作習性，未拿香港紀錄推定關渡分布。 |
+| 臺灣厚蟹形態、食性與活動 | [國家公園署](https://www.taiwan.nps.gov.tw/home/zh-tw/eco-gallery/21610)、[臺灣生命大百科種頁](https://taieol.tw/pages/125754)，後者為陳育賢撰寫的種級資料，含寄生蟲紀錄。[WoRMS異名頁](https://www.marinespecies.org/aphia.php?id=1390794&p=taxdetails)核對Helice formosensis。背甲側齒數的不同表述不寫入正文。 |
+| 臺灣厚蟹別名、食性與歷史食用 | [台江國家公園陸蟹生態調查(2/2)，2021年12月原報告](https://ws.moi.gov.tw/001/Upload/415/relfile/9410/257347/32b772fc-287c-46d1-aafb-a6ceee526a1a.pdf)，PDF第182頁／印刷172頁已下載並檢視，列青蚶、瘋馬仔，西南沿海與四草鹽漬利用。未把該地繁殖月份套成關渡限制，也未把鹽漬法當作可生食的保證。 |
+| 口蝦蛄石狩灣直接分布與漁業 | [北海道政府・シャコ](https://www.pref.hokkaido.lg.jp/sr/gid/fis074.html)明列石狩灣與灣內刺網漁業；[石狩市特產頁](https://www.city.ishikari.hokkaido.jp/kanko/kau/1002968.html)交叉核對。既有學名與形態沿用遊戲已核定資料。 |
+| 巨型章魚石狩灣原表 | [佐野2010原始研究](https://www.hro.or.jp/upload/36392/77-sano.pdf)PDF第4頁／印刷76頁表1，列Hamasu、Atsuta、Ishikari（Ishikariwan）與Otarushi；已下載及檢視。[中央水試平成22年度事業報告](https://www.hro.or.jp/upload/30790/H22jigyouhoukoku.pdf)PDF第49–50頁／印刷45–46頁，2010年地區漁獲表及圖3，已下載及檢視。表列實際地區漁獲，不把「全北海道」或觀光販售單獨當作灣內證據。 |
+| 巨型章魚中文名、學名 | [國立海生館標本頁](https://helloocean.nmmba.gov.tw/nmmba_front/SpecimenDetail.aspx?id=60911)支持中文名「北太平洋巨型章魚」，該頁dofeleini有拼寫差異且備註原標籤Octopus dofleini；[WoRMS](https://www.marinespecies.org/aphia.php?id=341966&p=taxdetails)核對接受名Enteroctopus dofleini，不照抄拼寫。海生館臺灣標本不作石狩灣分布來源。 |
+| 巨型章魚形態、幼生與食用 | [北海道政府・ミズダコ](https://www.pref.hokkaido.lg.jp/sr/gid/fis072.html)、[蒙特雷灣水族館種頁](https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/giant-pacific-octopus)，支持變色、棲所、蟹貝食性與浮游幼生。日語採ミズダコ，避免將俗稱マダコ與普通章魚混淆。 |
+| 關渡水筆仔與蘆葦 | [關渡公園植物名錄](https://gd-park.org.tw/biolist)與[林業保育署關渡介紹](https://www.forest.gov.tw/0007954)，後者原保留區已廢止的現況須保留認知，不把舊保留區名稱寫成現行制度；[林試所2002年關渡植群研究](https://www.tfri.gov.tw/News_Content2.aspx?_CSN=1333%2C1334%2C1335%2C1336&n=7498&s=10333)支持草澤與紅樹林變遷。[國家公園署水筆仔](https://www.taiwan.nps.gov.tw/home/zh-tw/eco-gallery/21654.html)明列Kandelia obovata與關渡分布、對生葉及胎生苗。沒有把園區所有栽培植物一律當成野生候選。 |
+| 台語與客語 | [教育部台語「水筆仔」](https://sutian.moe.edu.tw/zh-hant/su/1086/)釋義與拼音相符；[客語「水筆」](https://hakkadict.moe.edu.tw/search_result/?accent=3&id=15084)指毛筆，排除。蟹類查「臺灣厚蟹、青蚶、大栱仙、招潮」等，未取得可核對的種級詞目與拼音，留待查；不據搜尋無結果宣稱辭典完全無收錄。 |
+
+原件、文字與擷取頁圖存於根目錄 work/guandu-ishikari-review/：sano2010.pdf、central2010.pdf、tjnp-landcrabs.pdf，以及對應txt和頁圖。台江報告來源原代管網站403，改從內政部同路徑取得，封面確認為2021年計畫，不採搜尋結果的爬取年份作報告年代。
+
+### 暫不納入的候選
+
+關渡日本沼蝦只找到2006年媒體轉述公園發現，尚缺本次可直接核對的原始種級調查；紅螯螳臂蟹、無齒螳臂蟹與雙齒近相手蟹在2003年市府觀察稿有名單，留待後批核對現行學名、種級生態與水域範圍，本批先處理公園現行頁面直接介紹的兩蟹。
+
+石狩灣太平洋魷、ヤリイカ、北國赤蝦、ヤナギダコ及貝類保留後續線索。太平洋魷已找到北海道政府種頁與[2010年標識研究](https://www.hro.or.jp/upload/36387/77-sakaguchi1.pdf)，但本輪未逐一核定附圖放流／再捕點與石狩灣邊界；北國赤蝦有《石狩灣沖のエビ漁場と生態》舊研究線索，需再讀原文並確認深度。H22報告另提ヤナギダコ多為較深沖合漁獲，不因同為章魚便套進沿岸。貝類涉及是否另設取得方式，後續另提。石狩灣未取得足夠新植物種級證據，維持原池。
+
+
+### 吐露港、伊泰普來源與待查歸檔
+
+### 來源與實際查閱範圍
+
+查閱日期2026-10-27。種級分布與自然史如下，遊戲重量、售價與權重均為本稿建議值。
+
+| 支持內容 | 來源與查閱情形 |
+| --- | --- |
+| 吐露港四種的直接紀錄 | [Tao 等（2021）Ecosystems 24:1157–1170](https://doi.org/10.1007/s10021-020-00574-9)，CC BY，全文經[城大典藏](https://scholars.cityu.edu.hk/en/publications/does-a-trawl-ban-benefit-commercially-important-decapoda-and-stom/)下載。2003年12月至2016年5月共49個月拖網，東部站為Inner Tolo Channel（EI）與Outer Tolo（EO）。正文結果段寫EI的Charybdis feriatus、P. sanguinolentus增加；[補充資料](https://media.springernature.com/original/springer-static/esm/art%3A10.1007%2Fs10021-020-00574-9/MediaObjects/10021_2020_574_MOESM1_ESM.docx)Fig. S8圖說與圖列EI的Chafer、Porsan、Oraora、Fenmer（Penaeus merguiensis）等，已核對圖說縮寫。EI屬吐露海峽內段，不等於大埔海最內側。 |
+| 吐露港港內交叉紀錄 | [港大生物科學系《Porcupine!》27期拖網記事](https://www.biosch.hku.hk/ecology/porcupine/por27/27-misc-trawling.htm)，2002年6月與8月以蝦拖網在烏溪沙外吐露港作業，列P. pelagicus、P. sanguinolentus、Charybdis feriatus。屬通訊短文，只作交叉核對，不作數量依據。 |
+| 中文名 | [Zoological Studies 臺灣梭子蟹科89種中文名附表](https://zoolstud.sinica.edu.tw/upload/supplementary/20250405143524_4eaf20d83e.pdf)列紅星梭子蟹Portunus sanguinolentus、鏽斑蟳Charybdis feriatus。學名採WoRMS接受的Charybdis (Charybdis) feriata；feriatus為舊拼法，cruciata為同物異名。 |
+| 形態、棲地、食性與食用 | [SeaLifeBase紅星梭子蟹](https://www.sealifebase.se/summary/Portunus-sanguinolentus.html)、[SeaLifeBase鏽斑蟳](https://www.sealifebase.se/summary/Charybdis-feriata.html)，主要引Ng（1998）FAO西中太平洋蟹類鑑定指南：三紅斑、九側齒末齒長、槳狀足、幼蟹潮間帶；鏽斑蟳五側齒、縱紋與白十字、幼蟹在水母傘下、成蟹較深泥底與東亞高價。肉食分類另見Tao補充表S2引Wu與Shin（1998）香港研究。 |
+| 粵語名 | [魚類統營處批發價頁](https://fmo.org.hk/price?fid=11&id=8&path=12_43_56)列三點蟹Portunus sanguinolentus、紅蟹Charybdis cruciata（鏽斑蟳異名）；[城大海產名錄](http://personal.cityu.edu.hk/apdoray/Marine%20seafood/seafood/pages/checklindex.htm)以Big5解碼核對同樣對應，且列花蟹為P. pelagicus，所以不用「花蟹」。瀨尿蝦在名錄同時對應口蝦蛄與黑斑口蝦蛄，屬同字異物，排除。 |
+| 伊泰普淡水蝦 | [Souza 等（2009）Semina: Ciências Agrárias 30(1):225–232](https://ojs.uel.br/revistas/uel/index.php/semagrarias/article/download/2664/2316/8819)材料與方法段，已下載全文。分類爭議見[2025年SNP研究](https://www.nature.com/articles/s41598-025-17666-y)（M. pantanalense為獨立種，取樣Bela Vista de Goiás屬巴拉那水系）與[Calixto-Cunha 等（2021）摘要](https://www.sciencedirect.com/science/article/abs/pii/S0044523121000486)（Araguari河為M. pantanalense、Grande河近M. amazonicum）。 |
+
+原件與擷取文字存於根目錄 work/tolo-itaipu-review/sources/：tao2020.pdf、tao2020-esm.docx及esm/image8.png（Fig. S8）、por27.html、zs-portunidae.pdf、cityu-seafood.htm、uel-policultivo.pdf、mamaz2025.html與對應txt。Tao 2018年蝦蛄研究只取西部水域，未作吐露港依據。
+
+### 暫不納入的候選
+
+吐露港：遠海梭子蟹在Tao研究與三疣梭子蟹合併計數，只有2002年通訊短文單獨列名，本批不加；猛蝦蛄Harpiosquilla harpax、窩紋網蝦蛄、宮崎蝦蛄（Miyakella nepa）、近緣新對蝦與鬚赤蝦屬在EI有紀錄，可留待後批，避免一次稀釋小魚與蝦肉池。日本蟳等其他小型蟹只有通訊短文列名或未找到吐露港紀錄。鞭腕水母等既有水母配置不變。
+
+伊泰普：Dilocarcinus pagei被推論因伊泰普淹沒瓜伊拉瀑布後擴散至上巴拉那，但未找到庫區直接紀錄；Trichodactylus borellianus、Sylviocarcinus australis、Valdivia camerani只見米納斯吉拉斯州水庫紀錄。金貝等貝類涉及不同取得方式，不在本批。
+
