@@ -2249,6 +2249,10 @@ T1還有其他已在遊戲中的候選，例如大海鰱、草魚、長棘銀鱸
 
 關渡日本沼蝦只找到2006年媒體轉述公園發現，尚缺本次可直接核對的原始種級調查；紅螯螳臂蟹、無齒螳臂蟹與雙齒近相手蟹在2003年市府觀察稿有名單，留待後批核對現行學名、種級生態與水域範圍，本批先處理公園現行頁面直接介紹的兩蟹。
 
+**2026-10-27後續查證更新（僅詳案，尚未接入遊戲）：**已找到公園直接種頁[日本沼蝦5709](https://gd-park.org.tw/biolist/5709)、[紅螯螳臂蟹5717](https://gd-park.org.tw/biolist/5717)、[漢氏無齒螳臂蟹5716](https://gd-park.org.tw/biolist/5716)及[無齒相手蟹5721](https://gd-park.org.tw/biolist/5721)，補上初批留下的園區種級證據。後兩頁分別使用Chiromantes dehaani及Sesarma dehaani，依[TBN](https://www.tbn.org.tw/taxa/e0000c1c-ea98-4397-a44d-e6e74c3607b6)與[WoRMS](https://www.marinespecies.org/aphia.php?id=444495&p=taxdetails)歸同一現行物種漢氏東方蟹Orisarma dehaani，不重複計數。紅螯螳臂蟹Chiromantes haematocheir依[2020年原始種級處理](https://zenodo.org/records/6525251)核對臺灣標本；生態另核[TaiEOL](https://taieol.tw/pages/234190)、[臺中市政府](https://www.links.taichung.gov.tw/2758664/post)。漢氏東方蟹的方甲、顆粒螯掌、步足硬毛、雨後活動與寄生蟲宿主紀錄依[臺博館標本解說](https://collections.culture.tw/ntm_collectionsweb/EN/Collection?GID=MCMAMBMCMA)，[臺北市種頁](https://biodiv.gov.taipei/page/additional/show.aspx?num=3429&page=430)交叉核形態；雜食與落葉等食物依[台中海洋館](https://tcaqua.com.tw/bio/biological-data/taichung-water-journey/hanshidongfangxie/)。臺博館直開曾Cache miss，解說由本輪可讀搜尋擷取核對；TaiEOL紅螯種頁的綜合描述亦由搜尋擷取讀得。台語與客語未取得種級詞目與拼音，繼續待查。完整待審文字、數值、查閱限制與288組收益結果見根目錄《關渡第二批物種補足審閱稿.md》及work/guandu-second-review/，不代表已新增至0.31。
+
+關渡[雙齒近相手蟹舊種頁5726](https://gd-park.org.tw/biolist/5726)仍用Perisesarma bidens；[Shih等2023年原始分類研究](https://zoolstud.sinica.edu.tw/issue2.php?Vol=62&no=34)及[全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC10475517/)將舊廣義bidens群分為多種，狹義bidens的分布不延伸至臺灣。本輪不以本島分布概括替換成P. insulare，也不採目前互相矛盾的舊TBN及TaiEOL頁面直接決定關渡種級；待取得關渡標本、重鑑或可追溯新調查後再提。
+
 石狩灣太平洋魷、ヤリイカ、北國赤蝦、ヤナギダコ及貝類保留後續線索。太平洋魷已找到北海道政府種頁與[2010年標識研究](https://www.hro.or.jp/upload/36387/77-sakaguchi1.pdf)，但本輪未逐一核定附圖放流／再捕點與石狩灣邊界；北國赤蝦有《石狩灣沖のエビ漁場と生態》舊研究線索，需再讀原文並確認深度。H22報告另提ヤナギダコ多為較深沖合漁獲，不因同為章魚便套進沿岸。貝類涉及是否另設取得方式，後續另提。石狩灣未取得足夠新植物種級證據，維持原池。
 
 
@@ -2275,3 +2279,45 @@ T1還有其他已在遊戲中的候選，例如大海鰱、草魚、長棘銀鱸
 
 伊泰普：Dilocarcinus pagei被推論因伊泰普淹沒瓜伊拉瀑布後擴散至上巴拉那，但未找到庫區直接紀錄；Trichodactylus borellianus、Sylviocarcinus australis、Valdivia camerani只見米納斯吉拉斯州水庫紀錄。金貝等貝類涉及不同取得方式，不在本批。
 
+
+
+## 2026-10-27 現有釣點後續查缺整併（待審，未實裝）
+
+本輪詳案統一保存根目錄《關渡第二批物種補足審閱稿.md》，內文題名《現有釣點後續物種補足審閱稿》。依0.31現有資料提出七處水域4魚、10動物及5筆既有分布，尚未修改遊戲內容。完整欄位、1,728組收益與琵琶湖200組新手流程見work/guandu-second-review/combined-proposal.json、combined-estimate.json及combined-review-check.json。下列補證更新先前「留待後批」狀態：島嶼擬相手蟹已取得關渡直接採樣；日本鎖管、吐露六種、琵琶湖及霞浦湖既有種分布、龍洞三魚與黑鰕虎列入待審。其餘候選以詳案第六節為準。吐露窩紋網蝦蛄只在總名單、Meta.sp僅到屬級，不能沿先前文字概括認定EI種級紀錄；Miyakella nepa中文更正為長叉三宅蝦蛄。
+
+### 關渡島嶼擬相手蟹的補證
+
+
+已下載[臺北市2023年調查原件](https://data.taipei/api/frontstage/tpeod/dataset/resource.download?rid=03b033d0-7499-46f4-aab2-aa2ef44bee60)，PDF152／印刷148「附錄十、2023蝦蟹螺貝調查名錄」已轉圖逐欄核對：Parasesarma insulare在基隆河「關渡」春夏4、秋冬35，並非只在其他河段或臺灣廣泛分布。採此直接證據建立新種島嶼擬相手蟹，不把舊廣義bidens全數改名。形態與現行身分依[Shih等2023原始拆分研究](https://zoolstud.sinica.edu.tw/issue2.php?Vol=62&no=34)，河口草澤、穴居與腐葉／腐肉食性另核[臺中市政府更新後種頁](https://www.links.taichung.gov.tw/837108/2758517/2758582/2758583/2758644)。原件與頁圖為本次sources/taipei2023.pdf與taipei2023-p152.png；同表亦直接記錄關渡日本沼蝦及漢氏東方蟹。原稿「仍須關渡直接補證」的狀態在此結案。
+
+### 石狩灣、吐露港、琵琶湖、霞浦湖與龍洞的來源
+
+| 支持內容 | 原始來源、頁面及實際查閱範圍 |
+| --- | --- |
+| 石狩灣日本鎖管 | [北海道立綜合研究機構・ジンドウイカ漁業](https://www.hro.or.jp/fisheries/h3mfcd0000000gsj/o7u1kr000000019q/o7u1kr000000d4fu/o7u1kr000000bx3x.html)直接列石狩灣各地、厚田、距岸1000公尺內、水深約15公尺、砂底，學名Loliolus japonica；只把當地漁期當漁業資訊，不作遊戲月份限制。中文名依[中研院貝類資料庫](https://shell.sinica.edu.tw/chinese/shellfamily2.php?Family=Loliginidae)，形態依[FAO頭足類第2卷物種頁77](https://www.fao.org/4/i1920e/i1920e02.pdf)；[WoRMS屬表](https://www.marinespecies.org/aphia.php?p=taxlist&tName=Loliolus)核japonica及亞屬名。不把其他魷魚的食性套入，細目待查；蝦肉為建議遊戲魚餌。 |
+| 吐露港六種直接紀錄 | [Tao等2021原研究](https://doi.org/10.1007/s10021-020-00574-9)補充Fig.S8已實際看圖及核圖說：EI為Inner Tolo Channel，Harhar、Miynep、Metaff、Mellat、Parten、Penpen均有柱列，分別對應Harpiosquilla harpax、Miyakea nepa、Metapenaeus affinis、Penaeus latisulcatus、Parapenaeopsis tenella、Penaeus penicillatus。原件為work/tolo-itaipu-review/sources/tao2020-esm.docx、tao2020-esm.txt及esm/image8.png。EI僅支持吐露海峽內段，不能說成大埔海最內側。補表S2供肉食／雜食分類；只到屬的Meta.sp不拆成鬚赤蝦等種。 |
+| 蝦蛄中文名與形態 | 豎琴猛蝦蛄依[海生館標本](https://helloocean.nmmba.gov.tw/nmmba_front/SpecimenDetail.aspx?id=21988)、[海大實驗室TaiEOL種頁](https://taieol.tw/pages/127796)的八齒、額板及尾柄黑斑；[Yan等2015原研究摘要](https://academic.oup.com/jcb/article-abstract/35/6/776/2547871)支持甲殼、魚、頭足類食物，不套北部灣月份為香港限制。長叉三宅蝦蛄依[TaiEOL蝦蛄科媒體標註](https://taieol.tw/pages/6073)及臺博館標本表；[Ahyong與Low 2013替換屬名原文](https://decapoda.nhm.org/pdfs/38754/38754.pdf)與[WoRMS異名頁](https://www.marinespecies.org/aphia.php?id=409287&p=taxdetails)支持Miyakella取代Miyakea，舊候選名「宮崎蝦蛄」不採。 |
+| FAO蝦類形態原頁 | 已下載2019《Field identification guide to the living marine resources of Myanmar》全文，查封面、版權與原頁；[官方PDF](https://openknowledge.fao.org/server/api/core/bitstreams/f32d004b-6358-44f3-8242-b9d23e5346d0/content)，PDF39／印刷20（nepa）、52／33（affinis）、56／37（tenella）、61／42（penicillatus）、63／44（latisulcatus）均已轉圖檢視，原件及頁圖在本次sources/。只取種級鑑別與棲地，不拿緬甸紀錄推香港分布。tenella常見深度資料有地區差異，正文不限定水深。 |
+| 近緣新對蝦 | 中文名依[TBN](https://www.tbn.org.tw/taxa/c9c4effa-9c25-4672-9a16-0ccd56558522)，形態另依[FAO 1983獨立物種鑑別頁](https://www.fao.org/4/ad468e/AD468eQB.pdf)，雜食及養殖依[FAO養殖生物目錄](https://www.fao.org/4/e7995e/E7995E06.htm)，食用依[SEAFDEC種頁](https://repository.seafdec.org/bitstream/handle/20.500.12066/6723/9810083246.pdf?isAllowed=y&sequence=1)。不取網路百科把刀額與近緣兩種混寫的腹脊或俗名。 |
+| 寬溝對蝦、長毛對蝦 | 中文名分別核[農業部寬溝對蝦](https://kmweb.moa.gov.tw/theme_data.php?id=123&theme=fisheasy)、[農業部雙語種名對照](https://www.moa.gov.tw/theme_list.php?keyword=shrimp&sub_theme=common_agri&theme=dictionary&type=fish)；寬溝食性依[澳洲政府海域研究報告](https://www.agriculture.gov.au/sites/default/files/documents/sw-ecosystems-part2.pdf)229頁。長毛棲地與利用另見[海大典藏解說](https://catalog.digitalarchives.tw/item/00/04/7e/39.html)及[FAO獨立種頁](https://www.fao.org/4/r7066e/r7066e28.pdf)。[香港海洋物種名錄](https://marinespecies.org/hkrms/aphia.php?p=taxlist&pid=106669&rComp=%3E%3D&tRank=220)核兩種亞屬，遊戲採省略亞屬的二名法。 |
+| 細巧仿對蝦 | 中文名依[TBN](https://www.tbn.org.tw/taxa/ca686434-b3e0-46f3-a473-772254a2dedc)，學名依[WoRMS](https://www.marinespecies.org/aphia.php?id=584938&p=taxdetails)與[ITIS](https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1195423)採Batepenaeopsis tenella，舊Parapenaeopsis tenella是同種。形態另核[Mangrove Estuary Shrimps物種頁41](https://ptfi.co.id/site/uploads/images/6327d8cbdcfe4-mangrove-estuary-shrimps.pdf)；食用資料與具體食物不足，保持待查。 |
+| 琵琶湖日本沼蝦 | 已從[水試場官方第8號目錄](https://www.pref.shiga.lg.jp/suisan-s/14144.html)追到[1957年原件](https://www.pref.shiga.lg.jp/documents/14144/2010251.pdf)，PDF1／印刷13已看圖，採舊名Palaemon nipponensis；[2017種群遺傳原研究](https://pmc.ncbi.nlm.nih.gov/articles/PMC5340376/)的採樣方法與表1明列琵琶湖BLJ之Macrobrachium nipponense，核現行種級。1957文獻記引入，不據此排除更早原生群可能；本稿只增加分布。 |
+| 琵琶湖克氏原螯蝦 | [琵琶湖博物館](https://www.biwahaku.jp/english/facts/index.html)明列湖內已建立族群的Procambarus clarkii；[2012水試場監測](https://www.pref.shiga.lg.jp/file/attachment/2022723.pdf)搜尋可讀原文及圖表，試驗場船溜約4公尺泥底直接採得アメリカザリガニ；原PDF目前下載404且網頁截圖失敗，因此不冒稱已下載或看過該頁圖，分布另有博物館種級證據交叉支持。 |
+| 霞浦湖克氏原螯蝦及日語 | [國土交通省霞浦河川事務所原種頁](https://www.ktr.mlit.go.jp/kasumi/kasumi00072.html)明列アメリカザリガニ、舊Cambarus clarkii，並交代湖中灣奧滯水與湖岸水草區的棲地，不只附近稻田。[日本國立環境研究所種頁](https://www.nies.go.jp/biodiversity/invasive/DB/detail/70320e.html)核Procambarus clarkii，日語名追加同一語言欄。 |
+| 龍洞三魚採樣原表 | 已下載核能研究所2021–2022整備計畫成果[原報告](https://tworis.nusc.gov.tw/uploadfile/4402024717020721759.pdf)，PDF190／印刷185直接列龍洞暗紋蛙鳚與橫帶間頸鬚鳚；方法章說明潮池、潛水與直接採樣，與漁港採樣分列。核安會112年計畫[原報告](https://tworis.nusc.gov.tw/uploadfile/54820251117051143800.pdf)PDF328／印刷320直接列龍洞Echidna nebulosa及照片；該列中文誤字不照抄。原件、文字及頁圖存本次sources/。只支持出現紀錄，不用混合樣本重量當單尾重量。 |
+| 龍洞三魚名稱與自然史 | 暗紋蛙䲁核[中研院種頁](https://fishdb.sinica.edu.tw/chi/species.php?science=Istiblennius+edentulus)及[新版有效名錄](https://fishdb.sinica.edu.tw/taxalist?_text_=Istiblennius+edentulus)；橫帶間頸鬚䲁核[新版種頁](https://fishdb.sinica.edu.tw/taxon/381424-fishdb)；星帶蝮鯙核[種頁](https://fishdb.sinica.edu.tw/eng/species.php?id=380740)、[中研院自然史典藏](https://digiarch.sinica.edu.tw/content/repository/resource_content.jsp?oid=14232)及[陳等1994原研究](https://zoolstud.sinica.edu.tw/Journals/33.1/44.pdf)。兩種䲁魚不因別名均叫狗鰷而合併，也不將橫帶種誤配為Istiblennius lineatus。 |
+
+
+### 格賴夫斯瓦爾德黑鰕虎的直接補證
+
+已下載羅斯托克大學1997年GOAP結案報告[《Struktur und Funktion von Boddenlebensgemeinschaften》原件](https://eucc-d-inline.databases.eucc-d.de/files/documents/00000160_12_Struktur_und_Funktion_von_Boddenlebensgemeinschafen_mitabb.pdf)，PDF38至39／印刷38至39表12直接列格賴夫斯瓦爾德潟湖1994至1996年採樣種，Gobius niger、Schwarzgrundel、頻度2.6%；第39頁已轉圖檢視，原件與頁圖存本次sources/greifswald.pdf及greifswald-p39.png。不把研究頻度直接換成遊戲權重。中文名依[中研院拉漢魚典名錄](https://fishdb.sinica.edu.tw/chi/chinesequer2.php?R1=&T1=&cn=&dere=&fm=&gc=&me=&orderby=family_name&page=331&pz=50&vn=)，形態與棲地依[英國海洋生物學協會MarLIN種頁](https://www.marlin.ac.uk/species/detail/1867)，食性另核[FishBase種頁](https://www.fishbase.se/summary/gobius-niger)。未取得可靠種級食用資料，edible保持待查、cookable:false；德語名直接採原研究表。不沿用先前對歷史鑑別疑點的概括推論，本次直接種級採樣為採用依據。
+
+### 未採用候選的新增來源
+
+[1988歷史回顧](https://oceanrep.geomar.de/id/eprint/56209/1/Oertzen_JA_1988_1.pdf)只列中華絨螯蟹在集水區。伊泰普蟹續核[2021活餌傳播原研究](https://revistas.ufrj.br/index.php/oa/article/download/35883/24988)與[2025鄰近水系新紀錄](https://www.scielo.br/j/nau/a/XSDTpqsKTfFhfyQspRXbb4g/?lang=en)，不把距庫區近當庫區實採。吐露金錢魚另查[圍下河基線監測原表3.8](https://www.epd.gov.hk/eia/files/applications/en/pp_77/aep_2646/progress/action_12470/blmr.pdf)，與灣區有廊道但不擴大本作水域；銀紋笛鯛只見[香港環保署養殖說明](https://www.epd.gov.hk/eia/files/applications/en/pp_87/eia_1566/progress/action_3272/Report_Section7.htm)。琵琶湖蜆核[滋賀縣種頁](https://www.pref.shiga.lg.jp/gf00/7253.html)與[博物館考古展示](https://jmapps.ne.jp/biwahaku_h2/det.html?data_id=161803)，資料足以證明分布，不代表取得玩法已核定。
+
+## 0.31 圖鑑分布欄精簡（查閱日期 2026-10-27）
+
+2026-10-27使用者核定兩批分布欄精簡：分布欄只寫自然分布或引入狀況，再加一兩句有內容的當地事實；只說明「某水域或某調查有紀錄」的句子從玩家文字刪除，圖鑑「水域」一列已列出所有釣點。刪除的是玩家文字，不是證據：各水域配置的調查、名錄與採樣來源仍以本文件各水域章節為準，不因分布句刪除而失效。最終文字集中在data.js的distributionFinal與plantDistributionFinal覆寫表，共304種魚與水生動物、14種植物。
+
+原文只有水域紀錄、刪除後需補自然分布範圍的27種，依下列資料庫的分布欄轉述，不加細節：霓虹雀鯛（FishBase，Pomacentrus coelestis）、大眼梭鱸（FishBase，Sander vitreus）、河黃鱸（FishBase，Perca flavescens）、小口黑鱸（FishBase，Micropterus dolomieu）、白鱸（FishBase，Morone chrysops）、淡水石首魚（FishBase，Aplodinotus grunniens）、翡翠美洲鱥（FishBase，Notropis atherinoides）、美洲真鰶（FishBase，Dorosoma cepedianum）、駝背太陽魚（FishBase，Lepomis gibbosus）、雲斑鮰（FishBase，Ameiurus nebulosus）、白刺蓋太陽魚（FishBase，Pomoxis annularis）、康氏亞口魚（FishBase，Catostomus commersonii）、斑尾美洲鱥（FishBase，Notropis hudsonius）、鈍吻胖頭鱥（FishBase，Pimephales notatus）、骨雀鱔（FishBase，Lepisosteus osseus）、黑斑刺蓋太陽魚（FishBase，Pomoxis nigromaculatus）、眼斑雀鱔（FishBase，Lepisosteus oculatus）、羅洛斯鏽斑螯蝦（USGS NAS，Faxonius rusticus）、格氏新海鯰（FishBase，Neoarius graeffei）、斑沙鮻（FishBase，Sillago maculata）、卡氏似青鱗魚（FishBase，Herklotsichthys castelnaui）、澳洲美銀漢魚（FishBase，Atherinomorus vaigiensis）、瑪麗雙邊魚（FishBase，Ambassis marianus）、虎紋對蝦（SeaLifeBase，Penaeus esculentus）、澳洲對蝦（SeaLifeBase，Melicertus plebejus）、山斑低眼鯰（FishBase，Hypophthalmus oremaculatus）、日本銀帶鯡（FishBase，Spratelloides gracilis）。FishBase摘要頁為https://www.fishbase.se/summary/屬名-種小名.html，SeaLifeBase為https://www.sealifebase.se/summary/屬名-種小名.html；虎紋對蝦、澳洲對蝦在SeaLifeBase以Penaeus esculentus、Melicertus plebejus收錄。羅洛斯鏽斑螯蝦依[USGS Nonindigenous Aquatic Species事實頁](https://nas.er.usgs.gov/queries/FactSheet.aspx?speciesID=214)，原生範圍為俄亥俄河流域，伊利湖族群列為來源未定。格氏新海鯰FishBase只寫澳洲北部與新幾內亞南部，未涵蓋莫頓灣所在的東南昆士蘭，故寫成「澳洲與新幾內亞南部」；莫頓灣配置仍依0.28伊利湖、莫頓灣章節的來源。
