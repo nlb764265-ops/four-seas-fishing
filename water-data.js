@@ -21,3 +21,6 @@ window.WORLD_WATER.local.push({k:"lake",z:3,n:"伊利湖",src:"遊戲釣點概�
 window.WORLD_WATER.local.push({k:"lake",z:5,n:"維多利亞湖",src:"遊戲釣點概略位置",g:[],l:[34.74,-0.14]});
 
 window.WORLD_WATER.local.push({k:"lake",z:5,n:"伊泰普水庫",src:"遊戲釣點概略位置",g:[],l:[-54.40,-24.85]});
+
+// 0.32 water labels; lake geometry uses the existing Natural Earth lake layer.
+window.WORLD_WATER.local.push({k:"lake",z:5,n:"陶波湖",src:"遊戲釣點概略位置",g:[],l:[175.9,-38.8]},{k:"sea",z:6,n:"坦帕灣",src:"遊戲釣點概略位置",g:[],l:[-82.6,27.75]});

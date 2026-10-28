@@ -598,3 +598,5 @@ button:not(:disabled):active,summary:active,[role="button"]:active{background-co
  #mapDialog .location-action{margin-top:8px}
 }
 @media(max-width:699px) and (max-height:720px){#mapDialog .map-wrap{height:clamp(130px,24dvh,200px)}#mapDialog .location{max-height:40dvh}}
+
+@font-face{font-family:"Fishing Rare Glyphs";src:url(assets/rare-glyphs-c.woff) format("woff");font-display:swap;unicode-range:U+4C81}
