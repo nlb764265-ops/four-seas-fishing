@@ -309,13 +309,14 @@ footer{font-size:12px}
 /* Water collection: an uneven vermilion ink impression, not a button. */
 .water-actions{display:flex;flex-direction:column;align-items:center;gap:18px;min-width:112px;flex-shrink:0}
 .current-water .water-actions>button{font-size:15px;white-space:nowrap}
-.water-completion{display:block;width:90px;height:90px;flex:none;pointer-events:none;opacity:.84;transform:rotate(-12deg);transform-origin:50% 55%;user-select:none}
+.water-completion{display:block;width:76px;height:76px;flex:none;pointer-events:none;opacity:.34;transform:rotate(-12deg);transform-origin:50% 55%;user-select:none}
 .water-completion[hidden]{display:none}
 .water-completion img{display:block;width:100%;height:100%}
-.location-action>.water-completion{align-self:center;margin:5px 0}
+.current-water,#location{position:relative}
+.current-water>.water-completion,#location>.water-completion{position:absolute;top:8px;right:10px;margin:0;z-index:1}
 .water-completion.stamp-impact{animation:water-stamp-impact 720ms cubic-bezier(.2,.7,.3,1) both}
-@keyframes water-stamp-impact{0%{opacity:0;transform:translateY(-26px) scale(1.85) rotate(-23deg)}40%{opacity:.96;transform:translateY(2px) scale(.92) rotate(-9deg)}58%{opacity:.86;transform:translateY(-1px) scale(1.04) rotate(-14deg)}78%{opacity:.84;transform:scale(.99) rotate(-11deg)}100%{opacity:.84;transform:scale(1) rotate(-12deg)}}
-@media(max-width:650px){.water-completion{width:76px;height:76px}.current-water .water-actions>button{padding:7px 10px}.current-water>div:first-child{min-width:0}}
+@keyframes water-stamp-impact{0%{opacity:0;transform:translateY(-26px) scale(1.85) rotate(-23deg)}40%{opacity:.44;transform:translateY(2px) scale(.92) rotate(-9deg)}58%{opacity:.36;transform:translateY(-1px) scale(1.04) rotate(-14deg)}78%{opacity:.34;transform:scale(.99) rotate(-11deg)}100%{opacity:.34;transform:scale(1) rotate(-12deg)}}
+@media(max-width:650px){.water-completion{width:64px;height:64px}.current-water .water-actions>button{padding:7px 10px}.current-water>div:first-child{min-width:0}}
 @media(prefers-reduced-motion:reduce){.water-completion.stamp-impact{animation:none}}
 
 /* Map attribution sits above the map, with no badge frame or fill. */

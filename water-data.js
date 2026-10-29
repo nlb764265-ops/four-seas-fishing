@@ -27,3 +27,6 @@ window.WORLD_WATER.local.push({k:"lake",z:5,n:"陶波湖",src:"遊戲釣點概�
 
 // 0.34 source-backed approximate lake-group centre; no invented shoreline.
 window.WORLD_WATER.local.push({k:"lake",z:6,n:"卡塔勞湖群",src:"遊戲釣點概略位置",g:[],l:[-59.908056,-3.163056]});
+
+// 0.35 approximate water label; existing Natural Earth river geometry is retained.
+window.WORLD_WATER.local.push({k:"river",z:6,n:"羅亞爾河",src:"遊戲釣點概略位置",g:[],l:[-0.077,47.263]});
