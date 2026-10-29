@@ -144,7 +144,7 @@ function catalogName(s,id){return known(s,id)?fish(id).name:'未捕獲 '+String(
 // A water name or area lists that pool's fish, caught or not; uncaught ones stay anonymous and already show their waters as clues.
 function regionMatches(query){const q=L.simplify(query).trim().toLowerCase();return q?D.regions.filter(r=>L.simplify(r.name+r.area).toLowerCase().includes(q)):[]}
 function catalogMatches(s,f,query){const q=L.simplify(query).trim().toLowerCase();return !q||known(s,f.id)&&L.simplify(f.name+f.other+f.latin+(f.localNames||[]).map(n=>n[1]).join('')).toLowerCase().includes(q)||regionMatches(query).some(r=>r.pool[f.id]||r.animals[f.id])}
-function regionProgress(s,id){const ids=waterSpecies(id);return{caught:ids.filter(f=>known(s,f)).length,total:ids.length}}
+function regionProgress(s,id){const ids=waterSpecies(id),plants=Object.keys(region(id).weeds);return{caught:ids.filter(f=>known(s,f)).length+plants.filter(p=>plantKnown(s,p)).length,total:ids.length+plants.length}}
 // Water plants follow the fish atlas rules: names show once collected; a water name lists that water's plants.
 function plantKnown(s,id){return !!s.plants?.[id]}
 function plantName(s,id){return plantKnown(s,id)?plant(id).name:'未採集 '+String(D.plants.findIndex(p=>p.id===id)+1).padStart(2,'0')}
