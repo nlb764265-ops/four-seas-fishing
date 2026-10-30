@@ -612,3 +612,7 @@ button:not(:disabled):active,summary:active,[role="button"]:active{background-co
 .atlas-tab::after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px;background:linear-gradient(90deg,var(--green) var(--fill),var(--line) var(--fill));opacity:.55}
 .atlas-tab[aria-pressed=true]{border-color:var(--green);background:var(--soft);color:var(--green)}.atlas-tab[aria-pressed=true] span{font-weight:650}.atlas-tab[aria-pressed=true]::after{opacity:1}
 .atlas-tab.complete small{color:var(--gold);font-weight:600}.atlas-tab.complete::after{background:var(--gold);opacity:.9}
+
+/* Untasted meals in the kitchen lists */
+.kitchen-chip{position:relative}
+.untasted-tag{position:absolute;top:-8px;right:8px;padding:0 6px;border-radius:6px;background:var(--gold);color:#fffef9;font-size:11px;font-style:normal;font-weight:600;line-height:1.6;letter-spacing:.04em;pointer-events:none}
